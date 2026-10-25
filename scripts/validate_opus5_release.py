@@ -8,6 +8,7 @@ import re
 from urllib.parse import urlsplit
 
 import publish_opus5_reference as b
+from archive_opus5_presentation import previous as archived_presentation
 from validate_consolidated_release import privacy
 from validate_direct_release import Page
 
@@ -44,7 +45,7 @@ def validate():
             inspect = privacy(path.read_text())
             if path.suffix == '.json': inspect(json.loads(path.read_text()))
     for path in (b.DEST/'report.html',b.ROOT/'docs/report.html'):
-        page = Page(); page.feed(path.read_text())
+        page = Page(); page.feed(archived_presentation(path).read_text())
         assert page.summary == s['ranked_model_ids']
         assert len(page.cells) == 961 and len(page.ids) == len(set(page.ids))
         assert Counter(c['data-model'] for c in page.cells) == {m:31 for m in s['models']}
@@ -74,7 +75,7 @@ def validate():
         m = s['models'][r['model_id']]
         assert int(r['correct']) == m['correct'] and float(r['median_ms']) == m['median_ms']
     for path in (b.ROOT/'README.md',b.repo_file('FUNCTIONS.md'),b.repo_file('OUTPUT_COMPLIANCE.md')):
-        text = path.read_text();privacy(text)
+        text = archived_presentation(path).read_text();privacy(text)
         for target in re.findall(r'\]\(([^)]+)\)',text):
             if not re.match(r'^(https?:|mailto:|#)',target): assert (path.parent/target.split('#')[0]).exists(),target
     from validate_fastino_2026_10_23 import validate as previous

@@ -1,37 +1,52 @@
 # Delivered decisions and failures
 
-All 31 routes retain the 1342-question first-attempt denominator. Opus returned 1305 valid JSON choices and 37 refusals, no retries. The separate eight-question bare-ID trial is not pooled; missing telemetry is unverified and missing charges unknown.
+46 routes retain the 1,342-question first-attempt denominator. The local batch contains 20,123 usable decisions and seven unsuccessful responses; no scored retries. Partial or blocked routes are documented separately and not ranked.
 
-| Model | Usable first | Wrong valid | Provider failures | Output failures | Recoveries | Eventual correct |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fastino GLiDE | 1342 | 188 | 0 | 0 | 0 | 1154 |
-| GPT-6 Sol — no reasoning | 1342 | 199 | 0 | 0 | 0 | 1143 |
-| Mammoth-1 | 1342 | 203 | 0 | 0 | 0 | 1139 |
-| Drex Max | 1342 | 215 | 0 | 0 | 0 | 1127 |
-| Respan Span-02 | 1342 | 215 | 0 | 0 | 0 | 1127 |
-| Perplexity Decider v1.2 | 1341 | 221 | 1 | 0 | 1 | 1121 |
-| Nimble v4 Max | 1342 | 227 | 0 | 0 | 0 | 1115 |
-| Opus 5 — no thinking, JSON-choice | 1305 | 196 | 0 | 37 | 0 | 1109 |
-| d3-turbo | 1342 | 236 | 0 | 0 | 0 | 1106 |
-| Liquid d1-ultra | 1341 | 257 | 1 | 0 | 1 | 1085 |
-| Amos 1 Large | 1342 | 268 | 0 | 0 | 0 | 1074 |
-| Sonnet 5.5 — no thinking, JSON-choice | 1342 | 272 | 0 | 0 | 0 | 1070 |
-| kettei-fat | 1342 | 276 | 0 | 0 | 0 | 1066 |
-| Jev 1.14 | 1342 | 312 | 0 | 0 | 0 | 1030 |
-| Jev 1.13 | 1342 | 316 | 0 | 0 | 0 | 1026 |
-| Mercury Decide | 1342 | 325 | 0 | 0 | 0 | 1017 |
-| Elephant-1 | 1342 | 338 | 0 | 0 | 0 | 1004 |
-| Qwen3.8-Max — none, Hyper Charm | 1317 | 350 | 25 | 0 | 23 | 971 |
-| Liquid d1 | 1342 | 377 | 0 | 0 | 0 | 965 |
-| Cloudflare Clef | 1342 | 406 | 0 | 0 | 0 | 936 |
-| Perplexity Decider Flash v1.2 | 1286 | 363 | 56 | 0 | 56 | 940 |
-| Microsoft-Decision-1 | 1342 | 421 | 0 | 0 | 0 | 921 |
-| Drex v2.0 | 1302 | 387 | 40 | 0 | 40 | 933 |
-| Cloudflare Clef Flash | 1342 | 482 | 0 | 0 | 0 | 860 |
-| Cloudflare Clef Omni | 1341 | 481 | 1 | 0 | 1 | 861 |
-| Drex v1.5 | 1342 | 489 | 0 | 0 | 0 | 853 |
-| Kev 4B | 1342 | 520 | 0 | 0 | 0 | 822 |
-| Luna 6 Decisions | 1300 | 542 | 42 | 0 | 42 | 761 |
-| Tev1 4B experimental (OpenRouter native adapter) | 1342 | 591 | 0 | 0 | 0 | 751 |
-| ScaleDown Classify-1 | 1342 | 792 | 0 | 0 | 0 | 550 |
-| Solar Decide Flash | 1340 | 802 | 2 | 0 | 2 | 539 |
+| Model | Setting | Usable / 1342 | Unsuccessful | First-attempt statuses |
+| --- | --- | --- | --- | --- |
+| Fastino GLiDE | Hosted | 1342/1342 | 0 | ok: 1342 |
+| GPT-6 Sol — no reasoning | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Mammoth-1 | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Drex Max | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Respan Span-02 | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Perplexity Decider v1.2 | Hosted | 1341/1342 | 1 | ok: 1341; provider_failure: 1 |
+| Nimble v4 Max | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Opus 5 — no thinking, JSON-choice | Hosted | 1305/1342 | 37 | ok: 1305; refusal: 37 |
+| d3-turbo | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Liquid d1-ultra | Hosted | 1341/1342 | 1 | ok: 1341; provider_failure: 1 |
+| Amos 1 Large | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Sonnet 5.5 — no thinking, JSON-choice | Hosted | 1342/1342 | 0 | ok: 1342 |
+| kettei-fat | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Jev 1.14 | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Jev 1.13 | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Mercury Decide | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Elephant-1 | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Qwen3.8-Max — none, Hyper Charm | Hosted | 1317/1342 | 25 | ok: 1317; transport_failure: 1; http_failure: 24 |
+| Liquid d1 | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Cloudflare Clef | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Perplexity Decider Flash v1.2 | Hosted | 1286/1342 | 56 | ok: 1286; provider_failure: 56 |
+| Microsoft-Decision-1 | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Drex v2.0 | Hosted | 1302/1342 | 40 | ok: 1302; provider_failure: 40 |
+| H2O-Lightning 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| Cloudflare Clef Flash | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Cloudflare Clef Omni | Hosted | 1341/1342 | 1 | ok: 1341; provider_failure: 1 |
+| Drex v1.5 | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Fovea 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| Kev 4B | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Jebadiah 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| JevK5 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| Luna 6 Decisions | Hosted | 1300/1342 | 42 | ok: 1300; provider_failure: 42 |
+| Tev1 4B experimental (OpenRouter native adapter) | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Lev 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| Credence E4B | Local RTX 2060 | 1339/1342 | 3 | ok: 1339; truncated_or_unverified: 2; http_failure: 1 |
+| Strands Decider 2B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| Snap 2B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| ScaleDown Classify-1 | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Mapika Decider 2B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| Solar Decide Flash | Hosted | 1340/1342 | 2 | ok: 1340; provider_failure: 2 |
+| Sura 2B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| GLiClass | Local RTX 2060 | 1340/1342 | 2 | ok: 1340; truncated_or_unverified: 2 |
+| Von | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| Laya Typed Decisions | Local RTX 2060 | 1340/1342 | 2 | ok: 1340; truncated_or_unverified: 2 |
+| Decima Agent | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| CLM 8B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |

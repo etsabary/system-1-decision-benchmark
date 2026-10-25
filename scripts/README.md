@@ -30,8 +30,9 @@ Python 3.12. These checks do not make inference calls or need API credentials.
 
 | Task | Main files |
 | --- | --- |
-| Current report and category tables | `publish_opus5_reference.py`, `build_readable_report.py` |
-| Current report checks | `validate_opus5_release.py` |
+| Current report and category tables | `publish_local_2026_10_25.py`, `build_readable_report.py` |
+| Current report checks | `validate_local_2026_10_25.py` |
+| Local GPU evidence and model profiles | `publish_local_2026_10_25.py` (`--capture` is owner-only, offline private-key reconciliation) |
 | Most recent OpenRouter and Baseten runs | `decision_additions_2026_10_21.py`, `baseten_decisions_2026_10_21.py` |
 | Direct-provider runs | `direct_decisions_2026_10_20.py` |
 | No-reasoning LLM references | `frontier_reference.py`, `sonnet55_schema_reference.py`, `hyper_reference.py`, `opus5_schema_reference.py` |
@@ -41,6 +42,14 @@ Python 3.12. These checks do not make inference calls or need API credentials.
 Live runners retain their explicit execution/probe flags and spending controls.
 Moving the source does not authorize another paid run. Existing run-resume
 software checks remain current-source-only by default.
+
+The October 25 release adds 15 local configurations without rerunning or
+changing the earlier 31 model records. Public validation reconstructs coverage,
+mean, median and p95 from answer-free timing/status rows. Accuracy remains
+bound to the owner's private key; it is not independently reproducible from
+public aggregates. The local endpoint's private address and raw choices are
+not exported. To rebuild an unsealed local release from its sanitized capture,
+run `python3 scripts/publish_local_2026_10_25.py --refresh-unpublished`.
 
 ## Historical source provenance
 

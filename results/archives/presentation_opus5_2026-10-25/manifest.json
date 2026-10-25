@@ -1,0 +1,58 @@
+{
+  "source_commit": "5929eb0679ec905638ed77fe28b6b8798fffefc4",
+  "files": {
+    "README.md": {
+      "path": "README.md.snapshot",
+      "sha256": "e974bedd5a09aacc3cd95c84b8f4a71319ab8f042a0c1bd34db3fe155622855a"
+    },
+    "documents/FUNCTIONS.md": {
+      "path": "documents/FUNCTIONS.md.snapshot",
+      "sha256": "bdc961ca85f2e8e191db5c6e8468f49e708cf86dee70eddb411bfacee0e89d91"
+    },
+    "documents/OUTPUT_COMPLIANCE.md": {
+      "path": "documents/OUTPUT_COMPLIANCE.md.snapshot",
+      "sha256": "173c7d0ade6e7ef399d3bc69604212ea41e2b3d2c8a0ea16dd23ac19bf6a8994"
+    },
+    "docs/report.html": {
+      "path": "docs/report.html.snapshot",
+      "sha256": "1b10963774a980e1f3cd917ba90226d37595f2fbf2c1eaf6d19462f28e8fd13e"
+    },
+    "docs/index.html": {
+      "path": "docs/index.html.snapshot",
+      "sha256": "8d5da42d2c0359ddf57dc496501100cc0c8179cba01b950a68109bb76f33d51c"
+    },
+    "docs/functions.html": {
+      "path": "docs/functions.html.snapshot",
+      "sha256": "c01896fb7a0856a98e9fb73fbf12d37131df1f0f8a474821f91613d7ea162d10"
+    },
+    "docs/output_compliance.html": {
+      "path": "docs/output_compliance.html.snapshot",
+      "sha256": "65ce27c841648d23a9ddacef7c9bdea333dea8b4594240a7f3e97254a6420a5c"
+    },
+    ".github/workflows/october18-validate.yml": {
+      "path": ".github/workflows/october18-validate.yml.snapshot",
+      "sha256": "2fbfb7a156d753b5d78caeeb273c8036ac8a916b73d786b50d20f1f2b84b1011"
+    },
+    "scripts/layout_manifest.json": {
+      "path": "scripts/layout_manifest.json.snapshot",
+      "sha256": "350c89f12b3e17f900bf937bf5116dda3634c4a137e94e5cd8b59664515a31fb"
+    },
+    "scripts/validate_opus5_release.py": {
+      "path": "scripts/validate_opus5_release.py.snapshot",
+      "sha256": "839471d87d54b081c772e7f1b13c8c306718e9990848009a13bec3b42be54c56"
+    },
+    "scripts/README.md": {
+      "path": "scripts/README.md.snapshot",
+      "sha256": "09bd61d285b441aec9a899ed28b3548edca27ce42eaa7872d328e1317b9ed647"
+    },
+    "results/README.md": {
+      "path": "results/README.md.snapshot",
+      "sha256": "0373fb3fdb769d0cd209a73b2bd564807645183267aabfcc8025d7cba0590bfe"
+    },
+    "documents/README.md": {
+      "path": "documents/README.md.snapshot",
+      "sha256": "7986f4975bffd6daabded32630890aa8fabc764892682b363215a25dd7b62505"
+    }
+  },
+  "purpose": "Exact superseded presentation; all earlier dated releases and measurements remain unchanged"
+}

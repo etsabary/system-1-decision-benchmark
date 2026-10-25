@@ -7,6 +7,7 @@
 - [Categories, examples and scores](FUNCTIONS.md)
 - [Image-input capabilities](IMAGE_CAPABILITIES.md)
 - [Output compliance and request failures](OUTPUT_COMPLIANCE.md)
+- [Local GPU setup and category profiles](LOCAL_GPU_RUNS.md)
 - [No-reasoning LLM references](LLM_REFERENCES.md)
 - [LLM coverage](LLM_EXPANSION.md)
 

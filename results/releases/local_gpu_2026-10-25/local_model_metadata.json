@@ -1,0 +1,512 @@
+{
+  "local_h2o_lightning_4b": {
+    "model_requested": "h2o-lightning:4b",
+    "serving_digest": "2e535c910d02b13943f90a25a5beb99b0a9a8ec1607021dbfa907fda781b4dc4",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen3.5",
+      "families": [
+        "qwen3.5"
+      ],
+      "parameter_size": "4B",
+      "quantization_level": "Q8_0"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": null,
+    "reported_context": {},
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "352d8ad6711cf0de9691ef83e3cdb5da021ae52b5307f727925e6f3ff9f6079f",
+      "dispatches.jsonl": "0b11df23c9d0790068dae6d63666fa08befd59c25a1fcb7f559e9f0b02d1e12b",
+      "warmup.jsonl": "c1d7dc39b50e2e8375634453a265fe3ecf27b03b1abde00417e2ae7dd5a8fbbf",
+      "full_report.json": "a1464395f7ceeb083af9446c4096af060e817ab096823f87d562e957deb675d0"
+    }
+  },
+  "local_fovea_4b": {
+    "model_requested": "fovea:4b",
+    "serving_digest": "fd3dcbd2de8212f67b2de65a858bcfbb775a51aaa724c13794aba39bb633e963",
+    "details": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "qwen3.5",
+      "families": [
+        "qwen3.5"
+      ],
+      "parameter_size": "4B",
+      "quantization_level": "NF4 / FP16 compute / FP32 readout"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": null,
+    "reported_context": {},
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "ef96e0a289de169eb6011ab57ecf8398bf17e16d7086ae372c8bac7a2835ae6f",
+      "dispatches.jsonl": "4d95cdae69a84538318c3a92bbdd1ff54136d3c6fcf0bd4a1616ff9ceeef95fc",
+      "warmup.jsonl": "20bcf1f25ddee1e8e1b7870bbaac1609bbb48c4acbe71b0c59ceedbd251f02d2",
+      "full_report.json": "1723535211134876d89c93b4b0f2d0214ae40e1b8b66f6a1cbe50753db4ba030"
+    }
+  },
+  "local_strands_decider_latest": {
+    "model_requested": "strands-decider:latest",
+    "serving_digest": "e1db4771f5a5a5a870f233ad91918378cfee42a3880f8f3b0e0abe9172cefa87",
+    "details": {
+      "parent_model": "",
+      "format": "onnx",
+      "family": "strands",
+      "families": [
+        "strands"
+      ],
+      "parameter_size": "2B",
+      "quantization_level": "F32"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": "huggingface.co/StrandsAgents/strands-decider-2B-qwen3.5-v1-2610@216d1ccb46a9e9b036eb9187b248db98480f77d4",
+    "reported_context": {},
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "0a596e5b484ac70491875c47817f53ea56ec3d769a039869f1650db7afc4815a",
+      "dispatches.jsonl": "d5e14868ad128800eace846623d06289adb3e53f5c1541c8e0655fe2e2d0ffb2",
+      "warmup.jsonl": "25ef42925ddbe22609716908ff1b524931357f9f7aad037116be4c711616f7a6",
+      "full_report.json": "3847beafda0dc97a2ad98ddbfb4f9980d77d822fd66f968f7a3e315dfc10507d"
+    }
+  },
+  "local_lev_4b_gguf_q8_0": {
+    "model_requested": "lev:4b-gguf-q8_0",
+    "serving_digest": "8b77ede9d5d52ec6bac76961413d3a409d5c1f4a0a904751fdf7f5637a380be2",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "lev",
+      "families": [
+        "lev"
+      ],
+      "parameter_size": "4B",
+      "quantization_level": "Q8_0"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": null,
+    "reported_context": {},
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "a2aefb45863eccd3c06392876096cd333f43456a2ee35dd7ecd33bad0d2661d1",
+      "dispatches.jsonl": "7703940ada1332de35cb3b2d75a059237f353927b9eab945feaa8843283c26dd",
+      "warmup.jsonl": "d634bb7ab5abc4936faaab1d22c775b26f45ab89c852a391b7198a8fbf59d8e6",
+      "full_report.json": "fb93c35c85b98b0eb815ca2d174381d6cd9a6e012bf898166d4fb0f7b54afb7b"
+    }
+  },
+  "local_credence_e4b": {
+    "model_requested": "credence:e4b",
+    "serving_digest": "7c10422d963b1972f6a904faae7d831a2b98710a21118650ba6b603fa6014218",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "winnow",
+      "families": [
+        "winnow"
+      ],
+      "parameter_size": "7.5B",
+      "quantization_level": "Q4_K_M"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": "huggingface.co/Txoka/Credence-v1-Gemma4-E4B@7d5ffc84145f34a3a76f7074e8c70bf1c1efce56",
+    "reported_context": {
+      "winnow.context_length": 1024
+    },
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "e6353d29dc91fa72b40f1bd13c945a181097d0be2a96bfc4849e909a5eeeab6f",
+      "dispatches.jsonl": "c64e9457e6357a8b9f3badde5c7b37d0313e25d231f51d95cd006125eca9d745",
+      "warmup.jsonl": "80a8508a56cb7b26432b0cc3857e553babc7d9dbbe4e5391ff00e08021428c64",
+      "full_report.json": "76f68f9aea0046bf94595664e27fff0c3467c52dedb63371383c151c24f55d81"
+    }
+  },
+  "local_jeb_4b": {
+    "model_requested": "jeb:4b",
+    "serving_digest": "4aba27707f6f4ba6f116710a0d05743220e5a5819b8826a9bd32385d0d9df2ff",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "jebadiah",
+      "families": [
+        "jebadiah"
+      ],
+      "parameter_size": "4B",
+      "quantization_level": "Q8_0"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": "huggingface.co/frontier-infra/jebadiah-4b-v2-GGUF@7f671f9a31827257c26401000484e154b39417e6",
+    "reported_context": {
+      "jebadiah.context_length": 4096
+    },
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "bec016658a65616da0737ce994f9c696460d080696a9ca4bdb01baf1e8aefd95",
+      "dispatches.jsonl": "a86e6c57ba35dde92f1353c937751840593358dc913876469be2b321f680e7b0",
+      "warmup.jsonl": "cec74bd45962c8c18b65740372ee85a901277e1f02933ccf78113536e853e922",
+      "full_report.json": "35127dee6f2a2c97d64da48e0c4e3587fadb22173a520b4a0c07bc1b866d62e5"
+    }
+  },
+  "local_jevk5_latest": {
+    "model_requested": "jevk5:latest",
+    "serving_digest": "58b5d6516410070d5f165d77357ed7bfefe5ffedde63e6ae75ab5101d4fe0221",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "jevk5",
+      "families": [
+        "jevk5"
+      ],
+      "parameter_size": "4B",
+      "quantization_level": "Q8_0"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": "huggingface.co/alibiserikbay/JevK5-GGUF@ec67b0bfce5119a8b11a2cdb430bb43e3fa3e82a",
+    "reported_context": {
+      "jevk5.context_length": 16384
+    },
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "412bc412a97eb999d63efbd00d8472a6aa666c9459b5b043b3ac9c7425226ea7",
+      "dispatches.jsonl": "10fd2e47a2d201a7bea98b3aa52e3551b380d52ef478907678f31ba85340f4ab",
+      "warmup.jsonl": "d0e19ee032cb8a404c279232594854a786199023903d97f864e3ddec0d72fb87",
+      "full_report.json": "793ed0fd13af1955f772796e1d35b92ebfc92a2f0432a02466e2da0a5295b122"
+    }
+  },
+  "local_snap_latest": {
+    "model_requested": "snap:latest",
+    "serving_digest": "f356b13c94415f1237ab94d752b0de1705ed98f38ee389549264dfa53532f171",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "snap",
+      "families": [
+        "snap"
+      ],
+      "parameter_size": "2B",
+      "quantization_level": "Q8_0"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": "huggingface.co/logitlab/snap1-2b-GGUF@39321915452e54428e18558ba882c771bc856110",
+    "reported_context": {
+      "snap.context_length": 8192
+    },
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "d923abfca59006115a7f5c94d0554c15aa372430d09c6ddb653d04e5626c1e34",
+      "dispatches.jsonl": "8b39442ee4b234bd2c72fd9cf40d12b754b0282301736dc9feff7819183cbc96",
+      "warmup.jsonl": "9911e4abe9c67d2fcbe583e35e1653366b7c94897d60f5b132a74a8d1c91189d",
+      "full_report.json": "5893e68b9e11f10a8108814f172eb44533617682d82249d0a438505b94564647"
+    }
+  },
+  "local_sura_2b": {
+    "model_requested": "sura:2b",
+    "serving_digest": "24396454e5a7c05cdbb02d431eef809d2b0d3ad527f13c9a5c79c4fdc007bef6",
+    "details": {
+      "parent_model": "",
+      "format": "onnx",
+      "family": "pplx",
+      "families": [
+        "pplx"
+      ],
+      "parameter_size": "2B",
+      "quantization_level": "F32"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": "huggingface.co/ollaya-dev/sura-2b@9676c6bd806e792046a895d1ffeb4e03b080bea9",
+    "reported_context": {},
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "87062f8234330a6f6bbae7d7765a0a61d8275ed44cafd2e43d7347d124faa1cf",
+      "dispatches.jsonl": "f6ec3e690df2b716df3e65322a03c6d518d08b3af5cada3eced0bc20620634be",
+      "warmup.jsonl": "f19961a65f151a854d8563cf3d06425779f93de973540ee77dd13d457e0951cd",
+      "full_report.json": "9cfafbd7fbf5affd18f074be60774a198e54718e3fdf2726d61770718c96ea4c"
+    }
+  },
+  "local_decider_2b_vision": {
+    "model_requested": "decider:2b-vision",
+    "serving_digest": "aa6d5b48d042d0737d8b6e05b4326fdb873040a206f8d050f7400934c4327502",
+    "details": {
+      "parent_model": "",
+      "format": "onnx",
+      "family": "decider",
+      "families": [
+        "decider"
+      ],
+      "parameter_size": "2.2B",
+      "quantization_level": "F32"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": "huggingface.co/Mapika/decider-2b-vision@863e290863655f1d6b69324d77d09ac972d21609",
+    "reported_context": {},
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "89c505f3d5b85ef095e5baf13504f3594cc6d4da668d88a35890065c30c72999",
+      "dispatches.jsonl": "c77e7c42a3ab36f3a72d0169575161d6c100533a94528d2e67dc923e30cdd6c7",
+      "warmup.jsonl": "86ec88e65d6f7a6ae5f20910f910c8dfea0df868873384f0ceb43030175be310",
+      "full_report.json": "2fc69ac695f1f8d419cbd3b2e61bcab79ece6d4385d28f4fa83aac67c18a4e81"
+    }
+  },
+  "local_clm_8b_gguf_q4_k_m": {
+    "model_requested": "clm:8b-gguf-q4_k_m",
+    "serving_digest": "4b0c800303fb2e07c485e6c55996ac3f77aeae0723348f79d1a23c1571e1d700",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "clm",
+      "families": [
+        "clm"
+      ],
+      "parameter_size": "8B",
+      "quantization_level": "Q4_K_M"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": null,
+    "reported_context": {},
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "3a8ce00be994df82177361773bb535bcdbcc04ceb1bb1cc99bccfcd14a31c424",
+      "dispatches.jsonl": "1d758e0571649c93995947020ab5befdb619a619436153b0f785ca3c2fb13b82",
+      "warmup.jsonl": "23c7f2367ecdea03eec38d2b3af3368e1bceab695148d163c02b0496bf11d2c5",
+      "full_report.json": "3fc5125b33e392dfd57d7cf67e4ca70c438aba61ad1bd591812108e36ba024db"
+    }
+  },
+  "local_decima_agent": {
+    "model_requested": "decima:agent",
+    "serving_digest": "e14e614ce4ab1ae2e7a0f1203b91e4d38fb645d100202726abe59f78e2c0077b",
+    "details": {
+      "parent_model": "",
+      "format": "onnx",
+      "family": "decima",
+      "families": [
+        "decima"
+      ],
+      "parameter_size": "321M",
+      "quantization_level": "F32"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": "huggingface.co/amyrmahdy/decima-agent@652d90ac9d33088edd730692c95f1da381cb9174",
+    "reported_context": {},
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "44dc8e424abdae861ad91de22473b44f9cb87a6e8fd9bfc9d8d3f262e587973a",
+      "dispatches.jsonl": "8c55c8839b0444b1f39388c15a06fcdcbbc3e8e5ebbf9c080783c48adef7a719",
+      "warmup.jsonl": "2ef046219ab3177ba18a16710cdb275f690273a5bb920822fd74c94a4cc2d193",
+      "full_report.json": "f3562d8abc5284005b540db129a9902b7a7d834cd6f1575346b4e3fc57ca57ce"
+    }
+  },
+  "local_laya_typed_decisions": {
+    "model_requested": "laya:typed-decisions",
+    "serving_digest": "6d17e5fbcbb8215a74f2efd0dcc0ffdbd472e9b25ccb07867f9f146a791673ba",
+    "details": {
+      "parent_model": "",
+      "format": "onnx",
+      "family": "laya",
+      "families": [
+        "laya"
+      ],
+      "parameter_size": "421M",
+      "quantization_level": "F16/F32"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul",
+      "act"
+    ],
+    "source_reported": "huggingface.co/convaiinnovations/laya@aa8c91ca088ec597df95a0d1c76b3063cb2ae5e8",
+    "reported_context": {
+      "laya.context_length": 1024
+    },
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "4451868e4e9a5aca012d16978234c92a1befe54a209177053b02f8f36a42cdad",
+      "dispatches.jsonl": "0273bc2cdf8aa2bd3fdf1988d0de74a7fa58d3e12ec5fc4d86c2cd995e5ed3eb",
+      "warmup.jsonl": "77d2ddd3e94ae883f718f6fe739a696d180be06b509872ada1f7e1b730c79682",
+      "full_report.json": "d1a527e0a1d910d07a7ccc1074c098b9ba86cd8a2f1ad67de6d88bf82af107c0"
+    }
+  },
+  "local_gliclass_latest": {
+    "model_requested": "gliclass:latest",
+    "serving_digest": "8c4c3acece90b83f44da3694f0aedcb90503de37aff702995e18dc317a63e5a6",
+    "details": {
+      "parent_model": "",
+      "format": "onnx",
+      "family": "gliclass",
+      "families": [
+        "gliclass"
+      ],
+      "parameter_size": "439M",
+      "quantization_level": "F32"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": "huggingface.co/knowledgator/gliclass-instruct-large-v1.0@825e5478c1bf4bffbf297690517097ccbdb2e006",
+    "reported_context": {
+      "gliclass.context_length": 1024
+    },
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "2f29d924c69f34731683b391e7ca79f8244ced44c1ef5435b2b6a94d847cf339",
+      "dispatches.jsonl": "95fa239ea07acb0c6beee702669298f4effb56cdd5d8c8d9a402e8050119f13e",
+      "warmup.jsonl": "073658013070c4cde0b2ffcac46365db63a110c4693fc938a659312aa95cc7f0",
+      "full_report.json": "4dcbe2a477e0f7f4510bdaf16c27b725a590f41dbbf19a2cad2acfb9b2c6b131"
+    }
+  },
+  "local_von_latest": {
+    "model_requested": "von:latest",
+    "serving_digest": "25606bfd644593e63b4c63b8219d4fd0085d11634d6fa4701268d77cf804f689",
+    "details": {
+      "parent_model": "",
+      "format": "onnx",
+      "family": "von",
+      "families": [
+        "von"
+      ],
+      "parameter_size": "395M",
+      "quantization_level": "F32"
+    },
+    "capabilities": [
+      "choice",
+      "score",
+      "noul"
+    ],
+    "source_reported": "huggingface.co/wfzyx/von@d8bb5e0745d8ee1fb65d536d6d4892d54d5a93fd",
+    "reported_context": {
+      "von.context_length": 8192
+    },
+    "device": "cuda:0",
+    "gpu": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_identity_source": "User reported GPU and VRAM; CUDA execution captured",
+    "runtime": "Ollaya 0.17.0",
+    "identity_limit": "Registry metadata and stable start/end digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "e413eaf60ba3fd944fb1dcdc73c95bb6c93d0ae8506b500fbdf607e3dfe0b43a",
+      "dispatches.jsonl": "d49118a86653ef9a0c31ede95d83c84e0e7bce4949e0ee2a9a681c482a3b2f44",
+      "warmup.jsonl": "3b83e36ad1f0955b4bf7cf883fb50da362efbda585a66e1671375acf6ce3d1eb",
+      "full_report.json": "8ade3e3e38ae78da11e71c4ba20988a73e5f271c0d5dcbcacabcd352599bde02"
+    }
+  }
+}

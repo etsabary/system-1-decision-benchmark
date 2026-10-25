@@ -1,0 +1,45 @@
+## Fastino remains highest overall; H2O leads the local batch
+
+Fastino GLiDE retains 1,154/1,342 (86.0%), followed by GPT-6 Sol without reasoning at 1,143 (85.2%) and Mammoth-1 at 1,139 (84.9%). The 15 local additions leave all earlier measurements and their ordering unchanged. H2O-Lightning 4B Q8_0 scored 892/1,342 (66.5%), followed locally by Fovea at 841 (62.7%), Jebadiah at 808 (60.2%) and JevK5 at 780 (58.1%). JevK5 is an independent open model, separate from TypeSafe Jev.
+
+## A 6 GB GPU delivered subsecond decisions
+
+H2O’s mean / median / p95 was 289 / 259 / 459 ms on the user-reported NVIDIA RTX 2060 with 6 GB VRAM. Fovea measured 588 / 558 / 779 ms and Jebadiah 298 / 270 / 479 ms. Every completed local route reported CUDA execution. These timings include LAN transfer and complete responses, with loading and synthetic warm-ups recorded separately. Hosted routes retain their original network paths, concurrency and dates. No speed on newer hardware has been measured or projected; more VRAM primarily expands model/context capacity and may avoid offloading.
+
+## Useful category strengths can disappear in the overall average
+
+Fovea selected the authoritative current record over a stale conflicting one in 42/43 cases, the same count as Fastino and Sol. H2O scored 38/43 and Lev 13/43 on that operation. JevK5 scored 41/43 on both record filtering and directed connections; H2O scored 40/43 and 41/43. Sura’s overall result was 31.9%, while its tracking of what different observers know scored 39/50. These are specific sampled operations, not general reliability guarantees.
+
+## Following changing state remains difficult
+
+Sequential procedures require applying each edit to the current state before the next edit. H2O scored 8/48, Fovea 10/48, Jebadiah 11/48 and JevK5 14/48. Span scored 33/48 and Sol 18/48 on the same questions. Exact truth counting is a separate task: H2O and Fovea each scored 20/71, versus Sol’s 51/71. The category tables retain every count so these weaknesses remain visible beside simpler filtering and comparison tasks.
+
+## A very short response can still be close to guessing
+
+Laya’s median was 46 ms at 24.0% accuracy; Decima Agent’s was 71 ms at 23.3%; Von’s was 77 ms at 24.7%; GLiClass’s was 79 ms at 29.3%. Uniform guessing among five choices averages 20%. Von’s 331 correct answers are about 63 above the 268 expected from uniform guessing, with 1,011 wrong. Shared templates and dependent questions make a naive significance calculation overstate the independent evidence. These configurations show limited overall success on this logical decision bank; narrow classification uses need their own validation.
+
+## Quantization and runtime are part of each measured route
+
+H2O, Lev, Jebadiah and JevK5 used Q8_0 files. Fovea used NF4 weights with FP16 compute and an FP32 readout; Credence and CLM used Q4_K_M. Other precision labels are copied from serving metadata, rather than inferred from parameter counts. There was no full-precision ablation, so accuracy gaps cannot be attributed to quantization alone. Captured source pins and serving digests are supplied where reported; some custom routes do not identify the upstream weight revision.
+
+## Local operating cost was not measured
+
+The local endpoint had no metered API invoice. GPU purchase, electricity and depreciation were not measured, so local rows have no invented $0 operating cost or zero-dollar point on the logarithmic cost chart. Hosted tariffs, promotional access, missing receipts and Fastino’s usage-based estimate retain their earlier labels. The figures distinguish local routes in purple, hosted decision models in blue and no-reasoning LLM references in pale yellow.
+
+## Incomplete and blocked routes remain outside the full-bank ranking
+
+Coba 1B and the NLI representative stopped after 20 questions when one response each truncated the supplied input, reaching the declared 5% unusable-output screen. Julia had 19 HTTP failures in 20 attempts because its serving batch limit was too small. KnowLine returned a valid typed warm-up decision with an output-token counter of one; that alone does not establish thinking, and its native adapter remains under review. None of these partial or unscored routes is assigned a comparable 1,342-question accuracy.
+
+46 full-bank routes: 27 hosted decision models, 15 local decision/classifier models and four no-reasoning LLM references. All use the same 1,342 questions and 31 categories: 61,732 first attempts. The question bank, options, weights of categories and earlier 31 model records are unchanged.
+
+The local batch was measured October 25, 2026 (America/Toronto), using a user-reported NVIDIA RTX 2060 with 6 GB VRAM, Ollaya 0.17.0, and server-reported cuda:0 execution. CPU model, system RAM, driver version and independent hardware identity were not captured. One request and one model ran at a time. The frozen native input packets and five-choice order were unchanged. Fresh LAN HTTP timing runs through the complete response; synthetic compatibility/loading/warm-up calls are excluded and separately recorded. The earlier 20-case CPU screen is not pooled into these GPU measurements.
+
+All 20,130 local first attempts remain in the denominator: 20,123 usable decisions and seven unsuccessful responses, with no scored retries. Every full-bank median and p95 is pooled from all 1,342 original durations. The speed screen stops a route if cumulative median exceeds two seconds after at least 20 cases; the unusable-output screen pauses at 5%. Four blocked or partial routes remain separately documented.
+
+Same input and scoring support accuracy comparison across routes; latency remains specific to hardware, serving runtime, precision, local/cloud path, warm-up treatment, date and load. Local per-model metadata records quantization and available source pins. Registry digests and returned identities are not independent weight attestations. No claim is made about faster hardware without testing it.
+
+Native routes return typed choices and probability distributions. Local usable responses reported zero output tokens on these completed configurations; reported counters alone do not reveal undisclosed internal computation. Existing Sol, Sonnet, Opus and Qwen settings and qualification limits remain unchanged. This benchmark tests immediate five-choice decisions without tools or agentic iteration, not reasoning-enabled LLM performance.
+
+This remains a developing bank with uneven category sizes and dependent variants. Six categories contain eight questions each. Earlier targeted difficult-item audits, verified additions and the separate 1,305-case author-development diagnostic retain their scope; this update does not claim every original item received independent external verification.
+
+Public timing/status evidence reproduces coverage, means, medians and p95 without credentials or answer keys. Accuracy was checked locally against the existing revision-bound private key. Public aggregates and evidence hashes cannot independently reproduce private-key scoring. No key, model-choice ledger, per-item correctness, private path or LAN address is exported.

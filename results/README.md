@@ -4,23 +4,24 @@
 
 ## Current comparison
 
-The [October 21 release](releases/native_additions_2026-10-21/) contains all 29 routes on 1,342 questions across 31 categories.
+The [October 25 release](releases/local_gpu_2026-10-25/) contains all 46 routes on 1,342 questions across 31 categories: 27 hosted decision models, 15 local models and four no-reasoning LLM references.
 
-- [Model statistics](releases/native_additions_2026-10-21/model_statistics.csv)
-- [Category scores](releases/native_additions_2026-10-21/category_scores.csv)
-- [Aggregate JSON](releases/native_additions_2026-10-21/statistics.json)
-- [Accuracy, response-time and cost graphic](releases/native_additions_2026-10-21/accuracy_speed_cost.png)
-- [Audit receipt](releases/native_additions_2026-10-21/audit_receipt.json) and [release manifest](releases/native_additions_2026-10-21/manifest.json)
+- [Model statistics](releases/local_gpu_2026-10-25/model_statistics.csv)
+- [Category scores](releases/local_gpu_2026-10-25/category_scores.csv)
+- [Aggregate JSON](releases/local_gpu_2026-10-25/statistics.json)
+- [Accuracy, response-time and cost graphic](releases/local_gpu_2026-10-25/accuracy_speed_cost.png)
+- [Local GPU metadata](releases/local_gpu_2026-10-25/local_model_metadata.json) and [answer-free timing rows](releases/local_gpu_2026-10-25/local_timing_evidence.csv)
+- [Audit receipt](releases/local_gpu_2026-10-25/audit_receipt.json) and [release manifest](releases/local_gpu_2026-10-25/manifest.json)
 - [Full question bank](releases/consolidated_2026-10-19/questions_1342.csv), [exact native JSONL](releases/consolidated_2026-10-19/questions_1342.jsonl) and [readable questions](releases/consolidated_2026-10-19/questions_1342.txt)
 
 ## Evidence folders
 
 | Folder | Purpose |
 | --- | --- |
-| [releases](releases/) | Dated published comparisons, reports and their manifests; use October 21 for current results |
+| [releases](releases/) | Dated comparisons and their manifests; use October 25 for current results |
 | [runs](runs/) | Sanitized earlier run exports used to reconstruct the comparisons, not private execution logs |
 | [archives](archives/) | Superseded presentation snapshots and provenance needed to verify earlier seals |
-| [figures](figures/) | Earlier shared figures; current charts are in the October 21 release |
+| [figures](figures/) | Earlier shared figures; current charts are in the October 25 release |
 
 Question, measurement, figure, website and dated seal bytes are unchanged by the
 folder cleanup. Existing manifests retain their original logical file names;
