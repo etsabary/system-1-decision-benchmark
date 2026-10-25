@@ -12,6 +12,7 @@ from urllib.parse import urlsplit
 import publish_local_2026_10_25 as b
 from validate_consolidated_release import privacy
 from validate_direct_release import Page
+from archive_local_gpu_presentation import previous as archived_presentation
 
 EXPECTED = {'H2O-Lightning 4B':892,'Fovea 4B':841,'Jebadiah 4B':808,'JevK5 4B':780,
             'Lev 4B':749,'Credence E4B':741,'Strands Decider 2B':710,'Snap 2B':574,
@@ -79,7 +80,7 @@ def validate():
             assert '192.168.' not in text and '/home/' not in text,name
             if p.suffix=='.json':inspect(json.loads(text))
     for path in (b.DEST/'report.html',b.ROOT/'docs/report.html'):
-        text=path.read_text();page=Page();page.feed(text);settings=RowSettings();settings.feed(text)
+        text=archived_presentation(path).read_text();page=Page();page.feed(text);settings=RowSettings();settings.feed(text)
         assert page.summary==s['ranked_model_ids'] and len(page.cells)==1426
         assert len(page.ids)==len(set(page.ids))
         assert Counter(c['data-model'] for c in page.cells)=={mid:31 for mid in s['models']}
@@ -110,7 +111,7 @@ def validate():
         assert int(row['correct'])==m['correct'] and float(row['median_ms'])==m['median_ms']
         if row['model_id'] in s['local_model_ids']:assert row['known_cost_usd']==row['known_cost_per1000_usd']==''
     for p in (b.ROOT/'README.md',b.repo_file('FUNCTIONS.md'),b.repo_file('OUTPUT_COMPLIANCE.md')):
-        text=p.read_text();privacy(text)
+        text=archived_presentation(p).read_text();privacy(text)
         for target in re.findall(r'\]\(([^)]+)\)',text):
             if not re.match(r'^(https?:|mailto:|#)',target):assert (p.parent/target.split('#')[0]).exists(),target
     screens=json.loads((b.DEST/'screened_routes.json').read_text())

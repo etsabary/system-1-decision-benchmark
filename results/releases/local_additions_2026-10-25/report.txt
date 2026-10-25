@@ -1,0 +1,49 @@
+## Fastino remains highest overall; D3 leads the local configurations
+
+Fastino GLiDE retains 1,154/1,342 (86.0%), GPT-6 Sol without reasoning 1,143 (85.2%) and Mammoth-1 1,139 (84.9%). D3 Flash Artemis 9B IQ3_M scored 995/1,342 (74.1%), followed locally by Perplexity Flash mixed4 at 971 (72.4%), H2O-Lightning 4B at 892 (66.5%) and Jebadiah 9B v2.1 at 855 (63.7%). All earlier 46 model records retain their original scores, timing and cost fields. D3 answered 24 more questions correctly than the next local configuration, Perplexity, a 1.8 percentage-point lead. Every chart now includes the 49 completed routes.
+
+## Two configurations move the local accuracy range upward
+
+D3 scored 103 more correct answers than H2O, an increase of 7.7 percentage points, with a 408 ms median versus 259 ms. Perplexity scored 79 more, an increase of 5.9 points, with a 798 ms median. D3 and Jebadiah 9B had similar mean / median / p95 times: 441 / 408 / 701 ms and 440 / 405 / 694 ms. Perplexity measured 875 / 798 / 1,526 ms. The RTX 2060 with 6 GB VRAM was chosen deliberately as an older, more accessible hardware setup: the aim was to measure what these models can do on equipment more readers may already have. These are measured LAN routes; loading and synthetic warm-ups are excluded.
+
+## D3 combines strong rule application with uneven state tracking
+
+D3 scored 43/46 on following if-then rules, 40/43 on planning an action sequence, 40/43 on directed paths and 48/51 on explicit preference ordering. Its sequential procedures score was 14/48: these questions require applying each edit to the newly updated state. Object swaps scored 24/52 and spatial tracking 22/49. Perplexity scored 39/40 on ordered comparisons, 41/43 on directed paths and 40/43 on choosing authoritative current records, while sequential procedures scored 12/48.
+
+## The larger Jebadiah improved the overall score by 3.5 points
+
+Jebadiah 9B v2.1 IQ4_XS answered 855/1,342 correctly (63.7%), 47 more than Jebadiah 4B Q8_0 at 808 (60.2%). Its median increased from 270 to 405 ms. Directed paths scored 41/43, explicit preference ordering 47/51 and fault diagnosis 45/50. Sequential procedures scored 10/48 and exact truth counting 23/71. Model size, version and precision all differ, so this comparison does not isolate the cause of the improvement.
+
+## Overall rank still conceals useful narrower strengths
+
+Fovea selected the authoritative current record over a stale conflicting one in 42/43 cases, matching Fastino and Sol; H2O scored 38/43 and Lev 13/43. JevK5 scored 41/43 on record filtering and directed paths. Sura scored 31.9% overall but 39/50 on tracking what different observers know. The full category tables preserve these differences. The six newest domains contain eight questions each, so one answer changes their score by 12.5 percentage points.
+
+## A very short response can still be close to guessing
+
+Laya measured a 46 ms median at 24.0% accuracy; Decima Agent 71 ms at 23.3%; Von 77 ms at 24.7%; GLiClass 79 ms at 29.3%. Uniform guessing among five choices averages 20%. Von scored 331 correct, about 63 above the 268 expected from uniform guessing, with 1,011 wrong. Shared templates and dependent questions limit the independent evidence. These configurations showed limited overall success on this logical decision bank; a narrow classification task needs its own validation.
+
+## Input capacity caused 13 failures in the new runs
+
+Perplexity rejected three inputs above its 1,024-token limit. D3 had three input-size failures with a physical batch limit of 1,024. Jebadiah rejected seven prompts above an effective 896-token read limit, despite a reported 1,024-token context. These are serving/input-capacity failures. They remain unsuccessful first attempts in the same 1,342-case denominator; no prompt was shortened, truncated or retried to fit these variants. Across all 18 local runs, there are 24,136 usable decisions and 20 unsuccessful responses.
+
+## Precision and provenance belong to the measured configuration
+
+Perplexity used sensitivity-allocated mixed Q2_K–Q6_K weights with an FP32 decision readout; D3 used an Artemis IQ3_M mixed-precision file; Jebadiah 9B used IQ4_XS. Earlier configurations retain their reported Q8_0, Q4_K_M, NF4 and other precision labels. There was no full-precision ablation, so a score difference cannot be assigned to quantization alone. Start/end serving digests were stable; upstream source pins are included where reported. The Perplexity and D3 routes did not report an immutable upstream weight revision.
+
+## Cost, latency and partial-route limits retain their scope
+
+Local API access had no metered invoice; hardware purchase, electricity and depreciation were not measured. Local rows therefore have no invented zero-dollar operating cost. Hosted routes retain their original dates, network paths, concurrency and cost labels. Purple identifies local RTX 2060 runs, blue hosted decision models and pale yellow no-reasoning LLM references. Coba, NLI, Julia and KnowLine remain separately documented partial or blocked routes outside the full-bank ranking. No speed on newer hardware has been measured or projected.
+
+49 full-bank routes: 27 hosted decision models, 18 local decision/classifier models and four no-reasoning LLM references. All use the same 1,342 questions and 31 categories: 65,758 first attempts. The question bank, options, weights of categories and earlier 46 model records are unchanged.
+
+The two sequential local batches were measured October 25, 2026 (America/Toronto), using a user-reported NVIDIA RTX 2060 with 6 GB VRAM, Ollaya 0.17.0, and server-reported cuda:0 execution. This older GPU was chosen deliberately to test a more accessible hardware setup rather than require a recent high-end GPU. CPU model, system RAM, driver version and independent hardware identity were not captured. One request and one model ran at a time. The frozen native input packets and five-choice order were unchanged. Fresh LAN HTTP timing runs through the complete response; synthetic compatibility/loading/warm-up calls are excluded and separately recorded. The earlier 20-case CPU screen is not pooled into these GPU measurements.
+
+All 24,156 local first attempts remain in the denominator: 24,136 usable decisions and 20 unsuccessful responses, with no scored retries. Every full-bank median and p95 is pooled from all 1,342 original durations. The speed screen stops a route if cumulative median exceeds two seconds after at least 20 cases; the unusable-output screen pauses at 5%. Four blocked or partial routes remain separately documented.
+
+Same input and scoring support accuracy comparison across routes; latency remains specific to hardware, serving runtime, precision, local/cloud path, warm-up treatment, date and load. Local per-model metadata records quantization and available source pins. Registry digests and returned identities are not independent weight attestations. No claim is made about faster hardware without testing it.
+
+Native routes return typed choices and probability distributions. Local usable responses reported zero output tokens on these completed configurations; reported counters alone do not reveal undisclosed internal computation. Existing Sol, Sonnet, Opus and Qwen settings and qualification limits remain unchanged. This benchmark tests immediate five-choice decisions without tools or agentic iteration, not reasoning-enabled LLM performance.
+
+This remains a developing bank with uneven category sizes and dependent variants. Six categories contain eight questions each. Earlier targeted difficult-item audits, verified additions and the separate 1,305-case author-development diagnostic retain their scope; this update does not claim every original item received independent external verification.
+
+Public timing/status evidence reproduces coverage, means, medians and p95 without credentials or answer keys. Accuracy was checked locally against the existing revision-bound private key. Public aggregates and evidence hashes cannot independently reproduce private-key scoring. No key, model-choice ledger, per-item correctness, private path or LAN address is exported.

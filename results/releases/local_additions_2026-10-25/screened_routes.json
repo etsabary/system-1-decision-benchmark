@@ -1,0 +1,55 @@
+[
+  {
+    "model": "coba:1b",
+    "ranked": false,
+    "scored_attempts": 20,
+    "usable": 19,
+    "statuses": {
+      "ok": 19,
+      "truncated_or_unverified": 1
+    },
+    "reason": "One of20 inputs truncated; reached the declared5% unusable screen",
+    "mean_ms": 75.64180009794654,
+    "median_ms": 70.07839599100407,
+    "p95_ms": 113.26848751486979
+  },
+  {
+    "model": "nli:latest",
+    "ranked": false,
+    "scored_attempts": 20,
+    "usable": 19,
+    "statuses": {
+      "ok": 19,
+      "truncated_or_unverified": 1
+    },
+    "reason": "One of20 inputs truncated; reached the declared5% unusable screen",
+    "mean_ms": 297.9662229481619,
+    "median_ms": 278.73881251434796,
+    "p95_ms": 535.0718068570133
+  },
+  {
+    "model": "julia:144m-gguf-q8_0",
+    "ranked": false,
+    "scored_attempts": 20,
+    "usable": 1,
+    "statuses": {
+      "http_failure": 19,
+      "ok": 1
+    },
+    "reason": "Deployment screen failed:19/20 HTTP failures, physical batch size128 smaller than input; not an accuracy finding",
+    "mean_ms": 42.800693747994956,
+    "median_ms": 47.804375004488975,
+    "p95_ms": 59.971622956800275
+  },
+  {
+    "model": "knowline:4b-gen5.5",
+    "ranked": false,
+    "scored_attempts": 0,
+    "usable": 0,
+    "statuses": {},
+    "reason": "Review native readout compatibility: valid choice but reported output_tokens=1; this alone does not establish reasoning or explanations",
+    "mean_ms": null,
+    "median_ms": null,
+    "p95_ms": null
+  }
+]

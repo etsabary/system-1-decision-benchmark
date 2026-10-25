@@ -1,14 +1,16 @@
 # System 1 Decision Benchmark
 
-27 hosted decision models, **15 local decision/classifier models** and four no-reasoning LLM references on the same **1,342 text questions across 31 categories**. Updated October 25, 2026.
+27 hosted decision models, **18 local decision/classifier models** and four no-reasoning LLM references on the same **1,342 text questions across 31 categories**. Updated October 25, 2026.
 
-**Fastino GLiDE remains highest overall at 86.0%. H2O-Lightning 4B leads the local batch at 66.5%, with a 259 ms median on an RTX 2060 with 6 GB VRAM.**
+**Fastino GLiDE remains highest overall at 86.0%. D3 Flash Artemis 9B leads the local batch at 74.1%, with a 408 ms median on an RTX 2060 with 6 GB VRAM.**
 
 [Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [Local GPU profiles](https://etsabary.github.io/system-1-decision-benchmark/report.html#local-results) · [Named, color-coded categories](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions)
 
-![46 routes: local models in purple](results/releases/local_gpu_2026-10-25/accuracy_speed_cost.png)
+![49 routes: local models in purple](results/releases/local_additions_2026-10-25/accuracy_speed_cost.png)
 
 Purple marks **Local · RTX 2060 · 6 GB**. Blue marks hosted decision models; pale yellow marks LLM references. Accuracy cell colors and speed/cost bands keep their existing meaning. Every ranked row contains 1,342 first attempts. Local loading/warm-up calls are excluded; hosted timing paths and dates remain unchanged. Local hardware/electricity cost is unmeasured, rather than plotted as $0.
+
+**The local tests deliberately use an older RTX 2060 with 6 GB VRAM, chosen to represent a more accessible hardware setup that readers may already have.** D3 leads all 18 tested local configurations; its measured latency is specific to this setup.
 
 ## Complete comparison
 
@@ -31,6 +33,8 @@ Purple marks **Local · RTX 2060 · 6 GB**. Blue marks hosted decision models; p
 | Jev 1.13 | Hosted decision | 1026/1342 | 76.5% | — | 189 ms | 323 ms | $0.024571 | $0.032974 |
 | Mercury Decide | Hosted decision | 1017/1342 | 75.8% | — | 238 ms | 388 ms | $0.006956 | $0.009334 |
 | Elephant-1 | Hosted decision | 1004/1342 | 74.8% | 164 ms | 139 ms | 272 ms | Promotional free access* | Promotional free access* |
+| D3 Flash Artemis 9B | 🟣 Local | 995/1342 | 74.1% | 441 ms | 408 ms | 701 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Perplexity Flash v1.2 mixed4 | 🟣 Local | 971/1342 | 72.4% | 875 ms | 798 ms | 1526 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Qwen3.8-Max — none, Hyper Charm | 🟡 LLM reference | 967/1342 | 72.1% | — | 1191 ms | 1731 ms | $0.614821 + ? | $0.825090 + ? quota |
 | Liquid d1 | Hosted decision | 965/1342 | 71.9% | — | 206 ms | 827 ms | $0.005773 | $0.007748 |
 | Cloudflare Clef | Hosted decision | 936/1342 | 69.7% | — | 268 ms | 417 ms | $0.017594 | $0.023611 |
@@ -40,6 +44,7 @@ Purple marks **Local · RTX 2060 · 6 GB**. Blue marks hosted decision models; p
 | H2O-Lightning 4B | 🟣 Local | 892/1342 | 66.5% | 289 ms | 259 ms | 459 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Cloudflare Clef Flash | Hosted decision | 860/1342 | 64.1% | — | 245 ms | 353 ms | $0.008797 | $0.011806 |
 | Cloudflare Clef Omni | Hosted decision | 860/1342 | 64.1% | — | 241 ms | 400 ms | $0.061511 + ? | $0.082547 + ? |
+| Jebadiah 9B v2.1 | 🟣 Local | 855/1342 | 63.7% | 440 ms | 405 ms | 694 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Drex v1.5 | Hosted decision | 853/1342 | 63.6% | — | 203 ms | 649 ms | $0.011160 | $0.014976 |
 | Fovea 4B | 🟣 Local | 841/1342 | 62.7% | 588 ms | 558 ms | 779 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Kev 4B | Hosted decision | 822/1342 | 61.3% | — | 225 ms | 377 ms | $0.011718 | $0.015725 |
@@ -77,43 +82,47 @@ The squares and labels use fixed descriptive bands, not relative ranks or statis
 Bands use unrounded measurements; displayed numbers can round to a boundary. `+ ?` means additional charges were not reported. In those cells, the cost band describes only the known lower bound, not a complete cost or a guaranteed price advantage. The website also underlines these incomplete costs in amber. Text labels remain visible without color.
 
 
-## Fastino remains highest overall; H2O leads the local batch
+## Fastino remains highest overall; D3 leads the local configurations
 
-Fastino GLiDE retains 1,154/1,342 (86.0%), followed by GPT-6 Sol without reasoning at 1,143 (85.2%) and Mammoth-1 at 1,139 (84.9%). The 15 local additions leave all earlier measurements and their ordering unchanged. H2O-Lightning 4B Q8_0 scored 892/1,342 (66.5%), followed locally by Fovea at 841 (62.7%), Jebadiah at 808 (60.2%) and JevK5 at 780 (58.1%). JevK5 is an independent open model, separate from TypeSafe Jev.
+Fastino GLiDE retains 1,154/1,342 (86.0%), GPT-6 Sol without reasoning 1,143 (85.2%) and Mammoth-1 1,139 (84.9%). D3 Flash Artemis 9B IQ3_M scored 995/1,342 (74.1%), followed locally by Perplexity Flash mixed4 at 971 (72.4%), H2O-Lightning 4B at 892 (66.5%) and Jebadiah 9B v2.1 at 855 (63.7%). All earlier 46 model records retain their original scores, timing and cost fields. D3 answered 24 more questions correctly than the next local configuration, Perplexity, a 1.8 percentage-point lead. Every chart now includes the 49 completed routes.
 
-## A 6 GB GPU delivered subsecond decisions
+## Two configurations move the local accuracy range upward
 
-H2O’s mean / median / p95 was 289 / 259 / 459 ms on the user-reported NVIDIA RTX 2060 with 6 GB VRAM. Fovea measured 588 / 558 / 779 ms and Jebadiah 298 / 270 / 479 ms. Every completed local route reported CUDA execution. These timings include LAN transfer and complete responses, with loading and synthetic warm-ups recorded separately. Hosted routes retain their original network paths, concurrency and dates. No speed on newer hardware has been measured or projected; more VRAM primarily expands model/context capacity and may avoid offloading.
+D3 scored 103 more correct answers than H2O, an increase of 7.7 percentage points, with a 408 ms median versus 259 ms. Perplexity scored 79 more, an increase of 5.9 points, with a 798 ms median. D3 and Jebadiah 9B had similar mean / median / p95 times: 441 / 408 / 701 ms and 440 / 405 / 694 ms. Perplexity measured 875 / 798 / 1,526 ms. The RTX 2060 with 6 GB VRAM was chosen deliberately as an older, more accessible hardware setup: the aim was to measure what these models can do on equipment more readers may already have. These are measured LAN routes; loading and synthetic warm-ups are excluded.
 
-## Useful category strengths can disappear in the overall average
+## D3 combines strong rule application with uneven state tracking
 
-Fovea selected the authoritative current record over a stale conflicting one in 42/43 cases, the same count as Fastino and Sol. H2O scored 38/43 and Lev 13/43 on that operation. JevK5 scored 41/43 on both record filtering and directed connections; H2O scored 40/43 and 41/43. Sura’s overall result was 31.9%, while its tracking of what different observers know scored 39/50. These are specific sampled operations, not general reliability guarantees.
+D3 scored 43/46 on following if-then rules, 40/43 on planning an action sequence, 40/43 on directed paths and 48/51 on explicit preference ordering. Its sequential procedures score was 14/48: these questions require applying each edit to the newly updated state. Object swaps scored 24/52 and spatial tracking 22/49. Perplexity scored 39/40 on ordered comparisons, 41/43 on directed paths and 40/43 on choosing authoritative current records, while sequential procedures scored 12/48.
 
-## Following changing state remains difficult
+## The larger Jebadiah improved the overall score by 3.5 points
 
-Sequential procedures require applying each edit to the current state before the next edit. H2O scored 8/48, Fovea 10/48, Jebadiah 11/48 and JevK5 14/48. Span scored 33/48 and Sol 18/48 on the same questions. Exact truth counting is a separate task: H2O and Fovea each scored 20/71, versus Sol’s 51/71. The category tables retain every count so these weaknesses remain visible beside simpler filtering and comparison tasks.
+Jebadiah 9B v2.1 IQ4_XS answered 855/1,342 correctly (63.7%), 47 more than Jebadiah 4B Q8_0 at 808 (60.2%). Its median increased from 270 to 405 ms. Directed paths scored 41/43, explicit preference ordering 47/51 and fault diagnosis 45/50. Sequential procedures scored 10/48 and exact truth counting 23/71. Model size, version and precision all differ, so this comparison does not isolate the cause of the improvement.
+
+## Overall rank still conceals useful narrower strengths
+
+Fovea selected the authoritative current record over a stale conflicting one in 42/43 cases, matching Fastino and Sol; H2O scored 38/43 and Lev 13/43. JevK5 scored 41/43 on record filtering and directed paths. Sura scored 31.9% overall but 39/50 on tracking what different observers know. The full category tables preserve these differences. The six newest domains contain eight questions each, so one answer changes their score by 12.5 percentage points.
 
 ## A very short response can still be close to guessing
 
-Laya’s median was 46 ms at 24.0% accuracy; Decima Agent’s was 71 ms at 23.3%; Von’s was 77 ms at 24.7%; GLiClass’s was 79 ms at 29.3%. Uniform guessing among five choices averages 20%. Von’s 331 correct answers are about 63 above the 268 expected from uniform guessing, with 1,011 wrong. Shared templates and dependent questions make a naive significance calculation overstate the independent evidence. These configurations show limited overall success on this logical decision bank; narrow classification uses need their own validation.
+Laya measured a 46 ms median at 24.0% accuracy; Decima Agent 71 ms at 23.3%; Von 77 ms at 24.7%; GLiClass 79 ms at 29.3%. Uniform guessing among five choices averages 20%. Von scored 331 correct, about 63 above the 268 expected from uniform guessing, with 1,011 wrong. Shared templates and dependent questions limit the independent evidence. These configurations showed limited overall success on this logical decision bank; a narrow classification task needs its own validation.
 
-## Quantization and runtime are part of each measured route
+## Input capacity caused 13 failures in the new runs
 
-H2O, Lev, Jebadiah and JevK5 used Q8_0 files. Fovea used NF4 weights with FP16 compute and an FP32 readout; Credence and CLM used Q4_K_M. Other precision labels are copied from serving metadata, rather than inferred from parameter counts. There was no full-precision ablation, so accuracy gaps cannot be attributed to quantization alone. Captured source pins and serving digests are supplied where reported; some custom routes do not identify the upstream weight revision.
+Perplexity rejected three inputs above its 1,024-token limit. D3 had three input-size failures with a physical batch limit of 1,024. Jebadiah rejected seven prompts above an effective 896-token read limit, despite a reported 1,024-token context. These are serving/input-capacity failures. They remain unsuccessful first attempts in the same 1,342-case denominator; no prompt was shortened, truncated or retried to fit these variants. Across all 18 local runs, there are 24,136 usable decisions and 20 unsuccessful responses.
 
-## Local operating cost was not measured
+## Precision and provenance belong to the measured configuration
 
-The local endpoint had no metered API invoice. GPU purchase, electricity and depreciation were not measured, so local rows have no invented $0 operating cost or zero-dollar point on the logarithmic cost chart. Hosted tariffs, promotional access, missing receipts and Fastino’s usage-based estimate retain their earlier labels. The figures distinguish local routes in purple, hosted decision models in blue and no-reasoning LLM references in pale yellow.
+Perplexity used sensitivity-allocated mixed Q2_K–Q6_K weights with an FP32 decision readout; D3 used an Artemis IQ3_M mixed-precision file; Jebadiah 9B used IQ4_XS. Earlier configurations retain their reported Q8_0, Q4_K_M, NF4 and other precision labels. There was no full-precision ablation, so a score difference cannot be assigned to quantization alone. Start/end serving digests were stable; upstream source pins are included where reported. The Perplexity and D3 routes did not report an immutable upstream weight revision.
 
-## Incomplete and blocked routes remain outside the full-bank ranking
+## Cost, latency and partial-route limits retain their scope
 
-Coba 1B and the NLI representative stopped after 20 questions when one response each truncated the supplied input, reaching the declared 5% unusable-output screen. Julia had 19 HTTP failures in 20 attempts because its serving batch limit was too small. KnowLine returned a valid typed warm-up decision with an output-token counter of one; that alone does not establish thinking, and its native adapter remains under review. None of these partial or unscored routes is assigned a comparable 1,342-question accuracy.
+Local API access had no metered invoice; hardware purchase, electricity and depreciation were not measured. Local rows therefore have no invented zero-dollar operating cost. Hosted routes retain their original dates, network paths, concurrency and cost labels. Purple identifies local RTX 2060 runs, blue hosted decision models and pale yellow no-reasoning LLM references. Coba, NLI, Julia and KnowLine remain separately documented partial or blocked routes outside the full-bank ranking. No speed on newer hardware has been measured or projected.
 
 ## Categories, questions and evidence
 
 ## Category scores and explanations
 
-The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 46 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
+The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 49 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
 
 [Open the color-coded, selectable tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions), with a pinned model-name column and individual category rankings.
 
@@ -130,9 +139,9 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | All, some, none and sets (F05) | 49 | Track all, some, none and overlapping groups Example: All teal tokens are marked; no marked token is blank; which relation follows? |
 | Enough evidence or a conflict? (F11) | 41 | Determine whether facts force an answer or contradict one another Example: Is a proposed arrangement determined, impossible or still underdetermined? |
 
-![Rules and evidence: all 46 routes, named categories, correct counts and percentages](results/releases/local_gpu_2026-10-25/rules.png)
+![Rules and evidence: all 49 routes, named categories, correct counts and percentages](results/releases/local_additions_2026-10-25/rules.png)
 
-[Full-size SVG](results/releases/local_gpu_2026-10-25/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
+[Full-size SVG](results/releases/local_additions_2026-10-25/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
 
 ### Ordering, schedules and assignments
 
@@ -146,9 +155,9 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Comparing time intervals (F14) | 42 | Compare starts, ends and overlapping periods Example: Which interval overlaps a specified event without containing it? |
 | Ranking with tie-break rules (F22) | 51 | Rank candidates using explicit tie-break rules Example: Rank by priority first, then age when priorities tie. |
 
-![Ordering, schedules and assignments: all 46 routes, named categories, correct counts and percentages](results/releases/local_gpu_2026-10-25/ordering.png)
+![Ordering, schedules and assignments: all 49 routes, named categories, correct counts and percentages](results/releases/local_additions_2026-10-25/ordering.png)
 
-[Full-size SVG](results/releases/local_gpu_2026-10-25/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
+[Full-size SVG](results/releases/local_additions_2026-10-25/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
 
 ### Claims, changing state and perspectives
 
@@ -164,9 +173,9 @@ Can the model count true statements, update a changing situation and separate wh
 | Resolving names and references (F16) | 50 | Resolve chains of names, roles and references Example: Identify the mentor of the colleague named in a nested description. |
 | Tracking what others know (F17) | 50 | Distinguish what different observers witnessed Example: An object moves while one observer is absent; where will that observer look? |
 
-![Claims, changing state and perspectives: all 46 routes, named categories, correct counts and percentages](results/releases/local_gpu_2026-10-25/state.png)
+![Claims, changing state and perspectives: all 49 routes, named categories, correct counts and percentages](results/releases/local_additions_2026-10-25/state.png)
 
-[Full-size SVG](results/releases/local_gpu_2026-10-25/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
+[Full-size SVG](results/releases/local_additions_2026-10-25/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
 
 ### Causes, plans and exceptions
 
@@ -182,9 +191,9 @@ Which actions work, which consequences change, and which rule or source controls
 | Choosing authoritative current records (F24) | 43 | Select the valid source rather than an outdated conflicting one Example: Two records disagree; which controls under the stated authority and date policy? |
 | Diagnosing faults from evidence (F25) | 50 | Match observed symptoms to explicit fault rules Example: Which fault is consistent with the supplied test results? |
 
-![Causes, plans and exceptions: all 46 routes, named categories, correct counts and percentages](results/releases/local_gpu_2026-10-25/causes.png)
+![Causes, plans and exceptions: all 49 routes, named categories, correct counts and percentages](results/releases/local_additions_2026-10-25/causes.png)
 
-[Full-size SVG](results/releases/local_gpu_2026-10-25/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
+[Full-size SVG](results/releases/local_additions_2026-10-25/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
 
 ### Risk, strategy and system behavior
 
@@ -201,16 +210,16 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Checking overlapping operations (F30) | 8 | Decide whether overlapping operations and their reported results can fit a permitted one-at-a-time order that respects the specified timing and object rules. Example: Two processes read and change the same stored value. Could their reported results fit an allowed one-at-a-time order? |
 | Detecting secret-information leaks (F31) | 8 | Check whether changing a protected secret can change an observable result in a way the stated policy forbids. Example: If public inputs stay the same, could public output distinguish two secret values that the policy says must remain indistinguishable? |
 
-![Risk, strategy and system behavior: all 46 routes, named categories, correct counts and percentages](results/releases/local_gpu_2026-10-25/uncertainty.png)
+![Risk, strategy and system behavior: all 49 routes, named categories, correct counts and percentages](results/releases/local_additions_2026-10-25/uncertainty.png)
 
-[Full-size SVG](results/releases/local_gpu_2026-10-25/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
+[Full-size SVG](results/releases/local_additions_2026-10-25/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
 
-Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](results/releases/local_gpu_2026-10-25/category_scores.csv).
+Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](results/releases/local_additions_2026-10-25/category_scores.csv).
 
 
 
-Current data: [aggregate JSON](results/releases/local_gpu_2026-10-25/statistics.json), [model CSV](results/releases/local_gpu_2026-10-25/model_statistics.csv), [category CSV](results/releases/local_gpu_2026-10-25/category_scores.csv), [answer-free timing evidence](results/releases/local_gpu_2026-10-25/local_timing_evidence.csv), [setup metadata](results/releases/local_gpu_2026-10-25/local_model_metadata.json), [audit](results/releases/local_gpu_2026-10-25/audit_receipt.json).
+Current data: [aggregate JSON](results/releases/local_additions_2026-10-25/statistics.json), [model CSV](results/releases/local_additions_2026-10-25/model_statistics.csv), [category CSV](results/releases/local_additions_2026-10-25/category_scores.csv), [answer-free timing evidence](results/releases/local_additions_2026-10-25/local_timing_evidence.csv), [setup metadata](results/releases/local_additions_2026-10-25/local_model_metadata.json), [audit](results/releases/local_additions_2026-10-25/audit_receipt.json).
 
 Unchanged question bank: [native JSONL](results/releases/consolidated_2026-10-19/questions_1342.jsonl), [CSV](results/releases/consolidated_2026-10-19/questions_1342.csv), [readable text](results/releases/consolidated_2026-10-19/questions_1342.txt).
 
-Implementation: [scripts/](scripts/README.md). Current check: `python3 scripts/validate_local_2026_10_25.py`. Historical checks include `python3 scripts/validate_opus5_release.py` and `python3 scripts/validate_october21_release.py`. All earlier releases remain unchanged.
+Implementation: [scripts/](scripts/README.md). Current check: `python3 scripts/validate_local_additions_2026_10_25.py`. Historical checks include `python3 scripts/validate_opus5_release.py` and `python3 scripts/validate_october21_release.py`. All earlier releases remain unchanged.

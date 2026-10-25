@@ -1,0 +1,74 @@
+{
+  "source_commit": "c1cddb9a6ff5a6adc094dad7573d97a825ca73ea",
+  "files": {
+    "README.md": {
+      "path": "README.md.snapshot",
+      "sha256": "6b919d7844c36486d9ad89dc4a4d684f59cbf4dbac26988ad46e99a031615b47"
+    },
+    "documents/FUNCTIONS.md": {
+      "path": "documents/FUNCTIONS.md.snapshot",
+      "sha256": "0f9e5fc156f1e67e7f69894e15c1ae2796e686e68556cc4b980d07ed3248e18d"
+    },
+    "documents/OUTPUT_COMPLIANCE.md": {
+      "path": "documents/OUTPUT_COMPLIANCE.md.snapshot",
+      "sha256": "36ade47fcfe0d7fbbc254fee4dc284168c4c0133fcc12d787f135972f3760f29"
+    },
+    "docs/report.html": {
+      "path": "docs/report.html.snapshot",
+      "sha256": "7f9f6cc3af470365525c48c93295de2ca662e6d4aeed531762b3a3705da31c4a"
+    },
+    "docs/index.html": {
+      "path": "docs/index.html.snapshot",
+      "sha256": "f3ded068752f6602b9e1e466dc0d3e9b9c8d7ac64a961d2aa6278fa0343bdaf5"
+    },
+    "docs/functions.html": {
+      "path": "docs/functions.html.snapshot",
+      "sha256": "c0c6a140217fe55bab7f388f05a820fe9b807f439befe64fed987c4de965485e"
+    },
+    "docs/output_compliance.html": {
+      "path": "docs/output_compliance.html.snapshot",
+      "sha256": "79fd978fead4696f3e75d85a53ca3e6018a79c1e4b7400f0d157dc702eef0176"
+    },
+    ".github/workflows/october18-validate.yml": {
+      "path": ".github/workflows/october18-validate.yml.snapshot",
+      "sha256": "4fd5b48c5efb4163460a1d3bc7e350269c0c6169e3f8672c40a232ad6b685275"
+    },
+    "scripts/layout_manifest.json": {
+      "path": "scripts/layout_manifest.json.snapshot",
+      "sha256": "6c61ce44558059c71688ccb617caf8965ce81726b4c4721a3281867c90cb5905"
+    },
+    "scripts/validate_opus5_release.py": {
+      "path": "scripts/validate_opus5_release.py.snapshot",
+      "sha256": "7221fea5991e610114ddb8a6a6d416909911081970ee32056bdb9c09050b45b3"
+    },
+    "scripts/README.md": {
+      "path": "scripts/README.md.snapshot",
+      "sha256": "9506cc3f1081516548367bd92ba4320593f2f0fde7f5f6a4fb20d7c252c8c1ab"
+    },
+    "results/README.md": {
+      "path": "results/README.md.snapshot",
+      "sha256": "0793fa3e49b2255d35c32f1b99e5a7acf6b55d1efe197595e949f15aaa1ab5d5"
+    },
+    "documents/README.md": {
+      "path": "documents/README.md.snapshot",
+      "sha256": "14c4ba70545d6b63da21c7e6f86025ac556f10d2ea7051436d374539b9f107c1"
+    },
+    "documents/LOCAL_GPU_RUNS.md": {
+      "path": "documents/LOCAL_GPU_RUNS.md.snapshot",
+      "sha256": "4087649e591d9ec265cd115749d70cc7246541e727304a7d94aff4b9c2d548c2"
+    },
+    "scripts/publish_local_2026_10_25.py": {
+      "path": "scripts/publish_local_2026_10_25.py.snapshot",
+      "sha256": "3d503c9e0a5f65c480657955933234b11ef9aef47c26ddcf853ab3e3895fdf92"
+    },
+    "scripts/validate_local_2026_10_25.py": {
+      "path": "scripts/validate_local_2026_10_25.py.snapshot",
+      "sha256": "ba2cb204e890983123c0b7ffb2b78cb26448c524067b46ce45011043d46c9212"
+    },
+    "scripts/test_local_publication.py": {
+      "path": "scripts/test_local_publication.py.snapshot",
+      "sha256": "5b27eb8d35beae889dd5a9e2a0042dd42d0ede6c3465fbc2f1a7ffa07b076b73"
+    }
+  },
+  "purpose": "Exact superseded presentation; all earlier dated releases and measurements remain unchanged"
+}

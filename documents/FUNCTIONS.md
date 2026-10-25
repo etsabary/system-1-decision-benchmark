@@ -1,10 +1,10 @@
-# All 31 categories: 46 full-bank routes
+# All 31 categories: 49 full-bank routes
 
 [Color-coded, named tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions). Purple model-name badges identify local RTX 2060 runs; cell colors always encode accuracy.
 
 ## Category scores and explanations
 
-The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 46 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
+The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 49 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
 
 [Open the color-coded, selectable tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions), with a pinned model-name column and individual category rankings.
 
@@ -21,9 +21,9 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | All, some, none and sets (F05) | 49 | Track all, some, none and overlapping groups Example: All teal tokens are marked; no marked token is blank; which relation follows? |
 | Enough evidence or a conflict? (F11) | 41 | Determine whether facts force an answer or contradict one another Example: Is a proposed arrangement determined, impossible or still underdetermined? |
 
-![Rules and evidence: all 46 routes, named categories, correct counts and percentages](../results/releases/local_gpu_2026-10-25/rules.png)
+![Rules and evidence: all 49 routes, named categories, correct counts and percentages](../results/releases/local_additions_2026-10-25/rules.png)
 
-[Full-size SVG](../results/releases/local_gpu_2026-10-25/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
+[Full-size SVG](../results/releases/local_additions_2026-10-25/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
 
 | Model | Lookup and filtering | Following if-then rules | Checking required conditions | Combining AND, OR and NOT | All, some, none and sets | Enough evidence or a conflict? |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -44,6 +44,8 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | Jev 1.13 | 41/43 (95.3%) | 45/46 (97.8%) | 49/52 (94.2%) | 51/54 (94.4%) | 44/49 (89.8%) | 29/41 (70.7%) |
 | Mercury Decide | 38/43 (88.4%) | 43/46 (93.5%) | 28/52 (53.8%) | 49/54 (90.7%) | 46/49 (93.9%) | 30/41 (73.2%) |
 | Elephant-1 | 40/43 (93.0%) | 44/46 (95.7%) | 38/52 (73.1%) | 48/54 (88.9%) | 44/49 (89.8%) | 30/41 (73.2%) |
+| D3 Flash Artemis 9B | 38/43 (88.4%) | 43/46 (93.5%) | 47/52 (90.4%) | 41/54 (75.9%) | 45/49 (91.8%) | 32/41 (78.0%) |
+| Perplexity Flash v1.2 mixed4 | 38/43 (88.4%) | 42/46 (91.3%) | 40/52 (76.9%) | 42/54 (77.8%) | 42/49 (85.7%) | 29/41 (70.7%) |
 | Qwen3.8-Max — none, Hyper Charm | 37/43 (86.0%) | 38/46 (82.6%) | 44/52 (84.6%) | 45/54 (83.3%) | 44/49 (89.8%) | 25/41 (61.0%) |
 | Liquid d1 | 40/43 (93.0%) | 41/46 (89.1%) | 35/52 (67.3%) | 50/54 (92.6%) | 42/49 (85.7%) | 32/41 (78.0%) |
 | Cloudflare Clef | 40/43 (93.0%) | 39/46 (84.8%) | 39/52 (75.0%) | 46/54 (85.2%) | 44/49 (89.8%) | 29/41 (70.7%) |
@@ -53,6 +55,7 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | H2O-Lightning 4B | 40/43 (93.0%) | 32/46 (69.6%) | 28/52 (53.8%) | 38/54 (70.4%) | 41/49 (83.7%) | 28/41 (68.3%) |
 | Cloudflare Clef Flash | 38/43 (88.4%) | 34/46 (73.9%) | 35/52 (67.3%) | 37/54 (68.5%) | 42/49 (85.7%) | 27/41 (65.9%) |
 | Cloudflare Clef Omni | 40/43 (93.0%) | 26/46 (56.5%) | 41/52 (78.8%) | 41/54 (75.9%) | 41/49 (83.7%) | 26/41 (63.4%) |
+| Jebadiah 9B v2.1 | 39/43 (90.7%) | 33/46 (71.7%) | 29/52 (55.8%) | 40/54 (74.1%) | 44/49 (89.8%) | 33/41 (80.5%) |
 | Drex v1.5 | 38/43 (88.4%) | 26/46 (56.5%) | 26/52 (50.0%) | 36/54 (66.7%) | 41/49 (83.7%) | 21/41 (51.2%) |
 | Fovea 4B | 40/43 (93.0%) | 33/46 (71.7%) | 35/52 (67.3%) | 36/54 (66.7%) | 38/49 (77.6%) | 32/41 (78.0%) |
 | Kev 4B | 39/43 (90.7%) | 36/46 (78.3%) | 33/52 (63.5%) | 34/54 (63.0%) | 42/49 (85.7%) | 30/41 (73.2%) |
@@ -86,9 +89,9 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Comparing time intervals (F14) | 42 | Compare starts, ends and overlapping periods Example: Which interval overlaps a specified event without containing it? |
 | Ranking with tie-break rules (F22) | 51 | Rank candidates using explicit tie-break rules Example: Rank by priority first, then age when priorities tie. |
 
-![Ordering, schedules and assignments: all 46 routes, named categories, correct counts and percentages](../results/releases/local_gpu_2026-10-25/ordering.png)
+![Ordering, schedules and assignments: all 49 routes, named categories, correct counts and percentages](../results/releases/local_additions_2026-10-25/ordering.png)
 
-[Full-size SVG](../results/releases/local_gpu_2026-10-25/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
+[Full-size SVG](../results/releases/local_additions_2026-10-25/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
 
 | Model | Ordering by comparisons | Scheduling under constraints | One-to-one assignments | Comparing time intervals | Ranking with tie-break rules |
 | --- | --- | --- | --- | --- | --- |
@@ -109,6 +112,8 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Jev 1.13 | 40/40 (100.0%) | 50/76 (65.8%) | 54/67 (80.6%) | 41/42 (97.6%) | 46/51 (90.2%) |
 | Mercury Decide | 37/40 (92.5%) | 50/76 (65.8%) | 52/67 (77.6%) | 35/42 (83.3%) | 47/51 (92.2%) |
 | Elephant-1 | 40/40 (100.0%) | 49/76 (64.5%) | 60/67 (89.6%) | 25/42 (59.5%) | 46/51 (90.2%) |
+| D3 Flash Artemis 9B | 36/40 (90.0%) | 43/76 (56.6%) | 57/67 (85.1%) | 25/42 (59.5%) | 48/51 (94.1%) |
+| Perplexity Flash v1.2 mixed4 | 39/40 (97.5%) | 43/76 (56.6%) | 48/67 (71.6%) | 30/42 (71.4%) | 48/51 (94.1%) |
 | Qwen3.8-Max — none, Hyper Charm | 40/40 (100.0%) | 42/76 (55.3%) | 58/67 (86.6%) | 34/42 (81.0%) | 47/51 (92.2%) |
 | Liquid d1 | 38/40 (95.0%) | 47/76 (61.8%) | 48/67 (71.6%) | 37/42 (88.1%) | 46/51 (90.2%) |
 | Cloudflare Clef | 37/40 (92.5%) | 43/76 (56.6%) | 42/67 (62.7%) | 31/42 (73.8%) | 45/51 (88.2%) |
@@ -118,6 +123,7 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | H2O-Lightning 4B | 36/40 (90.0%) | 44/76 (57.9%) | 47/67 (70.1%) | 27/42 (64.3%) | 46/51 (90.2%) |
 | Cloudflare Clef Flash | 32/40 (80.0%) | 35/76 (46.1%) | 48/67 (71.6%) | 22/42 (52.4%) | 45/51 (88.2%) |
 | Cloudflare Clef Omni | 33/40 (82.5%) | 36/76 (47.4%) | 41/67 (61.2%) | 32/42 (76.2%) | 43/51 (84.3%) |
+| Jebadiah 9B v2.1 | 32/40 (80.0%) | 38/76 (50.0%) | 48/67 (71.6%) | 30/42 (71.4%) | 47/51 (92.2%) |
 | Drex v1.5 | 37/40 (92.5%) | 51/76 (67.1%) | 48/67 (71.6%) | 28/42 (66.7%) | 44/51 (86.3%) |
 | Fovea 4B | 34/40 (85.0%) | 37/76 (48.7%) | 50/67 (74.6%) | 20/42 (47.6%) | 46/51 (90.2%) |
 | Kev 4B | 35/40 (87.5%) | 37/76 (48.7%) | 45/67 (67.2%) | 31/42 (73.8%) | 48/51 (94.1%) |
@@ -153,9 +159,9 @@ Can the model count true statements, update a changing situation and separate wh
 | Resolving names and references (F16) | 50 | Resolve chains of names, roles and references Example: Identify the mentor of the colleague named in a nested description. |
 | Tracking what others know (F17) | 50 | Distinguish what different observers witnessed Example: An object moves while one observer is absent; where will that observer look? |
 
-![Claims, changing state and perspectives: all 46 routes, named categories, correct counts and percentages](../results/releases/local_gpu_2026-10-25/state.png)
+![Claims, changing state and perspectives: all 49 routes, named categories, correct counts and percentages](../results/releases/local_additions_2026-10-25/state.png)
 
-[Full-size SVG](../results/releases/local_gpu_2026-10-25/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
+[Full-size SVG](../results/releases/local_additions_2026-10-25/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
 
 | Model | Counting exactly true claims | Truth-tellers and liars | Tracking swaps | Following step-by-step procedures | Tracking position and direction | Resolving names and references | Tracking what others know |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -176,6 +182,8 @@ Can the model count true statements, update a changing situation and separate wh
 | Jev 1.13 | 25/71 (35.2%) | 38/74 (51.4%) | 29/52 (55.8%) | 10/48 (20.8%) | 30/49 (61.2%) | 33/50 (66.0%) | 47/50 (94.0%) |
 | Mercury Decide | 37/71 (52.1%) | 39/74 (52.7%) | 34/52 (65.4%) | 12/48 (25.0%) | 31/49 (63.3%) | 35/50 (70.0%) | 43/50 (86.0%) |
 | Elephant-1 | 33/71 (46.5%) | 43/74 (58.1%) | 28/52 (53.8%) | 12/48 (25.0%) | 29/49 (59.2%) | 25/50 (50.0%) | 46/50 (92.0%) |
+| D3 Flash Artemis 9B | 36/71 (50.7%) | 40/74 (54.1%) | 24/52 (46.2%) | 14/48 (29.2%) | 22/49 (44.9%) | 34/50 (68.0%) | 45/50 (90.0%) |
+| Perplexity Flash v1.2 mixed4 | 39/71 (54.9%) | 34/74 (45.9%) | 25/52 (48.1%) | 12/48 (25.0%) | 29/49 (59.2%) | 37/50 (74.0%) | 44/50 (88.0%) |
 | Qwen3.8-Max — none, Hyper Charm | 24/71 (33.8%) | 30/74 (40.5%) | 27/52 (51.9%) | 11/48 (22.9%) | 28/49 (57.1%) | 30/50 (60.0%) | 38/50 (76.0%) |
 | Liquid d1 | 23/71 (32.4%) | 40/74 (54.1%) | 33/52 (63.5%) | 9/48 (18.8%) | 24/49 (49.0%) | 29/50 (58.0%) | 41/50 (82.0%) |
 | Cloudflare Clef | 27/71 (38.0%) | 33/74 (44.6%) | 27/52 (51.9%) | 11/48 (22.9%) | 23/49 (46.9%) | 31/50 (62.0%) | 42/50 (84.0%) |
@@ -185,6 +193,7 @@ Can the model count true statements, update a changing situation and separate wh
 | H2O-Lightning 4B | 20/71 (28.2%) | 41/74 (55.4%) | 30/52 (57.7%) | 8/48 (16.7%) | 25/49 (51.0%) | 25/50 (50.0%) | 37/50 (74.0%) |
 | Cloudflare Clef Flash | 28/71 (39.4%) | 34/74 (45.9%) | 28/52 (53.8%) | 9/48 (18.8%) | 16/49 (32.7%) | 25/50 (50.0%) | 41/50 (82.0%) |
 | Cloudflare Clef Omni | 20/71 (28.2%) | 37/74 (50.0%) | 30/52 (57.7%) | 11/48 (22.9%) | 20/49 (40.8%) | 21/50 (42.0%) | 38/50 (76.0%) |
+| Jebadiah 9B v2.1 | 23/71 (32.4%) | 32/74 (43.2%) | 28/52 (53.8%) | 10/48 (20.8%) | 22/49 (44.9%) | 20/50 (40.0%) | 34/50 (68.0%) |
 | Drex v1.5 | 33/71 (46.5%) | 30/74 (40.5%) | 23/52 (44.2%) | 13/48 (27.1%) | 26/49 (53.1%) | 23/50 (46.0%) | 29/50 (58.0%) |
 | Fovea 4B | 20/71 (28.2%) | 37/74 (50.0%) | 18/52 (34.6%) | 10/48 (20.8%) | 20/49 (40.8%) | 19/50 (38.0%) | 37/50 (74.0%) |
 | Kev 4B | 21/71 (29.6%) | 33/74 (44.6%) | 25/52 (48.1%) | 11/48 (22.9%) | 26/49 (53.1%) | 19/50 (38.0%) | 34/50 (68.0%) |
@@ -220,9 +229,9 @@ Which actions work, which consequences change, and which rule or source controls
 | Choosing authoritative current records (F24) | 43 | Select the valid source rather than an outdated conflicting one Example: Two records disagree; which controls under the stated authority and date policy? |
 | Diagnosing faults from evidence (F25) | 50 | Match observed symptoms to explicit fault rules Example: Which fault is consistent with the supplied test results? |
 
-![Causes, plans and exceptions: all 46 routes, named categories, correct counts and percentages](../results/releases/local_gpu_2026-10-25/causes.png)
+![Causes, plans and exceptions: all 49 routes, named categories, correct counts and percentages](../results/releases/local_additions_2026-10-25/causes.png)
 
-[Full-size SVG](../results/releases/local_gpu_2026-10-25/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
+[Full-size SVG](../results/releases/local_additions_2026-10-25/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
 
 | Model | Changing a cause | Exceptions and priority rules | Planning valid action sequences | Following directed connections | Finding rule violations | Choosing authoritative current records | Diagnosing faults from evidence |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -243,6 +252,8 @@ Which actions work, which consequences change, and which rule or source controls
 | Jev 1.13 | 42/50 (84.0%) | 51/58 (87.9%) | 38/43 (88.4%) | 41/43 (95.3%) | 48/52 (92.3%) | 39/43 (90.7%) | 44/50 (88.0%) |
 | Mercury Decide | 35/50 (70.0%) | 55/58 (94.8%) | 38/43 (88.4%) | 40/43 (93.0%) | 51/52 (98.1%) | 40/43 (93.0%) | 46/50 (92.0%) |
 | Elephant-1 | 34/50 (68.0%) | 54/58 (93.1%) | 38/43 (88.4%) | 41/43 (95.3%) | 50/52 (96.2%) | 40/43 (93.0%) | 45/50 (90.0%) |
+| D3 Flash Artemis 9B | 40/50 (80.0%) | 51/58 (87.9%) | 40/43 (93.0%) | 40/43 (93.0%) | 48/52 (92.3%) | 39/43 (90.7%) | 45/50 (90.0%) |
+| Perplexity Flash v1.2 mixed4 | 32/50 (64.0%) | 52/58 (89.7%) | 39/43 (90.7%) | 41/43 (95.3%) | 49/52 (94.2%) | 40/43 (93.0%) | 39/50 (78.0%) |
 | Qwen3.8-Max — none, Hyper Charm | 36/50 (72.0%) | 53/58 (91.4%) | 35/43 (81.4%) | 40/43 (93.0%) | 49/52 (94.2%) | 38/43 (88.4%) | 46/50 (92.0%) |
 | Liquid d1 | 28/50 (56.0%) | 51/58 (87.9%) | 39/43 (90.7%) | 40/43 (93.0%) | 49/52 (94.2%) | 38/43 (88.4%) | 46/50 (92.0%) |
 | Cloudflare Clef | 27/50 (54.0%) | 51/58 (87.9%) | 38/43 (88.4%) | 40/43 (93.0%) | 49/52 (94.2%) | 39/43 (90.7%) | 41/50 (82.0%) |
@@ -252,6 +263,7 @@ Which actions work, which consequences change, and which rule or source controls
 | H2O-Lightning 4B | 31/50 (62.0%) | 47/58 (81.0%) | 36/43 (83.7%) | 41/43 (95.3%) | 46/52 (88.5%) | 38/43 (88.4%) | 41/50 (82.0%) |
 | Cloudflare Clef Flash | 29/50 (58.0%) | 43/58 (74.1%) | 33/43 (76.7%) | 36/43 (83.7%) | 44/52 (84.6%) | 38/43 (88.4%) | 40/50 (80.0%) |
 | Cloudflare Clef Omni | 20/50 (40.0%) | 50/58 (86.2%) | 30/43 (69.8%) | 37/43 (86.0%) | 46/52 (88.5%) | 38/43 (88.4%) | 42/50 (84.0%) |
+| Jebadiah 9B v2.1 | 23/50 (46.0%) | 49/58 (84.5%) | 30/43 (69.8%) | 41/43 (95.3%) | 38/52 (73.1%) | 26/43 (60.5%) | 45/50 (90.0%) |
 | Drex v1.5 | 22/50 (44.0%) | 48/58 (82.8%) | 27/43 (62.8%) | 39/43 (90.7%) | 46/52 (88.5%) | 39/43 (90.7%) | 41/50 (82.0%) |
 | Fovea 4B | 22/50 (44.0%) | 50/58 (86.2%) | 26/43 (60.5%) | 40/43 (93.0%) | 40/52 (76.9%) | 42/43 (97.7%) | 43/50 (86.0%) |
 | Kev 4B | 29/50 (58.0%) | 39/58 (67.2%) | 24/43 (55.8%) | 40/43 (93.0%) | 37/52 (71.2%) | 20/43 (46.5%) | 36/50 (72.0%) |
@@ -288,9 +300,9 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Checking overlapping operations (F30) | 8 | Decide whether overlapping operations and their reported results can fit a permitted one-at-a-time order that respects the specified timing and object rules. Example: Two processes read and change the same stored value. Could their reported results fit an allowed one-at-a-time order? |
 | Detecting secret-information leaks (F31) | 8 | Check whether changing a protected secret can change an observable result in a way the stated policy forbids. Example: If public inputs stay the same, could public output distinguish two secret values that the policy says must remain indistinguishable? |
 
-![Risk, strategy and system behavior: all 46 routes, named categories, correct counts and percentages](../results/releases/local_gpu_2026-10-25/uncertainty.png)
+![Risk, strategy and system behavior: all 49 routes, named categories, correct counts and percentages](../results/releases/local_additions_2026-10-25/uncertainty.png)
 
-[Full-size SVG](../results/releases/local_gpu_2026-10-25/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
+[Full-size SVG](../results/releases/local_additions_2026-10-25/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
 
 | Model | Risk with supplied probabilities | Is extra information worth its cost? | Worst-case choices without probabilities | Anticipating another decision-maker | Checking overlapping operations | Detecting secret-information leaks |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -311,6 +323,8 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Jev 1.13 | 5/8 (62.5%) | 3/8 (37.5%) | 2/8 (25.0%) | 3/8 (37.5%) | 4/8 (50.0%) | 4/8 (50.0%) |
 | Mercury Decide | 5/8 (62.5%) | 3/8 (37.5%) | 3/8 (37.5%) | 5/8 (62.5%) | 5/8 (62.5%) | 5/8 (62.5%) |
 | Elephant-1 | 3/8 (37.5%) | 4/8 (50.0%) | 3/8 (37.5%) | 3/8 (37.5%) | 4/8 (50.0%) | 5/8 (62.5%) |
+| D3 Flash Artemis 9B | 2/8 (25.0%) | 4/8 (50.0%) | 3/8 (37.5%) | 4/8 (50.0%) | 5/8 (62.5%) | 4/8 (50.0%) |
+| Perplexity Flash v1.2 mixed4 | 2/8 (25.0%) | 4/8 (50.0%) | 2/8 (25.0%) | 3/8 (37.5%) | 3/8 (37.5%) | 4/8 (50.0%) |
 | Qwen3.8-Max — none, Hyper Charm | 6/8 (75.0%) | 4/8 (50.0%) | 4/8 (50.0%) | 3/8 (37.5%) | 4/8 (50.0%) | 7/8 (87.5%) |
 | Liquid d1 | 3/8 (37.5%) | 3/8 (37.5%) | 2/8 (25.0%) | 3/8 (37.5%) | 3/8 (37.5%) | 5/8 (62.5%) |
 | Cloudflare Clef | 2/8 (25.0%) | 3/8 (37.5%) | 3/8 (37.5%) | 3/8 (37.5%) | 5/8 (62.5%) | 6/8 (75.0%) |
@@ -320,6 +334,7 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | H2O-Lightning 4B | 3/8 (37.5%) | 3/8 (37.5%) | 3/8 (37.5%) | 2/8 (25.0%) | 3/8 (37.5%) | 5/8 (62.5%) |
 | Cloudflare Clef Flash | 3/8 (37.5%) | 4/8 (50.0%) | 5/8 (62.5%) | 3/8 (37.5%) | 2/8 (25.0%) | 4/8 (50.0%) |
 | Cloudflare Clef Omni | 5/8 (62.5%) | 3/8 (37.5%) | 3/8 (37.5%) | 3/8 (37.5%) | 2/8 (25.0%) | 4/8 (50.0%) |
+| Jebadiah 9B v2.1 | 4/8 (50.0%) | 3/8 (37.5%) | 3/8 (37.5%) | 3/8 (37.5%) | 4/8 (50.0%) | 4/8 (50.0%) |
 | Drex v1.5 | 1/8 (12.5%) | 5/8 (62.5%) | 2/8 (25.0%) | 2/8 (25.0%) | 4/8 (50.0%) | 4/8 (50.0%) |
 | Fovea 4B | 1/8 (12.5%) | 2/8 (25.0%) | 1/8 (12.5%) | 4/8 (50.0%) | 4/8 (50.0%) | 4/8 (50.0%) |
 | Kev 4B | 3/8 (37.5%) | 1/8 (12.5%) | 4/8 (50.0%) | 3/8 (37.5%) | 3/8 (37.5%) | 4/8 (50.0%) |
@@ -341,4 +356,4 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Decima Agent | 2/8 (25.0%) | 2/8 (25.0%) | 2/8 (25.0%) | 2/8 (25.0%) | 4/8 (50.0%) | 2/8 (25.0%) |
 | CLM 8B | 3/8 (37.5%) | 2/8 (25.0%) | 1/8 (12.5%) | 2/8 (25.0%) | 2/8 (25.0%) | 1/8 (12.5%) |
 
-Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](../results/releases/local_gpu_2026-10-25/category_scores.csv).
+Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](../results/releases/local_additions_2026-10-25/category_scores.csv).
