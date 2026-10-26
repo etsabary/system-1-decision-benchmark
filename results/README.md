@@ -4,15 +4,17 @@
 
 ## Current comparison
 
-The [October 25 release](releases/local_additions_2026-10-25/) contains all 49 routes on 1,342 questions across 31 categories: 27 hosted decision models, 18 local models and four no-reasoning LLM references.
+The [October 25 release](releases/native_additions_2026-10-25/) contains all 52 routes on 1,342 questions across 31 categories: 28 hosted decision models, 20 local models and four no-reasoning LLM references.
 
-- [Model statistics](releases/local_additions_2026-10-25/model_statistics.csv)
-- [Category scores](releases/local_additions_2026-10-25/category_scores.csv)
-- [Aggregate JSON](releases/local_additions_2026-10-25/statistics.json)
-- [Accuracy, response-time and cost graphic](releases/local_additions_2026-10-25/accuracy_speed_cost.png)
-- [Local GPU metadata](releases/local_additions_2026-10-25/local_model_metadata.json) and [answer-free timing rows](releases/local_additions_2026-10-25/local_timing_evidence.csv)
-- [Audit receipt](releases/local_additions_2026-10-25/audit_receipt.json) and [release manifest](releases/local_additions_2026-10-25/manifest.json)
+- [Model statistics](releases/native_additions_2026-10-25/model_statistics.csv)
+- [Category scores](releases/native_additions_2026-10-25/category_scores.csv)
+- [Aggregate JSON](releases/native_additions_2026-10-25/statistics.json)
+- [Accuracy, response-time and cost graphic](releases/native_additions_2026-10-25/accuracy_speed_cost.png)
+- [Local GPU metadata](releases/native_additions_2026-10-25/local_model_metadata.json) and [answer-free timing rows](releases/native_additions_2026-10-25/local_timing_evidence.csv)
+- [Audit receipt](releases/native_additions_2026-10-25/audit_receipt.json) and [release manifest](releases/native_additions_2026-10-25/manifest.json)
 - [Full question bank](releases/consolidated_2026-10-19/questions_1342.csv), [exact native JSONL](releases/consolidated_2026-10-19/questions_1342.jsonl) and [readable questions](releases/consolidated_2026-10-19/questions_1342.txt)
+
+Celeris 1.1 adds 76.1% at 138 ms median; the local KnowLine and Nemotron additions score 72.0% and 61.3%. All 49 prior measurement records are unchanged. Celeris costs are usage-times-tariff estimates; local operating cost is unmeasured. [Celeris timing/usage evidence](releases/native_additions_2026-10-25/hosted_addition_timing_evidence.csv).
 
 ## Evidence folders
 

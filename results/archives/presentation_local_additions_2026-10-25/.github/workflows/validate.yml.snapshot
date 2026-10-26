@@ -1,0 +1,19 @@
+name: Validate frozen benchmark evidence
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  offline-validation:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: scripts
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate.py
+      - run: python3 scripts/text_models.py
+      - run: python3 scripts/matched_analysis.py
+      - run: python3 scripts/overall_analysis.py
+      - run: python3 scripts/text_additions.py
+      - run: python3 -m unittest -v test_analysis test_text_models test_decision_refresh test_added_decisions test_overall test_publication test_matched
+      - run: python3 -m unittest -v test_text_additions

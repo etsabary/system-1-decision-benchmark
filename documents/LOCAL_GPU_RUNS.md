@@ -1,12 +1,12 @@
 # Local GPU runs: setup and model profiles
 
-18 complete runs on the unchanged 1,342-question bank, measured October 25, 2026. [Interactive local results](https://etsabary.github.io/system-1-decision-benchmark/report.html#local-results).
+20 complete runs on the unchanged 1,342-question bank, measured October 25, 2026. [Interactive local results](https://etsabary.github.io/system-1-decision-benchmark/report.html#local-results).
 
 **🟣 Local · NVIDIA RTX 2060 · 6 GB VRAM · Ollaya 0.17.0 · CUDA.** Hardware identity was supplied by the user; every completed route reported cuda:0. One request/model at a time over the LAN. Loading and synthetic warm-ups are excluded; the earlier CPU screen is separate. Precision varies by route. CPU, system RAM and driver version were not captured.
 
-The RTX 2060 with 6 GB VRAM was chosen deliberately as an older, more accessible hardware setup. The purpose was to measure what readers can run on equipment they may already have. D3 Flash Artemis 9B is the leader among all 18 tested local configurations at 74.1%, with a 408 ms median.
+The RTX 2060 with 6 GB VRAM was chosen deliberately as an older, more accessible hardware setup. The purpose was to measure what readers can run on equipment they may already have. D3 Flash Artemis 9B is the leader among all 20 tested local configurations at 74.1%, with a 408 ms median.
 
-Local API access was unmetered. Electricity and hardware costs were not measured. No latency on newer hardware is inferred. [Captured metadata](../results/releases/local_additions_2026-10-25/local_model_metadata.json) records source pins where available and the server-reported precision and digest. These are serving identities, not independent weight attestations.
+Local API access was unmetered. Electricity and hardware costs were not measured. No latency on newer hardware is inferred. [Captured metadata](../results/releases/native_additions_2026-10-25/local_model_metadata.json) records source pins where available and the server-reported precision and digest. These are serving identities, not independent weight attestations.
 
 Purple bars and model-name badges identify these local configurations. Accuracy heatmap cells retain the same 0–100% blue scale, and speed/cost colors retain their existing thresholds.
 
@@ -25,6 +25,14 @@ Lower category scores: Following step-by-step procedures 14/48; Tracking positio
 Higher category scores: Ordering by comparisons 39/40; Following directed connections 41/43; Finding rule violations 49/52.
 
 Lower category scores: Following step-by-step procedures 12/48; Truth-tellers and liars 34/74; Tracking swaps 25/52.
+
+## KnowLine 4B Gen5.5
+
+966/1342 (72.0%); mean / median / p95 848 / 812 / 1281 ms. Reported precision: NF4 / FP16 compute / FP32 readout.
+
+Higher category scores: Ordering by comparisons 38/40; Lookup and filtering 40/43; Finding rule violations 48/52.
+
+Lower category scores: Following step-by-step procedures 8/48; Counting exactly true claims 30/71; Truth-tellers and liars 35/74.
 
 ## H2O-Lightning 4B
 
@@ -49,6 +57,14 @@ Lower category scores: Following step-by-step procedures 10/48; Counting exactly
 Higher category scores: Choosing authoritative current records 42/43; Lookup and filtering 40/43; Following directed connections 40/43.
 
 Lower category scores: Following step-by-step procedures 10/48; Counting exactly true claims 20/71; Tracking swaps 18/52.
+
+## H2O Lightning Nemotron 4B
+
+823/1342 (61.3%); mean / median / p95 596 / 574 / 810 ms. Reported precision: NF4 / FP16 compute / FP32 head.
+
+Higher category scores: Lookup and filtering 40/43; Following directed connections 40/43; Choosing authoritative current records 39/43.
+
+Lower category scores: Following step-by-step procedures 12/48; Resolving names and references 16/50; Truth-tellers and liars 26/74.
 
 ## Jebadiah 4B
 
@@ -156,6 +172,6 @@ Lower category scores: Ordering by comparisons 3/40; Combining AND, OR and NOT 5
 
 ## Partial and blocked routes
 
-Coba 1B and the NLI representative stopped after 20 cases because one response each truncated the input. Julia had 19 HTTP failures in 20 attempts due to its physical batch limit. KnowLine returned a valid typed warm-up choice with output_tokens=1; that counter alone does not establish reasoning, and native adapter review is pending. These routes are documented in [screen details](../results/releases/local_additions_2026-10-25/screened_routes.json) and are not ranked as complete runs.
+Coba 1B and the NLI representative stopped after 20 cases because one response each truncated the input. Julia had 19 HTTP failures in 20 attempts due to its physical batch limit. KnowLine’s earlier native one-label compatibility block was resolved: its complete run is ranked above, with the original admission preserved in [resolution history](../results/releases/native_additions_2026-10-25/historical_admission_resolutions.json). The three remaining partial routes are documented in [screen details](../results/releases/native_additions_2026-10-25/screened_routes.json) and are not ranked as complete runs.
 
-All profiles use observed category accuracy; their higher/lower lists select categories with at least 20 questions. The complete [named category matrix](../results/releases/local_additions_2026-10-25/category_scores.csv) also includes the six eight-question domains.
+All profiles use observed category accuracy; their higher/lower lists select categories with at least 20 questions. The complete [named category matrix](../results/releases/native_additions_2026-10-25/category_scores.csv) also includes the six eight-question domains.

@@ -1,6 +1,6 @@
 # Delivered decisions and failures
 
-49 routes retain the 1,342-question first-attempt denominator. The local batch contains 24,136 usable decisions and 20 unsuccessful responses; no scored retries. Partial or blocked routes are documented separately and not ranked.
+52 routes retain the 1,342-question first-attempt denominator. The local batch contains 26,820 usable decisions and 20 unsuccessful responses; no scored retries. Partial or blocked routes are documented separately and not ranked.
 
 | Model | Setting | Usable / 1342 | Unsuccessful | First-attempt statuses |
 | --- | --- | --- | --- | --- |
@@ -19,11 +19,13 @@
 | kettei-fat | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Jev 1.14 | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Jev 1.13 | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Celeris 1.1 Decision | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Mercury Decide | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Elephant-1 | Hosted | 1342/1342 | 0 | ok: 1342 |
 | D3 Flash Artemis 9B | Local RTX 2060 | 1339/1342 | 3 | ok: 1339; http_failure: 3 |
 | Perplexity Flash v1.2 mixed4 | Local RTX 2060 | 1339/1342 | 3 | ok: 1339; http_failure: 3 |
 | Qwen3.8-Max — none, Hyper Charm | Hosted | 1317/1342 | 25 | ok: 1317; transport_failure: 1; http_failure: 24 |
+| KnowLine 4B Gen5.5 | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
 | Liquid d1 | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Cloudflare Clef | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Perplexity Decider Flash v1.2 | Hosted | 1286/1342 | 56 | ok: 1286; provider_failure: 56 |
@@ -35,6 +37,7 @@
 | Jebadiah 9B v2.1 | Local RTX 2060 | 1335/1342 | 7 | ok: 1335; http_failure: 7 |
 | Drex v1.5 | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Fovea 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+| H2O Lightning Nemotron 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
 | Kev 4B | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Jebadiah 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
 | JevK5 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |

@@ -1,0 +1,18 @@
+{
+  "original": [
+    {
+      "model": "knowline:4b-gen5.5",
+      "ranked": false,
+      "scored_attempts": 0,
+      "usable": 0,
+      "statuses": {},
+      "reason": "Review native readout compatibility: valid choice but reported output_tokens=1; this alone does not establish reasoning or explanations",
+      "mean_ms": null,
+      "median_ms": null,
+      "p95_ms": null
+    }
+  ],
+  "resolution": "Native one-label readout accepted after model-specific audit; full 1342-case route now ranked. Earlier admission record unchanged.",
+  "model_id": "local_knowline_4b_gen5_5",
+  "observed_output_tokens": 1
+}

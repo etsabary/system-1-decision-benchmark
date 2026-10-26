@@ -44,14 +44,20 @@ Live runners retain their explicit execution/probe flags and spending controls.
 Moving the source does not authorize another paid run. Existing run-resume
 software checks remain current-source-only by default.
 
-The latest October 25 release adds three local variants to the previous 46
-routes, for 49 complete routes and 18 local configurations. Earlier model
-records and timing rows are retained exactly, without rerunning them. Public validation reconstructs coverage,
-mean, median and p95 from answer-free timing/status rows. Accuracy remains
-bound to the owner's private key; it is not independently reproducible from
-public aggregates. The local endpoint's private address and raw choices are
-not exported. To rebuild an unsealed local release from its sanitized capture,
-run `python3 scripts/publish_local_additions_2026_10_25.py --refresh-unpublished`.
+The latest October 25 release adds two local configurations (Nemotron and
+KnowLine) and hosted Celeris 1.1 to the previous 49 routes, for 52 complete
+routes and 20 local configurations. `native_additions_evidence.py` reconciles
+sealed owner evidence offline; it does not run inference. `publish_native_additions_2026_10_25.py`
+builds the presentation, and `validate_native_additions_2026_10_25.py` checks
+coverage, timing, cost estimates and all 1,612 category cells. The historical
+49-route validator resolves the exact archived presentation with
+`native_additions_publication_history.py`.
+
+Earlier model records and timing rows remain exact. Accuracy is bound to the
+owner's private key and is not independently reproducible from public aggregates.
+Private endpoint addresses and raw choices are not exported. Rebuilding an
+unsealed local presentation from its sanitized capture uses
+`python3 scripts/publish_native_additions_2026_10_25.py --refresh-unpublished`.
 
 ## Historical source provenance
 

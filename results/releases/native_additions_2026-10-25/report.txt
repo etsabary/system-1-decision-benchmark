@@ -1,0 +1,51 @@
+## Celeris joins at 76.1%, while Fastino remains highest overall
+
+Celeris 1.1 Decision answered 1,021/1,342 correctly (76.1%), with 155 / 138 / 170 ms mean / median / p95. That is 26 more correct answers than local D3 Flash Artemis at 995 (74.1%), and 129 fewer than hosted Fastino GLiDE at 1,154 (86.0%). GPT-6 Sol without reasoning retains 1,143 (85.2%) and Mammoth-1 1,139 (84.9%). All earlier 49 model records retain their exact scores, durations, costs and dates. The 52-route comparison is an observed result on this developing bank, not a universal model ranking.
+
+## KnowLine is close to Perplexity, with a longer median than D3
+
+KnowLine 4B Gen5.5 scored 966/1,342 (72.0%), five fewer than local Perplexity Flash mixed4 at 971 (72.4%) and 29 fewer than D3 at 995. Its mean / median / p95 was 848 / 812 / 1,281 ms, compared with Perplexity 875 / 798 / 1,526 ms and D3 441 / 408 / 701 ms. D3 remains the highest-scoring of 20 completed local configurations. KnowLine scored 38/40 on comparisons, 40/43 on lookup/filtering and 48/52 on rule counterexamples; sequential procedures were 8/48, exact truth counting 30/71 and truth-teller consistency 35/74.
+
+## The Nemotron configuration trails the earlier Qwen-based H2O
+
+H2O Lightning Nemotron 4B scored 823/1,342 (61.3%), with 596 / 574 / 810 ms mean / median / p95. The earlier H2O-Lightning 4B route scored 892 (66.5%) with a 259 ms median: 69 more correct answers and a shorter median on the same user-reported GPU. Fovea scored 841 (62.7%) with a 558 ms median. Nemotron scored 40/43 on lookup/filtering and directed paths, 39/43 on current authoritative records and 46/51 on explicit preferences; sequential procedures were 12/48 and reference binding 16/50. Weights, precision and serving implementations differ, so the comparison does not isolate the backbone.
+
+## Celeris has strong lookup and path scores, with weaker state updates
+
+Celeris scored 41/43 on directed paths, 40/43 on lookup/filtering, 39/42 on temporal intervals and 46/50 on fault diagnosis. Sequential procedures scored 14/48, object swaps 24/52, truth-teller consistency 36/74 and exact truth counting 35/71. A high overall score can conceal weaknesses on repeated state updates. Every model retains the complete named category matrix. Six categories have eight questions each, so one answer changes their score by 12.5 percentage points.
+
+## Celeris cost is a tariff estimate, with all latency spikes retained
+
+The 481,334 reported input tokens at the captured USD 0.04/million tariff give an estimated $0.01925336 for 1,342 questions, or about $0.01434677 per 1,000. This is usage times tariff, not monetary receipts. Two admission probes cost an estimated $0.00001048 separately. Fresh HTTPS calls were serial, at least 0.25 seconds apart at dispatch; idle pacing is excluded from response durations. Four scored calls exceeded two seconds, with a maximum of 3,195 ms; all remain in the timing distribution. The cumulative median remained below the existing two-second gate.
+
+## The two new local models report one native label token
+
+Nemotron and KnowLine both returned typed choices and five-choice probability distributions without generated explanations. Their runtime reports one output token, retained as observed native label telemetry. Earlier 18 local configurations retain their recorded zero-token evidence. Nemotron also reports native probabilities, one fast pass and matching input/processed-input counts. KnowLine reports no truncation but no separate processed-input count. Its earlier admission block is preserved as history and resolved by the completed model-specific compatibility audit. Reported counters do not attest to all internal computation.
+
+## Matched questions, qualified precision and route-specific timing
+
+The two additions ran on the home LAN using Ollaya 0.17.0, cuda:0 and a user-reported RTX 2060 with 6 GB VRAM, deliberately chosen as an older, more accessible hardware setup. Nemotron used NF4 / FP16 compute / FP32 head; KnowLine used NF4 / FP16 compute / FP32 readout. KnowLine Gen5.5 upstream documentation describes Gen5 weights with read-twice input serving. Loading and four synthetic warm-ups per model are excluded. Start/end serving digests were stable; immutable upstream weight revisions were not reported. Hardware, software, quantization, dates and network paths limit causal speed comparisons.
+
+## Every new first attempt was usable; prior failures remain counted
+
+All 4,026 new text decisions were usable, with no scored retries, shortened inputs or accuracy-only stop. Across 20 local configurations there are 26,820 usable decisions and 20 unsuccessful first attempts. The existing six truncations and 14 HTTP failures remain in their original 1,342-question denominators. Coba, NLI and Julia remain separate partial or blocked routes outside the full-bank ranking. No completed run was repeated for publication.
+
+## Colors and cost boundaries retain their meaning
+
+Purple identifies local RTX 2060 runs, blue hosted decision models and pale yellow the four no-reasoning LLM references. Cell colors encode accuracy; the original green-to-red speed/cost bands are fixed. Local hardware, electricity and depreciation were not measured, so no zero-dollar operating cost is invented. Celeris and Fastino estimates are marked with a tilde. API identities and serving digests are provenance, not independent weight attestations.
+
+52 full-bank routes: 28 hosted decision models, 20 local decision/classifier configurations and four no-reasoning LLM references. Same 1,342 questions across 31 categories: 69,784 first attempts. All earlier 49 model records and the frozen bank/options remain unchanged.
+
+The two new local routes were measured October 25, 2026 (America/Toronto), sequentially on a user-reported NVIDIA RTX 2060 with 6 GB VRAM using Ollaya 0.17.0 and server-reported cuda:0. This older, more accessible hardware was chosen deliberately. CPU, system RAM, driver version and independent hardware identity were not captured. One model/request ran at a time over LAN HTTP. Four synthetic warm-ups per model and cold loading are separate; all 1,342 scored durations per route remain pooled. No proxy measurements are mixed into the full-bank results.
+
+Celeris used the direct native SystemOne endpoint with exact requested and returned model celeris-1.1-decision and x_celeris.explain=false. Catalogs captured before and after execution were identical. One fresh HTTPS request ran at a time, with at least 0.25 seconds between dispatch starts. Idle pacing is excluded; full request-to-response duration is included. All 1,342 responses reported zero output tokens and no explanations. Per-item processed input, truncation and hidden internal computation were not independently attested.
+
+The existing screen stops after at least 20 cases if cumulative median exceeds 2,000 ms, or pauses at 5% unusable output. All three new routes passed and completed; no accuracy-only stopping or scored retries. All first-attempt failures from earlier releases remain counted. Three partial/blocked local routes remain outside the complete ranking; KnowLine’s historical admission issue is now resolved and separately preserved.
+
+Nemotron and KnowLine report one output label token in native typed responses, with no generated explanations. Nemotron adds native probability/one-fast-pass and processed-input evidence; KnowLine does not report those same counters. The earlier zero-token local telemetry is unchanged. Sol, Sonnet, Opus and Qwen retain their exact reasoning settings, output contracts and verification limits. The task measures immediate five-choice decisions without tools or agentic iteration, not reasoning-enabled LLM performance.
+
+Celeris primary cost is reported input usage multiplied by the captured USD 0.04/million tariff, not an API monetary receipt. The two synthetic probes are separate. Local electricity/hardware costs remain unmeasured. Dates, precision, software, provider hardware/load and local/cloud network paths limit latency and architecture comparisons. No newer-GPU timing is inferred.
+
+Public answer-free timing and status evidence reproduces coverage, mean, median and p95. The three new scores and 31 category totals were reconciled offline against the existing private revision-bound key, with payload, source, identity and seal checks. Public aggregates cannot independently reproduce private-key scoring. No key, model-choice ledger, per-item correctness, credential or LAN address is exported.
+
+This is a developing bank with uneven category sizes and dependent variants. Six categories contain eight questions each. Existing audit qualifications and the separate 1,305-case author-development diagnostic retain their scope; no claim is made that every original item received independent external verification.

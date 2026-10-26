@@ -1,0 +1,58 @@
+{
+  "status": "VERIFIED_52_FULL_BANK_ROUTES",
+  "models": 52,
+  "local_models": 20,
+  "questions_each": 1342,
+  "first_attempts": 69784,
+  "new_models": 3,
+  "new_first_attempts": 4026,
+  "new_usable": 4026,
+  "new_unusable": 0,
+  "local_first_attempts": 26840,
+  "local_usable": 26820,
+  "local_unusable": 20,
+  "new_retries": 0,
+  "bank_sha256": "2db8cf8353f12b609d4df5330d94f53390c9c2919677dc793df4bb2d3cff7076",
+  "scoring_authority_sha256": [
+    "33a04e1b7ac8b3a3020423a37781e1ca5a3939081c6d350fd6a532a00bad77c2",
+    "3b41037fba1cb02f42d0044a0dd758f1cc588de86fe0d2a5f90b142a41f353bb",
+    "471b808d20d9be2608ef60fddbf8526bf9015af3d6a4d976b7a2b20843ad46e1",
+    "4ca81b991c4002e70aead0d56b9f53c21f1e70d9b1fef1a4a1f2e32f32d5b56c",
+    "4cd7c58fe4be67dadb3644fc54d46d8e4a40aaa8ed73c2005b6dbe52a4341a36",
+    "8376ddce67cd9bb5f62d685d0309b4de5706f091084fbe72aed7dc91d1bf4dec",
+    "aac4b2c2ece0f6cf37b81794031d93a8c3f53d032da1eb127d14f62be34781a6",
+    "b5dba10a8c9fbcbd0fc79f62e11a9a08594fdc187cf3ead7b5bb872a43bf1b5f",
+    "bb7ff1f81ac1b35bb93c25a5ac7dce48a0d86ff48cda711304b9932864c1bc3a",
+    "c99db093ae3517dcacc03319f00a461acbfd19e0eb22cb0c5a5dd636f1ee9271",
+    "ca5aa924ee10efe60bca09e02bb7fbb68740d12b243ca7bd619ceb5fc952c7bb",
+    "dbac830fe3cad5f469f950fe2c3b1c2e575cb6d00c2bdaec4b82c46f41b0b8ab",
+    "f6f685ea96ebd626804931278e03256bd502f0dc811a8694d9417a4ad5b64c01",
+    "fbe6f2b49ad7c99416fb45dc05b8b9db37a3850017d7bfef81644d09afe9bcd4"
+  ],
+  "source_bindings": {
+    "local_h2o_lightning_nemotron_4b": {
+      "seal_sha256": "808a1b9c3d52ba2542fae535e4c0f31dc718f3341967cf925857ab7f23fb920d",
+      "audit_sha256": "d8d6382f5511faaf3d9e10b56c300cc3e96e1ffb19b89f90e82c76f54afe2920",
+      "report_sha256": "0c3f01016c4c861957f0fcac567b035c443442ce7f0744b50bd30862f181dbaf",
+      "execution_source_sha256": "33c09c57ef9cff15d1a750741028153c3eb7dea5ffcb1cd37c2f291a09b6e285"
+    },
+    "local_knowline_4b_gen5_5": {
+      "seal_sha256": "5e7a0ba7c2cbc8a388b7bc28301d2c443f45874c3d865125ccf7a1a8ff8eb40a",
+      "audit_sha256": "fb803328f297bff0524fc89e46b9eb1ba96beaf33c0e1a7ee73090e2cb195714",
+      "report_sha256": "118be78861c1907d44d84380f911acfdc7767fe8822955858c7941eb3f7e3edb",
+      "execution_source_sha256": "5589d99f5d3f79942ec7d981f4d49e1909dbbb26da6412568cb88fa82b4fb02d"
+    },
+    "celeris11_decision": {
+      "seal_sha256": "43c68994175c9ac45ab55f272198a088a8118727781613f2f472547deeb2cd91",
+      "audit_sha256": "ea7a0788620dde1c1ea97531eddf9bee4e841792c457f985b80d4431c3934a2e",
+      "report_sha256": "e83d861e20bcb330498889a0a1dfd6c34439dc2a654c5d13bd381ab1f2f8dd06",
+      "execution_source_sha256": "c7cf549c2dea20858674ca44043f945feb8041a182a42c116d9966917221e395"
+    }
+  },
+  "prior_statistics_sha256": "f234d3bb34f1afb14644e75edcf84019e0e896cccc89f9047478f3bf0c9dfab3",
+  "earlier_49_records_unchanged": true,
+  "validation": "All 4026 new packets rebuilt; sealed source/response identities, offline key scores, 31 categories and timing reconciled. No inference replay.",
+  "privacy": "Aggregates and answer-free timing bindings; no key, model choices, per-item correctness, credentials or LAN address",
+  "public_scoring_limit": "Public checks reproduce coverage, timing and aggregate arithmetic; private-key scoring requires owner evidence",
+  "cost": "Celeris usage-times-tariff estimate; local hardware/electricity unmeasured"
+}
