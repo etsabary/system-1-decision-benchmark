@@ -1,3 +1,7 @@
+# October 28 local M2 additions
+
+Liquid d1-2B and d1-Omni-2B each returned 1,342 usable first-attempt decisions with zero reported output tokens. The full comparison contains 56 routes. Image speed screens stopped separately after 20 questions each and do not enter the 200-question ranking.
+
 # Delivered decisions and failures
 
 54 routes retain the 1,342-question first-attempt denominator. The local batch contains 26,820 usable decisions and 20 unsuccessful responses; no scored retries. Partial or blocked routes are documented separately and not ranked.

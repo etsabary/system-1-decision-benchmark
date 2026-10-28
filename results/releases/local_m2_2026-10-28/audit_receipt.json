@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "new_text_runs": 2,
+  "new_text_attempts": 2684,
+  "new_image_screens": 2,
+  "previous_54_models_unchanged": true,
+  "original_bank_sha256": "2db8cf8353f12b609d4df5330d94f53390c9c2919677dc793df4bb2d3cff7076",
+  "private_audit_sha256": "10876f095805c7910115f337789223519a7252b1c28810a6a949bf3de82aab7d",
+  "text_keys_reconciled": true,
+  "category_counts_reconciled": true,
+  "scored_retries": 0,
+  "privacy": "Aggregate scores and answer-free timing, not answer keys or per-item choices",
+  "scoring_limit": "Correctness reconciled privately; public exports independently verify timing, coverage and aggregates."
+}

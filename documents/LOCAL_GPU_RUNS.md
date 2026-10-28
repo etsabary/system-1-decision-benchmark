@@ -1,3 +1,7 @@
+# October 28: Apple M2 local setup
+
+Two Liquid models were tested on an Apple M2 Mac with 16 GB unified memory, Ollama 0.40.12, MLX/Metal and BF16. d1-2B scored 795/1,342 (59.2%), median 898 ms, p95 1,848 ms. d1-Omni-2B scored 814/1,342 (60.7%), median 717 ms, p95 1,406 ms. One model and request ran at a time; loading and probes were excluded. Hardware and electricity costs were not measured. The differing hardware, runtime and dates affect comparisons with the RTX 2060 runs below. [Full comparison](https://etsabary.github.io/system-1-decision-benchmark/report.html).
+
 # Local GPU runs: setup and model profiles
 
 20 complete runs on the unchanged 1,342-question bank, measured October 25, 2026. [Interactive local results](https://etsabary.github.io/system-1-decision-benchmark/report.html#local-results).

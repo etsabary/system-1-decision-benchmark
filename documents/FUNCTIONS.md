@@ -1,10 +1,10 @@
-# All 31 categories: 54 full-bank routes
+# All 31 categories: 56 full-bank routes
 
-[Color-coded, named tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions). Purple model-name badges identify local RTX 2060 runs; cell colors always encode accuracy.
+[Color-coded, named tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions). Purple identifies local RTX 2060 runs; magenta identifies local Apple M2 runs. Cell colors represent accuracy.
 
 ## Category scores and explanations
 
-The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 54 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
+The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 56 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
 
 [Open the color-coded, selectable tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions), with a pinned model-name column and individual category rankings.
 
@@ -21,9 +21,9 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | All, some, none and sets (F05) | 49 | Track all, some, none and overlapping groups Example: All teal tokens are marked; no marked token is blank; which relation follows? |
 | Enough evidence or a conflict? (F11) | 41 | Determine whether facts force an answer or contradict one another Example: Is a proposed arrangement determined, impossible or still underdetermined? |
 
-![Rules and evidence: all 54 routes, named categories, correct counts and percentages](../results/releases/native_updates_2026-10-27/rules.png)
+![Rules and evidence: all 56 routes, named categories, correct counts and percentages](../results/releases/local_m2_2026-10-28/rules.png)
 
-[Full-size SVG](../results/releases/native_updates_2026-10-27/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
+[Full-size SVG](../results/releases/local_m2_2026-10-28/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
 
 | Model | Lookup and filtering | Following if-then rules | Checking required conditions | Combining AND, OR and NOT | All, some, none and sets | Enough evidence or a conflict? |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -64,7 +64,9 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | Fovea 4B | 40/43 (93.0%) | 33/46 (71.7%) | 35/52 (67.3%) | 36/54 (66.7%) | 38/49 (77.6%) | 32/41 (78.0%) |
 | H2O Lightning Nemotron 4B | 40/43 (93.0%) | 39/46 (84.8%) | 24/52 (46.2%) | 39/54 (72.2%) | 36/49 (73.5%) | 23/41 (56.1%) |
 | Kev 4B | 39/43 (90.7%) | 36/46 (78.3%) | 33/52 (63.5%) | 34/54 (63.0%) | 42/49 (85.7%) | 30/41 (73.2%) |
+| Liquid d1-Omni-2B · M2 | 39/43 (90.7%) | 34/46 (73.9%) | 25/52 (48.1%) | 38/54 (70.4%) | 40/49 (81.6%) | 24/41 (58.5%) |
 | Jebadiah 4B | 40/43 (93.0%) | 34/46 (73.9%) | 25/52 (48.1%) | 36/54 (66.7%) | 41/49 (83.7%) | 23/41 (56.1%) |
+| Liquid d1-2B · M2 | 37/43 (86.0%) | 31/46 (67.4%) | 19/52 (36.5%) | 30/54 (55.6%) | 33/49 (67.3%) | 20/41 (48.8%) |
 | JevK5 4B | 41/43 (95.3%) | 33/46 (71.7%) | 27/52 (51.9%) | 33/54 (61.1%) | 40/49 (81.6%) | 27/41 (65.9%) |
 | Luna 6 Decisions | 39/43 (90.7%) | 27/46 (58.7%) | 15/52 (28.8%) | 34/54 (63.0%) | 38/49 (77.6%) | 22/41 (53.7%) |
 | Tev1 4B experimental (OpenRouter native adapter) | 38/43 (88.4%) | 25/46 (54.3%) | 29/52 (55.8%) | 33/54 (61.1%) | 37/49 (75.5%) | 23/41 (56.1%) |
@@ -94,9 +96,9 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Comparing time intervals (F14) | 42 | Compare starts, ends and overlapping periods Example: Which interval overlaps a specified event without containing it? |
 | Ranking with tie-break rules (F22) | 51 | Rank candidates using explicit tie-break rules Example: Rank by priority first, then age when priorities tie. |
 
-![Ordering, schedules and assignments: all 54 routes, named categories, correct counts and percentages](../results/releases/native_updates_2026-10-27/ordering.png)
+![Ordering, schedules and assignments: all 56 routes, named categories, correct counts and percentages](../results/releases/local_m2_2026-10-28/ordering.png)
 
-[Full-size SVG](../results/releases/native_updates_2026-10-27/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
+[Full-size SVG](../results/releases/local_m2_2026-10-28/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
 
 | Model | Ordering by comparisons | Scheduling under constraints | One-to-one assignments | Comparing time intervals | Ranking with tie-break rules |
 | --- | --- | --- | --- | --- | --- |
@@ -137,7 +139,9 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Fovea 4B | 34/40 (85.0%) | 37/76 (48.7%) | 50/67 (74.6%) | 20/42 (47.6%) | 46/51 (90.2%) |
 | H2O Lightning Nemotron 4B | 30/40 (75.0%) | 44/76 (57.9%) | 33/67 (49.3%) | 24/42 (57.1%) | 46/51 (90.2%) |
 | Kev 4B | 35/40 (87.5%) | 37/76 (48.7%) | 45/67 (67.2%) | 31/42 (73.8%) | 48/51 (94.1%) |
+| Liquid d1-Omni-2B · M2 | 37/40 (92.5%) | 42/76 (55.3%) | 47/67 (70.1%) | 19/42 (45.2%) | 40/51 (78.4%) |
 | Jebadiah 4B | 32/40 (80.0%) | 34/76 (44.7%) | 45/67 (67.2%) | 26/42 (61.9%) | 45/51 (88.2%) |
+| Liquid d1-2B · M2 | 37/40 (92.5%) | 50/76 (65.8%) | 40/67 (59.7%) | 21/42 (50.0%) | 46/51 (90.2%) |
 | JevK5 4B | 33/40 (82.5%) | 31/76 (40.8%) | 48/67 (71.6%) | 21/42 (50.0%) | 40/51 (78.4%) |
 | Luna 6 Decisions | 35/40 (87.5%) | 28/76 (36.8%) | 36/67 (53.7%) | 25/42 (59.5%) | 44/51 (86.3%) |
 | Tev1 4B experimental (OpenRouter native adapter) | 32/40 (80.0%) | 28/76 (36.8%) | 40/67 (59.7%) | 27/42 (64.3%) | 47/51 (92.2%) |
@@ -169,9 +173,9 @@ Can the model count true statements, update a changing situation and separate wh
 | Resolving names and references (F16) | 50 | Resolve chains of names, roles and references Example: Identify the mentor of the colleague named in a nested description. |
 | Tracking what others know (F17) | 50 | Distinguish what different observers witnessed Example: An object moves while one observer is absent; where will that observer look? |
 
-![Claims, changing state and perspectives: all 54 routes, named categories, correct counts and percentages](../results/releases/native_updates_2026-10-27/state.png)
+![Claims, changing state and perspectives: all 56 routes, named categories, correct counts and percentages](../results/releases/local_m2_2026-10-28/state.png)
 
-[Full-size SVG](../results/releases/native_updates_2026-10-27/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
+[Full-size SVG](../results/releases/local_m2_2026-10-28/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
 
 | Model | Counting exactly true claims | Truth-tellers and liars | Tracking swaps | Following step-by-step procedures | Tracking position and direction | Resolving names and references | Tracking what others know |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -212,7 +216,9 @@ Can the model count true statements, update a changing situation and separate wh
 | Fovea 4B | 20/71 (28.2%) | 37/74 (50.0%) | 18/52 (34.6%) | 10/48 (20.8%) | 20/49 (40.8%) | 19/50 (38.0%) | 37/50 (74.0%) |
 | H2O Lightning Nemotron 4B | 26/71 (36.6%) | 26/74 (35.1%) | 24/52 (46.2%) | 12/48 (25.0%) | 21/49 (42.9%) | 16/50 (32.0%) | 37/50 (74.0%) |
 | Kev 4B | 21/71 (29.6%) | 33/74 (44.6%) | 25/52 (48.1%) | 11/48 (22.9%) | 26/49 (53.1%) | 19/50 (38.0%) | 34/50 (68.0%) |
+| Liquid d1-Omni-2B · M2 | 28/71 (39.4%) | 31/74 (41.9%) | 21/52 (40.4%) | 13/48 (27.1%) | 16/49 (32.7%) | 31/50 (62.0%) | 34/50 (68.0%) |
 | Jebadiah 4B | 15/71 (21.1%) | 38/74 (51.4%) | 27/52 (51.9%) | 11/48 (22.9%) | 30/49 (61.2%) | 19/50 (38.0%) | 37/50 (74.0%) |
+| Liquid d1-2B · M2 | 27/71 (38.0%) | 33/74 (44.6%) | 24/52 (46.2%) | 10/48 (20.8%) | 20/49 (40.8%) | 28/50 (56.0%) | 35/50 (70.0%) |
 | JevK5 4B | 22/71 (31.0%) | 32/74 (43.2%) | 22/52 (42.3%) | 14/48 (29.2%) | 25/49 (51.0%) | 19/50 (38.0%) | 30/50 (60.0%) |
 | Luna 6 Decisions | 19/71 (26.8%) | 23/74 (31.1%) | 23/52 (44.2%) | 11/48 (22.9%) | 22/49 (44.9%) | 17/50 (34.0%) | 32/50 (64.0%) |
 | Tev1 4B experimental (OpenRouter native adapter) | 16/71 (22.5%) | 25/74 (33.8%) | 20/52 (38.5%) | 15/48 (31.2%) | 19/49 (38.8%) | 19/50 (38.0%) | 31/50 (62.0%) |
@@ -244,9 +250,9 @@ Which actions work, which consequences change, and which rule or source controls
 | Choosing authoritative current records (F24) | 43 | Select the valid source rather than an outdated conflicting one Example: Two records disagree; which controls under the stated authority and date policy? |
 | Diagnosing faults from evidence (F25) | 50 | Match observed symptoms to explicit fault rules Example: Which fault is consistent with the supplied test results? |
 
-![Causes, plans and exceptions: all 54 routes, named categories, correct counts and percentages](../results/releases/native_updates_2026-10-27/causes.png)
+![Causes, plans and exceptions: all 56 routes, named categories, correct counts and percentages](../results/releases/local_m2_2026-10-28/causes.png)
 
-[Full-size SVG](../results/releases/native_updates_2026-10-27/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
+[Full-size SVG](../results/releases/local_m2_2026-10-28/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
 
 | Model | Changing a cause | Exceptions and priority rules | Planning valid action sequences | Following directed connections | Finding rule violations | Choosing authoritative current records | Diagnosing faults from evidence |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -287,7 +293,9 @@ Which actions work, which consequences change, and which rule or source controls
 | Fovea 4B | 22/50 (44.0%) | 50/58 (86.2%) | 26/43 (60.5%) | 40/43 (93.0%) | 40/52 (76.9%) | 42/43 (97.7%) | 43/50 (86.0%) |
 | H2O Lightning Nemotron 4B | 18/50 (36.0%) | 47/58 (81.0%) | 30/43 (69.8%) | 40/43 (93.0%) | 43/52 (82.7%) | 39/43 (90.7%) | 40/50 (80.0%) |
 | Kev 4B | 29/50 (58.0%) | 39/58 (67.2%) | 24/43 (55.8%) | 40/43 (93.0%) | 37/52 (71.2%) | 20/43 (46.5%) | 36/50 (72.0%) |
+| Liquid d1-Omni-2B · M2 | 22/50 (44.0%) | 48/58 (82.8%) | 24/43 (55.8%) | 39/43 (90.7%) | 41/52 (78.8%) | 22/43 (51.2%) | 41/50 (82.0%) |
 | Jebadiah 4B | 23/50 (46.0%) | 49/58 (84.5%) | 34/43 (79.1%) | 39/43 (90.7%) | 34/52 (65.4%) | 17/43 (39.5%) | 40/50 (80.0%) |
+| Liquid d1-2B · M2 | 21/50 (42.0%) | 29/58 (50.0%) | 28/43 (65.1%) | 39/43 (90.7%) | 40/52 (76.9%) | 34/43 (79.1%) | 44/50 (88.0%) |
 | JevK5 4B | 15/50 (30.0%) | 41/58 (70.7%) | 24/43 (55.8%) | 41/43 (95.3%) | 41/52 (78.8%) | 27/43 (62.8%) | 33/50 (66.0%) |
 | Luna 6 Decisions | 21/50 (42.0%) | 47/58 (81.0%) | 25/43 (58.1%) | 39/43 (90.7%) | 44/52 (84.6%) | 36/43 (83.7%) | 34/50 (68.0%) |
 | Tev1 4B experimental (OpenRouter native adapter) | 20/50 (40.0%) | 42/58 (72.4%) | 28/43 (65.1%) | 35/43 (81.4%) | 39/52 (75.0%) | 29/43 (67.4%) | 39/50 (78.0%) |
@@ -320,9 +328,9 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Checking overlapping operations (F30) | 8 | Decide whether overlapping operations and their reported results can fit a permitted one-at-a-time order that respects the specified timing and object rules. Example: Two processes read and change the same stored value. Could their reported results fit an allowed one-at-a-time order? |
 | Detecting secret-information leaks (F31) | 8 | Check whether changing a protected secret can change an observable result in a way the stated policy forbids. Example: If public inputs stay the same, could public output distinguish two secret values that the policy says must remain indistinguishable? |
 
-![Risk, strategy and system behavior: all 54 routes, named categories, correct counts and percentages](../results/releases/native_updates_2026-10-27/uncertainty.png)
+![Risk, strategy and system behavior: all 56 routes, named categories, correct counts and percentages](../results/releases/local_m2_2026-10-28/uncertainty.png)
 
-[Full-size SVG](../results/releases/native_updates_2026-10-27/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
+[Full-size SVG](../results/releases/local_m2_2026-10-28/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
 
 | Model | Risk with supplied probabilities | Is extra information worth its cost? | Worst-case choices without probabilities | Anticipating another decision-maker | Checking overlapping operations | Detecting secret-information leaks |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -363,7 +371,9 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Fovea 4B | 1/8 (12.5%) | 2/8 (25.0%) | 1/8 (12.5%) | 4/8 (50.0%) | 4/8 (50.0%) | 4/8 (50.0%) |
 | H2O Lightning Nemotron 4B | 5/8 (62.5%) | 5/8 (62.5%) | 6/8 (75.0%) | 4/8 (50.0%) | 3/8 (37.5%) | 3/8 (37.5%) |
 | Kev 4B | 3/8 (37.5%) | 1/8 (12.5%) | 4/8 (50.0%) | 3/8 (37.5%) | 3/8 (37.5%) | 4/8 (50.0%) |
+| Liquid d1-Omni-2B · M2 | 4/8 (50.0%) | 1/8 (12.5%) | 2/8 (25.0%) | 3/8 (37.5%) | 5/8 (62.5%) | 3/8 (37.5%) |
 | Jebadiah 4B | 4/8 (50.0%) | 1/8 (12.5%) | 1/8 (12.5%) | 2/8 (25.0%) | 2/8 (25.0%) | 4/8 (50.0%) |
+| Liquid d1-2B · M2 | 2/8 (25.0%) | 1/8 (12.5%) | 4/8 (50.0%) | 4/8 (50.0%) | 4/8 (50.0%) | 4/8 (50.0%) |
 | JevK5 4B | 4/8 (50.0%) | 3/8 (37.5%) | 3/8 (37.5%) | 3/8 (37.5%) | 3/8 (37.5%) | 4/8 (50.0%) |
 | Luna 6 Decisions | 5/8 (62.5%) | 4/8 (50.0%) | 4/8 (50.0%) | 2/8 (25.0%) | 3/8 (37.5%) | 4/8 (50.0%) |
 | Tev1 4B experimental (OpenRouter native adapter) | 3/8 (37.5%) | 0/8 (0.0%) | 2/8 (25.0%) | 3/8 (37.5%) | 3/8 (37.5%) | 4/8 (50.0%) |
@@ -381,4 +391,4 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Decima Agent | 2/8 (25.0%) | 2/8 (25.0%) | 2/8 (25.0%) | 2/8 (25.0%) | 4/8 (50.0%) | 2/8 (25.0%) |
 | CLM 8B | 3/8 (37.5%) | 2/8 (25.0%) | 1/8 (12.5%) | 2/8 (25.0%) | 2/8 (25.0%) | 1/8 (12.5%) |
 
-Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](../results/releases/native_updates_2026-10-27/category_scores.csv).
+Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](../results/releases/local_m2_2026-10-28/category_scores.csv).

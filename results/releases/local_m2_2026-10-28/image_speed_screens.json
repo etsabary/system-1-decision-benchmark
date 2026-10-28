@@ -1,0 +1,24 @@
+[
+  {
+    "model": "Liquid d1-2B · M2",
+    "n": 20,
+    "correct": 9,
+    "accuracy": 0.45,
+    "mean_ms": 5185.133898106869,
+    "median_ms": 4709.15372952004,
+    "p95_ms": 9041.408046521246,
+    "state": "stopped_slow",
+    "usable": 20
+  },
+  {
+    "model": "Liquid d1-Omni-2B · M2",
+    "n": 20,
+    "correct": 13,
+    "accuracy": 0.65,
+    "mean_ms": 4139.674800098874,
+    "median_ms": 3322.789958503563,
+    "p95_ms": 7281.9002795033175,
+    "state": "stopped_slow",
+    "usable": 20
+  }
+]

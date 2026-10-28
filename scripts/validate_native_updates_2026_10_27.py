@@ -38,7 +38,8 @@ def validate():
     assert s['models']['liquid11_decision']['admission_cost_usd']=='0.0000024'
     for name in ('local_models.json','local_model_metadata.json','local_timing_evidence.csv','screened_routes.json','historical_admission_resolutions.json','hosted_addition_timing_evidence.csv'):
         assert (b.DEST/name).read_bytes()==(b.PREVIOUS/name).read_bytes()
-    for path in (b.DEST/'report.html',b.ROOT/'docs/report.html'):
+    # The live page advances; the dated report remains the validation authority.
+    for path in (b.DEST/'report.html',):
         text=path.read_text();page=Page();page.feed(text)
         assert page.summary==s['ranked_model_ids'] and len(page.cells)==1674
         for c in page.cells:

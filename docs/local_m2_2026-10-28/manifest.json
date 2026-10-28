@@ -1,0 +1,30 @@
+{
+  "version": "m2-local-20261028-v1",
+  "models": 56,
+  "local_models": 22,
+  "questions_each": 1342,
+  "prior_statistics_sha256": "77d678ebbca8b6673fab8c9bf8ad6e582ce4cf54c05d0268a0347f9425e5f7cc",
+  "artifacts": {
+    "accuracy_speed_cost.png": "ff55091e40215a2090fc87e11fb4104d81a7ac97a1d9fa290398667e66e136bd",
+    "accuracy_speed_cost.svg": "c2d1532a25abd3629d990a52ca8be6932e520b05dab2aa70fda83c83d2bb5f41",
+    "analysis.md": "ef5c31d5e28715a4d3997ac1f52b77b16c6d9e4c878ec44214d7d026927ad766",
+    "audit_receipt.json": "447657a9784336b8fb7dcbf53e734dc2dac7bbdf30e234342eaa747c6baa8a41",
+    "category_guide.json": "183f7fa8ace26704616423f307e0d8f0acb923a6b29c78e837ebf1ddaa7be823",
+    "category_scores.csv": "1c3a70514677bba2950eba3b5fe289a488b236eba137644e0ed9cbc85845ea23",
+    "causes.png": "109c330a1ae2d0b8c4ff466adc427b512790f3966c6b4214a683a6835bbaa441",
+    "causes.svg": "71009ea45e3e27d887f914772844e92fea7a22b714548bf8b8e364b00fb493bd",
+    "image_speed_screens.json": "da9b38ce38c4263755243e05ffe955bf7672de450e8fb9f3921a6e5625981313",
+    "m2_timing_evidence.csv": "c25208776f39d7243452e907298a036cd7f1a2ff46c9e7d1dbb82b5c0de8a14b",
+    "model_statistics.csv": "fc025a3805a336496b403d1dacc6b6142b8f4dff1a5750b1bab87a396d0c5e24",
+    "ordering.png": "e5f80476f4d3eeb0b119f6c6a3614667d756dca758bb1810e68821d0c93bc6ff",
+    "ordering.svg": "624fcad8a83d9197fd56d549ea2ed6625537f3a8a0cbaf399931b6de61f3ebdb",
+    "report.html": "a3594743dc12825d8d557db9d986e4c935ec2e28980d49da4c509f455e4ffc50",
+    "rules.png": "cf0b0fb300be2f40a73f140166736525128ecd9766935c6fbe67f4c5ca40c79e",
+    "rules.svg": "47e68dc8eca910b87df4353da37681769e4a5e4c395bceb0b2036aec3df7d437",
+    "state.png": "b5c48eba6e72c95f1ff70fc81c1ef4b3ecd8f16c5190d689ee60584d037cff1d",
+    "state.svg": "7869d6c0157f79e2042e55cedccf908773046a902543e90c2a0cbedec445441e",
+    "statistics.json": "bda04c7a2ed937e87c79d4e64331b681c64ebe56263d2284eefd735c0e214411",
+    "uncertainty.png": "62478d5bf7e25e9f23bc38f0a09020e71281e0e33ffd9fc27cf90b584a89fceb",
+    "uncertainty.svg": "79d990a242cf9d669b0deabcfa20bfa1e65f782c8314ebba958c5ea21394469b"
+  }
+}

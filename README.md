@@ -1,16 +1,14 @@
 # System 1 Decision Benchmark
 
-30 hosted decision models, **20 local decision/classifier models** and four no-reasoning LLM references on the same **1,342 text questions across 31 categories**. Updated October 27, 2026.
+30 hosted decision models, **22 local configurations** and four no-reasoning LLM references on the same **1,342 text questions across 31 categories**. Updated October 28, 2026.
 
-**Fastino GLiDE remains highest overall at 86.0%. D3 Flash Artemis 9B leads the local batch at 74.1%, with a 408 ms median on an RTX 2060 with 6 GB VRAM.**
+**Fastino GLiDE leads overall at 86.0%. D3 Flash Artemis leads the local configurations at 74.1%, tested on an RTX 2060.**
 
-[Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [Local GPU profiles](https://etsabary.github.io/system-1-decision-benchmark/report.html#local-results) · [Named, color-coded categories](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions)
+[Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [Named categories](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions)
 
-![54 routes: local models in purple](results/releases/native_updates_2026-10-27/accuracy_speed_cost.png)
+![56 routes, local RTX 2060 in purple and Apple M2 in magenta](results/releases/local_m2_2026-10-28/accuracy_speed_cost.png)
 
-Purple marks **Local · RTX 2060 · 6 GB**. Blue marks hosted decision models; pale yellow marks LLM references. Accuracy cell colors and speed/cost bands keep their existing meaning. Every ranked row contains 1,342 first attempts. Local loading/warm-up calls are excluded; hosted timing paths and dates remain unchanged. Local hardware/electricity cost is unmeasured, rather than plotted as $0.
-
-**The local tests deliberately use an older RTX 2060 with 6 GB VRAM, chosen to represent a more accessible hardware setup that readers may already have.** D3 leads all 20 tested local configurations; its measured latency is specific to this setup.
+Blue: hosted decisions; purple: local RTX 2060; magenta: local Apple M2; pale yellow: LLM references. Accuracy cells and speed/cost colors retain their fixed scales.
 
 ## Complete comparison
 
@@ -36,60 +34,57 @@ Purple marks **Local · RTX 2060 · 6 GB**. Blue marks hosted decision models; p
 | Celeris 1.1 Decision | Hosted decision | 1021/1342 | 76.1% | 155 ms | 138 ms | 170 ms | ~$0.014347 | ~$0.019253 |
 | Mercury Decide | Hosted decision | 1017/1342 | 75.8% | — | 238 ms | 388 ms | $0.006956 | $0.009334 |
 | Elephant-1 | Hosted decision | 1004/1342 | 74.8% | 164 ms | 139 ms | 272 ms | Promotional free access* | Promotional free access* |
-| D3 Flash Artemis 9B | 🟣 Local | 995/1342 | 74.1% | 441 ms | 408 ms | 701 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Perplexity Flash v1.2 mixed4 | 🟣 Local | 971/1342 | 72.4% | 875 ms | 798 ms | 1526 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| D3 Flash Artemis 9B | 🟣 RTX 2060 | 995/1342 | 74.1% | 441 ms | 408 ms | 701 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Perplexity Flash v1.2 mixed4 | 🟣 RTX 2060 | 971/1342 | 72.4% | 875 ms | 798 ms | 1526 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Qwen3.8-Max — none, Hyper Charm | 🟡 LLM reference | 967/1342 | 72.1% | — | 1191 ms | 1731 ms | $0.614821 + ? | $0.825090 + ? quota |
-| KnowLine 4B Gen5.5 | 🟣 Local | 966/1342 | 72.0% | 848 ms | 812 ms | 1281 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| KnowLine 4B Gen5.5 | 🟣 RTX 2060 | 966/1342 | 72.0% | 848 ms | 812 ms | 1281 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Liquid d1 | Hosted decision | 965/1342 | 71.9% | — | 206 ms | 827 ms | $0.005773 | $0.007748 |
 | Cloudflare Clef | Hosted decision | 936/1342 | 69.7% | — | 268 ms | 417 ms | $0.017594 | $0.023611 |
 | Perplexity Decider Flash v1.2 | Hosted decision | 923/1342 | 68.8% | — | 159 ms | 231 ms | $0.003406 + ? | $0.004570 + ? |
 | Microsoft-Decision-1 | Hosted decision | 921/1342 | 68.6% | — | 283 ms | 566 ms | $0.012237 | $0.016422 |
 | Drex v2.0 | Hosted decision | 915/1342 | 68.2% | — | 232 ms | 755 ms | $0.016661 + ? | $0.022359 + ? |
-| H2O-Lightning 4B | 🟣 Local | 892/1342 | 66.5% | 289 ms | 259 ms | 459 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| H2O-Lightning 4B | 🟣 RTX 2060 | 892/1342 | 66.5% | 289 ms | 259 ms | 459 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Cloudflare Clef Flash | Hosted decision | 860/1342 | 64.1% | — | 245 ms | 353 ms | $0.008797 | $0.011806 |
 | Cloudflare Clef Omni | Hosted decision | 860/1342 | 64.1% | — | 241 ms | 400 ms | $0.061511 + ? | $0.082547 + ? |
-| Jebadiah 9B v2.1 | 🟣 Local | 855/1342 | 63.7% | 440 ms | 405 ms | 694 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Jebadiah 9B v2.1 | 🟣 RTX 2060 | 855/1342 | 63.7% | 440 ms | 405 ms | 694 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Drex v1.5 | Hosted decision | 853/1342 | 63.6% | — | 203 ms | 649 ms | $0.011160 | $0.014976 |
-| Fovea 4B | 🟣 Local | 841/1342 | 62.7% | 588 ms | 558 ms | 779 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| H2O Lightning Nemotron 4B | 🟣 Local | 823/1342 | 61.3% | 596 ms | 574 ms | 810 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Fovea 4B | 🟣 RTX 2060 | 841/1342 | 62.7% | 588 ms | 558 ms | 779 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| H2O Lightning Nemotron 4B | 🟣 RTX 2060 | 823/1342 | 61.3% | 596 ms | 574 ms | 810 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Kev 4B | Hosted decision | 822/1342 | 61.3% | — | 225 ms | 377 ms | $0.011718 | $0.015725 |
-| Jebadiah 4B | 🟣 Local | 808/1342 | 60.2% | 298 ms | 270 ms | 479 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| JevK5 4B | 🟣 Local | 780/1342 | 58.1% | 323 ms | 296 ms | 525 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Liquid d1-Omni-2B · M2 | 🟣 Apple M2 | 814/1342 | 60.7% | 797 ms | 717 ms | 1406 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Jebadiah 4B | 🟣 RTX 2060 | 808/1342 | 60.2% | 298 ms | 270 ms | 479 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Liquid d1-2B · M2 | 🟣 Apple M2 | 795/1342 | 59.2% | 989 ms | 898 ms | 1848 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| JevK5 4B | 🟣 RTX 2060 | 780/1342 | 58.1% | 323 ms | 296 ms | 525 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Luna 6 Decisions | Hosted decision | 758/1342 | 56.5% | — | 254 ms | 527 ms | $0.035840 + ? | $0.048097 + ? |
 | Tev1 4B experimental (OpenRouter native adapter) | Hosted decision | 751/1342 | 56.0% | — | 198 ms | 253 ms | $0.015657 | $0.021011 |
-| Lev 4B | 🟣 Local | 749/1342 | 55.8% | 570 ms | 532 ms | 914 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Credence E4B | 🟣 Local | 741/1342 | 55.2% | 315 ms | 284 ms | 464 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Strands Decider 2B | 🟣 Local | 710/1342 | 52.9% | 435 ms | 403 ms | 703 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Snap 2B | 🟣 Local | 574/1342 | 42.8% | 157 ms | 136 ms | 229 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Lev 4B | 🟣 RTX 2060 | 749/1342 | 55.8% | 570 ms | 532 ms | 914 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Credence E4B | 🟣 RTX 2060 | 741/1342 | 55.2% | 315 ms | 284 ms | 464 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Strands Decider 2B | 🟣 RTX 2060 | 710/1342 | 52.9% | 435 ms | 403 ms | 703 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Snap 2B | 🟣 RTX 2060 | 574/1342 | 42.8% | 157 ms | 136 ms | 229 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | ScaleDown Classify-1 | Hosted decision | 550/1342 | 41.0% | — | 268 ms | 362 ms | $0.021388 | $0.028703 |
-| Mapika Decider 2B | 🟣 Local | 547/1342 | 40.8% | 381 ms | 371 ms | 613 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Mapika Decider 2B | 🟣 RTX 2060 | 547/1342 | 40.8% | 381 ms | 371 ms | 613 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Solar Decide Flash | Hosted decision | 538/1342 | 40.1% | — | 540 ms | 747 ms | $0.030203 + ? | $0.040532 + ? |
-| Sura 2B | 🟣 Local | 428/1342 | 31.9% | 436 ms | 425 ms | 672 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| GLiClass | 🟣 Local | 393/1342 | 29.3% | 92 ms | 79 ms | 178 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Von | 🟣 Local | 331/1342 | 24.7% | 96 ms | 77 ms | 174 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Laya Typed Decisions | 🟣 Local | 322/1342 | 24.0% | 53 ms | 46 ms | 95 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Decima Agent | 🟣 Local | 313/1342 | 23.3% | 81 ms | 71 ms | 138 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| CLM 8B | 🟣 Local | 304/1342 | 22.7% | 324 ms | 282 ms | 726 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Sura 2B | 🟣 RTX 2060 | 428/1342 | 31.9% | 436 ms | 425 ms | 672 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| GLiClass | 🟣 RTX 2060 | 393/1342 | 29.3% | 92 ms | 79 ms | 178 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Von | 🟣 RTX 2060 | 331/1342 | 24.7% | 96 ms | 77 ms | 174 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Laya Typed Decisions | 🟣 RTX 2060 | 322/1342 | 24.0% | 53 ms | 46 ms | 95 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Decima Agent | 🟣 RTX 2060 | 313/1342 | 23.3% | 81 ms | 71 ms | 138 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| CLM 8B | 🟣 RTX 2060 | 304/1342 | 22.7% | 324 ms | 282 ms | 726 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 
 
-## Reading the speed and cost colors
+## New local Liquid models on Apple M2
 
-The squares and labels use fixed descriptive bands, not relative ranks or statistical significance. Speed uses the full-bank first-attempt median. Cost uses known or accounted dollars per 1,000 questions, normalized from each actual 1,342-question run including permitted recoveries.
+Liquid d1-2B scored **795/1,342 (59.2%)**, with a **898 ms median** and **1,848 ms p95**. Liquid d1-Omni-2B scored **814/1,342 (60.7%)**, with a **717 ms median** and **1,406 ms p95**. Omni answered 19 more correctly. Both completed every text question with usable decisions and zero reported output tokens.
 
-| Band | Median response time | Known/accounted cost per 1,000 |
-|---|---|---|
-| Green | 🟩 Fastest: ≤250 ms | 🟩 Lowest: ≤$0.010 |
-| Yellow | 🟨 Fast: >250 to ≤500 ms | 🟨 Low: >$0.010 to ≤$0.025 |
-| Orange | 🟧 Moderate: >500 to ≤1,000 ms | 🟧 Mid: >$0.025 to ≤$0.050 |
-| Red | 🟥 Slow: >1,000 ms | 🟥 Highest: >$0.050 |
-| Gray | ⬜ Unknown: unavailable | ⬜ Unknown: unavailable |
+Both scored 37/40 on ordering by comparisons and 39/43 on following directed connections. d1-2B scored 46/51 on ranking with tie-break rules and 44/50 on fault diagnosis. Omni scored 39/43 on lookup and 48/58 on exceptions and priority rules. Sequential procedures were difficult: 10/48 and 13/48 respectively. Counting exactly true claims scored 27/71 and 28/71; truth-teller consistency 33/74 and 31/74.
 
-Bands use unrounded measurements; displayed numbers can round to a boundary. `+ ?` means additional charges were not reported. In those cells, the cost band describes only the known lower bound, not a complete cost or a guaranteed price advantage. The website also underlines these incomplete costs in amber. Text labels remain visible without color.
+The runs used an Apple M2 Mac with 16 GB unified memory, Ollama 0.40.12 and MLX/Metal, BF16, one model and request at a time. Loading and separate probes are excluded. RTX 2060 measurements use a different machine, runtime, precision and date. Hardware and electricity cost are unmeasured for local runs.
 
+On images, d1-2B answered 9/20 with a 4.71 s median; Omni answered 13/20 with a 3.32 s median. Both image screens stopped after 20 because their medians exceeded the two-second limit. These small samples are not 200-question image benchmark scores.
 
 ## D3 Ultra adds 18 correct text decisions; Fastino retains the lead
 
-D3 Ultra scored 1,124/1,342 (83.8%), versus the October 20 D3 Turbo run at 1,106 (82.4%). It ranks sixth among all 54 complete configurations and fifth among the 30 hosted decision models. Fastino GLiDE retains 1,154 (86.0%), GPT-6 Sol without reasoning 1,143 (85.2%) and Mammoth-1 1,139 (84.9%). Drex Max and Respan Span-02 each retain 1,127. All 52 earlier records keep their original scores, timings, costs and dates.
+D3 Ultra scored 1,124/1,342 (83.8%), versus the October 20 D3 Turbo run at 1,106 (82.4%). It ranked sixth among the previous 54 complete configurations and fifth among the 30 hosted decision models. Fastino GLiDE retains 1,154 (86.0%), GPT-6 Sol without reasoning 1,143 (85.2%) and Mammoth-1 1,139 (84.9%). Drex Max and Respan Span-02 each retain 1,127. All 52 earlier records kept their original scores, timings, costs and dates.
 
 ## D3 gains on causal intervention and object tracking, with weaker procedure execution
 
@@ -117,17 +112,15 @@ Both new models scored 24/48 across the six eight-question domains. D3 led in wo
 
 ## The deliberately accessible local setup remains visible
 
-All 20 local configurations retain their published results and purple RTX 2060 6 GB badges. This older GPU was chosen deliberately to measure equipment readers may already have. D3 Flash Artemis remains the local accuracy leader at 995/1,342 (74.1%), with a 408 ms median. H2O-Lightning 4B has a lower 66.5% score and a shorter 259 ms median. Local hardware/electricity cost remains unmeasured; no speed on newer GPUs is projected.
+All 20 RTX 2060 local configurations retain their published results and purple RTX 2060 6 GB badges. This older GPU was chosen deliberately to measure equipment readers may already have. D3 Flash Artemis remains the local accuracy leader at 995/1,342 (74.1%), with a 408 ms median. H2O-Lightning 4B has a lower 66.5% score and a shorter 259 ms median. Local hardware/electricity cost remains unmeasured; no speed on newer GPUs is projected.
 
 ## Scores describe this bank and these execution settings
 
-This is immediate fixed-choice decision making without tools, generated reasoning or agentic iteration. The four selected LLM references preserve their recorded reasoning-off controls and verification limits. Named hosted model identities and native zero-output responses do not attest immutable weights or all internal computation. All earlier failures, partial exclusions, category sizes and the separate author-development diagnostic remain preserved. Blue marks hosted decisions, purple local runs and pale yellow LLM references; cell and speed/cost colors retain fixed scales.
-
-## Categories, questions and evidence
+This is immediate fixed-choice decision making without tools, generated reasoning or agentic iteration. The four selected LLM references preserve their recorded reasoning-off controls and verification limits. Named hosted model identities and native zero-output responses do not attest immutable weights or all internal computation. All earlier failures, partial exclusions, category sizes and the separate author-development diagnostic remain preserved. Blue marks hosted decisions, purple RTX 2060 runs, magenta Apple M2 runs and pale yellow LLM references; cell and speed/cost colors retain fixed scales.
 
 ## Category scores and explanations
 
-The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 54 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
+The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 56 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
 
 [Open the color-coded, selectable tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions), with a pinned model-name column and individual category rankings.
 
@@ -144,9 +137,9 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | All, some, none and sets (F05) | 49 | Track all, some, none and overlapping groups Example: All teal tokens are marked; no marked token is blank; which relation follows? |
 | Enough evidence or a conflict? (F11) | 41 | Determine whether facts force an answer or contradict one another Example: Is a proposed arrangement determined, impossible or still underdetermined? |
 
-![Rules and evidence: all 54 routes, named categories, correct counts and percentages](results/releases/native_updates_2026-10-27/rules.png)
+![Rules and evidence: all 56 routes, named categories, correct counts and percentages](results/releases/local_m2_2026-10-28/rules.png)
 
-[Full-size SVG](results/releases/native_updates_2026-10-27/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
+[Full-size SVG](results/releases/local_m2_2026-10-28/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
 
 ### Ordering, schedules and assignments
 
@@ -160,9 +153,9 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Comparing time intervals (F14) | 42 | Compare starts, ends and overlapping periods Example: Which interval overlaps a specified event without containing it? |
 | Ranking with tie-break rules (F22) | 51 | Rank candidates using explicit tie-break rules Example: Rank by priority first, then age when priorities tie. |
 
-![Ordering, schedules and assignments: all 54 routes, named categories, correct counts and percentages](results/releases/native_updates_2026-10-27/ordering.png)
+![Ordering, schedules and assignments: all 56 routes, named categories, correct counts and percentages](results/releases/local_m2_2026-10-28/ordering.png)
 
-[Full-size SVG](results/releases/native_updates_2026-10-27/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
+[Full-size SVG](results/releases/local_m2_2026-10-28/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
 
 ### Claims, changing state and perspectives
 
@@ -178,9 +171,9 @@ Can the model count true statements, update a changing situation and separate wh
 | Resolving names and references (F16) | 50 | Resolve chains of names, roles and references Example: Identify the mentor of the colleague named in a nested description. |
 | Tracking what others know (F17) | 50 | Distinguish what different observers witnessed Example: An object moves while one observer is absent; where will that observer look? |
 
-![Claims, changing state and perspectives: all 54 routes, named categories, correct counts and percentages](results/releases/native_updates_2026-10-27/state.png)
+![Claims, changing state and perspectives: all 56 routes, named categories, correct counts and percentages](results/releases/local_m2_2026-10-28/state.png)
 
-[Full-size SVG](results/releases/native_updates_2026-10-27/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
+[Full-size SVG](results/releases/local_m2_2026-10-28/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
 
 ### Causes, plans and exceptions
 
@@ -196,9 +189,9 @@ Which actions work, which consequences change, and which rule or source controls
 | Choosing authoritative current records (F24) | 43 | Select the valid source rather than an outdated conflicting one Example: Two records disagree; which controls under the stated authority and date policy? |
 | Diagnosing faults from evidence (F25) | 50 | Match observed symptoms to explicit fault rules Example: Which fault is consistent with the supplied test results? |
 
-![Causes, plans and exceptions: all 54 routes, named categories, correct counts and percentages](results/releases/native_updates_2026-10-27/causes.png)
+![Causes, plans and exceptions: all 56 routes, named categories, correct counts and percentages](results/releases/local_m2_2026-10-28/causes.png)
 
-[Full-size SVG](results/releases/native_updates_2026-10-27/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
+[Full-size SVG](results/releases/local_m2_2026-10-28/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
 
 ### Risk, strategy and system behavior
 
@@ -215,16 +208,14 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Checking overlapping operations (F30) | 8 | Decide whether overlapping operations and their reported results can fit a permitted one-at-a-time order that respects the specified timing and object rules. Example: Two processes read and change the same stored value. Could their reported results fit an allowed one-at-a-time order? |
 | Detecting secret-information leaks (F31) | 8 | Check whether changing a protected secret can change an observable result in a way the stated policy forbids. Example: If public inputs stay the same, could public output distinguish two secret values that the policy says must remain indistinguishable? |
 
-![Risk, strategy and system behavior: all 54 routes, named categories, correct counts and percentages](results/releases/native_updates_2026-10-27/uncertainty.png)
+![Risk, strategy and system behavior: all 56 routes, named categories, correct counts and percentages](results/releases/local_m2_2026-10-28/uncertainty.png)
 
-[Full-size SVG](results/releases/native_updates_2026-10-27/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
+[Full-size SVG](results/releases/local_m2_2026-10-28/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
 
-Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](results/releases/native_updates_2026-10-27/category_scores.csv).
+Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](results/releases/local_m2_2026-10-28/category_scores.csv).
 
 
 
-Current data: [aggregate JSON](results/releases/native_updates_2026-10-27/statistics.json), [model CSV](results/releases/native_updates_2026-10-27/model_statistics.csv), [category CSV](results/releases/native_updates_2026-10-27/category_scores.csv), [answer-free timing evidence](results/releases/native_updates_2026-10-27/local_timing_evidence.csv), [setup metadata](results/releases/native_updates_2026-10-27/local_model_metadata.json), [audit](results/releases/native_updates_2026-10-27/audit_receipt.json).
+[Aggregate statistics](results/releases/local_m2_2026-10-28/statistics.json) · [Category CSV](results/releases/local_m2_2026-10-28/category_scores.csv) · [Answer-free timing evidence](results/releases/local_m2_2026-10-28/m2_timing_evidence.csv) · [Audit](results/releases/local_m2_2026-10-28/audit_receipt.json).
 
-Unchanged question bank: [native JSONL](results/releases/consolidated_2026-10-19/questions_1342.jsonl), [CSV](results/releases/consolidated_2026-10-19/questions_1342.csv), [readable text](results/releases/consolidated_2026-10-19/questions_1342.txt).
-
-Implementation: [scripts/](scripts/README.md). Current check: `python3 scripts/validate_native_updates_2026_10_27.py`. Historical checks include `python3 scripts/validate_opus5_release.py` and `python3 scripts/validate_october21_release.py`. All earlier releases remain unchanged.
+[Question bank](results/releases/consolidated_2026-10-19/questions_1342.csv) · [scripts/](scripts/README.md). Historical check: `python3 scripts/validate_october21_release.py`.
