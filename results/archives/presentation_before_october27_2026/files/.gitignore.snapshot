@@ -1,0 +1,12 @@
+.env
+.env.*
+*.key
+*.pem
+*_PRIVATE*
+.venv/
+__pycache__/
+*.py[cod]
+# Private local execution ledgers; public, sanitized exports live in results/runs.
+/runs/
+*.log
+.DS_Store

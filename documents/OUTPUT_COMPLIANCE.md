@@ -1,6 +1,6 @@
 # Delivered decisions and failures
 
-52 routes retain the 1,342-question first-attempt denominator. The local batch contains 26,820 usable decisions and 20 unsuccessful responses; no scored retries. Partial or blocked routes are documented separately and not ranked.
+54 routes retain the 1,342-question first-attempt denominator. The local batch contains 26,820 usable decisions and 20 unsuccessful responses; no scored retries. Partial or blocked routes are documented separately and not ranked.
 
 | Model | Setting | Usable / 1342 | Unsuccessful | First-attempt statuses |
 | --- | --- | --- | --- | --- |
@@ -9,6 +9,7 @@
 | Mammoth-1 | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Drex Max | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Respan Span-02 | Hosted | 1342/1342 | 0 | ok: 1342 |
+| D3 Ultra | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Perplexity Decider v1.2 | Hosted | 1341/1342 | 1 | ok: 1341; provider_failure: 1 |
 | Nimble v4 Max | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Opus 5 — no thinking, JSON-choice | Hosted | 1305/1342 | 37 | ok: 1305; refusal: 37 |
@@ -17,6 +18,7 @@
 | Amos 1 Large | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Sonnet 5.5 — no thinking, JSON-choice | Hosted | 1342/1342 | 0 | ok: 1342 |
 | kettei-fat | Hosted | 1342/1342 | 0 | ok: 1342 |
+| Liquid d1.1 | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Jev 1.14 | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Jev 1.13 | Hosted | 1342/1342 | 0 | ok: 1342 |
 | Celeris 1.1 Decision | Hosted | 1342/1342 | 0 | ok: 1342 |

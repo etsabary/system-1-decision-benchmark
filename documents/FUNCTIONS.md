@@ -1,10 +1,10 @@
-# All 31 categories: 52 full-bank routes
+# All 31 categories: 54 full-bank routes
 
 [Color-coded, named tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions). Purple model-name badges identify local RTX 2060 runs; cell colors always encode accuracy.
 
 ## Category scores and explanations
 
-The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 52 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
+The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 54 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
 
 [Open the color-coded, selectable tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions), with a pinned model-name column and individual category rankings.
 
@@ -21,9 +21,9 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | All, some, none and sets (F05) | 49 | Track all, some, none and overlapping groups Example: All teal tokens are marked; no marked token is blank; which relation follows? |
 | Enough evidence or a conflict? (F11) | 41 | Determine whether facts force an answer or contradict one another Example: Is a proposed arrangement determined, impossible or still underdetermined? |
 
-![Rules and evidence: all 52 routes, named categories, correct counts and percentages](../results/releases/native_additions_2026-10-25/rules.png)
+![Rules and evidence: all 54 routes, named categories, correct counts and percentages](../results/releases/native_updates_2026-10-27/rules.png)
 
-[Full-size SVG](../results/releases/native_additions_2026-10-25/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
+[Full-size SVG](../results/releases/native_updates_2026-10-27/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
 
 | Model | Lookup and filtering | Following if-then rules | Checking required conditions | Combining AND, OR and NOT | All, some, none and sets | Enough evidence or a conflict? |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -32,6 +32,7 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | Mammoth-1 | 40/43 (93.0%) | 45/46 (97.8%) | 50/52 (96.2%) | 51/54 (94.4%) | 43/49 (87.8%) | 38/41 (92.7%) |
 | Drex Max | 41/43 (95.3%) | 45/46 (97.8%) | 50/52 (96.2%) | 51/54 (94.4%) | 46/49 (93.9%) | 35/41 (85.4%) |
 | Respan Span-02 | 39/43 (90.7%) | 32/46 (69.6%) | 44/52 (84.6%) | 50/54 (92.6%) | 43/49 (87.8%) | 36/41 (87.8%) |
+| D3 Ultra | 41/43 (95.3%) | 46/46 (100.0%) | 50/52 (96.2%) | 49/54 (90.7%) | 45/49 (91.8%) | 37/41 (90.2%) |
 | Perplexity Decider v1.2 | 40/43 (93.0%) | 45/46 (97.8%) | 50/52 (96.2%) | 48/54 (88.9%) | 44/49 (89.8%) | 37/41 (90.2%) |
 | Nimble v4 Max | 41/43 (95.3%) | 45/46 (97.8%) | 49/52 (94.2%) | 50/54 (92.6%) | 45/49 (91.8%) | 32/41 (78.0%) |
 | Opus 5 — no thinking, JSON-choice | 41/43 (95.3%) | 44/46 (95.7%) | 49/52 (94.2%) | 51/54 (94.4%) | 45/49 (91.8%) | 39/41 (95.1%) |
@@ -40,6 +41,7 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | Amos 1 Large | 40/43 (93.0%) | 44/46 (95.7%) | 49/52 (94.2%) | 51/54 (94.4%) | 45/49 (91.8%) | 35/41 (85.4%) |
 | Sonnet 5.5 — no thinking, JSON-choice | 42/43 (97.7%) | 45/46 (97.8%) | 48/52 (92.3%) | 49/54 (90.7%) | 45/49 (91.8%) | 33/41 (80.5%) |
 | kettei-fat | 41/43 (95.3%) | 46/46 (100.0%) | 50/52 (96.2%) | 50/54 (92.6%) | 47/49 (95.9%) | 36/41 (87.8%) |
+| Liquid d1.1 | 39/43 (90.7%) | 45/46 (97.8%) | 50/52 (96.2%) | 44/54 (81.5%) | 44/49 (89.8%) | 34/41 (82.9%) |
 | Jev 1.14 | 39/43 (90.7%) | 46/46 (100.0%) | 48/52 (92.3%) | 49/54 (90.7%) | 46/49 (93.9%) | 32/41 (78.0%) |
 | Jev 1.13 | 41/43 (95.3%) | 45/46 (97.8%) | 49/52 (94.2%) | 51/54 (94.4%) | 44/49 (89.8%) | 29/41 (70.7%) |
 | Celeris 1.1 Decision | 40/43 (93.0%) | 42/46 (91.3%) | 41/52 (78.8%) | 48/54 (88.9%) | 45/49 (91.8%) | 36/41 (87.8%) |
@@ -92,9 +94,9 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Comparing time intervals (F14) | 42 | Compare starts, ends and overlapping periods Example: Which interval overlaps a specified event without containing it? |
 | Ranking with tie-break rules (F22) | 51 | Rank candidates using explicit tie-break rules Example: Rank by priority first, then age when priorities tie. |
 
-![Ordering, schedules and assignments: all 52 routes, named categories, correct counts and percentages](../results/releases/native_additions_2026-10-25/ordering.png)
+![Ordering, schedules and assignments: all 54 routes, named categories, correct counts and percentages](../results/releases/native_updates_2026-10-27/ordering.png)
 
-[Full-size SVG](../results/releases/native_additions_2026-10-25/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
+[Full-size SVG](../results/releases/native_updates_2026-10-27/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
 
 | Model | Ordering by comparisons | Scheduling under constraints | One-to-one assignments | Comparing time intervals | Ranking with tie-break rules |
 | --- | --- | --- | --- | --- | --- |
@@ -103,6 +105,7 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Mammoth-1 | 39/40 (97.5%) | 59/76 (77.6%) | 64/67 (95.5%) | 40/42 (95.2%) | 48/51 (94.1%) |
 | Drex Max | 39/40 (97.5%) | 50/76 (65.8%) | 65/67 (97.0%) | 40/42 (95.2%) | 48/51 (94.1%) |
 | Respan Span-02 | 38/40 (95.0%) | 58/76 (76.3%) | 63/67 (94.0%) | 40/42 (95.2%) | 49/51 (96.1%) |
+| D3 Ultra | 38/40 (95.0%) | 57/76 (75.0%) | 64/67 (95.5%) | 38/42 (90.5%) | 47/51 (92.2%) |
 | Perplexity Decider v1.2 | 38/40 (95.0%) | 54/76 (71.1%) | 65/67 (97.0%) | 39/42 (92.9%) | 47/51 (92.2%) |
 | Nimble v4 Max | 38/40 (95.0%) | 51/76 (67.1%) | 60/67 (89.6%) | 41/42 (97.6%) | 49/51 (96.1%) |
 | Opus 5 — no thinking, JSON-choice | 36/40 (90.0%) | 59/76 (77.6%) | 66/67 (98.5%) | 41/42 (97.6%) | 48/51 (94.1%) |
@@ -111,6 +114,7 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Amos 1 Large | 38/40 (95.0%) | 54/76 (71.1%) | 62/67 (92.5%) | 41/42 (97.6%) | 47/51 (92.2%) |
 | Sonnet 5.5 — no thinking, JSON-choice | 37/40 (92.5%) | 50/76 (65.8%) | 62/67 (92.5%) | 38/42 (90.5%) | 49/51 (96.1%) |
 | kettei-fat | 39/40 (97.5%) | 44/76 (57.9%) | 53/67 (79.1%) | 39/42 (92.9%) | 48/51 (94.1%) |
+| Liquid d1.1 | 38/40 (95.0%) | 52/76 (68.4%) | 47/67 (70.1%) | 38/42 (90.5%) | 46/51 (90.2%) |
 | Jev 1.14 | 38/40 (95.0%) | 48/76 (63.2%) | 57/67 (85.1%) | 40/42 (95.2%) | 48/51 (94.1%) |
 | Jev 1.13 | 40/40 (100.0%) | 50/76 (65.8%) | 54/67 (80.6%) | 41/42 (97.6%) | 46/51 (90.2%) |
 | Celeris 1.1 Decision | 37/40 (92.5%) | 52/76 (68.4%) | 58/67 (86.6%) | 39/42 (92.9%) | 45/51 (88.2%) |
@@ -165,9 +169,9 @@ Can the model count true statements, update a changing situation and separate wh
 | Resolving names and references (F16) | 50 | Resolve chains of names, roles and references Example: Identify the mentor of the colleague named in a nested description. |
 | Tracking what others know (F17) | 50 | Distinguish what different observers witnessed Example: An object moves while one observer is absent; where will that observer look? |
 
-![Claims, changing state and perspectives: all 52 routes, named categories, correct counts and percentages](../results/releases/native_additions_2026-10-25/state.png)
+![Claims, changing state and perspectives: all 54 routes, named categories, correct counts and percentages](../results/releases/native_updates_2026-10-27/state.png)
 
-[Full-size SVG](../results/releases/native_additions_2026-10-25/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
+[Full-size SVG](../results/releases/native_updates_2026-10-27/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
 
 | Model | Counting exactly true claims | Truth-tellers and liars | Tracking swaps | Following step-by-step procedures | Tracking position and direction | Resolving names and references | Tracking what others know |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -176,6 +180,7 @@ Can the model count true statements, update a changing situation and separate wh
 | Mammoth-1 | 44/71 (62.0%) | 48/74 (64.9%) | 38/52 (73.1%) | 18/48 (37.5%) | 38/49 (77.6%) | 37/50 (74.0%) | 47/50 (94.0%) |
 | Drex Max | 42/71 (59.2%) | 53/74 (71.6%) | 29/52 (55.8%) | 18/48 (37.5%) | 40/49 (81.6%) | 39/50 (78.0%) | 46/50 (92.0%) |
 | Respan Span-02 | 46/71 (64.8%) | 55/74 (74.3%) | 28/52 (53.8%) | 33/48 (68.8%) | 42/49 (85.7%) | 42/50 (84.0%) | 41/50 (82.0%) |
+| D3 Ultra | 39/71 (54.9%) | 53/74 (71.6%) | 36/52 (69.2%) | 16/48 (33.3%) | 37/49 (75.5%) | 38/50 (76.0%) | 46/50 (92.0%) |
 | Perplexity Decider v1.2 | 43/71 (60.6%) | 58/74 (78.4%) | 33/52 (63.5%) | 14/48 (29.2%) | 35/49 (71.4%) | 36/50 (72.0%) | 46/50 (92.0%) |
 | Nimble v4 Max | 39/71 (54.9%) | 53/74 (71.6%) | 35/52 (67.3%) | 19/48 (39.6%) | 36/49 (73.5%) | 38/50 (76.0%) | 46/50 (92.0%) |
 | Opus 5 — no thinking, JSON-choice | 46/71 (64.8%) | 47/74 (63.5%) | 33/52 (63.5%) | 18/48 (37.5%) | 45/49 (91.8%) | 38/50 (76.0%) | 46/50 (92.0%) |
@@ -184,6 +189,7 @@ Can the model count true statements, update a changing situation and separate wh
 | Amos 1 Large | 37/71 (52.1%) | 51/74 (68.9%) | 26/52 (50.0%) | 16/48 (33.3%) | 36/49 (73.5%) | 30/50 (60.0%) | 46/50 (92.0%) |
 | Sonnet 5.5 — no thinking, JSON-choice | 30/71 (42.3%) | 41/74 (55.4%) | 29/52 (55.8%) | 15/48 (31.2%) | 43/49 (87.8%) | 36/50 (72.0%) | 45/50 (90.0%) |
 | kettei-fat | 19/71 (26.8%) | 43/74 (58.1%) | 29/52 (55.8%) | 16/48 (33.3%) | 38/49 (77.6%) | 37/50 (74.0%) | 43/50 (86.0%) |
+| Liquid d1.1 | 47/71 (66.2%) | 46/74 (62.2%) | 27/52 (51.9%) | 10/48 (20.8%) | 32/49 (65.3%) | 36/50 (72.0%) | 42/50 (84.0%) |
 | Jev 1.14 | 28/71 (39.4%) | 39/74 (52.7%) | 30/52 (57.7%) | 7/48 (14.6%) | 34/49 (69.4%) | 34/50 (68.0%) | 44/50 (88.0%) |
 | Jev 1.13 | 25/71 (35.2%) | 38/74 (51.4%) | 29/52 (55.8%) | 10/48 (20.8%) | 30/49 (61.2%) | 33/50 (66.0%) | 47/50 (94.0%) |
 | Celeris 1.1 Decision | 35/71 (49.3%) | 36/74 (48.6%) | 24/52 (46.2%) | 14/48 (29.2%) | 29/49 (59.2%) | 31/50 (62.0%) | 44/50 (88.0%) |
@@ -238,9 +244,9 @@ Which actions work, which consequences change, and which rule or source controls
 | Choosing authoritative current records (F24) | 43 | Select the valid source rather than an outdated conflicting one Example: Two records disagree; which controls under the stated authority and date policy? |
 | Diagnosing faults from evidence (F25) | 50 | Match observed symptoms to explicit fault rules Example: Which fault is consistent with the supplied test results? |
 
-![Causes, plans and exceptions: all 52 routes, named categories, correct counts and percentages](../results/releases/native_additions_2026-10-25/causes.png)
+![Causes, plans and exceptions: all 54 routes, named categories, correct counts and percentages](../results/releases/native_updates_2026-10-27/causes.png)
 
-[Full-size SVG](../results/releases/native_additions_2026-10-25/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
+[Full-size SVG](../results/releases/native_updates_2026-10-27/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
 
 | Model | Changing a cause | Exceptions and priority rules | Planning valid action sequences | Following directed connections | Finding rule violations | Choosing authoritative current records | Diagnosing faults from evidence |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -249,6 +255,7 @@ Which actions work, which consequences change, and which rule or source controls
 | Mammoth-1 | 44/50 (88.0%) | 57/58 (98.3%) | 39/43 (90.7%) | 41/43 (95.3%) | 52/52 (100.0%) | 42/43 (97.7%) | 47/50 (94.0%) |
 | Drex Max | 46/50 (92.0%) | 54/58 (93.1%) | 39/43 (90.7%) | 42/43 (97.7%) | 52/52 (100.0%) | 42/43 (97.7%) | 46/50 (92.0%) |
 | Respan Span-02 | 47/50 (94.0%) | 53/58 (91.4%) | 39/43 (90.7%) | 40/43 (93.0%) | 51/52 (98.1%) | 38/43 (88.4%) | 46/50 (92.0%) |
+| D3 Ultra | 45/50 (90.0%) | 55/58 (94.8%) | 39/43 (90.7%) | 42/43 (97.7%) | 52/52 (100.0%) | 42/43 (97.7%) | 48/50 (96.0%) |
 | Perplexity Decider v1.2 | 46/50 (92.0%) | 54/58 (93.1%) | 38/43 (88.4%) | 42/43 (97.7%) | 52/52 (100.0%) | 42/43 (97.7%) | 48/50 (96.0%) |
 | Nimble v4 Max | 45/50 (90.0%) | 57/58 (98.3%) | 40/43 (93.0%) | 40/43 (93.0%) | 52/52 (100.0%) | 42/43 (97.7%) | 47/50 (94.0%) |
 | Opus 5 — no thinking, JSON-choice | 35/50 (70.0%) | 43/58 (74.1%) | 34/43 (79.1%) | 39/43 (90.7%) | 52/52 (100.0%) | 40/43 (93.0%) | 45/50 (90.0%) |
@@ -257,6 +264,7 @@ Which actions work, which consequences change, and which rule or source controls
 | Amos 1 Large | 36/50 (72.0%) | 55/58 (94.8%) | 38/43 (88.4%) | 41/43 (95.3%) | 50/52 (96.2%) | 41/43 (95.3%) | 44/50 (88.0%) |
 | Sonnet 5.5 — no thinking, JSON-choice | 41/50 (82.0%) | 53/58 (91.4%) | 36/43 (83.7%) | 40/43 (93.0%) | 52/52 (100.0%) | 39/43 (90.7%) | 46/50 (92.0%) |
 | kettei-fat | 45/50 (90.0%) | 56/58 (96.6%) | 38/43 (88.4%) | 42/43 (97.7%) | 51/52 (98.1%) | 43/43 (100.0%) | 46/50 (92.0%) |
+| Liquid d1.1 | 37/50 (74.0%) | 53/58 (91.4%) | 38/43 (88.4%) | 40/43 (93.0%) | 51/52 (98.1%) | 40/43 (93.0%) | 44/50 (88.0%) |
 | Jev 1.14 | 38/50 (76.0%) | 48/58 (82.8%) | 38/43 (88.4%) | 42/43 (97.7%) | 49/52 (94.2%) | 37/43 (86.0%) | 45/50 (90.0%) |
 | Jev 1.13 | 42/50 (84.0%) | 51/58 (87.9%) | 38/43 (88.4%) | 41/43 (95.3%) | 48/52 (92.3%) | 39/43 (90.7%) | 44/50 (88.0%) |
 | Celeris 1.1 Decision | 39/50 (78.0%) | 53/58 (91.4%) | 39/43 (90.7%) | 41/43 (95.3%) | 47/52 (90.4%) | 38/43 (88.4%) | 46/50 (92.0%) |
@@ -312,9 +320,9 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Checking overlapping operations (F30) | 8 | Decide whether overlapping operations and their reported results can fit a permitted one-at-a-time order that respects the specified timing and object rules. Example: Two processes read and change the same stored value. Could their reported results fit an allowed one-at-a-time order? |
 | Detecting secret-information leaks (F31) | 8 | Check whether changing a protected secret can change an observable result in a way the stated policy forbids. Example: If public inputs stay the same, could public output distinguish two secret values that the policy says must remain indistinguishable? |
 
-![Risk, strategy and system behavior: all 52 routes, named categories, correct counts and percentages](../results/releases/native_additions_2026-10-25/uncertainty.png)
+![Risk, strategy and system behavior: all 54 routes, named categories, correct counts and percentages](../results/releases/native_updates_2026-10-27/uncertainty.png)
 
-[Full-size SVG](../results/releases/native_additions_2026-10-25/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
+[Full-size SVG](../results/releases/native_updates_2026-10-27/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
 
 | Model | Risk with supplied probabilities | Is extra information worth its cost? | Worst-case choices without probabilities | Anticipating another decision-maker | Checking overlapping operations | Detecting secret-information leaks |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -323,6 +331,7 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Mammoth-1 | 5/8 (62.5%) | 4/8 (50.0%) | 4/8 (50.0%) | 6/8 (75.0%) | 5/8 (62.5%) | 6/8 (75.0%) |
 | Drex Max | 5/8 (62.5%) | 4/8 (50.0%) | 5/8 (62.5%) | 5/8 (62.5%) | 3/8 (37.5%) | 7/8 (87.5%) |
 | Respan Span-02 | 6/8 (75.0%) | 5/8 (62.5%) | 8/8 (100.0%) | 5/8 (62.5%) | 5/8 (62.5%) | 5/8 (62.5%) |
+| D3 Ultra | 4/8 (50.0%) | 3/8 (37.5%) | 4/8 (50.0%) | 4/8 (50.0%) | 3/8 (37.5%) | 6/8 (75.0%) |
 | Perplexity Decider v1.2 | 5/8 (62.5%) | 4/8 (50.0%) | 3/8 (37.5%) | 4/8 (50.0%) | 4/8 (50.0%) | 6/8 (75.0%) |
 | Nimble v4 Max | 4/8 (50.0%) | 3/8 (37.5%) | 4/8 (50.0%) | 5/8 (62.5%) | 3/8 (37.5%) | 6/8 (75.0%) |
 | Opus 5 — no thinking, JSON-choice | 5/8 (62.5%) | 5/8 (62.5%) | 6/8 (75.0%) | 4/8 (50.0%) | 4/8 (50.0%) | 5/8 (62.5%) |
@@ -331,6 +340,7 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Amos 1 Large | 3/8 (37.5%) | 3/8 (37.5%) | 3/8 (37.5%) | 3/8 (37.5%) | 3/8 (37.5%) | 6/8 (75.0%) |
 | Sonnet 5.5 — no thinking, JSON-choice | 5/8 (62.5%) | 4/8 (50.0%) | 4/8 (50.0%) | 1/8 (12.5%) | 5/8 (62.5%) | 7/8 (87.5%) |
 | kettei-fat | 4/8 (50.0%) | 4/8 (50.0%) | 3/8 (37.5%) | 5/8 (62.5%) | 5/8 (62.5%) | 6/8 (75.0%) |
+| Liquid d1.1 | 5/8 (62.5%) | 4/8 (50.0%) | 2/8 (25.0%) | 4/8 (50.0%) | 5/8 (62.5%) | 4/8 (50.0%) |
 | Jev 1.14 | 5/8 (62.5%) | 4/8 (50.0%) | 2/8 (25.0%) | 5/8 (62.5%) | 4/8 (50.0%) | 6/8 (75.0%) |
 | Jev 1.13 | 5/8 (62.5%) | 3/8 (37.5%) | 2/8 (25.0%) | 3/8 (37.5%) | 4/8 (50.0%) | 4/8 (50.0%) |
 | Celeris 1.1 Decision | 4/8 (50.0%) | 3/8 (37.5%) | 4/8 (50.0%) | 2/8 (25.0%) | 4/8 (50.0%) | 5/8 (62.5%) |
@@ -371,4 +381,4 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Decima Agent | 2/8 (25.0%) | 2/8 (25.0%) | 2/8 (25.0%) | 2/8 (25.0%) | 4/8 (50.0%) | 2/8 (25.0%) |
 | CLM 8B | 3/8 (37.5%) | 2/8 (25.0%) | 1/8 (12.5%) | 2/8 (25.0%) | 2/8 (25.0%) | 1/8 (12.5%) |
 
-Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](../results/releases/native_additions_2026-10-25/category_scores.csv).
+Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](../results/releases/native_updates_2026-10-27/category_scores.csv).

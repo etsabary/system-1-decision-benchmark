@@ -1,0 +1,49 @@
+## D3 Ultra adds 18 correct text decisions; Fastino retains the lead
+
+D3 Ultra scored 1,124/1,342 (83.8%), versus the October 20 D3 Turbo run at 1,106 (82.4%). It ranks sixth among all 54 complete configurations and fifth among the 30 hosted decision models. Fastino GLiDE retains 1,154 (86.0%), GPT-6 Sol without reasoning 1,143 (85.2%) and Mammoth-1 1,139 (84.9%). Drex Max and Respan Span-02 each retain 1,127. All 52 earlier records keep their original scores, timings, costs and dates.
+
+## D3 gains on causal intervention and object tracking, with weaker procedure execution
+
+D3 Ultra answered 46/46 forward-conditional questions and 52/52 rule-counterexample questions. Causal intervention—working out what follows when a variable is deliberately changed—rose from Turbo’s 38/50 to 45/50. Object swaps rose from 31/52 to 36/52. Sequential procedures fell from 20/48 to 16/48; exact truth counting scored 39/71. The overall gain varies by operation.
+
+## Liquid d1.1 makes its largest gain in exact truth counting
+
+Liquid d1.1 scored 1,044/1,342 (77.8%), 79 more than the older d1 run at 965 (71.9%). Exact truth counting—choosing the number of statements that are true—rose from 23/71 to 47/71, above D3 Ultra’s 39/71. Necessary conditions rose from 35/52 to 50/52. Boolean scope fell from 50/54 to 44/54, and object swaps from 33/52 to 27/52. Sequential procedures scored 10/48. Liquid d1-ultra retains the stronger overall score at 1,084 (80.8%).
+
+## The image results differ from the text gains
+
+On the separate frozen 200-question image bank, D3 Ultra scored 148/200 (74.0%), seven fewer than the earlier Turbo’s 155 (77.5%). Liquid d1.1 scored 144/200 (72.0%), nine more than the older d1’s 135 (67.5%). Amos remains at 159 (79.5%) and Fastino at 158 (79.0%). The new image runs used the exact earlier native-provider PNG/JPEG bytes, question wording, options and order. Both supplied 200 usable answers. See the separate image report for 20-category profiles and timing.
+
+## Both hosted text routes are fast in this measurement
+
+D3 Ultra measured 174 / 148 / 211 ms mean / median / p95, versus Turbo’s 182 / 165 / 298 ms. Liquid d1.1 measured 255 / 212 / 424 ms; older d1’s median / p95 was 206 / 827 ms. Fresh HTTPS requests ran serially within each provider; the two independent providers ran concurrently. All 2,684 new first attempts were usable and reported zero output tokens. No scored retries, shortened questions or tools. Provider hardware, load and dates differ, so these gaps do not isolate architecture.
+
+## D3 free access and Liquid’s reported cost have different meanings
+
+D3 used its free public API; no monetary receipt or permanent production tariff is inferred. Liquid reported $0.00774762 for 1,342 text questions, or $0.00577319 per 1,000. Two admission probes added $0.00000240 separately. OpenRouter was pinned to Liquid and returned liquid/d1.1-20261027 throughout. The D3 request explicitly used vllm-sr/d3-ultra: the live service now aliases its old Turbo name to Ultra. Earlier Turbo measurements retain their October 20 identity and are not relabelled.
+
+## The six newer domains separate different abilities
+
+Both new models scored 24/48 across the six eight-question domains. D3 led in worst-case choices without event probabilities (4/8 versus 2/8) and information-flow security (6/8 versus 4/8); Liquid led in known-risk choices (5/8 versus 4/8), buying information before choosing (4/8 versus 3/8), and possible concurrent histories (5/8 versus 3/8). Strategic choices tied at 4/8. One answer moves a domain score by 12.5 percentage points.
+
+## The deliberately accessible local setup remains visible
+
+All 20 local configurations retain their published results and purple RTX 2060 6 GB badges. This older GPU was chosen deliberately to measure equipment readers may already have. D3 Flash Artemis remains the local accuracy leader at 995/1,342 (74.1%), with a 408 ms median. H2O-Lightning 4B has a lower 66.5% score and a shorter 259 ms median. Local hardware/electricity cost remains unmeasured; no speed on newer GPUs is projected.
+
+## Scores describe this bank and these execution settings
+
+This is immediate fixed-choice decision making without tools, generated reasoning or agentic iteration. The four selected LLM references preserve their recorded reasoning-off controls and verification limits. Named hosted model identities and native zero-output responses do not attest immutable weights or all internal computation. All earlier failures, partial exclusions, category sizes and the separate author-development diagnostic remain preserved. Blue marks hosted decisions, purple local runs and pale yellow LLM references; cell and speed/cost colors retain fixed scales.
+
+54 complete routes: 30 hosted decision models, 20 local configurations and four selected no-reasoning LLM references. Every route covers the same 1,342 questions across 31 categories: 72,468 first attempts. All 52 prior model records are unchanged. The developing bank has uneven category sizes and related variants; six categories have eight questions each.
+
+The two new hosted text models were tested October 27, 2026, America/Toronto. Exact frozen native state, instructions and five original choices, in the existing seeded order 2026101906. D3 explicitly requested vllm-sr/d3-ultra; OpenRouter requested liquid/d1.1 with only the Liquid provider, no fallback, returning liquid/d1.1-20261027. Start/end selected identity, provider and tariff were unchanged.
+
+One fresh HTTPS request per provider at a time, two independent hosted providers active concurrently. The unchanged timer spans connection through full response body; local encoding, preparation and pacing are excluded. Two synthetic admission probes per model are separate. Every first attempt is retained; no scored retries. After at least20 requests the cumulative median cutoff is 2,000ms, with a 5% unusable-output gate. Both completed with 1,342 usable native decisions and zero reported output tokens.
+
+D3 public access was free at test time, without monetary receipts or a production-price guarantee. Liquid costs use API-reported charges, with admission separate. Local electricity, hardware and depreciation remain unmeasured. Celeris/Fastino tariff estimates retain their original labels. Model dates, provider hardware/load and network/concurrency qualify speed comparisons.
+
+The 20 local configurations retain their October25 RTX2060 6GB / Ollaya0.17.0 / CUDA provenance and quantization-specific profiles. That older, more accessible setup was chosen deliberately. Loading and warmups are separate; no local run was repeated. All historical failures, three partial/blocked local routes and 26,840 raw local timing rows remain unchanged.
+
+Offline publication reconstructed all 2,684 new payloads, bound the frozen revision-specific private key, checked 31 category totals, native identity, raw timing, cost and sealed owner evidence. Public exports contain aggregates and answer-free timing hashes, not model choices, keys, per-item correctness, credentials or LAN addresses. Public checks reproduce coverage, timing and aggregate arithmetic; they cannot independently recreate private-key scoring.
+
+The separate 1,305-question author-development diagnostic and existing answer-audit qualifications retain their scope. This result does not establish general superiority to frontier LLMs with reasoning enabled. The image report measures the same two named models separately; its scores are not folded into this text denominator.

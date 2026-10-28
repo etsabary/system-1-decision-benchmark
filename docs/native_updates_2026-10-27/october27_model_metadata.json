@@ -1,0 +1,86 @@
+{
+  "d3_ultra": {
+    "requested_model": "vllm-sr/d3-ultra",
+    "returned_identities": {
+      "vllm-sr/d3-ultra": 1342
+    },
+    "selected_catalog": {
+      "aliases": [
+        "vllm-sr/d3-turbo",
+        "vllm-sr/d3"
+      ],
+      "box": true,
+      "hf_url": "https://huggingface.co/vllm-sr/d3-ultra",
+      "id": "vllm-sr/d3-ultra",
+      "inputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "limits": {
+        "max_image_bytes": 16777216,
+        "max_images": 16,
+        "max_questions": 64,
+        "max_request_tokens": 131072,
+        "max_state_chars": 131072
+      },
+      "name": "d3-ultra",
+      "ready": true,
+      "size": "27B"
+    },
+    "selected_catalog_unchanged": true,
+    "input": "Exact frozen 1342 native packets",
+    "concurrency": 1,
+    "scored_retries": 0,
+    "source_evidence_sha256": {
+      "manifest.json": "e2fd6cfb790bdc3bb7b9045fa5f2d3858cb211ee5e7518a0ddc5d5ac1988b6cc",
+      "attempts.jsonl": "dc8b9b7694de4cae399e225959c87c7a29198f5d0d16af429dbcf45ac451430b",
+      "dispatches.jsonl": "05328129a64e0bbd0359cd38a728cfb91d63ab0a8902349d091d6fa40bfa228e",
+      "admission.jsonl": "3095ee86557dc398c87f1b4dae96ad4c17184a8976796f2e7eb4c969c3ce0f50",
+      "final_report.json": "90de096eaa0b76072eff37b4ffaba58c35d5bd9ca07357299434088450336d24",
+      "audit_receipt.json": "c6b19b1cd90ccf9a35b0e3dbaac1eb23b983c20492d802712440b77b3dac0cd4",
+      "catalog_start.json": "7c110033c48c62957941ea6ed2d58a23669ab59c0b049d772ca6fd5e715bcd86",
+      "catalog_end.json": "07c6933952bb53feac027725405d96dbe00c09f97676a1a82f2d2c033657d706",
+      "executor_source.py.snapshot": "9a8b4e6663cf66543390071a8e735a92cb3deeb1fd079d66b27997032bc830aa"
+    },
+    "private_seal_sha256": "afa11fd4824a73dc960ea12d459f02830d33191a8b5c0c48dd87db0161b43b57",
+    "identity_limit": "Named/dated route metadata, not immutable hosted-weight attestation"
+  },
+  "liquid11_decision": {
+    "requested_model": "liquid/d1.1",
+    "returned_identities": {
+      "liquid/d1.1-20261027": 1342
+    },
+    "selected_catalog": {
+      "name": "Liquid | liquid/d1.1-20261027",
+      "tag": "liquid",
+      "provider_name": "Liquid",
+      "status": 0,
+      "pricing": {
+        "prompt": "0.00000002",
+        "completion": "0",
+        "input_cache_read": "0.00000002",
+        "discount": 0
+      },
+      "context_length": 65536,
+      "supported_parameters": []
+    },
+    "selected_catalog_unchanged": true,
+    "input": "Exact frozen 1342 native packets",
+    "concurrency": 1,
+    "scored_retries": 0,
+    "source_evidence_sha256": {
+      "manifest.json": "392fb7056dc5f0bb092a9450061f2713ebbd7916aa635549722c8e2a59cd35dd",
+      "attempts.jsonl": "dcffa38ddf58d7eed2f676935eeda5cdb04b16f0804bcee4551f79a517095ab0",
+      "dispatches.jsonl": "132309a579e2a8a0fbd4c13491cd6d27451d2cfb3b8f143ef9bb9b98f244e51d",
+      "admission.jsonl": "dba9f82c691a14c16c97d059443fe43839c0f85a74d1b0baafb88c8a4dad2005",
+      "final_report.json": "ea7e27d001bc8b72be6a8ca4ec33ea7a0c1ec0593dd74f634be4a8511ec4f336",
+      "audit_receipt.json": "b6033688d035d27050e490b54efcc078d10431ad92080c26a5e14c20f2509f81",
+      "catalog_start.json": "f1ab2cc9a7b2df77d9d06149627251c79175cb8e88d945e3a9000b47a2d7a087",
+      "catalog_end.json": "ca8eec2f809ad61c372ce21bbca4f009cc1ed7fe3c2398220eac27b4a99ee942",
+      "executor_source.py.snapshot": "9a8b4e6663cf66543390071a8e735a92cb3deeb1fd079d66b27997032bc830aa"
+    },
+    "private_seal_sha256": "afa11fd4824a73dc960ea12d459f02830d33191a8b5c0c48dd87db0161b43b57",
+    "identity_limit": "Named/dated route metadata, not immutable hosted-weight attestation"
+  }
+}

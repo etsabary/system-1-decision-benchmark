@@ -1,4 +1,5 @@
 """Public offline reconstruction of local timing, coverage and displayed cells."""
+from october27_history import previous as historical
 from collections import Counter, defaultdict
 import csv
 from html.parser import HTMLParser
@@ -112,7 +113,7 @@ def validate():
             assert '192.168.' not in text and '/home/' not in text,name
             if p.suffix=='.json':inspect(json.loads(text))
     for path in (b.DEST/'report.html',b.ROOT/'docs/report.html'):
-        text=path.read_text();page=Page();page.feed(text);settings=RowSettings();settings.feed(text)
+        text=historical(path).read_text();page=Page();page.feed(text);settings=RowSettings();settings.feed(text)
         assert page.summary==s['ranked_model_ids'] and len(page.cells)==1612
         assert len(page.ids)==len(set(page.ids))
         assert Counter(c['data-model'] for c in page.cells)=={mid:31 for mid in s['models']}
@@ -143,7 +144,7 @@ def validate():
         assert int(row['correct'])==m['correct'] and float(row['median_ms'])==m['median_ms']
         if row['model_id'] in s['local_model_ids']:assert row['known_cost_usd']==row['known_cost_per1000_usd']==''
     for p in (b.ROOT/'README.md',b.repo_file('FUNCTIONS.md'),b.repo_file('OUTPUT_COMPLIANCE.md')):
-        text=p.read_text();privacy(text)
+        text=historical(p).read_text();privacy(text)
         for target in re.findall(r'\]\(([^)]+)\)',text):
             if not re.match(r'^(https?:|mailto:|#)',target):assert (p.parent/target.split('#')[0]).exists(),target
     screens=json.loads((b.DEST/'screened_routes.json').read_text())
@@ -153,7 +154,7 @@ def validate():
     from xml.etree import ElementTree as ET
     sitemap=ET.parse(b.ROOT/'docs/sitemap.xml')
     assert sitemap.getroot().find('{*}url/{*}loc').text==b.SITE
-    text=(b.ROOT/'docs/report.html').read_text()
+    text=historical(b.ROOT/'docs/report.html').read_text()
     assert '<link rel="canonical" href="'+b.SITE+'">' in text
     assert '<meta name="description"' in text
     print('PASS: 52 routes; 20 local; 26,840 local + 1,342 new hosted timing rows; 1,612 exact cells; prior 49 records unchanged.')

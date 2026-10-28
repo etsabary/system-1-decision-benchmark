@@ -1,3 +1,7 @@
+# October 27 current release
+
+[54 text routes](releases/native_updates_2026-10-27/statistics.json):30 hosted decision models,20 local configurations and four reasoning-off LLM references. D3 Ultra83.8%,148ms median;Liquid d1.1 77.8%,212ms median. [New timing and cost evidence](releases/native_updates_2026-10-27/october27_timing_evidence.csv). The previous52 model records and all sealed historical releases remain unchanged.
+
 # Results and evidence
 
 [Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [Repository overview](../README.md)

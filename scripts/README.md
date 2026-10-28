@@ -77,3 +77,7 @@ the original logical evidence names to their current physical locations;
 helpers do not weaken live-run software checks or rewrite sealed evidence.
 
 [Repository overview](../README.md) · [Results index](../results/README.md)
+
+## October 27 additions
+
+`publish_native_updates_2026_10_27.py` publishes the two audited hosted additions offline. `validate_native_updates_2026_10_27.py` verifies54 routes,2684 new timing rows,1674 category cells and exact preservation of52 prior records. `october27_history.py` resolves the prior active presentation for historical checks.

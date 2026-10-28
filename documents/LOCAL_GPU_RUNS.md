@@ -6,7 +6,7 @@
 
 The RTX 2060 with 6 GB VRAM was chosen deliberately as an older, more accessible hardware setup. The purpose was to measure what readers can run on equipment they may already have. D3 Flash Artemis 9B is the leader among all 20 tested local configurations at 74.1%, with a 408 ms median.
 
-Local API access was unmetered. Electricity and hardware costs were not measured. No latency on newer hardware is inferred. [Captured metadata](../results/releases/native_additions_2026-10-25/local_model_metadata.json) records source pins where available and the server-reported precision and digest. These are serving identities, not independent weight attestations.
+Local API access was unmetered. Electricity and hardware costs were not measured. No latency on newer hardware is inferred. [Captured metadata](../results/releases/native_updates_2026-10-27/local_model_metadata.json) records source pins where available and the server-reported precision and digest. These are serving identities, not independent weight attestations.
 
 Purple bars and model-name badges identify these local configurations. Accuracy heatmap cells retain the same 0–100% blue scale, and speed/cost colors retain their existing thresholds.
 
@@ -172,6 +172,6 @@ Lower category scores: Ordering by comparisons 3/40; Combining AND, OR and NOT 5
 
 ## Partial and blocked routes
 
-Coba 1B and the NLI representative stopped after 20 cases because one response each truncated the input. Julia had 19 HTTP failures in 20 attempts due to its physical batch limit. KnowLine’s earlier native one-label compatibility block was resolved: its complete run is ranked above, with the original admission preserved in [resolution history](../results/releases/native_additions_2026-10-25/historical_admission_resolutions.json). The three remaining partial routes are documented in [screen details](../results/releases/native_additions_2026-10-25/screened_routes.json) and are not ranked as complete runs.
+Coba 1B and the NLI representative stopped after 20 cases because one response each truncated the input. Julia had 19 HTTP failures in 20 attempts due to its physical batch limit. KnowLine’s earlier native one-label compatibility block was resolved: its complete run is ranked above, with the original admission preserved in [resolution history](../results/releases/native_additions_2026-10-25/historical_admission_resolutions.json). The three remaining partial routes are documented in [screen details](../results/releases/native_updates_2026-10-27/screened_routes.json) and are not ranked as complete runs.
 
-All profiles use observed category accuracy; their higher/lower lists select categories with at least 20 questions. The complete [named category matrix](../results/releases/native_additions_2026-10-25/category_scores.csv) also includes the six eight-question domains.
+All profiles use observed category accuracy; their higher/lower lists select categories with at least 20 questions. The complete [named category matrix](../results/releases/native_updates_2026-10-27/category_scores.csv) also includes the six eight-question domains.

@@ -1,0 +1,31 @@
+name: Validate consolidated and preserved benchmark releases
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  expanded-offline-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          # Match the capture runtime: newer float summation can change a
+          # probability-validity decision exactly at the stored tolerance.
+          python-version: '3.10'
+      - run: python3 -m pip install -r scripts/requirements-reports.txt
+      - run: python3 -m pip install python-dotenv
+      - run: python3 scripts/native_expansion_analysis.py
+      - run: python3 scripts/llm_expansion_analysis_2026_10_18.py
+      - run: python3 scripts/freeze_october18_release.py --check
+      - run: python3 scripts/validate_corrected_release.py
+      - run: python3 scripts/validate_consolidated_release.py
+      - run: python3 scripts/validate_readable_report.py
+      - run: python3 scripts/validate_frontier_release.py
+      - run: python3 scripts/repo_identity.py
+      - run: python3 scripts/validate_direct_release.py
+      - run: python3 scripts/validate_october21_release.py
+      - run: python3 scripts/validate_fastino_2026_10_23.py
+      - run: python3 scripts/validate_opus5_release.py
+      - run: python3 scripts/validate_local_2026_10_25.py
+      - run: python3 scripts/validate_local_additions_2026_10_25.py
+      - run: python3 scripts/validate_native_additions_2026_10_25.py
+      - run: python3 scripts/validate_repository_layout.py
+      - run: python3 -m unittest discover -s scripts -p 'test_*.py'

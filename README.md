@@ -1,12 +1,12 @@
 # System 1 Decision Benchmark
 
-28 hosted decision models, **20 local decision/classifier models** and four no-reasoning LLM references on the same **1,342 text questions across 31 categories**. Updated October 25, 2026.
+30 hosted decision models, **20 local decision/classifier models** and four no-reasoning LLM references on the same **1,342 text questions across 31 categories**. Updated October 27, 2026.
 
 **Fastino GLiDE remains highest overall at 86.0%. D3 Flash Artemis 9B leads the local batch at 74.1%, with a 408 ms median on an RTX 2060 with 6 GB VRAM.**
 
 [Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [Local GPU profiles](https://etsabary.github.io/system-1-decision-benchmark/report.html#local-results) · [Named, color-coded categories](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions)
 
-![52 routes: local models in purple](results/releases/native_additions_2026-10-25/accuracy_speed_cost.png)
+![54 routes: local models in purple](results/releases/native_updates_2026-10-27/accuracy_speed_cost.png)
 
 Purple marks **Local · RTX 2060 · 6 GB**. Blue marks hosted decision models; pale yellow marks LLM references. Accuracy cell colors and speed/cost bands keep their existing meaning. Every ranked row contains 1,342 first attempts. Local loading/warm-up calls are excluded; hosted timing paths and dates remain unchanged. Local hardware/electricity cost is unmeasured, rather than plotted as $0.
 
@@ -21,6 +21,7 @@ Purple marks **Local · RTX 2060 · 6 GB**. Blue marks hosted decision models; p
 | Mammoth-1 | Hosted decision | 1139/1342 | 84.9% | 301 ms | 240 ms | 666 ms | Promotional free access* | Promotional free access* |
 | Drex Max | Hosted decision | 1127/1342 | 84.0% | 290 ms | 286 ms | 445 ms | $0.021180 | $0.028423 |
 | Respan Span-02 | Hosted decision | 1127/1342 | 84.0% | — | 206 ms | 2157 ms | $0.003537 | $0.004746 |
+| D3 Ultra | Hosted decision | 1124/1342 | 83.8% | 174 ms | 148 ms | 211 ms | Free public access* | Free public access* |
 | Perplexity Decider v1.2 | Hosted decision | 1120/1342 | 83.5% | — | 249 ms | 332 ms | $0.007000 + ? | $0.009394 + ? |
 | Nimble v4 Max | Hosted decision | 1115/1342 | 83.1% | — | 235 ms | 329 ms | $0.027633 | ~$0.037084 |
 | Opus 5 — no thinking, JSON-choice | 🟡 LLM reference | 1109/1342 | 82.6% | 1581 ms | 1538 ms | 2109 ms | $3.458320 + ? | $4.641065 + ? |
@@ -29,6 +30,7 @@ Purple marks **Local · RTX 2060 · 6 GB**. Blue marks hosted decision models; p
 | Amos 1 Large | Hosted decision | 1074/1342 | 80.0% | 306 ms | 311 ms | 360 ms | Free public access* | Free public access* |
 | Sonnet 5.5 — no thinking, JSON-choice | 🟡 LLM reference | 1070/1342 | 79.7% | — | 1506 ms | 2424 ms | $1.433613 | $1.923908 |
 | kettei-fat | Hosted decision | 1066/1342 | 79.4% | 179 ms | 174 ms | 214 ms | $0.015433 | $0.020711 |
+| Liquid d1.1 | Hosted decision | 1044/1342 | 77.8% | 255 ms | 212 ms | 424 ms | $0.005773 | $0.007748 |
 | Jev 1.14 | Hosted decision | 1030/1342 | 76.8% | — | 179 ms | 269 ms | $0.024571 | $0.032974 |
 | Jev 1.13 | Hosted decision | 1026/1342 | 76.5% | — | 189 ms | 323 ms | $0.024571 | $0.032974 |
 | Celeris 1.1 Decision | Hosted decision | 1021/1342 | 76.1% | 155 ms | 138 ms | 170 ms | ~$0.014347 | ~$0.019253 |
@@ -85,47 +87,47 @@ The squares and labels use fixed descriptive bands, not relative ranks or statis
 Bands use unrounded measurements; displayed numbers can round to a boundary. `+ ?` means additional charges were not reported. In those cells, the cost band describes only the known lower bound, not a complete cost or a guaranteed price advantage. The website also underlines these incomplete costs in amber. Text labels remain visible without color.
 
 
-## Celeris joins at 76.1%, while Fastino remains highest overall
+## D3 Ultra adds 18 correct text decisions; Fastino retains the lead
 
-Celeris 1.1 Decision answered 1,021/1,342 correctly (76.1%), with 155 / 138 / 170 ms mean / median / p95. That is 26 more correct answers than local D3 Flash Artemis at 995 (74.1%), and 129 fewer than hosted Fastino GLiDE at 1,154 (86.0%). GPT-6 Sol without reasoning retains 1,143 (85.2%) and Mammoth-1 1,139 (84.9%). All earlier 49 model records retain their exact scores, durations, costs and dates. The 52-route comparison is an observed result on this developing bank, not a universal model ranking.
+D3 Ultra scored 1,124/1,342 (83.8%), versus the October 20 D3 Turbo run at 1,106 (82.4%). It ranks sixth among all 54 complete configurations and fifth among the 30 hosted decision models. Fastino GLiDE retains 1,154 (86.0%), GPT-6 Sol without reasoning 1,143 (85.2%) and Mammoth-1 1,139 (84.9%). Drex Max and Respan Span-02 each retain 1,127. All 52 earlier records keep their original scores, timings, costs and dates.
 
-## KnowLine is close to Perplexity, with a longer median than D3
+## D3 gains on causal intervention and object tracking, with weaker procedure execution
 
-KnowLine 4B Gen5.5 scored 966/1,342 (72.0%), five fewer than local Perplexity Flash mixed4 at 971 (72.4%) and 29 fewer than D3 at 995. Its mean / median / p95 was 848 / 812 / 1,281 ms, compared with Perplexity 875 / 798 / 1,526 ms and D3 441 / 408 / 701 ms. D3 remains the highest-scoring of 20 completed local configurations. KnowLine scored 38/40 on comparisons, 40/43 on lookup/filtering and 48/52 on rule counterexamples; sequential procedures were 8/48, exact truth counting 30/71 and truth-teller consistency 35/74.
+D3 Ultra answered 46/46 forward-conditional questions and 52/52 rule-counterexample questions. Causal intervention—working out what follows when a variable is deliberately changed—rose from Turbo’s 38/50 to 45/50. Object swaps rose from 31/52 to 36/52. Sequential procedures fell from 20/48 to 16/48; exact truth counting scored 39/71. The overall gain varies by operation.
 
-## The Nemotron configuration trails the earlier Qwen-based H2O
+## Liquid d1.1 makes its largest gain in exact truth counting
 
-H2O Lightning Nemotron 4B scored 823/1,342 (61.3%), with 596 / 574 / 810 ms mean / median / p95. The earlier H2O-Lightning 4B route scored 892 (66.5%) with a 259 ms median: 69 more correct answers and a shorter median on the same user-reported GPU. Fovea scored 841 (62.7%) with a 558 ms median. Nemotron scored 40/43 on lookup/filtering and directed paths, 39/43 on current authoritative records and 46/51 on explicit preferences; sequential procedures were 12/48 and reference binding 16/50. Weights, precision and serving implementations differ, so the comparison does not isolate the backbone.
+Liquid d1.1 scored 1,044/1,342 (77.8%), 79 more than the older d1 run at 965 (71.9%). Exact truth counting—choosing the number of statements that are true—rose from 23/71 to 47/71, above D3 Ultra’s 39/71. Necessary conditions rose from 35/52 to 50/52. Boolean scope fell from 50/54 to 44/54, and object swaps from 33/52 to 27/52. Sequential procedures scored 10/48. Liquid d1-ultra retains the stronger overall score at 1,084 (80.8%).
 
-## Celeris has strong lookup and path scores, with weaker state updates
+## The image results differ from the text gains
 
-Celeris scored 41/43 on directed paths, 40/43 on lookup/filtering, 39/42 on temporal intervals and 46/50 on fault diagnosis. Sequential procedures scored 14/48, object swaps 24/52, truth-teller consistency 36/74 and exact truth counting 35/71. A high overall score can conceal weaknesses on repeated state updates. Every model retains the complete named category matrix. Six categories have eight questions each, so one answer changes their score by 12.5 percentage points.
+On the separate frozen 200-question image bank, D3 Ultra scored 148/200 (74.0%), seven fewer than the earlier Turbo’s 155 (77.5%). Liquid d1.1 scored 144/200 (72.0%), nine more than the older d1’s 135 (67.5%). Amos remains at 159 (79.5%) and Fastino at 158 (79.0%). The new image runs used the exact earlier native-provider PNG/JPEG bytes, question wording, options and order. Both supplied 200 usable answers. See the separate image report for 20-category profiles and timing.
 
-## Celeris cost is a tariff estimate, with all latency spikes retained
+## Both hosted text routes are fast in this measurement
 
-The 481,334 reported input tokens at the captured USD 0.04/million tariff give an estimated $0.01925336 for 1,342 questions, or about $0.01434677 per 1,000. This is usage times tariff, not monetary receipts. Two admission probes cost an estimated $0.00001048 separately. Fresh HTTPS calls were serial, at least 0.25 seconds apart at dispatch; idle pacing is excluded from response durations. Four scored calls exceeded two seconds, with a maximum of 3,195 ms; all remain in the timing distribution. The cumulative median remained below the existing two-second gate.
+D3 Ultra measured 174 / 148 / 211 ms mean / median / p95, versus Turbo’s 182 / 165 / 298 ms. Liquid d1.1 measured 255 / 212 / 424 ms; older d1’s median / p95 was 206 / 827 ms. Fresh HTTPS requests ran serially within each provider; the two independent providers ran concurrently. All 2,684 new first attempts were usable and reported zero output tokens. No scored retries, shortened questions or tools. Provider hardware, load and dates differ, so these gaps do not isolate architecture.
 
-## The two new local models report one native label token
+## D3 free access and Liquid’s reported cost have different meanings
 
-Nemotron and KnowLine both returned typed choices and five-choice probability distributions without generated explanations. Their runtime reports one output token, retained as observed native label telemetry. Earlier 18 local configurations retain their recorded zero-token evidence. Nemotron also reports native probabilities, one fast pass and matching input/processed-input counts. KnowLine reports no truncation but no separate processed-input count. Its earlier admission block is preserved as history and resolved by the completed model-specific compatibility audit. Reported counters do not attest to all internal computation.
+D3 used its free public API; no monetary receipt or permanent production tariff is inferred. Liquid reported $0.00774762 for 1,342 text questions, or $0.00577319 per 1,000. Two admission probes added $0.00000240 separately. OpenRouter was pinned to Liquid and returned liquid/d1.1-20261027 throughout. The D3 request explicitly used vllm-sr/d3-ultra: the live service now aliases its old Turbo name to Ultra. Earlier Turbo measurements retain their October 20 identity and are not relabelled.
 
-## Matched questions, qualified precision and route-specific timing
+## The six newer domains separate different abilities
 
-The two additions ran on the home LAN using Ollaya 0.17.0, cuda:0 and a user-reported RTX 2060 with 6 GB VRAM, deliberately chosen as an older, more accessible hardware setup. Nemotron used NF4 / FP16 compute / FP32 head; KnowLine used NF4 / FP16 compute / FP32 readout. KnowLine Gen5.5 upstream documentation describes Gen5 weights with read-twice input serving. Loading and four synthetic warm-ups per model are excluded. Start/end serving digests were stable; immutable upstream weight revisions were not reported. Hardware, software, quantization, dates and network paths limit causal speed comparisons.
+Both new models scored 24/48 across the six eight-question domains. D3 led in worst-case choices without event probabilities (4/8 versus 2/8) and information-flow security (6/8 versus 4/8); Liquid led in known-risk choices (5/8 versus 4/8), buying information before choosing (4/8 versus 3/8), and possible concurrent histories (5/8 versus 3/8). Strategic choices tied at 4/8. One answer moves a domain score by 12.5 percentage points.
 
-## Every new first attempt was usable; prior failures remain counted
+## The deliberately accessible local setup remains visible
 
-All 4,026 new text decisions were usable, with no scored retries, shortened inputs or accuracy-only stop. Across 20 local configurations there are 26,820 usable decisions and 20 unsuccessful first attempts. The existing six truncations and 14 HTTP failures remain in their original 1,342-question denominators. Coba, NLI and Julia remain separate partial or blocked routes outside the full-bank ranking. No completed run was repeated for publication.
+All 20 local configurations retain their published results and purple RTX 2060 6 GB badges. This older GPU was chosen deliberately to measure equipment readers may already have. D3 Flash Artemis remains the local accuracy leader at 995/1,342 (74.1%), with a 408 ms median. H2O-Lightning 4B has a lower 66.5% score and a shorter 259 ms median. Local hardware/electricity cost remains unmeasured; no speed on newer GPUs is projected.
 
-## Colors and cost boundaries retain their meaning
+## Scores describe this bank and these execution settings
 
-Purple identifies local RTX 2060 runs, blue hosted decision models and pale yellow the four no-reasoning LLM references. Cell colors encode accuracy; the original green-to-red speed/cost bands are fixed. Local hardware, electricity and depreciation were not measured, so no zero-dollar operating cost is invented. Celeris and Fastino estimates are marked with a tilde. API identities and serving digests are provenance, not independent weight attestations.
+This is immediate fixed-choice decision making without tools, generated reasoning or agentic iteration. The four selected LLM references preserve their recorded reasoning-off controls and verification limits. Named hosted model identities and native zero-output responses do not attest immutable weights or all internal computation. All earlier failures, partial exclusions, category sizes and the separate author-development diagnostic remain preserved. Blue marks hosted decisions, purple local runs and pale yellow LLM references; cell and speed/cost colors retain fixed scales.
 
 ## Categories, questions and evidence
 
 ## Category scores and explanations
 
-The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 52 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
+The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 54 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
 
 [Open the color-coded, selectable tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions), with a pinned model-name column and individual category rankings.
 
@@ -142,9 +144,9 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | All, some, none and sets (F05) | 49 | Track all, some, none and overlapping groups Example: All teal tokens are marked; no marked token is blank; which relation follows? |
 | Enough evidence or a conflict? (F11) | 41 | Determine whether facts force an answer or contradict one another Example: Is a proposed arrangement determined, impossible or still underdetermined? |
 
-![Rules and evidence: all 52 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-25/rules.png)
+![Rules and evidence: all 54 routes, named categories, correct counts and percentages](results/releases/native_updates_2026-10-27/rules.png)
 
-[Full-size SVG](results/releases/native_additions_2026-10-25/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
+[Full-size SVG](results/releases/native_updates_2026-10-27/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
 
 ### Ordering, schedules and assignments
 
@@ -158,9 +160,9 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Comparing time intervals (F14) | 42 | Compare starts, ends and overlapping periods Example: Which interval overlaps a specified event without containing it? |
 | Ranking with tie-break rules (F22) | 51 | Rank candidates using explicit tie-break rules Example: Rank by priority first, then age when priorities tie. |
 
-![Ordering, schedules and assignments: all 52 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-25/ordering.png)
+![Ordering, schedules and assignments: all 54 routes, named categories, correct counts and percentages](results/releases/native_updates_2026-10-27/ordering.png)
 
-[Full-size SVG](results/releases/native_additions_2026-10-25/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
+[Full-size SVG](results/releases/native_updates_2026-10-27/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
 
 ### Claims, changing state and perspectives
 
@@ -176,9 +178,9 @@ Can the model count true statements, update a changing situation and separate wh
 | Resolving names and references (F16) | 50 | Resolve chains of names, roles and references Example: Identify the mentor of the colleague named in a nested description. |
 | Tracking what others know (F17) | 50 | Distinguish what different observers witnessed Example: An object moves while one observer is absent; where will that observer look? |
 
-![Claims, changing state and perspectives: all 52 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-25/state.png)
+![Claims, changing state and perspectives: all 54 routes, named categories, correct counts and percentages](results/releases/native_updates_2026-10-27/state.png)
 
-[Full-size SVG](results/releases/native_additions_2026-10-25/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
+[Full-size SVG](results/releases/native_updates_2026-10-27/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
 
 ### Causes, plans and exceptions
 
@@ -194,9 +196,9 @@ Which actions work, which consequences change, and which rule or source controls
 | Choosing authoritative current records (F24) | 43 | Select the valid source rather than an outdated conflicting one Example: Two records disagree; which controls under the stated authority and date policy? |
 | Diagnosing faults from evidence (F25) | 50 | Match observed symptoms to explicit fault rules Example: Which fault is consistent with the supplied test results? |
 
-![Causes, plans and exceptions: all 52 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-25/causes.png)
+![Causes, plans and exceptions: all 54 routes, named categories, correct counts and percentages](results/releases/native_updates_2026-10-27/causes.png)
 
-[Full-size SVG](results/releases/native_additions_2026-10-25/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
+[Full-size SVG](results/releases/native_updates_2026-10-27/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
 
 ### Risk, strategy and system behavior
 
@@ -213,16 +215,16 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Checking overlapping operations (F30) | 8 | Decide whether overlapping operations and their reported results can fit a permitted one-at-a-time order that respects the specified timing and object rules. Example: Two processes read and change the same stored value. Could their reported results fit an allowed one-at-a-time order? |
 | Detecting secret-information leaks (F31) | 8 | Check whether changing a protected secret can change an observable result in a way the stated policy forbids. Example: If public inputs stay the same, could public output distinguish two secret values that the policy says must remain indistinguishable? |
 
-![Risk, strategy and system behavior: all 52 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-25/uncertainty.png)
+![Risk, strategy and system behavior: all 54 routes, named categories, correct counts and percentages](results/releases/native_updates_2026-10-27/uncertainty.png)
 
-[Full-size SVG](results/releases/native_additions_2026-10-25/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
+[Full-size SVG](results/releases/native_updates_2026-10-27/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
 
-Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](results/releases/native_additions_2026-10-25/category_scores.csv).
+Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](results/releases/native_updates_2026-10-27/category_scores.csv).
 
 
 
-Current data: [aggregate JSON](results/releases/native_additions_2026-10-25/statistics.json), [model CSV](results/releases/native_additions_2026-10-25/model_statistics.csv), [category CSV](results/releases/native_additions_2026-10-25/category_scores.csv), [answer-free timing evidence](results/releases/native_additions_2026-10-25/local_timing_evidence.csv), [setup metadata](results/releases/native_additions_2026-10-25/local_model_metadata.json), [audit](results/releases/native_additions_2026-10-25/audit_receipt.json).
+Current data: [aggregate JSON](results/releases/native_updates_2026-10-27/statistics.json), [model CSV](results/releases/native_updates_2026-10-27/model_statistics.csv), [category CSV](results/releases/native_updates_2026-10-27/category_scores.csv), [answer-free timing evidence](results/releases/native_updates_2026-10-27/local_timing_evidence.csv), [setup metadata](results/releases/native_updates_2026-10-27/local_model_metadata.json), [audit](results/releases/native_updates_2026-10-27/audit_receipt.json).
 
 Unchanged question bank: [native JSONL](results/releases/consolidated_2026-10-19/questions_1342.jsonl), [CSV](results/releases/consolidated_2026-10-19/questions_1342.csv), [readable text](results/releases/consolidated_2026-10-19/questions_1342.txt).
 
-Implementation: [scripts/](scripts/README.md). Current check: `python3 scripts/validate_native_additions_2026_10_25.py`. Historical checks include `python3 scripts/validate_opus5_release.py` and `python3 scripts/validate_october21_release.py`. All earlier releases remain unchanged.
+Implementation: [scripts/](scripts/README.md). Current check: `python3 scripts/validate_native_updates_2026_10_27.py`. Historical checks include `python3 scripts/validate_opus5_release.py` and `python3 scripts/validate_october21_release.py`. All earlier releases remain unchanged.

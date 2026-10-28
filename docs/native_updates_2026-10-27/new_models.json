@@ -1,0 +1,1570 @@
+{
+  "d3_ultra": {
+    "n": 1342,
+    "correct": 1124,
+    "answered": 1342,
+    "failed": 0,
+    "wrong_valid": 218,
+    "accuracy": 0.8375558867362146,
+    "model_id": "d3_ultra",
+    "label": "D3 Ultra",
+    "model_requested": "vllm-sr/d3-ultra",
+    "execution_location": "hosted",
+    "route": "Direct D3 native SystemOne; explicit Ultra identity",
+    "mean_response_ms": 174.33355649600628,
+    "median_ms": 147.7509165124502,
+    "p95_ms": 210.5346913536778,
+    "first_statuses": {
+      "ok": 1342
+    },
+    "attempts": 1342,
+    "recoveries": 0,
+    "provider_failures": 0,
+    "model_output_failures": 0,
+    "probability_warnings": 0,
+    "accuracy_among_usable": 0.8375558867362146,
+    "families": {
+      "F01": {
+        "n": 43,
+        "correct": 41,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.9534883720930233
+      },
+      "F02": {
+        "n": 46,
+        "correct": 46,
+        "answered": 46,
+        "failed": 0,
+        "wrong_valid": 0,
+        "accuracy": 1.0
+      },
+      "F03": {
+        "n": 52,
+        "correct": 50,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.9615384615384616
+      },
+      "F04": {
+        "n": 54,
+        "correct": 49,
+        "answered": 54,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9074074074074074
+      },
+      "F05": {
+        "n": 49,
+        "correct": 45,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9183673469387755
+      },
+      "F06": {
+        "n": 40,
+        "correct": 38,
+        "answered": 40,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.95
+      },
+      "F07": {
+        "n": 76,
+        "correct": 57,
+        "answered": 76,
+        "failed": 0,
+        "wrong_valid": 19,
+        "accuracy": 0.75
+      },
+      "F08": {
+        "n": 67,
+        "correct": 64,
+        "answered": 67,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9552238805970149
+      },
+      "F09": {
+        "n": 71,
+        "correct": 39,
+        "answered": 71,
+        "failed": 0,
+        "wrong_valid": 32,
+        "accuracy": 0.5492957746478874
+      },
+      "F10": {
+        "n": 74,
+        "correct": 53,
+        "answered": 74,
+        "failed": 0,
+        "wrong_valid": 21,
+        "accuracy": 0.7162162162162162
+      },
+      "F11": {
+        "n": 41,
+        "correct": 37,
+        "answered": 41,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9024390243902439
+      },
+      "F12": {
+        "n": 52,
+        "correct": 36,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 16,
+        "accuracy": 0.6923076923076923
+      },
+      "F13": {
+        "n": 48,
+        "correct": 16,
+        "answered": 48,
+        "failed": 0,
+        "wrong_valid": 32,
+        "accuracy": 0.3333333333333333
+      },
+      "F14": {
+        "n": 42,
+        "correct": 38,
+        "answered": 42,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9047619047619048
+      },
+      "F15": {
+        "n": 49,
+        "correct": 37,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 12,
+        "accuracy": 0.7551020408163265
+      },
+      "F16": {
+        "n": 50,
+        "correct": 38,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 12,
+        "accuracy": 0.76
+      },
+      "F17": {
+        "n": 50,
+        "correct": 46,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.92
+      },
+      "F18": {
+        "n": 50,
+        "correct": 45,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9
+      },
+      "F19": {
+        "n": 58,
+        "correct": 55,
+        "answered": 58,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9482758620689655
+      },
+      "F20": {
+        "n": 43,
+        "correct": 39,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9069767441860465
+      },
+      "F21": {
+        "n": 43,
+        "correct": 42,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9767441860465116
+      },
+      "F22": {
+        "n": 51,
+        "correct": 47,
+        "answered": 51,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9215686274509803
+      },
+      "F23": {
+        "n": 52,
+        "correct": 52,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 0,
+        "accuracy": 1.0
+      },
+      "F24": {
+        "n": 43,
+        "correct": 42,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9767441860465116
+      },
+      "F25": {
+        "n": 50,
+        "correct": 48,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.96
+      },
+      "F26": {
+        "n": 8,
+        "correct": 4,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.5
+      },
+      "F27": {
+        "n": 8,
+        "correct": 3,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.375
+      },
+      "F28": {
+        "n": 8,
+        "correct": 4,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.5
+      },
+      "F29": {
+        "n": 8,
+        "correct": 4,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.5
+      },
+      "F30": {
+        "n": 8,
+        "correct": 3,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.375
+      },
+      "F31": {
+        "n": 8,
+        "correct": 6,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.75
+      }
+    },
+    "macro_family_accuracy": 0.7909610019628162,
+    "dates_toronto": {
+      "2026-10-27": 1342
+    },
+    "returned_identities": {
+      "vllm-sr/d3-ultra": 1342
+    },
+    "providers": {
+      "unreported": 1342
+    },
+    "observed_output_tokens": 0,
+    "original_1136": {
+      "n": 1136,
+      "correct": 1016,
+      "answered": 1136,
+      "failed": 0,
+      "wrong_valid": 120,
+      "accuracy": 0.8943661971830986
+    },
+    "added_206": {
+      "n": 206,
+      "correct": 108,
+      "answered": 206,
+      "failed": 0,
+      "wrong_valid": 98,
+      "accuracy": 0.5242718446601942
+    },
+    "new_domains": {
+      "n": 48,
+      "correct": 24,
+      "answered": 48,
+      "failed": 0,
+      "wrong_valid": 24,
+      "accuracy": 0.5
+    },
+    "release_exclusion_diagnostic": {
+      "n": 1305,
+      "correct": 1112,
+      "answered": 1305,
+      "failed": 0,
+      "wrong_valid": 193,
+      "accuracy": 0.8521072796934865
+    },
+    "highest_scoring_categories": [
+      {
+        "family_id": "F02",
+        "n": 46,
+        "correct": 46,
+        "answered": 46,
+        "failed": 0,
+        "wrong_valid": 0,
+        "accuracy": 1.0
+      },
+      {
+        "family_id": "F23",
+        "n": 52,
+        "correct": 52,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 0,
+        "accuracy": 1.0
+      },
+      {
+        "family_id": "F21",
+        "n": 43,
+        "correct": 42,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9767441860465116
+      },
+      {
+        "family_id": "F24",
+        "n": 43,
+        "correct": 42,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9767441860465116
+      },
+      {
+        "family_id": "F03",
+        "n": 52,
+        "correct": 50,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.9615384615384616
+      },
+      {
+        "family_id": "F25",
+        "n": 50,
+        "correct": 48,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.96
+      },
+      {
+        "family_id": "F08",
+        "n": 67,
+        "correct": 64,
+        "answered": 67,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9552238805970149
+      },
+      {
+        "family_id": "F01",
+        "n": 43,
+        "correct": 41,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.9534883720930233
+      },
+      {
+        "family_id": "F06",
+        "n": 40,
+        "correct": 38,
+        "answered": 40,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.95
+      },
+      {
+        "family_id": "F19",
+        "n": 58,
+        "correct": 55,
+        "answered": 58,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9482758620689655
+      },
+      {
+        "family_id": "F22",
+        "n": 51,
+        "correct": 47,
+        "answered": 51,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9215686274509803
+      },
+      {
+        "family_id": "F17",
+        "n": 50,
+        "correct": 46,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.92
+      },
+      {
+        "family_id": "F05",
+        "n": 49,
+        "correct": 45,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9183673469387755
+      },
+      {
+        "family_id": "F04",
+        "n": 54,
+        "correct": 49,
+        "answered": 54,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9074074074074074
+      },
+      {
+        "family_id": "F20",
+        "n": 43,
+        "correct": 39,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9069767441860465
+      },
+      {
+        "family_id": "F14",
+        "n": 42,
+        "correct": 38,
+        "answered": 42,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9047619047619048
+      },
+      {
+        "family_id": "F11",
+        "n": 41,
+        "correct": 37,
+        "answered": 41,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9024390243902439
+      },
+      {
+        "family_id": "F18",
+        "n": 50,
+        "correct": 45,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9
+      },
+      {
+        "family_id": "F16",
+        "n": 50,
+        "correct": 38,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 12,
+        "accuracy": 0.76
+      },
+      {
+        "family_id": "F15",
+        "n": 49,
+        "correct": 37,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 12,
+        "accuracy": 0.7551020408163265
+      },
+      {
+        "family_id": "F07",
+        "n": 76,
+        "correct": 57,
+        "answered": 76,
+        "failed": 0,
+        "wrong_valid": 19,
+        "accuracy": 0.75
+      },
+      {
+        "family_id": "F10",
+        "n": 74,
+        "correct": 53,
+        "answered": 74,
+        "failed": 0,
+        "wrong_valid": 21,
+        "accuracy": 0.7162162162162162
+      },
+      {
+        "family_id": "F12",
+        "n": 52,
+        "correct": 36,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 16,
+        "accuracy": 0.6923076923076923
+      },
+      {
+        "family_id": "F09",
+        "n": 71,
+        "correct": 39,
+        "answered": 71,
+        "failed": 0,
+        "wrong_valid": 32,
+        "accuracy": 0.5492957746478874
+      },
+      {
+        "family_id": "F13",
+        "n": 48,
+        "correct": 16,
+        "answered": 48,
+        "failed": 0,
+        "wrong_valid": 32,
+        "accuracy": 0.3333333333333333
+      }
+    ],
+    "lowest_scoring_categories": [
+      {
+        "family_id": "F13",
+        "n": 48,
+        "correct": 16,
+        "answered": 48,
+        "failed": 0,
+        "wrong_valid": 32,
+        "accuracy": 0.3333333333333333
+      },
+      {
+        "family_id": "F09",
+        "n": 71,
+        "correct": 39,
+        "answered": 71,
+        "failed": 0,
+        "wrong_valid": 32,
+        "accuracy": 0.5492957746478874
+      },
+      {
+        "family_id": "F12",
+        "n": 52,
+        "correct": 36,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 16,
+        "accuracy": 0.6923076923076923
+      },
+      {
+        "family_id": "F10",
+        "n": 74,
+        "correct": 53,
+        "answered": 74,
+        "failed": 0,
+        "wrong_valid": 21,
+        "accuracy": 0.7162162162162162
+      },
+      {
+        "family_id": "F07",
+        "n": 76,
+        "correct": 57,
+        "answered": 76,
+        "failed": 0,
+        "wrong_valid": 19,
+        "accuracy": 0.75
+      },
+      {
+        "family_id": "F15",
+        "n": 49,
+        "correct": 37,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 12,
+        "accuracy": 0.7551020408163265
+      },
+      {
+        "family_id": "F16",
+        "n": 50,
+        "correct": 38,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 12,
+        "accuracy": 0.76
+      },
+      {
+        "family_id": "F18",
+        "n": 50,
+        "correct": 45,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9
+      },
+      {
+        "family_id": "F11",
+        "n": 41,
+        "correct": 37,
+        "answered": 41,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9024390243902439
+      },
+      {
+        "family_id": "F14",
+        "n": 42,
+        "correct": 38,
+        "answered": 42,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9047619047619048
+      },
+      {
+        "family_id": "F20",
+        "n": 43,
+        "correct": 39,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9069767441860465
+      },
+      {
+        "family_id": "F04",
+        "n": 54,
+        "correct": 49,
+        "answered": 54,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9074074074074074
+      },
+      {
+        "family_id": "F05",
+        "n": 49,
+        "correct": 45,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9183673469387755
+      },
+      {
+        "family_id": "F17",
+        "n": 50,
+        "correct": 46,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.92
+      },
+      {
+        "family_id": "F22",
+        "n": 51,
+        "correct": 47,
+        "answered": 51,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9215686274509803
+      },
+      {
+        "family_id": "F19",
+        "n": 58,
+        "correct": 55,
+        "answered": 58,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9482758620689655
+      },
+      {
+        "family_id": "F06",
+        "n": 40,
+        "correct": 38,
+        "answered": 40,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.95
+      },
+      {
+        "family_id": "F01",
+        "n": 43,
+        "correct": 41,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.9534883720930233
+      },
+      {
+        "family_id": "F08",
+        "n": 67,
+        "correct": 64,
+        "answered": 67,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9552238805970149
+      },
+      {
+        "family_id": "F25",
+        "n": 50,
+        "correct": 48,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.96
+      },
+      {
+        "family_id": "F03",
+        "n": 52,
+        "correct": 50,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.9615384615384616
+      },
+      {
+        "family_id": "F21",
+        "n": 43,
+        "correct": 42,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9767441860465116
+      },
+      {
+        "family_id": "F24",
+        "n": 43,
+        "correct": 42,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9767441860465116
+      },
+      {
+        "family_id": "F02",
+        "n": 46,
+        "correct": 46,
+        "answered": 46,
+        "failed": 0,
+        "wrong_valid": 0,
+        "accuracy": 1.0
+      },
+      {
+        "family_id": "F23",
+        "n": 52,
+        "correct": 52,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 0,
+        "accuracy": 1.0
+      }
+    ],
+    "admission_calls": 2,
+    "admission_cost_usd": "0",
+    "cost": {
+      "known_usd": null,
+      "known_decimal": null,
+      "known_usd_per_1000": null,
+      "exact_usd": null,
+      "unknown_attempts": 1342,
+      "public_free_access": true,
+      "accounted_access_cost_usd": 0.0,
+      "scope": "Free public API access at test time; no monetary receipts or permanent production tariff"
+    }
+  },
+  "liquid11_decision": {
+    "n": 1342,
+    "correct": 1044,
+    "answered": 1342,
+    "failed": 0,
+    "wrong_valid": 298,
+    "accuracy": 0.7779433681073026,
+    "model_id": "liquid11_decision",
+    "label": "Liquid d1.1",
+    "model_requested": "liquid/d1.1",
+    "execution_location": "hosted",
+    "route": "OpenRouter native Decisions; pinned Liquid provider",
+    "mean_response_ms": 255.06594325178102,
+    "median_ms": 212.15231250971556,
+    "p95_ms": 423.87425831984734,
+    "first_statuses": {
+      "ok": 1342
+    },
+    "attempts": 1342,
+    "recoveries": 0,
+    "provider_failures": 0,
+    "model_output_failures": 0,
+    "probability_warnings": 0,
+    "accuracy_among_usable": 0.7779433681073026,
+    "families": {
+      "F01": {
+        "n": 43,
+        "correct": 39,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9069767441860465
+      },
+      "F02": {
+        "n": 46,
+        "correct": 45,
+        "answered": 46,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9782608695652174
+      },
+      "F03": {
+        "n": 52,
+        "correct": 50,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.9615384615384616
+      },
+      "F04": {
+        "n": 54,
+        "correct": 44,
+        "answered": 54,
+        "failed": 0,
+        "wrong_valid": 10,
+        "accuracy": 0.8148148148148148
+      },
+      "F05": {
+        "n": 49,
+        "correct": 44,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.8979591836734694
+      },
+      "F06": {
+        "n": 40,
+        "correct": 38,
+        "answered": 40,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.95
+      },
+      "F07": {
+        "n": 76,
+        "correct": 52,
+        "answered": 76,
+        "failed": 0,
+        "wrong_valid": 24,
+        "accuracy": 0.6842105263157895
+      },
+      "F08": {
+        "n": 67,
+        "correct": 47,
+        "answered": 67,
+        "failed": 0,
+        "wrong_valid": 20,
+        "accuracy": 0.7014925373134329
+      },
+      "F09": {
+        "n": 71,
+        "correct": 47,
+        "answered": 71,
+        "failed": 0,
+        "wrong_valid": 24,
+        "accuracy": 0.6619718309859155
+      },
+      "F10": {
+        "n": 74,
+        "correct": 46,
+        "answered": 74,
+        "failed": 0,
+        "wrong_valid": 28,
+        "accuracy": 0.6216216216216216
+      },
+      "F11": {
+        "n": 41,
+        "correct": 34,
+        "answered": 41,
+        "failed": 0,
+        "wrong_valid": 7,
+        "accuracy": 0.8292682926829268
+      },
+      "F12": {
+        "n": 52,
+        "correct": 27,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 25,
+        "accuracy": 0.5192307692307693
+      },
+      "F13": {
+        "n": 48,
+        "correct": 10,
+        "answered": 48,
+        "failed": 0,
+        "wrong_valid": 38,
+        "accuracy": 0.20833333333333334
+      },
+      "F14": {
+        "n": 42,
+        "correct": 38,
+        "answered": 42,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9047619047619048
+      },
+      "F15": {
+        "n": 49,
+        "correct": 32,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 17,
+        "accuracy": 0.6530612244897959
+      },
+      "F16": {
+        "n": 50,
+        "correct": 36,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 14,
+        "accuracy": 0.72
+      },
+      "F17": {
+        "n": 50,
+        "correct": 42,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 8,
+        "accuracy": 0.84
+      },
+      "F18": {
+        "n": 50,
+        "correct": 37,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 13,
+        "accuracy": 0.74
+      },
+      "F19": {
+        "n": 58,
+        "correct": 53,
+        "answered": 58,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9137931034482759
+      },
+      "F20": {
+        "n": 43,
+        "correct": 38,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.8837209302325582
+      },
+      "F21": {
+        "n": 43,
+        "correct": 40,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9302325581395349
+      },
+      "F22": {
+        "n": 51,
+        "correct": 46,
+        "answered": 51,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9019607843137255
+      },
+      "F23": {
+        "n": 52,
+        "correct": 51,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9807692307692307
+      },
+      "F24": {
+        "n": 43,
+        "correct": 40,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9302325581395349
+      },
+      "F25": {
+        "n": 50,
+        "correct": 44,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 6,
+        "accuracy": 0.88
+      },
+      "F26": {
+        "n": 8,
+        "correct": 5,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.625
+      },
+      "F27": {
+        "n": 8,
+        "correct": 4,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.5
+      },
+      "F28": {
+        "n": 8,
+        "correct": 2,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 6,
+        "accuracy": 0.25
+      },
+      "F29": {
+        "n": 8,
+        "correct": 4,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.5
+      },
+      "F30": {
+        "n": 8,
+        "correct": 5,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.625
+      },
+      "F31": {
+        "n": 8,
+        "correct": 4,
+        "answered": 8,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.5
+      }
+    },
+    "macro_family_accuracy": 0.7423939122437535,
+    "dates_toronto": {
+      "2026-10-27": 1342
+    },
+    "returned_identities": {
+      "liquid/d1.1-20261027": 1342
+    },
+    "providers": {
+      "Liquid": 1342
+    },
+    "observed_output_tokens": 0,
+    "original_1136": {
+      "n": 1136,
+      "correct": 937,
+      "answered": 1136,
+      "failed": 0,
+      "wrong_valid": 199,
+      "accuracy": 0.8248239436619719
+    },
+    "added_206": {
+      "n": 206,
+      "correct": 107,
+      "answered": 206,
+      "failed": 0,
+      "wrong_valid": 99,
+      "accuracy": 0.5194174757281553
+    },
+    "new_domains": {
+      "n": 48,
+      "correct": 24,
+      "answered": 48,
+      "failed": 0,
+      "wrong_valid": 24,
+      "accuracy": 0.5
+    },
+    "release_exclusion_diagnostic": {
+      "n": 1305,
+      "correct": 1028,
+      "answered": 1305,
+      "failed": 0,
+      "wrong_valid": 277,
+      "accuracy": 0.7877394636015326
+    },
+    "highest_scoring_categories": [
+      {
+        "family_id": "F23",
+        "n": 52,
+        "correct": 51,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9807692307692307
+      },
+      {
+        "family_id": "F02",
+        "n": 46,
+        "correct": 45,
+        "answered": 46,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9782608695652174
+      },
+      {
+        "family_id": "F03",
+        "n": 52,
+        "correct": 50,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.9615384615384616
+      },
+      {
+        "family_id": "F06",
+        "n": 40,
+        "correct": 38,
+        "answered": 40,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.95
+      },
+      {
+        "family_id": "F21",
+        "n": 43,
+        "correct": 40,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9302325581395349
+      },
+      {
+        "family_id": "F24",
+        "n": 43,
+        "correct": 40,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9302325581395349
+      },
+      {
+        "family_id": "F19",
+        "n": 58,
+        "correct": 53,
+        "answered": 58,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9137931034482759
+      },
+      {
+        "family_id": "F01",
+        "n": 43,
+        "correct": 39,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9069767441860465
+      },
+      {
+        "family_id": "F14",
+        "n": 42,
+        "correct": 38,
+        "answered": 42,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9047619047619048
+      },
+      {
+        "family_id": "F22",
+        "n": 51,
+        "correct": 46,
+        "answered": 51,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9019607843137255
+      },
+      {
+        "family_id": "F05",
+        "n": 49,
+        "correct": 44,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.8979591836734694
+      },
+      {
+        "family_id": "F20",
+        "n": 43,
+        "correct": 38,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.8837209302325582
+      },
+      {
+        "family_id": "F25",
+        "n": 50,
+        "correct": 44,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 6,
+        "accuracy": 0.88
+      },
+      {
+        "family_id": "F17",
+        "n": 50,
+        "correct": 42,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 8,
+        "accuracy": 0.84
+      },
+      {
+        "family_id": "F11",
+        "n": 41,
+        "correct": 34,
+        "answered": 41,
+        "failed": 0,
+        "wrong_valid": 7,
+        "accuracy": 0.8292682926829268
+      },
+      {
+        "family_id": "F04",
+        "n": 54,
+        "correct": 44,
+        "answered": 54,
+        "failed": 0,
+        "wrong_valid": 10,
+        "accuracy": 0.8148148148148148
+      },
+      {
+        "family_id": "F18",
+        "n": 50,
+        "correct": 37,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 13,
+        "accuracy": 0.74
+      },
+      {
+        "family_id": "F16",
+        "n": 50,
+        "correct": 36,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 14,
+        "accuracy": 0.72
+      },
+      {
+        "family_id": "F08",
+        "n": 67,
+        "correct": 47,
+        "answered": 67,
+        "failed": 0,
+        "wrong_valid": 20,
+        "accuracy": 0.7014925373134329
+      },
+      {
+        "family_id": "F07",
+        "n": 76,
+        "correct": 52,
+        "answered": 76,
+        "failed": 0,
+        "wrong_valid": 24,
+        "accuracy": 0.6842105263157895
+      },
+      {
+        "family_id": "F09",
+        "n": 71,
+        "correct": 47,
+        "answered": 71,
+        "failed": 0,
+        "wrong_valid": 24,
+        "accuracy": 0.6619718309859155
+      },
+      {
+        "family_id": "F15",
+        "n": 49,
+        "correct": 32,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 17,
+        "accuracy": 0.6530612244897959
+      },
+      {
+        "family_id": "F10",
+        "n": 74,
+        "correct": 46,
+        "answered": 74,
+        "failed": 0,
+        "wrong_valid": 28,
+        "accuracy": 0.6216216216216216
+      },
+      {
+        "family_id": "F12",
+        "n": 52,
+        "correct": 27,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 25,
+        "accuracy": 0.5192307692307693
+      },
+      {
+        "family_id": "F13",
+        "n": 48,
+        "correct": 10,
+        "answered": 48,
+        "failed": 0,
+        "wrong_valid": 38,
+        "accuracy": 0.20833333333333334
+      }
+    ],
+    "lowest_scoring_categories": [
+      {
+        "family_id": "F13",
+        "n": 48,
+        "correct": 10,
+        "answered": 48,
+        "failed": 0,
+        "wrong_valid": 38,
+        "accuracy": 0.20833333333333334
+      },
+      {
+        "family_id": "F12",
+        "n": 52,
+        "correct": 27,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 25,
+        "accuracy": 0.5192307692307693
+      },
+      {
+        "family_id": "F10",
+        "n": 74,
+        "correct": 46,
+        "answered": 74,
+        "failed": 0,
+        "wrong_valid": 28,
+        "accuracy": 0.6216216216216216
+      },
+      {
+        "family_id": "F15",
+        "n": 49,
+        "correct": 32,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 17,
+        "accuracy": 0.6530612244897959
+      },
+      {
+        "family_id": "F09",
+        "n": 71,
+        "correct": 47,
+        "answered": 71,
+        "failed": 0,
+        "wrong_valid": 24,
+        "accuracy": 0.6619718309859155
+      },
+      {
+        "family_id": "F07",
+        "n": 76,
+        "correct": 52,
+        "answered": 76,
+        "failed": 0,
+        "wrong_valid": 24,
+        "accuracy": 0.6842105263157895
+      },
+      {
+        "family_id": "F08",
+        "n": 67,
+        "correct": 47,
+        "answered": 67,
+        "failed": 0,
+        "wrong_valid": 20,
+        "accuracy": 0.7014925373134329
+      },
+      {
+        "family_id": "F16",
+        "n": 50,
+        "correct": 36,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 14,
+        "accuracy": 0.72
+      },
+      {
+        "family_id": "F18",
+        "n": 50,
+        "correct": 37,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 13,
+        "accuracy": 0.74
+      },
+      {
+        "family_id": "F04",
+        "n": 54,
+        "correct": 44,
+        "answered": 54,
+        "failed": 0,
+        "wrong_valid": 10,
+        "accuracy": 0.8148148148148148
+      },
+      {
+        "family_id": "F11",
+        "n": 41,
+        "correct": 34,
+        "answered": 41,
+        "failed": 0,
+        "wrong_valid": 7,
+        "accuracy": 0.8292682926829268
+      },
+      {
+        "family_id": "F17",
+        "n": 50,
+        "correct": 42,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 8,
+        "accuracy": 0.84
+      },
+      {
+        "family_id": "F25",
+        "n": 50,
+        "correct": 44,
+        "answered": 50,
+        "failed": 0,
+        "wrong_valid": 6,
+        "accuracy": 0.88
+      },
+      {
+        "family_id": "F20",
+        "n": 43,
+        "correct": 38,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.8837209302325582
+      },
+      {
+        "family_id": "F05",
+        "n": 49,
+        "correct": 44,
+        "answered": 49,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.8979591836734694
+      },
+      {
+        "family_id": "F22",
+        "n": 51,
+        "correct": 46,
+        "answered": 51,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9019607843137255
+      },
+      {
+        "family_id": "F14",
+        "n": 42,
+        "correct": 38,
+        "answered": 42,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9047619047619048
+      },
+      {
+        "family_id": "F01",
+        "n": 43,
+        "correct": 39,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 4,
+        "accuracy": 0.9069767441860465
+      },
+      {
+        "family_id": "F19",
+        "n": 58,
+        "correct": 53,
+        "answered": 58,
+        "failed": 0,
+        "wrong_valid": 5,
+        "accuracy": 0.9137931034482759
+      },
+      {
+        "family_id": "F21",
+        "n": 43,
+        "correct": 40,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9302325581395349
+      },
+      {
+        "family_id": "F24",
+        "n": 43,
+        "correct": 40,
+        "answered": 43,
+        "failed": 0,
+        "wrong_valid": 3,
+        "accuracy": 0.9302325581395349
+      },
+      {
+        "family_id": "F06",
+        "n": 40,
+        "correct": 38,
+        "answered": 40,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.95
+      },
+      {
+        "family_id": "F03",
+        "n": 52,
+        "correct": 50,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 2,
+        "accuracy": 0.9615384615384616
+      },
+      {
+        "family_id": "F02",
+        "n": 46,
+        "correct": 45,
+        "answered": 46,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9782608695652174
+      },
+      {
+        "family_id": "F23",
+        "n": 52,
+        "correct": 51,
+        "answered": 52,
+        "failed": 0,
+        "wrong_valid": 1,
+        "accuracy": 0.9807692307692307
+      }
+    ],
+    "admission_calls": 2,
+    "admission_cost_usd": "0.0000024",
+    "cost": {
+      "known_usd": 0.00774762,
+      "known_decimal": "0.00774762",
+      "exact_usd": 0.00774762,
+      "known_usd_per_1000": 0.005773189269746647,
+      "known_attempts": 1342,
+      "unknown_attempts": 0,
+      "source": "api_reported",
+      "scope": "API-reported USD charges; admission probes separate"
+    }
+  }
+}
