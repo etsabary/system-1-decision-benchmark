@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "new_full_text_runs": 4,
+  "new_first_attempts": 5368,
+  "previous_56_model_records_unchanged": true,
+  "bank_sha256": "2db8cf8353f12b609d4df5330d94f53390c9c2919677dc793df4bb2d3cff7076",
+  "private_key_reconciled": true,
+  "category_totals_reconciled": true,
+  "all_dispatches_resolved": true,
+  "scored_retries": 0,
+  "public_scope": "Aggregates and answer-free timings/hashes; no keys, choices or per-item correctness"
+}

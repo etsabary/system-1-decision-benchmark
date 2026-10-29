@@ -1,0 +1,34 @@
+{
+  "version": "adaptive-october29-1342-v1",
+  "models": 60,
+  "questions_each": 1342,
+  "adaptive_model_ids": [
+    "local_startlux_autothink4b"
+  ],
+  "prior_statistics_sha256": "bda04c7a2ed937e87c79d4e64331b681c64ebe56263d2284eefd735c0e214411",
+  "artifacts": {
+    "accuracy_speed_cost.png": "f5b2b19abff4b825db4f105cee41094f3af17293d89c61696c0a13990f70c14a",
+    "accuracy_speed_cost.svg": "1411e523a332bca869e91fee013ed4d4c79815a11c9d9ec622bd317aca89ee04",
+    "adaptive_behavior.png": "596d094821a6a3d8600403416bec6bc2aaaf42c3d0b725998a8d4110596c67b0",
+    "adaptive_behavior.svg": "597a5e95677d48c70be1465a037aa31b271de6c27220fa8700ba9ae1539c41c2",
+    "analysis.md": "e45f48d8a3ace6ee1701bcb7450100d81eaa1da412da3c138c592376e8dcd9c4",
+    "audit_receipt.json": "f64caa0a31bf2b17b3d4a3cdf235400952bec81e4b60ebd485d3c8b9a9849d67",
+    "category_guide.json": "183f7fa8ace26704616423f307e0d8f0acb923a6b29c78e837ebf1ddaa7be823",
+    "category_scores.csv": "317d8b8970bad7d2c9293af85656a5659323fd64c7c577497c37f30b7d15b599",
+    "causes.png": "283e1a95e99abefcc7ff03731f8a76e7131588c872f8632b2e811082ae8dc024",
+    "causes.svg": "c7cb1e3db7542d01279bffd105372a4b0272817629f0e4f8087cc8e22f66c88a",
+    "execution_protocol.json": "df9805d4b5445662cb24664c00d0f1dc60ca8bfa518ee9e70d43431a0fddfab8",
+    "model_statistics.csv": "aaff4bc4360283cdd70f8d73d7956388aebc78683b118f82b339e482ca33d6b3",
+    "october29_timing_evidence.csv": "a520a3be1bc036916eb38810a724b899b271c5d225ca04111181bbf17c97dbb2",
+    "ordering.png": "e35f5a6fb186fdbcbb0d1ca55ad7d8f5dfac6386aaa1aac3e2d63e27bc47e071",
+    "ordering.svg": "d49c28215b1232eadab2561f3d34510c24db3512a1a55a227a0cd86ddb2c43a5",
+    "report.html": "6057ec22cb43f5c08d7e6bcd36ea3f2df7b68cff3d4de0e1eb832ab9fd63582f",
+    "rules.png": "cf247b889bb323c22e000835c97c85ef5a6b4ee0793ea49adeb6fa238cbd885a",
+    "rules.svg": "eebe7701cb0e75155e5714380c418889b04eb98c1dd7502629a254be2c3ff58e",
+    "state.png": "7fb7319b3d95d27bdf9806481d7e6fdad3301b4669d8c4bda72aecb81823c43f",
+    "state.svg": "698ce7092848a1048293904621c2d26a0d01f771a7be8bd0a754db3e502bd62c",
+    "statistics.json": "9a58f398d9542e0af77dd151580c18e8de5b0aec7a64a040bc802e8557431074",
+    "uncertainty.png": "f9f4be829842dcd76fe28857a3a93c1aa251abc247d5f0c917e2775fc6b32587",
+    "uncertainty.svg": "7b7febae0dedba2729287e8ed1963be27de64a5392c2a836ad69036d7e127177"
+  }
+}

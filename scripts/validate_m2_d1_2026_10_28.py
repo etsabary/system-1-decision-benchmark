@@ -16,7 +16,8 @@ def validate():
   t=sorted(float(x['latency_ms']) for x in a);pos=(len(t)-1)*.95;lo=math.floor(pos);hi=math.ceil(pos)
   for x,y in [(m['median_ms'],statistics.median(t)),(m['mean_response_ms'],statistics.mean(t)),(m['p95_ms'],t[lo]+(t[hi]-t[lo])*(pos-lo))]:assert math.isclose(x,y,rel_tol=1e-12)
   assert m['execution_location']=='local' and m['hardware']=='Apple M2' and m['cost']['known_usd'] is None
- for p in [DEST/'report.html',ROOT/'docs/report.html']:
+ # The dated release remains authoritative after the live report advances.
+ for p in [DEST/'report.html']:
   page=Page();page.feed(p.read_text());assert page.summary==s['ranked_model_ids'] and len(page.cells)==56*31 and len(page.ids)==len(set(page.ids));assert all(Counter(x['data-model'] for x in page.cells)[mid]==31 for mid in ids)
   for cell in page.cells:
    m=s['models'][cell['data-model']]['families'][cell['data-category']];assert int(cell['data-correct'])==m['correct'] and int(cell['data-n'])==m['n'] and read.color(m['accuracy'])[0] in cell['style']

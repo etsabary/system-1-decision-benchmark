@@ -29,5 +29,6 @@ jobs:
       - run: python3 scripts/validate_native_additions_2026_10_25.py
       - run: python3 scripts/validate_native_updates_2026_10_27.py
       - run: python3 scripts/validate_m2_d1_2026_10_28.py
+      - run: python3 scripts/validate_october29_decisions.py
       - run: python3 scripts/validate_repository_layout.py
       - run: python3 -m unittest discover -s scripts -p 'test_*.py'
