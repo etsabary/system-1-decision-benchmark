@@ -36,7 +36,8 @@ def validate():
  assert s['models'][b.IDS[0]]['cost']['known_usd'] is None and not s['models'][b.IDS[0]]['cost'].get('public_free_access')
  protocol=b.load(b.DEST/'execution_protocol.json');assert protocol[b.AUTO]['native_think_budget']==512 and not protocol[b.AUTO]['thought_text_exposed'] and 'exception' in protocol[b.AUTO]['speed_policy']
  for path in [b.DEST/'report.html',b.ROOT/'docs/report.html']:
-  text=path.read_text();page=Page();page.feed(text);assert page.summary==s['ranked_model_ids'] and len(page.cells)==1860 and len(page.ids)==len(set(page.ids))
+  from validate_october30_decisions import historical
+  text=historical(path).read_text();page=Page();page.feed(text);assert page.summary==s['ranked_model_ids'] and len(page.cells)==1860 and len(page.ids)==len(set(page.ids))
   assert all(phrase in text for phrase in ['✦','adaptive-model','#7c3aed','#d97706','55.9%','44.1%','13.12 s','sometimes thinks','512-token','1,342'])
   for c in page.cells:
    f=s['models'][c['data-model']]['families'][c['data-category']];assert (int(c['data-correct']),int(c['data-n']))==(f['correct'],f['n']) and read.color(f['accuracy'])[0] in c['style']

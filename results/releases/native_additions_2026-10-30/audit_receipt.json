@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "new_native_runs": 1,
+  "new_native_first_attempts": 1342,
+  "separate_extraction_first_attempts": 1342,
+  "previous_60_model_records_unchanged": true,
+  "all_dispatches_resolved": true,
+  "private_key_reconciled": true,
+  "category_sums_verified": true,
+  "raw_responses_reparsed": true,
+  "public_scope": "Aggregate correctness and answer-free timing/hashes only"
+}

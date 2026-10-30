@@ -1,12 +1,12 @@
 # System 1 Decision Benchmark
 
-**60 configurations on the same 1,342 text questions across 31 categories:** 32 hosted decision models, 23 immediate local configurations, one adaptive local AutoThink model, and four selected no-reasoning LLM references. Updated October 29, 2026.
+**61 configurations on the same 1,342 text questions across 31 categories:** 33 hosted decision models, 23 immediate local configurations, one adaptive local AutoThink model, and four selected no-reasoning LLM references. Updated October 30, 2026.
 
 **Fastino GLiDE leads overall at 86.0%. D3 Flash Artemis leads the immediate local configurations at 74.1%. StartLux AutoThink reaches 74.9% with generation on 44.1% of text calls.**
 
 [Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [AutoThink: immediate decisions and adaptive generation](https://etsabary.github.io/system-1-decision-benchmark/report.html#adaptive) · [Named categories](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions)
 
-![60 configurations: local CUDA purple, adaptive AutoThink framed in gold](results/releases/adaptive_additions_2026-10-29/accuracy_speed_cost.png)
+![61 configurations: local CUDA purple, adaptive AutoThink framed in gold](results/releases/native_additions_2026-10-30/accuracy_speed_cost.png)
 
 Purple connects the local CUDA runs; magenta identifies Apple M2; blue identifies hosted decisions; pale yellow identifies LLM references. **The purple AutoThink bar has a gold frame and dot pattern because it sometimes generates.** Speed/cost bands and accuracy colors retain their fixed meanings. Hardware, routes and dates stay labelled.
 
@@ -59,6 +59,7 @@ Purple connects the local CUDA runs; magenta identifies Apple M2; blue identifie
 | Jebadiah 4B | 🟣 RTX 2060 | 808/1342 | 60.2% | 298 ms | 270 ms | 479 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Liquid d1-2B · M2 | 🟣 Apple M2 | 795/1342 | 59.2% | 989 ms | 898 ms | 1,848 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | JevK5 4B | 🟣 RTX 2060 | 780/1342 | 58.1% | 323 ms | 296 ms | 525 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Joey-1 | Hosted decision | 773/1342 | 57.6% | 179 ms | 163 ms | 256 ms | $0.003610 | $0.004845 |
 | Luna 6 Decisions | Hosted decision | 758/1342 | 56.5% | — | 254 ms | 527 ms | $0.035840 + ? | $0.048097 + ? |
 | Tev1 4B experimental (OpenRouter native adapter) | Hosted decision | 751/1342 | 56.0% | — | 198 ms | 253 ms | $0.015657 | $0.021011 |
 | Lev 4B | 🟣 RTX 2060 | 749/1342 | 55.8% | 570 ms | 532 ms | 914 ms | Local compute cost unmeasured | Local compute cost unmeasured |
@@ -77,6 +78,18 @@ Purple connects the local CUDA runs; magenta identifies Apple M2; blue identifie
 
 
 Median is the midpoint response time. p95 is the time within which 95% of measured responses completed; it exposes slower responses that a median can hide. The plot uses a gold star for AutoThink’s mean. Local compute costs are unmeasured; unknown charges are not treated as zero.
+
+## October 30: Joey-1 and an extraction-model comparison
+
+Joey-1 scored **773/1,342 (57.6%)**, with a **179 ms mean, 163 ms median and 256 ms p95**. All first attempts returned usable native decisions. OpenRouter reported **$0.00484453** for the full bank, or **$0.00360993 per 1,000 questions**. The reported output-token counter was one per decision; the native endpoint returned no prose or reasoning trace.
+
+The larger Baseten models remain substantially more accurate: **Mammoth-1 84.9%** and **Elephant-1 74.8%**. Their recorded medians were 240 and 139 ms. Those October 21 runs used Baseten directly; Joey used OpenRouter on October 30. Dates and routes remain visible, so these speeds do not isolate model size. The earlier promotional access is not a permanent production price.
+
+Joey was strong on comparisons (**38/40**) and forward conditionals (**42/46**). One-to-one assignments, such as matching people to roles under constraints, fell to **24/67**, versus Mammoth's 64 and Elephant's 60. Sequential procedures scored **11/48**. Its lower cost did not approach the leading models' accuracy on this bank.
+
+**Clairic is reported separately as an extraction adapter.** It returned an integer option ID through OpenRouter's Extractions API and scored **729/1,342 (54.3%)**, with **293 / 263 / 444 ms mean / median / p95** and **$0.05851030** reported cost. Six returned numbers outside the supplied option IDs and count as unsuccessful. Directed reachability, following one-way paths, scored **40/43**; Boolean scope **13/54**, sequential procedures **12/48** and exact truth counting **21/71**. This measures the adapted interface, not a native choice endpoint.
+
+The leaders and their earlier measurements are unchanged. [Clairic's labelled results and category scores](results/releases/native_additions_2026-10-30/clairic.html) are outside the native decision ranking.
 
 ## The overall leaders remain unchanged
 
@@ -119,11 +132,11 @@ Trio-Spark and both local StartLux routes accept one image per request. They com
 On those same 177 items, earlier Amos scored **138 (78.0%)**, Fastino **136 (76.8%)**, and D3 Turbo **132 (74.6%)**, recomputed from their existing records. These subset results appear in the [image report](https://etsabary.github.io/visual-decision-benchmark/report.html#single-image-subset), alongside the separate full 200-question ranking. Turion failed the image-binding probes on the tested endpoint and received no image score.
 
 
-![AutoThink timing split and category tradeoffs](results/releases/adaptive_additions_2026-10-29/adaptive_behavior.png)
+![AutoThink timing split and category tradeoffs](results/releases/native_additions_2026-10-30/adaptive_behavior.png)
 
 ## Category scores and explanations
 
-The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 60 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
+The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 61 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
 
 [Open the color-coded, selectable tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions), with a pinned model-name column and individual category rankings.
 
@@ -140,9 +153,9 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | All, some, none and sets (F05) | 49 | Track all, some, none and overlapping groups Example: All teal tokens are marked; no marked token is blank; which relation follows? |
 | Enough evidence or a conflict? (F11) | 41 | Determine whether facts force an answer or contradict one another Example: Is a proposed arrangement determined, impossible or still underdetermined? |
 
-![Rules and evidence: all 60 routes, named categories, correct counts and percentages](results/releases/adaptive_additions_2026-10-29/rules.png)
+![Rules and evidence: all 61 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-30/rules.png)
 
-[Full-size SVG](results/releases/adaptive_additions_2026-10-29/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
+[Full-size SVG](results/releases/native_additions_2026-10-30/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
 
 ### Ordering, schedules and assignments
 
@@ -156,9 +169,9 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Comparing time intervals (F14) | 42 | Compare starts, ends and overlapping periods Example: Which interval overlaps a specified event without containing it? |
 | Ranking with tie-break rules (F22) | 51 | Rank candidates using explicit tie-break rules Example: Rank by priority first, then age when priorities tie. |
 
-![Ordering, schedules and assignments: all 60 routes, named categories, correct counts and percentages](results/releases/adaptive_additions_2026-10-29/ordering.png)
+![Ordering, schedules and assignments: all 61 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-30/ordering.png)
 
-[Full-size SVG](results/releases/adaptive_additions_2026-10-29/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
+[Full-size SVG](results/releases/native_additions_2026-10-30/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
 
 ### Claims, changing state and perspectives
 
@@ -174,9 +187,9 @@ Can the model count true statements, update a changing situation and separate wh
 | Resolving names and references (F16) | 50 | Resolve chains of names, roles and references Example: Identify the mentor of the colleague named in a nested description. |
 | Tracking what others know (F17) | 50 | Distinguish what different observers witnessed Example: An object moves while one observer is absent; where will that observer look? |
 
-![Claims, changing state and perspectives: all 60 routes, named categories, correct counts and percentages](results/releases/adaptive_additions_2026-10-29/state.png)
+![Claims, changing state and perspectives: all 61 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-30/state.png)
 
-[Full-size SVG](results/releases/adaptive_additions_2026-10-29/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
+[Full-size SVG](results/releases/native_additions_2026-10-30/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
 
 ### Causes, plans and exceptions
 
@@ -192,9 +205,9 @@ Which actions work, which consequences change, and which rule or source controls
 | Choosing authoritative current records (F24) | 43 | Select the valid source rather than an outdated conflicting one Example: Two records disagree; which controls under the stated authority and date policy? |
 | Diagnosing faults from evidence (F25) | 50 | Match observed symptoms to explicit fault rules Example: Which fault is consistent with the supplied test results? |
 
-![Causes, plans and exceptions: all 60 routes, named categories, correct counts and percentages](results/releases/adaptive_additions_2026-10-29/causes.png)
+![Causes, plans and exceptions: all 61 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-30/causes.png)
 
-[Full-size SVG](results/releases/adaptive_additions_2026-10-29/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
+[Full-size SVG](results/releases/native_additions_2026-10-30/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
 
 ### Risk, strategy and system behavior
 
@@ -211,15 +224,17 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Checking overlapping operations (F30) | 8 | Decide whether overlapping operations and their reported results can fit a permitted one-at-a-time order that respects the specified timing and object rules. Example: Two processes read and change the same stored value. Could their reported results fit an allowed one-at-a-time order? |
 | Detecting secret-information leaks (F31) | 8 | Check whether changing a protected secret can change an observable result in a way the stated policy forbids. Example: If public inputs stay the same, could public output distinguish two secret values that the policy says must remain indistinguishable? |
 
-![Risk, strategy and system behavior: all 60 routes, named categories, correct counts and percentages](results/releases/adaptive_additions_2026-10-29/uncertainty.png)
+![Risk, strategy and system behavior: all 61 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-30/uncertainty.png)
 
-[Full-size SVG](results/releases/adaptive_additions_2026-10-29/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
+[Full-size SVG](results/releases/native_additions_2026-10-30/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
 
-Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](results/releases/adaptive_additions_2026-10-29/category_scores.csv).
+Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](results/releases/native_additions_2026-10-30/category_scores.csv).
 
 
 
 ## Method and evidence
+
+The October 30 addition uses the unchanged frozen 1,342 questions through OpenRouter, pinned to BaseTen for Joey. All 1,342 first attempts are usable. Clairic uses a separately labelled integer extraction field; six out-of-range IDs count as unsuccessful. Raw responses, request hashes, identity, coverage and category totals were reconciled offline with the frozen private key. The new answer-free timing export includes both models; no scored calls were retried.
 
 Every full text row contains the same 1,342 first attempts across 31 categories. All 56 earlier model records retain their exact scores, timings, costs and dates. The question bank and scoring rules are unchanged. Categories have unequal sizes; the six newest have eight questions each. Related variants and author-development qualifications remain in the earlier releases.
 
@@ -233,6 +248,6 @@ Trio's cost is the API-reported charge including the trial allowance. Turion's m
 
 Private offline audits bound the frozen answer key, reconstructed requests and reconciled category totals. Public exports supply aggregates and answer-free timing and request/response hashes, with no keys or per-item model choices. Public checks reproduce coverage, timing, token counts, cost arithmetic and category sums; they cannot independently rescore private answers. The question bank remains publicly downloadable without the scoring key.
 
-[Aggregate statistics](results/releases/adaptive_additions_2026-10-29/statistics.json) · [Model CSV](results/releases/adaptive_additions_2026-10-29/model_statistics.csv) · [Category CSV](results/releases/adaptive_additions_2026-10-29/category_scores.csv) · [New answer-free timing evidence](results/releases/adaptive_additions_2026-10-29/october29_timing_evidence.csv) · [Execution settings](results/releases/adaptive_additions_2026-10-29/execution_protocol.json) · [Audit receipt](results/releases/adaptive_additions_2026-10-29/audit_receipt.json).
+[Aggregate statistics](results/releases/native_additions_2026-10-30/statistics.json) · [Model CSV](results/releases/native_additions_2026-10-30/model_statistics.csv) · [Category CSV](results/releases/native_additions_2026-10-30/category_scores.csv) · [New answer-free timing evidence](results/releases/native_additions_2026-10-30/october30_timing_evidence.csv) · [Execution settings](results/releases/native_additions_2026-10-30/execution_protocol.json) · [Audit receipt](results/releases/native_additions_2026-10-30/audit_receipt.json).
 
 [Previous 56-route analysis](results/releases/local_m2_2026-10-28/analysis.md) · [Question bank](results/releases/consolidated_2026-10-19/questions_1342.csv) · [scripts/](scripts/README.md). Historical check: `python3 scripts/validate_october21_release.py`.

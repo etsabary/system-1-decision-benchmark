@@ -1,0 +1,246 @@
+{
+  "joey_endpoints_start": {
+    "source": "https://openrouter.ai/api/v1/models/baseten/joey-1/endpoints",
+    "data": {
+      "data": {
+        "id": "baseten/joey-1",
+        "name": "Baseten: Joey 1",
+        "created": 1793301887,
+        "description": "Joey 1 is a 2B decision model from Base Labs, Baseten's research team, built on Qwen3.5-2B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal...",
+        "architecture": {
+          "tokenizer": "Other",
+          "instruct_type": null,
+          "modality": "text+image->decisions",
+          "input_modalities": [
+            "text",
+            "image"
+          ],
+          "output_modalities": [
+            "decisions"
+          ]
+        },
+        "endpoints": [
+          {
+            "name": "BaseTen | baseten/joey-1-20261029",
+            "model_id": "baseten/joey-1",
+            "model_name": "Baseten: Joey 1",
+            "context_length": 16384,
+            "pricing": {
+              "prompt": "0.00000001",
+              "completion": "0",
+              "discount": 0
+            },
+            "provider_name": "BaseTen",
+            "tag": "baseten",
+            "service_tier": null,
+            "quantization": "unknown",
+            "max_completion_tokens": 14745,
+            "max_prompt_tokens": null,
+            "supported_parameters": [],
+            "supports_tool_choice": {
+              "none": true,
+              "auto": true,
+              "required": true,
+              "function": true
+            },
+            "status": 0,
+            "uptime_last_30m": 100,
+            "uptime_last_5m": 100,
+            "uptime_last_1d": 100,
+            "supports_implicit_caching": false,
+            "native_tools": {},
+            "supports_voice_cloning": false,
+            "supports_multiple_audio_references": false,
+            "supports_image_reference": false,
+            "supports_diarization": false,
+            "latency_last_30m": null,
+            "throughput_last_30m": null
+          }
+        ]
+      }
+    }
+  },
+  "joey_endpoints_end": {
+    "source": "https://openrouter.ai/api/v1/models/baseten/joey-1/endpoints",
+    "data": {
+      "data": {
+        "id": "baseten/joey-1",
+        "name": "Baseten: Joey 1",
+        "created": 1793301887,
+        "description": "Joey 1 is a 2B decision model from Base Labs, Baseten's research team, built on Qwen3.5-2B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal...",
+        "architecture": {
+          "tokenizer": "Other",
+          "instruct_type": null,
+          "modality": "text+image->decisions",
+          "input_modalities": [
+            "text",
+            "image"
+          ],
+          "output_modalities": [
+            "decisions"
+          ]
+        },
+        "endpoints": [
+          {
+            "name": "BaseTen | baseten/joey-1-20261029",
+            "model_id": "baseten/joey-1",
+            "model_name": "Baseten: Joey 1",
+            "context_length": 16384,
+            "pricing": {
+              "prompt": "0.00000001",
+              "completion": "0",
+              "discount": 0
+            },
+            "provider_name": "BaseTen",
+            "tag": "baseten",
+            "service_tier": null,
+            "quantization": "unknown",
+            "max_completion_tokens": 14745,
+            "max_prompt_tokens": null,
+            "supported_parameters": [],
+            "supports_tool_choice": {
+              "none": true,
+              "auto": true,
+              "required": true,
+              "function": true
+            },
+            "status": 0,
+            "uptime_last_30m": 100,
+            "uptime_last_5m": 100,
+            "uptime_last_1d": 100,
+            "supports_implicit_caching": false,
+            "native_tools": {},
+            "supports_voice_cloning": false,
+            "supports_multiple_audio_references": false,
+            "supports_image_reference": false,
+            "supports_diarization": false,
+            "latency_last_30m": null,
+            "throughput_last_30m": null
+          }
+        ]
+      }
+    }
+  },
+  "clairic_endpoints_start": {
+    "source": "https://openrouter.ai/api/v1/models/cloudflare/clairic/endpoints",
+    "data": {
+      "data": {
+        "id": "cloudflare/clairic",
+        "name": "Cloudflare: Clairic",
+        "created": 1793325134,
+        "description": "Clairic is Cloudflare's System One-style extraction model served on Workers AI. Given a text state and optional images plus a schema of typed fields, it extracts, computes, estimates, and forecasts...",
+        "architecture": {
+          "tokenizer": "Other",
+          "instruct_type": null,
+          "modality": "text+image->decisions",
+          "input_modalities": [
+            "text",
+            "image"
+          ],
+          "output_modalities": [
+            "decisions"
+          ]
+        },
+        "endpoints": [
+          {
+            "name": "Cloudflare | cloudflare/clairic-20261029",
+            "model_id": "cloudflare/clairic",
+            "model_name": "Cloudflare: Clairic",
+            "context_length": 65536,
+            "pricing": {
+              "prompt": "0.0000001",
+              "completion": "0",
+              "discount": 0
+            },
+            "provider_name": "Cloudflare",
+            "tag": "cloudflare",
+            "service_tier": null,
+            "quantization": "unknown",
+            "max_completion_tokens": 58982,
+            "max_prompt_tokens": null,
+            "supported_parameters": [],
+            "supports_tool_choice": {
+              "none": true,
+              "auto": true,
+              "required": true,
+              "function": true
+            },
+            "status": 0,
+            "uptime_last_30m": null,
+            "uptime_last_5m": null,
+            "uptime_last_1d": 60,
+            "supports_implicit_caching": false,
+            "native_tools": {},
+            "supports_voice_cloning": false,
+            "supports_multiple_audio_references": false,
+            "supports_image_reference": false,
+            "supports_diarization": false,
+            "latency_last_30m": null,
+            "throughput_last_30m": null
+          }
+        ]
+      }
+    }
+  },
+  "clairic_endpoints_end": {
+    "source": "https://openrouter.ai/api/v1/models/cloudflare/clairic/endpoints",
+    "data": {
+      "data": {
+        "id": "cloudflare/clairic",
+        "name": "Cloudflare: Clairic",
+        "created": 1793325134,
+        "description": "Clairic is Cloudflare's System One-style extraction model served on Workers AI. Given a text state and optional images plus a schema of typed fields, it extracts, computes, estimates, and forecasts...",
+        "architecture": {
+          "tokenizer": "Other",
+          "instruct_type": null,
+          "modality": "text+image->decisions",
+          "input_modalities": [
+            "text",
+            "image"
+          ],
+          "output_modalities": [
+            "decisions"
+          ]
+        },
+        "endpoints": [
+          {
+            "name": "Cloudflare | cloudflare/clairic-20261029",
+            "model_id": "cloudflare/clairic",
+            "model_name": "Cloudflare: Clairic",
+            "context_length": 65536,
+            "pricing": {
+              "prompt": "0.0000001",
+              "completion": "0",
+              "discount": 0
+            },
+            "provider_name": "Cloudflare",
+            "tag": "cloudflare",
+            "service_tier": null,
+            "quantization": "unknown",
+            "max_completion_tokens": 58982,
+            "max_prompt_tokens": null,
+            "supported_parameters": [],
+            "supports_tool_choice": {
+              "none": true,
+              "auto": true,
+              "required": true,
+              "function": true
+            },
+            "status": 0,
+            "uptime_last_30m": null,
+            "uptime_last_5m": null,
+            "uptime_last_1d": 60,
+            "supports_implicit_caching": false,
+            "native_tools": {},
+            "supports_voice_cloning": false,
+            "supports_multiple_audio_references": false,
+            "supports_image_reference": false,
+            "supports_diarization": false,
+            "latency_last_30m": null,
+            "throughput_last_30m": null
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,43 +1,20 @@
-# October 28: current release
-
-[56-route comparison and M2 evidence](releases/local_m2_2026-10-28/statistics.json), including two Apple M2 models and unchanged prior results.
-
-# October 27 current release
-
-[54 text routes](releases/native_updates_2026-10-27/statistics.json):30 hosted decision models,20 local configurations and four reasoning-off LLM references. D3 Ultra83.8%,148ms median;Liquid d1.1 77.8%,212ms median. [New timing and cost evidence](releases/native_updates_2026-10-27/october27_timing_evidence.csv). The previous52 model records and all sealed historical releases remain unchanged.
-
 # Results and evidence
 
 [Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [Repository overview](../README.md)
 
-## Current comparison
+## Current comparison · October 30, 2026
 
-The [October 25 release](releases/native_additions_2026-10-25/) contains all 52 routes on 1,342 questions across 31 categories: 28 hosted decision models, 20 local models and four no-reasoning LLM references.
+[61 configurations on the same 1,342 questions](releases/native_additions_2026-10-30/report.html): 33 hosted decisions, 23 immediate local configurations, one adaptive local model and four no-reasoning LLM references.
 
-- [Model statistics](releases/native_additions_2026-10-25/model_statistics.csv)
-- [Category scores](releases/native_additions_2026-10-25/category_scores.csv)
-- [Aggregate JSON](releases/native_additions_2026-10-25/statistics.json)
-- [Accuracy, response-time and cost graphic](releases/native_additions_2026-10-25/accuracy_speed_cost.png)
-- [Local GPU metadata](releases/native_additions_2026-10-25/local_model_metadata.json) and [answer-free timing rows](releases/native_additions_2026-10-25/local_timing_evidence.csv)
-- [Audit receipt](releases/native_additions_2026-10-25/audit_receipt.json) and [release manifest](releases/native_additions_2026-10-25/manifest.json)
-- [Full question bank](releases/consolidated_2026-10-19/questions_1342.csv), [exact native JSONL](releases/consolidated_2026-10-19/questions_1342.jsonl) and [readable questions](releases/consolidated_2026-10-19/questions_1342.txt)
+- [Aggregate statistics](releases/native_additions_2026-10-30/statistics.json)
+- [Model statistics CSV](releases/native_additions_2026-10-30/model_statistics.csv)
+- [31 named category scores](releases/native_additions_2026-10-30/category_scores.csv)
+- [Joey and separately labelled Clairic timing/cost evidence](releases/native_additions_2026-10-30/october30_timing_evidence.csv)
+- [Clairic extraction compatibility](releases/native_additions_2026-10-30/clairic.html), outside the native decision ranking
+- [Question bank](releases/consolidated_2026-10-19/questions_1342.csv)
 
-Celeris 1.1 adds 76.1% at 138 ms median; the local KnowLine and Nemotron additions score 72.0% and 61.3%. All 49 prior measurement records are unchanged. Celeris costs are usage-times-tariff estimates; local operating cost is unmeasured. [Celeris timing/usage evidence](releases/native_additions_2026-10-25/hosted_addition_timing_evidence.csv).
+## Previous releases
 
-## Evidence folders
+[October 29: 60 configurations and adaptive AutoThink](releases/adaptive_additions_2026-10-29/report.html) · [October 28: 56 configurations and Apple M2](releases/local_m2_2026-10-28/report.html) · [October 27: 54 configurations](releases/native_updates_2026-10-27/report.html) · [October 25: 52 configurations](releases/native_additions_2026-10-25/report.html).
 
-| Folder | Purpose |
-| --- | --- |
-| [releases](releases/) | Dated comparisons and their manifests; use October 25 for current results |
-| [runs](runs/) | Sanitized earlier run exports used to reconstruct the comparisons, not private execution logs |
-| [archives](archives/) | Superseded presentation snapshots and provenance needed to verify earlier seals |
-| [figures](figures/) | Earlier shared figures; current charts are in the October 25 release |
-
-Question, measurement, figure, website and dated seal bytes are unchanged by the
-folder cleanup. Existing manifests retain their original logical file names;
-the [layout manifest](../scripts/layout_manifest.json) records their physical
-locations, and the offline validators apply that mapping explicitly.
-
-For viewing historical HTML, the published [website](../docs/) retains its
-original directory structure and URLs. Use the current interactive report for
-the latest comparison.
+All dated evidence remains sealed. Historical results are retained; adding a model does not rerun earlier models or change their measurements. Private answer keys and per-question correctness are not published in the new release.

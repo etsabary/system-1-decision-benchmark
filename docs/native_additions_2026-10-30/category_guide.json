@@ -1,0 +1,250 @@
+{
+  "F01": {
+    "family_id": "F01",
+    "function": "Lookup and filtering",
+    "what_it_tests": "Select records that meet stated conditions",
+    "illustration": "Which listed request is both signed and marked urgent?",
+    "questions": "43",
+    "display_name": "Lookup and filtering"
+  },
+  "F02": {
+    "family_id": "F02",
+    "function": "Forward conditionals",
+    "what_it_tests": "Apply an implication from its trigger",
+    "illustration": "If an active badge grants entry and this badge is active, what follows?",
+    "questions": "46",
+    "display_name": "Following if-then rules"
+  },
+  "F03": {
+    "family_id": "F03",
+    "function": "Necessary conditions",
+    "what_it_tests": "Reason backward from a missing required condition",
+    "illustration": "Every approved request needs a valid ticket; can one without a ticket be approved?",
+    "questions": "52",
+    "display_name": "Checking required conditions"
+  },
+  "F04": {
+    "family_id": "F04",
+    "function": "Boolean scope",
+    "what_it_tests": "Track combinations such as both, either and exactly one",
+    "illustration": "Which choice satisfies exactly one of two stated conditions?",
+    "questions": "54",
+    "display_name": "Combining AND, OR and NOT"
+  },
+  "F05": {
+    "family_id": "F05",
+    "function": "Quantifiers and sets",
+    "what_it_tests": "Track all, some, none and overlapping groups",
+    "illustration": "All teal tokens are marked; no marked token is blank; which relation follows?",
+    "questions": "49",
+    "display_name": "All, some, none and sets"
+  },
+  "F06": {
+    "family_id": "F06",
+    "function": "Comparisons",
+    "what_it_tests": "Combine ordered comparisons",
+    "illustration": "A is taller than B and B than C; how do A and C compare?",
+    "questions": "40",
+    "display_name": "Ordering by comparisons"
+  },
+  "F07": {
+    "family_id": "F07",
+    "function": "Scheduling",
+    "what_it_tests": "Fit events around order and exclusion rules",
+    "illustration": "Which timetable puts one meeting before another without overlapping a break?",
+    "questions": "76",
+    "display_name": "Scheduling under constraints"
+  },
+  "F08": {
+    "family_id": "F08",
+    "function": "One-to-one assignments",
+    "what_it_tests": "Give each item a unique partner while satisfying clues",
+    "illustration": "Assign three people different desks using location restrictions.",
+    "questions": "67",
+    "display_name": "One-to-one assignments"
+  },
+  "F09": {
+    "family_id": "F09",
+    "function": "Exact truth counting",
+    "what_it_tests": "Count precisely how many statements hold",
+    "illustration": "Under the supplied facts, how many of six claims are true?",
+    "questions": "71",
+    "display_name": "Counting exactly true claims"
+  },
+  "F10": {
+    "family_id": "F10",
+    "function": "Truth-teller consistency",
+    "what_it_tests": "Find a consistent pattern of truthful and false statements",
+    "illustration": "Which assignment of honest and dishonest speakers fits their claims?",
+    "questions": "74",
+    "display_name": "Truth-tellers and liars"
+  },
+  "F11": {
+    "family_id": "F11",
+    "function": "Sufficiency and inconsistency",
+    "what_it_tests": "Determine whether facts force an answer or contradict one another",
+    "illustration": "Is a proposed arrangement determined, impossible or still underdetermined?",
+    "questions": "41",
+    "display_name": "Enough evidence or a conflict?"
+  },
+  "F12": {
+    "family_id": "F12",
+    "function": "Object swaps",
+    "what_it_tests": "Update locations after repeated exchanges",
+    "illustration": "A red token starts in box A; several box contents are swapped; where does it end?",
+    "questions": "52",
+    "display_name": "Tracking swaps"
+  },
+  "F13": {
+    "family_id": "F13",
+    "function": "Sequential procedures",
+    "what_it_tests": "Apply each ordered edit to the current state",
+    "illustration": "Toggle one flag, swap two values, then conditionally reset another flag.",
+    "questions": "48",
+    "display_name": "Following step-by-step procedures"
+  },
+  "F14": {
+    "family_id": "F14",
+    "function": "Temporal intervals",
+    "what_it_tests": "Compare starts, ends and overlapping periods",
+    "illustration": "Which interval overlaps a specified event without containing it?",
+    "questions": "42",
+    "display_name": "Comparing time intervals"
+  },
+  "F15": {
+    "family_id": "F15",
+    "function": "Spatial tracking",
+    "what_it_tests": "Update position or direction from described movement",
+    "illustration": "Follow successive turns and moves, then identify the final direction.",
+    "questions": "49",
+    "display_name": "Tracking position and direction"
+  },
+  "F16": {
+    "family_id": "F16",
+    "function": "Reference binding",
+    "what_it_tests": "Resolve chains of names, roles and references",
+    "illustration": "Identify the mentor of the colleague named in a nested description.",
+    "questions": "50",
+    "display_name": "Resolving names and references"
+  },
+  "F17": {
+    "family_id": "F17",
+    "function": "Beliefs and perspectives",
+    "what_it_tests": "Distinguish what different observers witnessed",
+    "illustration": "An object moves while one observer is absent; where will that observer look?",
+    "questions": "50",
+    "display_name": "Tracking what others know"
+  },
+  "F18": {
+    "family_id": "F18",
+    "function": "Causal intervention",
+    "what_it_tests": "Recompute consequences of changing a specified input",
+    "illustration": "Force a switch off while holding other inputs fixed; which lamp now lights?",
+    "questions": "50",
+    "display_name": "Changing a cause"
+  },
+  "F19": {
+    "family_id": "F19",
+    "function": "Exceptions and priorities",
+    "what_it_tests": "Apply a rule, its exception and stated precedence",
+    "illustration": "A badge permits entry unless a higher-priority suspension applies.",
+    "questions": "58",
+    "display_name": "Exceptions and priority rules"
+  },
+  "F20": {
+    "family_id": "F20",
+    "function": "Planning",
+    "what_it_tests": "Choose an action sequence whose requirements are met",
+    "illustration": "Obtain a key before opening a locked door, with limited moves available.",
+    "questions": "43",
+    "display_name": "Planning valid action sequences"
+  },
+  "F21": {
+    "family_id": "F21",
+    "function": "Directed reachability",
+    "what_it_tests": "Follow arrows in their permitted direction",
+    "illustration": "Can node A reach node D through the listed directed links?",
+    "questions": "43",
+    "display_name": "Following directed connections"
+  },
+  "F22": {
+    "family_id": "F22",
+    "function": "Preference ordering",
+    "what_it_tests": "Rank candidates using explicit tie-break rules",
+    "illustration": "Rank by priority first, then age when priorities tie.",
+    "questions": "51",
+    "display_name": "Ranking with tie-break rules"
+  },
+  "F23": {
+    "family_id": "F23",
+    "function": "Rule counterexamples",
+    "what_it_tests": "Find a case that violates a stated rule",
+    "illustration": "Which listed record disproves the claim that every approved item is signed?",
+    "questions": "52",
+    "display_name": "Finding rule violations"
+  },
+  "F24": {
+    "family_id": "F24",
+    "function": "Authority and stale records",
+    "what_it_tests": "Select the valid source rather than an outdated conflicting one",
+    "illustration": "Two records disagree; which controls under the stated authority and date policy?",
+    "questions": "43",
+    "display_name": "Choosing authoritative current records"
+  },
+  "F25": {
+    "family_id": "F25",
+    "function": "Fault diagnosis",
+    "what_it_tests": "Match observed symptoms to explicit fault rules",
+    "illustration": "Which fault is consistent with the supplied test results?",
+    "questions": "50",
+    "display_name": "Diagnosing faults from evidence"
+  },
+  "F26": {
+    "family_id": "F26",
+    "function": "Probabilistic risk",
+    "what_it_tests": "Choose the action with the lowest probability-weighted cost, using the supplied likelihoods and costs.",
+    "illustration": "Which action minimizes the expected cost of a possible delay?",
+    "questions": "8",
+    "display_name": "Risk with supplied probabilities"
+  },
+  "F27": {
+    "family_id": "F27",
+    "function": "Value of information",
+    "what_it_tests": "Decide whether paying for a test before choosing an action reduces the probability-weighted cost enough to cover the test price.",
+    "illustration": "Should you buy a sensor reading before choosing an action, or is acting without the extra information cheaper overall?",
+    "questions": "8",
+    "display_name": "Is extra information worth its cost?"
+  },
+  "F28": {
+    "family_id": "F28",
+    "function": "Robust decisions without a prior",
+    "what_it_tests": "Follow the stated worst-case rule when likelihoods are not supplied. Minimize either the largest possible loss or the largest regret (extra loss compared with the best action for each situation), as the question specifies. Do not invent probabilities.",
+    "illustration": "A route costs 4 in either situation; another costs 1 or 9. With no probabilities and a smallest-worst-case-cost rule, which route should be chosen?",
+    "questions": "8",
+    "display_name": "Worst-case choices without probabilities"
+  },
+  "F29": {
+    "family_id": "F29",
+    "function": "Strategic decisions",
+    "what_it_tests": "Choose an action while accounting for the specified choices or payoff-maximizing response of another decision-maker.",
+    "illustration": "Which first move gives the best result after the other player chooses their own best reply?",
+    "questions": "8",
+    "display_name": "Anticipating another decision-maker"
+  },
+  "F30": {
+    "family_id": "F30",
+    "function": "Concurrent-history consistency",
+    "what_it_tests": "Decide whether overlapping operations and their reported results can fit a permitted one-at-a-time order that respects the specified timing and object rules.",
+    "illustration": "Two processes read and change the same stored value. Could their reported results fit an allowed one-at-a-time order?",
+    "questions": "8",
+    "display_name": "Checking overlapping operations"
+  },
+  "F31": {
+    "family_id": "F31",
+    "function": "Information-flow security",
+    "what_it_tests": "Check whether changing a protected secret can change an observable result in a way the stated policy forbids.",
+    "illustration": "If public inputs stay the same, could public output distinguish two secret values that the policy says must remain indistinguishable?",
+    "questions": "8",
+    "display_name": "Detecting secret-information leaks"
+  }
+}

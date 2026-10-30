@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-30",
+  "bank_sha256": "2db8cf8353f12b609d4df5330d94f53390c9c2919677dc793df4bb2d3cff7076",
+  "scored_retries": 0,
+  "maximum_inflight_per_model": 1,
+  "failure_cutoff": "At least20: unusable>=5%",
+  "speed_cutoff": "At least20: cumulative median>2000ms",
+  "timing": "Fresh HTTPS connection through complete response body; preparation, scoring and idle excluded",
+  "joey": {
+    "endpoint": "/api/alpha/decisions",
+    "provider_only": "baseten",
+    "allow_fallbacks": false,
+    "model": "baseten/joey-1",
+    "returned": "baseten/joey-1-20261029",
+    "output_tokens": "One native decision counter per call, no generated prose or reasoning trace"
+  },
+  "clairic": {
+    "endpoint": "/api/alpha/extractions",
+    "provider_only": "cloudflare",
+    "allow_fallbacks": false,
+    "model": "cloudflare/clairic",
+    "field": {
+      "type": "number",
+      "integer": true,
+      "instructions": "Return the numeric ID of the single option that correctly answers the question. Select only from the option IDs provided."
+    },
+    "output_tokens": 0,
+    "comparison": "Separately labelled extraction adaptation"
+  },
+  "sources": {
+    "runner.py": "ebb2f5cd8461c6dcdc05e38e5d7d4340103040894493dbbaed11a29968b57439",
+    "score.py": "e6326174074cc37b35e12e58927123c60a613a9de3f9726ba8dc8fc7d00f723a",
+    "clairic.py": "c366279790e6a86f72f4e5d36192ee67c2d7e6d42734852498709128824d9d86",
+    "audit_clairic.py": "631f55c40967a43d05dd3371216aca624ac3c010ce967d99a0bd2c75afe880f5"
+  }
+}

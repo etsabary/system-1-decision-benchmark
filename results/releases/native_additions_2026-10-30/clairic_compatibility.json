@@ -1,0 +1,405 @@
+{
+  "n": 1342,
+  "correct": 729,
+  "accuracy": 0.5432190760059612,
+  "mean_ms": 293.1073990658456,
+  "median_ms": 262.698249949608,
+  "p95_ms": 444.06613544561,
+  "statuses": {
+    "ok": 1336,
+    "invalid_answer": 6
+  },
+  "cost_usd": 0.0585103,
+  "missing_cost": 0,
+  "usage": {
+    "input_tokens": 585103,
+    "output_tokens": 0
+  },
+  "scope": "full",
+  "state": "complete",
+  "label": "Clairic: extraction number adapter",
+  "model_requested": "cloudflare/clairic",
+  "returned_identity": "cloudflare/clairic-20261029",
+  "date": "2026-10-30",
+  "included_in_native_ranking": false,
+  "families": {
+    "F01": {
+      "name": "Lookup and filtering",
+      "n": 43,
+      "correct": 38,
+      "accuracy": 0.8837209302325582,
+      "mean_ms": 283.3944399581226,
+      "median_ms": 264.8433750728145,
+      "p95_ms": 403.9196250494569,
+      "statuses": {
+        "ok": 43
+      }
+    },
+    "F02": {
+      "name": "Forward conditionals",
+      "n": 46,
+      "correct": 26,
+      "accuracy": 0.5652173913043478,
+      "mean_ms": 317.91616860098895,
+      "median_ms": 251.6107505070977,
+      "p95_ms": 762.3251457116567,
+      "statuses": {
+        "ok": 46
+      }
+    },
+    "F03": {
+      "name": "Necessary conditions",
+      "n": 52,
+      "correct": 28,
+      "accuracy": 0.5384615384615384,
+      "mean_ms": 278.3547668256618,
+      "median_ms": 252.74404149968177,
+      "p95_ms": 357.28457915829495,
+      "statuses": {
+        "ok": 52
+      }
+    },
+    "F04": {
+      "name": "Boolean scope",
+      "n": 54,
+      "correct": 13,
+      "accuracy": 0.24074074074074073,
+      "mean_ms": 301.81676780813615,
+      "median_ms": 260.7332920306362,
+      "p95_ms": 481.15789190633166,
+      "statuses": {
+        "ok": 54
+      }
+    },
+    "F05": {
+      "name": "Quantifiers and sets",
+      "n": 49,
+      "correct": 40,
+      "accuracy": 0.8163265306122449,
+      "mean_ms": 316.5644166007524,
+      "median_ms": 303.6568750394508,
+      "p95_ms": 416.8298665899783,
+      "statuses": {
+        "ok": 49
+      }
+    },
+    "F06": {
+      "name": "Comparisons",
+      "n": 40,
+      "correct": 34,
+      "accuracy": 0.85,
+      "mean_ms": 305.3024594002636,
+      "median_ms": 262.5887710019015,
+      "p95_ms": 591.3252954545892,
+      "statuses": {
+        "ok": 40
+      }
+    },
+    "F07": {
+      "name": "Scheduling",
+      "n": 76,
+      "correct": 31,
+      "accuracy": 0.40789473684210525,
+      "mean_ms": 287.149461220619,
+      "median_ms": 263.5170209687203,
+      "p95_ms": 439.8271768295672,
+      "statuses": {
+        "ok": 75,
+        "invalid_answer": 1
+      }
+    },
+    "F08": {
+      "name": "One-to-one assignments",
+      "n": 67,
+      "correct": 38,
+      "accuracy": 0.5671641791044776,
+      "mean_ms": 299.3471324513319,
+      "median_ms": 278.0859579797834,
+      "p95_ms": 409.5159963471815,
+      "statuses": {
+        "ok": 67
+      }
+    },
+    "F09": {
+      "name": "Exact truth counting",
+      "n": 71,
+      "correct": 21,
+      "accuracy": 0.29577464788732394,
+      "mean_ms": 285.8229084383093,
+      "median_ms": 267.0301250182092,
+      "p95_ms": 375.97166653722525,
+      "statuses": {
+        "ok": 71
+      }
+    },
+    "F10": {
+      "name": "Truth-teller consistency",
+      "n": 74,
+      "correct": 24,
+      "accuracy": 0.32432432432432434,
+      "mean_ms": 282.4227595984986,
+      "median_ms": 257.95291597023606,
+      "p95_ms": 468.3141064422664,
+      "statuses": {
+        "ok": 74
+      }
+    },
+    "F11": {
+      "name": "Sufficiency and inconsistency",
+      "n": 41,
+      "correct": 17,
+      "accuracy": 0.4146341463414634,
+      "mean_ms": 291.7659980210862,
+      "median_ms": 254.15691698435694,
+      "p95_ms": 395.829709013924,
+      "statuses": {
+        "ok": 41
+      }
+    },
+    "F12": {
+      "name": "Object swaps",
+      "n": 52,
+      "correct": 20,
+      "accuracy": 0.38461538461538464,
+      "mean_ms": 283.7832146749581,
+      "median_ms": 267.66481244703755,
+      "p95_ms": 406.19041686877597,
+      "statuses": {
+        "ok": 52
+      }
+    },
+    "F13": {
+      "name": "Sequential procedures",
+      "n": 48,
+      "correct": 12,
+      "accuracy": 0.25,
+      "mean_ms": 280.9998316006386,
+      "median_ms": 267.2477714950219,
+      "p95_ms": 390.5073601927142,
+      "statuses": {
+        "ok": 48
+      }
+    },
+    "F14": {
+      "name": "Temporal intervals",
+      "n": 42,
+      "correct": 24,
+      "accuracy": 0.5714285714285714,
+      "mean_ms": 294.8136825663304,
+      "median_ms": 272.4852710380219,
+      "p95_ms": 419.71929366700346,
+      "statuses": {
+        "ok": 42
+      }
+    },
+    "F15": {
+      "name": "Spatial tracking",
+      "n": 49,
+      "correct": 17,
+      "accuracy": 0.3469387755102041,
+      "mean_ms": 280.73861479892264,
+      "median_ms": 256.2010419787839,
+      "p95_ms": 429.8681661719455,
+      "statuses": {
+        "ok": 49
+      }
+    },
+    "F16": {
+      "name": "Reference binding",
+      "n": 50,
+      "correct": 21,
+      "accuracy": 0.42,
+      "mean_ms": 310.4514783457853,
+      "median_ms": 263.4554374963045,
+      "p95_ms": 711.9620416895484,
+      "statuses": {
+        "ok": 50
+      }
+    },
+    "F17": {
+      "name": "Beliefs and perspectives",
+      "n": 50,
+      "correct": 32,
+      "accuracy": 0.64,
+      "mean_ms": 322.2553716064431,
+      "median_ms": 284.20077048940584,
+      "p95_ms": 669.5347063068763,
+      "statuses": {
+        "ok": 50
+      }
+    },
+    "F18": {
+      "name": "Causal intervention",
+      "n": 50,
+      "correct": 22,
+      "accuracy": 0.44,
+      "mean_ms": 301.1864032410085,
+      "median_ms": 256.72735448461026,
+      "p95_ms": 478.5204498679374,
+      "statuses": {
+        "ok": 50
+      }
+    },
+    "F19": {
+      "name": "Exceptions and priorities",
+      "n": 58,
+      "correct": 39,
+      "accuracy": 0.6724137931034483,
+      "mean_ms": 296.07752308947966,
+      "median_ms": 274.0914790192619,
+      "p95_ms": 450.5926375568378,
+      "statuses": {
+        "ok": 58
+      }
+    },
+    "F20": {
+      "name": "Planning",
+      "n": 43,
+      "correct": 26,
+      "accuracy": 0.6046511627906976,
+      "mean_ms": 296.3168855193396,
+      "median_ms": 255.4600000148639,
+      "p95_ms": 370.14648783952,
+      "statuses": {
+        "ok": 41,
+        "invalid_answer": 2
+      }
+    },
+    "F21": {
+      "name": "Directed reachability",
+      "n": 43,
+      "correct": 40,
+      "accuracy": 0.9302325581395349,
+      "mean_ms": 282.4023712052812,
+      "median_ms": 259.42162494175136,
+      "p95_ms": 377.29757925262675,
+      "statuses": {
+        "ok": 41,
+        "invalid_answer": 2
+      }
+    },
+    "F22": {
+      "name": "Preference ordering",
+      "n": 51,
+      "correct": 42,
+      "accuracy": 0.8235294117647058,
+      "mean_ms": 288.7897638320996,
+      "median_ms": 248.79474996123463,
+      "p95_ms": 445.19862497691065,
+      "statuses": {
+        "ok": 51
+      }
+    },
+    "F23": {
+      "name": "Rule counterexamples",
+      "n": 52,
+      "correct": 35,
+      "accuracy": 0.6730769230769231,
+      "mean_ms": 285.6781786898724,
+      "median_ms": 249.55881253117695,
+      "p95_ms": 454.3221162050028,
+      "statuses": {
+        "ok": 52
+      }
+    },
+    "F24": {
+      "name": "Authority and stale records",
+      "n": 43,
+      "correct": 36,
+      "accuracy": 0.8372093023255814,
+      "mean_ms": 265.9194864018625,
+      "median_ms": 239.1618749825284,
+      "p95_ms": 374.59467905573547,
+      "statuses": {
+        "ok": 43
+      }
+    },
+    "F25": {
+      "name": "Fault diagnosis",
+      "n": 50,
+      "correct": 32,
+      "accuracy": 0.64,
+      "mean_ms": 307.8358823945746,
+      "median_ms": 278.1454165233299,
+      "p95_ms": 459.5769725332502,
+      "statuses": {
+        "ok": 50
+      }
+    },
+    "F26": {
+      "name": "Probabilistic risk",
+      "n": 8,
+      "correct": 4,
+      "accuracy": 0.5,
+      "mean_ms": 264.9747866234975,
+      "median_ms": 263.3437920594588,
+      "p95_ms": 325.64666645484976,
+      "statuses": {
+        "ok": 8
+      }
+    },
+    "F27": {
+      "name": "Value of information",
+      "n": 8,
+      "correct": 4,
+      "accuracy": 0.5,
+      "mean_ms": 288.53846338461153,
+      "median_ms": 248.73843748355284,
+      "p95_ms": 422.55608133855276,
+      "statuses": {
+        "ok": 7,
+        "invalid_answer": 1
+      }
+    },
+    "F28": {
+      "name": "Robust decisions without a prior",
+      "n": 8,
+      "correct": 3,
+      "accuracy": 0.375,
+      "mean_ms": 308.1616978452075,
+      "median_ms": 299.5523954741657,
+      "p95_ms": 438.84395228815265,
+      "statuses": {
+        "ok": 8
+      }
+    },
+    "F29": {
+      "name": "Strategic decisions",
+      "n": 8,
+      "correct": 4,
+      "accuracy": 0.5,
+      "mean_ms": 284.8432553728344,
+      "median_ms": 242.72654147353023,
+      "p95_ms": 443.14970455016004,
+      "statuses": {
+        "ok": 8
+      }
+    },
+    "F30": {
+      "name": "Concurrent-history consistency",
+      "n": 8,
+      "correct": 1,
+      "accuracy": 0.125,
+      "mean_ms": 256.0585466417251,
+      "median_ms": 269.5114580565132,
+      "p95_ms": 294.3445102253463,
+      "statuses": {
+        "ok": 8
+      }
+    },
+    "F31": {
+      "name": "Information-flow security",
+      "n": 8,
+      "correct": 5,
+      "accuracy": 0.625,
+      "mean_ms": 280.4151248856215,
+      "median_ms": 279.05806252965704,
+      "p95_ms": 351.329722860828,
+      "statuses": {
+        "ok": 8
+      }
+    }
+  },
+  "interface": "POST /api/alpha/extractions; original state, question/instructions and options concatenated as state; one integer field requests the option ID. Null/out-of-range values fail; no answer remapping.",
+  "cost_source": "API-reported OpenRouter usage.cost"
+}

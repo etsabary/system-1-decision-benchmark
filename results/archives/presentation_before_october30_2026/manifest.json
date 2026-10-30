@@ -1,0 +1,28 @@
+{
+  "files": {
+    "README.md": {
+      "path": "README.md",
+      "sha256": "27ea50b51111f772039c8f871fc0335d948b76caa734a4708bd154c822229183"
+    },
+    "docs/report.html": {
+      "path": "docs/report.html",
+      "sha256": "7a9fd37af87e589dfdb586058d1cd7a542b5222c53eb5490de26cc103abd9c31"
+    },
+    "docs/index.html": {
+      "path": "docs/index.html",
+      "sha256": "f920db7856d817728e0ee60f60c95abbfb0d3c2d0e3f44a5b27c769a7e540876"
+    },
+    "docs/functions.html": {
+      "path": "docs/functions.html",
+      "sha256": "14593ef1311c911c8ee4983b523916f7c73002d03186a6a3e05fcb8792688cfb"
+    },
+    "docs/output_compliance.html": {
+      "path": "docs/output_compliance.html",
+      "sha256": "bc2b95580b89eeed44c618b05e9c61ba52f54a960ab3bb75d7143998582007bf"
+    },
+    "docs/sitemap.xml": {
+      "path": "docs/sitemap.xml",
+      "sha256": "b43c12a2d9b363fd45b949d4f51d9622d45c5a430f2b3ab1e80f9c466f01c8e4"
+    }
+  }
+}
