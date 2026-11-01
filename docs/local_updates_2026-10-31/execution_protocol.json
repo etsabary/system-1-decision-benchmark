@@ -1,0 +1,25 @@
+{
+  "date_toronto": "2026-10-31",
+  "questions": 1342,
+  "question_bank_sha256": "2db8cf8353f12b609d4df5330d94f53390c9c2919677dc793df4bb2d3cff7076",
+  "order_seed": 2026101906,
+  "one_model_and_request_at_a_time": true,
+  "scored_retries": 0,
+  "loading_and_warmups_excluded": true,
+  "endpoint": "/v1/systemone",
+  "transport": "Direct wiredLAN, fresh HTTP connection through full response; public relay not used",
+  "accuracy_screen": "Below50% on exactly first100",
+  "speed_screen": "Cumulative median>2000ms after20",
+  "failure_screen": "Unusable>=5% after20",
+  "native_envelope": "Unchanged frozen state/questions; exact model added; optional keep_alive hint only on Cox/ADM, omitted for other native schemas before first scored call",
+  "context": "Oversized synthetic input must explicitly reject; structured llama.cpp HTTP500 token-count rejection above captured limit accepted, generic500 rejected",
+  "limitations": "Compact API omits explicit truncation/load-duration fields; synthetic rejection and captured limits remain interface evidence, not independent tokenizer attestation",
+  "local_cost": "Hardware/electricity unmeasured",
+  "software_sha256": {
+    "executor.py": "b823a779779d36a52d1a0c4a485c34ca475ad2f1d9ba45ef2d21478fc662c049",
+    "admission.py": "aa096c5c5bae19b03949f8cedfe0fb37c3edf5e45164c888d11e44fd0430cd25",
+    "native_envelope_queue.py": "6ad237496051f7963b25af39a9f545cd028c04b6eaa166fafb971dd13fe95a5f",
+    "continue_jue.py": "3dea051845dcd184dd69a951444bd8973e0e5a67da987dc85cce1e5349f52a58",
+    "remaining_five.py": "7e6702ca7d677064d666a8c05c17babd82e72d7440aa439b18bb84e32012ac16"
+  }
+}

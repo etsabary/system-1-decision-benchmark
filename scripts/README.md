@@ -31,8 +31,8 @@ Python 3.12. These checks do not make inference calls or need API credentials.
 
 | Task | Main files |
 | --- | --- |
-| Current report and category tables | `publish_local_additions_2026_10_25.py`, `build_readable_report.py` |
-| Current report checks | `validate_local_additions_2026_10_25.py` |
+| Current report and category tables | `publish_local_updates_2026_10_31.py`, shared `publish_october29_decisions.py` and `build_readable_report.py` |
+| Current report checks | `validate_local_updates_2026_10_31.py`, `test_local_updates_2026_10_31.py` |
 | Local GPU evidence and model profiles | `publish_local_additions_2026_10_25.py` (`--capture` is owner-only, offline private-key reconciliation) |
 | Most recent OpenRouter and Baseten runs | `decision_additions_2026_10_21.py`, `baseten_decisions_2026_10_21.py` |
 | Direct-provider runs | `direct_decisions_2026_10_20.py` |
@@ -81,3 +81,22 @@ helpers do not weaken live-run software checks or rewrite sealed evidence.
 ## October 27 additions
 
 `publish_native_updates_2026_10_27.py` publishes the two audited hosted additions offline. `validate_native_updates_2026_10_27.py` verifies54 routes,2684 new timing rows,1674 category cells and exact preservation of52 prior records. `october27_history.py` resolves the prior active presentation for historical checks.
+
+## October 31 main-report selection
+
+`publish_local_updates_2026_10_31.py` adds five complete local runs and three
+stopped screens. `statistics.json` contains the 56 configurations with at least
+50% overall; `all_statistics.json` retains all 66 complete records. Every main
+figure, category table and category leader uses the same qualifying set. The
+separate below-50% catalogue retains older banks, formats and screen sizes.
+
+`--capture --capture-only` is an owner-only offline reconciliation, not inference.
+A normal build uses the captured public aggregates. The earlier 61-configuration
+active presentation is preserved with exact hashes under the October 31 archive;
+its validator still checks the original counts and values.
+
+```sh
+python3 scripts/publish_local_updates_2026_10_31.py
+python3 scripts/validate_local_updates_2026_10_31.py
+python3 -m unittest discover -s scripts -p 'test_local_updates_2026_10_31.py'
+```

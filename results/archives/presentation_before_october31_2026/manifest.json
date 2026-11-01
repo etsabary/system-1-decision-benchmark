@@ -1,0 +1,41 @@
+{
+  "commit": "5d7770b94824d273694be55a7d11da2666a15c50",
+  "files": {
+    "README.md": {
+      "path": "README.md.snapshot",
+      "sha256": "e9a5555e09de397d95a98534538e28cad099428ec78209ae35ea53419050b85d"
+    },
+    "documents/FUNCTIONS.md": {
+      "path": "documents/FUNCTIONS.md.snapshot",
+      "sha256": "584e0a33318d66a828771abab4b165a87dfed1fdc241ad56d1c3b6491fb0e8e2"
+    },
+    "docs/report.html": {
+      "path": "docs/report.html.snapshot",
+      "sha256": "c4e2d18970ca0e0a6360d613aff5df29b6a30e75db4cafba671afbd5a8b194a9"
+    },
+    "docs/index.html": {
+      "path": "docs/index.html.snapshot",
+      "sha256": "da5a52397c6c5bb358cfa3f77339c8061a9811aa1e9d5f586163bd246ea78948"
+    },
+    "docs/functions.html": {
+      "path": "docs/functions.html.snapshot",
+      "sha256": "610bfa88dda5096e83af60654b12599e35dcb720bf5320984071666e61850f53"
+    },
+    "docs/output_compliance.html": {
+      "path": "docs/output_compliance.html.snapshot",
+      "sha256": "503620a628707447e16f9fbed815d31a7780297f706ae94c983b4da79296a7df"
+    },
+    "docs/sitemap.xml": {
+      "path": "docs/sitemap.xml.snapshot",
+      "sha256": "3607f04d90521a19b7844abfb355e0a85656c2ae65be7ddd26334ede8d138142"
+    },
+    "scripts/layout_manifest.json": {
+      "path": "scripts/layout_manifest.json.snapshot",
+      "sha256": "ec544c5b2a3e608f662728eedbe431d0d0149624922a4cc2f03b95e24cea0e50"
+    },
+    "scripts/validate_october30_decisions.py": {
+      "path": "scripts/validate_october30_decisions.py.snapshot",
+      "sha256": "39b33be39ce1962c22ff5f4231d2412066afa6a962cec8384d1823205a9c4bd5"
+    }
+  }
+}

@@ -35,7 +35,8 @@ def validate():
  assert c['included_in_native_ranking'] is False and c['statuses']=={'ok':1336,'invalid_answer':6}
  assert s['models'][b.MID]['observed_output_tokens']==1342 and s['models'][b.MID]['recoveries']==0
  for path in [b.DEST/'report.html',b.ROOT/'docs/report.html']:
-  text=path.read_text();p=Page();p.feed(text);assert p.summary==s['ranked_model_ids'] and len(p.cells)==1891 and len(p.ids)==len(set(p.ids))
+  from october31_history import previous
+  text=previous(path).read_text();p=Page();p.feed(text);assert p.summary==s['ranked_model_ids'] and len(p.cells)==1891 and len(p.ids)==len(set(p.ids))
   assert all(x in text for x in ['61 configurations','33 hosted','Joey-1','Clairic','extraction','✦','#d97706','#7c3aed','44.1%'])
   for cell in p.cells:
    f=s['models'][cell['data-model']]['families'][cell['data-category']];assert (int(cell['data-correct']),int(cell['data-n']))==(f['correct'],f['n']) and read.color(f['accuracy'])[0] in cell['style']

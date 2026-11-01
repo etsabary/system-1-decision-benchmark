@@ -1,16 +1,16 @@
 # System 1 Decision Benchmark
 
-**61 configurations on the same 1,342 text questions across 31 categories:** 33 hosted decision models, 23 immediate local configurations, one adaptive local AutoThink model, and four selected no-reasoning LLM references. Updated October 30, 2026.
+**56 configurations meeting the 50% overall reporting cutoff**, each tested on the same **1,342 questions across 31 categories**: 31 hosted decisions, 20 immediate local configurations, one adaptive local model and four selected no-reasoning LLM references. Updated October 31, 2026.
 
-**Fastino GLiDE leads overall at 86.0%. D3 Flash Artemis leads the immediate local configurations at 74.1%. StartLux AutoThink reaches 74.9% with generation on 44.1% of text calls.**
+**Fastino GLiDE leads overall at 86.0%. D3 Flash Artemis leads immediate local configurations at 74.1%. Cerno 4B adds 73.2%; Jue 2.5B adds a 162 ms median at 59.7%.**
 
-[Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [AutoThink: immediate decisions and adaptive generation](https://etsabary.github.io/system-1-decision-benchmark/report.html#adaptive) · [Named categories](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions)
+[Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [Named categories](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions) · [Adaptive AutoThink](https://etsabary.github.io/system-1-decision-benchmark/report.html#adaptive) · [Below 50% results and trial scopes](results/releases/local_updates_2026-10-31/below_50.html)
 
-![61 configurations: local CUDA purple, adaptive AutoThink framed in gold](results/releases/native_additions_2026-10-30/accuracy_speed_cost.png)
+![Qualifying configurations: hosted blue, local CUDA purple, Apple M2 magenta, LLM references pale yellow; AutoThink framed in gold](results/releases/local_updates_2026-10-31/accuracy_speed_cost.png)
 
-Purple connects the local CUDA runs; magenta identifies Apple M2; blue identifies hosted decisions; pale yellow identifies LLM references. **The purple AutoThink bar has a gold frame and dot pattern because it sometimes generates.** Speed/cost bands and accuracy colors retain their fixed meanings. Hardware, routes and dates stay labelled.
+Purple identifies local CUDA runs; magenta identifies Apple M2; blue identifies hosted decisions; pale yellow identifies LLM references. AutoThink retains a thick gold frame and dot pattern. All 66 complete records remain available; 10 overall scores below 50% are outside the main comparison.
 
-## Complete comparison
+## Main comparison
 
 | Model | Setting | Correct / 1342 | Accuracy | Mean | Median | p95 | Cost / 1000 | Bank cost / basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -38,6 +38,7 @@ Purple connects the local CUDA runs; magenta identifies Apple M2; blue identifie
 | Elephant-1 | Hosted decision | 1004/1342 | 74.8% | 164 ms | 139 ms | 272 ms | Promotional free access* | Promotional free access* |
 | D3 Flash Artemis 9B | 🟣 RTX 2060 | 995/1342 | 74.1% | 441 ms | 408 ms | 701 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | StartLux v1.1 4B Instant | 🟣 Local CUDA · Q8 | 988/1342 | 73.6% | 293 ms | 282 ms | 455 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Cerno 4B v1.2 NF4 | 🟣 RTX 2060 | 983/1342 | 73.2% | 725 ms | 690 ms | 1,112 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Perplexity Flash v1.2 mixed4 | 🟣 RTX 2060 | 971/1342 | 72.4% | 875 ms | 798 ms | 1,526 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Qwen3.8-Max — none, Hyper Charm | 🟡 LLM reference | 967/1342 | 72.1% | — | 1,191 ms | 1,731 ms | $0.614821 + ? | $0.825090 + ? quota |
 | KnowLine 4B Gen5.5 | 🟣 RTX 2060 | 966/1342 | 72.0% | 848 ms | 812 ms | 1,281 ms | Local compute cost unmeasured | Local compute cost unmeasured |
@@ -53,31 +54,47 @@ Purple connects the local CUDA runs; magenta identifies Apple M2; blue identifie
 | Jebadiah 9B v2.1 | 🟣 RTX 2060 | 855/1342 | 63.7% | 440 ms | 405 ms | 694 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Drex v1.5 | Hosted decision | 853/1342 | 63.6% | — | 203 ms | 649 ms | $0.011160 | $0.014976 |
 | Fovea 4B | 🟣 RTX 2060 | 841/1342 | 62.7% | 588 ms | 558 ms | 779 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Dexy 9B NF4 | 🟣 RTX 2060 | 833/1342 | 62.1% | 696 ms | 670 ms | 1,012 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | H2O Lightning Nemotron 4B | 🟣 RTX 2060 | 823/1342 | 61.3% | 596 ms | 574 ms | 810 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Kev 4B | Hosted decision | 822/1342 | 61.3% | — | 225 ms | 377 ms | $0.011718 | $0.015725 |
 | Liquid d1-Omni-2B · M2 | 🟣 Apple M2 | 814/1342 | 60.7% | 797 ms | 717 ms | 1,406 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Jebadiah 4B | 🟣 RTX 2060 | 808/1342 | 60.2% | 298 ms | 270 ms | 479 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Jue 2.5B | 🟣 RTX 2060 | 801/1342 | 59.7% | 175 ms | 162 ms | 314 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Liquid d1-2B · M2 | 🟣 Apple M2 | 795/1342 | 59.2% | 989 ms | 898 ms | 1,848 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | JevK5 4B | 🟣 RTX 2060 | 780/1342 | 58.1% | 323 ms | 296 ms | 525 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Joey-1 | Hosted decision | 773/1342 | 57.6% | 179 ms | 163 ms | 256 ms | $0.003610 | $0.004845 |
 | Luna 6 Decisions | Hosted decision | 758/1342 | 56.5% | — | 254 ms | 527 ms | $0.035840 + ? | $0.048097 + ? |
+| Cox 3B INT8 | 🟣 RTX 2060 | 754/1342 | 56.2% | 876 ms | 822 ms | 1,029 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Tev1 4B experimental (OpenRouter native adapter) | Hosted decision | 751/1342 | 56.0% | — | 198 ms | 253 ms | $0.015657 | $0.021011 |
 | Lev 4B | 🟣 RTX 2060 | 749/1342 | 55.8% | 570 ms | 532 ms | 914 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Credence E4B | 🟣 RTX 2060 | 741/1342 | 55.2% | 315 ms | 284 ms | 464 ms | Local compute cost unmeasured | Local compute cost unmeasured |
+| Iota 4B Q8_0 | 🟣 RTX 2060 | 738/1342 | 55.0% | 315 ms | 288 ms | 535 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 | Strands Decider 2B | 🟣 RTX 2060 | 710/1342 | 52.9% | 435 ms | 403 ms | 703 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Snap 2B | 🟣 RTX 2060 | 574/1342 | 42.8% | 157 ms | 136 ms | 229 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| ScaleDown Classify-1 | Hosted decision | 550/1342 | 41.0% | — | 268 ms | 362 ms | $0.021388 | $0.028703 |
-| Mapika Decider 2B | 🟣 RTX 2060 | 547/1342 | 40.8% | 381 ms | 371 ms | 613 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Solar Decide Flash | Hosted decision | 538/1342 | 40.1% | — | 540 ms | 747 ms | $0.030203 + ? | $0.040532 + ? |
-| Sura 2B | 🟣 RTX 2060 | 428/1342 | 31.9% | 436 ms | 425 ms | 672 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| GLiClass | 🟣 RTX 2060 | 393/1342 | 29.3% | 92 ms | 79 ms | 178 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Von | 🟣 RTX 2060 | 331/1342 | 24.7% | 96 ms | 77 ms | 174 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Laya Typed Decisions | 🟣 RTX 2060 | 322/1342 | 24.0% | 53 ms | 46 ms | 95 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| Decima Agent | 🟣 RTX 2060 | 313/1342 | 23.3% | 81 ms | 71 ms | 138 ms | Local compute cost unmeasured | Local compute cost unmeasured |
-| CLM 8B | 🟣 RTX 2060 | 304/1342 | 22.7% | 324 ms | 282 ms | 726 ms | Local compute cost unmeasured | Local compute cost unmeasured |
 
 
-Median is the midpoint response time. p95 is the time within which 95% of measured responses completed; it exposes slower responses that a median can hide. The plot uses a gold star for AutoThink’s mean. Local compute costs are unmeasured; unknown charges are not treated as zero.
+Median is the midpoint response time. p95 describes the slower tail: 95% of measured responses completed within that time. Local hardware and electricity costs remain unmeasured.
+
+## Cerno 4B approaches the stronger local configurations
+
+Cerno 4B scored **983/1,342 (73.2%)** on the deliberately older RTX 2060 with 6 GB VRAM. D3 Flash Artemis retains **995 (74.1%)** and StartLux Instant **988 (73.6%)**. Cerno's **690 ms median** was longer than D3's 408 ms and Instant's 282 ms. Its mean / median / p95 were **725 / 690 / 1,112 ms**.
+
+Cerno answered every comparison question (**40/40**), **50/52** rule-counterexample questions and **41/43** lookup questions correctly. These ask it to combine stated orderings, find a case that disproves a rule, or filter records by their conditions. Sequential procedures, applying each edit to the updated state, scored **11/48**. Truth-teller consistency scored **36/74**, and exact truth counting **35/71**. Its local NF4 conversion may differ from the upstream weights; this result applies to the recorded build.
+
+## Jue is the fastest completed run in the new batch
+
+Jue 2.5B scored **801/1,342 (59.7%)**, with **175 / 162 / 314 ms** mean / median / p95. It uses FP16 weights with FP32 LoRA, rather than a local low-bit conversion. Its cybersecurity specialization was not specifically evaluated by this general decision bank.
+
+Jue selected records correctly in **40/43** lookup questions and found the governing source despite conflicting stale records in **39/43**. Sequential procedures scored **12/48**, object swaps **16/52**, and exact truth counting **24/71**. It answered 47 more questions correctly than Cox, with approximately one fifth Cox's 822 ms median latency.
+
+## Dexy, Cox and Iota add distinct measured routes
+
+Dexy 9B, a local NF4 conversion with INT8 embeddings, scored **833/1,342 (62.1%)** at **696 / 670 / 1,012 ms** mean / median / p95. Lookup and following directed paths each scored **39/43**; sequential procedures scored **10/48**. Cox's provider INT8 build scored **754 (56.2%)**, with **876 / 822 / 1,029 ms**. Iota's original joint-schema Q8_0 release scored **738 (55.0%)**, with **315 / 288 / 535 ms**. It is a different release from iota-decide-4b-v0.4.
+
+Cox includes one lost connection. Jue, Cerno 4B and Dexy each include one context-limit failure; Iota returned usable decisions throughout. Every failure remains unsuccessful in the full denominator. No failed question was shortened or retried. The Cerno 9B and MiMo local builds stopped during context-limit screening and have no full-bank score; the [screening record](results/releases/local_updates_2026-10-31/screened_routes.json) preserves their sample sizes and reasons.
+
+## The main comparison now requires at least 50% overall
+
+This is a reporting selection requested after measurement. It applies to the overall score, including failed first attempts, for every setting and model format. Exactly 50% qualifies. The same qualifying set appears in the overview, named-category tables, category leaders and narrative. Complete measured records remain available in [all statistics](results/releases/local_updates_2026-10-31/all_statistics.json); [the separate below-50% catalogue](results/releases/local_updates_2026-10-31/below_50.html) includes earlier LLM formats and short screens with their original sample sizes.
 
 ## October 30: Joey-1 and an extraction-model comparison
 
@@ -89,7 +106,7 @@ Joey was strong on comparisons (**38/40**) and forward conditionals (**42/46**).
 
 **Clairic is reported separately as an extraction adapter.** It returned an integer option ID through OpenRouter's Extractions API and scored **729/1,342 (54.3%)**, with **293 / 263 / 444 ms mean / median / p95** and **$0.05851030** reported cost. Six returned numbers outside the supplied option IDs and count as unsuccessful. Directed reachability, following one-way paths, scored **40/43**; Boolean scope **13/54**, sequential procedures **12/48** and exact truth counting **21/71**. This measures the adapted interface, not a native choice endpoint.
 
-The leaders and their earlier measurements are unchanged. [Clairic's labelled results and category scores](results/releases/native_additions_2026-10-30/clairic.html) are outside the native decision ranking.
+The leaders and their earlier measurements are unchanged. [Clairic's labelled results and category scores](results/releases/local_updates_2026-10-31/clairic.html) are outside the native decision ranking.
 
 ## The overall leaders remain unchanged
 
@@ -132,11 +149,9 @@ Trio-Spark and both local StartLux routes accept one image per request. They com
 On those same 177 items, earlier Amos scored **138 (78.0%)**, Fastino **136 (76.8%)**, and D3 Turbo **132 (74.6%)**, recomputed from their existing records. These subset results appear in the [image report](https://etsabary.github.io/visual-decision-benchmark/report.html#single-image-subset), alongside the separate full 200-question ranking. Turion failed the image-binding probes on the tested endpoint and received no image score.
 
 
-![AutoThink timing split and category tradeoffs](results/releases/native_additions_2026-10-30/adaptive_behavior.png)
-
 ## Category scores and explanations
 
-The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 61 routes remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
+The 31 categories are grouped below so the labels and values remain readable. These are reading groups, not new scored categories. All 56 qualifying configurations remain in overall-score order. Every cell shows **correct / questions and percentage**. Darker blue means higher accuracy on a fixed 0-100% scale; uniform random guessing averages 20%. Different category sizes mean that percentages alone do not show how much evidence is available.
 
 [Open the color-coded, selectable tables](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions), with a pinned model-name column and individual category rankings.
 
@@ -153,9 +168,9 @@ Which facts meet a rule, which conclusions follow, and when is the evidence insu
 | All, some, none and sets (F05) | 49 | Track all, some, none and overlapping groups Example: All teal tokens are marked; no marked token is blank; which relation follows? |
 | Enough evidence or a conflict? (F11) | 41 | Determine whether facts force an answer or contradict one another Example: Is a proposed arrangement determined, impossible or still underdetermined? |
 
-![Rules and evidence: all 61 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-30/rules.png)
+![Rules and evidence: all 56 qualifying configurations, named categories, correct counts and percentages](results/releases/local_updates_2026-10-31/rules.png)
 
-[Full-size SVG](results/releases/native_additions_2026-10-30/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
+[Full-size SVG](results/releases/local_updates_2026-10-31/rules.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-rules)
 
 ### Ordering, schedules and assignments
 
@@ -169,9 +184,9 @@ Can the model combine comparisons, fit a schedule, assign unique partners and ap
 | Comparing time intervals (F14) | 42 | Compare starts, ends and overlapping periods Example: Which interval overlaps a specified event without containing it? |
 | Ranking with tie-break rules (F22) | 51 | Rank candidates using explicit tie-break rules Example: Rank by priority first, then age when priorities tie. |
 
-![Ordering, schedules and assignments: all 61 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-30/ordering.png)
+![Ordering, schedules and assignments: all 56 qualifying configurations, named categories, correct counts and percentages](results/releases/local_updates_2026-10-31/ordering.png)
 
-[Full-size SVG](results/releases/native_additions_2026-10-30/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
+[Full-size SVG](results/releases/local_updates_2026-10-31/ordering.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-ordering)
 
 ### Claims, changing state and perspectives
 
@@ -187,9 +202,9 @@ Can the model count true statements, update a changing situation and separate wh
 | Resolving names and references (F16) | 50 | Resolve chains of names, roles and references Example: Identify the mentor of the colleague named in a nested description. |
 | Tracking what others know (F17) | 50 | Distinguish what different observers witnessed Example: An object moves while one observer is absent; where will that observer look? |
 
-![Claims, changing state and perspectives: all 61 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-30/state.png)
+![Claims, changing state and perspectives: all 56 qualifying configurations, named categories, correct counts and percentages](results/releases/local_updates_2026-10-31/state.png)
 
-[Full-size SVG](results/releases/native_additions_2026-10-30/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
+[Full-size SVG](results/releases/local_updates_2026-10-31/state.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-state)
 
 ### Causes, plans and exceptions
 
@@ -205,9 +220,9 @@ Which actions work, which consequences change, and which rule or source controls
 | Choosing authoritative current records (F24) | 43 | Select the valid source rather than an outdated conflicting one Example: Two records disagree; which controls under the stated authority and date policy? |
 | Diagnosing faults from evidence (F25) | 50 | Match observed symptoms to explicit fault rules Example: Which fault is consistent with the supplied test results? |
 
-![Causes, plans and exceptions: all 61 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-30/causes.png)
+![Causes, plans and exceptions: all 56 qualifying configurations, named categories, correct counts and percentages](results/releases/local_updates_2026-10-31/causes.png)
 
-[Full-size SVG](results/releases/native_additions_2026-10-30/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
+[Full-size SVG](results/releases/local_updates_2026-10-31/causes.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-causes)
 
 ### Risk, strategy and system behavior
 
@@ -224,30 +239,26 @@ These decisions involve uncertain outcomes, another actor, overlapping operation
 | Checking overlapping operations (F30) | 8 | Decide whether overlapping operations and their reported results can fit a permitted one-at-a-time order that respects the specified timing and object rules. Example: Two processes read and change the same stored value. Could their reported results fit an allowed one-at-a-time order? |
 | Detecting secret-information leaks (F31) | 8 | Check whether changing a protected secret can change an observable result in a way the stated policy forbids. Example: If public inputs stay the same, could public output distinguish two secret values that the policy says must remain indistinguishable? |
 
-![Risk, strategy and system behavior: all 61 routes, named categories, correct counts and percentages](results/releases/native_additions_2026-10-30/uncertainty.png)
+![Risk, strategy and system behavior: all 56 qualifying configurations, named categories, correct counts and percentages](results/releases/local_updates_2026-10-31/uncertainty.png)
 
-[Full-size SVG](results/releases/native_additions_2026-10-30/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
+[Full-size SVG](results/releases/local_updates_2026-10-31/uncertainty.svg) · [Color-coded table and category rankings](https://etsabary.github.io/system-1-decision-benchmark/report.html#group-uncertainty)
 
-Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](results/releases/native_additions_2026-10-30/category_scores.csv).
+Counts are exact; displayed percentages are rounded. A perfect result on a small sample is not a reliability guarantee. [Download the full category matrix](results/releases/local_updates_2026-10-31/category_scores.csv).
 
 
 
 ## Method and evidence
 
-The October 30 addition uses the unchanged frozen 1,342 questions through OpenRouter, pinned to BaseTen for Joey. All 1,342 first attempts are usable. Clairic uses a separately labelled integer extraction field; six out-of-range IDs count as unsuccessful. Raw responses, request hashes, identity, coverage and category totals were reconciled offline with the frozen private key. The new answer-free timing export includes both models; no scored calls were retried.
+The main display contains 56 configurations with at least 50% overall accuracy. All 66 complete 1,342-question model records remain in the full evidence export, with every earlier score, timing, cost and test date unchanged. The ten removed full-bank rows and other below 50 trials are listed separately. Short screens never enter the full-bank ranking.
 
-Every full text row contains the same 1,342 first attempts across 31 categories. All 56 earlier model records retain their exact scores, timings, costs and dates. The question bank and scoring rules are unchanged. Categories have unequal sizes; the six newest have eight questions each. Related variants and author-development qualifications remain in the earlier releases.
+The October 31 additions use the same frozen 1,342 native states, instructions and five choices, seed 2026101906. Five complete runs and three partial screens account for 6,850 first attempts. Only one local model and request ran at a time. Direct wired LAN was used throughout. Loading, synthetic admission and warmups are outside the connection-to-complete-response timer. All first attempts, including failures, remain in the denominator and timing distribution. No scored retry or question truncation.
 
-The October 29 runs used the frozen native state, instructions and five original options, in the existing seeded order. One request at a time within each route; local models ran sequentially over direct wired LAN. Timers span request transfer through the complete response; preparation, pacing, loading and warm-ups are excluded. All dispatches were resolved. No tools, scored retries or agentic iteration. AutoThink's internal generation is explicitly included and labelled. Turion and Instant reported zero output tokens. Trio returned native typed decisions without explanatory text; its text endpoint did not return an output-token counter.
+The normal screen stops a model after at least 20 calls if cumulative median exceeds 2,000 ms or unusable responses reach 5%. The user additionally authorized stopping below 50% on exactly the first 100. Two local builds stopped for context limits, and one stopped on accuracy. Those partial results do not measure a complete-bank accuracy. Other prior output-format and speed exclusions remain preserved in their dated diagnostics.
 
-The normal two-second cumulative-median speed screen after at least 20 calls remained in effect for immediate-decision routes. AutoThink completed under a user-authorized research exception; its full accuracy, mean, median and p95 remain visible even when deliberation is slow. The native local budget was 512 tokens, with an advertised maximum of 1,024; it was not tuned during the test. Token counters are observations, not visible reasoning traces.
+The owner identifies this deliberately accessible local setup as an RTX 2060 with 6 GB VRAM. Live metadata confirms CUDA execution, allocated VRAM, precision, alias and stable source revisions, but does not independently attest the hardware product or weights. Cox INT8, ADM NF4 and Iota Q8_0 are provider-supplied representations. Jue uses FP16 + FP32 LoRA. Cerno, Dexy and MiMo use locally quantized builds, labelled in metadata. Compact native responses omit explicit truncation and load-duration fields; oversized synthetic inputs reject. Some llama.cpp context rejections use a structured HTTP 500 with an explicit oversized token count, rather than 4xx. Ordinary 500 errors remain failures. Native typed-index counters 0/1 do not expose reasoning.
 
-StartLux ran through Ollaya 0.17.0, CUDA, Q8_0, with 2,048-token context. Instant used bidirectional prompt attention; AutoThink used causal attention. Precise GPU model, driver and system RAM were not returned by this route. Previous RTX 2060 measurements retain their original confirmed user-supplied hardware label, chosen deliberately as an older accessible setup; Apple M2 measurements retain their separate magenta label. Sharing a purple local-CUDA color does not assert identical hardware. No projected speed on newer hardware is included. Local hardware and electricity costs are unmeasured.
+All prior adaptive StartLux, Apple M2, hosted-provider and reasoning-off LLM settings remain attached to their original rows. Purple marks local CUDA, magenta Apple M2, blue hosted decisions and pale yellow LLM references. AutoThink retains its thick gold frame, dot pattern and generation proportions. Its authorized adaptive research exception is unchanged. Colors encode accuracy and speed/cost using the same fixed scales. Provider load, hardware, interfaces and dates differ; these are measured service timings, not isolated architectural speed comparisons. Local hardware and electricity costs are unmeasured.
 
-Trio's cost is the API-reported charge including the trial allowance. Turion's monetary charge is unknown. Earlier free-access and tariff-estimate qualifications remain attached to each model. Provider load, deployment, precision, dates and network paths vary, so latency differences do not isolate model architecture. Selected LLM references retain their earlier reasoning-off settings and limitations.
+Offline audits bound the private answer key, checked unique first attempts, native/wire request and response hashes, model revisions, CUDA placement, coverage, category sums and timing. Public artifacts contain aggregate correctness and answer-free timing/status/hash evidence. They do not include private keys, model choices, per-item correctness or private network details. Public checks reproduce coverage, timing and aggregate arithmetic; private-key accuracy cannot be independently rescored from public aggregates. Unequal category sizes and dependent variants remain qualifications of the developing bank.
 
-Private offline audits bound the frozen answer key, reconstructed requests and reconciled category totals. Public exports supply aggregates and answer-free timing and request/response hashes, with no keys or per-item model choices. Public checks reproduce coverage, timing, token counts, cost arithmetic and category sums; they cannot independently rescore private answers. The question bank remains publicly downloadable without the scoring key.
-
-[Aggregate statistics](results/releases/native_additions_2026-10-30/statistics.json) · [Model CSV](results/releases/native_additions_2026-10-30/model_statistics.csv) · [Category CSV](results/releases/native_additions_2026-10-30/category_scores.csv) · [New answer-free timing evidence](results/releases/native_additions_2026-10-30/october30_timing_evidence.csv) · [Execution settings](results/releases/native_additions_2026-10-30/execution_protocol.json) · [Audit receipt](results/releases/native_additions_2026-10-30/audit_receipt.json).
-
-[Previous 56-route analysis](results/releases/local_m2_2026-10-28/analysis.md) · [Question bank](results/releases/consolidated_2026-10-19/questions_1342.csv) · [scripts/](scripts/README.md). Historical check: `python3 scripts/validate_october21_release.py`.
+[Main statistics](results/releases/local_updates_2026-10-31/statistics.json) · [All full-run statistics](results/releases/local_updates_2026-10-31/all_statistics.json) · [New timing evidence](results/releases/local_updates_2026-10-31/local_timing_evidence.csv) · [Screening outcomes](results/releases/local_updates_2026-10-31/screened_routes.json) · [Audit receipt](results/releases/local_updates_2026-10-31/audit_receipt.json) · [Question bank](results/releases/consolidated_2026-10-19/questions_1342.csv) · [scripts/](scripts/README.md). Historical check: `python3 scripts/validate_october21_release.py`.

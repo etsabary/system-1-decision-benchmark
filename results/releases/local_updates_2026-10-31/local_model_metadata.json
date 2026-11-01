@@ -1,0 +1,234 @@
+{
+  "local_cox3b_int8": {
+    "model_requested": "cox:3b-int8",
+    "serving_digest": "a1b6f1df25aef9f9694d375bd6dc10649d742580fbf10383c7e75e11cb6ea88a",
+    "source_revision": "401da4ce5a2427acf85fe31ee14e74275ff08170",
+    "representation": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "cox",
+      "families": [
+        "cox"
+      ],
+      "parameter_size": "3B",
+      "quantization_level": "provider INT8"
+    },
+    "device_observed": "cuda:0",
+    "hardware": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_source": "Owner installation record; API confirms CUDA/VRAM but not GPU product name",
+    "cpu_fallback": false,
+    "local_quantization_changes_probabilities": false,
+    "prompt_limit_tokens": 2048,
+    "identity_limit": "Stable captured alias, source revision and serving digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "107bf21c16251c8b134ef6daf58fef76c4b26795aca4f9affcf20ee8a5cf57a2",
+      "dispatches.jsonl": "27a164e89d3899b17f8956ca45dad127a7bfe56d34805b6be2215714cb355c43",
+      "warmup.jsonl": "36aa413cbecc4ded2836e7f0192bbfa0a7c443818891165a48f4ff40e66fe63e",
+      "admission_responses.jsonl": "a707290cba43ed3c5e68f6780eef7db7dc1724a94c3db5066580d4ebdc684631"
+    }
+  },
+  "local_adm1_nf4": {
+    "model_requested": "adm:1-nf4",
+    "serving_digest": "ae39a5d2f99291b9f5d3772e36d4b71920c40c4031442244b06a78cc1ecc211a",
+    "source_revision": "6dff9369d59b7b0314eafd18d7f8b41461bd72a0",
+    "representation": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "adm",
+      "families": [
+        "adm"
+      ],
+      "parameter_size": "3B",
+      "quantization_level": "provider NF4"
+    },
+    "device_observed": "cuda:0",
+    "hardware": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_source": "Owner installation record; API confirms CUDA/VRAM but not GPU product name",
+    "cpu_fallback": false,
+    "local_quantization_changes_probabilities": false,
+    "prompt_limit_tokens": 1024,
+    "identity_limit": "Stable captured alias, source revision and serving digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "a2758cc7fc88a9c8341f44dfa22ea4dc00a1d3be6528be688e2267a77ec5add4",
+      "dispatches.jsonl": "a4b677caf5543ebd16850bd0c04c014beb7695124a761d98420129d500e02450",
+      "warmup.jsonl": "ac494db646e72803733ff9b979e73ac0fbee9de99aa643adc25841a08deeda17",
+      "admission_responses.jsonl": "25388a1e2e232a43fe04ed9dddef6a38cc9654372278f4738b9da7622d66ae07"
+    }
+  },
+  "local_jue25b": {
+    "model_requested": "jue:2.5b",
+    "serving_digest": "e8869139b46efaae290b9bc3c693143436feeef6048a01e4c954bc2286a38832",
+    "source_revision": "d259245345dc36aa002f68db1d8f1792aff39f58",
+    "representation": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "jue",
+      "families": [
+        "jue"
+      ],
+      "parameter_size": "2.5B",
+      "quantization_level": "FP16 + FP32 LoRA"
+    },
+    "device_observed": "cuda:0",
+    "hardware": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_source": "Owner installation record; API confirms CUDA/VRAM but not GPU product name",
+    "cpu_fallback": false,
+    "local_quantization_changes_probabilities": false,
+    "prompt_limit_tokens": 1024,
+    "identity_limit": "Stable captured alias, source revision and serving digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "cd97fbc13afcdf0d6b9b4af25de27b42b6715a6476de798cf62f669dd918c978",
+      "dispatches.jsonl": "f3b916d7de4d6e5be281053cdea53f357edb0bfb9028659b6d2ef7b6a9f736df",
+      "warmup.jsonl": "de0928fb973312e7050ceab6d7685ec6717648635bb6b00e138231e052a03d2d",
+      "admission_responses.jsonl": "dfb2d535c49d6702338c08e6170f7619495bad746ecee448777bfb1b26e5e552"
+    }
+  },
+  "local_iota4b_q8": {
+    "model_requested": "iota:4b-q8_0",
+    "serving_digest": "2020083d977f2867c6df3a294a7f152526f54b7983beb923bbfb8bb87a86d23c",
+    "source_revision": "97f3614a2dd6d91a6cf471246ca8da2d49f26c4a",
+    "representation": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "iota",
+      "families": [
+        "iota"
+      ],
+      "parameter_size": "4B",
+      "quantization_level": "provider Q8_0"
+    },
+    "device_observed": "cuda:0",
+    "hardware": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_source": "Owner installation record; API confirms CUDA/VRAM but not GPU product name",
+    "cpu_fallback": false,
+    "local_quantization_changes_probabilities": false,
+    "prompt_limit_tokens": 2048,
+    "identity_limit": "Stable captured alias, source revision and serving digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "0786cebcdca49f72af59b7e539a6c9eeeb75f440a67c0aa305bdbdf4a2cd77d4",
+      "dispatches.jsonl": "8311840dbd12c9ae82fe996cec1edb0e6a653171cc59d23869e1458fbb1b4971",
+      "warmup.jsonl": "8bcad1e13a24bb8798985e26ac77e907df18261b6addce5834dac61ac6b983a7",
+      "admission_responses.jsonl": "7813eda70605a7bda36a88d8f3d68c29451d1973e7af5f420376c308a33257d4"
+    }
+  },
+  "local_cerno4b_nf4": {
+    "model_requested": "cerno:4b-v1.2-nf4",
+    "serving_digest": "0e462f3b9380507c5c8b965e5aa3002852a29852dfb8b80ecfd42b7952e3da4e",
+    "source_revision": "e14dec9894c5afb761f90926f1c19b19938a271c",
+    "representation": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "cerno",
+      "families": [
+        "cerno"
+      ],
+      "parameter_size": "4B",
+      "quantization_level": "local NF4, FP16 embedding/readout"
+    },
+    "device_observed": "cuda:0",
+    "hardware": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_source": "Owner installation record; API confirms CUDA/VRAM but not GPU product name",
+    "cpu_fallback": false,
+    "local_quantization_changes_probabilities": true,
+    "prompt_limit_tokens": 2048,
+    "identity_limit": "Stable captured alias, source revision and serving digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "6b2845ab0907e7bb9e36ece6b39343b173312918aca506d80df83f93309087b3",
+      "dispatches.jsonl": "515d11759526ded6b41dc206310b7c574c6dd8dcfc08774717f57757a2546fba",
+      "warmup.jsonl": "ef67aeb66aa3f3dcb811486a1e15b8f1b47734eb02c9fa7d135ca1085421e220",
+      "admission_responses.jsonl": "e13f468765259782da1f08ae0531063486c1cf8aac4ebdb39b939a7a39b72a8f"
+    }
+  },
+  "local_cerno9b_nf4": {
+    "model_requested": "cerno:9b-v1.2-nf4",
+    "serving_digest": "8679598cf18c4db88636e1c82ed39c850c1c868dc49856271b8eb039e7011280",
+    "source_revision": "f02a632fbe3a4698cd1ff5c0b929ea240e2b8eda",
+    "representation": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "cerno",
+      "families": [
+        "cerno"
+      ],
+      "parameter_size": "9B",
+      "quantization_level": "local NF4 + INT8 embedding, FP16 readout"
+    },
+    "device_observed": "cuda:0",
+    "hardware": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_source": "Owner installation record; API confirms CUDA/VRAM but not GPU product name",
+    "cpu_fallback": false,
+    "local_quantization_changes_probabilities": true,
+    "prompt_limit_tokens": 1024,
+    "identity_limit": "Stable captured alias, source revision and serving digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "a2fae0d875d309126369777a97590277750622215bfe2a04a8182ea812537023",
+      "dispatches.jsonl": "a08987a5f10040afc39821518f939526523ed218440195c2bebc9be402693ea8",
+      "warmup.jsonl": "ece53ef2da79f4a844a7cc73f2de249cb75df157f744db2d60143ddcf4acb887",
+      "admission_responses.jsonl": "a315cef801069f34ffa251574b2d22774655c974e9855edb40c0e29e65b5a796"
+    }
+  },
+  "local_dexy9b_nf4": {
+    "model_requested": "dexy:9b-nf4",
+    "serving_digest": "9d11160982340e03548f0fadd4297535b3164b5ef987ec8b7e53c99efd416ba0",
+    "source_revision": "afee4baa7ef921221a0e74f695a150edd6887ce2",
+    "representation": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "dexy",
+      "families": [
+        "dexy"
+      ],
+      "parameter_size": "9B",
+      "quantization_level": "local NF4 + INT8 embedding, FP16 readout"
+    },
+    "device_observed": "cuda:0",
+    "hardware": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_source": "Owner installation record; API confirms CUDA/VRAM but not GPU product name",
+    "cpu_fallback": false,
+    "local_quantization_changes_probabilities": true,
+    "prompt_limit_tokens": 1024,
+    "identity_limit": "Stable captured alias, source revision and serving digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "d714b4f323ec30c1b237717cc2bc5d73b8dc3fbaf187c7afcc645871b657ebe9",
+      "dispatches.jsonl": "c436e83f00ee6d7d6c9d1018bf05d67df1a7876f3873a92049897ee9796eaa10",
+      "warmup.jsonl": "f633657e579203c3a880ec0360a5b605f34b802fe27442aa7c9f8e1a3825efd2",
+      "admission_responses.jsonl": "08148590933003d4378812d4132b21c09108c3d6c4283ae862007577ca06d3cf"
+    }
+  },
+  "local_mimo9b_nf4": {
+    "model_requested": "mimo-decision:9b-nf4",
+    "serving_digest": "515ac1235c61db33fead6afc8632cb65fc52384a169098c7f088a21c2f3c9e7b",
+    "source_revision": "c9be7d10fcaab3f3aa93819d06b44d4dfd249b4e",
+    "representation": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "mimo",
+      "families": [
+        "mimo"
+      ],
+      "parameter_size": "9B",
+      "quantization_level": "local NF4 + INT8 embedding, FP32 LoRA/pointer head"
+    },
+    "device_observed": "cuda:0",
+    "hardware": "NVIDIA RTX 2060",
+    "vram_gb": 6,
+    "hardware_source": "Owner installation record; API confirms CUDA/VRAM but not GPU product name",
+    "cpu_fallback": false,
+    "local_quantization_changes_probabilities": true,
+    "prompt_limit_tokens": 1024,
+    "identity_limit": "Stable captured alias, source revision and serving digest; no independent weight attestation",
+    "source_evidence_sha256": {
+      "attempts.jsonl": "b50c8c443ef0aad7351e3969191705ba61dd38bc350de3177aaa4b5dbb196f1e",
+      "dispatches.jsonl": "047ca9470677e0a0eab7dee99071ee287e7834388c859eb3bc8cf4cd770d7581",
+      "warmup.jsonl": "f633afbd82ee39a516cacaf9193d7d1766cdfc58b071fd65a0b64865a727cc1d",
+      "admission_responses.jsonl": "9d7ede654bbdd753e68b8df30cfe874c6aba64e96fab170214120fd0da7baa9d"
+    }
+  }
+}

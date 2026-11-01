@@ -30,9 +30,12 @@ def validate():
     assert manifest['current_files'], 'Active sources have not been bound'
     for name, expected in manifest['current_files'].items():
         assert sha256((ROOT / name).read_bytes()).hexdigest() == expected, 'Active source changed: ' + name
-    actual = {p.relative_to(ROOT).as_posix() for p in SCRIPTS.glob('*.py')}
+    # This is the public source boundary. Other threads may have untracked work
+    # in the same local folder; those files are not part of a Git publication.
+    published = set(subprocess.check_output(['git', 'ls-files', '-z'], cwd=ROOT).decode().split('\0'))
+    actual = {name for name in published if name.startswith('scripts/') and name.endswith('.py')}
     assert actual <= manifest['current_files'].keys(), 'Unbound active Python source'
-    for path in SCRIPTS.glob('*.py'):
+    for path in (ROOT / name for name in actual):
         compile(path.read_text(), str(path), 'exec')
     for name in ('README.md', '.github/workflows/validate.yml', '.github/workflows/october18-validate.yml'):
         assert name in manifest['current_files']
@@ -48,7 +51,7 @@ def validate():
     for old, new in directory['prefixes'].items():
         assert not (ROOT / old).exists(), old
         assert repo_file(old) == ROOT / new and (ROOT / new).exists(), new
-    for document in [ROOT / 'README.md', SCRIPTS / 'README.md', ROOT / 'results/README.md', ROOT / 'data/README.md', *sorted((ROOT / 'documents').glob('*.md'))]:
+    for document in [ROOT / 'README.md', SCRIPTS / 'README.md', ROOT / 'results/README.md', ROOT / 'data/README.md', *sorted(ROOT / n for n in published if n.startswith('documents/') and n.endswith('.md'))]:
         for target in re.findall(r'\]\(([^\s)]+)\)', document.read_text()):
             url = urlsplit(target)
             if not url.scheme and not url.netloc and url.path:

@@ -5,9 +5,10 @@
 ## Current guides
 
 - [Categories, examples and scores](FUNCTIONS.md)
+- [Below-50% route and format outcomes](../results/releases/local_updates_2026-10-31/below_50.md), outside the qualifying main comparison
 - [Image-input capabilities](IMAGE_CAPABILITIES.md)
 - [Output compliance and request failures](OUTPUT_COMPLIANCE.md)
-- [Local GPU setup and category profiles](LOCAL_GPU_RUNS.md)
+- [Latest local GPU results and category analysis](../results/releases/local_updates_2026-10-31/analysis.md) and [earlier local setup profiles](LOCAL_GPU_RUNS.md)
 - [No-reasoning LLM references](LLM_REFERENCES.md)
 - [LLM coverage](LLM_EXPANSION.md)
 

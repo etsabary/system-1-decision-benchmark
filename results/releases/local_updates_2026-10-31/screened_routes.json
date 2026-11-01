@@ -1,0 +1,112 @@
+[
+  {
+    "model_id": "local_adm1_nf4",
+    "label": "ADM-1 NF4",
+    "model_requested": "adm:1-nf4",
+    "execution_location": "local",
+    "format": "Native choice",
+    "scope": "Partial screen",
+    "state": "stopped_low_accuracy",
+    "n": 100,
+    "correct": 17,
+    "answered": 100,
+    "failed": 0,
+    "wrong_valid": 83,
+    "accuracy": 0.17,
+    "mean_ms": 797.3383429308888,
+    "median_ms": 734.0568960062228,
+    "p95_ms": 1483.2755975541659,
+    "statuses": {
+      "ok": 100
+    },
+    "context_limit_failures": 0,
+    "representation": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "adm",
+      "families": [
+        "adm"
+      ],
+      "parameter_size": "3B",
+      "quantization_level": "provider NF4"
+    },
+    "dates_toronto": {
+      "2026-10-31": 100
+    },
+    "reason": "Below50% on first100"
+  },
+  {
+    "model_id": "local_cerno9b_nf4",
+    "label": "Cerno 9B v1.2 NF4",
+    "model_requested": "cerno:9b-v1.2-nf4",
+    "execution_location": "local",
+    "format": "Native choice",
+    "scope": "Partial screen",
+    "state": "paused_output_failures",
+    "n": 20,
+    "correct": 12,
+    "answered": 17,
+    "failed": 3,
+    "wrong_valid": 5,
+    "accuracy": 0.6,
+    "mean_ms": 790.8050186466426,
+    "median_ms": 873.7263539806008,
+    "p95_ms": 1029.2800764320418,
+    "statuses": {
+      "ok": 17,
+      "http_failure": 3
+    },
+    "context_limit_failures": 3,
+    "representation": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "cerno",
+      "families": [
+        "cerno"
+      ],
+      "parameter_size": "9B",
+      "quantization_level": "local NF4 + INT8 embedding, FP16 readout"
+    },
+    "dates_toronto": {
+      "2026-10-31": 20
+    },
+    "reason": "Local context-limit failure screen; no full-bank score"
+  },
+  {
+    "model_id": "local_mimo9b_nf4",
+    "label": "MiMo Decision 9B NF4",
+    "model_requested": "mimo-decision:9b-nf4",
+    "execution_location": "local",
+    "format": "Native choice",
+    "scope": "Partial screen",
+    "state": "paused_output_failures",
+    "n": 20,
+    "correct": 10,
+    "answered": 19,
+    "failed": 1,
+    "wrong_valid": 9,
+    "accuracy": 0.5,
+    "mean_ms": 669.2140396044124,
+    "median_ms": 659.3617500038818,
+    "p95_ms": 1096.0095378744882,
+    "statuses": {
+      "ok": 19,
+      "http_failure": 1
+    },
+    "context_limit_failures": 1,
+    "representation": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "mimo",
+      "families": [
+        "mimo"
+      ],
+      "parameter_size": "9B",
+      "quantization_level": "local NF4 + INT8 embedding, FP32 LoRA/pointer head"
+    },
+    "dates_toronto": {
+      "2026-10-31": 20
+    },
+    "reason": "Local context-limit failure screen; no full-bank score"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "row_count": 16,
+  "basis": "Latest route/format outcome, original sample sizes retained. Public source fields or owner-audited source hashes. No inference or model outputs exported.",
+  "separate_trial_notice": "Same model can fail an earlier bare-ID format and qualify in a later constrained format.",
+  "private_audit_sha256": "4b86a4bf7cef6b8a413de1d48bcfd4dc18e9c280e37316a53427145965345403"
+}
