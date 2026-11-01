@@ -1,0 +1,70 @@
+{
+  "commit": "31185f6526ca38579fcde46e376f34c0dfcf4710",
+  "scope": "Exact HEAD bytes before v2; only owner-authored validator/workflow edits preceded snapshot extraction. Original tracked worktree was clean.",
+  "files": {
+    "README.md": {
+      "path": "README.md.snapshot",
+      "sha256": "3759fa398e073fced83bb7c75200dc85a6c26f2306387763a6aa87aff0dc5bd2"
+    },
+    "documents/FUNCTIONS.md": {
+      "path": "documents/FUNCTIONS.md.snapshot",
+      "sha256": "35d8b32a3fbf956e062af0d29b0c6687f85797f8e1cb3c8226e0a3c7e186dda5"
+    },
+    "documents/LLM_REFERENCES.md": {
+      "path": "documents/LLM_REFERENCES.md.snapshot",
+      "sha256": "e4a595827cdb8da30b604006a7197139d602dbcb8aae91b0ccb6cd7b8748621c"
+    },
+    "documents/OUTPUT_COMPLIANCE.md": {
+      "path": "documents/OUTPUT_COMPLIANCE.md.snapshot",
+      "sha256": "5aa2a94a48f8b37908daee0e62553e67acf0cb555c4b528a93ff71de8c70ebf4"
+    },
+    "documents/README.md": {
+      "path": "documents/README.md.snapshot",
+      "sha256": "d44c60dabd6012932dcb3470c1f58ae152d9fdcd6a003ce1cec1e152b99cb498"
+    },
+    "data/README.md": {
+      "path": "data/README.md.snapshot",
+      "sha256": "17d9480c2bf17950d6db5bcab42702d2dd6661d87ced1d73e3409db63e83f793"
+    },
+    "results/README.md": {
+      "path": "results/README.md.snapshot",
+      "sha256": "fdd9997f0f2f0006deedff18ac0c0923abb5dbaad8f6017523baa0673c991000"
+    },
+    "scripts/README.md": {
+      "path": "scripts/README.md.snapshot",
+      "sha256": "8c26490f3b4389ca8ac3c9eda880051e44fd01062a70000e7c39b3b6d2b81b4f"
+    },
+    "docs/report.html": {
+      "path": "docs/report.html.snapshot",
+      "sha256": "df0a261a9f98073815d9b752fd11d417d6d83e154833077bdac6205d7515a22a"
+    },
+    "docs/index.html": {
+      "path": "docs/index.html.snapshot",
+      "sha256": "4c1c16692f3d63c624d714bfb5f0cc27ea14833ac178a81623a9605642009009"
+    },
+    "docs/functions.html": {
+      "path": "docs/functions.html.snapshot",
+      "sha256": "03f9bac3ccaec82b5a07beaaf1e99b0f28de6987753e75f07da1343c88965a22"
+    },
+    "docs/output_compliance.html": {
+      "path": "docs/output_compliance.html.snapshot",
+      "sha256": "5025e15a3588b3fc992015492517922ce1a46b3abf23c53e1fe30c63fccee6d2"
+    },
+    "docs/sitemap.xml": {
+      "path": "docs/sitemap.xml.snapshot",
+      "sha256": "9a23cbf1f37be8085da588b6c8d1aea5e975fa66037e9d53c36b467ffe460d12"
+    },
+    "scripts/layout_manifest.json": {
+      "path": "scripts/layout_manifest.json.snapshot",
+      "sha256": "86dc44d7b49e808fe622ccf98f61cd4f1337380566ae507429e1b791050fcc64"
+    },
+    "scripts/validate_local_updates_2026_10_31.py": {
+      "path": "scripts/validate_local_updates_2026_10_31.py.snapshot",
+      "sha256": "3a83678dfaf836842ab61f30ed12a8f5471eeb945bed1bc21fc72083bde4a10a"
+    },
+    ".github/workflows/october18-validate.yml": {
+      "path": ".github/workflows/october18-validate.yml.snapshot",
+      "sha256": "40e7192738a036dd9353b0fa95d7f0e778a5c480799afaa71392874af4a88fca"
+    }
+  }
+}

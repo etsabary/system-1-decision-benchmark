@@ -1,5 +1,19 @@
 # Benchmark scripts
 
+## Current v2 publication
+
+`publish_system1_v2.py` rebuilds the 26-model,1,934-question public report offline from sanitized captures. `validate_system1_v2.py` checks exact inputs,73,492 timing records, aggregate/category totals,62% selection, privacy, links and seals. `test_system1_v2.py` checks cutoff boundaries and exclusions. `system1_v2_history.py` resolves pre-v2 presentation snapshots for old validators. No inference or credentials are required.
+
+```sh
+python3 scripts/validate_system1_v2.py
+python3 -m unittest discover -s scripts -p "test_system1_v2.py"
+python3 scripts/publish_system1_v2.py --output /tmp/system1-v2-rebuild
+```
+
+## Historical scripts and releases
+
+# Benchmark scripts
+
 All 110 Python files previously in the repository root are grouped here: live
 benchmark runners, analysis and plotting tools, report builders, validators and
 their tests. Documents are in `documents/`; dated outputs and evidence are in
@@ -80,7 +94,7 @@ helpers do not weaken live-run software checks or rewrite sealed evidence.
 
 ## October 27 additions
 
-`publish_native_updates_2026_10_27.py` publishes the two audited hosted additions offline. `validate_native_updates_2026_10_27.py` verifies54 routes,2684 new timing rows,1674 category cells and exact preservation of52 prior records. `october27_history.py` resolves the prior active presentation for historical checks.
+`publish_native_updates_2026_10_27.py` publishes the two audited hosted additions offline. `validate_native_updates_2026_10_27.py` verifies 54 routes,2684 new timing rows,1674 category cells and exact preservation of 52 prior records. `october27_history.py` resolves the prior active presentation for historical checks.
 
 ## October 31 main-report selection
 

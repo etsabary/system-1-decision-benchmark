@@ -1,0 +1,1934 @@
+{
+  "fastino_glide_v23_bf16": {
+    "configuration": "Fastino GLiDEv2.3 BF16 (catalog-declared)",
+    "role": "Hosted native",
+    "selected_primary_sha256": "8e52d2f06640c7471dd70f518be3ac78575a231c7244b5ecd74600ef8a300a8f",
+    "source_origin_counts": {
+      "full-bank selected primary": 1934
+    },
+    "returned_model_counts": {
+      "unreported in selected primary": 1934
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-31": 1934
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-31": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "full-bank selected primary": {
+        "2026-10-31": 1934
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "reference_sol": {
+    "configuration": "GPT-6 Sol — reasoning none (OpenAI standard route)",
+    "role": "LLM reference",
+    "selected_primary_sha256": "792b76b12b60f4ff4b0dd43fd757c354e349eed540b7f4ac9fd4d51c9b782eff",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "openai/gpt-6-sol": 1934
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-19": 1342,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-19": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_baseline": {
+        "2026-10-19": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "d3_ultra": {
+    "configuration": "D3 Ultra",
+    "role": "Hosted native",
+    "selected_primary_sha256": "e1d680774ddc6e095cdd7019a6e13174cf460fd330584f291497c28860a1d82d",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_primary": 1342
+    },
+    "returned_model_counts": {
+      "vllm-sr/d3-ultra": 1934
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-27": 1342,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-27": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_primary": {
+        "2026-10-27": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "mammoth1": {
+    "configuration": "Mammoth-1 (Baseten direct; latest named alias)",
+    "role": "Hosted native",
+    "selected_primary_sha256": "d9992d6d6d1483e6174482b2f87fbcb7f0ceddb730c8947ef1c413d7c1d76e50",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "decision-models/baseten-mammoth-27b-latest": 1933,
+      "unreported in selected primary": 1
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-21": 1342,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-21": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_baseline": {
+        "2026-10-21": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "drex_max": {
+    "configuration": "Drex Max",
+    "role": "Hosted native",
+    "selected_primary_sha256": "935df4f48ed5461ddf680abce81ee02df5743d8119449b0dd5c8a0e271b3ab78",
+    "source_origin_counts": {
+      "new_run": 470,
+      "retained_primary": 1464
+    },
+    "returned_model_counts": {
+      "nace-ai/drex-max-20261016": 1926,
+      "unreported in selected primary": 8
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-21": 1342,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-21": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 470
+      },
+      "retained_primary": {
+        "2026-10-21": 1342,
+        "2026-10-31": 122
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 470,
+      "record.started": 1464
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "nimble_v4_max": {
+    "configuration": "Nimble v4 Max",
+    "role": "Hosted native",
+    "selected_primary_sha256": "c730090ec09bc049c7b1b6cccd328c3bd43fc021be2d5bb5043d7b586479bf6f",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_primary": 1342
+    },
+    "returned_model_counts": {
+      "nimble-v4-max": 1933,
+      "unreported in selected primary": 1
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-16": 1134,
+      "2026-10-18": 2,
+      "2026-10-19": 206,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-16": 1134,
+        "2026-10-18": 2,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_primary": {
+        "2026-10-16": 1134,
+        "2026-10-18": 2,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "pplx_decider12": {
+    "configuration": "Perplexity Decider v1.2",
+    "role": "Hosted native",
+    "selected_primary_sha256": "d22c768494715b1b4e2af1941904be71b4d70765f06e41733c0d97088a600054",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_primary": 1342
+    },
+    "returned_model_counts": {
+      "perplexity/pplx-decider-v1.2-20261016": 1933,
+      "unreported in selected primary": 1
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_primary": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "turion_jev31b": {
+    "configuration": "Turion Jev 31B",
+    "role": "Hosted native",
+    "selected_primary_sha256": "24959864cafedaecb2507ebed536776e84163155ed74b1de9d919bc99b985ca9",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_primary": 1342
+    },
+    "returned_model_counts": {
+      "turion-jev-31b": 1934
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-29": 1342,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-29": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_primary": {
+        "2026-10-29": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "client_dispatch_marker": 592,
+      "historical_published_session_date_only": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "kettei_fat": {
+    "configuration": "kettei-fat",
+    "role": "Hosted native",
+    "selected_primary_sha256": "bf15f0f664af6d26505bc10f68f923d3f23650351baa08a91b6aa8d1785e64ee",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "kettei-fat": 1934
+    },
+    "output_counter_counts": {
+      "0": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-20": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-20": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-20": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "liquid_ultra": {
+    "configuration": "Liquid d1-ultra",
+    "role": "Hosted native",
+    "selected_primary_sha256": "05acf08c92d4daa9bd98cee9d9a4f74cae3b721655def886d4bf6935f1095715",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "liquid/d1-ultra-20261015": 1933,
+      "unreported in selected primary": 1
+    },
+    "output_counter_counts": {
+      "0": 1933,
+      "unreported": 1
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_baseline": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "amos_large": {
+    "configuration": "Amos 1 Large",
+    "role": "Hosted native",
+    "selected_primary_sha256": "0135cf2f32417afe881f879b9addfc9275bb1dcc62aeb7243c484fa6ca7b109e",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "amos-1-large": 1934
+    },
+    "output_counter_counts": {
+      "0": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-20": 1342,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-20": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_baseline": {
+        "2026-10-20": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "reference_sonnet": {
+    "configuration": "Claude Sonnet 5.5 — no thinking (between_tools, no tools), JSON-choice (Anthropic standard)",
+    "role": "LLM reference",
+    "selected_primary_sha256": "8a8fb84ffd783406fea1cdf7954452bce998d3e19517ffe0f8a4a0da5e7fde63",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "anthropic/claude-sonnet-5.5": 1934
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-19": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-19": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-19": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "respan02": {
+    "configuration": "Respan Span-02 respan/span-02-20261015",
+    "role": "Hosted native",
+    "selected_primary_sha256": "b6c6fe934c7dd20ed2681645911cd609b6d1908b274525483a0f209dc0d31881",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "respan/span-02-20261015": 1934
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_baseline": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "reference_opus5": {
+    "configuration": "Claude Opus 5 — thinking disabled, JSON-choice (Anthropic standard)",
+    "role": "LLM reference",
+    "selected_primary_sha256": "81ee423002cb1788364b301c6a0dfb14950996ad7c97f7b0e19e986924e2bcaf",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "anthropic/claude-opus-5": 1934
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-23": 1342,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-23": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_baseline": {
+        "2026-10-23": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "mercury_decide": {
+    "configuration": "Mercury Decide",
+    "role": "Hosted native",
+    "selected_primary_sha256": "d3b08638fc693ad8a731425e20fdd02b1df5474b928e2d774b73054b2224eca4",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "inception/mercury-decide-20260930": 1933,
+      "unreported in selected primary": 1
+    },
+    "output_counter_counts": {
+      "1": 1933,
+      "unreported": 1
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "liquid11_decision": {
+    "configuration": "Liquid d1.1",
+    "role": "Hosted native",
+    "selected_primary_sha256": "9efeaf04deef105bd7f68fdb203dcda76199869ca5bbc585b193ab466ffb864e",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "liquid/d1.1-20261027": 1934
+    },
+    "output_counter_counts": {
+      "0": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-27": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-27": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-27": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "jev114": {
+    "configuration": "Jev1.14",
+    "role": "Hosted native",
+    "selected_primary_sha256": "6c39aae9a1cbe57295ed38c54288040bd8e732b64f65e5d33c0074a0cb4d4306",
+    "source_origin_counts": {
+      "logical_192": 192,
+      "practical_400": 400,
+      "original_1134": 1134,
+      "corrected_2": 2,
+      "original_pilot200": 200,
+      "original_truth6": 6
+    },
+    "returned_model_counts": {
+      "typesafe/jev-1.14-20261014": 1934
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-15": 1134,
+      "2026-10-18": 2,
+      "2026-10-19": 206,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-15": 1134,
+        "2026-10-18": 2,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "logical_192": {
+        "2026-10-31": 192
+      },
+      "practical_400": {
+        "2026-10-31": 400
+      },
+      "original_1134": {
+        "2026-10-15": 1134
+      },
+      "corrected_2": {
+        "2026-10-18": 2
+      },
+      "original_pilot200": {
+        "2026-10-19": 200
+      },
+      "original_truth6": {
+        "2026-10-19": 6
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "elephant1": {
+    "configuration": "Elephant-1",
+    "role": "Hosted native",
+    "selected_primary_sha256": "fac6f54701255bb8c0d89979b1d1e0b7e250991fff899b2080b31db9bc95d409",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "decision-models/baseten-elephant-9b-latest": 1934
+    },
+    "output_counter_counts": {
+      "1": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-21": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-21": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-21": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "celeris11_decision": {
+    "configuration": "Celeris 1.1 Decision",
+    "role": "Hosted native",
+    "selected_primary_sha256": "de60307b50a8ebd174540af8aafbbbbe0bb873c651493d6286a6074d433352a9",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "celeris-1.1-decision": 1934
+    },
+    "output_counter_counts": {
+      "0": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-25": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started_at": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "liquid_d1": {
+    "configuration": "Liquid d1",
+    "role": "Hosted native",
+    "selected_primary_sha256": "eec74254411243bf2bbb655e5257fc9c43acb385018f2217f1bdf1600f98a7ba",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "liquid/d1-20260930": 1934
+    },
+    "output_counter_counts": {
+      "0": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "local_startlux_instant4b": {
+    "configuration": "StartLux v1.1 4B Instant",
+    "role": "Local native",
+    "selected_primary_sha256": "b819c497dc3d6d1858bf421393daafd7dcb450388e8f32bfce437a524ed0e543",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "startlux:4b-v1.1-instant": 1934
+    },
+    "output_counter_counts": {
+      "0": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": "Owner setup described as RTX2060-class6GB; API attests CUDA/VRAM, not the exact physical GPU product.",
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-29": 1342,
+      "2026-10-31": 325,
+      "2026-11-01": 267
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 110,
+        "2026-11-01": 82
+      },
+      "practical400": {
+        "2026-10-31": 215,
+        "2026-11-01": 185
+      },
+      "original1342": {
+        "2026-10-29": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 325,
+        "2026-11-01": 267
+      },
+      "retained_baseline": {
+        "2026-10-29": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started_at": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "local_startlux_autothink4b": {
+    "configuration": "StartLux v1.1 4B Autothink Q8_0 — local adaptive",
+    "role": "Adaptive archival",
+    "selected_primary_sha256": "46056b604f5f726708622be13854d04b2f66c27586174d96f0ba58bc1a50ee92",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "startlux:4b-v1.1-autothink": 1934
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": "Owner setup described as RTX2060-class6GB; API attests CUDA/VRAM, not the exact physical GPU product.",
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-29": 1342,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-29": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_baseline": {
+        "2026-10-29": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started_at": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "clef": {
+    "configuration": "Cloudflare Clef",
+    "role": "Hosted native",
+    "selected_primary_sha256": "e7d920e2f1666f5655355715174c8cac6811019be781d880034069e12ee80ff6",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "cloudflare/clef": 1934
+    },
+    "output_counter_counts": {
+      "0": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "microsoft_decision": {
+    "configuration": "Microsoft-Decision-1",
+    "role": "Hosted native",
+    "selected_primary_sha256": "aea5cc16be522b116e63430340c19190d4e1d4ee6ad9551cd2b7d63446da6ae4",
+    "source_origin_counts": {
+      "new_run": 288,
+      "retained_expansion": 304,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "microsoft/microsoft-decision-1-20261009": 1934
+    },
+    "output_counter_counts": {
+      "1": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-16": 1134,
+      "2026-10-18": 2,
+      "2026-10-19": 206,
+      "2026-10-31": 304,
+      "2026-11-01": 288
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-10-31": 304,
+        "2026-11-01": 96
+      },
+      "original1342": {
+        "2026-10-16": 1134,
+        "2026-10-18": 2,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 288
+      },
+      "retained_expansion": {
+        "2026-10-31": 304
+      },
+      "retained_baseline": {
+        "2026-10-16": 1134,
+        "2026-10-18": 2,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 288,
+      "record.started": 1646
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "local_d3_flash_artemis_iq3_m": {
+    "configuration": "D3 Flash Artemis 9B",
+    "role": "Local native",
+    "selected_primary_sha256": "016edfbbeac56cbcc532a8dc73773bcfba13e35c00a65f773350c7182ec87571",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "d3:flash-artemis-iq3_m": 1765,
+      "unreported in selected primary": 169
+    },
+    "output_counter_counts": {
+      "0": 1765,
+      "unreported": 169
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": "Owner setup described as RTX2060-class6GB; API attests CUDA/VRAM, not the exact physical GPU product.",
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-25": 1342,
+      "2026-10-31": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-10-31": 192
+      },
+      "practical400": {
+        "2026-10-31": 400
+      },
+      "original1342": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-10-31": 592
+      },
+      "retained_baseline": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started_at": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "local_cerno4b_nf4": {
+    "configuration": "Cerno 4B v1.2 NF4",
+    "role": "Local native",
+    "selected_primary_sha256": "87947ecf82b9af46e339331b696bbb6fa42f6510285ddf83bae9c97a5187848f",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "cerno:4b-v1.2-nf4": 1783,
+      "unreported in selected primary": 151
+    },
+    "output_counter_counts": {
+      "0": 1783,
+      "unreported": 151
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": "Owner setup described as RTX2060-class6GB; API attests CUDA/VRAM, not the exact physical GPU product.",
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-31": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-31": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-31": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started_at": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "drex20": {
+    "configuration": "Drex v2.0",
+    "role": "Hosted native",
+    "selected_primary_sha256": "4cc9b1e5c0dcab70963f426e7a11e39dfce8e4da22b846f826f72ddd66dfd08d",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "nace-ai/drex-v2.0-20261009": 1842,
+      "unreported in selected primary": 92
+    },
+    "output_counter_counts": {
+      "84": 537,
+      "unreported": 92,
+      "85": 1033,
+      "80": 3,
+      "83": 167,
+      "82": 69,
+      "78": 5,
+      "79": 9,
+      "76": 7,
+      "73": 3,
+      "81": 9
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "pplx_flash12": {
+    "configuration": "Perplexity Decider Flash v1.2",
+    "role": "Hosted native",
+    "selected_primary_sha256": "b8c51b21f2f81fd98c136db61adc7dea3326bb82f4e84071893d987656e1f1dc",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "perplexity/pplx-decider-flash-v1.2-20261016": 1878,
+      "unreported in selected primary": 56
+    },
+    "output_counter_counts": {
+      "1": 1878,
+      "unreported": 56
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "local_pplx_flash12_mixed4": {
+    "configuration": "Perplexity Flash v1.2 mixed4",
+    "role": "Local native",
+    "selected_primary_sha256": "6f41959b22ba4b630a15420cbaa0a0e7d60b1c01a71608b1efce4501bfbb314d",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "pplx-decider:flash-v1.2-mixed4": 1767,
+      "unreported in selected primary": 167
+    },
+    "output_counter_counts": {
+      "0": 1767,
+      "unreported": 167
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": "Owner setup described as RTX2060-class6GB; API attests CUDA/VRAM, not the exact physical GPU product.",
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-25": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started_at": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "drex15": {
+    "configuration": "Drex v1.5",
+    "role": "Hosted native",
+    "selected_primary_sha256": "0e0165ad7e68178097efe2b7d9bbebf841bc51acde88d598a79dec1240136fd0",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "nace-ai/drex-v1.5-20261009": 1934
+    },
+    "output_counter_counts": {
+      "85": 899,
+      "84": 481,
+      "83": 146,
+      "82": 137,
+      "78": 14,
+      "76": 69,
+      "81": 34,
+      "79": 72,
+      "70": 7,
+      "67": 24,
+      "80": 5,
+      "73": 42,
+      "74": 2,
+      "75": 2
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "clef_flash": {
+    "configuration": "Cloudflare Clef Flash",
+    "role": "Hosted native",
+    "selected_primary_sha256": "cb91322d5015c1f83309bf1972a4bdf96326c9228ce33d4ad9aa2fedbd6bd47e",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "cloudflare/clef-flash": 1933,
+      "unreported in selected primary": 1
+    },
+    "output_counter_counts": {
+      "0": 1933,
+      "unreported": 1
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "clef_omni": {
+    "configuration": "Cloudflare Clef Omni",
+    "role": "Hosted native",
+    "selected_primary_sha256": "ee9ed35dfe580c9ea8fe79c314e71ac841d595b0b4f27de8afc8575d2ef1b25f",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "cloudflare/clef-omni-20261009": 1933,
+      "unreported in selected primary": 1
+    },
+    "output_counter_counts": {
+      "0": 1933,
+      "unreported": 1
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "trio_spark14": {
+    "configuration": "Trio-Spark v1.4",
+    "role": "Hosted native",
+    "selected_primary_sha256": "2b5cc468dcef1b3ed6b9955e636b0c62f136d0673307dcf560d269bbc8ef4ef3",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "trio-spark-v1.3": 1772,
+      "unreported in selected primary": 162
+    },
+    "output_counter_counts": {
+      "unreported": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-29": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-29": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-29": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started_at": 592,
+      "historical_published_session_date_only": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "local_fovea_4b": {
+    "configuration": "Fovea 4B",
+    "role": "Local native",
+    "selected_primary_sha256": "755c972b7d2d68596cdea281d49c0da7f2ed8c56bfd2fce46da7ef8786a19643",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "fovea:4b": 1934
+    },
+    "output_counter_counts": {
+      "0": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": "Owner setup described as RTX2060-class6GB; API attests CUDA/VRAM, not the exact physical GPU product.",
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-25": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started_at": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "local_h2o_lightning_nemotron_4b": {
+    "configuration": "H2O Lightning Nemotron 4B",
+    "role": "Local native",
+    "selected_primary_sha256": "bc5779ed43b22eb40a2d5a008cc80541fb3daf65f33e3e755dcb4dfce1c1d465",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "h2o-lightning-nemotron:4b": 1934
+    },
+    "output_counter_counts": {
+      "1": 1934
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": "Owner setup described as RTX2060-class6GB; API attests CUDA/VRAM, not the exact physical GPU product.",
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-25": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started_at": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "kev4b": {
+    "configuration": "Kev 4B",
+    "role": "Hosted native",
+    "selected_primary_sha256": "3c14d7f4d52b342465c759b25c6de4cc8990ca0b80de7f5de78e8066667c7196",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "jaredpalmer/kev-4b-20260924": 1934
+    },
+    "output_counter_counts": {
+      "84": 599,
+      "85": 1051,
+      "81": 14,
+      "83": 216,
+      "82": 44,
+      "79": 5,
+      "80": 5
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": null,
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-18": 1136,
+      "2026-10-19": 206,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-18": 1136,
+        "2026-10-19": 206
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "transport.started": 592,
+      "record.started": 1342
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "local_jeb_9b_v2_1_iq4_xs": {
+    "configuration": "Jebadiah 9B v2.1",
+    "role": "Local native",
+    "selected_primary_sha256": "b198e98fb8901bbab537593c2b4b75a84262c85cd46dda65b656e40a36474bb0",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "jeb:9b-v2.1-iq4_xs": 1699,
+      "unreported in selected primary": 235
+    },
+    "output_counter_counts": {
+      "0": 1699,
+      "unreported": 235
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": "Owner setup described as RTX2060-class6GB; API attests CUDA/VRAM, not the exact physical GPU product.",
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-25": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-25": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started_at": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  },
+  "local_dexy9b_nf4": {
+    "configuration": "Dexy 9B NF4",
+    "role": "Local native",
+    "selected_primary_sha256": "22507005d0f56fea6af8c9983609c842ee6362319aec2929d188fa21c97e79ed",
+    "source_origin_counts": {
+      "new_run": 592,
+      "retained_baseline": 1342
+    },
+    "returned_model_counts": {
+      "dexy:9b-nf4": 1782,
+      "unreported in selected primary": 152
+    },
+    "output_counter_counts": {
+      "1": 1782,
+      "unreported": 152
+    },
+    "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+    "timing_limit": "Pooled retained and new primary sessions; routes, concurrency and collection dates may differ. No simultaneous-hardware comparison is implied.",
+    "local_hardware": "Owner setup described as RTX2060-class6GB; API attests CUDA/VRAM, not the exact physical GPU product.",
+    "cost": "Full1,934-call monetary cost not consolidated; local electricity/hardware unmeasured. Historical tariffs are not scaled into a v2 bank charge.",
+    "collection_timezone": "America/Toronto",
+    "collection_dates_toronto": {
+      "2026-10-31": 1342,
+      "2026-11-01": 592
+    },
+    "collection_dates_by_component": {
+      "logical192": {
+        "2026-11-01": 192
+      },
+      "practical400": {
+        "2026-11-01": 400
+      },
+      "original1342": {
+        "2026-10-31": 1342
+      }
+    },
+    "collection_dates_by_origin": {
+      "new_run": {
+        "2026-11-01": 592
+      },
+      "retained_baseline": {
+        "2026-10-31": 1342
+      }
+    },
+    "collection_timestamp_basis_counts": {
+      "record.started_at": 1934
+    },
+    "collection_date_limit": "Client recorded start/completion or dispatch date where available. Legacy native rows without timestamps retain the previously published calendar session date only; no UTC time is invented."
+  }
+}

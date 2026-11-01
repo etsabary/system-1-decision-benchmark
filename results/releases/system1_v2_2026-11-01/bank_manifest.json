@@ -1,0 +1,36 @@
+{
+  "version": "system-1-decision-v2",
+  "questions": 1934,
+  "categories": 41,
+  "components": {
+    "original1342": 1342,
+    "logical192": 192,
+    "practical400": 400
+  },
+  "expanded_existing_categories": {
+    "F26": 32,
+    "F27": 32,
+    "F28": 32,
+    "F29": 32,
+    "F30": 32,
+    "F31": 32
+  },
+  "new_practical_categories": {
+    "P01": 40,
+    "P02": 40,
+    "P03": 40,
+    "P04": 40,
+    "P05": 40,
+    "P06": 40,
+    "P07": 40,
+    "P08": 40,
+    "P09": 40,
+    "P10": 40
+  },
+  "native_jsonl_sha256": "a3c54aa690695464c77dca26d0ce6e2342f53e263c9439e2f80fa19021064d2f",
+  "metadata_sha256": "a3b9bc58a152f6cc2133bd8957da48f99ec021d9472f5ebfd9321b3db89045c2",
+  "baseline_native_inputs_unchanged": 1342,
+  "scoring_key_public": false,
+  "exact_input": "Use each native_input verbatim; CSV/TXT are readable views.206legacy packets retain their original envelopes.",
+  "diagnostics": "120companion diagnostics are separate and not included in the core or displayed scores."
+}

@@ -1,21 +1,14 @@
 # Results and evidence
 
-[Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [Repository overview](../README.md)
+## Current: System 1 Decision Benchmark v2
 
-## Current comparison · October 31, 2026
+[26 qualifying configurations on 1,934 questions and 41 categories](releases/system1_v2_2026-11-01/report.html), using an exact 62% overall cutoff. 20 hosted decision models, 3 locals and 3 reasoning-disabled LLM references.
 
-[56 qualifying configurations on the same 1,342 questions](releases/local_updates_2026-10-31/report.html): 31 hosted decisions, 20 immediate local configurations, one adaptive local model and four no-reasoning LLM references. Main views require at least 50% overall. All 66 complete records retain their measured values.
-
-- [Main aggregate statistics](releases/local_updates_2026-10-31/statistics.json) and [all complete records](releases/local_updates_2026-10-31/all_statistics.json)
-- [Model statistics CSV](releases/local_updates_2026-10-31/model_statistics.csv)
-- [31 named category scores](releases/local_updates_2026-10-31/category_scores.csv)
-- [New local timing evidence](releases/local_updates_2026-10-31/local_timing_evidence.csv) and [stopped screens](releases/local_updates_2026-10-31/screened_routes.json)
-- [Below-50% route and format outcomes](releases/local_updates_2026-10-31/below_50.md), with sample sizes and failure reasons
-- [Clairic extraction compatibility](releases/local_updates_2026-10-31/clairic.html), outside the native decision ranking
-- [Question bank](releases/consolidated_2026-10-19/questions_1342.csv)
+- [Main aggregates](releases/system1_v2_2026-11-01/statistics.json) and [all 38v2 records](releases/system1_v2_2026-11-01/all_statistics.json)
+- [Main model CSV](releases/system1_v2_2026-11-01/model_statistics.csv), [category CSV](releases/system1_v2_2026-11-01/category_scores.csv) and [profiles](releases/system1_v2_2026-11-01/model_profiles.csv)
+- [Questions](releases/system1_v2_2026-11-01/questions_1934.jsonl), [timing/status evidence](releases/system1_v2_2026-11-01/timing_evidence.csv.gz), [audit](releases/system1_v2_2026-11-01/audit_receipt.json) and [checksums](releases/system1_v2_2026-11-01/manifest.json)
+- [Brief excluded-model and historical-only catalogue](releases/system1_v2_2026-11-01/not_in_main.html)
 
 ## Previous releases
 
-[October 30: 61 configurations](releases/native_additions_2026-10-30/report.html) · [October 29: 60 configurations and adaptive AutoThink](releases/adaptive_additions_2026-10-29/report.html) · [October 28: 56 configurations and Apple M2](releases/local_m2_2026-10-28/report.html) · [October 27: 54 configurations](releases/native_updates_2026-10-27/report.html) · [October 25: 52 configurations](releases/native_additions_2026-10-25/report.html).
-
-All dated evidence remains sealed. Historical results are retained; adding a model does not rerun earlier models or change their measurements. Private answer keys and per-question correctness are not published in the new release.
+[October 31:1,342-question v1 comparison](releases/local_updates_2026-10-31/report.html) · [October 30](releases/native_additions_2026-10-30/report.html) · [October 29](releases/adaptive_additions_2026-10-29/report.html). All dated evidence and original denominators remain unchanged. Historical scores are not ranked against the larger v2 bank.

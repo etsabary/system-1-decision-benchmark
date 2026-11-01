@@ -1,64 +1,35 @@
-# October 28 local M2 additions
+# V2 output compliance and coverage
 
-Liquid d1-2B and d1-Omni-2B each returned 1,342 usable first-attempt decisions with zero reported output tokens. The full comparison contains 56 routes. Image speed screens stopped separately after 20 questions each and do not enter the 200-question ranking.
+All 1,934 first responses remain in each model denominator. Wrong usable decisions are distinguished from input limits, refusals, service/rate limits and other failures.
 
-# Delivered decisions and failures
+| Model | Usable | Wrong usable | Failures |
+| --- | --- | --- | --- |
+| Fastino GLiDE v2.3 BF16 | 1934/1934 | 331 | {} |
+| GPT-6 Sol · no reasoning | 1934/1934 | 337 | {} |
+| D3 Ultra | 1934/1934 | 350 | {} |
+| Mammoth-1 (latest named alias) | 1933/1934 | 373 | {'service/rate limit': 1} |
+| Drex Max | 1926/1934 | 372 | {'service/rate limit': 8} |
+| Nimble v4 Max | 1933/1934 | 388 | {'other provider failure': 1} |
+| Perplexity Decider v1.2 | 1933/1934 | 388 | {'transport': 1} |
+| Turion Jev 31B | 1934/1934 | 389 | {} |
+| kettei-fat | 1934/1934 | 433 | {} |
+| Liquid d1-ultra | 1933/1934 | 434 | {'transport': 1} |
+| Amos 1 Large | 1934/1934 | 445 | {} |
+| Sonnet 5.5 · no thinking | 1934/1934 | 469 | {} |
+| Respan Span-02 (20261015) | 1934/1934 | 509 | {} |
+| Opus 5 · no thinking | 1749/1934 | 332 | {'declared refusal': 185} |
+| Mercury Decide | 1933/1934 | 543 | {'other provider failure': 1} |
+| Liquid d1.1 | 1934/1934 | 547 | {} |
+| Jev 1.14 | 1934/1934 | 563 | {} |
+| Elephant-1 | 1934/1934 | 602 | {} |
+| Celeris 1.1 Decision | 1934/1934 | 613 | {} |
+| Liquid d1 | 1934/1934 | 642 | {} |
+| StartLux Instant 4B Q8 | 1934/1934 | 644 | {} |
+| Cloudflare Clef | 1934/1934 | 700 | {} |
+| Microsoft-Decision-1 | 1934/1934 | 707 | {} |
+| D3 Artemis 9B IQ3_M | 1765/1934 | 542 | {'context/input length': 169} |
+| Cerno 4B v1.2 NF4 | 1783/1934 | 578 | {'context/input length': 151} |
+| Drex v2.0 | 1842/1934 | 639 | {'service/rate limit': 92} |
 
-54 routes retain the 1,342-question first-attempt denominator. The local batch contains 26,820 usable decisions and 20 unsuccessful responses; no scored retries. Partial or blocked routes are documented separately and not ranked.
 
-| Model | Setting | Usable / 1342 | Unsuccessful | First-attempt statuses |
-| --- | --- | --- | --- | --- |
-| Fastino GLiDE | Hosted | 1342/1342 | 0 | ok: 1342 |
-| GPT-6 Sol — no reasoning | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Mammoth-1 | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Drex Max | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Respan Span-02 | Hosted | 1342/1342 | 0 | ok: 1342 |
-| D3 Ultra | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Perplexity Decider v1.2 | Hosted | 1341/1342 | 1 | ok: 1341; provider_failure: 1 |
-| Nimble v4 Max | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Opus 5 — no thinking, JSON-choice | Hosted | 1305/1342 | 37 | ok: 1305; refusal: 37 |
-| d3-turbo | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Liquid d1-ultra | Hosted | 1341/1342 | 1 | ok: 1341; provider_failure: 1 |
-| Amos 1 Large | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Sonnet 5.5 — no thinking, JSON-choice | Hosted | 1342/1342 | 0 | ok: 1342 |
-| kettei-fat | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Liquid d1.1 | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Jev 1.14 | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Jev 1.13 | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Celeris 1.1 Decision | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Mercury Decide | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Elephant-1 | Hosted | 1342/1342 | 0 | ok: 1342 |
-| D3 Flash Artemis 9B | Local RTX 2060 | 1339/1342 | 3 | ok: 1339; http_failure: 3 |
-| Perplexity Flash v1.2 mixed4 | Local RTX 2060 | 1339/1342 | 3 | ok: 1339; http_failure: 3 |
-| Qwen3.8-Max — none, Hyper Charm | Hosted | 1317/1342 | 25 | ok: 1317; transport_failure: 1; http_failure: 24 |
-| KnowLine 4B Gen5.5 | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| Liquid d1 | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Cloudflare Clef | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Perplexity Decider Flash v1.2 | Hosted | 1286/1342 | 56 | ok: 1286; provider_failure: 56 |
-| Microsoft-Decision-1 | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Drex v2.0 | Hosted | 1302/1342 | 40 | ok: 1302; provider_failure: 40 |
-| H2O-Lightning 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| Cloudflare Clef Flash | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Cloudflare Clef Omni | Hosted | 1341/1342 | 1 | ok: 1341; provider_failure: 1 |
-| Jebadiah 9B v2.1 | Local RTX 2060 | 1335/1342 | 7 | ok: 1335; http_failure: 7 |
-| Drex v1.5 | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Fovea 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| H2O Lightning Nemotron 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| Kev 4B | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Jebadiah 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| JevK5 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| Luna 6 Decisions | Hosted | 1300/1342 | 42 | ok: 1300; provider_failure: 42 |
-| Tev1 4B experimental (OpenRouter native adapter) | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Lev 4B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| Credence E4B | Local RTX 2060 | 1339/1342 | 3 | ok: 1339; truncated_or_unverified: 2; http_failure: 1 |
-| Strands Decider 2B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| Snap 2B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| ScaleDown Classify-1 | Hosted | 1342/1342 | 0 | ok: 1342 |
-| Mapika Decider 2B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| Solar Decide Flash | Hosted | 1340/1342 | 2 | ok: 1340; provider_failure: 2 |
-| Sura 2B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| GLiClass | Local RTX 2060 | 1340/1342 | 2 | ok: 1340; truncated_or_unverified: 2 |
-| Von | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| Laya Typed Decisions | Local RTX 2060 | 1340/1342 | 2 | ok: 1340; truncated_or_unverified: 2 |
-| Decima Agent | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
-| CLM 8B | Local RTX 2060 | 1342/1342 | 0 | ok: 1342 |
+[Interactive coverage analysis](https://etsabary.github.io/system-1-decision-benchmark/report.html#coverage) · [All v2 measurements](../results/releases/system1_v2_2026-11-01/all_statistics.json).

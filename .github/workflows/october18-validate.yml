@@ -32,5 +32,6 @@ jobs:
       - run: python3 scripts/validate_october29_decisions.py
       - run: python3 scripts/validate_october30_decisions.py
       - run: python3 scripts/validate_local_updates_2026_10_31.py
+      - run: python3 scripts/validate_system1_v2.py
       - run: python3 scripts/validate_repository_layout.py
       - run: python3 -m unittest discover -s scripts -p 'test_*.py'

@@ -1,17 +1,9 @@
 # Benchmark data
 
-This folder contains the original answer-free inputs, baseline decisions and
-initial measurements. They remain unchanged.
+The current v2 core has **1,934 questions across 41 categories**. Original inputs below remain archived unchanged.
 
-The complete current bank has **1,342 questions**:
+- [Exact native JSONL](../results/releases/system1_v2_2026-11-01/questions_1934.jsonl)
+- [CSV](../results/releases/system1_v2_2026-11-01/questions_1934.csv) and [readable text](../results/releases/system1_v2_2026-11-01/questions_1934.txt)
+- [Item/category metadata](../results/releases/system1_v2_2026-11-01/metadata_core.jsonl) and [bank manifest](../results/releases/system1_v2_2026-11-01/bank_manifest.json)
 
-- [CSV](../results/releases/consolidated_2026-10-19/questions_1342.csv)
-- [Exact native JSONL](../results/releases/consolidated_2026-10-19/questions_1342.jsonl)
-- [Readable text](../results/releases/consolidated_2026-10-19/questions_1342.txt)
-
-Current combined scores, timing and costs are in the
-[results index](../results/README.md). The [documents](../documents/README.md)
-explain the categories and method.
-
-No private answer key, provider credential or individual correctness field is
-added by the folder cleanup.
+The original 1,342 native inputs are preserved exactly. 206 legacy envelopes remain authoritative in JSONL. No scoring key, model choices or per-question correctness is published. [Results](../results/README.md).

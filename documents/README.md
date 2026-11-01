@@ -1,30 +1,11 @@
 # Documents
 
-[Current interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [Repository overview](../README.md)
+- [Current v2 report](https://etsabary.github.io/system-1-decision-benchmark/report.html)
+- [41 categories and scores](FUNCTIONS.md)
+- [V2 design, expansion and model selection](V2_DESIGN.md)
+- [V2 model analysis](../results/releases/system1_v2_2026-11-01/analysis.md)
+- [Reasoning-disabled LLM references](LLM_REFERENCES.md)
+- [Coverage and output compliance](OUTPUT_COMPLIANCE.md)
+- [Other v2 models and historical-only records](../results/releases/system1_v2_2026-11-01/not_in_main.html)
 
-## Current guides
-
-- [Categories, examples and scores](FUNCTIONS.md)
-- [Below-50% route and format outcomes](../results/releases/local_updates_2026-10-31/below_50.md), outside the qualifying main comparison
-- [Image-input capabilities](IMAGE_CAPABILITIES.md)
-- [Output compliance and request failures](OUTPUT_COMPLIANCE.md)
-- [Latest local GPU results and category analysis](../results/releases/local_updates_2026-10-31/analysis.md) and [earlier local setup profiles](LOCAL_GPU_RUNS.md)
-- [No-reasoning LLM references](LLM_REFERENCES.md)
-- [LLM coverage](LLM_EXPANSION.md)
-
-## Earlier analyses and references
-
-- [Decision-model expansion](NATIVE_DECISION_EXPANSION.md) and [design notes](native_expansion_notes.md)
-- [Earlier additions](addition_analysis.md) and [regular-LLM additions](regular_additions_analysis.md)
-- [Original three-model comparison](THREE_MODEL_REFERENCE.md)
-- [1,136-question reference](REFERENCE_1136.md), [categories](REFERENCE_1136_FUNCTIONS.md), [LLM expansion](REFERENCE_1136_LLM_EXPANSION.md) and [output compliance](REFERENCE_1136_OUTPUT_COMPLIANCE.md)
-
-These earlier documents describe their dated cohorts, not the current model ranking.
-
-## Report design notes
-
-[Layout](report_layout.md) · [Sections](report_sections.md) · [Task examples](task_examples.md) · [Output-compliance layout](output_compliance_layout.md)
-
-The folder cleanup updates navigation only. Original document bytes needed by
-dated release seals are preserved as non-executable snapshots under
-[`scripts/legacy_layout/`](../scripts/legacy_layout/).
+Earlier documents retain their dated scopes. [Original three-model reference](THREE_MODEL_REFERENCE.md) · [Local setup history](LOCAL_GPU_RUNS.md) · [Image capabilities](IMAGE_CAPABILITIES.md).

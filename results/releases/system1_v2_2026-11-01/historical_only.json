@@ -1,0 +1,254 @@
+[
+  {
+    "model_id": "jev113",
+    "label": "Jev 1.13",
+    "n": 1342,
+    "correct": 1026,
+    "accuracy": 0.7645305514157973,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "luna_decisions",
+    "label": "Luna 6 Decisions",
+    "n": 1342,
+    "correct": 758,
+    "accuracy": 0.5648286140089419,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "solar_flash",
+    "label": "Solar Decide Flash",
+    "n": 1342,
+    "correct": 538,
+    "accuracy": 0.4008941877794337,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "classify1",
+    "label": "ScaleDown Classify-1",
+    "n": 1342,
+    "correct": 550,
+    "accuracy": 0.4098360655737705,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "tev1_4b_native",
+    "label": "Tev1 4B experimental (OpenRouter native adapter)",
+    "n": 1342,
+    "correct": 751,
+    "accuracy": 0.559612518628912,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "reference_qwen",
+    "label": "Qwen3.8-Max — none, Hyper Charm",
+    "n": 1342,
+    "correct": 967,
+    "accuracy": 0.7205663189269746,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "d3_turbo",
+    "label": "d3-turbo",
+    "n": 1342,
+    "correct": 1106,
+    "accuracy": 0.8241430700447094,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_h2o_lightning_4b",
+    "label": "H2O-Lightning 4B",
+    "n": 1342,
+    "correct": 892,
+    "accuracy": 0.6646795827123696,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_strands_decider_latest",
+    "label": "Strands Decider 2B",
+    "n": 1342,
+    "correct": 710,
+    "accuracy": 0.5290611028315947,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_lev_4b_gguf_q8_0",
+    "label": "Lev 4B",
+    "n": 1342,
+    "correct": 749,
+    "accuracy": 0.5581222056631893,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_credence_e4b",
+    "label": "Credence E4B",
+    "n": 1342,
+    "correct": 741,
+    "accuracy": 0.5521609538002981,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_jeb_4b",
+    "label": "Jebadiah 4B",
+    "n": 1342,
+    "correct": 808,
+    "accuracy": 0.6020864381520119,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_jevk5_latest",
+    "label": "JevK5 4B",
+    "n": 1342,
+    "correct": 780,
+    "accuracy": 0.5812220566318927,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_snap_latest",
+    "label": "Snap 2B",
+    "n": 1342,
+    "correct": 574,
+    "accuracy": 0.4277198211624441,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_sura_2b",
+    "label": "Sura 2B",
+    "n": 1342,
+    "correct": 428,
+    "accuracy": 0.31892697466467956,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_decider_2b_vision",
+    "label": "Mapika Decider 2B",
+    "n": 1342,
+    "correct": 547,
+    "accuracy": 0.4076005961251863,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_clm_8b_gguf_q4_k_m",
+    "label": "CLM 8B",
+    "n": 1342,
+    "correct": 304,
+    "accuracy": 0.22652757078986588,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_decima_agent",
+    "label": "Decima Agent",
+    "n": 1342,
+    "correct": 313,
+    "accuracy": 0.23323397913561847,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_laya_typed_decisions",
+    "label": "Laya Typed Decisions",
+    "n": 1342,
+    "correct": 322,
+    "accuracy": 0.2399403874813711,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_gliclass_latest",
+    "label": "GLiClass",
+    "n": 1342,
+    "correct": 393,
+    "accuracy": 0.29284649776453053,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_von_latest",
+    "label": "Von",
+    "n": 1342,
+    "correct": 331,
+    "accuracy": 0.2466467958271237,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_knowline_4b_gen5_5",
+    "label": "KnowLine 4B Gen5.5",
+    "n": 1342,
+    "correct": 966,
+    "accuracy": 0.7198211624441133,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_m2_d1_2b",
+    "label": "Liquid d1-2B · M2",
+    "n": 1342,
+    "correct": 795,
+    "accuracy": 0.5923994038748137,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_m2_d1_omni_2b",
+    "label": "Liquid d1-Omni-2B · M2",
+    "n": 1342,
+    "correct": 814,
+    "accuracy": 0.6065573770491803,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "baseten_joey1",
+    "label": "Joey-1",
+    "n": 1342,
+    "correct": 773,
+    "accuracy": 0.5760059612518629,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_cox3b_int8",
+    "label": "Cox 3B INT8",
+    "n": 1342,
+    "correct": 754,
+    "accuracy": 0.5618479880774963,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_jue25b",
+    "label": "Jue 2.5B",
+    "n": 1342,
+    "correct": 801,
+    "accuracy": 0.5968703427719821,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  },
+  {
+    "model_id": "local_iota4b_q8",
+    "label": "Iota 4B Q8_0",
+    "n": 1342,
+    "correct": 738,
+    "accuracy": 0.5499254843517138,
+    "reason": "Not evaluated onv2; historical1,342-only result",
+    "source": "../local_updates_2026-10-31/all_statistics.json"
+  }
+]

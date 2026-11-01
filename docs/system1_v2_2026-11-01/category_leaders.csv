@@ -1,0 +1,42 @@
+family_id,family,n,best_correct,best_accuracy,leader_ids,leaders,cohort_mean_accuracy
+F01,Lookup and filtering,43,42,0.9767441860465116,reference_sol;turion_jev31b;reference_sonnet,GPT-6 Sol · no reasoning; Turion Jev 31B; Sonnet 5.5 · no thinking,0.9329159212880143
+F02,Forward conditionals,46,46,1.0,d3_ultra;kettei_fat;jev114,D3 Ultra; kettei-fat; Jev 1.14,0.931438127090301
+F03,Necessary conditions,52,52,1.0,reference_sol,GPT-6 Sol · no reasoning,0.8461538461538463
+F04,Boolean scope,54,53,0.9814814814814815,reference_sol;turion_jev31b,GPT-6 Sol · no reasoning; Turion Jev 31B,0.891025641025641
+F05,Quantifiers and sets,49,47,0.9591836734693877,kettei_fat,kettei-fat,0.9105180533751961
+F06,Comparisons,40,40,1.0,elephant1;local_cerno4b_nf4,Elephant-1; Cerno 4B v1.2 NF4,0.9509615384615385
+F07,Scheduling,76,63,0.8289473684210527,fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,0.6715587044534413
+F08,One-to-one assignments,67,66,0.9850746268656716,reference_opus5,Opus 5 · no thinking,0.8507462686567163
+F09,Exact truth counting,71,53,0.7464788732394366,turion_jev31b,Turion Jev 31B,0.529252437703142
+F10,Truth-teller consistency,74,61,0.8243243243243243,fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,0.6023908523908523
+F11,Sufficiency and inconsistency,41,39,0.9512195121951219,turion_jev31b;reference_opus5,Turion Jev 31B; Opus 5 · no thinking,0.8283302063789868
+F12,Object swaps,52,38,0.7307692307692307,mammoth1,Mammoth-1 (latest named alias),0.5665680473372781
+F13,Sequential procedures,48,33,0.6875,respan02,Respan Span-02 (20261015),0.3004807692307692
+F14,Temporal intervals,42,42,1.0,fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,0.88003663003663
+F15,Spatial tracking,49,45,0.9183673469387755,reference_opus5,Opus 5 · no thinking,0.6954474097331241
+F16,Reference binding,50,42,0.84,respan02,Respan Span-02 (20261015),0.6930769230769231
+F17,Beliefs and perspectives,50,47,0.94,mammoth1;turion_jev31b,Mammoth-1 (latest named alias); Turion Jev 31B,0.8661538461538463
+F18,Causal intervention,50,47,0.94,respan02,Respan Span-02 (20261015),0.7746153846153846
+F19,Exceptions and priorities,58,57,0.9827586206896551,reference_sol;mammoth1;nimble_v4_max;liquid_ultra,GPT-6 Sol · no reasoning; Mammoth-1 (latest named alias); Nimble v4 Max; Liquid d1-ultra,0.9157824933687004
+F20,Planning,43,40,0.9302325581395349,nimble_v4_max;turion_jev31b;local_startlux_instant4b;local_d3_flash_artemis_iq3_m,Nimble v4 Max; Turion Jev 31B; StartLux Instant 4B Q8; D3 Artemis 9B IQ3_M,0.8864042933810375
+F21,Directed reachability,43,42,0.9767441860465116,d3_ultra;drex_max;pplx_decider12;kettei_fat;jev114;drex20,D3 Ultra; Drex Max; Perplexity Decider v1.2; kettei-fat; Jev 1.14; Drex v2.0,0.9463327370304113
+F22,Preference ordering,51,49,0.9607843137254902,nimble_v4_max;reference_sonnet;respan02,Nimble v4 Max; Sonnet 5.5 · no thinking; Respan Span-02 (20261015),0.9193061840120664
+F23,Rule counterexamples,52,52,1.0,fastino_glide_v23_bf16;reference_sol;d3_ultra;mammoth1;drex_max;nimble_v4_max;pplx_decider12;reference_sonnet;reference_opus5,Fastino GLiDE v2.3 BF16; GPT-6 Sol · no reasoning; D3 Ultra; Mammoth-1 (latest named alias); Drex Max; Nimble v4 Max; Perplexity Decider v1.2; Sonnet 5.5 · no thinking; Opus 5 · no thinking,0.9674556213017751
+F24,Authority and stale records,43,43,1.0,kettei_fat,kettei-fat,0.9373881932021466
+F25,Fault diagnosis,50,49,0.98,reference_sol,GPT-6 Sol · no reasoning,0.9130769230769229
+F26,Probabilistic risk,40,32,0.8,fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,0.6278846153846154
+F27,Value of information,40,26,0.65,fastino_glide_v23_bf16;mammoth1;turion_jev31b,Fastino GLiDE v2.3 BF16; Mammoth-1 (latest named alias); Turion Jev 31B,0.55
+F28,Robust decisions without a prior,40,19,0.475,nimble_v4_max,Nimble v4 Max,0.3230769230769231
+F29,Strategic decisions,40,34,0.85,reference_sol,GPT-6 Sol · no reasoning,0.6125
+F30,Concurrent-history consistency,40,30,0.75,reference_sol,GPT-6 Sol · no reasoning,0.5086538461538462
+F31,Information-flow security,40,37,0.925,d3_ultra,D3 Ultra,0.6451923076923076
+P01,Understanding requests and routing,40,39,0.975,kettei_fat,kettei-fat,0.7548076923076923
+P02,Recognizing multiple requested actions,40,40,1.0,reference_sol;d3_ultra;drex_max,GPT-6 Sol · no reasoning; D3 Ultra; Drex Max,0.7423076923076922
+P03,Tracking current conversational intention,40,40,1.0,fastino_glide_v23_bf16;d3_ultra;mammoth1;pplx_decider12;kettei_fat,Fastino GLiDE v2.3 BF16; D3 Ultra; Mammoth-1 (latest named alias); Perplexity Decider v1.2; kettei-fat,0.7394230769230768
+P04,Selecting a tool or requesting clarification,40,24,0.6,elephant1,Elephant-1,0.5125
+P05,Checking authorization and scope,40,32,0.8,reference_opus5,Opus 5 · no thinking,0.5432692307692307
+P06,Making decisions with untrusted content,40,40,1.0,fastino_glide_v23_bf16;reference_sol;d3_ultra;drex_max;pplx_decider12,Fastino GLiDE v2.3 BF16; GPT-6 Sol · no reasoning; D3 Ultra; Drex Max; Perplexity Decider v1.2,0.7567307692307692
+P07,Applying a contextual content policy,40,40,1.0,d3_ultra,D3 Ultra,0.723076923076923
+P08,Extracting and normalizing facts,40,23,0.575,reference_sol,GPT-6 Sol · no reasoning,0.43461538461538457
+P09,Checking claims against supplied evidence,40,32,0.8,fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,0.6028846153846154
+P10,Assigning severity or priority from a rubric,40,31,0.775,fastino_glide_v23_bf16;reference_sol;d3_ultra,Fastino GLiDE v2.3 BF16; GPT-6 Sol · no reasoning; D3 Ultra,0.5971153846153846

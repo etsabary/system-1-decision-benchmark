@@ -5,6 +5,7 @@ import csv,json,math,re
 import publish_local_updates_2026_10_31 as b
 from validate_direct_release import Page
 import build_readable_report as read
+from system1_v2_history import previous as pre_v2
 
 def validate():
  all_s=b.load(b.DEST/'all_statistics.json');s=b.load(b.DEST/'statistics.json');old=b.load(b.OLD/'statistics.json')
@@ -46,7 +47,7 @@ def validate():
  for row in catalogue:
   if row.get('source_public_path'):assert b.digest(b.ROOT/row['source_public_path'])==row['source_sha256']
  for path in [b.DEST/'report.html',b.ROOT/'docs/report.html']:
-  text=path.read_text();page=Page();page.feed(text)
+  text=pre_v2(path).read_text();page=Page();page.feed(text)
   assert page.summary==s['ranked_model_ids'] and len(page.cells)==56*31 and len(page.ids)==len(set(page.ids))
   assert Counter(c['data-model'] for c in page.cells)=={mid:31 for mid in s['models']}
   assert all(x not in text for x in s['excluded_overall_model_ids'])
@@ -63,7 +64,7 @@ def validate():
   assert all(all_s['models'][k]['label'] not in text for k in s['excluded_overall_model_ids'])
  csv_models=list(csv.DictReader((b.DEST/'model_statistics.csv').open()));assert [r['model_id'] for r in csv_models]==s['ranked_model_ids']
  assert len(list(csv.DictReader((b.DEST/'category_scores.csv').open())))==31
- functions=(b.ROOT/'documents/FUNCTIONS.md').read_text();assert 'Cerno 4B' in functions and all(all_s['models'][k]['label'] not in functions for k in s['excluded_overall_model_ids'])
+ functions=pre_v2(b.ROOT/'documents/FUNCTIONS.md').read_text();assert 'Cerno 4B' in functions and all(all_s['models'][k]['label'] not in functions for k in s['excluded_overall_model_ids'])
  manifest=b.load(b.DEST/'manifest.json');assert manifest['main_models']==56 and manifest['all_full_models']==66
  assert manifest['prior_statistics_sha256']==b.digest(b.OLD/'statistics.json')
  for path in b.DEST.iterdir():
