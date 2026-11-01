@@ -1,0 +1,175 @@
+{
+  "pair_specific": [
+    {
+      "model_id": "local_startlux_instant4b",
+      "model": "StartLux v1.1 4B Instant",
+      "full_correct": 1290,
+      "full_n": 1934,
+      "usable": 1934,
+      "accuracy_on_own_usable": 0.6670113753877973,
+      "matched_n": 1934,
+      "model_correct_on_matched": 1290,
+      "instant_correct_on_matched": 1290,
+      "matched_p": null,
+      "interpretation": "Same both-usable inputs for this pair only; different pairs use different subsets. Primary full-bank ranking remains unchanged."
+    },
+    {
+      "model_id": "local_d3_flash_artemis_iq3_m",
+      "model": "D3 Flash Artemis 9B",
+      "full_correct": 1223,
+      "full_n": 1934,
+      "usable": 1765,
+      "accuracy_on_own_usable": 0.6929178470254957,
+      "matched_n": 1765,
+      "model_correct_on_matched": 1223,
+      "instant_correct_on_matched": 1226,
+      "matched_p": 0.907011959814062,
+      "interpretation": "Same both-usable inputs for this pair only; different pairs use different subsets. Primary full-bank ranking remains unchanged."
+    },
+    {
+      "model_id": "local_cerno4b_nf4",
+      "model": "Cerno 4B v1.2 NF4",
+      "full_correct": 1205,
+      "full_n": 1934,
+      "usable": 1783,
+      "accuracy_on_own_usable": 0.6758272574312956,
+      "matched_n": 1783,
+      "model_correct_on_matched": 1205,
+      "instant_correct_on_matched": 1230,
+      "matched_p": 0.18969092553329667,
+      "interpretation": "Same both-usable inputs for this pair only; different pairs use different subsets. Primary full-bank ranking remains unchanged."
+    },
+    {
+      "model_id": "local_pplx_flash12_mixed4",
+      "model": "Perplexity Flash v1.2 mixed4",
+      "full_correct": 1164,
+      "full_n": 1934,
+      "usable": 1767,
+      "accuracy_on_own_usable": 0.6587436332767402,
+      "matched_n": 1767,
+      "model_correct_on_matched": 1164,
+      "instant_correct_on_matched": 1227,
+      "matched_p": 0.0003365003321308686,
+      "interpretation": "Same both-usable inputs for this pair only; different pairs use different subsets. Primary full-bank ranking remains unchanged."
+    },
+    {
+      "model_id": "local_fovea_4b",
+      "model": "Fovea 4B",
+      "full_correct": 1091,
+      "full_n": 1934,
+      "usable": 1934,
+      "accuracy_on_own_usable": 0.5641158221302999,
+      "matched_n": 1934,
+      "model_correct_on_matched": 1091,
+      "instant_correct_on_matched": 1290,
+      "matched_p": 2.3633904725071546e-20,
+      "interpretation": "Same both-usable inputs for this pair only; different pairs use different subsets. Primary full-bank ranking remains unchanged."
+    },
+    {
+      "model_id": "local_h2o_lightning_nemotron_4b",
+      "model": "H2O Lightning Nemotron 4B",
+      "full_correct": 1083,
+      "full_n": 1934,
+      "usable": 1934,
+      "accuracy_on_own_usable": 0.5599793174767321,
+      "matched_n": 1934,
+      "model_correct_on_matched": 1083,
+      "instant_correct_on_matched": 1290,
+      "matched_p": 2.569798469307564e-19,
+      "interpretation": "Same both-usable inputs for this pair only; different pairs use different subsets. Primary full-bank ranking remains unchanged."
+    },
+    {
+      "model_id": "local_jeb_9b_v2_1_iq4_xs",
+      "model": "Jebadiah 9B v2.1",
+      "full_correct": 1023,
+      "full_n": 1934,
+      "usable": 1699,
+      "accuracy_on_own_usable": 0.6021188934667452,
+      "matched_n": 1699,
+      "model_correct_on_matched": 1023,
+      "instant_correct_on_matched": 1187,
+      "matched_p": 2.3381359540704487e-16,
+      "interpretation": "Same both-usable inputs for this pair only; different pairs use different subsets. Primary full-bank ranking remains unchanged."
+    },
+    {
+      "model_id": "local_dexy9b_nf4",
+      "model": "Dexy 9B NF4",
+      "full_correct": 1014,
+      "full_n": 1934,
+      "usable": 1782,
+      "accuracy_on_own_usable": 0.569023569023569,
+      "matched_n": 1782,
+      "model_correct_on_matched": 1014,
+      "instant_correct_on_matched": 1230,
+      "matched_p": 3.329211631891196e-23,
+      "interpretation": "Same both-usable inputs for this pair only; different pairs use different subsets. Primary full-bank ranking remains unchanged."
+    }
+  ],
+  "common_no_context": [
+    {
+      "model_id": "local_startlux_instant4b",
+      "model": "StartLux v1.1 4B Instant",
+      "n": 1699,
+      "correct": 1187,
+      "accuracy": 0.6986462625073573,
+      "full_accuracy": 0.6670113753877973
+    },
+    {
+      "model_id": "local_d3_flash_artemis_iq3_m",
+      "model": "D3 Flash Artemis 9B",
+      "n": 1699,
+      "correct": 1190,
+      "accuracy": 0.7004120070629782,
+      "full_accuracy": 0.6323681489141675
+    },
+    {
+      "model_id": "local_cerno4b_nf4",
+      "model": "Cerno 4B v1.2 NF4",
+      "n": 1699,
+      "correct": 1161,
+      "accuracy": 0.683343143025309,
+      "full_accuracy": 0.6230610134436402
+    },
+    {
+      "model_id": "local_pplx_flash12_mixed4",
+      "model": "Perplexity Flash v1.2 mixed4",
+      "n": 1699,
+      "correct": 1137,
+      "accuracy": 0.6692171865803413,
+      "full_accuracy": 0.6018614270941055
+    },
+    {
+      "model_id": "local_fovea_4b",
+      "model": "Fovea 4B",
+      "n": 1699,
+      "correct": 997,
+      "accuracy": 0.5868157739846969,
+      "full_accuracy": 0.5641158221302999
+    },
+    {
+      "model_id": "local_h2o_lightning_nemotron_4b",
+      "model": "H2O Lightning Nemotron 4B",
+      "n": 1699,
+      "correct": 982,
+      "accuracy": 0.5779870512065921,
+      "full_accuracy": 0.5599793174767321
+    },
+    {
+      "model_id": "local_jeb_9b_v2_1_iq4_xs",
+      "model": "Jebadiah 9B v2.1",
+      "n": 1699,
+      "correct": 1023,
+      "accuracy": 0.6021188934667452,
+      "full_accuracy": 0.5289555325749742
+    },
+    {
+      "model_id": "local_dexy9b_nf4",
+      "model": "Dexy 9B NF4",
+      "n": 1699,
+      "correct": 992,
+      "accuracy": 0.5838728663919953,
+      "full_accuracy": 0.5243019648397105
+    }
+  ],
+  "interpretation": "Pair-specific both-usable inputs differ by pair. The common subset removes any explicit context rejection across all eight tested locals. Primary full-bank strict accuracy remains unchanged."
+}

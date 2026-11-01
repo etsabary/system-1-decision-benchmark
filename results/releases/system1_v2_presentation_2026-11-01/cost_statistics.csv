@@ -1,0 +1,39 @@
+model_id,label,n,evidence_kind,reported_count,tariff_estimate_count,free_access_tariff_count,unknown_count,local_unmeasured_count,known_evidence_count,reported_subtotal_usd,estimate_only_subtotal_usd,known_subtotal_usd,known_usd_per_1000
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,1934,captured_tariff_or_mixed,0,1934,0,0,0,1934,,0.03772244,0.03772244,0.01950488107549120992761116856
+reference_sol,GPT-6 Sol · no reasoning,1934,reported,1934,0,0,0,0,1934,1.8969510,,1.8969510,0.9808433298862461220268872802
+d3_ultra,D3 Ultra,1934,free_access_tariff,0,0,1934,0,0,1934,,0,0,0
+mammoth1,Mammoth-1 (latest named alias),1934,captured_tariff_or_mixed,0,591,1342,1,0,1933,,0.0528650,0.0528650,0.02733453981385729058945191313
+drex_max,Drex Max,1934,reported_partial,1926,0,0,8,0,1926,0.05947308,,0.05947308,0.03075133402275077559462254395
+nimble_v4_max,Nimble v4 Max,1934,captured_tariff_or_mixed,0,1933,0,1,0,1933,,0.05783746,0.05783746,0.02990561530506721820062047570
+pplx_decider12,Perplexity Decider v1.2,1934,reported_partial,1933,0,0,1,0,1933,0.01986016,,0.01986016,0.01026895553257497414684591520
+turion_jev31b,Turion Jev 31B,1934,unknown,0,0,0,1934,0,0,,,,
+kettei_fat,kettei-fat,1934,reported,1934,0,0,0,0,1934,0.04930806,,0.04930806,0.02549537745604963805584281282
+liquid_ultra,Liquid d1-ultra,1934,reported_partial,1933,0,0,1,0,1933,0.036412194,,0.036412194,0.01882740124095139607032057911
+amos_large,Amos 1 Large,1934,free_access_tariff,0,0,1934,0,0,1934,,0.0,0.0,0.0
+reference_sonnet,Sonnet 5.5 · no thinking,1934,reported,1934,0,0,0,0,1934,3.725226,,3.725226,1.926176835573940020682523268
+respan02,Respan Span-02 (20261015),1934,reported,1934,0,0,0,0,1934,0.01028854,,0.01028854,0.005319824198552223371251292658
+reference_opus5,Opus 5 · no thinking,1934,reported_partial,1751,0,0,183,0,1751,7.998020,,7.998020,4.135480868665977249224405377
+mercury_decide,Mercury Decide,1934,reported_partial,1933,0,0,1,0,1933,0.01991530,,0.01991530,0.01029746639089968976215098242
+liquid11_decision,Liquid d1.1,1934,reported,1934,0,0,0,0,1934,0.01734638,,0.01734638,0.008969172699069286452947259566
+jev114,Jev 1.14,1934,reported,1934,0,0,0,0,1934,0.060786390,,0.060786390,0.03143039813857290589451913133
+elephant1,Elephant-1,1934,captured_tariff_or_mixed,0,592,1342,0,0,1934,,0.018556020,0.018556020,0.009594632885211995863495346432
+celeris11_decision,Celeris 1.1 Decision,1934,captured_tariff_or_mixed,0,1934,0,0,0,1934,,0.04073156,0.04073156,0.02106078593588417786970010341
+liquid_d1,Liquid d1,1934,reported,1934,0,0,0,0,1934,0.01734638,,0.01734638,0.008969172699069286452947259566
+local_startlux_instant4b,StartLux Instant 4B Q8,1934,local_unmeasured,0,0,0,0,1934,0,,,,
+local_startlux_autothink4b,StartLux v1.1 4B Autothink Q8_0 · local adaptive,1934,local_unmeasured,0,0,0,0,1934,0,,,,
+clef,Cloudflare Clef,1934,reported,1934,0,0,0,0,1934,0.158780382,,0.158780382,0.08209947362978283350568769390
+microsoft_decision,Microsoft-Decision-1,1934,reported,1934,0,0,0,0,1934,0.037638468,,0.037638468,0.01946146225439503619441571872
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,1934,local_unmeasured,0,0,0,0,1934,0,,,,
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,1934,local_unmeasured,0,0,0,0,1934,0,,,,
+drex20,Drex v2.0,1934,reported_partial,1842,0,0,92,0,1842,0.04842870,,0.04842870,0.02504069286452947259565667011
+pplx_flash12,Perplexity Decider Flash v1.2,1934,reported_partial,1878,0,0,56,0,1878,0.00972970,,0.00972970,0.005030868665977249224405377456
+local_pplx_flash12_mixed4,Perplexity Flash 4B mixed4,1934,local_unmeasured,0,0,0,0,1934,0,,,,
+drex15,Drex v1.5,1934,reported,1934,0,0,0,0,1934,0.03424148,,0.03424148,0.01770500517063081695966907963
+clef_flash,Cloudflare Clef Flash,1934,reported_partial,1933,0,0,1,0,1933,0.033166227,,0.033166227,0.01714903154084798345398138573
+clef_omni,Cloudflare Clef Omni,1934,reported_partial,1933,0,0,1,0,1933,0.16369050,,0.16369050,0.08463831437435367114788004137
+trio_spark14,Trio-Spark v1.4,1934,reported_partial,1772,0,0,162,0,1772,0.025050018,,0.025050018,0.01295243950361944157187176836
+local_fovea_4b,Fovea 4B,1934,local_unmeasured,0,0,0,0,1934,0,,,,
+local_h2o_lightning_nemotron_4b,H2O Nemotron 4B NF4,1934,local_unmeasured,0,0,0,0,1934,0,,,,
+kev4b,Kev 4B,1934,reported,1934,0,0,0,0,1934,0.035953554,,0.035953554,0.01859025542916235780765253361
+local_jeb_9b_v2_1_iq4_xs,Jebadiah 9B v2.1 IQ4_XS,1934,local_unmeasured,0,0,0,0,1934,0,,,,
+local_dexy9b_nf4,Dexy 9B NF4,1934,local_unmeasured,0,0,0,0,1934,0,,,,

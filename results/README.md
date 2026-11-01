@@ -2,13 +2,16 @@
 
 ## Current: System 1 Decision Benchmark v2
 
-[26 qualifying configurations on 1,934 questions and 41 categories](releases/system1_v2_2026-11-01/report.html), using an exact 62% overall cutoff. 20 hosted decision models, 3 locals and 3 reasoning-disabled LLM references.
+[26 qualifying configurations on 1,934 questions and 41 categories](releases/system1_v2_presentation_2026-11-01/report.html), using an exact 62% overall cutoff. 20 hosted decision models, 3 locals and 3 reasoning-disabled LLM references.
 
-- [Main aggregates](releases/system1_v2_2026-11-01/statistics.json) and [all 38v2 records](releases/system1_v2_2026-11-01/all_statistics.json)
-- [Main model CSV](releases/system1_v2_2026-11-01/model_statistics.csv), [category CSV](releases/system1_v2_2026-11-01/category_scores.csv) and [profiles](releases/system1_v2_2026-11-01/model_profiles.csv)
-- [Questions](releases/system1_v2_2026-11-01/questions_1934.jsonl), [timing/status evidence](releases/system1_v2_2026-11-01/timing_evidence.csv.gz), [audit](releases/system1_v2_2026-11-01/audit_receipt.json) and [checksums](releases/system1_v2_2026-11-01/manifest.json)
-- [Brief excluded-model and historical-only catalogue](releases/system1_v2_2026-11-01/not_in_main.html)
+- [Main aggregates](releases/system1_v2_presentation_2026-11-01/statistics.json) and [all 38v2 records](releases/system1_v2_presentation_2026-11-01/all_statistics.json)
+- [Main model CSV](releases/system1_v2_presentation_2026-11-01/model_statistics.csv), [category CSV](releases/system1_v2_presentation_2026-11-01/category_scores.csv) and [profiles](releases/system1_v2_presentation_2026-11-01/model_profiles.csv)
+- [Questions](releases/system1_v2_presentation_2026-11-01/questions_1934.jsonl), [timing/status evidence](releases/system1_v2_presentation_2026-11-01/timing_evidence.csv.gz), [audit](releases/system1_v2_presentation_2026-11-01/audit_receipt.json) and [checksums](releases/system1_v2_presentation_2026-11-01/manifest.json)
+- [Brief excluded-model and historical-only catalogue](releases/system1_v2_presentation_2026-11-01/not_in_main.html)
 
 ## Previous releases
 
 [October 31:1,342-question v1 comparison](releases/local_updates_2026-10-31/report.html) · [October 30](releases/native_additions_2026-10-30/report.html) · [October 29](releases/adaptive_additions_2026-10-29/report.html). All dated evidence and original denominators remain unchanged. Historical scores are not ranked against the larger v2 bank.
+
+
+[Cost evidence](../documents/COST_METHOD.md) · [Visual guide](../documents/VISUAL_GUIDE.md).

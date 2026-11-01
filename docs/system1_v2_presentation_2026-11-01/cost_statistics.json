@@ -1,0 +1,1272 @@
+{
+  "models": {
+    "fastino_glide_v23_bf16": {
+      "model_id": "fastino_glide_v23_bf16",
+      "label": "Fastino GLiDE v2.3 BF16",
+      "n": 1934,
+      "evidence_kind": "captured_tariff_or_mixed",
+      "reported_count": 0,
+      "tariff_estimate_count": 1934,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": "0.03772244",
+      "known_subtotal_usd": "0.03772244",
+      "known_usd_per_1000": "0.01950488107549120992761116856",
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "usage_times_published_tariff": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "tariff_estimate": 1342
+        },
+        "logical192": {
+          "tariff_estimate": 192
+        },
+        "practical400": {
+          "tariff_estimate": 400
+        }
+      }
+    },
+    "reference_sol": {
+      "model_id": "reference_sol",
+      "label": "GPT-6 Sol · no reasoning",
+      "n": 1934,
+      "evidence_kind": "reported",
+      "reported_count": 1934,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": "1.8969510",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "1.8969510",
+      "known_usd_per_1000": "0.9808433298862461220268872802",
+      "receipt_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "api_reported": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "d3_ultra": {
+      "model_id": "d3_ultra",
+      "label": "D3 Ultra",
+      "n": 1934,
+      "evidence_kind": "free_access_tariff",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 1934,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": "0",
+      "known_subtotal_usd": "0",
+      "known_usd_per_1000": "0",
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "public_free_endpoint_not_receipt": 592,
+        "public_free_endpoint_not_api_reported": 1342
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "free_access_tariff": 1342
+        },
+        "logical192": {
+          "free_access_tariff": 192
+        },
+        "practical400": {
+          "free_access_tariff": 400
+        }
+      }
+    },
+    "mammoth1": {
+      "model_id": "mammoth1",
+      "label": "Mammoth-1 (latest named alias)",
+      "n": 1934,
+      "evidence_kind": "captured_tariff_or_mixed",
+      "reported_count": 0,
+      "tariff_estimate_count": 591,
+      "free_access_tariff_count": 1342,
+      "unknown_count": 1,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1933,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": "0.0528650",
+      "known_subtotal_usd": "0.0528650",
+      "known_usd_per_1000": "0.02733453981385729058945191313",
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.999482936918304,
+      "basis_counts": {
+        "usage_times_captured_current_catalog_tariff": 591,
+        "unreported": 1,
+        "captured_promotional_zero_tariff_not_receipt": 1342
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "free_access_tariff": 1342
+        },
+        "logical192": {
+          "tariff_estimate": 192
+        },
+        "practical400": {
+          "tariff_estimate": 399,
+          "unknown": 1
+        }
+      }
+    },
+    "drex_max": {
+      "model_id": "drex_max",
+      "label": "Drex Max",
+      "n": 1934,
+      "evidence_kind": "reported_partial",
+      "reported_count": 1926,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 8,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1926,
+      "reported_subtotal_usd": "0.05947308",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.05947308",
+      "known_usd_per_1000": "0.03075133402275077559462254395",
+      "receipt_coverage": 0.9958634953464323,
+      "evidence_coverage": 0.9958634953464323,
+      "basis_counts": {
+        "api_reported": 1805,
+        "unreported": 7,
+        "api_reported_usd": 121,
+        "no_monetary_charge_or_supported_tariff": 1
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 187,
+          "unknown": 5
+        },
+        "practical400": {
+          "reported": 397,
+          "unknown": 3
+        }
+      }
+    },
+    "nimble_v4_max": {
+      "model_id": "nimble_v4_max",
+      "label": "Nimble v4 Max",
+      "n": 1934,
+      "evidence_kind": "captured_tariff_or_mixed",
+      "reported_count": 0,
+      "tariff_estimate_count": 1933,
+      "free_access_tariff_count": 0,
+      "unknown_count": 1,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1933,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": "0.05783746",
+      "known_subtotal_usd": "0.05783746",
+      "known_usd_per_1000": "0.02990561530506721820062047570",
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.999482936918304,
+      "basis_counts": {
+        "usage_times_captured_tariff_not_receipt": 591,
+        "unreported": 1,
+        "usage_times_published_tariff": 1134,
+        "usage_times_current_published_tariff": 2,
+        "usage_times_captured_tariff": 206
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "tariff_estimate": 1342
+        },
+        "logical192": {
+          "tariff_estimate": 192
+        },
+        "practical400": {
+          "tariff_estimate": 399,
+          "unknown": 1
+        }
+      }
+    },
+    "pplx_decider12": {
+      "model_id": "pplx_decider12",
+      "label": "Perplexity Decider v1.2",
+      "n": 1934,
+      "evidence_kind": "reported_partial",
+      "reported_count": 1933,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 1,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1933,
+      "reported_subtotal_usd": "0.01986016",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.01986016",
+      "known_usd_per_1000": "0.01026895553257497414684591520",
+      "receipt_coverage": 0.999482936918304,
+      "evidence_coverage": 0.999482936918304,
+      "basis_counts": {
+        "api_reported": 1933,
+        "unreported": 1
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1341,
+          "unknown": 1
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "turion_jev31b": {
+      "model_id": "turion_jev31b",
+      "label": "Turion Jev 31B",
+      "n": 1934,
+      "evidence_kind": "unknown",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 1934,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": null,
+      "known_usd_per_1000": null,
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.0,
+      "basis_counts": {
+        "unreported": 592,
+        "no_monetary_charge_or_supported_tariff": 1342
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "unknown": 1342
+        },
+        "logical192": {
+          "unknown": 192
+        },
+        "practical400": {
+          "unknown": 400
+        }
+      }
+    },
+    "kettei_fat": {
+      "model_id": "kettei_fat",
+      "label": "kettei-fat",
+      "n": 1934,
+      "evidence_kind": "reported",
+      "reported_count": 1934,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": "0.04930806",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.04930806",
+      "known_usd_per_1000": "0.02549537745604963805584281282",
+      "receipt_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "api_reported_charge": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "liquid_ultra": {
+      "model_id": "liquid_ultra",
+      "label": "Liquid d1-ultra",
+      "n": 1934,
+      "evidence_kind": "reported_partial",
+      "reported_count": 1933,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 1,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1933,
+      "reported_subtotal_usd": "0.036412194",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.036412194",
+      "known_usd_per_1000": "0.01882740124095139607032057911",
+      "receipt_coverage": 0.999482936918304,
+      "evidence_coverage": 0.999482936918304,
+      "basis_counts": {
+        "api_reported": 1933,
+        "unreported": 1
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1341,
+          "unknown": 1
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "amos_large": {
+      "model_id": "amos_large",
+      "label": "Amos 1 Large",
+      "n": 1934,
+      "evidence_kind": "free_access_tariff",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 1934,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": "0.0",
+      "known_subtotal_usd": "0.0",
+      "known_usd_per_1000": "0.0",
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "public_free_endpoint_not_api_reported": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "free_access_tariff": 1342
+        },
+        "logical192": {
+          "free_access_tariff": 192
+        },
+        "practical400": {
+          "free_access_tariff": 400
+        }
+      }
+    },
+    "reference_sonnet": {
+      "model_id": "reference_sonnet",
+      "label": "Sonnet 5.5 · no thinking",
+      "n": 1934,
+      "evidence_kind": "reported",
+      "reported_count": 1934,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": "3.725226",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "3.725226",
+      "known_usd_per_1000": "1.926176835573940020682523268",
+      "receipt_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "api_reported": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "respan02": {
+      "model_id": "respan02",
+      "label": "Respan Span-02 (20261015)",
+      "n": 1934,
+      "evidence_kind": "reported",
+      "reported_count": 1934,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": "0.01028854",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.01028854",
+      "known_usd_per_1000": "0.005319824198552223371251292658",
+      "receipt_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "api_reported": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "reference_opus5": {
+      "model_id": "reference_opus5",
+      "label": "Opus 5 · no thinking",
+      "n": 1934,
+      "evidence_kind": "reported_partial",
+      "reported_count": 1751,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 183,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1751,
+      "reported_subtotal_usd": "7.998020",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "7.998020",
+      "known_usd_per_1000": "4.135480868665977249224405377",
+      "receipt_coverage": 0.905377456049638,
+      "evidence_coverage": 0.905377456049638,
+      "basis_counts": {
+        "api_reported": 1751,
+        "unreported": 183
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1307,
+          "unknown": 35
+        },
+        "logical192": {
+          "reported": 120,
+          "unknown": 72
+        },
+        "practical400": {
+          "reported": 324,
+          "unknown": 76
+        }
+      }
+    },
+    "mercury_decide": {
+      "model_id": "mercury_decide",
+      "label": "Mercury Decide",
+      "n": 1934,
+      "evidence_kind": "reported_partial",
+      "reported_count": 1933,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 1,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1933,
+      "reported_subtotal_usd": "0.01991530",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.01991530",
+      "known_usd_per_1000": "0.01029746639089968976215098242",
+      "receipt_coverage": 0.999482936918304,
+      "evidence_coverage": 0.999482936918304,
+      "basis_counts": {
+        "api_reported": 1933,
+        "unreported": 1
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 399,
+          "unknown": 1
+        }
+      }
+    },
+    "liquid11_decision": {
+      "model_id": "liquid11_decision",
+      "label": "Liquid d1.1",
+      "n": 1934,
+      "evidence_kind": "reported",
+      "reported_count": 1934,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": "0.01734638",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.01734638",
+      "known_usd_per_1000": "0.008969172699069286452947259566",
+      "receipt_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "api_reported": 592,
+        "api_reported_charge": 1342
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "jev114": {
+      "model_id": "jev114",
+      "label": "Jev 1.14",
+      "n": 1934,
+      "evidence_kind": "reported",
+      "reported_count": 1934,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": "0.060786390",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.060786390",
+      "known_usd_per_1000": "0.03143039813857290589451913133",
+      "receipt_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "api_reported_usd": 1726,
+        "api_reported": 208
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "elephant1": {
+      "model_id": "elephant1",
+      "label": "Elephant-1",
+      "n": 1934,
+      "evidence_kind": "captured_tariff_or_mixed",
+      "reported_count": 0,
+      "tariff_estimate_count": 592,
+      "free_access_tariff_count": 1342,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": "0.018556020",
+      "known_subtotal_usd": "0.018556020",
+      "known_usd_per_1000": "0.009594632885211995863495346432",
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "reported_usage_times_captured_tariff_not_receipt": 592,
+        "captured_promotional_zero_tariff_not_receipt": 1342
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "free_access_tariff": 1342
+        },
+        "logical192": {
+          "tariff_estimate": 192
+        },
+        "practical400": {
+          "tariff_estimate": 400
+        }
+      }
+    },
+    "celeris11_decision": {
+      "model_id": "celeris11_decision",
+      "label": "Celeris 1.1 Decision",
+      "n": 1934,
+      "evidence_kind": "captured_tariff_or_mixed",
+      "reported_count": 0,
+      "tariff_estimate_count": 1934,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": "0.04073156",
+      "known_subtotal_usd": "0.04073156",
+      "known_usd_per_1000": "0.02106078593588417786970010341",
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "reported_usage_times_captured_tariff_not_receipt": 592,
+        "usage_times_captured_celeris_004_per_million": 1342
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "tariff_estimate": 1342
+        },
+        "logical192": {
+          "tariff_estimate": 192
+        },
+        "practical400": {
+          "tariff_estimate": 400
+        }
+      }
+    },
+    "liquid_d1": {
+      "model_id": "liquid_d1",
+      "label": "Liquid d1",
+      "n": 1934,
+      "evidence_kind": "reported",
+      "reported_count": 1934,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": "0.01734638",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.01734638",
+      "known_usd_per_1000": "0.008969172699069286452947259566",
+      "receipt_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "api_reported": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "local_startlux_instant4b": {
+      "model_id": "local_startlux_instant4b",
+      "label": "StartLux Instant 4B Q8",
+      "n": 1934,
+      "evidence_kind": "local_unmeasured",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 1934,
+      "known_evidence_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": null,
+      "known_usd_per_1000": null,
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.0,
+      "basis_counts": {
+        "local_hardware_electricity_unmeasured": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "local_unmeasured": 1342
+        },
+        "logical192": {
+          "local_unmeasured": 192
+        },
+        "practical400": {
+          "local_unmeasured": 400
+        }
+      }
+    },
+    "local_startlux_autothink4b": {
+      "model_id": "local_startlux_autothink4b",
+      "label": "StartLux v1.1 4B Autothink Q8_0 · local adaptive",
+      "n": 1934,
+      "evidence_kind": "local_unmeasured",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 1934,
+      "known_evidence_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": null,
+      "known_usd_per_1000": null,
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.0,
+      "basis_counts": {
+        "local_hardware_electricity_unmeasured": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "local_unmeasured": 1342
+        },
+        "logical192": {
+          "local_unmeasured": 192
+        },
+        "practical400": {
+          "local_unmeasured": 400
+        }
+      }
+    },
+    "clef": {
+      "model_id": "clef",
+      "label": "Cloudflare Clef",
+      "n": 1934,
+      "evidence_kind": "reported",
+      "reported_count": 1934,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": "0.158780382",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.158780382",
+      "known_usd_per_1000": "0.08209947362978283350568769390",
+      "receipt_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "api_reported": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "microsoft_decision": {
+      "model_id": "microsoft_decision",
+      "label": "Microsoft-Decision-1",
+      "n": 1934,
+      "evidence_kind": "reported",
+      "reported_count": 1934,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": "0.037638468",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.037638468",
+      "known_usd_per_1000": "0.01946146225439503619441571872",
+      "receipt_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "api_reported": 1630,
+        "api_reported_usd": 304
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "local_d3_flash_artemis_iq3_m": {
+      "model_id": "local_d3_flash_artemis_iq3_m",
+      "label": "D3 Artemis 9B IQ3_M",
+      "n": 1934,
+      "evidence_kind": "local_unmeasured",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 1934,
+      "known_evidence_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": null,
+      "known_usd_per_1000": null,
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.0,
+      "basis_counts": {
+        "local_hardware_electricity_unmeasured": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "local_unmeasured": 1342
+        },
+        "logical192": {
+          "local_unmeasured": 192
+        },
+        "practical400": {
+          "local_unmeasured": 400
+        }
+      }
+    },
+    "local_cerno4b_nf4": {
+      "model_id": "local_cerno4b_nf4",
+      "label": "Cerno 4B v1.2 NF4",
+      "n": 1934,
+      "evidence_kind": "local_unmeasured",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 1934,
+      "known_evidence_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": null,
+      "known_usd_per_1000": null,
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.0,
+      "basis_counts": {
+        "local_hardware_electricity_unmeasured": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "local_unmeasured": 1342
+        },
+        "logical192": {
+          "local_unmeasured": 192
+        },
+        "practical400": {
+          "local_unmeasured": 400
+        }
+      }
+    },
+    "drex20": {
+      "model_id": "drex20",
+      "label": "Drex v2.0",
+      "n": 1934,
+      "evidence_kind": "reported_partial",
+      "reported_count": 1842,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 92,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1842,
+      "reported_subtotal_usd": "0.04842870",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.04842870",
+      "known_usd_per_1000": "0.02504069286452947259565667011",
+      "receipt_coverage": 0.9524301964839711,
+      "evidence_coverage": 0.9524301964839711,
+      "basis_counts": {
+        "api_reported": 1842,
+        "unreported": 92
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1302,
+          "unknown": 40
+        },
+        "logical192": {
+          "reported": 177,
+          "unknown": 15
+        },
+        "practical400": {
+          "reported": 363,
+          "unknown": 37
+        }
+      }
+    },
+    "pplx_flash12": {
+      "model_id": "pplx_flash12",
+      "label": "Perplexity Decider Flash v1.2",
+      "n": 1934,
+      "evidence_kind": "reported_partial",
+      "reported_count": 1878,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 56,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1878,
+      "reported_subtotal_usd": "0.00972970",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.00972970",
+      "known_usd_per_1000": "0.005030868665977249224405377456",
+      "receipt_coverage": 0.9710444674250258,
+      "evidence_coverage": 0.9710444674250258,
+      "basis_counts": {
+        "api_reported": 1878,
+        "unreported": 56
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1286,
+          "unknown": 56
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "local_pplx_flash12_mixed4": {
+      "model_id": "local_pplx_flash12_mixed4",
+      "label": "Perplexity Flash 4B mixed4",
+      "n": 1934,
+      "evidence_kind": "local_unmeasured",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 1934,
+      "known_evidence_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": null,
+      "known_usd_per_1000": null,
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.0,
+      "basis_counts": {
+        "local_hardware_electricity_unmeasured": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "local_unmeasured": 1342
+        },
+        "logical192": {
+          "local_unmeasured": 192
+        },
+        "practical400": {
+          "local_unmeasured": 400
+        }
+      }
+    },
+    "drex15": {
+      "model_id": "drex15",
+      "label": "Drex v1.5",
+      "n": 1934,
+      "evidence_kind": "reported",
+      "reported_count": 1934,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": "0.03424148",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.03424148",
+      "known_usd_per_1000": "0.01770500517063081695966907963",
+      "receipt_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "api_reported": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "clef_flash": {
+      "model_id": "clef_flash",
+      "label": "Cloudflare Clef Flash",
+      "n": 1934,
+      "evidence_kind": "reported_partial",
+      "reported_count": 1933,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 1,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1933,
+      "reported_subtotal_usd": "0.033166227",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.033166227",
+      "known_usd_per_1000": "0.01714903154084798345398138573",
+      "receipt_coverage": 0.999482936918304,
+      "evidence_coverage": 0.999482936918304,
+      "basis_counts": {
+        "api_reported": 1933,
+        "unreported": 1
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 191,
+          "unknown": 1
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "clef_omni": {
+      "model_id": "clef_omni",
+      "label": "Cloudflare Clef Omni",
+      "n": 1934,
+      "evidence_kind": "reported_partial",
+      "reported_count": 1933,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 1,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1933,
+      "reported_subtotal_usd": "0.16369050",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.16369050",
+      "known_usd_per_1000": "0.08463831437435367114788004137",
+      "receipt_coverage": 0.999482936918304,
+      "evidence_coverage": 0.999482936918304,
+      "basis_counts": {
+        "api_reported": 1933,
+        "unreported": 1
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1341,
+          "unknown": 1
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "trio_spark14": {
+      "model_id": "trio_spark14",
+      "label": "Trio-Spark v1.4",
+      "n": 1934,
+      "evidence_kind": "reported_partial",
+      "reported_count": 1772,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 162,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1772,
+      "reported_subtotal_usd": "0.025050018",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.025050018",
+      "known_usd_per_1000": "0.01295243950361944157187176836",
+      "receipt_coverage": 0.9162357807652534,
+      "evidence_coverage": 0.9162357807652534,
+      "basis_counts": {
+        "api_reported_billing": 432,
+        "unreported": 160,
+        "api_billing_nano_usd": 1340,
+        "no_monetary_charge_or_supported_tariff": 2
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1340,
+          "unknown": 2
+        },
+        "logical192": {
+          "reported": 116,
+          "unknown": 76
+        },
+        "practical400": {
+          "reported": 316,
+          "unknown": 84
+        }
+      }
+    },
+    "local_fovea_4b": {
+      "model_id": "local_fovea_4b",
+      "label": "Fovea 4B",
+      "n": 1934,
+      "evidence_kind": "local_unmeasured",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 1934,
+      "known_evidence_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": null,
+      "known_usd_per_1000": null,
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.0,
+      "basis_counts": {
+        "local_hardware_electricity_unmeasured": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "local_unmeasured": 1342
+        },
+        "logical192": {
+          "local_unmeasured": 192
+        },
+        "practical400": {
+          "local_unmeasured": 400
+        }
+      }
+    },
+    "local_h2o_lightning_nemotron_4b": {
+      "model_id": "local_h2o_lightning_nemotron_4b",
+      "label": "H2O Nemotron 4B NF4",
+      "n": 1934,
+      "evidence_kind": "local_unmeasured",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 1934,
+      "known_evidence_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": null,
+      "known_usd_per_1000": null,
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.0,
+      "basis_counts": {
+        "local_hardware_electricity_unmeasured": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "local_unmeasured": 1342
+        },
+        "logical192": {
+          "local_unmeasured": 192
+        },
+        "practical400": {
+          "local_unmeasured": 400
+        }
+      }
+    },
+    "kev4b": {
+      "model_id": "kev4b",
+      "label": "Kev 4B",
+      "n": 1934,
+      "evidence_kind": "reported",
+      "reported_count": 1934,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "known_evidence_count": 1934,
+      "reported_subtotal_usd": "0.035953554",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.035953554",
+      "known_usd_per_1000": "0.01859025542916235780765253361",
+      "receipt_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "basis_counts": {
+        "api_reported": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "reported": 1342
+        },
+        "logical192": {
+          "reported": 192
+        },
+        "practical400": {
+          "reported": 400
+        }
+      }
+    },
+    "local_jeb_9b_v2_1_iq4_xs": {
+      "model_id": "local_jeb_9b_v2_1_iq4_xs",
+      "label": "Jebadiah 9B v2.1 IQ4_XS",
+      "n": 1934,
+      "evidence_kind": "local_unmeasured",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 1934,
+      "known_evidence_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": null,
+      "known_usd_per_1000": null,
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.0,
+      "basis_counts": {
+        "local_hardware_electricity_unmeasured": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "local_unmeasured": 1342
+        },
+        "logical192": {
+          "local_unmeasured": 192
+        },
+        "practical400": {
+          "local_unmeasured": 400
+        }
+      }
+    },
+    "local_dexy9b_nf4": {
+      "model_id": "local_dexy9b_nf4",
+      "label": "Dexy 9B NF4",
+      "n": 1934,
+      "evidence_kind": "local_unmeasured",
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 1934,
+      "known_evidence_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": null,
+      "known_usd_per_1000": null,
+      "receipt_coverage": 0.0,
+      "evidence_coverage": 0.0,
+      "basis_counts": {
+        "local_hardware_electricity_unmeasured": 1934
+      },
+      "component_evidence_counts": {
+        "original1342": {
+          "local_unmeasured": 1342
+        },
+        "logical192": {
+          "local_unmeasured": 192
+        },
+        "practical400": {
+          "local_unmeasured": 400
+        }
+      }
+    }
+  },
+  "native_bank_questions": 1934,
+  "currency": "USD",
+  "scope": "Selected first-response calls only; excludes probes, warmups, recoveries and verification/model-review calls.",
+  "normalization": "Known subtotal /1934 *1000. Incomplete evidence is explicitly+unknown; estimates and free-access qualifications are not receipts.",
+  "private_audit_sha256": "8a6efae329aec415112f1319015bd1d8765effd20e497c24487ffb36b8808521",
+  "independent_model_crosschecks": 21
+}

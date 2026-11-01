@@ -1,3 +1,7 @@
+# Current presentation build
+
+`publish_system1_v2_presentation.py` restores annotated category matrices, coloured individual ranks and reconciled cost evidence without changing frozen measurements. `validate_system1_v2_presentation.py` checks the ledger joins, totals, colours, ranks, privacy and immutable inputs. Use `--output` to rebuild offline in a new directory. The initial v2 builder below reproduces its original dated presentation.
+
 # Benchmark scripts
 
 ## Current v2 publication

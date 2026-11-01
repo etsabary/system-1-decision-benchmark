@@ -1,0 +1,25 @@
+{
+  "n": 1934,
+  "a_correct": 1603,
+  "b_correct": 1597,
+  "a_only": 147,
+  "b_only": 141,
+  "both_correct": 1456,
+  "both_wrong": 190,
+  "difference": 0.0031023784901758012,
+  "exact_p": 0.7683380076782792,
+  "item_ci95": [
+    -0.013960703205791106,
+    0.02016546018614271
+  ],
+  "category_mix_ci95": [
+    -0.026659419514950395,
+    0.03678934038346183
+  ],
+  "draws": 50000,
+  "seed": 20261101,
+  "rng_order": "Item multinomial draws first, then category multinomial draws from same generator; sorted category IDs",
+  "interpretation": "Fixed-bank counts are exact. Intervals describe hypothetical item/category mixtures, not inference repeatability or template-independent population uncertainty.",
+  "a": "fastino_glide_v23_bf16",
+  "b": "reference_sol"
+}

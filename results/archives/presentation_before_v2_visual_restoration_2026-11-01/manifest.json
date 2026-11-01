@@ -1,0 +1,74 @@
+{
+  "commit": "f5fa9cfafccd97fcfbdb0336e14284faaa8d2d35",
+  "scope": "Exact presentation before visual/cost restoration; no measurements changed",
+  "files": {
+    "README.md": {
+      "path": "README.md.snapshot",
+      "sha256": "1fbe1757f9049af2745526df95f95de03572fcf85698847e65ab0b6ee1b05041"
+    },
+    "documents/FUNCTIONS.md": {
+      "path": "documents/FUNCTIONS.md.snapshot",
+      "sha256": "30dc0fbf7a278594d98e63a5af10af1dedaa58a8d963e4ddb5b07a9dc6eca34e"
+    },
+    "documents/LLM_REFERENCES.md": {
+      "path": "documents/LLM_REFERENCES.md.snapshot",
+      "sha256": "4ae8df07f1791daffb629d3ea9f6f2e39d955f0d101ff4ec7213bb776cc99e84"
+    },
+    "documents/OUTPUT_COMPLIANCE.md": {
+      "path": "documents/OUTPUT_COMPLIANCE.md.snapshot",
+      "sha256": "facc7960aa8584155a14337daaefb5458b010803fe54c1ad0db0cbe183f2b1e3"
+    },
+    "documents/README.md": {
+      "path": "documents/README.md.snapshot",
+      "sha256": "2e851ab9ed5eb9e6d4a0fccf9ce71bb987244e72a385cdd970616eedbbf519ff"
+    },
+    "data/README.md": {
+      "path": "data/README.md.snapshot",
+      "sha256": "b4650c9053e5e753e963c58b121306f0f40aee87004213afb002849f79e3c320"
+    },
+    "results/README.md": {
+      "path": "results/README.md.snapshot",
+      "sha256": "271ec809b0b8169b2ec12c4e88889c689e8f2ef3de280c95e34b166f974f79eb"
+    },
+    "scripts/README.md": {
+      "path": "scripts/README.md.snapshot",
+      "sha256": "90645c0e16b77097ccca0b56ff3e993ccb226d5e5198d563cd7cbc866cf5224c"
+    },
+    "docs/report.html": {
+      "path": "docs/report.html.snapshot",
+      "sha256": "3ab75ec96e40ae3f23f2a83b9eb1c049e75532fa06e54c868e5b256dcebfc6bf"
+    },
+    "docs/index.html": {
+      "path": "docs/index.html.snapshot",
+      "sha256": "796feef6d2a302390e705aeb822c90533399d327b71b26fd71f290cc95dd851f"
+    },
+    "docs/functions.html": {
+      "path": "docs/functions.html.snapshot",
+      "sha256": "320628c93e6866c358e605bb4f2169cd711f232791928c0b9a33af7fac058a8a"
+    },
+    "docs/output_compliance.html": {
+      "path": "docs/output_compliance.html.snapshot",
+      "sha256": "4a81ffc5f05a452d02ce44d87902d86bfd1b483b5b093c79845ef35097345035"
+    },
+    "docs/sitemap.xml": {
+      "path": "docs/sitemap.xml.snapshot",
+      "sha256": "5fdd582035df039470b40992b6ee6d895fc27e123aba63139aa27bbd102343c9"
+    },
+    "scripts/layout_manifest.json": {
+      "path": "scripts/layout_manifest.json.snapshot",
+      "sha256": "16b42e2ddb231a8bd2d8f873f3b504350bcb7b6407aeac20c79b6451a0b42490"
+    },
+    "scripts/validate_local_updates_2026_10_31.py": {
+      "path": "scripts/validate_local_updates_2026_10_31.py.snapshot",
+      "sha256": "aa1f322477605968f9c46214566e12a83b43e888df0209b7f042fbb0dab33c04"
+    },
+    ".github/workflows/october18-validate.yml": {
+      "path": ".github/workflows/october18-validate.yml.snapshot",
+      "sha256": "754da620b75fdb1403afeed8ec0b0dab0c0e2e1c861afc8c6b7ab7db55894e9e"
+    },
+    "documents/V2_DESIGN.md": {
+      "path": "documents/V2_DESIGN.md.snapshot",
+      "sha256": "7de0c0ac989b9ec3545f2b65dd9cef09092c8e2daac5f1a2d347273edc290f57"
+    }
+  }
+}
