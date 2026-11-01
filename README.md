@@ -4,7 +4,7 @@
 
 **Fastino GLiDE leads overall at 86.0%. D3 Flash Artemis leads immediate local configurations at 74.1%. Cerno 4B adds 73.2%; Jue 2.5B adds a 162 ms median at 59.7%.**
 
-[Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [Named categories](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions) · [Adaptive AutoThink](https://etsabary.github.io/system-1-decision-benchmark/report.html#adaptive) · [Below 50% results and trial scopes](results/releases/local_updates_2026-10-31/below_50.html)
+[Interactive report](https://etsabary.github.io/system-1-decision-benchmark/report.html) · [Named categories](https://etsabary.github.io/system-1-decision-benchmark/report.html#functions) · [Adaptive AutoThink](https://etsabary.github.io/system-1-decision-benchmark/report.html#adaptive) · [Below 50% results and trial scopes](https://etsabary.github.io/system-1-decision-benchmark/local_updates_2026-10-31/below_50.html)
 
 ![Qualifying configurations: hosted blue, local CUDA purple, Apple M2 magenta, LLM references pale yellow; AutoThink framed in gold](results/releases/local_updates_2026-10-31/accuracy_speed_cost.png)
 
@@ -94,7 +94,7 @@ Cox includes one lost connection. Jue, Cerno 4B and Dexy each include one contex
 
 ## The main comparison now requires at least 50% overall
 
-This is a reporting selection requested after measurement. It applies to the overall score, including failed first attempts, for every setting and model format. Exactly 50% qualifies. The same qualifying set appears in the overview, named-category tables, category leaders and narrative. Complete measured records remain available in [all statistics](results/releases/local_updates_2026-10-31/all_statistics.json); [the separate below-50% catalogue](results/releases/local_updates_2026-10-31/below_50.html) includes earlier LLM formats and short screens with their original sample sizes.
+This is a reporting selection requested after measurement. It applies to the overall score, including failed first attempts, for every setting and model format. Exactly 50% qualifies. The same qualifying set appears in the overview, named-category tables, category leaders and narrative. Complete measured records remain available in [all statistics](results/releases/local_updates_2026-10-31/all_statistics.json); [the separate below-50% catalogue](https://etsabary.github.io/system-1-decision-benchmark/local_updates_2026-10-31/below_50.html) includes earlier LLM formats and short screens with their original sample sizes.
 
 ## October 30: Joey-1 and an extraction-model comparison
 

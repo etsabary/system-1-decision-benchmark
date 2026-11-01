@@ -10,7 +10,7 @@
 - [Model statistics CSV](releases/local_updates_2026-10-31/model_statistics.csv)
 - [31 named category scores](releases/local_updates_2026-10-31/category_scores.csv)
 - [New local timing evidence](releases/local_updates_2026-10-31/local_timing_evidence.csv) and [stopped screens](releases/local_updates_2026-10-31/screened_routes.json)
-- [Below-50% route and format outcomes](releases/local_updates_2026-10-31/below_50.html), with sample sizes and failure reasons
+- [Below-50% route and format outcomes](releases/local_updates_2026-10-31/below_50.md), with sample sizes and failure reasons
 - [Clairic extraction compatibility](releases/local_updates_2026-10-31/clairic.html), outside the native decision ranking
 - [Question bank](releases/consolidated_2026-10-19/questions_1342.csv)
 

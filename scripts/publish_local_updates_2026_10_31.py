@@ -22,6 +22,7 @@ OLD=ROOT/'results/releases/native_additions_2026-10-30'
 ARCHIVE=ROOT/'results/archives/presentation_before_october31_2026'
 PRIVATE=ROOT.parent/'text-decision-hardening/runs/ollaya_lan_eight_2026-10-31'
 MIN_ACCURACY=.5
+CATALOGUE_URL='https://etsabary.github.io/system-1-decision-benchmark/'+NAME+'/below_50.html'
 CONFIGS={
  'cox:3b-int8':('local_cox3b_int8','Cox 3B INT8'),
  'adm:1-nf4':('local_adm1_nf4','ADM-1 NF4'),
@@ -218,10 +219,13 @@ def build():
  groups=re.sub(r'https://etsabary.github.io/jev-1.14-comparison-benchmark/[^)# ]+/report.html',visual.SITE,groups)
  # Narrative links use release-local names; repository Markdown gets release paths.
  root_narrative=narrative
- for file in ['screened_routes.json','all_statistics.json','below_50.html','clairic.html']:root_narrative=root_narrative.replace(']('+file+')','](results/releases/'+NAME+'/'+file+')')
+ for file in ['screened_routes.json','all_statistics.json','below_50.html','clairic.html']:
+  target=CATALOGUE_URL if file=='below_50.html' else 'results/releases/'+NAME+'/'+file
+  root_narrative=root_narrative.replace(']('+file+')',']('+target+')')
  intro='# System 1 Decision Benchmark\n\n**56 configurations meeting the 50% overall reporting cutoff**, each tested on the same **1,342 questions across31 categories**:31 hosted decisions,20 immediate local configurations, one adaptive local model and four selected no-reasoning LLM references. Updated October31,2026.\n\n**Fastino GLiDE leads overall at86.0%. D3 Flash Artemis leads immediate local configurations at74.1%. Cerno4B adds73.2%; Jue2.5B adds a162ms median at59.7%.**\n\n[Interactive report]('+visual.SITE+') · [Named categories]('+visual.SITE+'#functions) · [Adaptive AutoThink]('+visual.SITE+'#adaptive) · [Below50 results and trial scopes](results/releases/'+NAME+'/below_50.html)\n\n![Qualifying configurations: hosted blue, localCUDA purple, AppleM2 magenta, LLM references pale yellow; AutoThink framed in gold](results/releases/'+NAME+'/accuracy_speed_cost.png)\n\nPurple identifies local CUDA runs; magenta identifies AppleM2; blue identifies hosted decisions; pale yellow identifies LLM references. AutoThink retains a thick gold frame and dot pattern. All66 complete records remain available;10 overall scores below50% are outside the main comparison.\n\n## Main comparison\n\n'+summary_md+'\n\nMedian is the midpoint response time. p95 describes the slower tail:95% of measured responses completed within that time. Local hardware and electricity costs remain unmeasured.\n\n'
  intro=intro.replace('across31','across 31').replace(':31',': 31').replace('decisions,20','decisions, 20').replace('October31,2026','October 31, 2026').replace('at86.0%','at 86.0%').replace('at74.1%','at 74.1%').replace('Cerno4B adds73.2%','Cerno 4B adds 73.2%').replace('Jue2.5B adds a162ms median at59.7%','Jue 2.5B adds a 162 ms median at 59.7%').replace('Below50','Below 50%').replace('localCUDA','local CUDA').replace('AppleM2','Apple M2').replace('All66','All 66').replace(';10','; 10').replace('below50%','below 50%').replace('tail:95%','tail: 95%')
  end='\n\n## Method and evidence\n\n'+method+'\n\n[Main statistics](results/releases/'+NAME+'/statistics.json) · [All full-run statistics](results/releases/'+NAME+'/all_statistics.json) · [New timing evidence](results/releases/'+NAME+'/local_timing_evidence.csv) · [Screening outcomes](results/releases/'+NAME+'/screened_routes.json) · [Audit receipt](results/releases/'+NAME+'/audit_receipt.json) · [Question bank](results/releases/consolidated_2026-10-19/questions_1342.csv) · [scripts/](scripts/README.md). Historical check: `python3 scripts/validate_october21_release.py`.\n'
+ intro=intro.replace('](results/releases/'+NAME+'/below_50.html)',']('+CATALOGUE_URL+')')
  write(ROOT/'README.md',intro+root_narrative+'\n\n'+groups+end)
  functions=readable.markdown_groups(s,guide,details=True).replace('All 20 models','All 56 qualifying configurations').replace('all 20 models','all 56 qualifying configurations').replace(readable.NAME,'../results/releases/'+NAME)
  functions=re.sub(r'https://etsabary.github.io/jev-1.14-comparison-benchmark/[^)# ]+/report.html',visual.SITE,functions)
