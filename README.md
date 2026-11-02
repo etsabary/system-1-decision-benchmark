@@ -2,8 +2,6 @@
 
 This benchmark compares accuracy, latency, coverage and cost for fixed-option decision tasks. V4 contains **2,157 questions across 43 categories**: the unchanged 2,017-question v3 bank plus 140 source-key-supported AQuA questions. The 23 numerical-pattern and 200 quantitative questions are borrowed; the earlier project bank is predominantly project-developed. The previously measured 26 configurations remain in the downloads; newly measured models are added on the same full bank. Main comparisons use a 62% operational-accuracy cutoff.
 
-**Selection bias:** the original 60 quantitative questions were selected for Fastino and D3 Artemis errors; the 140 new questions were selected for an error by at least one of Fastino, Mammoth, GPT-6 Sol without reasoning, D3 Ultra and Drex Max. This distributes, but does not remove, selection bias.
-
 **Source and rights:** AQuA-RAT is crowdsourced admissions-style mathematics under its repository’s Apache-2.0 terms; it is not a set of authenticated official GRE or SAT questions. MAIQ’s repository declares MIT, but its authors collected questions from human IQ tests and the original rights holders for these 23 sequences are not established. The owner elected to include the sequences with that qualification. The project MIT license does not supersede these sources’ terms. [Detailed provenance and notices](results/releases/system1_v4_kai_note_2026-11-02/SOURCE_AND_LICENSES.md).
 
 [Interactive v4 report](https://etsabary.github.io/system-1-decision-benchmark/v4/report.html) · [Category rankings](https://etsabary.github.io/system-1-decision-benchmark/v4/report.html#rankings) · [Cost evidence](https://etsabary.github.io/system-1-decision-benchmark/v4/report.html#cost)
@@ -120,6 +118,10 @@ F32 Numerical pattern recognition; F33 Quantitative reasoning.
 
 
 **Hanzo Kai 1.9 — stopped partial test:** 46/244 correct (18.85%); SubQ scored 190/244 (77.87%) on the same inputs. This is an incomplete sample, not a full-bank score or a 62% cutoff classification. Hanzo first limited the free run to 50 answers, then imposed an eight-hour usage window after prepaid credits were purchased. The user stopped testing. The API marked 31 inputs beyond its stated training length. [Usage limits and method](results/releases/system1_v4_kai_note_2026-11-02/KAI_CASE_NOTE.md).
+
+## Question selection
+
+The quantitative category includes 60 questions selected for errors by Fastino and D3 Artemis and 140 selected for errors by at least one of Fastino, Mammoth, GPT-6 Sol without reasoning, D3 Ultra and Drex Max. Selection using these models' answers can affect comparisons involving them; using several models distributes, but does not eliminate, this selection bias.
 
 ## Download and reproducibility
 
