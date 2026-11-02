@@ -1,5 +1,14 @@
 # Current presentation build
 
+The v4 release retains the v3 selected records and adds 140 quantitative items. Its offline validators check the question bank, unchanged v3 evidence, category and overall statistics, timing and cost ledgers, and the readable colour-coded presentation:
+
+```sh
+python3 scripts/validate_system1_v4.py results/releases/system1_v4_2026-11-02 results/releases/system1_v3_presentation_2026-11-01
+python3 scripts/validate_system1_v4_presentation.py results/releases/system1_v4_2026-11-02
+```
+
+`publish_system1_v4.py` renders a new presentation into an empty `--output` directory from a complete `--source` release; it does not run inference.
+
 `publish_system1_v2_presentation.py` restores annotated category matrices, coloured individual ranks and reconciled cost evidence without changing frozen measurements. `validate_system1_v2_presentation.py` checks the ledger joins, totals, colours, ranks, privacy and immutable inputs. Use `--output` to rebuild offline in a new directory. The initial v2 builder below reproduces its original dated presentation.
 
 # Benchmark scripts
