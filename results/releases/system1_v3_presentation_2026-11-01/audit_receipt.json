@@ -1,0 +1,22 @@
+{
+  "questions": 2017,
+  "v2_inputs_retained": 1934,
+  "added_questions": 83,
+  "added_categories": {
+    "F32": 23,
+    "F33": 60
+  },
+  "models_measured": 26,
+  "main_cutoff": "at least 62% operational accuracy",
+  "score_denominator": "2,017; unusable primary responses are uncredited and coverage is disclosed",
+  "model_answers": "private; first response only or exact matching earlier primary",
+  "private_record_audit": "2,158 added primary records independently checked against retained dispatches, source inputs and answers; five unusable calls retained",
+  "review": "83 admitted items had matching source and independent Kimi answers plus editorial review; agreement does not prove unique or error-free keys",
+  "review_effort": "maximum requested; effective internal effort not reported",
+  "selection_bias": "all 60 quantitative additions selected from Fastino and D3 prior misses",
+  "rights": "AQuA Apache-2.0 repository declaration; MAIQ MIT repository declaration but original item rights not established",
+  "v2_presentation_manifest_sha256": "4aa03142e42667ff4fa53c2abc8b2e757f3b343c77a7ab363ef4f8586e9a92fa",
+  "timing": "52,442 individual selected records; p95 linear interpolation",
+  "cost": "52,442 records; receipts, estimates, free access, unknown and unmetered locals distinct",
+  "answer_key_and_model_choices": "not included"
+}

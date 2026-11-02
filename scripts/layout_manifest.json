@@ -1923,7 +1923,7 @@
     ".github/workflows/october18-validate.yml": "2d734b66b0b2907436e6d8f67c431b540bbe6b3d95a8dcf0ff537bc36ad18427",
     ".github/workflows/validate.yml": "ae90d0b1edc38655788118f221492ab30ad601cb7c4e1c3b89615ae70aaa89d1",
     ".gitignore": "ff765c542120d3df771ef9a40cc7e3a854e5258b875c1d2d59a1134b6895324e",
-    "README.md": "25b501eb4974f819ae297690d58795bd7ca4e2e338ad8b90fa8d4fca635622fc",
+    "README.md": "b78ca525fb6f19c6c8083cebdaaebe8bcf0189dc935ab176fdff1a7b08bc70e6",
     "data/README.md": "2a90c24ca4256a3e8bbad36c23059d39b36cd0b32853a3b6355554a060381004",
     "docs/functions.html": "320628c93e6866c358e605bb4f2169cd711f232791928c0b9a33af7fac058a8a",
     "docs/index.html": "c946e0ca45f273787b57779dd5b696b5197125588a78eb20a5993e1f7818dceb",
@@ -2131,7 +2131,11 @@
     "scripts/validate_system1_v2.py": "30438e0b6c54691d629fd1c4c5af6dd20aa67d75d11c69cdb4335d8f307f7be4",
     "scripts/validate_system1_v2_presentation.py": "cdba28e071ec6b041765b39052d70f741152694da93ea5dfa0f86baa97d7f7f6",
     "scripts/validate_system1_v3.py": "d6f8bdbd2428eb16a865856fa6d3d5e0ba255d32510c3176dec5803777425fd6",
-    ".github/workflows/system1-v3.yml": "bb8aadf23ab706990eeeb2c0c580cabd3509c5a016c5079c88af047913225b15"
+    ".github/workflows/system1-v3.yml": "63a819a839339c5963f270d0f4f7e5cb15da538c38b4d4c54b1da38ed5463816",
+    "scripts/publish_system1_v3_presentation.py": "d99e814021bf184f0274ab51ea48629517e723236face22d8add55d0dbf59627",
+    "scripts/validate_system1_v3_presentation.py": "306e2247712a2ccfdaf3230fe703d1d481e2e6563591a239101248e3fe1e35b5",
+    "scripts/test_system1_v3_presentation.py": "2f875e1e9f9b19c134056aea2c730ed1b1c88ffb067779f4392bfb641e89ebbf",
+    "documents/V3_PRESENTATION_READABILITY_AUDIT_2026_11_01.md": "fbccd760b3414b8804bd7c584d9b5bbb04d0fbfaa54323e52d5f099ec3ca9dde"
   },
   "directory_layout": {
     "version": "high-level-layout-2026-10-22-v1",

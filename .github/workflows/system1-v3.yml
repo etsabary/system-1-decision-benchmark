@@ -9,4 +9,7 @@ jobs:
         with:
           python-version: "3.10"
       - run: python3 scripts/validate_system1_v3.py results/releases/system1_v3_2026-11-01 results/releases/system1_v2_presentation_2026-11-01
-      - run: diff -qr docs/v3 results/releases/system1_v3_2026-11-01
+      - run: python3 scripts/validate_system1_v3.py results/releases/system1_v3_presentation_2026-11-01 results/releases/system1_v2_presentation_2026-11-01
+      - run: python3 scripts/validate_system1_v3_presentation.py results/releases/system1_v3_presentation_2026-11-01
+      - run: python3 -m unittest discover -s scripts -p "test_system1_v3_presentation.py"
+      - run: diff -qr docs/v3 results/releases/system1_v3_presentation_2026-11-01
