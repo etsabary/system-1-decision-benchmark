@@ -1,5 +1,11 @@
 # Current presentation build
 
+The v4 hosted-model successor adds completed SubQ and meraGPT runs without changing the frozen v4 bank or earlier model evidence. Its companion validator checks that every earlier result, category score, timing and cost record is preserved:
+
+```sh
+python3 scripts/validate_system1_v4_hosted.py results/releases/system1_v4_hosted_2026-11-02 results/releases/system1_v4_2026-11-02
+```
+
 The v4 release retains the v3 selected records and adds 140 quantitative items. Its offline validators check the question bank, unchanged v3 evidence, category and overall statistics, timing and cost ledgers, and the readable colour-coded presentation:
 
 ```sh

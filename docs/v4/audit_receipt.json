@@ -1,12 +1,13 @@
 {
-  "v3_presentation_manifest_sha256": "029589a8134d0faad1c21d39b8d9c6a4ac1147b5034fd0cf87f0bc3b8086ce46",
-  "v3_question_bank_sha256": "e9a59e0262311ba7e244816643971aa523f70a5eca720094c4a800d6a3831b00",
-  "new_answer_free_sha256": "58822843d9a073f9eb60a80ca9372d556fc224736f476e9ecf0448c26515bcb0",
-  "review_receipt_sha256": "523a12af493be9ee65d96d71539a0a847e6c3155b4ae63897af06dc2019557de",
-  "items": 2157,
-  "new_items": 140,
-  "models": 26,
-  "first_response_policy": "Retained exact earlier model answers or newly collected primary answers. Prior 429 transport failures without answers remain documented.",
-  "selection_bias": "Original 60 selected for Fastino and D3 misses; new 140 selected for misses by at least one of five screened configurations.",
-  "review_limit": "Model agreement and documented manual adjudication do not guarantee source-key correctness."
+  "previous_v4_manifest_sha256": "a815765e7b98e7b2320848cebafe3dfb9443104846eeee4610b24ca481bc5881",
+  "models_added": [
+    "subq_snap_1_1",
+    "meragpt_decider1"
+  ],
+  "questions": 2157,
+  "category_count": 43,
+  "base_models_retained": 26,
+  "individual_timing_records": 60396,
+  "individual_cost_records": 60396,
+  "source_and_key_limit": "Public AQuA and MAIQ questions remain subject to source and selection caveats; original source keys were reviewed but are not proven error-free."
 }

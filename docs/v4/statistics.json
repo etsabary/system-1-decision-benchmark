@@ -757,6 +757,58 @@
       },
       "new_request_failures": 0,
       "new_collection_limit": "Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights. Some requests initially returned HTTP 429 without an answer; their first subsequently received model answers were used, with original failures retained. Timing and cost cover the selected answers, not the preceding failures."
+    },
+    "subq_snap_1_1": {
+      "model_id": "subq_snap_1_1",
+      "label": "SubQ Snap 1.1",
+      "configuration": "SubQ Snap 1.1 \u00b7 Subquadratic direct API",
+      "role": "Hosted native",
+      "n": 2157,
+      "correct": 1644,
+      "accuracy": 0.7621696801112656,
+      "valid": 2157,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.7621696801112656,
+      "accuracy_upper_if_all_unusable_correct": 0.7621696801112656,
+      "macro_category_accuracy": 0.7835028044405936,
+      "added_correct": 73,
+      "added_n": 140,
+      "added_usable": 140,
+      "mean_ms": 181.4410893827151,
+      "median_ms": 176.84708395972848,
+      "p95_ms": 208.4215832175686,
+      "identity_limit": "Exact provider-returned model alias; hidden weights are not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-02": 2157
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "Full v4 input set was collected in a new answer-blind session using two concurrent workers and first model answers. Reported times include network and client overhead; prior models used different sessions and concurrency."
+    },
+    "meragpt_decider1": {
+      "model_id": "meragpt_decider1",
+      "label": "meraGPT Decider 1",
+      "configuration": "meraGPT Decider 1 \u00b7 direct API",
+      "role": "Hosted native",
+      "n": 2157,
+      "correct": 620,
+      "accuracy": 0.28743625405656004,
+      "valid": 2157,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.28743625405656004,
+      "accuracy_upper_if_all_unusable_correct": 0.28743625405656004,
+      "macro_category_accuracy": 0.2968119445381386,
+      "added_correct": 31,
+      "added_n": 140,
+      "added_usable": 140,
+      "mean_ms": 604.7475770047093,
+      "median_ms": 605.1971249980852,
+      "p95_ms": 774.9388080323109,
+      "identity_limit": "Exact provider-returned model alias; the provider states this alias may change as the default improves.",
+      "collection_dates_toronto": {
+        "2026-11-02": 2157
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "Full v4 input set was collected in a new answer-blind session using two concurrent workers and first model answers. Reported times include network and client overhead; prior models used different sessions and concurrency. The API-reported charge is rounded per response to millionths of a dollar; its summed total may differ slightly from an aggregate-rate calculation."
     }
   },
   "ranked_model_ids": [
@@ -768,6 +820,7 @@
     "drex_max",
     "pplx_decider12",
     "nimble_v4_max",
+    "subq_snap_1_1",
     "liquid_ultra",
     "amos_large",
     "reference_sonnet",
@@ -787,7 +840,8 @@
     "microsoft_decision",
     "clef",
     "drex20",
-    "local_cerno4b_nf4"
+    "local_cerno4b_nf4",
+    "meragpt_decider1"
   ],
   "selection_bias": "The original 60 AQuA items were selected for Fastino and D3 misses; the 140 new ones were selected for a miss by at least one of Fastino, Mammoth, GPT-6 Sol, D3 Ultra and Drex Max. This distributes but does not eliminate selection bias.",
   "rights_warning": "MAIQ repository declares MIT; original question rights are not independently established. Owner chose inclusion with this caveat."
