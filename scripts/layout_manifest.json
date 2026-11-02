@@ -1923,10 +1923,10 @@
     ".github/workflows/october18-validate.yml": "2d734b66b0b2907436e6d8f67c431b540bbe6b3d95a8dcf0ff537bc36ad18427",
     ".github/workflows/validate.yml": "ae90d0b1edc38655788118f221492ab30ad601cb7c4e1c3b89615ae70aaa89d1",
     ".gitignore": "ff765c542120d3df771ef9a40cc7e3a854e5258b875c1d2d59a1134b6895324e",
-    "README.md": "e86d55b5a77fc1f3e68d5d5d7684b362a781ae4a267348c0f5e10c3e5485febd",
+    "README.md": "25b501eb4974f819ae297690d58795bd7ca4e2e338ad8b90fa8d4fca635622fc",
     "data/README.md": "2a90c24ca4256a3e8bbad36c23059d39b36cd0b32853a3b6355554a060381004",
     "docs/functions.html": "320628c93e6866c358e605bb4f2169cd711f232791928c0b9a33af7fac058a8a",
-    "docs/index.html": "796feef6d2a302390e705aeb822c90533399d327b71b26fd71f290cc95dd851f",
+    "docs/index.html": "c946e0ca45f273787b57779dd5b696b5197125588a78eb20a5993e1f7818dceb",
     "docs/output_compliance.html": "4a81ffc5f05a452d02ce44d87902d86bfd1b483b5b093c79845ef35097345035",
     "docs/report.html": "12bfb7e3add712d1d9e031cdb2e5d09e003f0481f4e85e9776155a0299cdb019",
     "docs/sitemap.xml": "5fdd582035df039470b40992b6ee6d895fc27e123aba63139aa27bbd102343c9",
@@ -2129,7 +2129,9 @@
     "scripts/validate_readable_report.py": "d8e55a9ab702b7cf72311eb42b6445a3fbb0a50612b59774a47cb2ebac64229f",
     "scripts/validate_repository_layout.py": "d659b524faa77af8c07a92a14a57243a12ed34f8dea1750edb9e68a358dd5c5a",
     "scripts/validate_system1_v2.py": "30438e0b6c54691d629fd1c4c5af6dd20aa67d75d11c69cdb4335d8f307f7be4",
-    "scripts/validate_system1_v2_presentation.py": "cdba28e071ec6b041765b39052d70f741152694da93ea5dfa0f86baa97d7f7f6"
+    "scripts/validate_system1_v2_presentation.py": "cdba28e071ec6b041765b39052d70f741152694da93ea5dfa0f86baa97d7f7f6",
+    "scripts/validate_system1_v3.py": "d6f8bdbd2428eb16a865856fa6d3d5e0ba255d32510c3176dec5803777425fd6",
+    ".github/workflows/system1-v3.yml": "bb8aadf23ab706990eeeb2c0c580cabd3509c5a016c5079c88af047913225b15"
   },
   "directory_layout": {
     "version": "high-level-layout-2026-10-22-v1",
