@@ -1,0 +1,13 @@
+{
+  "previous_v4_manifest_sha256": "a815765e7b98e7b2320848cebafe3dfb9443104846eeee4610b24ca481bc5881",
+  "models_added": [
+    "subq_snap_1_1",
+    "meragpt_decider1"
+  ],
+  "questions": 2157,
+  "category_count": 43,
+  "base_models_retained": 26,
+  "individual_timing_records": 60396,
+  "individual_cost_records": 60396,
+  "source_and_key_limit": "Public AQuA and MAIQ questions remain subject to source and selection caveats; original source keys were reviewed but are not proven error-free."
+}

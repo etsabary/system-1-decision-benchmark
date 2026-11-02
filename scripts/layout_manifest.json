@@ -1923,7 +1923,7 @@
     ".github/workflows/october18-validate.yml": "2d734b66b0b2907436e6d8f67c431b540bbe6b3d95a8dcf0ff537bc36ad18427",
     ".github/workflows/validate.yml": "ae90d0b1edc38655788118f221492ab30ad601cb7c4e1c3b89615ae70aaa89d1",
     ".gitignore": "ff765c542120d3df771ef9a40cc7e3a854e5258b875c1d2d59a1134b6895324e",
-    "README.md": "746eed9b91912f34a078f4e25ed467219464446c74437506c9c60c6a2ecb754c",
+    "README.md": "fcb09b44864e43dc88c3c0f7f79ff7cd418794c094f554407456b3fe18f07a7a",
     "data/README.md": "2a90c24ca4256a3e8bbad36c23059d39b36cd0b32853a3b6355554a060381004",
     "docs/functions.html": "320628c93e6866c358e605bb4f2169cd711f232791928c0b9a33af7fac058a8a",
     "docs/index.html": "931d2275c984b5f61c735b76d691fb89f9a641c93381c0209de4e35caff98d7a",
@@ -1953,7 +1953,7 @@
     "documents/report_sections.md": "877bd4fdb81f61999f90a6bc828813030c6b709bc9a23be557dc7a861eebf5fa",
     "documents/task_examples.md": "71c4ce81f0dede0e24f54680394304b4f2966699ffc516e7db11858d6acd6d60",
     "results/README.md": "ee83fb389092a03ca526f972ca27eb3fa251bc2bce328df247289385e9646ece",
-    "scripts/README.md": "7d33d11ccb54d7cd2e05f72d2ccf63a43379bce1854d3a61e1269b4d948b76d4",
+    "scripts/README.md": "8de531453fdd3d3d542088b29216e59c3fe282a54f2cc2d7d587c026875466d1",
     "scripts/added_decisions.py": "94804b706492069a3e94e7458690a507423dd29f47137941e9e491af1d98bfb0",
     "scripts/analysis_core.py": "639268921cfdd2bdb770b96046756cdecb13c1f368b12b069f20df1a7aec3137",
     "scripts/analyze.py": "9e1fefbe094017339edd8418c2a687f1375f68466aa3f49ce2aa4660f2bc7431",
@@ -2139,9 +2139,11 @@
     "scripts/publish_system1_v4.py": "01d505b4a85277a1561a5c44ff8abf352ac41b7174fbf07f58baf2dadd493d6b",
     "scripts/validate_system1_v4.py": "16f7bf9ec6814b65be1b2a1a128d3af9136a8311a4b3bab45732858337a20a36",
     "scripts/validate_system1_v4_presentation.py": "edd879ca2146e38be5d5ae6350f82f2f0df5a1a63e7ae93b98e0b4c4a689d0d7",
-    ".github/workflows/system1-v4.yml": "37fd3ddb8d758aba0c909393f618f027e42b4458187e3633aa0cb480661328ed",
+    ".github/workflows/system1-v4.yml": "6aead1fac47d6f316b1a12831d1c23b9f3f37b9b57d8120fdfe2a2ca2e5938a2",
     "scripts/publish_system1_v4_hosted.py": "0be683e26683924d42b7f3a2ba120b353bd86c966e92fe9b676ce7d019217ebc",
-    "scripts/validate_system1_v4_hosted.py": "637936d621f3ce108074a7832b03f41ee08680e7cfeb89e3a445a726b5600c23"
+    "scripts/validate_system1_v4_hosted.py": "637936d621f3ce108074a7832b03f41ee08680e7cfeb89e3a445a726b5600c23",
+    "scripts/publish_system1_v4_kai_note.py": "3025a46c4b58fce26d39576507b9180c49868fe3118e6bf56fe245a98ec51e84",
+    "scripts/validate_system1_v4_kai_note.py": "7204c63a1ef53ca4940caddf2233dbc596da2120617dd5a84dc8bf5dfd345b33"
   },
   "directory_layout": {
     "version": "high-level-layout-2026-10-22-v1",

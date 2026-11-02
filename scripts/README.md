@@ -1,5 +1,11 @@
 # Current presentation build
 
+The v4 Kai-note successor places the user's stopped, incomplete Hanzo sample beside the below-cutoff catalogue and documents its usage limits, without changing the full-bank results or graphs. Validate that presentation-only successor with:
+
+```sh
+python3 scripts/validate_system1_v4_kai_note.py results/releases/system1_v4_kai_note_2026-11-02 results/releases/system1_v4_hosted_2026-11-02
+```
+
 The v4 hosted-model successor adds completed SubQ and meraGPT runs without changing the frozen v4 bank or earlier model evidence. Its companion validator checks that every earlier result, category score, timing and cost record is preserved:
 
 ```sh

@@ -1,8 +1,9 @@
 {
   "categories": 43,
   "files_sha256": {
+    "KAI_CASE_NOTE.md": "7f7337696b06e3379c50646ac5727d6c320a39aa04853a8b1d9d9d9802ac0519",
     "PROJECT_LICENSE_MIT.txt": "c0bbb612283a2743d755831b475fd0df6f92873fbdfad80b78f3cb52f3e898d3",
-    "README_V4.md": "746eed9b91912f34a078f4e25ed467219464446c74437506c9c60c6a2ecb754c",
+    "README_V4.md": "fcb09b44864e43dc88c3c0f7f79ff7cd418794c094f554407456b3fe18f07a7a",
     "SOURCE_AND_LICENSES.md": "69594a836f3c6557302a00d7667fff7d37695fd13d82be0dc6152dac56c19d41",
     "accuracy_legend.png": "bf97b4f63fc7e7780ab1b6f1a1deba3939290b12510715dbfc18070b0ca497c2",
     "accuracy_legend.svg": "760c446c6d33f7851bc262cdcc50ef937405a00306a87b9cec5fa2c321abe70a",
@@ -39,7 +40,7 @@
     "overview.svg": "a1a010025ac8a20fd362ccf7e5f6339e9e49446861f03e588fe58c25b5aeffea",
     "partial_models.json": "86e064d7ee841fdfc7621ea059e5c6d8be0fd7f954c29955d2fb798ad4da3b6b",
     "questions_2157.jsonl": "a4d22985409d529cc167a26f55f6e784f905531fdc3033c958c31ae4bc4eb1ad",
-    "report.html": "e991c50f2d3f5587c996d6e6053b11a01c78e81c8b2f32bbe0b073e1f4375b50",
+    "report.html": "b1fd1229ece3bc0f83468d30dc2edd007077903b00607a8907f0a3d544ba7158",
     "source_metadata_2157.jsonl": "f09d440dbdd74548402c0c9fa605d4621274e10b31ff46379eb3fd25ce061100",
     "statistics.json": "13eec6f6737cd03f3980a1111fa014c955f993751bf6fbe20d20481b11e6a16a",
     "third_party_licenses/APACHE-2.0_FULL.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
@@ -48,11 +49,13 @@
     "timing_evidence.csv.gz": "5aafb42417f17ad08ecd2aebf05bd9db364eb375b780988a15cfbb80880c3639",
     "transport_recoveries.json": "3e30d5351332c3349ab35fcc9ef9517055b80ae29ecb2c53f74df6c1bd7694fd"
   },
+  "frozen_hosted_manifest_sha256": "7e51072ce39f6f4b3ff9b4205e17f8b6bdfd1b07e6ade1be2dae5b8af1363127",
   "frozen_v3_manifest_sha256": "029589a8134d0faad1c21d39b8d9c6a4ac1147b5034fd0cf87f0bc3b8086ce46",
   "frozen_v4_manifest_sha256": "a815765e7b98e7b2320848cebafe3dfb9443104846eeee4610b24ca481bc5881",
   "main_models": 22,
   "measured_models": 28,
   "minimum_overall_accuracy": 0.62,
+  "presentation_note": "Hanzo Kai partial result placed beside the below-cutoff catalogue; the full-bank data, graphs and model selection remain unchanged.",
   "questions": 2157,
   "unchanged_files_sha256": {
     "PROJECT_LICENSE_MIT.txt": "c0bbb612283a2743d755831b475fd0df6f92873fbdfad80b78f3cb52f3e898d3",
