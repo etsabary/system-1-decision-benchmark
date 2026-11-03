@@ -1923,7 +1923,7 @@
     ".github/workflows/october18-validate.yml": "2d734b66b0b2907436e6d8f67c431b540bbe6b3d95a8dcf0ff537bc36ad18427",
     ".github/workflows/validate.yml": "ae90d0b1edc38655788118f221492ab30ad601cb7c4e1c3b89615ae70aaa89d1",
     ".gitignore": "ff765c542120d3df771ef9a40cc7e3a854e5258b875c1d2d59a1134b6895324e",
-    "README.md": "fcb09b44864e43dc88c3c0f7f79ff7cd418794c094f554407456b3fe18f07a7a",
+    "README.md": "50e315e6303bc2911a1566bc8341558e8929838e3404b9b90eb382f0b1b5f636",
     "data/README.md": "2a90c24ca4256a3e8bbad36c23059d39b36cd0b32853a3b6355554a060381004",
     "docs/functions.html": "320628c93e6866c358e605bb4f2169cd711f232791928c0b9a33af7fac058a8a",
     "docs/index.html": "931d2275c984b5f61c735b76d691fb89f9a641c93381c0209de4e35caff98d7a",
@@ -2139,11 +2139,14 @@
     "scripts/publish_system1_v4.py": "01d505b4a85277a1561a5c44ff8abf352ac41b7174fbf07f58baf2dadd493d6b",
     "scripts/validate_system1_v4.py": "16f7bf9ec6814b65be1b2a1a128d3af9136a8311a4b3bab45732858337a20a36",
     "scripts/validate_system1_v4_presentation.py": "edd879ca2146e38be5d5ae6350f82f2f0df5a1a63e7ae93b98e0b4c4a689d0d7",
-    ".github/workflows/system1-v4.yml": "6aead1fac47d6f316b1a12831d1c23b9f3f37b9b57d8120fdfe2a2ca2e5938a2",
+    ".github/workflows/system1-v4.yml": "4e1e9fb83d8390ea010dc6a5db74fd770d31ad094aa27f83d355714a2185f65d",
     "scripts/publish_system1_v4_hosted.py": "0be683e26683924d42b7f3a2ba120b353bd86c966e92fe9b676ce7d019217ebc",
     "scripts/validate_system1_v4_hosted.py": "637936d621f3ce108074a7832b03f41ee08680e7cfeb89e3a445a726b5600c23",
     "scripts/publish_system1_v4_kai_note.py": "3025a46c4b58fce26d39576507b9180c49868fe3118e6bf56fe245a98ec51e84",
-    "scripts/validate_system1_v4_kai_note.py": "7204c63a1ef53ca4940caddf2233dbc596da2120617dd5a84dc8bf5dfd345b33"
+    "scripts/validate_system1_v4_kai_note.py": "7204c63a1ef53ca4940caddf2233dbc596da2120617dd5a84dc8bf5dfd345b33",
+    "scripts/publish_system1_v4_sage.py": "0e5d5161e36636ed3f175c07a58d8349e1779a61387b5119ac0b660df4298d71",
+    "scripts/finish_system1_v4_sage.py": "acdb0a18b8463e163c175e93d8be0ae2764845e8776c42c18ed299727fd6397c",
+    "scripts/validate_system1_v4_sage.py": "9613c5155d1cd45c549205a0717ae0f1300b65e607e3e08c2297f790e78a5ae3"
   },
   "directory_layout": {
     "version": "high-level-layout-2026-10-22-v1",
