@@ -15,4 +15,7 @@ jobs:
       - run: python3 scripts/validate_system1_v4_kai_note.py results/releases/system1_v4_kai_note_2026-11-02 results/releases/system1_v4_hosted_2026-11-02
       - run: python3 scripts/validate_system1_v4_hosted.py results/releases/system1_v4_kai_note_2026-11-02 results/releases/system1_v4_2026-11-02
       - run: python3 scripts/validate_system1_v4_presentation.py results/releases/system1_v4_kai_note_2026-11-02
-      - run: diff -qr docs/v4 results/releases/system1_v4_kai_note_2026-11-02
+      - run: python3 scripts/validate_system1_v4_hosted.py results/releases/system1_v4_sage_2026-11-02 results/releases/system1_v4_2026-11-02
+      - run: python3 scripts/validate_system1_v4_presentation.py results/releases/system1_v4_sage_2026-11-02
+      - run: python3 scripts/validate_system1_v4_sage.py results/releases/system1_v4_sage_2026-11-02 results/releases/system1_v4_kai_note_2026-11-02
+      - run: diff -qr docs/v4 results/releases/system1_v4_sage_2026-11-02

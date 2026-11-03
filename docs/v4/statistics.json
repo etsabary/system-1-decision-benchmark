@@ -809,6 +809,32 @@
       },
       "new_request_failures": 0,
       "new_collection_limit": "Full v4 input set was collected in a new answer-blind session using two concurrent workers and first model answers. Reported times include network and client overhead; prior models used different sessions and concurrency. The API-reported charge is rounded per response to millionths of a dollar; its summed total may differ slightly from an aggregate-rate calculation."
+    },
+    "levanto_sage_2": {
+      "model_id": "levanto_sage_2",
+      "label": "Levanto Sage 2",
+      "configuration": "Levanto Sage 2 \u00b7 reasoning off \u00b7 direct API",
+      "role": "Hosted native",
+      "n": 2157,
+      "correct": 1530,
+      "accuracy": 0.7093184979137691,
+      "valid": 2157,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.7093184979137691,
+      "accuracy_upper_if_all_unusable_correct": 0.7093184979137691,
+      "macro_category_accuracy": 0.7325175117681146,
+      "added_correct": 62,
+      "added_n": 140,
+      "added_usable": 140,
+      "mean_ms": 241.84157394103084,
+      "median_ms": 227.6542920153588,
+      "p95_ms": 345.0845835963261,
+      "identity_limit": "Exact provider-returned model identifier; hidden weights are not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-02": 2157
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "Full v4 input set was collected in a new answer-blind session using two concurrent workers, reasoning explicitly off, and first model answers. Two returned choices disagreed with the highest probability in the same response; the original returned choices were scored without substitution. Cost is estimated at the published provider $0.05 per million input token rate; account-specific rates may differ. Reported times include network and client overhead; prior models used different sessions and concurrency."
     }
   },
   "ranked_model_ids": [
@@ -827,6 +853,7 @@
     "kettei_fat",
     "reference_opus5",
     "respan02",
+    "levanto_sage_2",
     "jev114",
     "liquid11_decision",
     "mercury_decide",
