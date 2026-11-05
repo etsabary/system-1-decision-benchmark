@@ -1923,7 +1923,7 @@
     ".github/workflows/october18-validate.yml": "2d734b66b0b2907436e6d8f67c431b540bbe6b3d95a8dcf0ff537bc36ad18427",
     ".github/workflows/validate.yml": "ae90d0b1edc38655788118f221492ab30ad601cb7c4e1c3b89615ae70aaa89d1",
     ".gitignore": "ff765c542120d3df771ef9a40cc7e3a854e5258b875c1d2d59a1134b6895324e",
-    "README.md": "c48a6eac19bf4451730a14a6a613c805fc89736a2149c3f1c2a754e2f54dde4a",
+    "README.md": "e2c18ea6aaae2ec93577b61182844393de7f34c20a4843eeb8e38636a76e19bb",
     "data/README.md": "2a90c24ca4256a3e8bbad36c23059d39b36cd0b32853a3b6355554a060381004",
     "docs/functions.html": "320628c93e6866c358e605bb4f2169cd711f232791928c0b9a33af7fac058a8a",
     "docs/index.html": "931d2275c984b5f61c735b76d691fb89f9a641c93381c0209de4e35caff98d7a",
@@ -2139,7 +2139,7 @@
     "scripts/publish_system1_v4.py": "01d505b4a85277a1561a5c44ff8abf352ac41b7174fbf07f58baf2dadd493d6b",
     "scripts/validate_system1_v4.py": "16f7bf9ec6814b65be1b2a1a128d3af9136a8311a4b3bab45732858337a20a36",
     "scripts/validate_system1_v4_presentation.py": "edd879ca2146e38be5d5ae6350f82f2f0df5a1a63e7ae93b98e0b4c4a689d0d7",
-    ".github/workflows/system1-v4.yml": "ed701537049b5963f74d638c1b509a1392266427dcf29f9e256c12917bc4dc16",
+    ".github/workflows/system1-v4.yml": "d3a20bd6baa0dec38f8d8f6abc2e7610650d8818ee3274ff679d668ff8d8979f",
     "scripts/publish_system1_v4_hosted.py": "0be683e26683924d42b7f3a2ba120b353bd86c966e92fe9b676ce7d019217ebc",
     "scripts/validate_system1_v4_hosted.py": "637936d621f3ce108074a7832b03f41ee08680e7cfeb89e3a445a726b5600c23",
     "scripts/publish_system1_v4_kai_note.py": "3025a46c4b58fce26d39576507b9180c49868fe3118e6bf56fe245a98ec51e84",
@@ -2150,7 +2150,9 @@
     "scripts/publish_system1_v4_local_screens.py": "208adc3841067e59191cc5c0bf5d63b3791bf75874580e3af960922888e241a2",
     "scripts/validate_system1_v4_local_screens.py": "e6956628b44b7037e0e57ed3ead1076b0d8358ea942702cd966fcb52f75a5023",
     "scripts/publish_system1_v4_strike_screen.py": "bf6e83e7b52b37a4b405b8e8a527824fb64cec60c588fcd4eec61d076d750eae",
-    "scripts/validate_system1_v4_strike_screen.py": "48a0d60a382c11bb1919ea50713e3a59f71fc4b721a41479a9374da85cb1616b"
+    "scripts/validate_system1_v4_strike_screen.py": "48a0d60a382c11bb1919ea50713e3a59f71fc4b721a41479a9374da85cb1616b",
+    "scripts/publish_system1_v4_new_local_screens.py": "b7aad111664374c1a408fca1fd4e6423e0c3c40e5287bc3dc7a85a10fc1cc680",
+    "scripts/validate_system1_v4_new_local_screens.py": "2f41f555da6426f33e90df66daa6bdb437b5d51f00ac9ee9b7a7c64dc5cef07f"
   },
   "directory_layout": {
     "version": "high-level-layout-2026-10-22-v1",

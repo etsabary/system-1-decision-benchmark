@@ -24,4 +24,7 @@ jobs:
       - run: python3 scripts/validate_system1_v4_hosted.py results/releases/system1_v4_strike_screen_2026-11-04 results/releases/system1_v4_2026-11-02
       - run: python3 scripts/validate_system1_v4_presentation.py results/releases/system1_v4_strike_screen_2026-11-04
       - run: python3 scripts/validate_system1_v4_strike_screen.py results/releases/system1_v4_strike_screen_2026-11-04 results/releases/system1_v4_local_screens_2026-11-02
-      - run: diff -qr docs/v4 results/releases/system1_v4_strike_screen_2026-11-04
+      - run: python3 scripts/validate_system1_v4_hosted.py results/releases/system1_v4_new_local_screens_2026-11-04 results/releases/system1_v4_2026-11-02
+      - run: python3 scripts/validate_system1_v4_presentation.py results/releases/system1_v4_new_local_screens_2026-11-04
+      - run: python3 scripts/validate_system1_v4_new_local_screens.py results/releases/system1_v4_new_local_screens_2026-11-04 results/releases/system1_v4_strike_screen_2026-11-04
+      - run: diff -qr docs/v4 results/releases/system1_v4_new_local_screens_2026-11-04

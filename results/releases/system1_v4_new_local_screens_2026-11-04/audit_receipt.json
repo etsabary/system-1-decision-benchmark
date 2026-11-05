@@ -1,0 +1,12 @@
+{
+  "previous_v4_manifest_sha256": "0595936010be1351ca6d047a2346d0d4071ca49c1cb75455d83ee93f7d8ec732",
+  "models_added": [
+    "levanto_sage_2"
+  ],
+  "questions": 2157,
+  "category_count": 43,
+  "base_models_retained": 28,
+  "individual_timing_records": 62553,
+  "individual_cost_records": 62553,
+  "source_and_key_limit": "Public AQuA and MAIQ questions remain subject to source and selection caveats; original source keys were reviewed but are not proven error-free."
+}
