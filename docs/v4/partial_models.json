@@ -140,37 +140,5 @@
       "local.truncation": "Reject overlong requests; preserve full state"
     },
     "cost_status": "local_unmetered"
-  },
-  {
-    "status": "incomplete_not_in_full_bank_rankings",
-    "model": "H2O Lightning E4B NF4",
-    "provider_model_id": "h2o-lightning:e4b-nf4",
-    "sample_n": 20,
-    "sample_usable": 16,
-    "sample_correct": 6,
-    "median_usable_ms": 929.597312991973,
-    "p95_usable_ms": 2348.2028127473313,
-    "reference_correct_same_inputs": {
-      "sage": 14,
-      "subq": 15
-    },
-    "stop_reason": "unusable_fraction_at_least_5_percent",
-    "records_digest_sha256": "c18a3e62ae3fb8d1f0948dffa71d4bddd13ec29d2e8d1cc969edd0dcb697fee7",
-    "catalog_digest": "fd127276013d7f0192588a11caf55ebc869603c1f035a5de68f70e41ecd9f4de",
-    "configuration": {
-      "local.device": "cuda:0",
-      "local.cpu_fallback": false,
-      "local.precision": "local NF4 linears/PLE; INT8 input embeddings; FP32 CUDA compute/readout",
-      "local.max_prompt_tokens": 1024,
-      "local.source_revision": "97d587330cf3ebfb0eae5a9c86f90f1d38d1243d",
-      "local.attention": "bidirectional full attention; causal sliding attention",
-      "local.interface": "POST /v1/systemone",
-      "local.quantization": true,
-      "local.quantization_changes_probabilities": true,
-      "local.vision": false,
-      "local.score_readout": "provider expected zero-based ordinal level",
-      "local.truncation": "Reject overlong requests; preserve full state"
-    },
-    "cost_status": "local_unmetered"
   }
 ]
