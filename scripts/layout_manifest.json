@@ -1923,7 +1923,7 @@
     ".github/workflows/october18-validate.yml": "2d734b66b0b2907436e6d8f67c431b540bbe6b3d95a8dcf0ff537bc36ad18427",
     ".github/workflows/validate.yml": "ae90d0b1edc38655788118f221492ab30ad601cb7c4e1c3b89615ae70aaa89d1",
     ".gitignore": "ff765c542120d3df771ef9a40cc7e3a854e5258b875c1d2d59a1134b6895324e",
-    "README.md": "335c97a500e74ca0c6bbd4b726d7cc5b56afd202f77e5a6f912ec8f945eedd34",
+    "README.md": "404167bf57884035306f15b9d51ff4f6efae2b7aedeedf3f0857c05d2b78e399",
     "data/README.md": "2a90c24ca4256a3e8bbad36c23059d39b36cd0b32853a3b6355554a060381004",
     "docs/functions.html": "320628c93e6866c358e605bb4f2169cd711f232791928c0b9a33af7fac058a8a",
     "docs/index.html": "931d2275c984b5f61c735b76d691fb89f9a641c93381c0209de4e35caff98d7a",
@@ -2139,7 +2139,7 @@
     "scripts/publish_system1_v4.py": "01d505b4a85277a1561a5c44ff8abf352ac41b7174fbf07f58baf2dadd493d6b",
     "scripts/validate_system1_v4.py": "16f7bf9ec6814b65be1b2a1a128d3af9136a8311a4b3bab45732858337a20a36",
     "scripts/validate_system1_v4_presentation.py": "edd879ca2146e38be5d5ae6350f82f2f0df5a1a63e7ae93b98e0b4c4a689d0d7",
-    ".github/workflows/system1-v4.yml": "3c81729df84df5f267d9493413197a1413901bcc75e204a8dc1646acddec7d22",
+    ".github/workflows/system1-v4.yml": "bbfbe1d0443226c2b7562ca5d6507e62e560ff289e674b13e38627e34ea9b1a7",
     "scripts/publish_system1_v4_hosted.py": "0be683e26683924d42b7f3a2ba120b353bd86c966e92fe9b676ce7d019217ebc",
     "scripts/validate_system1_v4_hosted.py": "637936d621f3ce108074a7832b03f41ee08680e7cfeb89e3a445a726b5600c23",
     "scripts/publish_system1_v4_kai_note.py": "3025a46c4b58fce26d39576507b9180c49868fe3118e6bf56fe245a98ec51e84",
@@ -2157,7 +2157,10 @@
     "scripts/validate_system1_v4_remove_h2o_e4b.py": "2b844e679e6040ff662a7d7144a12dc26f6d35e4f1675c40ee64122af2a3f6a1",
     "scripts/publish_system1_v4_prism.py": "4fe693a52e5cf294095d03001ed61a6515085ee28ca7d047c254f9653de09901",
     "scripts/finish_system1_v4_prism.py": "9ef30431bc7b2cadfc0d0b28a50f2a39f9c32ef43063067725a24f9bc43580f2",
-    "scripts/validate_system1_v4_prism.py": "0b8065139c26bd4eb6a0709e59d5647b71d70b3aa2ca8330a8e8c2efbc3e5e91"
+    "scripts/validate_system1_v4_prism.py": "0b8065139c26bd4eb6a0709e59d5647b71d70b3aa2ca8330a8e8c2efbc3e5e91",
+    "scripts/publish_system1_v4_super_decider.py": "d44def007d15c86b219af7d184a4103323af2f8d92da0b50af8e814f1b7ac695",
+    "scripts/finish_system1_v4_super_decider.py": "453e3251ca2d2280eeddf63e63d7b3a5db64bd99d87bd8de4c1598058d3ab09d",
+    "scripts/validate_system1_v4_super_decider.py": "931936e4cd109352cc381ddcdbacd8365d8551d7de7d999554a145ad08368d40"
   },
   "directory_layout": {
     "version": "high-level-layout-2026-10-22-v1",

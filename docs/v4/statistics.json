@@ -861,6 +861,32 @@
       },
       "new_request_failures": 0,
       "new_collection_limit": "Full v4 input set was collected in a sequential, answer-blind session using first model answers. No-answer transient failures were retried; their latency and any associated charges are excluded. Costs are estimates based on INR 4 per million input tokens and the provider illustrative conversion of INR 90 per USD, excluding tax; actual credits or charges may differ. Reported times include network and client overhead; prior models used different sessions and concurrency."
+    },
+    "super_decider": {
+      "model_id": "super_decider",
+      "label": "Super Decider",
+      "configuration": "Super Decider \u00b7 thinking off requested \u00b7 direct API",
+      "role": "Hosted native",
+      "n": 2157,
+      "correct": 1370,
+      "accuracy": 0.6351414000927214,
+      "valid": 2157,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.6351414000927214,
+      "accuracy_upper_if_all_unusable_correct": 0.6351414000927214,
+      "macro_category_accuracy": 0.6555057653948502,
+      "added_correct": 58,
+      "added_n": 140,
+      "added_usable": 140,
+      "mean_ms": 217.541448715473,
+      "median_ms": 211.7419999849517,
+      "p95_ms": 256.0959671973251,
+      "identity_limit": "Exact provider-returned model identifier; hidden weights and effective thinking mode are not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-05": 2157
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "Full v4 input set was collected in a sequential answer-blind session using first model answers. Thinking off was requested; the API does not independently attest effective mode. No-answer transient failures, if any, and retry waits are excluded from selected-answer time and cost. The account catalogue labelled the model Free; USD cost is an estimate at the product-page rate of $0.03 per million input tokens, not an actual charge and may not apply. Prior models used different sessions and concurrency."
     }
   },
   "ranked_model_ids": [
@@ -887,7 +913,8 @@
     "elephant1",
     "sarvam_prism",
     "local_startlux_instant4b",
-    "liquid_d1"
+    "liquid_d1",
+    "super_decider"
   ],
   "below_cutoff": [
     "local_d3_flash_artemis_iq3_m",

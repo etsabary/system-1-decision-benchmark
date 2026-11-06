@@ -1,12 +1,12 @@
 {
-  "previous_v4_manifest_sha256": "f42fec9db69cfecbe64a5adb4a3ddf82549accbb55fd8d130910fb356c4400bb",
+  "previous_v4_manifest_sha256": "afb06004ad49664ab7f4c54e3ccb389bde68b4ebf911dffe1c54b65e83dc0daa",
   "models_added": [
-    "sarvam_prism"
+    "super_decider"
   ],
   "questions": 2157,
   "category_count": 43,
-  "base_models_retained": 29,
-  "individual_timing_records": 64710,
-  "individual_cost_records": 64710,
+  "base_models_retained": 30,
+  "individual_timing_records": 66867,
+  "individual_cost_records": 66867,
   "source_and_key_limit": "Public AQuA and MAIQ questions remain subject to source and selection caveats; original source keys were reviewed but are not proven error-free."
 }
