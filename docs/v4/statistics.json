@@ -835,6 +835,32 @@
       },
       "new_request_failures": 0,
       "new_collection_limit": "Full v4 input set was collected in a new answer-blind session using two concurrent workers, reasoning explicitly off, and first model answers. Two returned choices disagreed with the highest probability in the same response; the original returned choices were scored without substitution. Cost is estimated at the published provider $0.05 per million input token rate; account-specific rates may differ. Reported times include network and client overhead; prior models used different sessions and concurrency."
+    },
+    "sarvam_prism": {
+      "model_id": "sarvam_prism",
+      "label": "Sarvam Prism",
+      "configuration": "Sarvam Prism \u00b7 direct API",
+      "role": "Hosted native",
+      "n": 2157,
+      "correct": 1380,
+      "accuracy": 0.6397774687065368,
+      "valid": 2157,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.6397774687065368,
+      "accuracy_upper_if_all_unusable_correct": 0.6397774687065368,
+      "macro_category_accuracy": 0.6384565134956227,
+      "added_correct": 85,
+      "added_n": 140,
+      "added_usable": 140,
+      "mean_ms": 420.4589929710167,
+      "median_ms": 407.36570800072514,
+      "p95_ms": 465.45778341824183,
+      "identity_limit": "Exact provider-returned model identifier; hidden weights are not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-05": 2157
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "Full v4 input set was collected in a sequential, answer-blind session using first model answers. No-answer transient failures were retried; their latency and any associated charges are excluded. Costs are estimates based on INR 4 per million input tokens and the provider illustrative conversion of INR 90 per USD, excluding tax; actual credits or charges may differ. Reported times include network and client overhead; prior models used different sessions and concurrency."
     }
   },
   "ranked_model_ids": [
@@ -859,6 +885,7 @@
     "mercury_decide",
     "celeris11_decision",
     "elephant1",
+    "sarvam_prism",
     "local_startlux_instant4b",
     "liquid_d1"
   ],
