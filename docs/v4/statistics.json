@@ -33,8 +33,8 @@
     },
     "reference_sol": {
       "model_id": "reference_sol",
-      "label": "GPT-6 Sol \u00b7 no reasoning",
-      "configuration": "GPT-6 Sol \u2014 reasoning none (OpenAI standard route)",
+      "label": "GPT-6 Sol · no reasoning",
+      "configuration": "GPT-6 Sol — reasoning none (OpenAI standard route)",
       "role": "LLM reference",
       "n": 2157,
       "correct": 1760,
@@ -326,8 +326,8 @@
     },
     "reference_sonnet": {
       "model_id": "reference_sonnet",
-      "label": "Sonnet 5.5 \u00b7 no thinking",
-      "configuration": "Claude Sonnet 5.5 \u2014 no thinking (between_tools, no tools), JSON-choice (Anthropic standard)",
+      "label": "Sonnet 5.5 · no thinking",
+      "configuration": "Claude Sonnet 5.5 — no thinking (between_tools, no tools), JSON-choice (Anthropic standard)",
       "role": "LLM reference",
       "n": 2157,
       "correct": 1583,
@@ -384,8 +384,8 @@
     },
     "reference_opus5": {
       "model_id": "reference_opus5",
-      "label": "Opus 5 \u00b7 no thinking",
-      "configuration": "Claude Opus 5 \u2014 thinking disabled, JSON-choice (Anthropic standard)",
+      "label": "Opus 5 · no thinking",
+      "configuration": "Claude Opus 5 — thinking disabled, JSON-choice (Anthropic standard)",
       "role": "LLM reference",
       "n": 2157,
       "correct": 1569,
@@ -761,7 +761,7 @@
     "subq_snap_1_1": {
       "model_id": "subq_snap_1_1",
       "label": "SubQ Snap 1.1",
-      "configuration": "SubQ Snap 1.1 \u00b7 Subquadratic direct API",
+      "configuration": "SubQ Snap 1.1 · Subquadratic direct API",
       "role": "Hosted native",
       "n": 2157,
       "correct": 1644,
@@ -787,7 +787,7 @@
     "meragpt_decider1": {
       "model_id": "meragpt_decider1",
       "label": "meraGPT Decider 1",
-      "configuration": "meraGPT Decider 1 \u00b7 direct API",
+      "configuration": "meraGPT Decider 1 · direct API",
       "role": "Hosted native",
       "n": 2157,
       "correct": 620,
@@ -813,7 +813,7 @@
     "levanto_sage_2": {
       "model_id": "levanto_sage_2",
       "label": "Levanto Sage 2",
-      "configuration": "Levanto Sage 2 \u00b7 reasoning off \u00b7 direct API",
+      "configuration": "Levanto Sage 2 · reasoning off · direct API",
       "role": "Hosted native",
       "n": 2157,
       "correct": 1530,
@@ -839,7 +839,7 @@
     "sarvam_prism": {
       "model_id": "sarvam_prism",
       "label": "Sarvam Prism",
-      "configuration": "Sarvam Prism \u00b7 direct API",
+      "configuration": "Sarvam Prism · direct API",
       "role": "Hosted native",
       "n": 2157,
       "correct": 1380,
@@ -865,7 +865,7 @@
     "super_decider": {
       "model_id": "super_decider",
       "label": "Super Decider",
-      "configuration": "Super Decider \u00b7 thinking off requested \u00b7 direct API",
+      "configuration": "Super Decider · thinking off requested · direct API",
       "role": "Hosted native",
       "n": 2157,
       "correct": 1370,
@@ -887,9 +887,36 @@
       },
       "new_request_failures": 0,
       "new_collection_limit": "Full v4 input set was collected in a sequential answer-blind session using first model answers. Thinking off was requested; the API does not independently attest effective mode. No-answer transient failures, if any, and retry waits are excluded from selected-answer time and cost. The account catalogue labelled the model Free; USD cost is an estimate at the product-page rate of $0.03 per million input tokens, not an actual charge and may not apply. Prior models used different sessions and concurrency."
+    },
+    "reference_terra61": {
+      "model_id": "reference_terra61",
+      "label": "GPT-6.1 Terra · no reasoning",
+      "configuration": "GPT-6.1 Terra · reasoning none · OpenAI standard route through OpenRouter · 20261026 checkpoint",
+      "role": "LLM reference",
+      "n": 2157,
+      "correct": 1889,
+      "accuracy": 0.875753361149745,
+      "valid": 2155,
+      "coverage": 0.999072786277237,
+      "answer_accuracy_among_usable": 0.8765661252900232,
+      "accuracy_upper_if_all_unusable_correct": 0.8766805748725082,
+      "macro_category_accuracy": 0.8837855791322414,
+      "added_correct": 113,
+      "added_n": 140,
+      "added_usable": 140,
+      "mean_ms": 1230.3750481376155,
+      "median_ms": 1155.2855830523185,
+      "p95_ms": 1736.2945246044535,
+      "identity_limit": "Pinned OpenAI standard route. Returned aliases and October 26 serving declaration checked; hidden weights are not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-06": 2157
+      },
+      "new_request_failures": 2,
+      "new_collection_limit": "Reasoning disabled in every request; every successful response explicitly reported zero reasoning tokens and no reasoning text. Full bank, two concurrent requests, same short-output contract and HTTPS timer as Sol. 2 DNS failures before connection are preserved as unsuccessful primaries, never retried. Remaining unattempted inputs resumed after read-only connectivity recovery. Cost is API-reported for successful requests; the client failures have no charge telemetry. This is a separate new reference, not a replacement for GPT-6 Sol."
     }
   },
   "ranked_model_ids": [
+    "reference_terra61",
     "reference_sol",
     "d3_ultra",
     "fastino_glide_v23_bf16",

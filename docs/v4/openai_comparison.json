@@ -1,0 +1,409 @@
+{
+  "terra": {
+    "correct": 1889,
+    "n": 2157,
+    "accuracy": 0.875753361149745,
+    "median_ms": 1155.2855830523185,
+    "p95_ms": 1736.2945246044535,
+    "reported_subtotal_usd": "0.98025050",
+    "unknown_charges": 2
+  },
+  "sol": {
+    "correct": 1760,
+    "n": 2157,
+    "accuracy": 0.8159480760315253,
+    "median_ms": 991.7460000142455,
+    "p95_ms": 1526.720008184202
+  },
+  "difference_percentage_points": 5.980528511821969,
+  "categories": [
+    {
+      "family_id": "F01",
+      "family": "Lookup and filtering",
+      "n": 43,
+      "terra_correct": 42,
+      "sol_correct": 42,
+      "difference_correct": 0,
+      "difference_percentage_points": 0.0
+    },
+    {
+      "family_id": "F02",
+      "family": "Forward conditionals",
+      "n": 46,
+      "terra_correct": 45,
+      "sol_correct": 45,
+      "difference_correct": 0,
+      "difference_percentage_points": 0.0
+    },
+    {
+      "family_id": "F03",
+      "family": "Necessary conditions",
+      "n": 52,
+      "terra_correct": 50,
+      "sol_correct": 52,
+      "difference_correct": -2,
+      "difference_percentage_points": -3.8461538461538436
+    },
+    {
+      "family_id": "F04",
+      "family": "Boolean scope",
+      "n": 54,
+      "terra_correct": 51,
+      "sol_correct": 53,
+      "difference_correct": -2,
+      "difference_percentage_points": -3.703703703703709
+    },
+    {
+      "family_id": "F05",
+      "family": "Quantifiers and sets",
+      "n": 49,
+      "terra_correct": 49,
+      "sol_correct": 46,
+      "difference_correct": 3,
+      "difference_percentage_points": 6.122448979591832
+    },
+    {
+      "family_id": "F06",
+      "family": "Comparisons",
+      "n": 40,
+      "terra_correct": 38,
+      "sol_correct": 38,
+      "difference_correct": 0,
+      "difference_percentage_points": 0.0
+    },
+    {
+      "family_id": "F07",
+      "family": "Scheduling",
+      "n": 76,
+      "terra_correct": 61,
+      "sol_correct": 56,
+      "difference_correct": 5,
+      "difference_percentage_points": 6.578947368421062
+    },
+    {
+      "family_id": "F08",
+      "family": "One-to-one assignments",
+      "n": 67,
+      "terra_correct": 64,
+      "sol_correct": 61,
+      "difference_correct": 3,
+      "difference_percentage_points": 4.477611940298509
+    },
+    {
+      "family_id": "F09",
+      "family": "Exact truth counting",
+      "n": 71,
+      "terra_correct": 53,
+      "sol_correct": 51,
+      "difference_correct": 2,
+      "difference_percentage_points": 2.8169014084507005
+    },
+    {
+      "family_id": "F10",
+      "family": "Truth-teller consistency",
+      "n": 74,
+      "terra_correct": 55,
+      "sol_correct": 38,
+      "difference_correct": 17,
+      "difference_percentage_points": 22.972972972972972
+    },
+    {
+      "family_id": "F11",
+      "family": "Sufficiency and inconsistency",
+      "n": 41,
+      "terra_correct": 41,
+      "sol_correct": 37,
+      "difference_correct": 4,
+      "difference_percentage_points": 9.756097560975608
+    },
+    {
+      "family_id": "F12",
+      "family": "Object swaps",
+      "n": 52,
+      "terra_correct": 38,
+      "sol_correct": 32,
+      "difference_correct": 6,
+      "difference_percentage_points": 11.538461538461531
+    },
+    {
+      "family_id": "F13",
+      "family": "Sequential procedures",
+      "n": 48,
+      "terra_correct": 26,
+      "sol_correct": 18,
+      "difference_correct": 8,
+      "difference_percentage_points": 16.666666666666664
+    },
+    {
+      "family_id": "F14",
+      "family": "Temporal intervals",
+      "n": 42,
+      "terra_correct": 39,
+      "sol_correct": 40,
+      "difference_correct": -1,
+      "difference_percentage_points": -2.3809523809523725
+    },
+    {
+      "family_id": "F15",
+      "family": "Spatial tracking",
+      "n": 49,
+      "terra_correct": 45,
+      "sol_correct": 43,
+      "difference_correct": 2,
+      "difference_percentage_points": 4.081632653061229
+    },
+    {
+      "family_id": "F16",
+      "family": "Reference binding",
+      "n": 50,
+      "terra_correct": 41,
+      "sol_correct": 38,
+      "difference_correct": 3,
+      "difference_percentage_points": 5.999999999999995
+    },
+    {
+      "family_id": "F17",
+      "family": "Beliefs and perspectives",
+      "n": 50,
+      "terra_correct": 47,
+      "sol_correct": 45,
+      "difference_correct": 2,
+      "difference_percentage_points": 3.9999999999999925
+    },
+    {
+      "family_id": "F18",
+      "family": "Causal intervention",
+      "n": 50,
+      "terra_correct": 48,
+      "sol_correct": 44,
+      "difference_correct": 4,
+      "difference_percentage_points": 7.9999999999999964
+    },
+    {
+      "family_id": "F19",
+      "family": "Exceptions and priorities",
+      "n": 58,
+      "terra_correct": 58,
+      "sol_correct": 57,
+      "difference_correct": 1,
+      "difference_percentage_points": 1.7241379310344862
+    },
+    {
+      "family_id": "F20",
+      "family": "Planning",
+      "n": 43,
+      "terra_correct": 41,
+      "sol_correct": 39,
+      "difference_correct": 2,
+      "difference_percentage_points": 4.651162790697683
+    },
+    {
+      "family_id": "F21",
+      "family": "Directed reachability",
+      "n": 43,
+      "terra_correct": 40,
+      "sol_correct": 41,
+      "difference_correct": -1,
+      "difference_percentage_points": -2.3255813953488413
+    },
+    {
+      "family_id": "F22",
+      "family": "Preference ordering",
+      "n": 51,
+      "terra_correct": 49,
+      "sol_correct": 48,
+      "difference_correct": 1,
+      "difference_percentage_points": 1.9607843137254943
+    },
+    {
+      "family_id": "F23",
+      "family": "Rule counterexamples",
+      "n": 52,
+      "terra_correct": 51,
+      "sol_correct": 52,
+      "difference_correct": -1,
+      "difference_percentage_points": -1.9230769230769273
+    },
+    {
+      "family_id": "F24",
+      "family": "Authority and stale records",
+      "n": 43,
+      "terra_correct": 43,
+      "sol_correct": 42,
+      "difference_correct": 1,
+      "difference_percentage_points": 2.3255813953488413
+    },
+    {
+      "family_id": "F25",
+      "family": "Fault diagnosis",
+      "n": 50,
+      "terra_correct": 48,
+      "sol_correct": 49,
+      "difference_correct": -1,
+      "difference_percentage_points": -2.0000000000000018
+    },
+    {
+      "family_id": "F26",
+      "family": "Probabilistic risk",
+      "n": 40,
+      "terra_correct": 31,
+      "sol_correct": 29,
+      "difference_correct": 2,
+      "difference_percentage_points": 5.000000000000004
+    },
+    {
+      "family_id": "F27",
+      "family": "Value of information",
+      "n": 40,
+      "terra_correct": 23,
+      "sol_correct": 24,
+      "difference_correct": -1,
+      "difference_percentage_points": -2.500000000000002
+    },
+    {
+      "family_id": "F28",
+      "family": "Robust decisions without a prior",
+      "n": 40,
+      "terra_correct": 20,
+      "sol_correct": 15,
+      "difference_correct": 5,
+      "difference_percentage_points": 12.5
+    },
+    {
+      "family_id": "F29",
+      "family": "Strategic decisions",
+      "n": 40,
+      "terra_correct": 40,
+      "sol_correct": 34,
+      "difference_correct": 6,
+      "difference_percentage_points": 15.000000000000002
+    },
+    {
+      "family_id": "F30",
+      "family": "Concurrent-history consistency",
+      "n": 40,
+      "terra_correct": 34,
+      "sol_correct": 30,
+      "difference_correct": 4,
+      "difference_percentage_points": 9.999999999999998
+    },
+    {
+      "family_id": "F31",
+      "family": "Information-flow security",
+      "n": 40,
+      "terra_correct": 38,
+      "sol_correct": 33,
+      "difference_correct": 5,
+      "difference_percentage_points": 12.5
+    },
+    {
+      "family_id": "F32",
+      "family": "Numerical pattern recognition",
+      "n": 23,
+      "terra_correct": 20,
+      "sol_correct": 18,
+      "difference_correct": 2,
+      "difference_percentage_points": 8.695652173913038
+    },
+    {
+      "family_id": "F33",
+      "family": "Quantitative reasoning",
+      "n": 200,
+      "terra_correct": 160,
+      "sol_correct": 145,
+      "difference_correct": 15,
+      "difference_percentage_points": 7.500000000000007
+    },
+    {
+      "family_id": "P01",
+      "family": "Understanding requests and routing",
+      "n": 40,
+      "terra_correct": 39,
+      "sol_correct": 36,
+      "difference_correct": 3,
+      "difference_percentage_points": 7.499999999999996
+    },
+    {
+      "family_id": "P02",
+      "family": "Recognizing multiple requested actions",
+      "n": 40,
+      "terra_correct": 40,
+      "sol_correct": 40,
+      "difference_correct": 0,
+      "difference_percentage_points": 0.0
+    },
+    {
+      "family_id": "P03",
+      "family": "Tracking current conversational intention",
+      "n": 40,
+      "terra_correct": 40,
+      "sol_correct": 36,
+      "difference_correct": 4,
+      "difference_percentage_points": 9.999999999999998
+    },
+    {
+      "family_id": "P04",
+      "family": "Selecting a tool or requesting clarification",
+      "n": 40,
+      "terra_correct": 23,
+      "sol_correct": 22,
+      "difference_correct": 1,
+      "difference_percentage_points": 2.499999999999991
+    },
+    {
+      "family_id": "P05",
+      "family": "Checking authorization and scope",
+      "n": 40,
+      "terra_correct": 40,
+      "sol_correct": 30,
+      "difference_correct": 10,
+      "difference_percentage_points": 25.0
+    },
+    {
+      "family_id": "P06",
+      "family": "Making decisions with untrusted content",
+      "n": 40,
+      "terra_correct": 40,
+      "sol_correct": 40,
+      "difference_correct": 0,
+      "difference_percentage_points": 0.0
+    },
+    {
+      "family_id": "P07",
+      "family": "Applying a contextual content policy",
+      "n": 40,
+      "terra_correct": 38,
+      "sol_correct": 39,
+      "difference_correct": -1,
+      "difference_percentage_points": -2.500000000000002
+    },
+    {
+      "family_id": "P08",
+      "family": "Extracting and normalizing facts",
+      "n": 40,
+      "terra_correct": 32,
+      "sol_correct": 23,
+      "difference_correct": 9,
+      "difference_percentage_points": 22.500000000000007
+    },
+    {
+      "family_id": "P09",
+      "family": "Checking claims against supplied evidence",
+      "n": 40,
+      "terra_correct": 34,
+      "sol_correct": 28,
+      "difference_correct": 6,
+      "difference_percentage_points": 15.000000000000002
+    },
+    {
+      "family_id": "P10",
+      "family": "Assigning severity or priority from a rubric",
+      "n": 40,
+      "terra_correct": 34,
+      "sol_correct": 31,
+      "difference_correct": 3,
+      "difference_percentage_points": 7.499999999999996
+    }
+  ],
+  "limits": "Descriptive same-bank comparison; configurations and collection dates differ. Category counts include dependent variants. Luna has a separate partial expansion denominator."
+}

@@ -1923,7 +1923,7 @@
     ".github/workflows/october18-validate.yml": "2d734b66b0b2907436e6d8f67c431b540bbe6b3d95a8dcf0ff537bc36ad18427",
     ".github/workflows/validate.yml": "ae90d0b1edc38655788118f221492ab30ad601cb7c4e1c3b89615ae70aaa89d1",
     ".gitignore": "ff765c542120d3df771ef9a40cc7e3a854e5258b875c1d2d59a1134b6895324e",
-    "README.md": "404167bf57884035306f15b9d51ff4f6efae2b7aedeedf3f0857c05d2b78e399",
+    "README.md": "665b2ff03e19e0e50bc711e1558ee58c1adeb01dc2222c0dbc4321b71699a610",
     "data/README.md": "2a90c24ca4256a3e8bbad36c23059d39b36cd0b32853a3b6355554a060381004",
     "docs/functions.html": "320628c93e6866c358e605bb4f2169cd711f232791928c0b9a33af7fac058a8a",
     "docs/index.html": "931d2275c984b5f61c735b76d691fb89f9a641c93381c0209de4e35caff98d7a",
@@ -2139,7 +2139,7 @@
     "scripts/publish_system1_v4.py": "01d505b4a85277a1561a5c44ff8abf352ac41b7174fbf07f58baf2dadd493d6b",
     "scripts/validate_system1_v4.py": "16f7bf9ec6814b65be1b2a1a128d3af9136a8311a4b3bab45732858337a20a36",
     "scripts/validate_system1_v4_presentation.py": "edd879ca2146e38be5d5ae6350f82f2f0df5a1a63e7ae93b98e0b4c4a689d0d7",
-    ".github/workflows/system1-v4.yml": "bbfbe1d0443226c2b7562ca5d6507e62e560ff289e674b13e38627e34ea9b1a7",
+    ".github/workflows/system1-v4.yml": "160f3d7a03bc8e56cfedf3f8ea16f732b13479ecf86c8eefa9eb328bb43b6d45",
     "scripts/publish_system1_v4_hosted.py": "0be683e26683924d42b7f3a2ba120b353bd86c966e92fe9b676ce7d019217ebc",
     "scripts/validate_system1_v4_hosted.py": "637936d621f3ce108074a7832b03f41ee08680e7cfeb89e3a445a726b5600c23",
     "scripts/publish_system1_v4_kai_note.py": "3025a46c4b58fce26d39576507b9180c49868fe3118e6bf56fe245a98ec51e84",
@@ -2160,7 +2160,10 @@
     "scripts/validate_system1_v4_prism.py": "0b8065139c26bd4eb6a0709e59d5647b71d70b3aa2ca8330a8e8c2efbc3e5e91",
     "scripts/publish_system1_v4_super_decider.py": "d44def007d15c86b219af7d184a4103323af2f8d92da0b50af8e814f1b7ac695",
     "scripts/finish_system1_v4_super_decider.py": "453e3251ca2d2280eeddf63e63d7b3a5db64bd99d87bd8de4c1598058d3ab09d",
-    "scripts/validate_system1_v4_super_decider.py": "931936e4cd109352cc381ddcdbacd8365d8551d7de7d999554a145ad08368d40"
+    "scripts/validate_system1_v4_super_decider.py": "931936e4cd109352cc381ddcdbacd8365d8551d7de7d999554a145ad08368d40",
+    "scripts/publish_system1_v4_openai_2026_11_06.py": "215c127b434dd631f15a62964d497adaa673f8e3be51e404803846385aa454c2",
+    "scripts/finish_system1_v4_openai_2026_11_06.py": "de50b7cbebf51c7ee7f8e5bd179eeccb4371e1b7d725023c1eafdde5788d557b",
+    "scripts/validate_system1_v4_openai_2026_11_06.py": "3227c49cdcb6fedb6435a2bcdc21989e71d41fe162ccbf7811a0bfc69efe343a"
   },
   "directory_layout": {
     "version": "high-level-layout-2026-10-22-v1",

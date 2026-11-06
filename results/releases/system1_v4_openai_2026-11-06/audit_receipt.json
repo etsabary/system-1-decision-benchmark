@@ -1,0 +1,18 @@
+{
+  "previous_v4_manifest_sha256": "188a25bba2df80259add001a4bfbbf93a71279aa0274e38f9add069c121697c6",
+  "models_added": [
+    "reference_terra61"
+  ],
+  "partial_native_model": "luna_decisions",
+  "questions": 2157,
+  "category_count": 43,
+  "base_models_retained": 31,
+  "individual_timing_records": 69024,
+  "individual_cost_records": 69024,
+  "explicit_zero_reasoning_successful_records": 2155,
+  "failed_primary_records_retained": 2,
+  "source_records_digest": "1ff230e0a86552cbdabe962a69811d2db8cb0ab8b27aaf297fff25e4bf744b3f",
+  "audit_script_sha256": "6804ddfb88c3d5ec77bdf84ebaa81e99c9a5767bcfd5b578662cce6a577295b0",
+  "private_audit_sha256": "9c889c9ed1d86151162e3c9ab1c54a889a2060759fd21876f4eb3ad111371c6e",
+  "source_and_key_limit": "Frozen v4 question text, source terms, key reviews and selection limitations retained. Native Decisions API feature changes do not establish a new model checkpoint."
+}

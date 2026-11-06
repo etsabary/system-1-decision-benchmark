@@ -140,5 +140,34 @@
       "local.truncation": "Reject overlong requests; preserve full state"
     },
     "cost_status": "local_unmetered"
+  },
+  {
+    "status": "incomplete_not_in_full_bank_rankings",
+    "model": "GPT-6 Luna Decisions · unchanged October 6 checkpoint",
+    "provider_model_id": "openai/gpt-6-luna-decisions",
+    "model_reported_checkpoint": "openai/gpt-6-luna-decisions-20261006",
+    "sample_n": 181,
+    "sample_usable": 180,
+    "sample_correct": 82,
+    "sample_accuracy": 0.4530386740331492,
+    "median_ms": 282.9971250030212,
+    "p95_ms": 546.035417006351,
+    "reported_charge_usd": "0.0126638",
+    "reported_charge_count": 180,
+    "unknown_charge_count": 1,
+    "terra_correct_on_same_inputs": 159,
+    "reused_baseline": {
+      "n": 1342,
+      "correct": 758,
+      "valid": 1300,
+      "accuracy": 0.5648286140089419
+    },
+    "stopping_reason": "New-input accuracy below 50 percent at n>=100",
+    "stop_trigger_n": 180,
+    "final_in_flight_settled_n": 181,
+    "new_inputs_planned": 815,
+    "unattempted_expansion_inputs": 634,
+    "sample_method": "Seeded shuffle of only 815 inputs added since the unchanged 1,342 baseline. Stop set at n=180; one already-running request settled. This is a partial expansion sample, not a full-v4 score. No scored retries.",
+    "records_digest_sha256": "b2b3c23193b2f7fd48354ed9333e8a6f8024a5f80879c6a8491350f67bc3895f"
   }
 ]

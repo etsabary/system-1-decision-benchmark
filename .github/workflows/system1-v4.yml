@@ -36,4 +36,6 @@ jobs:
       - run: python3 scripts/validate_system1_v4_hosted.py results/releases/system1_v4_super_decider_2026-11-05 results/releases/system1_v4_2026-11-02
       - run: python3 scripts/validate_system1_v4_presentation.py results/releases/system1_v4_super_decider_2026-11-05
       - run: python3 scripts/validate_system1_v4_super_decider.py results/releases/system1_v4_super_decider_2026-11-05 results/releases/system1_v4_prism_2026-11-05
-      - run: diff -qr docs/v4 results/releases/system1_v4_super_decider_2026-11-05
+      - run: python3 scripts/validate_system1_v4_openai_2026_11_06.py results/releases/system1_v4_openai_2026-11-06 results/releases/system1_v4_super_decider_2026-11-05
+      - run: python3 scripts/validate_system1_v4_presentation.py results/releases/system1_v4_openai_2026-11-06
+      - run: diff -qr docs/v4 results/releases/system1_v4_openai_2026-11-06
