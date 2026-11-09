@@ -151,5 +151,17 @@ provenance against the frozen v4 release. Original v4 scores and the 62% cutoff
 remain historical; v5 has its own denominator and threshold.
 
 ```sh
-python3 scripts/validate_system1_v5_provisional_2026_11_09.py results/releases/system1_v5_provisional_2026-11-09 results/releases/system1_v4_openai_2026-11-06 --mirror docs/v5
+python3 scripts/validate_system1_v5_provisional_2026_11_09.py results/releases/system1_v5_provisional_2026-11-09 results/releases/system1_v4_openai_2026-11-06
+```
+
+## Provisional v5 hosted additions · November 9, 2026
+
+`publish_system1_v5_hosted_2026_11_09.py` adds the two audited hosted runs to
+the frozen 1,456-input bank. The validator preserves all prior 32 summaries and
+their exact individual evidence rows, verifies both new runs, and keeps native
+EUR receipts separate from USD currency-conversion estimates. The initial v5
+and all earlier dated releases remain immutable.
+
+```sh
+python3 scripts/validate_system1_v5_hosted_2026_11_09.py results/releases/system1_v5_hosted_2026-11-09 results/releases/system1_v5_provisional_2026-11-09 --mirror docs/v5
 ```

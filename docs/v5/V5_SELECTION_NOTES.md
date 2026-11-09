@@ -1,3 +1,9 @@
+# Historical initial v5 selection notes only
+
+The body below describes the initial provisional v5 release: its 32 complete configurations, 26 qualifying graph models and reuse-only score recalculation. Those counts and the statement that no new requests were made apply only to that initial release. This hosted successor adds fresh full-bank Morph Reflex and REAX 1.3 tests, with 34 complete configurations and 28 qualifying models. The original 1,456-question bank, removal set and 45% cutoff are unchanged. See [HOSTED_MODEL_NOTES.md](HOSTED_MODEL_NOTES.md) and [current results](statistics.json) for the new test sessions and current model counts. The original selection-note body is retained below as historical provenance.
+
+---
+
 # Provisional v5 selection and interpretation
 
 This result removes 701 questions correctly answered by every configuration in

@@ -1273,10 +1273,63 @@
         "n": 140,
         "usable": 140
       }
+    },
+    "morph_reflex": {
+      "model_id": "morph_reflex",
+      "label": "Morph Reflex",
+      "configuration": "Morph Reflex · native Decisions · OpenRouter Morph-only route · provider-declared BF16 · reflex-20261103",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 841,
+      "accuracy": 0.5776098901098901,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.5776098901098901,
+      "accuracy_upper_if_all_unusable_correct": 0.5776098901098901,
+      "macro_category_accuracy": 0.5817089928166961,
+      "mean_ms": 380.12221432338947,
+      "median_ms": 354.447353980504,
+      "p95_ms": 514.4687922729645,
+      "collection_dates_toronto": {
+        "2026-11-09": 1456
+      },
+      "new_request_failures": 0,
+      "identity_limit": "Pinned provider/precision and provider-returned November 3 checkpoint; hidden weights are not independently attested.",
+      "new_collection_limit": "Full frozen v5 bank, fixed answer-blind common shuffled order, two workers, exact first attempts including any failures. Returned choice is scored without argmax substitution. Readiness request is excluded. Timings include network and client overhead; other configurations were collected in different sessions.",
+      "output_tokens": 0,
+      "input_tokens": 797881,
+      "cost_qualification": "USD charge is reported by the provider on each retained first attempt; missing telemetry remains unknown."
+    },
+    "reax_1_3": {
+      "model_id": "reax_1_3",
+      "label": "REAX 1.3 · ensemble",
+      "configuration": "REAX 1.3 · native zero-generation two-model ensemble · SystemOne API · EU tier · direct provider",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 1077,
+      "accuracy": 0.7396978021978022,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.7396978021978022,
+      "accuracy_upper_if_all_unusable_correct": 0.7396978021978022,
+      "macro_category_accuracy": 0.7612585131813646,
+      "mean_ms": 986.4222141105719,
+      "median_ms": 946.3558329734951,
+      "p95_ms": 1540.643843531143,
+      "collection_dates_toronto": {
+        "2026-11-09": 1456
+      },
+      "new_request_failures": 0,
+      "identity_limit": "Provider-returned model/version and response headers pinned to reax-1.3; hidden weights are not independently attested.",
+      "new_collection_limit": "Full frozen v5 bank, fixed answer-blind common shuffled order, two workers, exact first attempts including any failures. Returned choice is scored without argmax substitution. Readiness request is excluded. Timings include network and client overhead; other configurations were collected in different sessions.",
+      "output_tokens": 0,
+      "input_tokens": 2551248,
+      "cost_qualification": "Native EUR is API-reported. All displayed comparison USD is an estimate converted using the ECB reference rate, not API-reported USD or the card/bank settlement rate. Main cost ledger USD amount columns stay empty; per-request converted amounts are in the native-currency sidecar."
     }
   },
   "ranked_model_ids": [
     "reference_terra61",
+    "reax_1_3",
     "reference_sol",
     "d3_ultra",
     "fastino_glide_v23_bf16",
@@ -1292,6 +1345,7 @@
     "kettei_fat",
     "reference_opus5",
     "respan02",
+    "morph_reflex",
     "levanto_sage_2",
     "jev114",
     "liquid11_decision",
