@@ -163,5 +163,22 @@ EUR receipts separate from USD currency-conversion estimates. The initial v5
 and all earlier dated releases remain immutable.
 
 ```sh
-python3 scripts/validate_system1_v5_hosted_2026_11_09.py results/releases/system1_v5_hosted_2026-11-09 results/releases/system1_v5_provisional_2026-11-09 --mirror docs/v5
+python3 scripts/validate_system1_v5_hosted_2026_11_09.py results/releases/system1_v5_hosted_2026-11-09 results/releases/system1_v5_provisional_2026-11-09
 ```
+
+## Drex Max v1.1 successor · November 9, 2026
+
+`publish_system1_v5_drex_2026_11_09.py` renders the independently audited native
+Nace update. The active graph can supersede older Drex Max only after an
+explicit replacement decision; its original measurements stay archival, separate
+from models below the cutoff. The validator preserves the prior 34 results,
+checks new usage-based cost estimates and native counters, and verifies all
+transport phases and the unchanged 1,456-question bank.
+
+```sh
+python3 scripts/validate_system1_v5_drex_2026_11_09.py results/releases/system1_v5_drex_2026-11-09 results/releases/system1_v5_hosted_2026-11-09
+```
+
+Dated-release commands intentionally omit an active-mirror argument so they
+continue to work after later publications. The v5 CI workflow additionally
+checks `--mirror docs/v5` for its current successor only.

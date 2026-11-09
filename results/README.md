@@ -2,9 +2,10 @@
 
 ## Current: provisional System 1 Decision Benchmark v5
 
-[1,456 questions across 43 categories](releases/system1_v5_hosted_2026-11-09/report.html), with **28 qualifying configurations at an exact 45% inclusion threshold**. All 34 complete configurations are rescored from their unchanged recorded primaries. The 701 questions universally correct for the preceding main-graph cohort are archived in v4; the prior 32 configurations are unchanged, and Morph Reflex and REAX 1.3 add 2,912 first-attempt responses.
+[1,456 questions across 43 categories](releases/system1_v5_drex_2026-11-09/report.html), with **28 qualifying configurations at an exact 45% inclusion threshold**. All 35 complete configurations are rescored from their unchanged recorded primaries. The 701 questions universally correct for the preceding main-graph cohort are archived in v4; all prior measurements are unchanged; Drex Max v1.1 replaces older Drex Max in the active graph, with the older configuration retained separately as superseded. Morph and REAX results remain unchanged.
 
-- [Scores and configurations](releases/system1_v5_hosted_2026-11-09/statistics.json), [all category scores](releases/system1_v5_hosted_2026-11-09/all_category_scores.csv), [cost evidence](releases/system1_v5_hosted_2026-11-09/cost_statistics.json) and [selection method](releases/system1_v5_hosted_2026-11-09/V5_SELECTION_NOTES.md).
+- [Scores and configurations](releases/system1_v5_drex_2026-11-09/statistics.json), [all category scores](releases/system1_v5_drex_2026-11-09/all_category_scores.csv), [cost evidence](releases/system1_v5_drex_2026-11-09/cost_statistics.json) and [selection method](releases/system1_v5_drex_2026-11-09/V5_SELECTION_NOTES.md).
+- [Preserved hosted v5, before the Drex upgrade](releases/system1_v5_hosted_2026-11-09/README_V5.md).
 - [Preserved initial provisional v5, before the two hosted additions](releases/system1_v5_provisional_2026-11-09/report.html).
 - [Preserved full v4: 2,157 questions and original 62% cutoff](releases/system1_v4_openai_2026-11-06/report.html).
 - [Preserved v3](releases/system1_v3_presentation_2026-11-01/report.html).

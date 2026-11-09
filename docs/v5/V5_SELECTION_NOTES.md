@@ -1,6 +1,6 @@
 # Historical initial v5 selection notes only
 
-The body below describes the initial provisional v5 release: its 32 complete configurations, 26 qualifying graph models and reuse-only score recalculation. Those counts and the statement that no new requests were made apply only to that initial release. This hosted successor adds fresh full-bank Morph Reflex and REAX 1.3 tests, with 34 complete configurations and 28 qualifying models. The original 1,456-question bank, removal set and 45% cutoff are unchanged. See [HOSTED_MODEL_NOTES.md](HOSTED_MODEL_NOTES.md) and [current results](statistics.json) for the new test sessions and current model counts. The original selection-note body is retained below as historical provenance.
+The original body below describes the initial 32-configuration, 26-model provisional v5 recalculation and its reuse-only inference scope. This Drex successor has 35 complete configurations and 28 active graph models. It preserves the prior Morph Reflex and REAX 1.3 sessions and adds a fresh native Drex Max v1.1 test. The 1,456-question bank, original removal cohort and 45% cutoff are unchanged. See [DREX_VERSION_NOTES.md](DREX_VERSION_NOTES.md), [prior hosted-session notes](HOSTED_MODEL_NOTES.md) and [current results](statistics.json) for the applicable versions and scopes. The original selection-note body follows as historical provenance.
 
 ---
 

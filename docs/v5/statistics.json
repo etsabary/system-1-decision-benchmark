@@ -1325,6 +1325,36 @@
       "output_tokens": 0,
       "input_tokens": 2551248,
       "cost_qualification": "Native EUR is API-reported. All displayed comparison USD is an estimate converted using the ECB reference rate, not API-reported USD or the card/bank settlement rate. Main cost ledger USD amount columns stay empty; per-request converted amounts are in the native-currency sidecar."
+    },
+    "drex_max_v11": {
+      "model_id": "drex_max_v11",
+      "label": "Drex Max v1.1 · Nace native",
+      "configuration": "Drex Max v1.1 · native Nace SystemOne API · October 28 declared release",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 996,
+      "accuracy": 0.6840659340659341,
+      "valid": 1454,
+      "coverage": 0.9986263736263736,
+      "answer_accuracy_among_usable": 0.6850068775790922,
+      "accuracy_upper_if_all_unusable_correct": 0.6854395604395604,
+      "macro_category_accuracy": 0.7260814760838081,
+      "mean_ms": 362.3896466550842,
+      "median_ms": 344.5924579864368,
+      "p95_ms": 490.100427006837,
+      "identity_limit": "Native Nace returned drex-max-v1.1; catalogue declares October 28 release. Separate provider/version from October 16 Drex Max on DeepInfra. Hidden weights and zero generation are not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-09": 1456
+      },
+      "new_request_failures": 2,
+      "input_tokens": 785099,
+      "raw_output_tokens": 238612,
+      "nonzero_output_counter_responses": 1454,
+      "zero_generation_attested": false,
+      "no_generated_reasoning_text_observed": true,
+      "output_counter_policy": "Typed native choice is accepted under the existing Drex policy despite nonzero output counters; preserve counters, do not claim zero generation.",
+      "new_collection_limit": "Full frozen v5 bank, exact common answer-blind shuffled order, first attempts only. Two no-answer HTTP 429 primaries remain unsuccessful and were not replayed. Only unattempted inputs resumed under an account-rate-limit pacing amendment; pacing waits are outside request timers. Collection concurrency/rate changed, so pooled latency is descriptive and not uniform-throughput evidence.",
+      "cost_qualification": "No monetary API charge telemetry. Successful input usage is multiplied by the captured USD0.03/M input tariff; output is not billed by that tariff. Missing failure usage stays unknown, not zero."
     }
   },
   "ranked_model_ids": [
@@ -1333,9 +1363,9 @@
     "reference_sol",
     "d3_ultra",
     "fastino_glide_v23_bf16",
+    "drex_max_v11",
     "mammoth1",
     "turion_jev31b",
-    "drex_max",
     "pplx_decider12",
     "nimble_v4_max",
     "subq_snap_1_1",
@@ -1366,5 +1396,16 @@
     "meragpt_decider1"
   ],
   "selection_bias": "Post-hoc challenge subset: removed exactly the 701 questions answered correctly by all 26 prior main-graph configurations. Scores reuse selected v4 responses; this is not an independent fresh evaluation. The original 60 AQuA items were selected for Fastino and D3 misses; the 140 new ones were selected for a miss by at least one of Fastino, Mammoth, GPT-6 Sol, D3 Ultra and Drex Max. This distributes but does not eliminate selection bias.",
-  "rights_warning": "MAIQ repository declares MIT; original question rights are not independently established. Owner chose inclusion with this caveat."
+  "rights_warning": "MAIQ repository declares MIT; original question rights are not independently established. Owner chose inclusion with this caveat.",
+  "superseded_model_ids": [
+    "drex_max"
+  ],
+  "supersession_decisions": [
+    {
+      "previous_model_id": "drex_max",
+      "new_model_id": "drex_max_v11",
+      "decision": "supersede_old_active_configuration",
+      "reason": "New declared version/provider evaluated on the complete same v5 inputs; both measurements retained unchanged. See drex_comparison.json for descriptive tradeoffs and cost limitations."
+    }
+  ]
 }

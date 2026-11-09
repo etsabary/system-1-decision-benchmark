@@ -1,14 +1,14 @@
 # System 1 Decision Benchmark · provisional v5
 
-This provisional successor contains **1,456 questions across 43 categories**. It removes the exact 701 questions answered correctly by all 26 configurations in the preceding main graph, while retaining every remaining question and recorded primary response. The prior 32 complete configurations retain their recorded answers. Morph Reflex and REAX 1.3 were newly tested on the unchanged 1,456-question bank. The complete v4 bank and reports remain unchanged.
+This provisional successor contains **1,456 questions across 43 categories**. It removes the exact 701 questions answered correctly by all 26 configurations in the original v4 main graph, while retaining every remaining question and recorded primary response. All 34 preceding complete configurations retain their recorded answers, including the prior Morph Reflex and REAX 1.3 tests. Native Nace Drex Max v1.1 was newly tested on the unchanged 1,456-question bank. The complete v4 bank and reports remain unchanged.
 
-**Inclusion threshold: 45% (at least 656/1,456 correct).** The user set this cutoff after reviewing Super Decider’s 669/1,456 (45.95%), the lowest score among the preceding graph models. Inclusion uses the exact rule **correct ×100 ≥45 ×1,456**, requiring at least **656 correct**, including ties. The prior 32 complete configurations are preserved and two new hosted models are added; 28 qualify.
+**Inclusion threshold: 45% (at least 656/1,456 correct).** The user set this cutoff after reviewing Super Decider’s 669/1,456 (45.95%), the lowest score among the preceding graph models. Inclusion uses the exact rule **correct ×100 ≥45 ×1,456**, requiring at least **656 correct**, including ties. All 34 preceding complete configurations are preserved and the native Drex version is added; 28 configurations appear in the active graph after the threshold and explicit version-selection decision, with 1 superseded reference(s).
 
 [Interactive provisional v5 report](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html) · [Category rankings](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html#rankings) · [Cost evidence](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html#cost) · [Archived full v4](https://etsabary.github.io/system-1-decision-benchmark/v4/report.html)
 
 ## Main comparison
 
-![Accuracy on the 1,456 retained questions](results/releases/system1_v5_hosted_2026-11-09/comparison_accuracy.png)
+![Accuracy on the 1,456 retained questions](results/releases/system1_v5_drex_2026-11-09/comparison_accuracy.png)
 
 | Configuration | Correct / 1,456 | Accuracy | Median | p95 | Selected-record known cost | Cost / 1,000 | Usable | Cost evidence |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
@@ -17,9 +17,9 @@ This provisional successor contains **1,456 questions across 43 categories**. It
 | GPT-6 Sol · no reasoning | 1059/1,456 | 72.73% | 🟧 986 ms | 🟥 1,520 ms | 🟥 $1.51532 | 🟥 $1.04074 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
 | D3 Ultra | 1024/1,456 | 70.33% | 🟩 172 ms | 🟨 338 ms | ⬜ Free access + ? | ⬜ Free access + ? | 1456/1,456 | 0 reported; 0 estimates; 1236 free-access; 220 unknown |
 | Fastino GLiDE v2.3 BF16 | 1008/1,456 | 69.23% | 🟩 216 ms | 🟧 530 ms | 🟨 $0.02993 | 🟨 $0.02056 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
+| Drex Max v1.1 · Nace native | 996/1,456 | 68.41% | 🟨 345 ms | 🟨 490 ms | 🟨 $0.02355 + ? | 🟨 $0.01618 + ? | 1454/1,456 | 0 reported; 1454 estimates; 0 free-access; 2 unknown |
 | Mammoth-1 (latest named alias) | 970/1,456 | 66.62% | 🟩 188 ms | 🟧 727 ms | 🟧 $0.04833 + ? | 🟧 $0.03320 + ? | 1455/1,456 | 0 reported; 511 estimates; 724 free-access; 221 unknown |
 | Turion Jev 31B | 954/1,456 | 65.52% | 🟧 510 ms | 🟥 1,029 ms | 🟩 $0.00110 + ? | 🟩 $0.00076 + ? | 1455/1,456 | 140 reported; 0 estimates; 0 free-access; 1316 unknown |
-| Drex Max | 952/1,456 | 65.38% | 🟨 331 ms | 🟥 1,324 ms | 🟧 $0.04695 + ? | 🟧 $0.03225 + ? | 1447/1,456 | 1447 reported; 0 estimates; 0 free-access; 9 unknown |
 | Perplexity Decider v1.2 | 949/1,456 | 65.18% | 🟩 246 ms | 🟨 416 ms | 🟨 $0.01572 + ? | 🟨 $0.01080 + ? | 1455/1,456 | 1455 reported; 0 estimates; 0 free-access; 1 unknown |
 | Nimble v4 Max | 943/1,456 | 64.77% | 🟩 240 ms | 🟨 351 ms | 🟧 $0.03856 + ? | 🟧 $0.02648 + ? | 1455/1,456 | 0 reported; 1235 estimates; 0 free-access; 221 unknown |
 | SubQ Snap 1.1 | 943/1,456 | 64.77% | 🟩 177 ms | 🟩 206 ms | 🟨 $0.03145 | 🟨 $0.02160 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
@@ -41,6 +41,17 @@ This provisional successor contains **1,456 questions across 43 categories**. It
 | Liquid d1 | 674/1,456 | 46.29% | 🟩 175 ms | 🟧 768 ms | 🟩 $0.01378 | 🟩 $0.00946 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
 | Super Decider | 669/1,456 | 45.95% | 🟩 215 ms | 🟨 263 ms | 🟨 $0.02412 | 🟨 $0.01657 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
 
+## Drex Max v1.1: a separately tested native version
+
+Native Drex Max v1.1 replaces the older Drex Max in the active graph under the user’s conditional replacement instruction. The older result remains a superseded reference, with every score and recorded response preserved. It is above the 45% cutoff and is not classified as below cutoff.
+
+The new native Nace API declares Drex Max v1.1, released October 28, whereas the earlier DeepInfra/OpenRouter configuration returned an October 16 checkpoint. The new version scored 996/1,456 (68.41%), versus 952/1,456 (65.38%) previously: +44 correct answers (+3.02 percentage points). New median/p95 response times are 345/490 ms, versus 331/1,324 ms. The paired outcomes include 141 new-only correct and 97 old-only correct answers. These are distinct versions, routes and collection sessions; the comparison does not isolate a weight-only effect.
+
+New Drex has no monetary API charge telemetry. Its captured-tariff estimate is USD 0.02355297 at $0.03 per million reported input tokens, with 2 no-usage primary costs unknown. The previous known API-reported subtotal is USD 0.04695126 plus 9 unknown charges. The new estimate is 0.502× that older known subtotal; this comparison does not establish actual billing savings. The retained no-answer HTTP 429 primaries were never replayed or assigned zero cost. Only unattempted inputs resumed after the rate-limit pause. Collection moved from two workers to sequential pacing; waits are outside request timers, so pooled latency is not uniform-throughput evidence. The provider documents 120 requests/minute for free access and 600 for paid access; applicable limits and phases are recorded separately.
+
+Native Drex returns typed choices and probabilities. Raw output-token counters are nonzero in 1454 responses and sum to 238612. Those counters are preserved under the existing native-choice scoring policy. No generated reasoning text was observed; zero generation is not independently attested and is not claimed. Only the captured input-token tariff enters the cost estimate; output is not billed by that tariff.
+
+
 ## REAX: accuracy with an ensemble cost and latency trade-off
 
 The provider describes REAX 1.3 as a large two-model native decision ensemble: it returns probabilities with zero generated answer tokens. In this full-bank test its cost and latency are closer to the LLM references than to the fastest inexpensive decision specialists. It scored 1077/1,456 (73.97%), versus Terra’s 1188/1,456 (81.59%); its median was 946 ms versus Terra’s 1,160 ms (18.4% faster). REAX’s FX-estimated USD cost is 50.8% higher than Terra’s known USD subtotal on the same 1,456 inputs. Terra has 2 unknown charges, so this compares available subtotals rather than complete final bills.
@@ -52,71 +63,71 @@ Teal, purple and gold model names in the report and graphs indicate hosted decis
 
 ## Response time and cost
 
-Timings and costs use individual selected primary records. The prior 32 configurations are unchanged, while Morph Reflex and REAX 1.3 have fresh full-bank sessions. Median and p95 include selected unsuccessful requests; they are never averages of category medians. Monetary amounts are selected-record charges or estimates, not guaranteed future prices.
+Timings and costs use individual selected primary records. All 34 preceding configurations are unchanged; native Drex Max v1.1 adds a fresh full-bank session. Morph Reflex and REAX 1.3 retain their preceding full-bank sessions. Median and p95 include selected unsuccessful requests; they are never averages of category medians. Monetary amounts are selected-record charges or estimates, not guaranteed future prices.
 
 Morph Reflex’s selected 1,456 primaries have API-reported USD charges of $0.032662362. REAX 1.3 reports EUR 1.0204992 across 1456 selected primaries. Its USD $1.14224475456 comparison is an FX estimate, using EUR 1 = USD 1.1193 from the ECB reference rate dated 2026-11-09. The converted USD amount was not reported by the provider. Exact native EUR nanos, conversion records and the captured rate receipt are downloadable. Readiness calls and other unscored requests remain outside these totals.
 
 ### Response time
 
-![Response time for provisional v5](results/releases/system1_v5_hosted_2026-11-09/comparison_latency.png)
+![Response time for provisional v5](results/releases/system1_v5_drex_2026-11-09/comparison_latency.png)
 
 ### Cost per 1,000 questions
 
-![Cost per 1,000 questions for provisional v5](results/releases/system1_v5_hosted_2026-11-09/comparison_cost.png)
+![Cost per 1,000 questions for provisional v5](results/releases/system1_v5_drex_2026-11-09/comparison_cost.png)
 
 ## Category results
 
 The category scale is fixed at 0–100%. Each cell shows correct/retained total and percentage; ★ marks all tied leaders. Category sizes vary after removal.
 
-![Fixed accuracy scale](results/releases/system1_v5_hosted_2026-11-09/accuracy_legend.png)
+![Fixed accuracy scale](results/releases/system1_v5_drex_2026-11-09/accuracy_legend.png)
 
 ### Rules, evidence and logical scope
 
 F01 Lookup and filtering (n=5); F02 Forward conditionals (n=22); F03 Necessary conditions (n=32); F04 Boolean scope (n=18); F05 Quantifiers and sets (n=9); F11 Sufficiency and inconsistency (n=29).
 
-![Rules, evidence and logical scope accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_2026-11-09/categories_rules.png)
+![Rules, evidence and logical scope accuracy with retained counts and tied leaders](results/releases/system1_v5_drex_2026-11-09/categories_rules.png)
 
 ### Ordering, schedules and assignments
 
 F06 Comparisons (n=7); F07 Scheduling (n=54); F08 One-to-one assignments (n=44); F14 Temporal intervals (n=25); F22 Preference ordering (n=9).
 
-![Ordering, schedules and assignments accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_2026-11-09/categories_ordering.png)
+![Ordering, schedules and assignments accuracy with retained counts and tied leaders](results/releases/system1_v5_drex_2026-11-09/categories_ordering.png)
 
 ### State tracking and perspectives
 
 F09 Exact truth counting (n=68); F10 Truth-teller consistency (n=69); F12 Object swaps (n=43); F13 Sequential procedures (n=47); F15 Spatial tracking (n=35); F16 Reference binding (n=35); F17 Beliefs and perspectives (n=19).
 
-![State tracking and perspectives accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_2026-11-09/categories_state.png)
+![State tracking and perspectives accuracy with retained counts and tied leaders](results/releases/system1_v5_drex_2026-11-09/categories_state.png)
 
 ### Causes, plans and authoritative evidence
 
 F18 Causal intervention (n=37); F19 Exceptions and priorities (n=24); F20 Planning (n=16); F21 Directed reachability (n=5); F23 Rule counterexamples (n=14); F24 Authority and stale records (n=8); F25 Fault diagnosis (n=11).
 
-![Causes, plans and authoritative evidence accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_2026-11-09/categories_causes.png)
+![Causes, plans and authoritative evidence accuracy with retained counts and tied leaders](results/releases/system1_v5_drex_2026-11-09/categories_causes.png)
 
 ### Decisions under uncertainty
 
 F26 Probabilistic risk (n=30); F27 Value of information (n=40); F28 Robust decisions without a prior (n=39); F29 Strategic decisions (n=39); F30 Concurrent-history consistency (n=38); F31 Information-flow security (n=36).
 
-![Decisions under uncertainty accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_2026-11-09/categories_uncertainty.png)
+![Decisions under uncertainty accuracy with retained counts and tied leaders](results/releases/system1_v5_drex_2026-11-09/categories_uncertainty.png)
 
 ### Practical decisions: scope, policy and actions
 
 P01 Understanding requests and routing (n=31); P02 Recognizing multiple requested actions (n=34); P03 Tracking current conversational intention (n=33); P04 Selecting a tool or requesting clarification (n=35); P05 Checking authorization and scope (n=35).
 
-![Practical decisions: scope, policy and actions accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_2026-11-09/categories_practical_actions.png)
+![Practical decisions: scope, policy and actions accuracy with retained counts and tied leaders](results/releases/system1_v5_drex_2026-11-09/categories_practical_actions.png)
 
 ### Practical decisions: evidence, security and quality
 
 P06 Making decisions with untrusted content (n=35); P07 Applying a contextual content policy (n=27); P08 Extracting and normalizing facts (n=36); P09 Checking claims against supplied evidence (n=32); P10 Assigning severity or priority from a rubric (n=31).
 
-![Practical decisions: evidence, security and quality accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_2026-11-09/categories_practical_evidence.png)
+![Practical decisions: evidence, security and quality accuracy with retained counts and tied leaders](results/releases/system1_v5_drex_2026-11-09/categories_practical_evidence.png)
 
 ### IQ sequences and admissions-style mathematics
 
 F32 Numerical pattern recognition (n=20); F33 Quantitative reasoning (n=200).
 
-![IQ sequences and admissions-style mathematics accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_2026-11-09/categories_numerical.png)
+![IQ sequences and admissions-style mathematics accuracy with retained counts and tied leaders](results/releases/system1_v5_drex_2026-11-09/categories_numerical.png)
 
 ## Below the 45% cutoff
 
@@ -129,19 +140,25 @@ V5 uses the retained 1,456-question bank and 45% cutoff. Historical v4 scores be
 - **Cerno 4B v1.2 NF4: v5 598/1,456 (41.07%)**; coverage 89.90%. Historical v4: 1276/2,157 (59.16%).
 - **meraGPT Decider 1: v5 338/1,456 (23.21%)**; coverage 100.00%. Historical v4: 620/2,157 (28.74%).
 
+## Superseded versions retained for reference
+
+Version replacement is separate from the 45% cutoff. All measurements and recorded responses remain available.
+
+- **Drex Max: 952/1,456 (65.38%)**; median/p95 331/1,324 ms; known cost $0.04695 + ?. Superseded by the separately tested native version, not below cutoff.
+
 ## Historical v4 exploratory screens
 
 These are unchanged historical samples with their original denominators, not v5 scores or classifications against its threshold. No stopped test was resumed.
 
-- **Strike 1:** 57/100 correct; free-tier screen stopped after 100 requests. [Historical method and limits](results/releases/system1_v5_hosted_2026-11-09/STRIKE_SCREEN_NOTES.md).
-- **Hanzo Kai 1.9:** 46/244 correct; the free daily cap was followed by a separate eight-hour plan window after credits were purchased. The user stopped the test. [Historical method and limits](results/releases/system1_v5_hosted_2026-11-09/KAI_CASE_NOTE.md).
-- **THIS/THAT 1.2 and GLiNER2.5-Decide:** THIS/THAT: 32/100 correct. GLiNER: 4/14 usable answers, plus 6 input-length rejections in 20 attempts. [Historical method and limits](results/releases/system1_v5_hosted_2026-11-09/LOCAL_SCREEN_NOTES.md).
-- **Hindsight and Lumma:** Hindsight: 29/100 correct. Lumma: 452/799 attempts correct, including an unavailable request. [Historical method and limits](results/releases/system1_v5_hosted_2026-11-09/NEW_LOCAL_SCREEN_NOTES.md).
-- **GPT-6 Luna Decisions:** 82/181 correct on the separately attempted additions; historical baseline 758/1,342. The expansion stopped below its recorded 50% rule. [Historical method and limits](results/releases/system1_v5_hosted_2026-11-09/OPENAI_DECISIONS_NOTES.md).
+- **Strike 1:** 57/100 correct; free-tier screen stopped after 100 requests. [Historical method and limits](results/releases/system1_v5_drex_2026-11-09/STRIKE_SCREEN_NOTES.md).
+- **Hanzo Kai 1.9:** 46/244 correct; the free daily cap was followed by a separate eight-hour plan window after credits were purchased. The user stopped the test. [Historical method and limits](results/releases/system1_v5_drex_2026-11-09/KAI_CASE_NOTE.md).
+- **THIS/THAT 1.2 and GLiNER2.5-Decide:** THIS/THAT: 32/100 correct. GLiNER: 4/14 usable answers, plus 6 input-length rejections in 20 attempts. [Historical method and limits](results/releases/system1_v5_drex_2026-11-09/LOCAL_SCREEN_NOTES.md).
+- **Hindsight and Lumma:** Hindsight: 29/100 correct. Lumma: 452/799 attempts correct, including an unavailable request. [Historical method and limits](results/releases/system1_v5_drex_2026-11-09/NEW_LOCAL_SCREEN_NOTES.md).
+- **GPT-6 Luna Decisions:** 82/181 correct on the separately attempted additions; historical baseline 758/1,342. The expansion stopped below its recorded 50% rule. [Historical method and limits](results/releases/system1_v5_drex_2026-11-09/OPENAI_DECISIONS_NOTES.md).
 
 ## Selection, scope and limitations
 
-The removed set was chosen using the exact recorded answers of the preceding 26-model main graph, including four reasoning-disabled LLM references. This cohort-conditioned selection leaves the original cohort’s relative overall order unchanged and changes category weights unevenly. It is not an independent demonstration of general difficulty. Future configurations use the frozen 1,456 inputs and exact 45% threshold.
+The removed set was chosen using the exact recorded answers of the original 26-model v4 main graph, including four reasoning-disabled LLM references. This cohort-conditioned selection leaves the original cohort’s relative overall order unchanged and changes category weights unevenly. It is not an independent demonstration of general difficulty. Future configurations use the frozen 1,456 inputs and exact 45% threshold.
 
 The quantitative category retains 60 questions selected for Fastino/D3 Artemis errors and 140 selected for an error by at least one of Fastino, Mammoth, GPT-6 Sol, D3 Ultra or Drex Max. Multiple selection models distribute that dependence without removing it. Public questions may appear in training data; these scores are not human IQ norms. The separate 120 companion diagnostics remain excluded.
 
@@ -149,42 +166,50 @@ The smaller bank reduces future requests by **701/2,157 (32.5%)**. Token charges
 
 ## Question origins and licenses
 
-The retained bank has **1,236 questions from the project development bank, 20 MAIQ number sequences and 200 AQuA quantitative questions**. AQuA-RAT declares Apache-2.0 and contains crowdsourced admissions-style mathematics, not authenticated official GRE or SAT questions. MAIQ’s repository declares MIT, but original human-test item rights remain unestablished; inclusion retains that caveat. The development lineage does not fully establish individual authorship or possible external influences for every project-bank item. The project MIT license does not supersede third-party rights. The two noncommercial LogiQA items remain outside the bank. [Full source and license notices](results/releases/system1_v5_hosted_2026-11-09/SOURCE_AND_LICENSES.md).
+The retained bank has **1,236 questions from the project development bank, 20 MAIQ number sequences and 200 AQuA quantitative questions**. AQuA-RAT declares Apache-2.0 and contains crowdsourced admissions-style mathematics, not authenticated official GRE or SAT questions. MAIQ’s repository declares MIT, but original human-test item rights remain unestablished; inclusion retains that caveat. The development lineage does not fully establish individual authorship or possible external influences for every project-bank item. The project MIT license does not supersede third-party rights. The two noncommercial LogiQA items remain outside the bank. [Full source and license notices](results/releases/system1_v5_drex_2026-11-09/SOURCE_AND_LICENSES.md).
 
 ## Download and reproducibility
 
-- [Answer-free provisional v5 questions](results/releases/system1_v5_hosted_2026-11-09/questions_1456.jsonl)
-- [Question-level origin and license metadata](results/releases/system1_v5_hosted_2026-11-09/source_metadata_1456.jsonl)
-- [Source and license notes](results/releases/system1_v5_hosted_2026-11-09/SOURCE_AND_LICENSES.md)
-- [All model summaries](results/releases/system1_v5_hosted_2026-11-09/statistics.json)
-- [All models by 43 categories](results/releases/system1_v5_hosted_2026-11-09/all_category_scores.csv)
-- [Retained timing and status evidence](results/releases/system1_v5_hosted_2026-11-09/timing_evidence.csv.gz)
-- [Retained cost evidence](results/releases/system1_v5_hosted_2026-11-09/cost_evidence.csv.gz)
-- [Retained cost summaries](results/releases/system1_v5_hosted_2026-11-09/cost_statistics.json)
-- [Category guide](results/releases/system1_v5_hosted_2026-11-09/category_guide.json)
-- [701 removed question IDs and categories](results/releases/system1_v5_hosted_2026-11-09/removed_items.csv)
-- [1,456 retained question IDs and categories](results/releases/system1_v5_hosted_2026-11-09/retained_items.csv)
-- [Fixed selection cohort and subset provenance](results/releases/system1_v5_hosted_2026-11-09/selection_provenance.json)
-- [Retained correctness and usability booleans](results/releases/system1_v5_hosted_2026-11-09/correctness_evidence.csv.gz)
-- [Removed-item correctness and usability booleans](results/releases/system1_v5_hosted_2026-11-09/removed_correctness_evidence.csv.gz)
-- [Historical no-answer recovery evidence](results/releases/system1_v5_hosted_2026-11-09/transport_recoveries.json)
-- [Historical collection recovery evidence](results/releases/system1_v5_hosted_2026-11-09/model_collection_recoveries.json)
-- [Historical context diagnostics](results/releases/system1_v5_hosted_2026-11-09/model_context_diagnostics.json)
-- [Subset audit receipt](results/releases/system1_v5_hosted_2026-11-09/audit_receipt.json)
-- [Release checksums](results/releases/system1_v5_hosted_2026-11-09/manifest.json)
-- [Morph and REAX configuration, collection and billing notes](results/releases/system1_v5_hosted_2026-11-09/HOSTED_MODEL_NOTES.md)
-- [Independent new-model audit summaries](results/releases/system1_v5_hosted_2026-11-09/hosted_model_audits.json)
-- [New-model cost summaries](results/releases/system1_v5_hosted_2026-11-09/hosted_cost_summaries.json)
-- [Full-bank REAX, Terra, Fastino and Morph comparisons](results/releases/system1_v5_hosted_2026-11-09/new_model_comparison.json)
-- [REAX ensemble accuracy, speed and cost trade-off](results/releases/system1_v5_hosted_2026-11-09/REAX_TERRA_COMPARISON.md)
-- [Native EUR charges and separately estimated USD conversion](results/releases/system1_v5_hosted_2026-11-09/native_currency_cost_evidence.csv.gz)
-- [Captured ECB rate receipt](results/releases/system1_v5_hosted_2026-11-09/fx_receipt.json)
-- [Captured ECB exchange-rate XML](results/releases/system1_v5_hosted_2026-11-09/ecb_eurofxref_2026-11-09.xml)
-- [Frozen initial v5 audit receipt](results/releases/system1_v5_hosted_2026-11-09/baseline_v5_audit_receipt.json)
+- [Answer-free provisional v5 questions](results/releases/system1_v5_drex_2026-11-09/questions_1456.jsonl)
+- [Question-level origin and license metadata](results/releases/system1_v5_drex_2026-11-09/source_metadata_1456.jsonl)
+- [Source and license notes](results/releases/system1_v5_drex_2026-11-09/SOURCE_AND_LICENSES.md)
+- [All model summaries](results/releases/system1_v5_drex_2026-11-09/statistics.json)
+- [All models by 43 categories](results/releases/system1_v5_drex_2026-11-09/all_category_scores.csv)
+- [Retained timing and status evidence](results/releases/system1_v5_drex_2026-11-09/timing_evidence.csv.gz)
+- [Retained cost evidence](results/releases/system1_v5_drex_2026-11-09/cost_evidence.csv.gz)
+- [Retained cost summaries](results/releases/system1_v5_drex_2026-11-09/cost_statistics.json)
+- [Category guide](results/releases/system1_v5_drex_2026-11-09/category_guide.json)
+- [701 removed question IDs and categories](results/releases/system1_v5_drex_2026-11-09/removed_items.csv)
+- [1,456 retained question IDs and categories](results/releases/system1_v5_drex_2026-11-09/retained_items.csv)
+- [Fixed selection cohort and subset provenance](results/releases/system1_v5_drex_2026-11-09/selection_provenance.json)
+- [Retained correctness and usability booleans](results/releases/system1_v5_drex_2026-11-09/correctness_evidence.csv.gz)
+- [Removed-item correctness and usability booleans](results/releases/system1_v5_drex_2026-11-09/removed_correctness_evidence.csv.gz)
+- [Historical no-answer recovery evidence](results/releases/system1_v5_drex_2026-11-09/transport_recoveries.json)
+- [Historical collection recovery evidence](results/releases/system1_v5_drex_2026-11-09/model_collection_recoveries.json)
+- [Historical context diagnostics](results/releases/system1_v5_drex_2026-11-09/model_context_diagnostics.json)
+- [Subset audit receipt](results/releases/system1_v5_drex_2026-11-09/audit_receipt.json)
+- [Release checksums](results/releases/system1_v5_drex_2026-11-09/manifest.json)
+- [Morph and REAX configuration, collection and billing notes](results/releases/system1_v5_drex_2026-11-09/HOSTED_MODEL_NOTES.md)
+- [Independent new-model audit summaries](results/releases/system1_v5_drex_2026-11-09/hosted_model_audits.json)
+- [New-model cost summaries](results/releases/system1_v5_drex_2026-11-09/hosted_cost_summaries.json)
+- [Full-bank REAX, Terra, Fastino and Morph comparisons](results/releases/system1_v5_drex_2026-11-09/new_model_comparison.json)
+- [REAX ensemble accuracy, speed and cost trade-off](results/releases/system1_v5_drex_2026-11-09/REAX_TERRA_COMPARISON.md)
+- [Native EUR charges and separately estimated USD conversion](results/releases/system1_v5_drex_2026-11-09/native_currency_cost_evidence.csv.gz)
+- [Captured ECB rate receipt](results/releases/system1_v5_drex_2026-11-09/fx_receipt.json)
+- [Captured ECB exchange-rate XML](results/releases/system1_v5_drex_2026-11-09/ecb_eurofxref_2026-11-09.xml)
+- [Frozen initial v5 audit receipt](results/releases/system1_v5_drex_2026-11-09/baseline_v5_audit_receipt.json)
+- [Drex native version, replacement and collection notes](results/releases/system1_v5_drex_2026-11-09/DREX_VERSION_NOTES.md)
+- [Drex old/new paired comparison and replacement decision](results/releases/system1_v5_drex_2026-11-09/drex_comparison.json)
+- [Drex first-primary audit](results/releases/system1_v5_drex_2026-11-09/drex_model_audit.json)
+- [Drex per-primary input usage and retained raw output counters](results/releases/system1_v5_drex_2026-11-09/drex_usage_evidence.csv.gz)
+- [Drex raw output-counter interpretation](results/releases/system1_v5_drex_2026-11-09/drex_counter_policy.json)
+- [Drex version and provider provenance](results/releases/system1_v5_drex_2026-11-09/drex_version_provenance.json)
+- [Drex concurrency and rate-limit collection phases](results/releases/system1_v5_drex_2026-11-09/drex_transport_phases.json)
+- [Frozen preceding hosted-release audit receipt](results/releases/system1_v5_drex_2026-11-09/parent_hosted_audit_receipt.json)
 
-The [scripts/](scripts/README.md) support offline validation without credentials. The [initial v5 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v5_provisional_2026-11-09/report.html), [full v4 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v4_openai_2026-11-06/report.html), [v3](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v3_presentation_2026-11-01/report.html) and [v2](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v2_presentation_2026-11-01/report.html) remain unchanged. Model-selected choices and the gold scoring key remain private.
+The [scripts/](scripts/README.md) support offline validation without credentials. The [preceding hosted v5 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v5_hosted_2026-11-09/report.html), [initial v5 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v5_provisional_2026-11-09/report.html), [full v4 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v4_openai_2026-11-06/report.html), [v3](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v3_presentation_2026-11-01/report.html) and [v2](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v2_presentation_2026-11-01/report.html) remain unchanged. Model-selected choices and the gold scoring key remain private.
 
 ```sh
-python3 scripts/validate_system1_v5_hosted_2026_11_09.py results/releases/system1_v5_hosted_2026-11-09 results/releases/system1_v5_provisional_2026-11-09
+python3 scripts/validate_system1_v5_drex_2026_11_09.py results/releases/system1_v5_drex_2026-11-09 results/releases/system1_v5_hosted_2026-11-09
 python3 scripts/validate_october21_release.py
 ```
