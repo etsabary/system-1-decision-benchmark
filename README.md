@@ -1,182 +1,170 @@
-# System 1 Decision Benchmark v4
+# System 1 Decision Benchmark · provisional v5
 
-This benchmark compares accuracy, latency, coverage and cost for fixed-option decision tasks. V4 contains **2,157 questions across 43 categories**: the unchanged 2,017-question v3 bank plus 140 source-key-supported AQuA questions. The 23 numerical-pattern and 200 quantitative questions are borrowed; the earlier project bank is predominantly project-developed. The previously measured 26 configurations remain in the downloads; newly measured models are added on the same full bank. Main comparisons use a 62% operational-accuracy cutoff.
+This provisional successor contains **1,456 questions across 43 categories**. It removes the exact 701 questions answered correctly by all 26 configurations in the preceding main graph, while retaining every remaining question and recorded primary response. No new inference was run. The complete v4 bank and reports remain unchanged.
 
-**Source and rights:** AQuA-RAT is crowdsourced admissions-style mathematics under its repository’s Apache-2.0 terms; it is not a set of authenticated official GRE or SAT questions. MAIQ’s repository declares MIT, but its authors collected questions from human IQ tests and the original rights holders for these 23 sequences are not established. The owner elected to include the sequences with that qualification. The project MIT license does not supersede these sources’ terms. [Detailed provenance and notices](results/releases/system1_v4_openai_2026-11-06/SOURCE_AND_LICENSES.md).
+**Inclusion threshold: 45% (at least 656/1,456 correct).** The user set this cutoff after reviewing Super Decider’s 669/1,456 (45.95%), the lowest score among the preceding graph models. Inclusion uses the exact rule **correct ×100 ≥45 ×1,456**, requiring at least **656 correct**, including ties. All 32 complete configurations are rescored; 26 qualify.
 
-[Interactive v4 report](https://etsabary.github.io/system-1-decision-benchmark/v4/report.html) · [Category rankings](https://etsabary.github.io/system-1-decision-benchmark/v4/report.html#rankings) · [Cost evidence](https://etsabary.github.io/system-1-decision-benchmark/v4/report.html#cost)
-
-## Reading the comparison
-
-Teal, purple and gold denote hosted decision, local and reasoning-disabled LLM configurations. The category scale is fixed from 0–100%; each cell shows correct/total, and ★ marks all tied leaders. Speed and cost use 🟩 green / 🟨 yellow / 🟧 orange / 🟥 red bands: median or p95 ≤250 / ≤500 / ≤1,000 / >1,000 ms; cost ≤$0.010 / ≤$0.025 / ≤$0.050 / >$0.050 per 1,000 questions. ⬜ means the cost is unmetered or unknown. “+ ?” denotes missing charges; known totals may include tariff estimates rather than receipts.
+[Interactive provisional v5 report](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html) · [Category rankings](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html#rankings) · [Cost evidence](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html#cost) · [Archived full v4](https://etsabary.github.io/system-1-decision-benchmark/v4/report.html)
 
 ## Main comparison
 
-### Accuracy
+![Accuracy on the 1,456 retained questions](results/releases/system1_v5_provisional_2026-11-09/comparison_accuracy.png)
 
-![Accuracy comparison for the qualifying models](results/releases/system1_v4_openai_2026-11-06/comparison_accuracy.png)
-
-| Configuration | Correct / 2,157 | Accuracy | Median | p95 | Total known cost | Cost / 1,000 | Usable | Cost evidence |
+| Configuration | Correct / 1,456 | Accuracy | Median | p95 | Selected-record known cost | Cost / 1,000 | Usable | Cost evidence |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
-| GPT-6.1 Terra · no reasoning | 1889/2,157 | 87.58% | 🟥 1,155 ms | 🟥 1,736 ms | 🟥 $0.98025 + ? | 🟥 $0.45445 + ? | 2155/2,157 | 2155 reported; 0 estimates; 0 free-access; 2 unknown |
-| GPT-6 Sol · no reasoning | 1760/2,157 | 81.59% | 🟧 992 ms | 🟥 1,527 ms | 🟥 $1.96117 | 🟥 $0.90921 | 2157/2,157 | 2157 reported; 0 estimates; 0 free-access; 0 unknown |
-| D3 Ultra | 1725/2,157 | 79.97% | 🟩 163 ms | 🟨 298 ms | ⬜ Free access + ? | ⬜ Free access + ? | 2157/2,157 | 0 reported; 0 estimates; 1934 free-access; 223 unknown |
-| Fastino GLiDE v2.3 BF16 | 1709/2,157 | 79.23% | 🟩 213 ms | 🟧 602 ms | 🟨 $0.03905 | 🟨 $0.01811 | 2157/2,157 | 0 reported; 2157 estimates; 0 free-access; 0 unknown |
-| Mammoth-1 (latest named alias) | 1671/2,157 | 77.47% | 🟩 199 ms | 🟧 691 ms | 🟨 $0.05286 + ? | 🟨 $0.02451 + ? | 2156/2,157 | 0 reported; 591 estimates; 1342 free-access; 224 unknown |
-| Turion Jev 31B | 1655/2,157 | 76.73% | 🟧 505 ms | 🟥 1,006 ms | 🟩 $0.00110 + ? | 🟩 $0.00051 + ? | 2156/2,157 | 140 reported; 0 estimates; 0 free-access; 2017 unknown |
-| Drex Max | 1653/2,157 | 76.63% | 🟨 317 ms | 🟥 1,106 ms | 🟧 $0.06185 + ? | 🟧 $0.02867 + ? | 2148/2,157 | 2148 reported; 0 estimates; 0 free-access; 9 unknown |
-| Perplexity Decider v1.2 | 1650/2,157 | 76.50% | 🟩 247 ms | 🟨 374 ms | 🟩 $0.02064 + ? | 🟩 $0.00957 + ? | 2156/2,157 | 2156 reported; 0 estimates; 0 free-access; 1 unknown |
-| Nimble v4 Max | 1644/2,157 | 76.22% | 🟩 238 ms | 🟨 342 ms | 🟧 $0.05784 + ? | 🟧 $0.02681 + ? | 2156/2,157 | 0 reported; 1933 estimates; 0 free-access; 224 unknown |
-| SubQ Snap 1.1 | 1644/2,157 | 76.22% | 🟩 177 ms | 🟩 208 ms | 🟨 $0.04130 | 🟨 $0.01915 | 2157/2,157 | 0 reported; 2157 estimates; 0 free-access; 0 unknown |
-| Liquid d1-ultra | 1643/2,157 | 76.17% | 🟩 203 ms | 🟨 427 ms | 🟨 $0.03743 + ? | 🟨 $0.01735 + ? | 2155/2,157 | 2155 reported; 0 estimates; 0 free-access; 2 unknown |
-| Amos 1 Large | 1589/2,157 | 73.67% | 🟨 327 ms | 🟧 912 ms | ⬜ Free access + ? | ⬜ Free access + ? | 2157/2,157 | 0 reported; 0 estimates; 1934 free-access; 223 unknown |
-| Sonnet 5.5 · no thinking | 1583/2,157 | 73.39% | 🟥 1,430 ms | 🟥 2,303 ms | 🟥 $3.91583 | 🟥 $1.81540 | 2157/2,157 | 2157 reported; 0 estimates; 0 free-access; 0 unknown |
-| kettei-fat | 1569/2,157 | 72.74% | 🟩 180 ms | 🟨 310 ms | 🟨 $0.05042 | 🟨 $0.02338 | 2157/2,157 | 2157 reported; 0 estimates; 0 free-access; 0 unknown |
-| Opus 5 · no thinking | 1569/2,157 | 72.74% | 🟥 1,551 ms | 🟥 2,157 ms | 🟥 $8.47216 + ? | 🟥 $3.92775 + ? | 1972/2,157 | 1974 reported; 0 estimates; 0 free-access; 183 unknown |
-| Respan Span-02 (20261015) | 1559/2,157 | 72.28% | 🟨 256 ms | 🟥 2,143 ms | 🟩 $0.01069 | 🟩 $0.00496 | 2157/2,157 | 2157 reported; 0 estimates; 0 free-access; 0 unknown |
-| Levanto Sage 2 | 1530/2,157 | 70.93% | 🟩 228 ms | 🟨 345 ms | 🟨 $0.04674 | 🟨 $0.02167 | 2157/2,157 | 0 reported; 2157 estimates; 0 free-access; 0 unknown |
-| Jev 1.14 | 1487/2,157 | 68.94% | 🟩 177 ms | 🟨 416 ms | 🟧 $0.06461 | 🟧 $0.02995 | 2157/2,157 | 2157 reported; 0 estimates; 0 free-access; 0 unknown |
-| Liquid d1.1 | 1478/2,157 | 68.52% | 🟩 195 ms | 🟨 472 ms | 🟩 $0.01783 + ? | 🟩 $0.00827 + ? | 2156/2,157 | 2156 reported; 0 estimates; 0 free-access; 1 unknown |
-| Mercury Decide | 1468/2,157 | 68.06% | 🟩 250 ms | 🟧 604 ms | 🟩 $0.02067 + ? | 🟩 $0.00958 + ? | 2156/2,157 | 2156 reported; 0 estimates; 0 free-access; 1 unknown |
-| Celeris 1.1 Decision | 1437/2,157 | 66.62% | 🟩 140 ms | 🟩 218 ms | 🟨 $0.04073 + ? | 🟨 $0.01888 + ? | 2157/2,157 | 0 reported; 1934 estimates; 0 free-access; 223 unknown |
-| Elephant-1 | 1421/2,157 | 65.88% | 🟩 127 ms | 🟨 269 ms | 🟩 $0.01856 + ? | 🟩 $0.00860 + ? | 2157/2,157 | 0 reported; 592 estimates; 1342 free-access; 223 unknown |
-| Sarvam Prism | 1380/2,157 | 63.98% | 🟨 407 ms | 🟨 465 ms | 🟨 $0.04194 | 🟨 $0.01944 | 2157/2,157 | 0 reported; 2157 estimates; 0 free-access; 0 unknown |
-| StartLux Instant 4B Q8 | 1379/2,157 | 63.93% | 🟨 306 ms | 🟧 850 ms | ⬜ Unmetered local | ⬜ Unmetered local | 2157/2,157 | Hardware and electricity unmeasured |
-| Liquid d1 | 1375/2,157 | 63.75% | 🟩 183 ms | 🟧 759 ms | 🟩 $0.01784 | 🟩 $0.00827 | 2157/2,157 | 2157 reported; 0 estimates; 0 free-access; 0 unknown |
-| Super Decider | 1370/2,157 | 63.51% | 🟩 212 ms | 🟨 256 ms | 🟨 $0.03170 | 🟨 $0.01470 | 2157/2,157 | 0 reported; 2157 estimates; 0 free-access; 0 unknown |
+| GPT-6.1 Terra · no reasoning | 1188/1,456 | 81.59% | 🟥 1,160 ms | 🟥 1,729 ms | 🟥 $0.75733 + ? | 🟥 $0.52014 + ? | 1454/1,456 | 1454 reported; 0 estimates; 0 free-access; 2 unknown |
+| GPT-6 Sol · no reasoning | 1059/1,456 | 72.73% | 🟧 986 ms | 🟥 1,520 ms | 🟥 $1.51532 | 🟥 $1.04074 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
+| D3 Ultra | 1024/1,456 | 70.33% | 🟩 172 ms | 🟨 338 ms | ⬜ Free access + ? | ⬜ Free access + ? | 1456/1,456 | 0 reported; 0 estimates; 1236 free-access; 220 unknown |
+| Fastino GLiDE v2.3 BF16 | 1008/1,456 | 69.23% | 🟩 216 ms | 🟧 530 ms | 🟨 $0.02993 | 🟨 $0.02056 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
+| Mammoth-1 (latest named alias) | 970/1,456 | 66.62% | 🟩 188 ms | 🟧 727 ms | 🟧 $0.04833 + ? | 🟧 $0.03320 + ? | 1455/1,456 | 0 reported; 511 estimates; 724 free-access; 221 unknown |
+| Turion Jev 31B | 954/1,456 | 65.52% | 🟧 510 ms | 🟥 1,029 ms | 🟩 $0.00110 + ? | 🟩 $0.00076 + ? | 1455/1,456 | 140 reported; 0 estimates; 0 free-access; 1316 unknown |
+| Drex Max | 952/1,456 | 65.38% | 🟨 331 ms | 🟥 1,324 ms | 🟧 $0.04695 + ? | 🟧 $0.03225 + ? | 1447/1,456 | 1447 reported; 0 estimates; 0 free-access; 9 unknown |
+| Perplexity Decider v1.2 | 949/1,456 | 65.18% | 🟩 246 ms | 🟨 416 ms | 🟨 $0.01572 + ? | 🟨 $0.01080 + ? | 1455/1,456 | 1455 reported; 0 estimates; 0 free-access; 1 unknown |
+| Nimble v4 Max | 943/1,456 | 64.77% | 🟩 240 ms | 🟨 351 ms | 🟧 $0.03856 + ? | 🟧 $0.02648 + ? | 1455/1,456 | 0 reported; 1235 estimates; 0 free-access; 221 unknown |
+| SubQ Snap 1.1 | 943/1,456 | 64.77% | 🟩 177 ms | 🟩 206 ms | 🟨 $0.03145 | 🟨 $0.02160 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
+| Liquid d1-ultra | 942/1,456 | 64.70% | 🟩 207 ms | 🟨 483 ms | 🟨 $0.02891 + ? | 🟨 $0.01985 + ? | 1454/1,456 | 1454 reported; 0 estimates; 0 free-access; 2 unknown |
+| Amos 1 Large | 888/1,456 | 60.99% | 🟨 363 ms | 🟧 972 ms | ⬜ Free access + ? | ⬜ Free access + ? | 1456/1,456 | 0 reported; 0 estimates; 1236 free-access; 220 unknown |
+| Sonnet 5.5 · no thinking | 882/1,456 | 60.58% | 🟥 1,412 ms | 🟥 2,271 ms | 🟥 $2.90409 | 🟥 $1.99456 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
+| kettei-fat | 868/1,456 | 59.62% | 🟩 188 ms | 🟨 447 ms | 🟧 $0.03953 | 🟧 $0.02715 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
+| Opus 5 · no thinking | 868/1,456 | 59.62% | 🟥 1,566 ms | 🟥 2,211 ms | 🟥 $5.94921 + ? | 🟥 $4.08600 + ? | 1271/1,456 | 1273 reported; 0 estimates; 0 free-access; 183 unknown |
+| Respan Span-02 (20261015) | 858/1,456 | 58.93% | 🟨 484 ms | 🟥 2,176 ms | 🟩 $0.00820 | 🟩 $0.00563 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
+| Levanto Sage 2 | 829/1,456 | 56.94% | 🟩 232 ms | 🟨 355 ms | 🟨 $0.03570 | 🟨 $0.02452 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
+| Jev 1.14 | 786/1,456 | 53.98% | 🟩 173 ms | 🟨 472 ms | 🟧 $0.04736 | 🟧 $0.03253 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
+| Liquid d1.1 | 777/1,456 | 53.37% | 🟩 190 ms | 🟧 529 ms | 🟩 $0.01377 + ? | 🟩 $0.00946 + ? | 1455/1,456 | 1455 reported; 0 estimates; 0 free-access; 1 unknown |
+| Mercury Decide | 767/1,456 | 52.68% | 🟨 255 ms | 🟥 1,217 ms | 🟨 $0.01575 + ? | 🟨 $0.01082 + ? | 1455/1,456 | 1455 reported; 0 estimates; 0 free-access; 1 unknown |
+| Celeris 1.1 Decision | 736/1,456 | 50.55% | 🟩 142 ms | 🟨 287 ms | 🟨 $0.03064 + ? | 🟨 $0.02105 + ? | 1456/1,456 | 0 reported; 1236 estimates; 0 free-access; 220 unknown |
+| Elephant-1 | 720/1,456 | 49.45% | 🟩 124 ms | 🟨 268 ms | 🟨 $0.01697 + ? | 🟨 $0.01165 + ? | 1456/1,456 | 0 reported; 512 estimates; 724 free-access; 220 unknown |
+| Sarvam Prism | 679/1,456 | 46.63% | 🟨 409 ms | 🟨 466 ms | 🟨 $0.03239 | 🟨 $0.02225 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
+| StartLux Instant 4B Q8 | 678/1,456 | 46.57% | 🟨 336 ms | 🟧 901 ms | ⬜ Unmetered local | ⬜ Unmetered local | 1456/1,456 | Hardware and electricity unmeasured |
+| Liquid d1 | 674/1,456 | 46.29% | 🟩 175 ms | 🟧 768 ms | 🟩 $0.01378 | 🟩 $0.00946 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
+| Super Decider | 669/1,456 | 45.95% | 🟩 215 ms | 🟨 263 ms | 🟨 $0.02412 | 🟨 $0.01657 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
 
-**Sage 2 response detail:** Two returned choices disagreed with the highest probability in the same response; both returned choices were incorrect and were scored as received. Substituting the highest probabilities would add two correct answers.
+Teal, purple and gold model names in the report and graphs indicate hosted decisions, local models and reasoning-disabled LLM references. Speed and cost use 🟩 green / 🟨 yellow / 🟧 orange / 🟥 red bands: ≤250 / ≤500 / ≤1,000 / >1,000 ms; ≤$0.010 / ≤$0.025 / ≤$0.050 / >$0.050 per 1,000 questions. ⬜ denotes unmetered or unknown cost. “+ ?” marks missing charges. Tariff estimates, reported charges and free access remain distinct.
 
-**Prism cost and retries:** Prism’s selected answers used an estimated ₹3.774356 in input-token charges, using the published ₹4 per million input tokens; USD comparisons use Sarvam’s illustrative ₹90 per USD. This is an estimate, excluding tax and charges for failed requests, not a billing receipt. 129 no-answer transient failures preceded selected answers; their latency and retry waits are excluded from response times.
+## Response time and cost
 
-**Super Decider cost and configuration:** Super Decider’s selected answers have an estimated $0.031705 input-token cost at the product page’s $0.03 per million input tokens. The account catalogue labelled this model Free; the actual charge was not reported, so that estimate may not apply. Thinking off was requested, but the response does not independently attest the effective setting. Selected-answer timings exclude any failed requests and retry waits.
-
-**GPT-6.1 Terra cost and configuration:** GPT-6.1 Terra was run with reasoning disabled on all 2,157 inputs. All 2,155 successful responses reported zero reasoning tokens and no reasoning text. Its API-reported charges total $0.98025050; 2 client DNS failures have no charge telemetry. Those unsuccessful primaries remain in the denominator and timing distribution; they were never retried or replaced. Only the unattempted inputs resumed after connectivity recovered. The checkpoint is October 26, 2026, using OpenAI standard service through OpenRouter. Existing GPT-6 Sol results remain unchanged.
-
-Operational accuracy counts unusable requests as not correct; it does not establish what answer a model would have given. The report shows coverage and results among usable responses. Timings pool individual primary records and include failed requests and network time. Data were collected on different dates and routes. A coloured known cost with + ? is only a subtotal.
-
-## Comparison graphs
-
-Each graph uses the same overall ordering and is shown separately so its labels remain readable.
+Timings and costs are recomputed from the retained individual records. Median and p95 include selected unsuccessful requests; they are never averages of category medians. Monetary amounts describe historical selected-record charges or estimates, not new v5 spending or guaranteed future prices.
 
 ### Response time
 
-![Response time comparison for the qualifying models](results/releases/system1_v4_openai_2026-11-06/comparison_latency.png)
+![Response time for provisional v5](results/releases/system1_v5_provisional_2026-11-09/comparison_latency.png)
 
 ### Cost per 1,000 questions
 
-![Cost per 1,000 questions comparison for the qualifying models](results/releases/system1_v4_openai_2026-11-06/comparison_cost.png)
+![Cost per 1,000 questions for provisional v5](results/releases/system1_v5_provisional_2026-11-09/comparison_cost.png)
 
 ## Category results
 
-![Fixed accuracy scale](results/releases/system1_v4_openai_2026-11-06/accuracy_legend.png)
+The category scale is fixed at 0–100%. Each cell shows correct/retained total and percentage; ★ marks all tied leaders. Category sizes vary after removal.
+
+![Fixed accuracy scale](results/releases/system1_v5_provisional_2026-11-09/accuracy_legend.png)
 
 ### Rules, evidence and logical scope
 
-F01 Lookup and filtering; F02 Forward conditionals; F03 Necessary conditions; F04 Boolean scope; F05 Quantifiers and sets; F11 Sufficiency and inconsistency.
+F01 Lookup and filtering (n=5); F02 Forward conditionals (n=22); F03 Necessary conditions (n=32); F04 Boolean scope (n=18); F05 Quantifiers and sets (n=9); F11 Sufficiency and inconsistency (n=29).
 
-![Rules, evidence and logical scope accuracy with counts and tied leaders](results/releases/system1_v4_openai_2026-11-06/categories_rules.png)
+![Rules, evidence and logical scope accuracy with retained counts and tied leaders](results/releases/system1_v5_provisional_2026-11-09/categories_rules.png)
 
 ### Ordering, schedules and assignments
 
-F06 Comparisons; F07 Scheduling; F08 One-to-one assignments; F14 Temporal intervals; F22 Preference ordering.
+F06 Comparisons (n=7); F07 Scheduling (n=54); F08 One-to-one assignments (n=44); F14 Temporal intervals (n=25); F22 Preference ordering (n=9).
 
-![Ordering, schedules and assignments accuracy with counts and tied leaders](results/releases/system1_v4_openai_2026-11-06/categories_ordering.png)
+![Ordering, schedules and assignments accuracy with retained counts and tied leaders](results/releases/system1_v5_provisional_2026-11-09/categories_ordering.png)
 
 ### State tracking and perspectives
 
-F09 Exact truth counting; F10 Truth-teller consistency; F12 Object swaps; F13 Sequential procedures; F15 Spatial tracking; F16 Reference binding; F17 Beliefs and perspectives.
+F09 Exact truth counting (n=68); F10 Truth-teller consistency (n=69); F12 Object swaps (n=43); F13 Sequential procedures (n=47); F15 Spatial tracking (n=35); F16 Reference binding (n=35); F17 Beliefs and perspectives (n=19).
 
-![State tracking and perspectives accuracy with counts and tied leaders](results/releases/system1_v4_openai_2026-11-06/categories_state.png)
+![State tracking and perspectives accuracy with retained counts and tied leaders](results/releases/system1_v5_provisional_2026-11-09/categories_state.png)
 
 ### Causes, plans and authoritative evidence
 
-F18 Causal intervention; F19 Exceptions and priorities; F20 Planning; F21 Directed reachability; F23 Rule counterexamples; F24 Authority and stale records; F25 Fault diagnosis.
+F18 Causal intervention (n=37); F19 Exceptions and priorities (n=24); F20 Planning (n=16); F21 Directed reachability (n=5); F23 Rule counterexamples (n=14); F24 Authority and stale records (n=8); F25 Fault diagnosis (n=11).
 
-![Causes, plans and authoritative evidence accuracy with counts and tied leaders](results/releases/system1_v4_openai_2026-11-06/categories_causes.png)
+![Causes, plans and authoritative evidence accuracy with retained counts and tied leaders](results/releases/system1_v5_provisional_2026-11-09/categories_causes.png)
 
 ### Decisions under uncertainty
 
-F26 Probabilistic risk; F27 Value of information; F28 Robust decisions without a prior; F29 Strategic decisions; F30 Concurrent-history consistency; F31 Information-flow security.
+F26 Probabilistic risk (n=30); F27 Value of information (n=40); F28 Robust decisions without a prior (n=39); F29 Strategic decisions (n=39); F30 Concurrent-history consistency (n=38); F31 Information-flow security (n=36).
 
-![Decisions under uncertainty accuracy with counts and tied leaders](results/releases/system1_v4_openai_2026-11-06/categories_uncertainty.png)
+![Decisions under uncertainty accuracy with retained counts and tied leaders](results/releases/system1_v5_provisional_2026-11-09/categories_uncertainty.png)
 
 ### Practical decisions: scope, policy and actions
 
-P01 Understanding requests and routing; P02 Recognizing multiple requested actions; P03 Tracking current conversational intention; P04 Selecting a tool or requesting clarification; P05 Checking authorization and scope.
+P01 Understanding requests and routing (n=31); P02 Recognizing multiple requested actions (n=34); P03 Tracking current conversational intention (n=33); P04 Selecting a tool or requesting clarification (n=35); P05 Checking authorization and scope (n=35).
 
-![Practical decisions: scope, policy and actions accuracy with counts and tied leaders](results/releases/system1_v4_openai_2026-11-06/categories_practical_actions.png)
+![Practical decisions: scope, policy and actions accuracy with retained counts and tied leaders](results/releases/system1_v5_provisional_2026-11-09/categories_practical_actions.png)
 
 ### Practical decisions: evidence, security and quality
 
-P06 Making decisions with untrusted content; P07 Applying a contextual content policy; P08 Extracting and normalizing facts; P09 Checking claims against supplied evidence; P10 Assigning severity or priority from a rubric.
+P06 Making decisions with untrusted content (n=35); P07 Applying a contextual content policy (n=27); P08 Extracting and normalizing facts (n=36); P09 Checking claims against supplied evidence (n=32); P10 Assigning severity or priority from a rubric (n=31).
 
-![Practical decisions: evidence, security and quality accuracy with counts and tied leaders](results/releases/system1_v4_openai_2026-11-06/categories_practical_evidence.png)
+![Practical decisions: evidence, security and quality accuracy with retained counts and tied leaders](results/releases/system1_v5_provisional_2026-11-09/categories_practical_evidence.png)
 
 ### IQ sequences and admissions-style mathematics
 
-F32 Numerical pattern recognition; F33 Quantitative reasoning.
+F32 Numerical pattern recognition (n=20); F33 Quantitative reasoning (n=200).
 
-![IQ sequences and admissions-style mathematics accuracy with counts and tied leaders](results/releases/system1_v4_openai_2026-11-06/categories_numerical.png)
+![IQ sequences and admissions-style mathematics accuracy with retained counts and tied leaders](results/releases/system1_v5_provisional_2026-11-09/categories_numerical.png)
 
-## Below the cutoff
+## Below the 45% cutoff
 
-- D3 Artemis 9B IQ3_M: 1322/2,157 (61.29%); coverage 92.17%.
-- Microsoft-Decision-1: 1315/2,157 (60.96%); coverage 100.00%.
-- Cloudflare Clef: 1299/2,157 (60.22%); coverage 100.00%.
-- Drex v2.0: 1296/2,157 (60.08%); coverage 95.69%.
-- Cerno 4B v1.2 NF4: 1276/2,157 (59.16%); coverage 93.00%.
-- meraGPT Decider 1: 620/2,157 (28.74%); coverage 100.00%.
+V5 uses the retained 1,456-question bank and 45% cutoff. Historical v4 scores below use its original 2,157 questions and former 62% cutoff.
 
-**Strike 1 — incomplete 100-question screen:** 57/100 correct (57%); SubQ scored 77/100 and Sage 2 scored 74/100 on the same inputs. Median response time was 626 ms; all responses reported zero EUR charges. This is not a full-bank score or a 62% cutoff classification. [Screen method and details](results/releases/system1_v4_openai_2026-11-06/STRIKE_SCREEN_NOTES.md).
+- **Drex v2.0: v5 653/1,456 (44.85%)**; coverage 95.26%. Historical v4: 1296/2,157 (60.08%).
+- **Microsoft-Decision-1: v5 637/1,456 (43.75%)**; coverage 100.00%. Historical v4: 1315/2,157 (60.96%).
+- **D3 Artemis 9B IQ3_M: v5 631/1,456 (43.34%)**; coverage 88.74%. Historical v4: 1322/2,157 (61.29%).
+- **Cloudflare Clef: v5 615/1,456 (42.24%)**; coverage 100.00%. Historical v4: 1299/2,157 (60.22%).
+- **Cerno 4B v1.2 NF4: v5 598/1,456 (41.07%)**; coverage 89.90%. Historical v4: 1276/2,157 (59.16%).
+- **meraGPT Decider 1: v5 338/1,456 (23.21%)**; coverage 100.00%. Historical v4: 620/2,157 (28.74%).
 
-**Hanzo Kai 1.9 — stopped partial test:** 46/244 correct (18.85%); SubQ scored 190/244 (77.87%) on the same inputs. This is an incomplete sample, not a full-bank score or a 62% cutoff classification. Hanzo first limited the free run to 50 answers, then imposed an eight-hour usage window after prepaid credits were purchased. The user stopped testing. The API marked 31 inputs beyond its stated training length. [Usage limits and method](results/releases/system1_v4_openai_2026-11-06/KAI_CASE_NOTE.md).
+## Historical v4 exploratory screens
 
-**Additional incomplete local screens:** THIS/THAT 1.2 (FP16) stopped at 32/100 correct, with a 282 ms median; SubQ scored 77/100 on the same inputs. GLiNER2.5-Decide (FP32, 512-token limit) stopped after 4 correct of 14 usable answers and 6 length rejections in 20 attempts; its 116 ms median covers usable answers only. These partial screens are not full-bank scores or cutoff classifications. [Screen methods and limits](results/releases/system1_v4_openai_2026-11-06/LOCAL_SCREEN_NOTES.md).
+These are unchanged historical samples with their original denominators, not v5 scores or classifications against its threshold. No stopped test was resumed.
 
-**Further incomplete local screens:** Hindsight FP16: 29/100 correct, 273 ms median; Lumma v2 NF4: 452/799 attempts correct, including one unavailable request, 549 ms median on usable answers. These are partial screens, not full-bank scores or cutoff classifications. [Methods and limitations](results/releases/system1_v4_openai_2026-11-06/NEW_LOCAL_SCREEN_NOTES.md).
+- **Strike 1:** 57/100 correct; free-tier screen stopped after 100 requests. [Historical method and limits](results/releases/system1_v5_provisional_2026-11-09/STRIKE_SCREEN_NOTES.md).
+- **Hanzo Kai 1.9:** 46/244 correct; the free daily cap was followed by a separate eight-hour plan window after credits were purchased. The user stopped the test. [Historical method and limits](results/releases/system1_v5_provisional_2026-11-09/KAI_CASE_NOTE.md).
+- **THIS/THAT 1.2 and GLiNER2.5-Decide:** THIS/THAT: 32/100 correct. GLiNER: 4/14 usable answers, plus 6 input-length rejections in 20 attempts. [Historical method and limits](results/releases/system1_v5_provisional_2026-11-09/LOCAL_SCREEN_NOTES.md).
+- **Hindsight and Lumma:** Hindsight: 29/100 correct. Lumma: 452/799 attempts correct, including an unavailable request. [Historical method and limits](results/releases/system1_v5_provisional_2026-11-09/NEW_LOCAL_SCREEN_NOTES.md).
+- **GPT-6 Luna Decisions:** 82/181 correct on the separately attempted additions; historical baseline 758/1,342. The expansion stopped below its recorded 50% rule. [Historical method and limits](results/releases/system1_v5_provisional_2026-11-09/OPENAI_DECISIONS_NOTES.md).
 
-## Question selection
+## Selection, scope and limitations
 
-The quantitative category includes 60 questions selected for errors by Fastino and D3 Artemis and 140 selected for errors by at least one of Fastino, Mammoth, GPT-6 Sol without reasoning, D3 Ultra and Drex Max. Selection using these models' answers can affect comparisons involving them; using several models distributes, but does not eliminate, this selection bias.
+The removed set was chosen using the exact recorded answers of the preceding 26-model main graph, including four reasoning-disabled LLM references. This cohort-conditioned selection leaves that cohort’s overall order unchanged and changes category weights unevenly. It is not an independent demonstration of general difficulty. Future configurations use the frozen 1,456 inputs and exact 45% threshold.
 
-**GPT-6 Luna Decisions — incomplete expansion test:** 82/181 (45.30%) on new inputs only, 180 usable; stopped below 50%. Median 283 ms, p95 546 ms. New-run reported cost $0.0126638 plus one unknown charge. Terra scored 159/181 on the exact same inputs. The unchanged 1,342 baseline remains 758 correct (56.48%); this partial expansion is not a full-v4 score or ranked 62% classification. [API changes, scope and costs](results/releases/system1_v4_openai_2026-11-06/OPENAI_DECISIONS_NOTES.md).
+The quantitative category retains 60 questions selected for Fastino/D3 Artemis errors and 140 selected for an error by at least one of Fastino, Mammoth, GPT-6 Sol, D3 Ultra or Drex Max. Multiple selection models distribute that dependence without removing it. Public questions may appear in training data; these scores are not human IQ norms. The separate 120 companion diagnostics remain excluded.
 
-## OpenAI reference comparison
+The smaller bank reduces future requests by **701/2,157 (32.5%)**. Token charges need not fall by the same proportion. Costs and response times preserve differences in dates, routes, model settings, precision and hardware.
 
-GPT-6.1 Terra scored 1889/2,157 (87.58%), +5.98 percentage points relative to GPT-6 Sol’s 81.59%. Median response time was 1155 ms versus Sol’s 992 ms. These are descriptive results from separate collection sessions.
+## Question origins and licenses
 
-Largest category gains: Checking authorization and scope: Terra 40/40, Sol 30/40 (+25.0 points); Truth-teller consistency: Terra 55/74, Sol 38/74 (+23.0 points); Extracting and normalizing facts: Terra 32/40, Sol 23/40 (+22.5 points).
-
-Smallest changes / largest deficits: Necessary conditions: Terra 50/52, Sol 52/52 (-3.8 points); Boolean scope: Terra 51/54, Sol 53/54 (-3.7 points); Value of information: Terra 23/40, Sol 24/40 (-2.5 points). [All category differences](results/releases/system1_v4_openai_2026-11-06/openai_comparison.json).
-
-## Method and limitations
-
-**Selection bias:** the original 60 quantitative questions were selected for Fastino and D3 Artemis errors; the 140 new questions were selected for an error by at least one of Fastino, Mammoth, GPT-6 Sol without reasoning, D3 Ultra and Drex Max. This distributes, but does not remove, selection bias.
+The retained bank has **1,236 questions from the project development bank, 20 MAIQ number sequences and 200 AQuA quantitative questions**. AQuA-RAT declares Apache-2.0 and contains crowdsourced admissions-style mathematics, not authenticated official GRE or SAT questions. MAIQ’s repository declares MIT, but original human-test item rights remain unestablished; inclusion retains that caveat. The development lineage does not fully establish individual authorship or possible external influences for every project-bank item. The project MIT license does not supersede third-party rights. The two noncommercial LogiQA items remain outside the bank. [Full source and license notices](results/releases/system1_v5_provisional_2026-11-09/SOURCE_AND_LICENSES.md).
 
 ## Download and reproducibility
 
-- [Answer-free questions](results/releases/system1_v4_openai_2026-11-06/questions_2157.jsonl)
-- [Question-level origins and terms](results/releases/system1_v4_openai_2026-11-06/source_metadata_2157.jsonl)
-- [Source and license notes](results/releases/system1_v4_openai_2026-11-06/SOURCE_AND_LICENSES.md)
-- [All model summaries](results/releases/system1_v4_openai_2026-11-06/statistics.json)
-- [All model/category scores](results/releases/system1_v4_openai_2026-11-06/all_category_scores.csv)
-- [Timing and status evidence](results/releases/system1_v4_openai_2026-11-06/timing_evidence.csv.gz)
-- [Cost evidence](results/releases/system1_v4_openai_2026-11-06/cost_evidence.csv.gz)
-- [Cost summaries](results/releases/system1_v4_openai_2026-11-06/cost_statistics.json)
-- [Category guide](results/releases/system1_v4_openai_2026-11-06/category_guide.json)
-- [Prior no-answer HTTP 429 recovery evidence](results/releases/system1_v4_openai_2026-11-06/transport_recoveries.json)
-- [New-model recovery evidence](results/releases/system1_v4_openai_2026-11-06/model_collection_recoveries.json)
-- [New-model context diagnostics](results/releases/system1_v4_openai_2026-11-06/model_context_diagnostics.json)
-- [Incomplete exploratory model results](results/releases/system1_v4_openai_2026-11-06/partial_models.json)
-- [Audit receipt](results/releases/system1_v4_openai_2026-11-06/audit_receipt.json)
-- [Release checksums](results/releases/system1_v4_openai_2026-11-06/manifest.json)
+- [Answer-free provisional v5 questions](results/releases/system1_v5_provisional_2026-11-09/questions_1456.jsonl)
+- [Question-level origin and license metadata](results/releases/system1_v5_provisional_2026-11-09/source_metadata_1456.jsonl)
+- [Source and license notes](results/releases/system1_v5_provisional_2026-11-09/SOURCE_AND_LICENSES.md)
+- [All model summaries](results/releases/system1_v5_provisional_2026-11-09/statistics.json)
+- [All models by 43 categories](results/releases/system1_v5_provisional_2026-11-09/all_category_scores.csv)
+- [Retained timing and status evidence](results/releases/system1_v5_provisional_2026-11-09/timing_evidence.csv.gz)
+- [Retained cost evidence](results/releases/system1_v5_provisional_2026-11-09/cost_evidence.csv.gz)
+- [Retained cost summaries](results/releases/system1_v5_provisional_2026-11-09/cost_statistics.json)
+- [Category guide](results/releases/system1_v5_provisional_2026-11-09/category_guide.json)
+- [701 removed question IDs and categories](results/releases/system1_v5_provisional_2026-11-09/removed_items.csv)
+- [1,456 retained question IDs and categories](results/releases/system1_v5_provisional_2026-11-09/retained_items.csv)
+- [Fixed selection cohort and subset provenance](results/releases/system1_v5_provisional_2026-11-09/selection_provenance.json)
+- [Retained correctness and usability booleans](results/releases/system1_v5_provisional_2026-11-09/correctness_evidence.csv.gz)
+- [Removed-item correctness and usability booleans](results/releases/system1_v5_provisional_2026-11-09/removed_correctness_evidence.csv.gz)
+- [Historical no-answer recovery evidence](results/releases/system1_v5_provisional_2026-11-09/transport_recoveries.json)
+- [Historical collection recovery evidence](results/releases/system1_v5_provisional_2026-11-09/model_collection_recoveries.json)
+- [Historical context diagnostics](results/releases/system1_v5_provisional_2026-11-09/model_context_diagnostics.json)
+- [Subset audit receipt](results/releases/system1_v5_provisional_2026-11-09/audit_receipt.json)
+- [Release checksums](results/releases/system1_v5_provisional_2026-11-09/manifest.json)
 
-The original [v4 release](results/releases/system1_v4_2026-11-02/report.html), [v3 release](results/releases/system1_v3_presentation_2026-11-01/report.html) and [v2 release](results/releases/system1_v2_presentation_2026-11-01/report.html) remain unchanged. The separate 120 companion diagnostics are not included. Model choices and the scoring key remain private. Public questions may occur in training data; scores are not human IQ norms.
-
-The [scripts/](scripts/README.md) support offline validation without model credentials:
+The [scripts/](scripts/README.md) support offline validation without credentials. The [full v4 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v4_openai_2026-11-06/report.html), [v3](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v3_presentation_2026-11-01/report.html) and [v2](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v2_presentation_2026-11-01/report.html) remain unchanged. Model-selected choices and the gold scoring key remain private.
 
 ```sh
-python3 scripts/validate_system1_v4_openai_2026_11_06.py results/releases/system1_v4_openai_2026-11-06 results/releases/system1_v4_super_decider_2026-11-05
+python3 scripts/validate_system1_v5_provisional_2026_11_09.py results/releases/system1_v5_provisional_2026-11-09 results/releases/system1_v4_openai_2026-11-06
 python3 scripts/validate_october21_release.py
 ```

@@ -1,0 +1,1316 @@
+{
+  "version": "v5-provisional",
+  "questions": 1456,
+  "categories": 43,
+  "minimum_overall_accuracy": 0.45,
+  "inclusion_threshold": {
+    "percent": 45,
+    "numerator": 45,
+    "denominator": 100,
+    "n": 1456,
+    "minimum_correct": 656,
+    "rule": "correct * 100 >= 45 * n"
+  },
+  "models": {
+    "fastino_glide_v23_bf16": {
+      "model_id": "fastino_glide_v23_bf16",
+      "label": "Fastino GLiDE v2.3 BF16",
+      "configuration": "Fastino GLiDEv2.3 BF16 (catalog-declared)",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 1008,
+      "accuracy": 0.6923076923076923,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.6923076923076923,
+      "accuracy_upper_if_all_unusable_correct": 0.6923076923076923,
+      "macro_category_accuracy": 0.7361847477117993,
+      "mean_ms": 323.1239427041146,
+      "median_ms": 216.10604150919244,
+      "p95_ms": 529.9573227530345,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 1236,
+        "2026-11-01": 220
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. The exact earlier psychometric first responses were retained; those responses were also used to select the 60 quantitative additions. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1709,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 89,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "reference_sol": {
+      "model_id": "reference_sol",
+      "label": "GPT-6 Sol · no reasoning",
+      "configuration": "GPT-6 Sol — reasoning none (OpenAI standard route)",
+      "role": "LLM reference",
+      "n": 1456,
+      "correct": 1059,
+      "accuracy": 0.7273351648351648,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.7273351648351648,
+      "accuracy_upper_if_all_unusable_correct": 0.7273351648351648,
+      "macro_category_accuracy": 0.7555005680890023,
+      "mean_ms": 1052.582845257168,
+      "median_ms": 986.0882710199803,
+      "p95_ms": 1519.566009985283,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-19": 724,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1760,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 102,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "d3_ultra": {
+      "model_id": "d3_ultra",
+      "label": "D3 Ultra",
+      "configuration": "D3 Ultra",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 1024,
+      "accuracy": 0.7032967032967034,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.7032967032967034,
+      "accuracy_upper_if_all_unusable_correct": 0.7032967032967034,
+      "macro_category_accuracy": 0.7345341271579799,
+      "mean_ms": 217.92232958722417,
+      "median_ms": 171.93204152863473,
+      "p95_ms": 338.0374477710575,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-27": 724,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1725,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 94,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "mammoth1": {
+      "model_id": "mammoth1",
+      "label": "Mammoth-1 (latest named alias)",
+      "configuration": "Mammoth-1 (Baseten direct; latest named alias)",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 970,
+      "accuracy": 0.6662087912087912,
+      "valid": 1455,
+      "coverage": 0.9993131868131868,
+      "answer_accuracy_among_usable": 0.6666666666666666,
+      "accuracy_upper_if_all_unusable_correct": 0.6668956043956044,
+      "macro_category_accuracy": 0.7079168854689999,
+      "mean_ms": 296.1121556368948,
+      "median_ms": 188.06299949937966,
+      "p95_ms": 726.8938852394058,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-21": 724,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 1,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1671,
+        "valid": 2156
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 70,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "drex_max": {
+      "model_id": "drex_max",
+      "label": "Drex Max",
+      "configuration": "Drex Max",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 952,
+      "accuracy": 0.6538461538461539,
+      "valid": 1447,
+      "coverage": 0.9938186813186813,
+      "answer_accuracy_among_usable": 0.6579129232895646,
+      "accuracy_upper_if_all_unusable_correct": 0.6600274725274725,
+      "macro_category_accuracy": 0.7141439770940534,
+      "mean_ms": 490.5981096927952,
+      "median_ms": 330.6151039942051,
+      "p95_ms": 1324.0947815356776,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-21": 724,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 9,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1653,
+        "valid": 2148
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 67,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "nimble_v4_max": {
+      "model_id": "nimble_v4_max",
+      "label": "Nimble v4 Max",
+      "configuration": "Nimble v4 Max",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 943,
+      "accuracy": 0.6476648351648352,
+      "valid": 1455,
+      "coverage": 0.9993131868131868,
+      "answer_accuracy_among_usable": 0.6481099656357389,
+      "accuracy_upper_if_all_unusable_correct": 0.6483516483516484,
+      "macro_category_accuracy": 0.6958158556590686,
+      "mean_ms": 268.54706165237815,
+      "median_ms": 240.06181198637933,
+      "p95_ms": 351.22556224814616,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-16": 528,
+        "2026-10-18": 2,
+        "2026-10-19": 194,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights. The v4 model catalogue returned HTTP 404; the serving response returned the recorded model name, but an immutable checkpoint could not be independently verified.",
+      "retained_primary_failures": 1,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1644,
+        "valid": 2156
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 72,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "pplx_decider12": {
+      "model_id": "pplx_decider12",
+      "label": "Perplexity Decider v1.2",
+      "configuration": "Perplexity Decider v1.2",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 949,
+      "accuracy": 0.6517857142857143,
+      "valid": 1455,
+      "coverage": 0.9993131868131868,
+      "answer_accuracy_among_usable": 0.652233676975945,
+      "accuracy_upper_if_all_unusable_correct": 0.6524725274725275,
+      "macro_category_accuracy": 0.6909113438286957,
+      "mean_ms": 307.63346262024794,
+      "median_ms": 245.83924998296425,
+      "p95_ms": 416.44192673265934,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-18": 530,
+        "2026-10-19": 194,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 1,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1650,
+        "valid": 2156
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 75,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "turion_jev31b": {
+      "model_id": "turion_jev31b",
+      "label": "Turion Jev 31B",
+      "configuration": "Turion Jev 31B",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 954,
+      "accuracy": 0.6552197802197802,
+      "valid": 1455,
+      "coverage": 0.9993131868131868,
+      "answer_accuracy_among_usable": 0.6556701030927835,
+      "accuracy_upper_if_all_unusable_correct": 0.6559065934065934,
+      "macro_category_accuracy": 0.6998410217933375,
+      "mean_ms": 586.7522523318597,
+      "median_ms": 510.4298545047641,
+      "p95_ms": 1029.3165312177734,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-29": 724,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. The first added request used urllib and returned HTTP 403; the remaining 82 used the historical requests.post client. The failure is retained and the timing pool includes both clients. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights. The v4 model catalogue returned HTTP 403; the serving response returned the recorded model name, but an immutable checkpoint could not be independently verified.",
+      "retained_primary_failures": 1,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1655,
+        "valid": 2156
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 78,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "kettei_fat": {
+      "model_id": "kettei_fat",
+      "label": "kettei-fat",
+      "configuration": "kettei-fat",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 868,
+      "accuracy": 0.5961538461538461,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.5961538461538461,
+      "accuracy_upper_if_all_unusable_correct": 0.5961538461538461,
+      "macro_category_accuracy": 0.6841488469197835,
+      "mean_ms": 238.08141607590656,
+      "median_ms": 188.44925001030788,
+      "p95_ms": 446.9279477780219,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-01": 592,
+        "2026-10-20": 724,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1569,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 43,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "liquid_ultra": {
+      "model_id": "liquid_ultra",
+      "label": "Liquid d1-ultra",
+      "configuration": "Liquid d1-ultra",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 942,
+      "accuracy": 0.646978021978022,
+      "valid": 1454,
+      "coverage": 0.9986263736263736,
+      "answer_accuracy_among_usable": 0.6478679504814305,
+      "accuracy_upper_if_all_unusable_correct": 0.6483516483516484,
+      "macro_category_accuracy": 0.6718189431200979,
+      "mean_ms": 317.6322185138885,
+      "median_ms": 206.63270802469924,
+      "p95_ms": 482.9402602335904,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-18": 530,
+        "2026-10-19": 194,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 2,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1643,
+        "valid": 2155
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 98,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "amos_large": {
+      "model_id": "amos_large",
+      "label": "Amos 1 Large",
+      "configuration": "Amos 1 Large",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 888,
+      "accuracy": 0.6098901098901099,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.6098901098901099,
+      "accuracy_upper_if_all_unusable_correct": 0.6098901098901099,
+      "macro_category_accuracy": 0.650296064235543,
+      "mean_ms": 493.0630390515364,
+      "median_ms": 363.4626040584408,
+      "p95_ms": 971.8703124963213,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-20": 724,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1589,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 73,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "reference_sonnet": {
+      "model_id": "reference_sonnet",
+      "label": "Sonnet 5.5 · no thinking",
+      "configuration": "Claude Sonnet 5.5 — no thinking (between_tools, no tools), JSON-choice (Anthropic standard)",
+      "role": "LLM reference",
+      "n": 1456,
+      "correct": 882,
+      "accuracy": 0.6057692307692307,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.6057692307692307,
+      "accuracy_upper_if_all_unusable_correct": 0.6057692307692307,
+      "macro_category_accuracy": 0.641420275848394,
+      "mean_ms": 1516.81415353776,
+      "median_ms": 1412.4423959874548,
+      "p95_ms": 2270.997187239118,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-01": 592,
+        "2026-10-19": 724,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1583,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 78,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "respan02": {
+      "model_id": "respan02",
+      "label": "Respan Span-02 (20261015)",
+      "configuration": "Respan Span-02 respan/span-02-20261015",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 858,
+      "accuracy": 0.5892857142857143,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.5892857142857143,
+      "accuracy_upper_if_all_unusable_correct": 0.5892857142857143,
+      "macro_category_accuracy": 0.579308346322366,
+      "mean_ms": 757.3375651075736,
+      "median_ms": 484.4856874551624,
+      "p95_ms": 2175.812197936466,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-18": 530,
+        "2026-10-19": 194,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1559,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 90,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "reference_opus5": {
+      "model_id": "reference_opus5",
+      "label": "Opus 5 · no thinking",
+      "configuration": "Claude Opus 5 — thinking disabled, JSON-choice (Anthropic standard)",
+      "role": "LLM reference",
+      "n": 1456,
+      "correct": 868,
+      "accuracy": 0.5961538461538461,
+      "valid": 1271,
+      "coverage": 0.8729395604395604,
+      "answer_accuracy_among_usable": 0.6829268292682927,
+      "accuracy_upper_if_all_unusable_correct": 0.7232142857142857,
+      "macro_category_accuracy": 0.5948187376830822,
+      "mean_ms": 1617.7731434086277,
+      "median_ms": 1566.1386249703355,
+      "p95_ms": 2211.3652390034986,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-23": 724,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 185,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1569,
+        "valid": 1972
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 99,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "mercury_decide": {
+      "model_id": "mercury_decide",
+      "label": "Mercury Decide",
+      "configuration": "Mercury Decide",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 767,
+      "accuracy": 0.5267857142857143,
+      "valid": 1455,
+      "coverage": 0.9993131868131868,
+      "answer_accuracy_among_usable": 0.5271477663230241,
+      "accuracy_upper_if_all_unusable_correct": 0.5274725274725275,
+      "macro_category_accuracy": 0.5624181615027393,
+      "mean_ms": 565.3114276971721,
+      "median_ms": 254.9651250592433,
+      "p95_ms": 1216.8950002815109,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-01": 592,
+        "2026-10-18": 530,
+        "2026-10-19": 194,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 1,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1468,
+        "valid": 2156
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 53,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "liquid11_decision": {
+      "model_id": "liquid11_decision",
+      "label": "Liquid d1.1",
+      "configuration": "Liquid d1.1",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 777,
+      "accuracy": 0.5336538461538461,
+      "valid": 1455,
+      "coverage": 0.9993131868131868,
+      "answer_accuracy_among_usable": 0.534020618556701,
+      "accuracy_upper_if_all_unusable_correct": 0.5343406593406593,
+      "macro_category_accuracy": 0.5627183343634589,
+      "mean_ms": 347.4618479650107,
+      "median_ms": 189.91004198323935,
+      "p95_ms": 529.4977187877521,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-01": 592,
+        "2026-10-27": 724,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 1,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1478,
+        "valid": 2156
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 60,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "jev114": {
+      "model_id": "jev114",
+      "label": "Jev 1.14",
+      "configuration": "Jev1.14",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 786,
+      "accuracy": 0.5398351648351648,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.5398351648351648,
+      "accuracy_upper_if_all_unusable_correct": 0.5398351648351648,
+      "macro_category_accuracy": 0.5705587956576468,
+      "mean_ms": 220.77287517590827,
+      "median_ms": 172.7577495330479,
+      "p95_ms": 472.0517084642779,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-15": 528,
+        "2026-10-18": 2,
+        "2026-10-19": 194,
+        "2026-11-01": 80,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1487,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 79,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "elephant1": {
+      "model_id": "elephant1",
+      "label": "Elephant-1",
+      "configuration": "Elephant-1",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 720,
+      "accuracy": 0.4945054945054945,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.4945054945054945,
+      "accuracy_upper_if_all_unusable_correct": 0.4945054945054945,
+      "macro_category_accuracy": 0.538072109719672,
+      "mean_ms": 162.12817478391207,
+      "median_ms": 124.04704198706895,
+      "p95_ms": 267.54302144399844,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-01": 592,
+        "2026-10-21": 724,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1421,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 62,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "celeris11_decision": {
+      "model_id": "celeris11_decision",
+      "label": "Celeris 1.1 Decision",
+      "configuration": "Celeris 1.1 Decision",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 736,
+      "accuracy": 0.5054945054945055,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.5054945054945055,
+      "accuracy_upper_if_all_unusable_correct": 0.5054945054945055,
+      "macro_category_accuracy": 0.5276511756517683,
+      "mean_ms": 183.38366232725733,
+      "median_ms": 142.30614597909153,
+      "p95_ms": 286.99301074811956,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-01": 592,
+        "2026-10-25": 724,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1437,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 79,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "liquid_d1": {
+      "model_id": "liquid_d1",
+      "label": "Liquid d1",
+      "configuration": "Liquid d1",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 674,
+      "accuracy": 0.46291208791208793,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.46291208791208793,
+      "accuracy_upper_if_all_unusable_correct": 0.46291208791208793,
+      "macro_category_accuracy": 0.49916251331684436,
+      "mean_ms": 276.4531919252317,
+      "median_ms": 175.22412550169975,
+      "p95_ms": 768.3496147510596,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-01": 592,
+        "2026-10-18": 530,
+        "2026-10-19": 194,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1375,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 57,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "local_startlux_instant4b": {
+      "model_id": "local_startlux_instant4b",
+      "label": "StartLux Instant 4B Q8",
+      "configuration": "StartLux v1.1 4B Instant",
+      "role": "Local native",
+      "n": 1456,
+      "correct": 678,
+      "accuracy": 0.46565934065934067,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.46565934065934067,
+      "accuracy_upper_if_all_unusable_correct": 0.46565934065934067,
+      "macro_category_accuracy": 0.4976880472662042,
+      "mean_ms": 444.30819435397245,
+      "median_ms": 335.93404150451533,
+      "p95_ms": 900.9330519184005,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 283,
+        "2026-11-01": 309,
+        "2026-10-29": 724,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. The added run did not perform separate warmups; any initial model load is included in the first request time. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1379,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 64,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "clef": {
+      "model_id": "clef",
+      "label": "Cloudflare Clef",
+      "configuration": "Cloudflare Clef",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 615,
+      "accuracy": 0.4223901098901099,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.4223901098901099,
+      "accuracy_upper_if_all_unusable_correct": 0.4223901098901099,
+      "macro_category_accuracy": 0.4678785999997248,
+      "mean_ms": 390.1046657326163,
+      "median_ms": 341.9172294670716,
+      "p95_ms": 685.2127080201171,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-01": 592,
+        "2026-10-18": 530,
+        "2026-10-19": 194,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1299,
+        "valid": 2157
+      },
+      "removed_correct": 684,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 44,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "microsoft_decision": {
+      "model_id": "microsoft_decision",
+      "label": "Microsoft-Decision-1",
+      "configuration": "Microsoft-Decision-1",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 637,
+      "accuracy": 0.4375,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.4375,
+      "accuracy_upper_if_all_unusable_correct": 0.4375,
+      "macro_category_accuracy": 0.4573350973767332,
+      "mean_ms": 373.1217403690827,
+      "median_ms": 283.61281199613586,
+      "p95_ms": 790.3981042327359,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-01": 348,
+        "2026-10-31": 244,
+        "2026-10-16": 528,
+        "2026-10-18": 2,
+        "2026-10-19": 194,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1315,
+        "valid": 2157
+      },
+      "removed_correct": 678,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 63,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "local_d3_flash_artemis_iq3_m": {
+      "model_id": "local_d3_flash_artemis_iq3_m",
+      "label": "D3 Artemis 9B IQ3_M",
+      "configuration": "D3 Flash Artemis 9B",
+      "role": "Local native",
+      "n": 1456,
+      "correct": 631,
+      "accuracy": 0.4333791208791209,
+      "valid": 1292,
+      "coverage": 0.8873626373626373,
+      "answer_accuracy_among_usable": 0.48839009287925694,
+      "accuracy_upper_if_all_unusable_correct": 0.5460164835164835,
+      "macro_category_accuracy": 0.4468178165335134,
+      "mean_ms": 462.6952587064347,
+      "median_ms": 417.01204200217035,
+      "p95_ms": 961.9736767781433,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-10-31": 512,
+        "2026-10-25": 724,
+        "2026-11-01": 220
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. The exact earlier psychometric first responses were retained; those responses were also used to select the 60 quantitative additions. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 164,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1322,
+        "valid": 1988
+      },
+      "removed_correct": 691,
+      "removed_usable": 696,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 87,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "local_cerno4b_nf4": {
+      "model_id": "local_cerno4b_nf4",
+      "label": "Cerno 4B v1.2 NF4",
+      "configuration": "Cerno 4B v1.2 NF4",
+      "role": "Local native",
+      "n": 1456,
+      "correct": 598,
+      "accuracy": 0.4107142857142857,
+      "valid": 1309,
+      "coverage": 0.8990384615384616,
+      "answer_accuracy_among_usable": 0.45683728036669213,
+      "accuracy_upper_if_all_unusable_correct": 0.5116758241758241,
+      "macro_category_accuracy": 0.4712418691240312,
+      "mean_ms": 833.0833112399138,
+      "median_ms": 714.0127089805901,
+      "p95_ms": 1596.7593747773208,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-01": 592,
+        "2026-10-31": 724,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. The added run did not perform separate warmups; any initial model load is included in the first request time. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights.",
+      "retained_primary_failures": 147,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1276,
+        "valid": 2006
+      },
+      "removed_correct": 678,
+      "removed_usable": 697,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 47,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "drex20": {
+      "model_id": "drex20",
+      "label": "Drex v2.0",
+      "configuration": "Drex v2.0",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 653,
+      "accuracy": 0.448489010989011,
+      "valid": 1387,
+      "coverage": 0.9526098901098901,
+      "answer_accuracy_among_usable": 0.4708002883922134,
+      "accuracy_upper_if_all_unusable_correct": 0.4958791208791209,
+      "macro_category_accuracy": 0.48457119910075563,
+      "mean_ms": 556.505845754825,
+      "median_ms": 405.8743335190229,
+      "p95_ms": 1235.2336978074163,
+      "identity_limit": "Captured serving declaration and returned aliases; immutable hidden weights not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-01": 592,
+        "2026-10-18": 530,
+        "2026-10-19": 194,
+        "2026-11-02": 140
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Added questions were collected in a separate session; recorded model identity is a serving declaration, not an immutable hosted-weight attestation. V4 additions are separate-session exact-input responses; some were reused from the screening that selected the questions. Provider declarations do not independently attest hidden weights. Some requests initially returned HTTP 429 without an answer; their first subsequently received model answers were used, with original failures retained. Timing and cost cover the selected answers, not the preceding failures.",
+      "retained_primary_failures": 69,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1296,
+        "valid": 2064
+      },
+      "removed_correct": 643,
+      "removed_usable": 677,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 65,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "subq_snap_1_1": {
+      "model_id": "subq_snap_1_1",
+      "label": "SubQ Snap 1.1",
+      "configuration": "SubQ Snap 1.1 · Subquadratic direct API",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 943,
+      "accuracy": 0.6476648351648352,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.6476648351648352,
+      "accuracy_upper_if_all_unusable_correct": 0.6476648351648352,
+      "macro_category_accuracy": 0.6837925328792012,
+      "mean_ms": 181.19794706245347,
+      "median_ms": 177.24443692713976,
+      "p95_ms": 205.53844823734835,
+      "identity_limit": "Exact provider-returned model alias; hidden weights are not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-02": 1456
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Full v4 input set was collected in a new answer-blind session using two concurrent workers and first model answers. Reported times include network and client overhead; prior models used different sessions and concurrency.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1644,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 73,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "meragpt_decider1": {
+      "model_id": "meragpt_decider1",
+      "label": "meraGPT Decider 1",
+      "configuration": "meraGPT Decider 1 · direct API",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 338,
+      "accuracy": 0.23214285714285715,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.23214285714285715,
+      "accuracy_upper_if_all_unusable_correct": 0.23214285714285715,
+      "macro_category_accuracy": 0.2475757586897696,
+      "mean_ms": 613.7655022453995,
+      "median_ms": 609.7975414595567,
+      "p95_ms": 879.2502809956204,
+      "identity_limit": "Exact provider-returned model alias; the provider states this alias may change as the default improves.",
+      "collection_dates_toronto": {
+        "2026-11-02": 1456
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Full v4 input set was collected in a new answer-blind session using two concurrent workers and first model answers. Reported times include network and client overhead; prior models used different sessions and concurrency. The API-reported charge is rounded per response to millionths of a dollar; its summed total may differ slightly from an aggregate-rate calculation.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 620,
+        "valid": 2157
+      },
+      "removed_correct": 282,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 31,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "levanto_sage_2": {
+      "model_id": "levanto_sage_2",
+      "label": "Levanto Sage 2",
+      "configuration": "Levanto Sage 2 · reasoning off · direct API",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 829,
+      "accuracy": 0.5693681318681318,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.5693681318681318,
+      "accuracy_upper_if_all_unusable_correct": 0.5693681318681318,
+      "macro_category_accuracy": 0.617747570466593,
+      "mean_ms": 247.41120174335916,
+      "median_ms": 231.83525004424155,
+      "p95_ms": 354.99757298384793,
+      "identity_limit": "Exact provider-returned model identifier; hidden weights are not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-02": 1456
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Full v4 input set was collected in a new answer-blind session using two concurrent workers, reasoning explicitly off, and first model answers. Two returned choices disagreed with the highest probability in the same response; the original returned choices were scored without substitution. Cost is estimated at the published provider $0.05 per million input token rate; account-specific rates may differ. Reported times include network and client overhead; prior models used different sessions and concurrency.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1530,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 62,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "sarvam_prism": {
+      "model_id": "sarvam_prism",
+      "label": "Sarvam Prism",
+      "configuration": "Sarvam Prism · direct API",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 679,
+      "accuracy": 0.46634615384615385,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.46634615384615385,
+      "accuracy_upper_if_all_unusable_correct": 0.46634615384615385,
+      "macro_category_accuracy": 0.4735392421922046,
+      "mean_ms": 422.3093408844971,
+      "median_ms": 409.2048955062637,
+      "p95_ms": 465.64544801367447,
+      "identity_limit": "Exact provider-returned model identifier; hidden weights are not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-05": 1456
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Full v4 input set was collected in a sequential, answer-blind session using first model answers. No-answer transient failures were retried; their latency and any associated charges are excluded. Costs are estimates based on INR 4 per million input tokens and the provider illustrative conversion of INR 90 per USD, excluding tax; actual credits or charges may differ. Reported times include network and client overhead; prior models used different sessions and concurrency.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1380,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 85,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "super_decider": {
+      "model_id": "super_decider",
+      "label": "Super Decider",
+      "configuration": "Super Decider · thinking off requested · direct API",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 669,
+      "accuracy": 0.45947802197802196,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.45947802197802196,
+      "accuracy_upper_if_all_unusable_correct": 0.45947802197802196,
+      "macro_category_accuracy": 0.5047231154202925,
+      "mean_ms": 220.61140216976708,
+      "median_ms": 214.54879199154675,
+      "p95_ms": 262.6790107533452,
+      "identity_limit": "Exact provider-returned model identifier; hidden weights and effective thinking mode are not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-05": 1456
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Full v4 input set was collected in a sequential answer-blind session using first model answers. Thinking off was requested; the API does not independently attest effective mode. No-answer transient failures, if any, and retry waits are excluded from selected-answer time and cost. The account catalogue labelled the model Free; USD cost is an estimate at the product-page rate of $0.03 per million input tokens, not an actual charge and may not apply. Prior models used different sessions and concurrency.",
+      "retained_primary_failures": 0,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1370,
+        "valid": 2157
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 58,
+        "n": 140,
+        "usable": 140
+      }
+    },
+    "reference_terra61": {
+      "model_id": "reference_terra61",
+      "label": "GPT-6.1 Terra · no reasoning",
+      "configuration": "GPT-6.1 Terra · reasoning none · OpenAI standard route through OpenRouter · 20261026 checkpoint",
+      "role": "LLM reference",
+      "n": 1456,
+      "correct": 1188,
+      "accuracy": 0.8159340659340659,
+      "valid": 1454,
+      "coverage": 0.9986263736263736,
+      "answer_accuracy_among_usable": 0.8170563961485557,
+      "accuracy_upper_if_all_unusable_correct": 0.8173076923076923,
+      "macro_category_accuracy": 0.8292915355033535,
+      "mean_ms": 1236.7628730786278,
+      "median_ms": 1160.22183347377,
+      "p95_ms": 1728.746916502132,
+      "identity_limit": "Pinned OpenAI standard route. Returned aliases and October 26 serving declaration checked; hidden weights are not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-06": 1456
+      },
+      "new_request_failures": 0,
+      "new_collection_limit": "No new inference. This provisional subset reuses the exact selected v4 primary responses, including failures, on retained inputs. Reasoning disabled in every request; every successful response explicitly reported zero reasoning tokens and no reasoning text. Full bank, two concurrent requests, same short-output contract and HTTPS timer as Sol. 2 DNS failures before connection are preserved as unsuccessful primaries, never retried. Remaining unattempted inputs resumed after read-only connectivity recovery. Cost is API-reported for successful requests; the client failures have no charge telemetry. This is a separate new reference, not a replacement for GPT-6 Sol.",
+      "retained_primary_failures": 2,
+      "v4_original_totals": {
+        "n": 2157,
+        "correct": 1889,
+        "valid": 2155
+      },
+      "removed_correct": 701,
+      "removed_usable": 701,
+      "historical_v4_added140_component": {
+        "scope": "Retained historical v4 additions; not new v5 inference",
+        "correct": 113,
+        "n": 140,
+        "usable": 140
+      }
+    }
+  },
+  "ranked_model_ids": [
+    "reference_terra61",
+    "reference_sol",
+    "d3_ultra",
+    "fastino_glide_v23_bf16",
+    "mammoth1",
+    "turion_jev31b",
+    "drex_max",
+    "pplx_decider12",
+    "nimble_v4_max",
+    "subq_snap_1_1",
+    "liquid_ultra",
+    "amos_large",
+    "reference_sonnet",
+    "kettei_fat",
+    "reference_opus5",
+    "respan02",
+    "levanto_sage_2",
+    "jev114",
+    "liquid11_decision",
+    "mercury_decide",
+    "celeris11_decision",
+    "elephant1",
+    "sarvam_prism",
+    "local_startlux_instant4b",
+    "liquid_d1",
+    "super_decider"
+  ],
+  "below_cutoff": [
+    "drex20",
+    "microsoft_decision",
+    "local_d3_flash_artemis_iq3_m",
+    "clef",
+    "local_cerno4b_nf4",
+    "meragpt_decider1"
+  ],
+  "selection_bias": "Post-hoc challenge subset: removed exactly the 701 questions answered correctly by all 26 prior main-graph configurations. Scores reuse selected v4 responses; this is not an independent fresh evaluation. The original 60 AQuA items were selected for Fastino and D3 misses; the 140 new ones were selected for a miss by at least one of Fastino, Mammoth, GPT-6 Sol, D3 Ultra and Drex Max. This distributes but does not eliminate selection bias.",
+  "rights_warning": "MAIQ repository declares MIT; original question rights are not independently established. Owner chose inclusion with this caveat."
+}

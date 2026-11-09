@@ -1,6 +1,14 @@
 # Results and evidence
 
-## Current: System 1 Decision Benchmark v2
+## Current: provisional System 1 Decision Benchmark v5
+
+[1,456 questions across 43 categories](releases/system1_v5_provisional_2026-11-09/report.html), with **26 qualifying configurations at an exact 45% inclusion threshold**. All 32 complete configurations are rescored from their unchanged recorded primaries. The 701 questions universally correct for the preceding main-graph cohort are archived in v4; no new inference was run.
+
+- [Scores and configurations](releases/system1_v5_provisional_2026-11-09/statistics.json), [all category scores](releases/system1_v5_provisional_2026-11-09/all_category_scores.csv), [cost evidence](releases/system1_v5_provisional_2026-11-09/cost_statistics.json) and [selection method](releases/system1_v5_provisional_2026-11-09/V5_SELECTION_NOTES.md).
+- [Preserved full v4: 2,157 questions and original 62% cutoff](releases/system1_v4_openai_2026-11-06/report.html).
+- [Preserved v3](releases/system1_v3_presentation_2026-11-01/report.html).
+
+## Archived: System 1 Decision Benchmark v2
 
 [26 qualifying configurations on 1,934 questions and 41 categories](releases/system1_v2_presentation_2026-11-01/report.html), using an exact 62% overall cutoff. 20 hosted decision models, 3 locals and 3 reasoning-disabled LLM references.
 

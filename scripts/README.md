@@ -139,3 +139,17 @@ python3 scripts/publish_local_updates_2026_10_31.py
 python3 scripts/validate_local_updates_2026_10_31.py
 python3 -m unittest discover -s scripts -p 'test_local_updates_2026_10_31.py'
 ```
+
+## Provisional v5 · November 9, 2026
+
+`publish_system1_v5_provisional_2026_11_09.py` renders the separately audited
+1,456-question subset without inference. The exact inclusion cutoff is 45%,
+requiring at least 656 correct answers. `validate_system1_v5_provisional_2026_11_09.py`
+checks the retained inputs, 701 removed IDs, all 32 configurations, individual
+timing/cost evidence, source rights, graph membership and provisional selection
+provenance against the frozen v4 release. Original v4 scores and the 62% cutoff
+remain historical; v5 has its own denominator and threshold.
+
+```sh
+python3 scripts/validate_system1_v5_provisional_2026_11_09.py results/releases/system1_v5_provisional_2026-11-09 results/releases/system1_v4_openai_2026-11-06 --mirror docs/v5
+```
