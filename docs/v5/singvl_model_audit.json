@@ -1,0 +1,22 @@
+{
+  "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+  "model_requested": "sing-vl-s1",
+  "n": 1456,
+  "correct": 698,
+  "valid": 1456,
+  "accuracy": 0.4793956043956044,
+  "complete": true,
+  "mean_ms": 472.35662911199535,
+  "median_ms": 344.22800003085285,
+  "p95_ms": 1163.7446247332264,
+  "input_tokens": 726110,
+  "raw_output_tokens": 0,
+  "nonzero_output_counter_responses": 0,
+  "invalid_probability_distributions": 0,
+  "argmax_disagreements": 0,
+  "zero_generation_independently_attested": false,
+  "plan_sha256": "a70bf99b0bddff9c7fc148f8cb761364e8ba3be8ad9692cc6150c9a08b9a402c",
+  "source_record_digest": "62a6ac1a086629c5df5c594d86439e3c486deb5d42139b6033194859c63633c4",
+  "manifest_sha256": "edb89c4358c41b8a2ebbef556efa5d4366f6398f2789a84f76f6d40c28b75e8b",
+  "audit_code_sha256": "db00abab3aa4f4c8943d766aa214292e3f612165a1747f82a83ffc4af4643ab4"
+}

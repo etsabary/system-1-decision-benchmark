@@ -1,0 +1,791 @@
+{
+  "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+  "published_reference": "system1_v5_drex_2026-11-09",
+  "rank_among_published_active_plus_candidate": 25,
+  "cohort_n": 29,
+  "correct": 698,
+  "n": 1456,
+  "against_startlux": {
+    "correct": 678,
+    "difference_correct": 20,
+    "difference_percentage_points": 1.3736263736263736,
+    "by_category": [
+      {
+        "family_id": "F01",
+        "n": 5,
+        "singvl_correct": 0,
+        "startlux_correct": 1
+      },
+      {
+        "family_id": "F02",
+        "n": 22,
+        "singvl_correct": 17,
+        "startlux_correct": 19
+      },
+      {
+        "family_id": "F03",
+        "n": 32,
+        "singvl_correct": 26,
+        "startlux_correct": 27
+      },
+      {
+        "family_id": "F04",
+        "n": 18,
+        "singvl_correct": 6,
+        "startlux_correct": 6
+      },
+      {
+        "family_id": "F05",
+        "n": 9,
+        "singvl_correct": 4,
+        "startlux_correct": 4
+      },
+      {
+        "family_id": "F06",
+        "n": 7,
+        "singvl_correct": 3,
+        "startlux_correct": 4
+      },
+      {
+        "family_id": "F07",
+        "n": 54,
+        "singvl_correct": 27,
+        "startlux_correct": 17
+      },
+      {
+        "family_id": "F08",
+        "n": 44,
+        "singvl_correct": 31,
+        "startlux_correct": 30
+      },
+      {
+        "family_id": "F09",
+        "n": 68,
+        "singvl_correct": 30,
+        "startlux_correct": 32
+      },
+      {
+        "family_id": "F10",
+        "n": 69,
+        "singvl_correct": 33,
+        "startlux_correct": 41
+      },
+      {
+        "family_id": "F11",
+        "n": 29,
+        "singvl_correct": 19,
+        "startlux_correct": 14
+      },
+      {
+        "family_id": "F12",
+        "n": 43,
+        "singvl_correct": 19,
+        "startlux_correct": 16
+      },
+      {
+        "family_id": "F13",
+        "n": 47,
+        "singvl_correct": 15,
+        "startlux_correct": 9
+      },
+      {
+        "family_id": "F14",
+        "n": 25,
+        "singvl_correct": 9,
+        "startlux_correct": 15
+      },
+      {
+        "family_id": "F15",
+        "n": 35,
+        "singvl_correct": 13,
+        "startlux_correct": 12
+      },
+      {
+        "family_id": "F16",
+        "n": 35,
+        "singvl_correct": 22,
+        "startlux_correct": 25
+      },
+      {
+        "family_id": "F17",
+        "n": 19,
+        "singvl_correct": 14,
+        "startlux_correct": 7
+      },
+      {
+        "family_id": "F18",
+        "n": 37,
+        "singvl_correct": 22,
+        "startlux_correct": 15
+      },
+      {
+        "family_id": "F19",
+        "n": 24,
+        "singvl_correct": 17,
+        "startlux_correct": 20
+      },
+      {
+        "family_id": "F20",
+        "n": 16,
+        "singvl_correct": 12,
+        "startlux_correct": 13
+      },
+      {
+        "family_id": "F21",
+        "n": 5,
+        "singvl_correct": 2,
+        "startlux_correct": 3
+      },
+      {
+        "family_id": "F22",
+        "n": 9,
+        "singvl_correct": 5,
+        "startlux_correct": 5
+      },
+      {
+        "family_id": "F23",
+        "n": 14,
+        "singvl_correct": 12,
+        "startlux_correct": 10
+      },
+      {
+        "family_id": "F24",
+        "n": 8,
+        "singvl_correct": 5,
+        "startlux_correct": 7
+      },
+      {
+        "family_id": "F25",
+        "n": 11,
+        "singvl_correct": 5,
+        "startlux_correct": 6
+      },
+      {
+        "family_id": "F26",
+        "n": 30,
+        "singvl_correct": 13,
+        "startlux_correct": 9
+      },
+      {
+        "family_id": "F27",
+        "n": 40,
+        "singvl_correct": 10,
+        "startlux_correct": 20
+      },
+      {
+        "family_id": "F28",
+        "n": 39,
+        "singvl_correct": 3,
+        "startlux_correct": 8
+      },
+      {
+        "family_id": "F29",
+        "n": 39,
+        "singvl_correct": 22,
+        "startlux_correct": 26
+      },
+      {
+        "family_id": "F30",
+        "n": 38,
+        "singvl_correct": 15,
+        "startlux_correct": 18
+      },
+      {
+        "family_id": "F31",
+        "n": 36,
+        "singvl_correct": 19,
+        "startlux_correct": 14
+      },
+      {
+        "family_id": "P01",
+        "n": 31,
+        "singvl_correct": 8,
+        "startlux_correct": 19
+      },
+      {
+        "family_id": "P02",
+        "n": 34,
+        "singvl_correct": 19,
+        "startlux_correct": 16
+      },
+      {
+        "family_id": "P03",
+        "n": 33,
+        "singvl_correct": 24,
+        "startlux_correct": 14
+      },
+      {
+        "family_id": "P04",
+        "n": 35,
+        "singvl_correct": 12,
+        "startlux_correct": 18
+      },
+      {
+        "family_id": "P05",
+        "n": 35,
+        "singvl_correct": 18,
+        "startlux_correct": 15
+      },
+      {
+        "family_id": "P06",
+        "n": 35,
+        "singvl_correct": 15,
+        "startlux_correct": 18
+      },
+      {
+        "family_id": "P07",
+        "n": 27,
+        "singvl_correct": 12,
+        "startlux_correct": 8
+      },
+      {
+        "family_id": "P08",
+        "n": 36,
+        "singvl_correct": 10,
+        "startlux_correct": 9
+      },
+      {
+        "family_id": "P09",
+        "n": 32,
+        "singvl_correct": 13,
+        "startlux_correct": 11
+      },
+      {
+        "family_id": "P10",
+        "n": 31,
+        "singvl_correct": 16,
+        "startlux_correct": 11
+      },
+      {
+        "family_id": "F32",
+        "n": 20,
+        "singvl_correct": 8,
+        "startlux_correct": 11
+      },
+      {
+        "family_id": "F33",
+        "n": 200,
+        "singvl_correct": 93,
+        "startlux_correct": 75
+      }
+    ]
+  },
+  "categories": [
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F01",
+      "family": "Lookup and filtering",
+      "n": 5,
+      "correct": 0,
+      "accuracy": 0.0,
+      "mean_ms": 586.1649497877806,
+      "median_ms": 518.6239159666002,
+      "p95_ms": 836.33508363273
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F02",
+      "family": "Forward conditionals",
+      "n": 22,
+      "correct": 17,
+      "accuracy": 0.7727272727272727,
+      "mean_ms": 401.2513618482362,
+      "median_ms": 346.24243795406073,
+      "p95_ms": 595.0706482806709
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F03",
+      "family": "Necessary conditions",
+      "n": 32,
+      "correct": 26,
+      "accuracy": 0.8125,
+      "mean_ms": 355.34010406263405,
+      "median_ms": 322.76816602097824,
+      "p95_ms": 565.5841434432659
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F04",
+      "family": "Boolean scope",
+      "n": 18,
+      "correct": 6,
+      "accuracy": 0.3333333333333333,
+      "mean_ms": 378.3817452753687,
+      "median_ms": 344.05329154105857,
+      "p95_ms": 595.7427143352104
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F05",
+      "family": "Quantifiers and sets",
+      "n": 9,
+      "correct": 4,
+      "accuracy": 0.4444444444444444,
+      "mean_ms": 334.7639353014529,
+      "median_ms": 291.64083290379494,
+      "p95_ms": 536.1191003816201
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F06",
+      "family": "Comparisons",
+      "n": 7,
+      "correct": 3,
+      "accuracy": 0.42857142857142855,
+      "mean_ms": 334.78715471989875,
+      "median_ms": 284.46624998468906,
+      "p95_ms": 538.4039123426192
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F07",
+      "family": "Scheduling",
+      "n": 54,
+      "correct": 27,
+      "accuracy": 0.5,
+      "mean_ms": 286.4944775550005,
+      "median_ms": 227.13310399558395,
+      "p95_ms": 603.5408442665357
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F08",
+      "family": "One-to-one assignments",
+      "n": 44,
+      "correct": 31,
+      "accuracy": 0.7045454545454546,
+      "mean_ms": 293.89217720282346,
+      "median_ms": 259.90089552942663,
+      "p95_ms": 451.87872672686353
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F09",
+      "family": "Exact truth counting",
+      "n": 68,
+      "correct": 30,
+      "accuracy": 0.4411764705882353,
+      "mean_ms": 293.04311706116147,
+      "median_ms": 249.16108400793746,
+      "p95_ms": 399.5326043572276
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F10",
+      "family": "Truth-teller consistency",
+      "n": 69,
+      "correct": 33,
+      "accuracy": 0.4782608695652174,
+      "mean_ms": 415.3877246173342,
+      "median_ms": 403.0619580298662,
+      "p95_ms": 600.7314245449377
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F11",
+      "family": "Sufficiency and inconsistency",
+      "n": 29,
+      "correct": 19,
+      "accuracy": 0.6551724137931034,
+      "mean_ms": 280.82711501689306,
+      "median_ms": 242.04699997790158,
+      "p95_ms": 512.6658667810257
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F12",
+      "family": "Object swaps",
+      "n": 43,
+      "correct": 19,
+      "accuracy": 0.4418604651162791,
+      "mean_ms": 295.1289456971206,
+      "median_ms": 274.83295800630003,
+      "p95_ms": 456.4357996801844
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F13",
+      "family": "Sequential procedures",
+      "n": 47,
+      "correct": 15,
+      "accuracy": 0.3191489361702128,
+      "mean_ms": 283.74172778592066,
+      "median_ms": 274.79608391877264,
+      "p95_ms": 413.48392491927365
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F14",
+      "family": "Temporal intervals",
+      "n": 25,
+      "correct": 9,
+      "accuracy": 0.36,
+      "mean_ms": 347.92580659035593,
+      "median_ms": 277.0158749772236,
+      "p95_ms": 725.2346916357048
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F15",
+      "family": "Spatial tracking",
+      "n": 35,
+      "correct": 13,
+      "accuracy": 0.37142857142857144,
+      "mean_ms": 334.65793570836206,
+      "median_ms": 283.94058300182223,
+      "p95_ms": 588.4465747862123
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F16",
+      "family": "Reference binding",
+      "n": 35,
+      "correct": 22,
+      "accuracy": 0.6285714285714286,
+      "mean_ms": 263.60542748256455,
+      "median_ms": 234.62520795874298,
+      "p95_ms": 418.19941248977557
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F17",
+      "family": "Beliefs and perspectives",
+      "n": 19,
+      "correct": 14,
+      "accuracy": 0.7368421052631579,
+      "mean_ms": 364.1111623728648,
+      "median_ms": 334.3578749336302,
+      "p95_ms": 488.72564159100784
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F18",
+      "family": "Causal intervention",
+      "n": 37,
+      "correct": 22,
+      "accuracy": 0.5945945945945946,
+      "mean_ms": 415.07347638567757,
+      "median_ms": 382.28962500579655,
+      "p95_ms": 740.5265999725087
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F19",
+      "family": "Exceptions and priorities",
+      "n": 24,
+      "correct": 17,
+      "accuracy": 0.7083333333333334,
+      "mean_ms": 332.5681129014508,
+      "median_ms": 311.4835419692099,
+      "p95_ms": 471.3453955017029
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F20",
+      "family": "Planning",
+      "n": 16,
+      "correct": 12,
+      "accuracy": 0.75,
+      "mean_ms": 377.0718306914205,
+      "median_ms": 308.61737503437325,
+      "p95_ms": 695.1012912613805
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F21",
+      "family": "Directed reachability",
+      "n": 5,
+      "correct": 2,
+      "accuracy": 0.4,
+      "mean_ms": 287.7631083596498,
+      "median_ms": 265.0872089434415,
+      "p95_ms": 337.1043920284137
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F22",
+      "family": "Preference ordering",
+      "n": 9,
+      "correct": 5,
+      "accuracy": 0.5555555555555556,
+      "mean_ms": 307.9063562262389,
+      "median_ms": 292.90529107674956,
+      "p95_ms": 426.1846833629533
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F23",
+      "family": "Rule counterexamples",
+      "n": 14,
+      "correct": 12,
+      "accuracy": 0.8571428571428571,
+      "mean_ms": 330.66634834644253,
+      "median_ms": 314.3276874907315,
+      "p95_ms": 441.6188504896126
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F24",
+      "family": "Authority and stale records",
+      "n": 8,
+      "correct": 5,
+      "accuracy": 0.625,
+      "mean_ms": 366.7922501335852,
+      "median_ms": 314.33633354026824,
+      "p95_ms": 618.3451976161448
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F25",
+      "family": "Fault diagnosis",
+      "n": 11,
+      "correct": 5,
+      "accuracy": 0.45454545454545453,
+      "mean_ms": 277.3030456261371,
+      "median_ms": 271.7050419887528,
+      "p95_ms": 359.6279164776206
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F26",
+      "family": "Probabilistic risk",
+      "n": 30,
+      "correct": 13,
+      "accuracy": 0.43333333333333335,
+      "mean_ms": 591.8810945081835,
+      "median_ms": 614.4940415397286,
+      "p95_ms": 745.4085936304182
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F27",
+      "family": "Value of information",
+      "n": 40,
+      "correct": 10,
+      "accuracy": 0.25,
+      "mean_ms": 674.4903134327615,
+      "median_ms": 721.8625624664128,
+      "p95_ms": 890.5447712051682
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F28",
+      "family": "Robust decisions without a prior",
+      "n": 39,
+      "correct": 3,
+      "accuracy": 0.07692307692307693,
+      "mean_ms": 779.4073536598052,
+      "median_ms": 857.6815000269562,
+      "p95_ms": 1040.6468127970584
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F29",
+      "family": "Strategic decisions",
+      "n": 39,
+      "correct": 22,
+      "accuracy": 0.5641025641025641,
+      "mean_ms": 630.1775534595482,
+      "median_ms": 713.1334589794278,
+      "p95_ms": 783.848745492287
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F30",
+      "family": "Concurrent-history consistency",
+      "n": 38,
+      "correct": 15,
+      "accuracy": 0.39473684210526316,
+      "mean_ms": 1001.3919122529363,
+      "median_ms": 1108.9003754896112,
+      "p95_ms": 1233.5644455160946
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F31",
+      "family": "Information-flow security",
+      "n": 36,
+      "correct": 19,
+      "accuracy": 0.5277777777777778,
+      "mean_ms": 985.0129536902791,
+      "median_ms": 996.10785394907,
+      "p95_ms": 1390.137031325139
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "P01",
+      "family": "Understanding requests and routing",
+      "n": 31,
+      "correct": 8,
+      "accuracy": 0.25806451612903225,
+      "mean_ms": 657.5528978925919,
+      "median_ms": 646.8347919872031,
+      "p95_ms": 835.5271249893121
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "P02",
+      "family": "Recognizing multiple requested actions",
+      "n": 34,
+      "correct": 19,
+      "accuracy": 0.5588235294117647,
+      "mean_ms": 632.6695709996035,
+      "median_ms": 598.8241044688039,
+      "p95_ms": 765.09682732285
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "P03",
+      "family": "Tracking current conversational intention",
+      "n": 33,
+      "correct": 24,
+      "accuracy": 0.7272727272727273,
+      "mean_ms": 559.3913964376869,
+      "median_ms": 535.0496249739081,
+      "p95_ms": 709.4060079427436
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "P04",
+      "family": "Selecting a tool or requesting clarification",
+      "n": 35,
+      "correct": 12,
+      "accuracy": 0.34285714285714286,
+      "mean_ms": 557.1958034166267,
+      "median_ms": 528.6107920110226,
+      "p95_ms": 709.6625412232243
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "P05",
+      "family": "Checking authorization and scope",
+      "n": 35,
+      "correct": 18,
+      "accuracy": 0.5142857142857142,
+      "mean_ms": 1108.0615713793252,
+      "median_ms": 1097.53345802892,
+      "p95_ms": 1307.7115089516155
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "P06",
+      "family": "Making decisions with untrusted content",
+      "n": 35,
+      "correct": 15,
+      "accuracy": 0.42857142857142855,
+      "mean_ms": 688.8018952316737,
+      "median_ms": 697.0319589599967,
+      "p95_ms": 821.4701624237931
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "P07",
+      "family": "Applying a contextual content policy",
+      "n": 27,
+      "correct": 12,
+      "accuracy": 0.4444444444444444,
+      "mean_ms": 1043.1239151490715,
+      "median_ms": 1203.6452919710428,
+      "p95_ms": 1343.2998586213216
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "P08",
+      "family": "Extracting and normalizing facts",
+      "n": 36,
+      "correct": 10,
+      "accuracy": 0.2777777777777778,
+      "mean_ms": 673.0946180565903,
+      "median_ms": 676.0335834696889,
+      "p95_ms": 817.0741559879389
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "P09",
+      "family": "Checking claims against supplied evidence",
+      "n": 32,
+      "correct": 13,
+      "accuracy": 0.40625,
+      "mean_ms": 563.9711823787366,
+      "median_ms": 537.4171040020883,
+      "p95_ms": 821.6609813040121
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "P10",
+      "family": "Assigning severity or priority from a rubric",
+      "n": 31,
+      "correct": 16,
+      "accuracy": 0.5161290322580645,
+      "mean_ms": 1225.450388384953,
+      "median_ms": 1236.9403330376372,
+      "p95_ms": 1410.7769164838828
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F32",
+      "family": "Numerical pattern recognition",
+      "n": 20,
+      "correct": 8,
+      "accuracy": 0.4,
+      "mean_ms": 140.8442583924625,
+      "median_ms": 124.88033302361146,
+      "p95_ms": 191.6122110909783
+    },
+    {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "model": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "family_id": "F33",
+      "family": "Quantitative reasoning",
+      "n": 200,
+      "correct": 93,
+      "accuracy": 0.465,
+      "mean_ms": 166.6149151592981,
+      "median_ms": 156.38604148989543,
+      "p95_ms": 260.6890104303601
+    }
+  ]
+}

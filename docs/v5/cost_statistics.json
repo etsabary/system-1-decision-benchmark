@@ -1,6 +1,6 @@
 {
   "currency": "USD",
-  "scope": "Selected v5 primary records including versioned native Drex; inherited records unchanged. API-reported charges, tariff estimates, FX conversion estimates, free, unknown and unmetered records remain distinct.",
+  "scope": "All selected v5 primary records; prior35 configurations unchanged, with a separately audited local distributed SingVL session added. Reported, estimated, free, unknown and unmetered costs remain distinct.",
   "models": {
     "fastino_glide_v23_bf16": {
       "model_id": "fastino_glide_v23_bf16",
@@ -474,6 +474,19 @@
       "captured_input_tariff_usd_per_million": "0.03",
       "output_billable": false,
       "cost_qualification": "No monetary API charge telemetry. Successful input usage is multiplied by the captured USD0.03/M input tariff; output is not billed by that tariff. Missing failure usage stays unknown, not zero."
+    },
+    "singvl_s1_4b_q4km_llamacpp_ctx4096_lan": {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "n": 1456,
+      "reported_count": 0,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 1456,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": null,
+      "known_usd_per_1000": null
     }
   }
 }

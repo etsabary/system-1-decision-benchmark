@@ -1355,6 +1355,35 @@
       "output_counter_policy": "Typed native choice is accepted under the existing Drex policy despite nonzero output counters; preserve counters, do not claim zero generation.",
       "new_collection_limit": "Full frozen v5 bank, exact common answer-blind shuffled order, first attempts only. Two no-answer HTTP 429 primaries remain unsuccessful and were not replayed. Only unattempted inputs resumed under an account-rate-limit pacing amendment; pacing waits are outside request timers. Collection concurrency/rate changed, so pooled latency is descriptive and not uniform-throughput evidence.",
       "cost_qualification": "No monetary API charge telemetry. Successful input usage is multiplied by the captured USD0.03/M input tariff; output is not billed by that tariff. Missing failure usage stays unknown, not zero."
+    },
+    "singvl_s1_4b_q4km_llamacpp_ctx4096_lan": {
+      "model_id": "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+      "label": "SingVL S1 4B Q4 · 2×RTX 2060",
+      "configuration": "SingVL S1 4B Q4_K_M · llama.cpp4096 context · two-computer2×RTX2060 6GB(user-reported)",
+      "role": "Local distributed",
+      "n": 1456,
+      "correct": 698,
+      "accuracy": 0.4793956043956044,
+      "valid": 1456,
+      "coverage": 1,
+      "answer_accuracy_among_usable": 0.4793956043956044,
+      "accuracy_upper_if_all_unusable_correct": 0.4793956043956044,
+      "macro_category_accuracy": 0.487444299919536,
+      "mean_ms": 472.35662911199535,
+      "median_ms": 344.22800003085285,
+      "p95_ms": 1163.7446247332264,
+      "identity_limit": "Server-declared SingVL S1 4B GGUF Q4_K_M, native compatibility adapter; backend alias sing-vl-s1-native, llama.cpp b12301-956591f45. Original full-precision Transformers runtime not tested. Weight-file identity, conversion correctness, zero generation and actual GPU placement are not independently attested by the HTTP metadata.",
+      "collection_dates_toronto": {
+        "2026-11-11": 1456
+      },
+      "new_request_failures": 0,
+      "input_tokens": 726110,
+      "raw_output_tokens": 0,
+      "nonzero_output_counter_responses": 0,
+      "zero_generation_attested": false,
+      "no_generated_reasoning_text_observed": true,
+      "new_collection_limit": "Full frozen v5 bank, fixed answer-blind shuffled order, one worker, first attempts only. Context and adapter allowance4096; no client truncation. Separate original1024-context20-question screen is excluded. User requested completion irrespective of accuracy. Hardware configuration is user-reported; latency includes LAN and adapter overhead.",
+      "cost_qualification": "Local hardware and electricity unmetered, not zero."
     }
   },
   "ranked_model_ids": [
@@ -1382,6 +1411,7 @@
     "mercury_decide",
     "celeris11_decision",
     "elephant1",
+    "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
     "sarvam_prism",
     "local_startlux_instant4b",
     "liquid_d1",

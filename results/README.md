@@ -2,9 +2,10 @@
 
 ## Current: provisional System 1 Decision Benchmark v5
 
-[1,456 questions across 43 categories](releases/system1_v5_drex_2026-11-09/report.html), with **28 qualifying configurations at an exact 45% inclusion threshold**. All 35 complete configurations are rescored from their unchanged recorded primaries. The 701 questions universally correct for the preceding main-graph cohort are archived in v4; all prior measurements are unchanged; Drex Max v1.1 replaces older Drex Max in the active graph, with the older configuration retained separately as superseded. Morph and REAX results remain unchanged.
+[1,456 questions across 43 categories](releases/system1_v5_singvl_2026-11-11/report.html), with **29 qualifying configurations at an exact 45% inclusion threshold** and **36 complete configurations** retained in the data. All 35 previous model results are unchanged. SingVL S1 4B Q4_K_M adds a full-bank session on a separately identified two-computer local llama.cpp deployment. Drex Max v1.1 remains the active Drex version; its predecessor stays a superseded reference. The 701 questions removed from provisional v5 remain archived in v4.
 
-- [Scores and configurations](releases/system1_v5_drex_2026-11-09/statistics.json), [all category scores](releases/system1_v5_drex_2026-11-09/all_category_scores.csv), [cost evidence](releases/system1_v5_drex_2026-11-09/cost_statistics.json) and [selection method](releases/system1_v5_drex_2026-11-09/V5_SELECTION_NOTES.md).
+- [Scores and configurations](releases/system1_v5_singvl_2026-11-11/statistics.json), [all category scores](releases/system1_v5_singvl_2026-11-11/all_category_scores.csv), [cost evidence](releases/system1_v5_singvl_2026-11-11/cost_statistics.json) and [selection method](releases/system1_v5_singvl_2026-11-11/V5_SELECTION_NOTES.md).
+- [Preserved v5 before SingVL](releases/system1_v5_drex_2026-11-09/README_V5.md). The current successor adds SingVL Q4_K_M on a separately identified two-computer local deployment; all 35 preceding measurements remain unchanged.
 - [Preserved hosted v5, before the Drex upgrade](releases/system1_v5_hosted_2026-11-09/README_V5.md).
 - [Preserved initial provisional v5, before the two hosted additions](releases/system1_v5_provisional_2026-11-09/report.html).
 - [Preserved full v4: 2,157 questions and original 62% cutoff](releases/system1_v4_openai_2026-11-06/report.html).

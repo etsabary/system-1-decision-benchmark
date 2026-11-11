@@ -182,3 +182,18 @@ python3 scripts/validate_system1_v5_drex_2026_11_09.py results/releases/system1_
 Dated-release commands intentionally omit an active-mirror argument so they
 continue to work after later publications. The v5 CI workflow additionally
 checks `--mirror docs/v5` for its current successor only.
+
+## SingVL distributed-local successor · November 11, 2026
+
+`publish_system1_v5_singvl_2026_11_11.py` retains the existing layout and adds a
+rose deployment color for SingVL on two user-reported RTX2060 6GB computers.
+The role extension is local to the new renderer; historical renderer sources
+and dated releases remain unchanged. Cost and speed bands keep their original
+meaning, and all 35 previous model/cost objects and 50,960 ledger prefixes are preserved.
+
+```sh
+python3 scripts/validate_system1_v5_singvl_2026_11_11.py results/releases/system1_v5_singvl_2026-11-11 results/releases/system1_v5_drex_2026-11-09
+```
+
+The current CI also checks the exact docs/v5 mirror. Hardware metadata is
+user-reported; the serving API does not independently attest actual GPU placement.
