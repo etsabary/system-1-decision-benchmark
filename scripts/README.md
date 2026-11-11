@@ -197,3 +197,19 @@ python3 scripts/validate_system1_v5_singvl_2026_11_11.py results/releases/system
 
 The current CI also checks the exact docs/v5 mirror. Hardware metadata is
 user-reported; the serving API does not independently attest actual GPU placement.
+
+## D3 Flash distributed-local successor · November 11, 2026
+
+`publish_system1_v5_d3_flash_2026_11_11.py` reuses the current layout and rose
+deployment color for the separately tested D3 Flash9B Q4_K_M configuration.
+All 36 previous model/cost objects and 52,416 ledger prefixes remain unchanged.
+The frozen bank stays 1,456 questions / 43 categories with an exact 45% cutoff.
+The collection record retains one timeout and two pacing phases, with cause
+unconfirmed. Local hardware and electricity are unmetered, not zero.
+
+```sh
+python3 scripts/validate_system1_v5_d3_flash_2026_11_11.py results/releases/system1_v5_d3_flash_2026-11-11 results/releases/system1_v5_singvl_2026-11-11
+```
+
+CI also validates the exact docs/v5 mirror. Historical renderers and releases
+are unchanged; the latest report retains readable matrices and cost/speed bands.

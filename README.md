@@ -1,14 +1,14 @@
 # System 1 Decision Benchmark · provisional v5
 
-This provisional successor contains **1,456 questions across 43 categories**. It removes the exact 701 questions answered correctly by all 26 configurations in the original v4 main graph, while retaining every remaining question and recorded primary response. All 35 preceding complete configurations retain their recorded answers. SingVL S1 4B Q4_K_M adds a full-bank local two-computer session on the same frozen inputs. The complete v4 bank and reports remain unchanged.
+This provisional successor contains **1,456 questions across 43 categories**. It removes the exact 701 questions answered correctly by all 26 configurations in the original v4 main graph, while retaining every remaining question and recorded primary response. All 36 preceding complete configurations retain their recorded answers. D3 Flash 9B Q4_K_M adds a full-bank local two-computer session on the same frozen inputs. The complete v4 bank and reports remain unchanged.
 
-**Inclusion threshold: 45% (at least 656/1,456 correct).** The user set this cutoff after reviewing Super Decider’s 669/1,456 (45.95%), the lowest score among the preceding graph models. Inclusion uses the exact rule **correct ×100 ≥45 ×1,456**, requiring at least **656 correct**, including ties. All 35 preceding complete configurations are preserved and SingVL is added; 29 configurations appear in the active graph after the threshold and explicit version-selection decision, with 1 superseded reference(s).
+**Inclusion threshold: 45% (at least 656/1,456 correct).** The user set this cutoff after reviewing Super Decider’s 669/1,456 (45.95%), the lowest score among the preceding graph models. Inclusion uses the exact rule **correct ×100 ≥45 ×1,456**, requiring at least **656 correct**, including ties. All 36 preceding complete configurations are preserved and D3 Flash is added; 30 configurations appear in the active graph after the threshold and explicit version-selection decision, with 1 superseded reference(s).
 
 [Interactive provisional v5 report](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html) · [Category rankings](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html#rankings) · [Cost evidence](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html#cost) · [Archived full v4](https://etsabary.github.io/system-1-decision-benchmark/v4/report.html)
 
 ## Main comparison
 
-![Accuracy on the 1,456 retained questions](results/releases/system1_v5_singvl_2026-11-11/comparison_accuracy.png)
+![Accuracy on the 1,456 retained questions](results/releases/system1_v5_d3_flash_2026-11-11/comparison_accuracy.png)
 
 | Configuration | Correct / 1,456 | Accuracy | Median | p95 | Selected-record known cost | Cost / 1,000 | Usable | Cost evidence |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
@@ -36,17 +36,27 @@ This provisional successor contains **1,456 questions across 43 categories**. It
 | Mercury Decide | 767/1,456 | 52.68% | 🟨 255 ms | 🟥 1,217 ms | 🟨 $0.01575 + ? | 🟨 $0.01082 + ? | 1455/1,456 | 1455 reported; 0 estimates; 0 free-access; 1 unknown |
 | Celeris 1.1 Decision | 736/1,456 | 50.55% | 🟩 142 ms | 🟨 287 ms | 🟨 $0.03064 + ? | 🟨 $0.02105 + ? | 1456/1,456 | 0 reported; 1236 estimates; 0 free-access; 220 unknown |
 | Elephant-1 | 720/1,456 | 49.45% | 🟩 124 ms | 🟨 268 ms | 🟨 $0.01697 + ? | 🟨 $0.01165 + ? | 1456/1,456 | 0 reported; 512 estimates; 724 free-access; 220 unknown |
+| D3 Flash 9B Q4 · 2×RTX 2060 | 704/1,456 | 48.35% | 🟧 577 ms | 🟥 6,616 ms | ⬜ Unmetered local | ⬜ Unmetered local | 1455/1,456 | Hardware and electricity unmeasured |
 | SingVL S1 4B Q4 · 2×RTX 2060 | 698/1,456 | 47.94% | 🟨 344 ms | 🟥 1,164 ms | ⬜ Unmetered local | ⬜ Unmetered local | 1456/1,456 | Hardware and electricity unmeasured |
 | Sarvam Prism | 679/1,456 | 46.63% | 🟨 409 ms | 🟨 466 ms | 🟨 $0.03239 | 🟨 $0.02225 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
 | StartLux Instant 4B Q8 | 678/1,456 | 46.57% | 🟨 336 ms | 🟧 901 ms | ⬜ Unmetered local | ⬜ Unmetered local | 1456/1,456 | Hardware and electricity unmeasured |
 | Liquid d1 | 674/1,456 | 46.29% | 🟩 175 ms | 🟧 768 ms | 🟩 $0.01378 | 🟩 $0.00946 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
 | Super Decider | 669/1,456 | 45.95% | 🟩 215 ms | 🟨 263 ms | 🟨 $0.02412 | 🟨 $0.01657 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
 
+## D3 Flash 9B: a local comparison
+
+D3 Flash 9B Q4_K_M scored 704/1,456 (48.35%), ranking 25th among 30 qualifying configurations. Median/p95 response latency was 577/6,616 ms, with 1,455 usable responses. Rose names and bars identify this two-computer local setup alongside SingVL.
+
+It adds six correct answers over SingVL (0.41 percentage points), at 1.68 times its median latency, and 26 over StartLux Instant 4B Q8. Request routing is 19/31 versus SingVL’s 8/31, and temporal intervals 17/25 versus 9/25. SingVL leads conversational intention (24/33 versus 14/33), quantitative reasoning (93/200 versus 84/200) and reference binding (22/35 versus 15/35). The small overall difference masks distinct task profiles.
+
+The user reports the same ASUS TUF Ryzen 7 and Lenovo Legion Intel Core i7 deployment, each with an RTX 2060 and 6 GB VRAM, using llama.cpp CUDA/RPC over Ethernet. The API declares native D3 Flash Q4_K_M and 4,096 context. Exact weight identity, equivalence to the older Artemis checkpoint, conversion fidelity and actual GPU placement are not independently attested. Hardware and electricity costs are unmetered. Full configuration and collection details accompany the downloadable evidence.
+
+
 ## SingVL: two-computer local inference
 
 SingVL S1 4B Q4_K_M scored 698/1,456 (47.94%), with all 1,456 responses usable. Median/p95 complete-response latency was 344/1,164 ms. Rose model names and bars identify this two-computer local setup. The user reports an ASUS TUF with AMD Ryzen 7 and a Lenovo Legion with Intel Core i7, each with an RTX 2060 and 6 GB VRAM. The ASUS coordinates llama.cpp CUDA/RPC inference with the Lenovo worker over the LAN. Each GPU retains its own memory; the nominal total is 12 GB across the two computers. This is a different deployment from the purple local baselines. Hardware and electricity are unmetered, not zero; latency includes LAN and adapter overhead.
 
-The result meets the fixed 45% cutoff and ranks 25th among the preceding 28 active configurations plus this candidate. It exceeds StartLux Instant 4B Q8 by 20 correct answers (1.37 percentage points). Necessary conditions (26/32) and forward conditionals (17/22) are relative strengths; robust decisions without a prior (3/39) and value of information (10/40) are weaknesses. Quantitative reasoning is 93/200 versus StartLux’s 75/200; scheduling is 27/54 versus 17/54, and conversational intention is 24/33 versus 14/33. StartLux leads request routing (19/31 versus 8/31) and value of information (20/40 versus 10/40). The overall lead masks different task profiles. The category figures are descriptive and do not establish a general advantage from adding a second GPU.
+The result meets the fixed 45% cutoff and now ranks 26th among the 30 active configurations. It exceeds StartLux Instant 4B Q8 by 20 correct answers (1.37 percentage points). Necessary conditions (26/32) and forward conditionals (17/22) are relative strengths; robust decisions without a prior (3/39) and value of information (10/40) are weaknesses. Quantitative reasoning is 93/200 versus StartLux’s 75/200; scheduling is 27/54 versus 17/54, and conversational intention is 24/33 versus 14/33. StartLux leads request routing (19/31 versus 8/31) and value of information (20/40 versus 10/40). The overall lead masks different task profiles. The category figures are descriptive and do not establish a general advantage from adding a second GPU.
 
 The serving API declares Q4_K_M weights, llama.cpp b12301-956591f45 and 4,096-token backend context and input allowance. The original 1,024-context 20-question screen is excluded. The hardware description is user-reported; actual GPU placement, weight-file identity, conversion correctness and zero-generation internals were not independently attested through the API. This score applies to the quantized compatibility runtime, not the original full-precision Transformers implementation. All responses returned valid typed decisions and reported zero output tokens, with no generated reasoning text observed.
 
@@ -69,75 +79,75 @@ The provider describes REAX 1.3 as a large two-model native decision ensemble: i
 REAX’s FX-estimated selected-record USD cost is 38.2× Fastino’s tariff-estimated cost and 35.0× Morph Reflex’s API-reported cost. These ratios describe the recorded sessions and conversion rate, not guaranteed future prices. Its accuracy qualifies it for the graph; the ensemble’s resource trade-off remains visible.
 
 
-Teal model names indicate hosted decisions, purple local baselines, rose the two-computer local SingVL deployment, and gold reasoning-disabled LLM references. Speed and cost use 🟩 green / 🟨 yellow / 🟧 orange / 🟥 red bands: ≤250 / ≤500 / ≤1,000 / >1,000 ms; ≤$0.010 / ≤$0.025 / ≤$0.050 / >$0.050 per 1,000 questions. ⬜ denotes unmetered or unknown cost. “+ ?” marks missing charges. API-reported USD, tariff estimates, EUR-to-USD FX estimates and free access remain distinct.
+Teal model names indicate hosted decisions, purple local baselines, rose the two-computer local D3 and SingVL deployments, and gold reasoning-disabled LLM references. Speed and cost use 🟩 green / 🟨 yellow / 🟧 orange / 🟥 red bands: ≤250 / ≤500 / ≤1,000 / >1,000 ms; ≤$0.010 / ≤$0.025 / ≤$0.050 / >$0.050 per 1,000 questions. ⬜ denotes unmetered or unknown cost. “+ ?” marks missing charges. API-reported USD, tariff estimates, EUR-to-USD FX estimates and free access remain distinct.
 
 ## Response time and cost
 
-Timings and costs use individual selected primary records. All 35 preceding configurations are unchanged; SingVL adds a separately measured two-computer local session. Morph Reflex and REAX 1.3 retain their preceding full-bank sessions. Median and p95 include selected unsuccessful requests; they are never averages of category medians. Monetary amounts are selected-record charges or estimates, not guaranteed future prices.
+Timings and costs use individual selected primary records. All 36 preceding configurations are unchanged; D3 Flash adds a separately measured two-computer local session. Morph Reflex and REAX 1.3 retain their preceding full-bank sessions. Median and p95 include selected unsuccessful requests; they are never averages of category medians. Monetary amounts are selected-record charges or estimates, not guaranteed future prices.
 
 Morph Reflex’s selected 1,456 primaries have API-reported USD charges of $0.032662362. REAX 1.3 reports EUR 1.0204992 across 1456 selected primaries. Its USD $1.14224475456 comparison is an FX estimate, using EUR 1 = USD 1.1193 from the ECB reference rate dated 2026-11-09. The converted USD amount was not reported by the provider. Exact native EUR nanos, conversion records and the captured rate receipt are downloadable. Readiness calls and other unscored requests remain outside these totals.
 
 ### Response time
 
-![Response time for provisional v5](results/releases/system1_v5_singvl_2026-11-11/comparison_latency.png)
+![Response time for provisional v5](results/releases/system1_v5_d3_flash_2026-11-11/comparison_latency.png)
 
 ### Cost per 1,000 questions
 
-![Cost per 1,000 questions for provisional v5](results/releases/system1_v5_singvl_2026-11-11/comparison_cost.png)
+![Cost per 1,000 questions for provisional v5](results/releases/system1_v5_d3_flash_2026-11-11/comparison_cost.png)
 
 ## Category results
 
 The category scale is fixed at 0–100%. Each cell shows correct/retained total and percentage; ★ marks all tied leaders. Category sizes vary after removal.
 
-![Fixed accuracy scale](results/releases/system1_v5_singvl_2026-11-11/accuracy_legend.png)
+![Fixed accuracy scale](results/releases/system1_v5_d3_flash_2026-11-11/accuracy_legend.png)
 
 ### Rules, evidence and logical scope
 
 F01 Lookup and filtering (n=5); F02 Forward conditionals (n=22); F03 Necessary conditions (n=32); F04 Boolean scope (n=18); F05 Quantifiers and sets (n=9); F11 Sufficiency and inconsistency (n=29).
 
-![Rules, evidence and logical scope accuracy with retained counts and tied leaders](results/releases/system1_v5_singvl_2026-11-11/categories_rules.png)
+![Rules, evidence and logical scope accuracy with retained counts and tied leaders](results/releases/system1_v5_d3_flash_2026-11-11/categories_rules.png)
 
 ### Ordering, schedules and assignments
 
 F06 Comparisons (n=7); F07 Scheduling (n=54); F08 One-to-one assignments (n=44); F14 Temporal intervals (n=25); F22 Preference ordering (n=9).
 
-![Ordering, schedules and assignments accuracy with retained counts and tied leaders](results/releases/system1_v5_singvl_2026-11-11/categories_ordering.png)
+![Ordering, schedules and assignments accuracy with retained counts and tied leaders](results/releases/system1_v5_d3_flash_2026-11-11/categories_ordering.png)
 
 ### State tracking and perspectives
 
 F09 Exact truth counting (n=68); F10 Truth-teller consistency (n=69); F12 Object swaps (n=43); F13 Sequential procedures (n=47); F15 Spatial tracking (n=35); F16 Reference binding (n=35); F17 Beliefs and perspectives (n=19).
 
-![State tracking and perspectives accuracy with retained counts and tied leaders](results/releases/system1_v5_singvl_2026-11-11/categories_state.png)
+![State tracking and perspectives accuracy with retained counts and tied leaders](results/releases/system1_v5_d3_flash_2026-11-11/categories_state.png)
 
 ### Causes, plans and authoritative evidence
 
 F18 Causal intervention (n=37); F19 Exceptions and priorities (n=24); F20 Planning (n=16); F21 Directed reachability (n=5); F23 Rule counterexamples (n=14); F24 Authority and stale records (n=8); F25 Fault diagnosis (n=11).
 
-![Causes, plans and authoritative evidence accuracy with retained counts and tied leaders](results/releases/system1_v5_singvl_2026-11-11/categories_causes.png)
+![Causes, plans and authoritative evidence accuracy with retained counts and tied leaders](results/releases/system1_v5_d3_flash_2026-11-11/categories_causes.png)
 
 ### Decisions under uncertainty
 
 F26 Probabilistic risk (n=30); F27 Value of information (n=40); F28 Robust decisions without a prior (n=39); F29 Strategic decisions (n=39); F30 Concurrent-history consistency (n=38); F31 Information-flow security (n=36).
 
-![Decisions under uncertainty accuracy with retained counts and tied leaders](results/releases/system1_v5_singvl_2026-11-11/categories_uncertainty.png)
+![Decisions under uncertainty accuracy with retained counts and tied leaders](results/releases/system1_v5_d3_flash_2026-11-11/categories_uncertainty.png)
 
 ### Practical decisions: scope, policy and actions
 
 P01 Understanding requests and routing (n=31); P02 Recognizing multiple requested actions (n=34); P03 Tracking current conversational intention (n=33); P04 Selecting a tool or requesting clarification (n=35); P05 Checking authorization and scope (n=35).
 
-![Practical decisions: scope, policy and actions accuracy with retained counts and tied leaders](results/releases/system1_v5_singvl_2026-11-11/categories_practical_actions.png)
+![Practical decisions: scope, policy and actions accuracy with retained counts and tied leaders](results/releases/system1_v5_d3_flash_2026-11-11/categories_practical_actions.png)
 
 ### Practical decisions: evidence, security and quality
 
 P06 Making decisions with untrusted content (n=35); P07 Applying a contextual content policy (n=27); P08 Extracting and normalizing facts (n=36); P09 Checking claims against supplied evidence (n=32); P10 Assigning severity or priority from a rubric (n=31).
 
-![Practical decisions: evidence, security and quality accuracy with retained counts and tied leaders](results/releases/system1_v5_singvl_2026-11-11/categories_practical_evidence.png)
+![Practical decisions: evidence, security and quality accuracy with retained counts and tied leaders](results/releases/system1_v5_d3_flash_2026-11-11/categories_practical_evidence.png)
 
 ### IQ sequences and admissions-style mathematics
 
 F32 Numerical pattern recognition (n=20); F33 Quantitative reasoning (n=200).
 
-![IQ sequences and admissions-style mathematics accuracy with retained counts and tied leaders](results/releases/system1_v5_singvl_2026-11-11/categories_numerical.png)
+![IQ sequences and admissions-style mathematics accuracy with retained counts and tied leaders](results/releases/system1_v5_d3_flash_2026-11-11/categories_numerical.png)
 
 ## Below the 45% cutoff
 
@@ -160,11 +170,11 @@ Version replacement is separate from the 45% cutoff. All measurements and record
 
 These are unchanged historical samples with their original denominators, not v5 scores or classifications against its threshold. No stopped test was resumed.
 
-- **Strike 1:** 57/100 correct; free-tier screen stopped after 100 requests. [Historical method and limits](results/releases/system1_v5_singvl_2026-11-11/STRIKE_SCREEN_NOTES.md).
-- **Hanzo Kai 1.9:** 46/244 correct; the free daily cap was followed by a separate eight-hour plan window after credits were purchased. The user stopped the test. [Historical method and limits](results/releases/system1_v5_singvl_2026-11-11/KAI_CASE_NOTE.md).
-- **THIS/THAT 1.2 and GLiNER2.5-Decide:** THIS/THAT: 32/100 correct. GLiNER: 4/14 usable answers, plus 6 input-length rejections in 20 attempts. [Historical method and limits](results/releases/system1_v5_singvl_2026-11-11/LOCAL_SCREEN_NOTES.md).
-- **Hindsight and Lumma:** Hindsight: 29/100 correct. Lumma: 452/799 attempts correct, including an unavailable request. [Historical method and limits](results/releases/system1_v5_singvl_2026-11-11/NEW_LOCAL_SCREEN_NOTES.md).
-- **GPT-6 Luna Decisions:** 82/181 correct on the separately attempted additions; historical baseline 758/1,342. The expansion stopped below its recorded 50% rule. [Historical method and limits](results/releases/system1_v5_singvl_2026-11-11/OPENAI_DECISIONS_NOTES.md).
+- **Strike 1:** 57/100 correct; free-tier screen stopped after 100 requests. [Historical method and limits](results/releases/system1_v5_d3_flash_2026-11-11/STRIKE_SCREEN_NOTES.md).
+- **Hanzo Kai 1.9:** 46/244 correct; the free daily cap was followed by a separate eight-hour plan window after credits were purchased. The user stopped the test. [Historical method and limits](results/releases/system1_v5_d3_flash_2026-11-11/KAI_CASE_NOTE.md).
+- **THIS/THAT 1.2 and GLiNER2.5-Decide:** THIS/THAT: 32/100 correct. GLiNER: 4/14 usable answers, plus 6 input-length rejections in 20 attempts. [Historical method and limits](results/releases/system1_v5_d3_flash_2026-11-11/LOCAL_SCREEN_NOTES.md).
+- **Hindsight and Lumma:** Hindsight: 29/100 correct. Lumma: 452/799 attempts correct, including an unavailable request. [Historical method and limits](results/releases/system1_v5_d3_flash_2026-11-11/NEW_LOCAL_SCREEN_NOTES.md).
+- **GPT-6 Luna Decisions:** 82/181 correct on the separately attempted additions; historical baseline 758/1,342. The expansion stopped below its recorded 50% rule. [Historical method and limits](results/releases/system1_v5_d3_flash_2026-11-11/OPENAI_DECISIONS_NOTES.md).
 
 ## Selection, scope and limitations
 
@@ -176,56 +186,64 @@ The smaller bank reduces future requests by **701/2,157 (32.5%)**. Token charges
 
 ## Question origins and licenses
 
-The retained bank has **1,236 questions from the project development bank, 20 MAIQ number sequences and 200 AQuA quantitative questions**. AQuA-RAT declares Apache-2.0 and contains crowdsourced admissions-style mathematics, not authenticated official GRE or SAT questions. MAIQ’s repository declares MIT, but original human-test item rights remain unestablished; inclusion retains that caveat. The development lineage does not fully establish individual authorship or possible external influences for every project-bank item. The project MIT license does not supersede third-party rights. The two noncommercial LogiQA items remain outside the bank. [Full source and license notices](results/releases/system1_v5_singvl_2026-11-11/SOURCE_AND_LICENSES.md).
+The retained bank has **1,236 questions from the project development bank, 20 MAIQ number sequences and 200 AQuA quantitative questions**. AQuA-RAT declares Apache-2.0 and contains crowdsourced admissions-style mathematics, not authenticated official GRE or SAT questions. MAIQ’s repository declares MIT, but original human-test item rights remain unestablished; inclusion retains that caveat. The development lineage does not fully establish individual authorship or possible external influences for every project-bank item. The project MIT license does not supersede third-party rights. The two noncommercial LogiQA items remain outside the bank. [Full source and license notices](results/releases/system1_v5_d3_flash_2026-11-11/SOURCE_AND_LICENSES.md).
 
 ## Download and reproducibility
 
-- [Answer-free provisional v5 questions](results/releases/system1_v5_singvl_2026-11-11/questions_1456.jsonl)
-- [Question-level origin and license metadata](results/releases/system1_v5_singvl_2026-11-11/source_metadata_1456.jsonl)
-- [Source and license notes](results/releases/system1_v5_singvl_2026-11-11/SOURCE_AND_LICENSES.md)
-- [All model summaries](results/releases/system1_v5_singvl_2026-11-11/statistics.json)
-- [All models by 43 categories](results/releases/system1_v5_singvl_2026-11-11/all_category_scores.csv)
-- [Retained timing and status evidence](results/releases/system1_v5_singvl_2026-11-11/timing_evidence.csv.gz)
-- [Retained cost evidence](results/releases/system1_v5_singvl_2026-11-11/cost_evidence.csv.gz)
-- [Retained cost summaries](results/releases/system1_v5_singvl_2026-11-11/cost_statistics.json)
-- [Category guide](results/releases/system1_v5_singvl_2026-11-11/category_guide.json)
-- [701 removed question IDs and categories](results/releases/system1_v5_singvl_2026-11-11/removed_items.csv)
-- [1,456 retained question IDs and categories](results/releases/system1_v5_singvl_2026-11-11/retained_items.csv)
-- [Fixed selection cohort and subset provenance](results/releases/system1_v5_singvl_2026-11-11/selection_provenance.json)
-- [Retained correctness and usability booleans](results/releases/system1_v5_singvl_2026-11-11/correctness_evidence.csv.gz)
-- [Removed-item correctness and usability booleans](results/releases/system1_v5_singvl_2026-11-11/removed_correctness_evidence.csv.gz)
-- [Historical no-answer recovery evidence](results/releases/system1_v5_singvl_2026-11-11/transport_recoveries.json)
-- [Historical collection recovery evidence](results/releases/system1_v5_singvl_2026-11-11/model_collection_recoveries.json)
-- [Historical context diagnostics](results/releases/system1_v5_singvl_2026-11-11/model_context_diagnostics.json)
-- [Subset audit receipt](results/releases/system1_v5_singvl_2026-11-11/audit_receipt.json)
-- [Release checksums](results/releases/system1_v5_singvl_2026-11-11/manifest.json)
-- [Morph and REAX configuration, collection and billing notes](results/releases/system1_v5_singvl_2026-11-11/HOSTED_MODEL_NOTES.md)
-- [Independent new-model audit summaries](results/releases/system1_v5_singvl_2026-11-11/hosted_model_audits.json)
-- [New-model cost summaries](results/releases/system1_v5_singvl_2026-11-11/hosted_cost_summaries.json)
-- [Full-bank REAX, Terra, Fastino and Morph comparisons](results/releases/system1_v5_singvl_2026-11-11/new_model_comparison.json)
-- [REAX ensemble accuracy, speed and cost trade-off](results/releases/system1_v5_singvl_2026-11-11/REAX_TERRA_COMPARISON.md)
-- [Native EUR charges and separately estimated USD conversion](results/releases/system1_v5_singvl_2026-11-11/native_currency_cost_evidence.csv.gz)
-- [Captured ECB rate receipt](results/releases/system1_v5_singvl_2026-11-11/fx_receipt.json)
-- [Captured ECB exchange-rate XML](results/releases/system1_v5_singvl_2026-11-11/ecb_eurofxref_2026-11-09.xml)
-- [Frozen initial v5 audit receipt](results/releases/system1_v5_singvl_2026-11-11/baseline_v5_audit_receipt.json)
-- [Drex native version, replacement and collection notes](results/releases/system1_v5_singvl_2026-11-11/DREX_VERSION_NOTES.md)
-- [Drex old/new paired comparison and replacement decision](results/releases/system1_v5_singvl_2026-11-11/drex_comparison.json)
-- [Drex first-primary audit](results/releases/system1_v5_singvl_2026-11-11/drex_model_audit.json)
-- [Drex per-primary input usage and retained raw output counters](results/releases/system1_v5_singvl_2026-11-11/drex_usage_evidence.csv.gz)
-- [Drex raw output-counter interpretation](results/releases/system1_v5_singvl_2026-11-11/drex_counter_policy.json)
-- [Drex version and provider provenance](results/releases/system1_v5_singvl_2026-11-11/drex_version_provenance.json)
-- [Drex concurrency and rate-limit collection phases](results/releases/system1_v5_singvl_2026-11-11/drex_transport_phases.json)
-- [Frozen preceding hosted-release audit receipt](results/releases/system1_v5_singvl_2026-11-11/parent_hosted_audit_receipt.json)
-- [SingVL distributed deployment and collection notes](results/releases/system1_v5_singvl_2026-11-11/SINGVL_DISTRIBUTED_NOTES.md)
-- [User-reported hardware and captured serving configuration](results/releases/system1_v5_singvl_2026-11-11/singvl_hardware.json)
-- [Independent SingVL first-primary audit](results/releases/system1_v5_singvl_2026-11-11/singvl_model_audit.json)
-- [Per-primary native usage and source hashes](results/releases/system1_v5_singvl_2026-11-11/singvl_usage_evidence.csv.gz)
-- [SingVL category analysis](results/releases/system1_v5_singvl_2026-11-11/singvl_analysis.json)
-- [Previous Drex-release audit receipt](results/releases/system1_v5_singvl_2026-11-11/parent_drex_audit_receipt.json)
+- [Answer-free provisional v5 questions](results/releases/system1_v5_d3_flash_2026-11-11/questions_1456.jsonl)
+- [Question-level origin and license metadata](results/releases/system1_v5_d3_flash_2026-11-11/source_metadata_1456.jsonl)
+- [Source and license notes](results/releases/system1_v5_d3_flash_2026-11-11/SOURCE_AND_LICENSES.md)
+- [All model summaries](results/releases/system1_v5_d3_flash_2026-11-11/statistics.json)
+- [All models by 43 categories](results/releases/system1_v5_d3_flash_2026-11-11/all_category_scores.csv)
+- [Retained timing and status evidence](results/releases/system1_v5_d3_flash_2026-11-11/timing_evidence.csv.gz)
+- [Retained cost evidence](results/releases/system1_v5_d3_flash_2026-11-11/cost_evidence.csv.gz)
+- [Retained cost summaries](results/releases/system1_v5_d3_flash_2026-11-11/cost_statistics.json)
+- [Category guide](results/releases/system1_v5_d3_flash_2026-11-11/category_guide.json)
+- [701 removed question IDs and categories](results/releases/system1_v5_d3_flash_2026-11-11/removed_items.csv)
+- [1,456 retained question IDs and categories](results/releases/system1_v5_d3_flash_2026-11-11/retained_items.csv)
+- [Fixed selection cohort and subset provenance](results/releases/system1_v5_d3_flash_2026-11-11/selection_provenance.json)
+- [Retained correctness and usability booleans](results/releases/system1_v5_d3_flash_2026-11-11/correctness_evidence.csv.gz)
+- [Removed-item correctness and usability booleans](results/releases/system1_v5_d3_flash_2026-11-11/removed_correctness_evidence.csv.gz)
+- [Historical no-answer recovery evidence](results/releases/system1_v5_d3_flash_2026-11-11/transport_recoveries.json)
+- [Historical collection recovery evidence](results/releases/system1_v5_d3_flash_2026-11-11/model_collection_recoveries.json)
+- [Historical context diagnostics](results/releases/system1_v5_d3_flash_2026-11-11/model_context_diagnostics.json)
+- [Subset audit receipt](results/releases/system1_v5_d3_flash_2026-11-11/audit_receipt.json)
+- [Release checksums](results/releases/system1_v5_d3_flash_2026-11-11/manifest.json)
+- [Morph and REAX configuration, collection and billing notes](results/releases/system1_v5_d3_flash_2026-11-11/HOSTED_MODEL_NOTES.md)
+- [Independent new-model audit summaries](results/releases/system1_v5_d3_flash_2026-11-11/hosted_model_audits.json)
+- [New-model cost summaries](results/releases/system1_v5_d3_flash_2026-11-11/hosted_cost_summaries.json)
+- [Full-bank REAX, Terra, Fastino and Morph comparisons](results/releases/system1_v5_d3_flash_2026-11-11/new_model_comparison.json)
+- [REAX ensemble accuracy, speed and cost trade-off](results/releases/system1_v5_d3_flash_2026-11-11/REAX_TERRA_COMPARISON.md)
+- [Native EUR charges and separately estimated USD conversion](results/releases/system1_v5_d3_flash_2026-11-11/native_currency_cost_evidence.csv.gz)
+- [Captured ECB rate receipt](results/releases/system1_v5_d3_flash_2026-11-11/fx_receipt.json)
+- [Captured ECB exchange-rate XML](results/releases/system1_v5_d3_flash_2026-11-11/ecb_eurofxref_2026-11-09.xml)
+- [Frozen initial v5 audit receipt](results/releases/system1_v5_d3_flash_2026-11-11/baseline_v5_audit_receipt.json)
+- [Drex native version, replacement and collection notes](results/releases/system1_v5_d3_flash_2026-11-11/DREX_VERSION_NOTES.md)
+- [Drex old/new paired comparison and replacement decision](results/releases/system1_v5_d3_flash_2026-11-11/drex_comparison.json)
+- [Drex first-primary audit](results/releases/system1_v5_d3_flash_2026-11-11/drex_model_audit.json)
+- [Drex per-primary input usage and retained raw output counters](results/releases/system1_v5_d3_flash_2026-11-11/drex_usage_evidence.csv.gz)
+- [Drex raw output-counter interpretation](results/releases/system1_v5_d3_flash_2026-11-11/drex_counter_policy.json)
+- [Drex version and provider provenance](results/releases/system1_v5_d3_flash_2026-11-11/drex_version_provenance.json)
+- [Drex concurrency and rate-limit collection phases](results/releases/system1_v5_d3_flash_2026-11-11/drex_transport_phases.json)
+- [Frozen preceding hosted-release audit receipt](results/releases/system1_v5_d3_flash_2026-11-11/parent_hosted_audit_receipt.json)
+- [SingVL distributed deployment and collection notes](results/releases/system1_v5_d3_flash_2026-11-11/SINGVL_DISTRIBUTED_NOTES.md)
+- [User-reported hardware and captured serving configuration](results/releases/system1_v5_d3_flash_2026-11-11/singvl_hardware.json)
+- [Independent SingVL first-primary audit](results/releases/system1_v5_d3_flash_2026-11-11/singvl_model_audit.json)
+- [Per-primary native usage and source hashes](results/releases/system1_v5_d3_flash_2026-11-11/singvl_usage_evidence.csv.gz)
+- [SingVL category analysis](results/releases/system1_v5_d3_flash_2026-11-11/singvl_analysis.json)
+- [Previous Drex-release audit receipt](results/releases/system1_v5_d3_flash_2026-11-11/parent_drex_audit_receipt.json)
+- [D3 Flash configuration and neutral collection record](results/releases/system1_v5_d3_flash_2026-11-11/D3_FLASH_NOTES.md)
+- [D3 user-reported deployment and serving configuration](results/releases/system1_v5_d3_flash_2026-11-11/d3_flash_hardware.json)
+- [Independent D3 first-primary audit](results/releases/system1_v5_d3_flash_2026-11-11/d3_flash_model_audit.json)
+- [D3 native usage and retained missing telemetry](results/releases/system1_v5_d3_flash_2026-11-11/d3_flash_usage_evidence.csv.gz)
+- [D3 request pacing and retained timeout evidence](results/releases/system1_v5_d3_flash_2026-11-11/d3_flash_transport_phases.json)
+- [D3 category and paired model analysis](results/releases/system1_v5_d3_flash_2026-11-11/d3_flash_analysis.json)
+- [D3 against every preceding model by category](results/releases/system1_v5_d3_flash_2026-11-11/d3_flash_category_comparison.csv)
+- [Frozen preceding SingVL audit receipt](results/releases/system1_v5_d3_flash_2026-11-11/parent_singvl_audit_receipt.json)
 
 The [scripts/](scripts/README.md) support offline validation without credentials. The [preceding hosted v5 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v5_hosted_2026-11-09/report.html), [initial v5 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v5_provisional_2026-11-09/report.html), [full v4 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v4_openai_2026-11-06/report.html), [v3](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v3_presentation_2026-11-01/report.html) and [v2](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v2_presentation_2026-11-01/report.html) remain unchanged. Model-selected choices and the gold scoring key remain private.
 
 ```sh
-python3 scripts/validate_system1_v5_singvl_2026_11_11.py results/releases/system1_v5_singvl_2026-11-11 results/releases/system1_v5_drex_2026-11-09
+python3 scripts/validate_system1_v5_d3_flash_2026_11_11.py results/releases/system1_v5_d3_flash_2026-11-11 results/releases/system1_v5_singvl_2026-11-11
 python3 scripts/validate_october21_release.py
 ```

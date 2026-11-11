@@ -1384,6 +1384,36 @@
       "no_generated_reasoning_text_observed": true,
       "new_collection_limit": "Full frozen v5 bank, fixed answer-blind shuffled order, one worker, first attempts only. Context and adapter allowance4096; no client truncation. Separate original1024-context20-question screen is excluded. User requested completion irrespective of accuracy. Hardware configuration is user-reported; latency includes LAN and adapter overhead.",
       "cost_qualification": "Local hardware and electricity unmetered, not zero."
+    },
+    "d3_flash_9b_q4km_llamacpp_ctx4096_lan": {
+      "model_id": "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+      "label": "D3 Flash 9B Q4 · 2×RTX 2060",
+      "configuration": "D3 Flash 9B Q4_K_M · native llama.cpp, 4,096 context · two computers, each RTX 2060 6 GB (user-reported)",
+      "role": "Local distributed",
+      "n": 1456,
+      "correct": 704,
+      "accuracy": 0.4835164835164835,
+      "valid": 1455,
+      "coverage": 0.9993131868131868,
+      "answer_accuracy_among_usable": 0.4838487972508591,
+      "accuracy_upper_if_all_unusable_correct": 0.4842032967032967,
+      "macro_category_accuracy": 0.5103767615979291,
+      "mean_ms": 1171.9269266108672,
+      "median_ms": 576.6799165285192,
+      "p95_ms": 6616.03204178391,
+      "identity_limit": "Server-declared D3 Flash 9B GGUF Q4_K_M, native llama.cpp b12301-956591f45 and 4,096 context. Exact weight-file identity, upstream checkpoint equivalence to older Artemis, conversion fidelity, zero-generation internals and GPU placement not independently attested.",
+      "collection_dates_toronto": {
+        "2026-11-11": 1456
+      },
+      "new_request_failures": 1,
+      "input_tokens": 796665,
+      "raw_output_tokens": 0,
+      "nonzero_output_counter_responses": 0,
+      "raw_usage_unknown_count": 1,
+      "zero_generation_attested": false,
+      "no_generated_reasoning_text_observed": true,
+      "new_collection_limit": "Full frozen v5 bank, fixed answer-blind shuffled order, one worker, first attempts only. One 30-second local timeout retained. Only unattempted inputs resumed after readiness; after 744 attempts minimum inter-start pacing was 1.6 seconds. Cause unconfirmed. Client idle gaps excluded from request latency; individual selected primaries pooled. No scored retries or answer replacement.",
+      "cost_qualification": "Local hardware and electricity unmetered, not zero."
     }
   },
   "ranked_model_ids": [
@@ -1411,6 +1441,7 @@
     "mercury_decide",
     "celeris11_decision",
     "elephant1",
+    "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
     "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
     "sarvam_prism",
     "local_startlux_instant4b",
