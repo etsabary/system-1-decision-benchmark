@@ -213,3 +213,21 @@ python3 scripts/validate_system1_v5_d3_flash_2026_11_11.py results/releases/syst
 
 CI also validates the exact docs/v5 mirror. Historical renderers and releases
 are unchanged; the latest report retains readable matrices and cost/speed bands.
+
+## Native Gemini Decision 1 successor · November 13, 2026
+
+`publish_system1_v5_gemini_decision1_2026_11_13.py` renders the audited native
+Google AI Studio configuration served through OpenRouter. It adds 1,456 first
+primaries while preserving all 37 preceding model/cost objects and 53,872-row
+ledger prefixes. The new ledgers contain 55,328 records each. The frozen bank
+stays 1,456 questions / 43 categories with an exact 45% inclusion cutoff.
+Precision is unknown. API-reported USD 0.0797482 excludes readiness; output
+counters are zero without independent generation-implementation attestation.
+
+```sh
+python3 scripts/validate_system1_v5_gemini_decision1_2026_11_13.py results/releases/system1_v5_gemini_decision1_2026-11-13 results/releases/system1_v5_d3_flash_2026-11-11 --mirror docs/v5
+```
+
+CI checks the exact current mirror. Older dated releases and their bound
+scripts stay unchanged; the current report updates all cohort ranks and
+retains readable matrices, complete costs and fixed speed/cost bands.

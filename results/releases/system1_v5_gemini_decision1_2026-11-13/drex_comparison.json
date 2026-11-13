@@ -1,0 +1,56 @@
+{
+  "scope": "Same complete frozen 1,456-input v5 bank; selected first attempts including failures",
+  "n": 1456,
+  "old": {
+    "model_id": "drex_max",
+    "configuration": "Drex Max",
+    "provider_route": "DeepInfra through OpenRouter; returned October 16 Drex Max checkpoint",
+    "correct": 952,
+    "valid": 1447,
+    "accuracy": 0.6538461538461539,
+    "mean_ms": 490.5981096927952,
+    "median_ms": 330.6151039942051,
+    "p95_ms": 1324.0947815356776,
+    "known_reported_cost_usd": "0.04695126",
+    "unknown_charge_count": 9,
+    "collection_dates_toronto": {
+      "2026-10-31": 512,
+      "2026-10-21": 724,
+      "2026-11-01": 80,
+      "2026-11-02": 140
+    }
+  },
+  "new": {
+    "model_id": "drex_max_v11",
+    "provider_route": "Native Nace SystemOne API; drex-max-v1.1",
+    "correct": 996,
+    "valid": 1454,
+    "accuracy": 0.6840659340659341,
+    "mean_ms": 362.3896466550842,
+    "median_ms": 344.5924579864368,
+    "p95_ms": 490.100427006837,
+    "tariff_estimate_usd": "0.02355297",
+    "unknown_estimated_cost_count": 2,
+    "api_unknown_charge_count": 1456,
+    "collection_dates_toronto": {
+      "2026-11-09": 1456
+    }
+  },
+  "both_correct": 855,
+  "new_only_correct": 141,
+  "old_only_correct": 97,
+  "both_incorrect": 363,
+  "correct_difference": 44,
+  "accuracy_difference_percentage_points": 3.021978021978022,
+  "median_difference_ms": 13.977353992231656,
+  "median_ratio": 1.0422768162233649,
+  "p95_difference_ms": -833.9943545288406,
+  "new_estimate_to_old_known_reported_cost_ratio": "0.5016472401379643485606137088",
+  "cost_comparison_limit": "New cost is a captured input-tariff estimate, not an API-reported charge. Old cost is a known API-reported subtotal plus nine unknown charges. Missing no-answer failure usage remains unknown, not zero; this does not establish actual billing savings.",
+  "both_usable_n": 1445,
+  "new_correct_on_both_usable": 988,
+  "old_correct_on_both_usable": 952,
+  "replacement_decision": "supersede_old_active_configuration",
+  "version_limit": "The provider and declared model version changed. Comparison is descriptive across collection dates/routes; hidden weight identity and zero generation are not independently attested.",
+  "replacement_authority": "User conditionally authorized replacing old Drex Max after a better full-bank accuracy result with practically similar or better cost/speed; root selected the explicit builder decision after reviewing full metrics."
+}

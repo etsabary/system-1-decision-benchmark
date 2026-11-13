@@ -1414,6 +1414,36 @@
       "no_generated_reasoning_text_observed": true,
       "new_collection_limit": "Full frozen v5 bank, fixed answer-blind shuffled order, one worker, first attempts only. One 30-second local timeout retained. Only unattempted inputs resumed after readiness; after 744 attempts minimum inter-start pacing was 1.6 seconds. Cause unconfirmed. Client idle gaps excluded from request latency; individual selected primaries pooled. No scored retries or answer replacement.",
       "cost_qualification": "Local hardware and electricity unmetered, not zero."
+    },
+    "gemini_decision1_openrouter_20261111": {
+      "model_id": "gemini_decision1_openrouter_20261111",
+      "label": "Gemini Decision 1 · Nov 11",
+      "configuration": "Native Gemini Decision 1 via OpenRouter /alpha/decisions · Google AI Studio · declared 20261111 snapshot · precision unknown",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 798,
+      "accuracy": 0.5480769230769231,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.5480769230769231,
+      "accuracy_upper_if_all_unusable_correct": 0.5480769230769231,
+      "macro_category_accuracy": 0.5791963798463323,
+      "mean_ms": 379.66294331720115,
+      "median_ms": 372.08177050342783,
+      "p95_ms": 495.5727088090498,
+      "identity_limit": "Requested google/gemini-decision-1; all replies declared google/gemini-decision-1-20261111, provider Google AI Studio. Precision unknown. Catalogue and response declarations do not independently attest hidden weights or forward-pass implementation.",
+      "collection_dates_toronto": {
+        "2026-11-12": 1456
+      },
+      "new_request_failures": 0,
+      "input_tokens": 797482,
+      "raw_output_tokens": 0,
+      "nonzero_output_counter_responses": 0,
+      "raw_usage_unknown_count": 0,
+      "zero_generation_attested": false,
+      "no_generated_reasoning_text_observed": true,
+      "new_collection_limit": "Full frozen v5 bank in fixed answer-blind shuffled order, one worker, first attempts only; no scored retries, errors or client truncation. Eighteen matching metadata snapshots. Readiness is separately recorded and excluded.",
+      "cost_qualification": "USD 0.0797482 API-reported charges for 1,456 scored primaries; no missing charges. Separate USD 0.0000116 readiness excluded."
     }
   },
   "ranked_model_ids": [
@@ -1436,6 +1466,7 @@
     "respan02",
     "morph_reflex",
     "levanto_sage_2",
+    "gemini_decision1_openrouter_20261111",
     "jev114",
     "liquid11_decision",
     "mercury_decide",
