@@ -1,8 +1,8 @@
 # System 1 Decision Benchmark · provisional v5
 
-This provisional successor contains **1,456 questions across 43 categories**. It removes the exact 701 questions answered correctly by all 26 configurations in the original v4 main graph, while retaining every remaining question and recorded primary response. All 36 preceding complete configurations retain their recorded answers. D3 Flash 9B Q4_K_M adds a full-bank local two-computer session on the same frozen inputs. The complete v4 bank and reports remain unchanged.
+This provisional successor contains **1,456 questions across 43 categories**. It removes the exact 701 questions answered correctly by all 26 configurations in the original v4 main graph, while retaining every remaining question and recorded primary response. All 37 preceding complete configurations retain their recorded answers. Gemini Decision 1 adds a full-bank native hosted session on the same frozen inputs. The complete v4 bank and reports remain unchanged.
 
-**Inclusion threshold: 45% (at least 656/1,456 correct).** The user set this cutoff after reviewing Super Decider’s 669/1,456 (45.95%), the lowest score among the preceding graph models. Inclusion uses the exact rule **correct ×100 ≥45 ×1,456**, requiring at least **656 correct**, including ties. All 36 preceding complete configurations are preserved and D3 Flash is added; 30 configurations appear in the active graph after the threshold and explicit version-selection decision, with 1 superseded reference(s).
+**Inclusion threshold: 45% (at least 656/1,456 correct).** The user set this cutoff after reviewing Super Decider’s 669/1,456 (45.95%), the lowest score among the preceding graph models. Inclusion uses the exact rule **correct ×100 ≥45 ×1,456**, requiring at least **656 correct**, including ties. All 37 preceding complete configurations are preserved and Gemini Decision 1 is added; 31 configurations appear in the active graph after the threshold and explicit version-selection decision, with 1 superseded reference(s).
 
 [Interactive provisional v5 report](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html) · [Category rankings](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html#rankings) · [Cost evidence](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html#cost) · [Archived full v4](https://etsabary.github.io/system-1-decision-benchmark/v4/report.html)
 
@@ -31,6 +31,7 @@ This provisional successor contains **1,456 questions across 43 categories**. It
 | Respan Span-02 (20261015) | 858/1,456 | 58.93% | 🟨 484 ms | 🟥 2,176 ms | 🟩 $0.00820 | 🟩 $0.00563 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
 | Morph Reflex | 841/1,456 | 57.76% | 🟨 354 ms | 🟧 514 ms | 🟨 $0.03266 | 🟨 $0.02243 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
 | Levanto Sage 2 | 829/1,456 | 56.94% | 🟩 232 ms | 🟨 355 ms | 🟨 $0.03570 | 🟨 $0.02452 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
+| Gemini Decision 1 · Nov 11 | 798/1,456 | 54.81% | 🟨 372 ms | 🟨 496 ms | 🟥 $0.07975 | 🟥 $0.05477 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
 | Jev 1.14 | 786/1,456 | 53.98% | 🟩 173 ms | 🟨 472 ms | 🟧 $0.04736 | 🟧 $0.03253 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
 | Liquid d1.1 | 777/1,456 | 53.37% | 🟩 190 ms | 🟧 529 ms | 🟩 $0.01377 + ? | 🟩 $0.00946 + ? | 1455/1,456 | 1455 reported; 0 estimates; 0 free-access; 1 unknown |
 | Mercury Decide | 767/1,456 | 52.68% | 🟨 255 ms | 🟥 1,217 ms | 🟨 $0.01575 + ? | 🟨 $0.01082 + ? | 1455/1,456 | 1455 reported; 0 estimates; 0 free-access; 1 unknown |
@@ -43,9 +44,18 @@ This provisional successor contains **1,456 questions across 43 categories**. It
 | Liquid d1 | 674/1,456 | 46.29% | 🟩 175 ms | 🟧 768 ms | 🟩 $0.01378 | 🟩 $0.00946 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 unknown |
 | Super Decider | 669/1,456 | 45.95% | 🟩 215 ms | 🟨 263 ms | 🟨 $0.02412 | 🟨 $0.01657 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 unknown |
 
+## Gemini Decision 1: native hosted decisions
+
+Gemini Decision 1 scored 798/1,456 (54.81%), with all 1,456 responses usable, ranking 20th among 31 active configurations. Median/p95 complete-response latency was 372.08/495.57 ms. API-reported charges total USD 0.0797482, with no missing charges; the separate USD 0.0000116 readiness charge is excluded.
+
+Gemini adds 12 correct answers over Jev 1.14 (786/1,456) at 2.15 times its median latency. Morph Reflex scored 841/1,456 at a 354.45 ms median. It adds 120 correct answers over StartLux Instant 4B Q8, 100 over SingVL and 94 over D3 Flash Q4_K_M. The measurements retain their different routes, dates, precision and hardware.
+
+This is OpenRouter’s native Decisions route pinned to Google AI Studio, requested as google/gemini-decision-1 and returned as google/gemini-decision-1-20261111. Precision is unknown. The fixed full-bank collection on November 12 used first attempts only, with no request errors, scored retries or client truncation and 18 matching metadata snapshots. All responses reported zero output tokens with no generated reasoning text observed; hidden weights and zero-generation internals were not independently attested.
+
+
 ## D3 Flash 9B: a local comparison
 
-D3 Flash 9B Q4_K_M scored 704/1,456 (48.35%), ranking 25th among 30 qualifying configurations. Median/p95 response latency was 577/6,616 ms, with 1,455 usable responses. Rose names and bars identify this two-computer local setup alongside SingVL.
+D3 Flash 9B Q4_K_M scored 704/1,456 (48.35%), ranking 26th among 31 qualifying configurations. Median/p95 response latency was 577/6,616 ms, with 1,455 usable responses. Rose names and bars identify this two-computer local setup alongside SingVL.
 
 It adds six correct answers over SingVL (0.41 percentage points), at 1.68 times its median latency, and 26 over StartLux Instant 4B Q8. Request routing is 19/31 versus SingVL’s 8/31, and temporal intervals 17/25 versus 9/25. SingVL leads conversational intention (24/33 versus 14/33), quantitative reasoning (93/200 versus 84/200) and reference binding (22/35 versus 15/35). The small overall difference masks distinct task profiles.
 
@@ -56,7 +66,7 @@ The user reports the same ASUS TUF Ryzen 7 and Lenovo Legion Intel Core i7 deplo
 
 SingVL S1 4B Q4_K_M scored 698/1,456 (47.94%), with all 1,456 responses usable. Median/p95 complete-response latency was 344/1,164 ms. Rose model names and bars identify this two-computer local setup. The user reports an ASUS TUF with AMD Ryzen 7 and a Lenovo Legion with Intel Core i7, each with an RTX 2060 and 6 GB VRAM. The ASUS coordinates llama.cpp CUDA/RPC inference with the Lenovo worker over the LAN. Each GPU retains its own memory; the nominal total is 12 GB across the two computers. This is a different deployment from the purple local baselines. Hardware and electricity are unmetered, not zero; latency includes LAN and adapter overhead.
 
-The result meets the fixed 45% cutoff and now ranks 26th among the 30 active configurations. It exceeds StartLux Instant 4B Q8 by 20 correct answers (1.37 percentage points). Necessary conditions (26/32) and forward conditionals (17/22) are relative strengths; robust decisions without a prior (3/39) and value of information (10/40) are weaknesses. Quantitative reasoning is 93/200 versus StartLux’s 75/200; scheduling is 27/54 versus 17/54, and conversational intention is 24/33 versus 14/33. StartLux leads request routing (19/31 versus 8/31) and value of information (20/40 versus 10/40). The overall lead masks different task profiles. The category figures are descriptive and do not establish a general advantage from adding a second GPU.
+The result meets the fixed 45% cutoff and now ranks 27th among the 31 active configurations. It exceeds StartLux Instant 4B Q8 by 20 correct answers (1.37 percentage points). Necessary conditions (26/32) and forward conditionals (17/22) are relative strengths; robust decisions without a prior (3/39) and value of information (10/40) are weaknesses. Quantitative reasoning is 93/200 versus StartLux’s 75/200; scheduling is 27/54 versus 17/54, and conversational intention is 24/33 versus 14/33. StartLux leads request routing (19/31 versus 8/31) and value of information (20/40 versus 10/40). The overall lead masks different task profiles. The category figures are descriptive and do not establish a general advantage from adding a second GPU.
 
 The serving API declares Q4_K_M weights, llama.cpp b12301-956591f45 and 4,096-token backend context and input allowance. The original 1,024-context 20-question screen is excluded. The hardware description is user-reported; actual GPU placement, weight-file identity, conversion correctness and zero-generation internals were not independently attested through the API. This score applies to the quantized compatibility runtime, not the original full-precision Transformers implementation. All responses returned valid typed decisions and reported zero output tokens, with no generated reasoning text observed.
 
@@ -83,7 +93,7 @@ Teal model names indicate hosted decisions, purple local baselines, rose the two
 
 ## Response time and cost
 
-Timings and costs use individual selected primary records. All 36 preceding configurations are unchanged; D3 Flash adds a separately measured two-computer local session. Morph Reflex and REAX 1.3 retain their preceding full-bank sessions. Median and p95 include selected unsuccessful requests; they are never averages of category medians. Monetary amounts are selected-record charges or estimates, not guaranteed future prices.
+Timings and costs use individual selected primary records. All 37 preceding configurations are unchanged; Gemini Decision 1 adds a separately measured native hosted session. Morph Reflex and REAX 1.3 retain their preceding full-bank sessions. Median and p95 include selected unsuccessful requests; they are never averages of category medians. Monetary amounts are selected-record charges or estimates, not guaranteed future prices.
 
 Morph Reflex’s selected 1,456 primaries have API-reported USD charges of $0.032662362. REAX 1.3 reports EUR 1.0204992 across 1456 selected primaries. Its USD $1.14224475456 comparison is an FX estimate, using EUR 1 = USD 1.1193 from the ECB reference rate dated 2026-11-09. The converted USD amount was not reported by the provider. Exact native EUR nanos, conversion records and the captured rate receipt are downloadable. Readiness calls and other unscored requests remain outside these totals.
 
@@ -230,20 +240,26 @@ The retained bank has **1,236 questions from the project development bank, 20 MA
 - [User-reported hardware and captured serving configuration](singvl_hardware.json)
 - [Independent SingVL first-primary audit](singvl_model_audit.json)
 - [Per-primary native usage and source hashes](singvl_usage_evidence.csv.gz)
-- [SingVL category analysis](singvl_analysis.json)
+- [Historical SingVL release-time category analysis](singvl_analysis.json)
 - [Previous Drex-release audit receipt](parent_drex_audit_receipt.json)
 - [D3 Flash configuration and neutral collection record](D3_FLASH_NOTES.md)
 - [D3 user-reported deployment and serving configuration](d3_flash_hardware.json)
 - [Independent D3 first-primary audit](d3_flash_model_audit.json)
 - [D3 native usage and retained missing telemetry](d3_flash_usage_evidence.csv.gz)
 - [D3 request pacing and retained timeout evidence](d3_flash_transport_phases.json)
-- [D3 category and paired model analysis](d3_flash_analysis.json)
+- [Historical D3 release-time category and paired analysis](d3_flash_analysis.json)
 - [D3 against every preceding model by category](d3_flash_category_comparison.csv)
 - [Frozen preceding SingVL audit receipt](parent_singvl_audit_receipt.json)
+- [Gemini native configuration and collection notes](GEMINI_DECISION1_NOTES.md)
+- [Independent Gemini first-primary audit](gemini_decision1_model_audit.json)
+- [Gemini per-primary usage, declared snapshot and API-reported USD](gemini_decision1_usage_evidence.csv.gz)
+- [Gemini release-time categories and paired comparisons](gemini_decision1_analysis.json)
+- [Gemini against all 37 preceding models by category](gemini_decision1_category_comparison.csv)
+- [Frozen preceding D3 audit receipt](parent_d3_flash_audit_receipt.json)
 
 The [scripts/](https://github.com/etsabary/system-1-decision-benchmark/blob/main/scripts/README.md) support offline validation without credentials. The [preceding hosted v5 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v5_hosted_2026-11-09/report.html), [initial v5 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v5_provisional_2026-11-09/report.html), [full v4 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v4_openai_2026-11-06/report.html), [v3](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v3_presentation_2026-11-01/report.html) and [v2](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v2_presentation_2026-11-01/report.html) remain unchanged. Model-selected choices and the gold scoring key remain private.
 
 ```sh
-python3 scripts/validate_system1_v5_d3_flash_2026_11_11.py results/releases/system1_v5_d3_flash_2026-11-11 results/releases/system1_v5_singvl_2026-11-11
+python3 scripts/validate_system1_v5_gemini_decision1_2026_11_13.py results/releases/system1_v5_gemini_decision1_2026-11-13 results/releases/system1_v5_d3_flash_2026-11-11
 python3 scripts/validate_october21_release.py
 ```

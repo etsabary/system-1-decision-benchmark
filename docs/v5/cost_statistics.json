@@ -1,6 +1,6 @@
 {
   "currency": "USD",
-  "scope": "All selected v5 primary records; prior36 configurations unchanged, with a separately audited local distributed D3 session added. Reported, estimated, free, unknown and unmetered costs remain distinct.",
+  "scope": "All selected v5 primaries: 37 preceding configurations unchanged plus native Gemini Decision 1 via OpenRouter. Reported, estimated, free, unknown and unmetered costs remain distinct.",
   "models": {
     "fastino_glide_v23_bf16": {
       "model_id": "fastino_glide_v23_bf16",
@@ -500,6 +500,19 @@
       "estimate_only_subtotal_usd": null,
       "known_subtotal_usd": null,
       "known_usd_per_1000": null
+    },
+    "gemini_decision1_openrouter_20261111": {
+      "model_id": "gemini_decision1_openrouter_20261111",
+      "n": 1456,
+      "reported_count": 1456,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": "0.0797482",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.0797482",
+      "known_usd_per_1000": "0.05477211538461538461538461538"
     }
   }
 }

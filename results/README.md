@@ -2,11 +2,12 @@
 
 ## Current: provisional System 1 Decision Benchmark v5
 
-[1,456 questions across 43 categories](releases/system1_v5_d3_flash_2026-11-11/report.html), with **30 qualifying configurations at an exact 45% inclusion threshold** and **37 complete configurations** retained in the data. All 36 previous model results are unchanged. D3 Flash 9B Q4_K_M adds a full-bank session on a separately identified two-computer local llama.cpp deployment. Drex Max v1.1 remains the active Drex version; its predecessor stays a superseded reference. The 701 questions removed from provisional v5 remain archived in v4.
+[1,456 questions across 43 categories](releases/system1_v5_gemini_decision1_2026-11-13/report.html), with **31 qualifying configurations at an exact 45% inclusion threshold** and **38 complete configurations** retained in the data. All 37 previous model results are unchanged. Gemini Decision 1 adds a full-bank native hosted session through OpenRouter with Google AI Studio pinned, declared November 11 snapshot and unknown precision. Drex Max v1.1 remains the active Drex version; its predecessor stays a superseded reference. The 701 questions removed from provisional v5 remain archived in v4.
 
-- [Scores and configurations](releases/system1_v5_d3_flash_2026-11-11/statistics.json), [all category scores](releases/system1_v5_d3_flash_2026-11-11/all_category_scores.csv), [cost evidence](releases/system1_v5_d3_flash_2026-11-11/cost_statistics.json) and [selection method](releases/system1_v5_d3_flash_2026-11-11/V5_SELECTION_NOTES.md).
-- [Preserved v5 before D3 Flash](releases/system1_v5_singvl_2026-11-11/README_V5.md). The current successor adds D3 Flash Q4_K_M as a separate two-computer local configuration; all 36 preceding measurements remain unchanged.
-- [Preserved v5 before SingVL](releases/system1_v5_drex_2026-11-09/README_V5.md). The current successor adds SingVL Q4_K_M on a separately identified two-computer local deployment; all 35 preceding measurements remain unchanged.
+- [Scores and configurations](releases/system1_v5_gemini_decision1_2026-11-13/statistics.json), [all category scores](releases/system1_v5_gemini_decision1_2026-11-13/all_category_scores.csv), [cost evidence](releases/system1_v5_gemini_decision1_2026-11-13/cost_statistics.json) and [selection method](releases/system1_v5_gemini_decision1_2026-11-13/V5_SELECTION_NOTES.md).
+- [Preserved v5 before Gemini Decision 1](releases/system1_v5_d3_flash_2026-11-11/README_V5.md). The new native hosted configuration preserves all 37 preceding measurements.
+- [Preserved v5 before D3 Flash](releases/system1_v5_singvl_2026-11-11/README_V5.md). That successor added D3 Flash Q4_K_M as a separate two-computer local configuration; all 36 preceding measurements remain unchanged.
+- [Preserved v5 before SingVL](releases/system1_v5_drex_2026-11-09/README_V5.md). That successor added SingVL Q4_K_M on a separately identified two-computer local deployment; all 35 preceding measurements remain unchanged.
 - [Preserved hosted v5, before the Drex upgrade](releases/system1_v5_hosted_2026-11-09/README_V5.md).
 - [Preserved initial provisional v5, before the two hosted additions](releases/system1_v5_provisional_2026-11-09/report.html).
 - [Preserved full v4: 2,157 questions and original 62% cutoff](releases/system1_v4_openai_2026-11-06/report.html).

@@ -1,0 +1,44 @@
+{
+  "model_id": "drex_max_v11",
+  "provider_run_model_id": "drex_max_v11_nace",
+  "n": 1456,
+  "correct": 996,
+  "valid": 1454,
+  "complete": true,
+  "mean_ms": 362.3896466550842,
+  "median_ms": 344.5924579864368,
+  "p95_ms": 490.100427006837,
+  "tariff_estimate_usd": "0.02355297",
+  "unknown_estimated_cost_count": 2,
+  "api_reported_charge_count": 0,
+  "api_unknown_charge_count": 1456,
+  "input_tokens": 785099,
+  "raw_output_tokens": 238612,
+  "nonzero_output_counter_responses": 1454,
+  "http_status_counts": {
+    "200": 1454,
+    "429": 2
+  },
+  "zero_generation_attested": false,
+  "no_generated_reasoning_text_observed": true,
+  "collection_started_utc": "2026-11-09T22:32:22.452826+00:00",
+  "collection_completed_utc": "2026-11-09T22:55:20.231469+00:00",
+  "full_collection_wall_ms_including_pauses": 1377778.6430000002,
+  "per_request_latency_excludes_pacing": true,
+  "uniform_throughput_attested": false,
+  "continuation_manifest_sha256": "8cfd570663a4dbb9ca5b092c9770afb797b729d2573b94fbf2b38ca3cad1a71a",
+  "billing_check_resume_receipt_sha256": "dc51d3709f2740d3d323b9ddb43bdeffcf0b631f8a164bb89938748220dafb4e",
+  "output_counter_policy": {
+    "zero_required": false,
+    "basis": "Native Drex typed-answer protocol under the existing published Drex policy. Preserve nonzero output counters; no generated reasoning text observed, but zero generation is not independently attested.",
+    "docs": [
+      "https://console.nace.ai/docs/drex/guides/reading-answers",
+      "https://console.nace.ai/docs/drex/guides/openai-compatible-decisions"
+    ],
+    "readiness_output_tokens": 91
+  },
+  "plan_sha256": "6bc7cd4f4c21b26a897cb9edffdf3dea251d94021af7d1eb6528ddc4f7c86f6b",
+  "manifest_sha256": "722f31e3e2203b9ae662769b3f04c5de14331165dde7b7f061c0670d59848f3a",
+  "audit_code_sha256": "715066684268d1954b32df85889e38ad8e3055287d7ee3e06ab1eb1beeedaebb",
+  "source_record_digest": "458b1621bcca8d74cf20d1c4fb3c8eecbf75e6ce5d364da739face7291572dd3"
+}

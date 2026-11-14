@@ -1,0 +1,71 @@
+{
+  "status": "pass",
+  "source_release": "system1_v5_singvl_2026-11-11",
+  "source_manifest_sha256": "f18d0d578e8db9f080ba2ab0629156ae14305ed13151387c76767d3e314f3698",
+  "base_models_retained": 36,
+  "models_added": [
+    "d3_flash_9b_q4km_llamacpp_ctx4096_lan"
+  ],
+  "questions": 1456,
+  "categories": 43,
+  "measured_configurations": 37,
+  "main_configurations": 30,
+  "below_cutoff_configurations": 6,
+  "superseded_configurations": 1,
+  "individual_timing_records": 53872,
+  "individual_cost_records": 53872,
+  "individual_correctness_records": 53872,
+  "prior_primary_rows_and_objects_unchanged": true,
+  "csv_append_proofs": {
+    "timing_evidence.csv.gz": {
+      "original_rows": 52416,
+      "appended_rows": 1456,
+      "old_csv_bytes_exact_prefix": true,
+      "original_uncompressed_sha256": "d1e08a7ed83e930f5335f6cdcbcdf823dfd5a65925c4e1dd1c3497f59a1f0361"
+    },
+    "cost_evidence.csv.gz": {
+      "original_rows": 52416,
+      "appended_rows": 1456,
+      "old_csv_bytes_exact_prefix": true,
+      "original_uncompressed_sha256": "e247c9b966fb99040007772813ac2deae190705f192d754371481a1c6aefc469"
+    },
+    "correctness_evidence.csv.gz": {
+      "original_rows": 52416,
+      "appended_rows": 1456,
+      "old_csv_bytes_exact_prefix": true,
+      "original_uncompressed_sha256": "499a1a5e45529998f66ef8b4d6919a8198c12121d597a514b7b329046dfd95ad"
+    },
+    "all_category_scores.csv": {
+      "original_rows": 1548,
+      "appended_rows": 43,
+      "old_csv_bytes_exact_prefix": true,
+      "original_uncompressed_sha256": "b4843f90d0cc9d26c4766f21b8d00a928674e874ef04462811487f00b1d30fab"
+    }
+  },
+  "unchanged_files_sha256": {
+    "questions_1456.jsonl": "d6d7e830447c95b35e0b37f2c2dc46e29a6233ec59fac3569615606ef62715f3",
+    "source_metadata_1456.jsonl": "0ad8cc4d43fca04b85cf5e25b2d60cff5798588a5b56a5d9b3e20a4b823e687a",
+    "category_guide.json": "1714995b59caf73e40a6e988c4ed36cca9920a619fd1f3daf779c2624e3d35bd",
+    "selection_provenance.json": "beeae83a7133e47542098d78cfb50ffe43dc88ec912895aa80cf4ade38ca1788",
+    "removed_items.csv": "33f9c4da90b57c796669d7088f4efb437ce7630174050a634c25633a822499d2",
+    "retained_items.csv": "f8f212b822c4ac3212dd6f24f475236ff5a384635780bd44fb147b9901079c2c",
+    "removed_correctness_evidence.csv.gz": "44edb124325ead4132f404950c570d11818fc2fe96af08adbbf6dc7a5ac259f9",
+    "SOURCE_AND_LICENSES.md": "c59b00d6ba43559ba3589c59e08a7f2da76a371955b5705f0a73350485485dfc",
+    "PROJECT_LICENSE_MIT.txt": "c0bbb612283a2743d755831b475fd0df6f92873fbdfad80b78f3cb52f3e898d3",
+    "native_currency_cost_evidence.csv.gz": "e326532589d22fe3bfa4c88e3299ce4b6144d554d734c7a01baf99d637340e3e",
+    "fx_receipt.json": "250bc63fb5679abac870132c4490129b91e28dcea06f81b88029e596cc8e14f5",
+    "singvl_analysis.json": "f8b67332e67898a3612b8b524ae6346d6475d25d8397479f8f78cca0d748dc90",
+    "singvl_hardware.json": "d62ecc7960d4819d7d1c2b05b9ebd235458f231ed8936900bd36250743fbec7a",
+    "singvl_model_audit.json": "5ed06745c705ea8d1b2a4c6f0b849036b8aa7b55e78c9fe17cb13924ed0296a7",
+    "singvl_usage_evidence.csv.gz": "7243109271f96ecc06c7b3aa9f4fe8673d5f151aa16a8ae3373241a94eccd327",
+    "SINGVL_DISTRIBUTED_NOTES.md": "180855ea2181413fbf3d4b979caecca09ced4179b1137f770fcafcc17a0c516b"
+  },
+  "new_manifest_sha256": "7d533673b715aaceb489d921ed57d292baded090f1354ad49646760eedd321d9",
+  "new_plan_sha256": "302e852cdfd7cde54638c8bb2f104c1c28ad1d455952287efd0ca26da4b08e29",
+  "new_record_digest": "11f444d96113e1ad930a06ef24499cff6974bf475fe314acd9018121090f69df",
+  "no_scored_retries": true,
+  "failed_primary_retained": true,
+  "original744_preserved": true,
+  "continuation712_usable": true,
+  "build_code_sha256": "2a44dd5fe6b1fbc2929b91804e28b76d1ca15c5d2723cad9bc0fb5659ea01c73"
+}

@@ -1,0 +1,11 @@
+# Gemini Decision 1: native hosted decisions
+
+Gemini Decision 1 scored **798/1,456 (54.81%)**, with all 1,456 responses usable. Median complete-response latency was **372.08 ms**, p95 **495.57 ms**, pooled from individual first primaries. It ranks 20th among 31 active configurations in this release and meets the exact 45% inclusion rule. The 37 preceding complete measurements and their original records are unchanged.
+
+The requested alias was `google/gemini-decision-1`, routed through OpenRouter's native `/api/alpha/decisions` interface with Google AI Studio pinned as provider. All returned model declarations were `google/gemini-decision-1-20261111`. Precision is unknown; BF16 is not inferred. Eighteen configuration snapshots matched. These declarations do not independently attest hidden weights, exact implementation or zero generation. All scored responses reported zero output tokens, with no generated reasoning text observed.
+
+Collection on November 12, 2026 used the fixed answer-blind v5 order, one worker and first attempts only. There were no request errors, scored retries, answer replacements or client truncation. The first 100 records were preserved exactly through completion. All 797,482 reported input tokens and all per-request USD charges are retained in the public usage ledger. **USD 0.0797482 is API-reported**, with no unknown charges, and excludes the separate synthetic readiness charge of USD 0.0000116. This observed subtotal is not a promise of future pricing.
+
+Gemini adds 12 correct answers over Jev 1.14 (786/1,456), with 2.15 times its median latency. Morph Reflex scored 841/1,456 at a 354.45 ms median. Gemini exceeds StartLux Instant 4B Q8 by 120 correct answers, SingVL by 100 and D3 Flash Q4_K_M by 94. These different hosted and local configurations retain their original route, precision, date and hardware qualifications. All 43 categories and paired comparisons against the preceding 37 models are downloadable.
+
+The frozen 1,456-question bank, original 701-removal cohort, category denominators, source rights and selection-bias limitations are unchanged. This is the native decision interface, separate from a generative Gemini chat reference. Public evidence contains usability/correctness flags and hashes; model-selected choices and the gold scoring key remain private.
