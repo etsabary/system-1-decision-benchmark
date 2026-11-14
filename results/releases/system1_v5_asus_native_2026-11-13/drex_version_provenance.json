@@ -1,0 +1,25 @@
+{
+  "model_id": "drex_max_v11",
+  "requested_model": "drex-max-v1.1",
+  "provider": "Nace native",
+  "catalogue_declared_release_date": "2026-10-28",
+  "catalogue_model_entry": {
+    "name": "drex-max-v1.1",
+    "description": "Drex Max v1.1 multimodal decision model. Typed questions in, calibrated probabilities out; up to 262,144 input tokens across the whole request.",
+    "release_date": "2026-10-28",
+    "alias_for": null
+  },
+  "historical_alias_catalogue_entry": {
+    "name": "drex-max",
+    "description": "Retired on 2026-11-08. Requests that name it are served by drex-max-v1.1 (Drex Max v1.1) at its price.",
+    "release_date": "2026-10-13",
+    "alias_for": "drex-max-v1.1"
+  },
+  "catalogue_capture_sha256": "525129bb0b04c21bab371a0c2d1a96c48d78e4a615d92ef6d2e31239d1eed470",
+  "catalogue_source_url": "https://console.nace.ai/v1/models",
+  "previous_model_id": "drex_max",
+  "previous_declared_checkpoint": "nace-ai/drex-max-20261016",
+  "previous_provider": "DeepInfra through OpenRouter",
+  "new_manifest_sha256": "722f31e3e2203b9ae662769b3f04c5de14331165dde7b7f061c0670d59848f3a",
+  "identity_limit": "Native Nace returned drex-max-v1.1; catalogue declares October 28 release. Separate provider/version from October 16 Drex Max on DeepInfra. Hidden weights and zero generation are not independently attested."
+}

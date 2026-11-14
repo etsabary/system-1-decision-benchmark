@@ -259,3 +259,29 @@ sets, correctness and usability, joined usage/source hashes, native counters,
 Decimal cost subtotals and absent actual-charge telemetry, pooled timings,
 category denominators, replacement, ranks, colours, links, privacy and mirror.
 Earlier dated releases and their bound scripts remain immutable.
+
+## ASUS native partial-screen presentation · November 13, 2026
+
+`publish_system1_v5_asus_native_2026_11_13.py` copies the frozen hosted-refresh
+release without rerendering any graph or changing any full-bank data. It adds
+three separate 100-question local screens (QEV 0.5B, QEV 1.3B and GS1 0.8B)
+with 300 rows per partial timing/cost/correctness/usage ledger and their declared
+resident native FP32 runtime profiles. All 42 full results, 34 active ranks,
+61,152-row main ledgers, cost objects, category views, graphs and historical
+partial files remain byte-identical. There are no new full-bank configurations.
+
+The fixed shuffled prefix is unstratified. Wilson upper bounds implement a
+screening heuristic, not a formal repeated-look guarantee or full-bank cutoff
+classification. Local hardware/electricity is unmetered. Typed choices remain
+scored when a server also flags abstention (five QEV 0.5B and two QEV 1.3B
+responses); raw flags and zero output counters are retained. Server GPU,
+precision, reuse and source declarations are not independent attestation.
+
+```sh
+python3 scripts/validate_system1_v5_asus_native_2026_11_13.py results/releases/system1_v5_asus_native_2026-11-13 results/releases/system1_v5_hosted_refresh_2026-11-13 --mirror docs/v5
+```
+
+The validator checks exact full-parent files and recovered parent HTML,
+separate denominators and null full scores/ranks/classifications, complete
+unique fixed-prefix item joins, correctness, pooled timing, unmetered costs,
+source/profile/review hashes, usage, abstention flags, links and privacy.
