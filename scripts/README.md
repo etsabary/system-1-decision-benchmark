@@ -231,3 +231,31 @@ python3 scripts/validate_system1_v5_gemini_decision1_2026_11_13.py results/relea
 CI checks the exact current mirror. Older dated releases and their bound
 scripts stay unchanged; the current report updates all cohort ranks and
 retains readable matrices, complete costs and fixed speed/cost bands.
+
+## Four-model native hosted successor · November 13, 2026
+
+`publish_system1_v5_hosted_refresh_2026_11_13.py` renders native Perplexity
+Decider v1.3 and Flash v1.3 plus HeyGen Decision 1 and Turbo preview. It preserves
+all 38 prior model/cost objects and 55,328-row ledger prefixes, appending 5,824
+first primaries. All three main ledgers contain 61,152 records. The fixed bank
+stays 1,456 questions / 43 categories with the exact 45% cutoff (656 correct).
+There are 42 complete configurations, 34 active, six below cutoff, two
+superseded. Perplexity v1.3 replaces v1.2 under the standing current-version
+policy; older evidence remains unchanged, separate from the below-cutoff list.
+
+Perplexity estimates cover all primaries, with actual API monetary charges
+unreported; the native output-accounting token per question is retained.
+HeyGen costs are API-reported; Turbo is a preview native decision model.
+Precision and generation implementation are not independently attested.
+Readiness remains excluded; timing pools individual primaries, not phase
+medians or sustained dispatch throughput.
+
+```sh
+python3 scripts/validate_system1_v5_hosted_refresh_2026_11_13.py results/releases/system1_v5_hosted_refresh_2026-11-13 results/releases/system1_v5_gemini_decision1_2026-11-13 --mirror docs/v5
+```
+
+The validator checks exact preserved objects/prefixes, unique complete item
+sets, correctness and usability, joined usage/source hashes, native counters,
+Decimal cost subtotals and absent actual-charge telemetry, pooled timings,
+category denominators, replacement, ranks, colours, links, privacy and mirror.
+Earlier dated releases and their bound scripts remain immutable.

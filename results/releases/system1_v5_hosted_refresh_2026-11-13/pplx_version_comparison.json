@@ -1,0 +1,21 @@
+{
+  "replacement_decision": "supersede_old_active_configuration",
+  "old_model_id": "pplx_decider12",
+  "new_model_id": "pplx_decider13_native_20261112",
+  "correct_difference": 35,
+  "new_median_to_old_ratio": 0.8773101549920909,
+  "basis": "Standing current-default version policy; higher measured accuracy and lower measured median. Routes, version dates and cost evidence differ; old objects and primaries preserved, not below cutoff.",
+  "paired_outcomes": {
+    "n": 1456,
+    "new_correct": 984,
+    "reference_correct": 949,
+    "new_minus_reference_correct": 35,
+    "both_correct": 867,
+    "new_only_correct": 117,
+    "reference_only_correct": 82,
+    "neither_correct": 390,
+    "common_usable_n": 1455,
+    "new_correct_common_usable": 983,
+    "reference_correct_common_usable": 949
+  }
+}

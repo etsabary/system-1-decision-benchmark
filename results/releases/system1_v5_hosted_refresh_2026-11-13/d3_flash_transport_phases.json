@@ -1,0 +1,37 @@
+{
+  "phases": [
+    {
+      "phase": "initial",
+      "n": 744,
+      "usable": 743,
+      "median_ms": 568.8826669938862,
+      "p95_ms": 6684.111537341962,
+      "mean_ms": 1205.5830025652072
+    },
+    {
+      "phase": "paced_continuation",
+      "n": 712,
+      "usable": 712,
+      "median_ms": 590.2232709922828,
+      "p95_ms": 6233.3948376704575,
+      "mean_ms": 1136.7582180293662
+    }
+  ],
+  "pooled_timing_from_individual_primaries": true,
+  "original744_preserved": true,
+  "preserved_prefix_record_digest": "9e789d2156b6b6e03134a7a84bfa84bbffd426cea5afd9805c27ac8dc9c33b5f",
+  "continuation_manifest_sha256": "2771e9660d09efd02dc34ecfcf65533ec59a4eab8b72971009b879ed0d756e35",
+  "minimum_observed_continuation_spacing_seconds": 1.6006379127502441,
+  "minimum_start_interval_seconds": 1.6,
+  "failed_primary": {
+    "sequence": 744,
+    "item_id": "EXT-F31-018",
+    "http_status": 0,
+    "deadline_seconds": 30,
+    "retained": true,
+    "replayed": false,
+    "usage_available": false
+  },
+  "cause": "Unconfirmed local transport timeout; no model-specific cause established.",
+  "pacing": "After744attempts minimum1.6seconds between starts. Client idle gaps excluded from per-request latency; latency is not sustained throughput."
+}

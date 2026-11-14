@@ -1,49 +1,54 @@
 {
   "status": "pass",
-  "source_release": "system1_v5_d3_flash_2026-11-11",
-  "source_manifest_sha256": "9d04a15167eead5ef3ece1a8c0b40e1a02494660d7c0922bfdb9a5243391af20",
-  "base_models_retained": 37,
+  "source_release": "system1_v5_gemini_decision1_2026-11-13",
+  "source_manifest_sha256": "8deff2ace23a0983bccf825c2d804362b4eb46a43b569b50fe1e7015d615ccd8",
+  "base_models_retained": 38,
   "models_added": [
-    "gemini_decision1_openrouter_20261111"
+    "pplx_decider13_native_20261112",
+    "pplx_decider_flash13_native_20261112",
+    "heygen_decision1_openrouter_20261112",
+    "heygen_decision1_turbo_openrouter_20261112"
   ],
   "questions": 1456,
   "categories": 43,
-  "measured_configurations": 38,
-  "main_configurations": 31,
+  "measured_configurations": 42,
+  "main_configurations": 34,
   "below_cutoff_configurations": 6,
-  "superseded_configurations": 1,
-  "individual_timing_records": 55328,
-  "individual_cost_records": 55328,
-  "individual_correctness_records": 55328,
+  "superseded_configurations": 2,
+  "individual_timing_records": 61152,
+  "individual_cost_records": 61152,
+  "individual_correctness_records": 61152,
   "prior_primary_rows_and_objects_unchanged": true,
   "csv_append_proofs": {
     "timing_evidence.csv.gz": {
-      "original_rows": 53872,
-      "appended_rows": 1456,
+      "original_rows": 55328,
+      "appended_rows": 5824,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "9e456e8ff4775cfb891139c4c3069ae1ea0856a985546bd0279a289bdd65cbe5"
+      "original_uncompressed_sha256": "f38b4d955bad89f8aee4725491d25adefec33e2e0103c0c4960c649a0fc9c193"
     },
     "cost_evidence.csv.gz": {
-      "original_rows": 53872,
-      "appended_rows": 1456,
+      "original_rows": 55328,
+      "appended_rows": 5824,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "2b9b3a7427e1956011bbb4030c581ec409449149e6f32cb47103e77a0a288ea3"
+      "original_uncompressed_sha256": "c6043f131228d4bb4e64411952d6efbd39c042059cc7c60120076d50a2f4b517"
     },
     "correctness_evidence.csv.gz": {
-      "original_rows": 53872,
-      "appended_rows": 1456,
+      "original_rows": 55328,
+      "appended_rows": 5824,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "6723cbca890c16f1840a582d429ee8b4b0c1a7cde30246cb3f24be0f6a53f123"
+      "original_uncompressed_sha256": "46c071a230ab04ac33cc154febeb8ee7bc4818cd14d4f4907fc5fbe34f20812c"
     },
     "all_category_scores.csv": {
-      "original_rows": 1591,
-      "appended_rows": 43,
+      "original_rows": 1634,
+      "appended_rows": 172,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "b94e30bc0d00573118ba94a02e5d9e5701d8035e60a57e013b51e99f123192ca"
+      "original_uncompressed_sha256": "cf001d9a1512f79ed0dfd492f09a6644b176eb47da6996fee48058ddaa074128"
     }
   },
   "unchanged_files_sha256": {
+    "gemini_decision1_usage_evidence.csv.gz": "ddcc99907d9bfe2314175394642e635f992cb3df6768fff13de5f85ef2380393",
     "removed_correctness_evidence.csv.gz": "44edb124325ead4132f404950c570d11818fc2fe96af08adbbf6dc7a5ac259f9",
+    "GEMINI_DECISION1_NOTES.md": "4cf88ef88ef56aeae7beccab97fd6b36e5512ca51f49d2df7a084cfe91f73f96",
     "model_context_diagnostics.json": "4444d40afb7a64b4b79c67c345aa472c6ddc803a0b286ddba9f23a71ba2b882f",
     "d3_flash_model_audit.json": "4c36fe29b17f1952d9a59c4e853a1680e92f766552c8cbfc286e254fce5874e2",
     "d3_flash_category_comparison.csv": "39db0cef6244e71dce70f681e101d434c5c7ce91601a77512c9d92fe4740907c",
@@ -63,6 +68,7 @@
     "hosted_model_audits.json": "65036770a21d3480065a3e134240c24a57fd63313c47a801bf5534e66d629f69",
     "luna_partial_timing.csv.gz": "9f780467da5752a13bc01be3287f376de0442997d0716d81f6f52f5d7db48358",
     "SINGVL_DISTRIBUTED_NOTES.md": "180855ea2181413fbf3d4b979caecca09ced4179b1137f770fcafcc17a0c516b",
+    "parent_d3_flash_audit_receipt.json": "f982a24670818b44ccfa9be93dee6bd63f0ec1be8cea1dce2d29980c28a46db2",
     "parent_drex_audit_receipt.json": "a6d1cc15e1a9e98f1ff322782525e6384069ecb154887f9bf2a0b5a8b7bdff8c",
     "PROJECT_LICENSE_MIT.txt": "c0bbb612283a2743d755831b475fd0df6f92873fbdfad80b78f3cb52f3e898d3",
     "DREX_VERSION_NOTES.md": "da4d4ff9c966f17eac8199faae59d2f64fbb620cbb289531423f8f545c5b6a8b",
@@ -73,10 +79,12 @@
     "hosted_cost_summaries.json": "f5e3557b816e44848f903fc9e78b0f5e506cf41372ab129d4ef630fe1697622f",
     "STRIKE_SCREEN_NOTES.md": "ddd7184b29a8fd0e2c6f4206f68becc617433af0328fabeec3393f586354f196",
     "singvl_hardware.json": "d62ecc7960d4819d7d1c2b05b9ebd235458f231ed8936900bd36250743fbec7a",
+    "gemini_decision1_analysis.json": "b193d908b7ee48691db188b273d4fb328a7b32a0625faf3bb7c7c3426c8e8782",
     "singvl_analysis.json": "f8b67332e67898a3612b8b524ae6346d6475d25d8397479f8f78cca0d748dc90",
     "drex_model_audit.json": "e9b733117fc04d1e57a05feb1888332da3d9f2b67c7d9d902964e10622882c6c",
     "selection_provenance.json": "beeae83a7133e47542098d78cfb50ffe43dc88ec912895aa80cf4ade38ca1788",
     "baseline_v5_audit_receipt.json": "177c690eeb6f1f33cebb23d57306c709127527598a237b76f361ba823585d1a7",
+    "gemini_decision1_model_audit.json": "dd217e62e222d74f6caa4cfe608fd889b4aa2deead4b6108e0d7c0b6ef2fa9d9",
     "NEW_LOCAL_SCREEN_NOTES.md": "7aa17c3f381682ff939f04805b50e58ed0e024ecf73ba337b448a385bb2e35a4",
     "retained_items.csv": "f8f212b822c4ac3212dd6f24f475236ff5a384635780bd44fb147b9901079c2c",
     "drex_usage_evidence.csv.gz": "cdede88c096a4cec671ff2da56f87a30ed8a17b853673ea058d52634528d7279",
@@ -91,6 +99,7 @@
     "category_guide.json": "1714995b59caf73e40a6e988c4ed36cca9920a619fd1f3daf779c2624e3d35bd",
     "removed_items.csv": "33f9c4da90b57c796669d7088f4efb437ce7630174050a634c25633a822499d2",
     "model_collection_recoveries.json": "c44df82075b50c8bcb3b88380aa2c3707340f66120848cf6fb3bf2cff588e9c1",
+    "gemini_decision1_category_comparison.csv": "2730b7cb54c280ece3c357477bc16bd28c53edbfb08695164caff4122b629b71",
     "drex_comparison.json": "b3c4dd270d3679f7a48a138481c1518c25ef145d3a05e0b1dfcbb14bfbb98f8b",
     "native_currency_cost_evidence.csv.gz": "e326532589d22fe3bfa4c88e3299ce4b6144d554d734c7a01baf99d637340e3e",
     "drex_version_provenance.json": "102b651d1b9f519a79d8ef979551e6c3c4a835ebaa9a9741ad8772e97b5a140f",
@@ -99,10 +108,45 @@
     "third_party_licenses/MAIQ_MIT_REPOSITORY.txt": "1a16c49e96342ba1a61f33c9c7f2c22cc9c2bcbde47c42e0416b93afdbd3a183",
     "third_party_licenses/AQUA_APACHE-2.0.txt": "189bff4f09eccdbc1790f7a9085ddd031ddf050f27929608fa4ba8a57e14a7c3"
   },
-  "new_manifest_sha256": "9a8490cc7b3613de67c1b23fd5ffcebfd57af2232771cf8a82ea01dd090c14d0",
-  "new_plan_sha256": "2718114cafb172f650556fec2210e81edcbf5f2142c00b2e10a13dae8c036c9d",
-  "new_record_digest": "25b7a8ba620bcdb66fd2dbf34a36a540697dbd96e6549c685fedb617415069da",
+  "new_sources": {
+    "pplx_decider13_native_20261112": {
+      "source_manifest_sha256": "c2bf66ac019947ac8b58d401df0e38e35faef850993f236fb89818eac9f4df50",
+      "plan_sha256": "10f794576961eec805f01570ae16f297c24826f775efb176762d28145cda5437",
+      "source_record_digest": "9995784d439a883812b294f307c789f8188f66c7dc3f9c87f6dba429db67e582",
+      "first100_preserved": true,
+      "source_audit_sha256": "9622c768037dbc4d8621329905cdd6ac5f53fcdd6a57839ea9ab03af094f94e3",
+      "independent_final_review_verdict": "APPROVE",
+      "independent_final_review_sha256": "b6b64c58781cc3e3fbb22fdad635ff90d749ef4ba81bf24aa108dac624c20cd2"
+    },
+    "pplx_decider_flash13_native_20261112": {
+      "source_manifest_sha256": "bdf03959654dae5fe0e352ed3aafc3f73bed8d0ce426424d95a1c2a248abbd7a",
+      "plan_sha256": "228227651e30efb3fff12d3430377edb6ae1877d952d00f1c82f0783f0739708",
+      "source_record_digest": "b49630331d27dc01c339ace1471933e2534b43a6ceec29299c72317c8691d34c",
+      "first100_preserved": true,
+      "source_audit_sha256": "85e5568779d3fbfb1e01259e69ba4334aef2e9b8ce30e4d2b76b98917b9c313b",
+      "independent_final_review_verdict": "APPROVE",
+      "independent_final_review_sha256": "faa9750693428aba1689136cc4d9001cec4e008153ecdf29e611c156bb330c15"
+    },
+    "heygen_decision1_openrouter_20261112": {
+      "source_manifest_sha256": "8a5012d391fe7e8ba380cc0380dbdfac8c6e1ab55300434859e39ca482991120",
+      "plan_sha256": "c0889910887b3f7f38d2a4bbbbb00ac2514a7fe0f62d9ba4b452fef3b6307e9d",
+      "source_record_digest": "070b43f77a6a78de4df594f0b49be5709c439e9a0cbbafe9edb4531e84ec156f",
+      "first100_preserved": true,
+      "source_audit_sha256": "08c0a4448b7c4f05945d3b97b42a5cec48efaec7bc8c4a06c1a3d45365061b05",
+      "independent_final_review_verdict": "APPROVE",
+      "independent_final_review_sha256": "4155b6139767d1cc700a54f7edba6ea8848a1b7fa68341a6ab783b2737246cfa"
+    },
+    "heygen_decision1_turbo_openrouter_20261112": {
+      "source_manifest_sha256": "8f4e601cdbcc803ab152be98ab3ea13beece89eab29f53b1a17472f400e365eb",
+      "plan_sha256": "c165e5c1efb9a133924fec45788adface21f25162a406f4e125177cebc2aaf0e",
+      "source_record_digest": "9f92e9a863ffa8cdf38a0fc9ae5399ebb3dce83f9ed2092bd5b418ef4955ce61",
+      "first100_preserved": true,
+      "source_audit_sha256": "c6dbcba4d19df4bb58a398b835753fa9174be34babe1a48a8bc5ab4cd82051af",
+      "independent_final_review_verdict": "APPROVE",
+      "independent_final_review_sha256": "510490edc927001a427521296930601d5d51295183211d7f70026a323cb54711"
+    }
+  },
   "no_scored_retries": true,
   "readiness_excluded": true,
-  "build_code_sha256": "33a9be10a70f27fbe2d578d1d34d08b7c6431971498af6326a920bd881ce269e"
+  "build_code_sha256": "4b07135c3c513727ca5d2aad23b9bafdbf83158a5d32bf87070179f29948ad09"
 }
