@@ -1,0 +1,95 @@
+{
+  "qev_05b_native_resident_ctx4096_screen100": {
+    "alias": "qev-0.5b",
+    "label": "QEV 0.5B · native FP32 text/readout",
+    "deployment": "User-confirmed single ASUS RTX 2060; native publisher PyTorch; one model resident at a time",
+    "server_declared_runtime": {
+      "all_parameters_cuda": true,
+      "attention_backend": "FP32 memory-efficient CUDA SDPA; repeated KV",
+      "body_identity": {
+        "architecture": "option_readout",
+        "backbone": {
+          "model_id": "ken-jo/QEV-0.8B",
+          "revision": "bb7107f413e855949462b900b26a622f4817160e"
+        },
+        "decision_views": 1,
+        "mode": "accurate"
+      },
+      "context_limit": 4096,
+      "device": "cuda:0",
+      "engine": "publisher PyTorch CUDA",
+      "gpu": "NVIDIA GeForce RTX 2060",
+      "native_llama_cpp": false,
+      "parameter_dtypes": {
+        "torch.bfloat16": 153,
+        "torch.float32": 221
+      },
+      "precision": "FP32 CUDA text/readout; unused vision weights retain BF16 storage on GPU",
+      "resident_pid": 604801,
+      "truncation": false
+    },
+    "identity_limit": "Server declarations and static-profile consistency, not independent GPU placement, source/conversion, installed weight-file or zero-generation attestation.",
+    "source_manifest_sha256": "07c685a6843dddaf5b8021c6d5ca539486ba8a31fb4117324444e21da045343d",
+    "readiness_receipt_sha256": "85286604a4fb421863592c37b5d802b8f5bb28db8ce3c55b216091d9dd79cb68",
+    "profile_signature_sha256": "658de7dac1b75442fe6b9a8c615e3d8919148e2cb23d29f5de96c9adefb7f223"
+  },
+  "qev_13b_native_resident_ctx4096_screen100": {
+    "alias": "qev-1.3b",
+    "label": "QEV 1.3B · native FP32 text/readout",
+    "deployment": "User-confirmed single ASUS RTX 2060; native publisher PyTorch; one model resident at a time",
+    "server_declared_runtime": {
+      "all_parameters_cuda": true,
+      "attention_backend": "FP32 memory-efficient CUDA SDPA; repeated KV",
+      "body_identity": {
+        "architecture": "option_readout",
+        "backbone": {
+          "model_id": "ken-jo/QEV-2B",
+          "revision": "7534f3b77eddaff5de4e6e75801677b976b5d2f5"
+        },
+        "decision_views": 1,
+        "mode": "accurate"
+      },
+      "context_limit": 4096,
+      "device": "cuda:0",
+      "engine": "publisher PyTorch CUDA",
+      "gpu": "NVIDIA GeForce RTX 2060",
+      "native_llama_cpp": false,
+      "parameter_dtypes": {
+        "torch.bfloat16": 297,
+        "torch.float32": 221
+      },
+      "precision": "FP32 CUDA text/readout; unused vision weights retain BF16 storage on GPU",
+      "resident_pid": 606362,
+      "truncation": false
+    },
+    "identity_limit": "Server declarations and static-profile consistency, not independent GPU placement, source/conversion, installed weight-file or zero-generation attestation.",
+    "source_manifest_sha256": "7cb7c11856bd696a8df3109f081706635e6a68adac76b0d971c21bbd3d000f6b",
+    "readiness_receipt_sha256": "6016553461d6e8d4f2fea5dbdb6fe8aef2c487e9c1ad557ba118b3ff6aa27e23",
+    "profile_signature_sha256": "c7ae99b000cd4d624610c0da3c29324a9448d9b2db357714b4e4f5cf6eb7f370"
+  },
+  "gs1_08b_native_resident_ctx4096_screen100": {
+    "alias": "gs1-0.8b",
+    "label": "GS1 0.8B · native PyTorch FP32 eager resident",
+    "deployment": "User-confirmed single ASUS RTX 2060; native publisher PyTorch; one model resident at a time",
+    "server_declared_runtime": {
+      "all_parameters_cuda": true,
+      "attention_backend": "publisher eager reference",
+      "body_identity": {},
+      "context_limit": 4096,
+      "device": "cuda:0",
+      "engine": "publisher PyTorch CUDA",
+      "gpu": "NVIDIA GeForce RTX 2060",
+      "native_llama_cpp": false,
+      "parameter_dtypes": {
+        "torch.float32": 532
+      },
+      "precision": "FP32 CUDA eager reference",
+      "resident_pid": 607645,
+      "truncation": false
+    },
+    "identity_limit": "Server declarations and static-profile consistency, not independent GPU placement, source/conversion, installed weight-file or zero-generation attestation.",
+    "source_manifest_sha256": "adef0ff1200fc74391cc717ee4b4525e3608a8cd1c6c6fc63c7427ac6597d76a",
+    "readiness_receipt_sha256": "8ac6e0f4b02c287ada3e8e249217a50f93a21706f098a09a0f8ee356675a02ba",
+    "profile_signature_sha256": "418374aeda876ce503bc476a426803c2c47506b6f13917144863547234762aba"
+  }
+}

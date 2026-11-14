@@ -1,0 +1,59 @@
+{
+  "status": "author_offline_checks_passed",
+  "fresh_batch_review_verdict": "APPROVE",
+  "fresh_batch_review_sha256": "7fba706b245b93fb280587b859a218097881a35a52e2bdeec2d1d31617a4e9de",
+  "models": {
+    "qev_05b_native_resident_ctx4096_screen100": {
+      "source_alias": "qev-0.5b",
+      "source_manifest_sha256": "07c685a6843dddaf5b8021c6d5ca539486ba8a31fb4117324444e21da045343d",
+      "screen_handoff_sha256": "819b4b17a2a392f88f8e5040880e3162fe6191ad22bc5df9ac3bd5c5258d385d",
+      "root_screen_review_sha256": "07a6010ae586e89bed0c6c443b7782d8de271803f012c5b6ff35806b41cd16d9",
+      "root_screen_review_verdict": "APPROVE completed partial screen and declared stop",
+      "fresh_independent_review_verdict": "APPROVE",
+      "fresh_independent_review_sha256": "979b3ec81aa6455b4a5ccb3940bcd562771538ff105996821e61e96c1ccbbd84",
+      "public_record_source_digest": "9eac16c62720bf7cfea1aa17b7a88494b49e9c5d2136a798719e3b129aab47f0",
+      "exact_native_formatter_usage_matches": 100,
+      "first100_raw_records_digest": "e7043b3d6906ef6a0e7863fd8c2dad491e65f627a7ea2c157d6217944545cef4",
+      "plan_sha256": "0e1c43e2208b79ccb10cc5d7a6ba3d23f402e07f523a460e6d251a1805c445b7",
+      "attempts": 100,
+      "no_scored_retries": true,
+      "readiness_and_pre_score_diagnostics_excluded": true
+    },
+    "qev_13b_native_resident_ctx4096_screen100": {
+      "source_alias": "qev-1.3b",
+      "source_manifest_sha256": "7cb7c11856bd696a8df3109f081706635e6a68adac76b0d971c21bbd3d000f6b",
+      "screen_handoff_sha256": "abe3b2744d60037ada3cfbee2295f544daf5e4c0a9879d0bf49a2fc5c7ce0f45",
+      "root_screen_review_sha256": "6668849a3ee975f45288ffddabfef6891fee526c0d823010f2a6cb810753f76c",
+      "root_screen_review_verdict": "APPROVE completed partial screen and declared stop",
+      "fresh_independent_review_verdict": "APPROVE",
+      "fresh_independent_review_sha256": "a094ee1b2ae50603181bc94f0502482ba58484ae0bc5dda846f6a5209f7260e6",
+      "public_record_source_digest": "55639678aa56e887e2b41cc6984c40fe0b1eadb0eef90ddafaf5edb73a3ed612",
+      "exact_native_formatter_usage_matches": 100,
+      "first100_raw_records_digest": "b64521aa7f6c0d760b9263278a7d9fc545cb01cf9fa0a924d1b35fc7b4d76f9d",
+      "plan_sha256": "38c395d8604893c48d35df1b003178bfc50ce162e700cb76b9bbd980ce22fd19",
+      "attempts": 100,
+      "no_scored_retries": true,
+      "readiness_and_pre_score_diagnostics_excluded": true
+    },
+    "gs1_08b_native_resident_ctx4096_screen100": {
+      "source_alias": "gs1-0.8b",
+      "source_manifest_sha256": "adef0ff1200fc74391cc717ee4b4525e3608a8cd1c6c6fc63c7427ac6597d76a",
+      "screen_handoff_sha256": "f9a1390c5a9957c211fc948a1af787ea4242916c66bf6a5e7b9f954c050d6559",
+      "root_screen_review_sha256": "1edbaf01b4e77b108f94d52eaf0e8c8d0e34f4e749fd2cecc83cd7adcce8bfa6",
+      "root_screen_review_verdict": "APPROVE completed partial screen and declared stop",
+      "fresh_independent_review_verdict": "APPROVE",
+      "fresh_independent_review_sha256": "0609f478590050ab4410ea560ecdc93683ce276f7b6770fc3e742bd0f7a24c02",
+      "public_record_source_digest": "5af8bcbabc2390a3611412ced7b23481f340d7c34890a40aeb2469481ad04adf",
+      "exact_native_formatter_usage_matches": 100,
+      "first100_raw_records_digest": "7b9055f7e2b1e808b7ed5d8077eda48a114308f3fa01f01b0fda7408e5f77296",
+      "plan_sha256": "0b077804d1c40bf1a663aea2990235b24d1a0cb51de3fde334a2976a93df414b",
+      "attempts": 100,
+      "no_scored_retries": true,
+      "readiness_and_pre_score_diagnostics_excluded": true
+    }
+  },
+  "shared_first100_prefix": true,
+  "no_full_bank_records_appended": true,
+  "source_audit_code_sha256": "c1b12e759e4faa8bf76a3b537e5894878d5673ca657f992541af26f7e8522531",
+  "builder_sha256": "d288cca5432f58adf96ea6d6405320ac27376c5b1a26dfde00ec1a69c0dd545a"
+}

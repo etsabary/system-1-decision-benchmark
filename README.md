@@ -8,7 +8,7 @@ This provisional successor contains **1,456 questions across 43 categories**. It
 
 ## Main comparison
 
-![Accuracy on the 1,456 retained questions](results/releases/system1_v5_hosted_refresh_2026-11-13/comparison_accuracy.png)
+![Accuracy on the 1,456 retained questions](results/releases/system1_v5_asus_native_2026-11-13/comparison_accuracy.png)
 
 | Configuration | Correct / 1,456 | Accuracy | Median | p95 | Selected-record known cost | Cost / 1,000 | Usable | Cost evidence |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
@@ -115,65 +115,91 @@ Morph Reflex’s selected 1,456 primaries have API-reported USD charges of $0.03
 
 ### Response time
 
-![Response time for provisional v5](results/releases/system1_v5_hosted_refresh_2026-11-13/comparison_latency.png)
+![Response time for provisional v5](results/releases/system1_v5_asus_native_2026-11-13/comparison_latency.png)
 
 ### Cost per 1,000 questions
 
-![Cost per 1,000 questions for provisional v5](results/releases/system1_v5_hosted_refresh_2026-11-13/comparison_cost.png)
+![Cost per 1,000 questions for provisional v5](results/releases/system1_v5_asus_native_2026-11-13/comparison_cost.png)
 
 ## Category results
 
 The category scale is fixed at 0–100%. Each cell shows correct/retained total and percentage; ★ marks all tied leaders. Category sizes vary after removal.
 
-![Fixed accuracy scale](results/releases/system1_v5_hosted_refresh_2026-11-13/accuracy_legend.png)
+![Fixed accuracy scale](results/releases/system1_v5_asus_native_2026-11-13/accuracy_legend.png)
 
 ### Rules, evidence and logical scope
 
 F01 Lookup and filtering (n=5); F02 Forward conditionals (n=22); F03 Necessary conditions (n=32); F04 Boolean scope (n=18); F05 Quantifiers and sets (n=9); F11 Sufficiency and inconsistency (n=29).
 
-![Rules, evidence and logical scope accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_refresh_2026-11-13/categories_rules.png)
+![Rules, evidence and logical scope accuracy with retained counts and tied leaders](results/releases/system1_v5_asus_native_2026-11-13/categories_rules.png)
 
 ### Ordering, schedules and assignments
 
 F06 Comparisons (n=7); F07 Scheduling (n=54); F08 One-to-one assignments (n=44); F14 Temporal intervals (n=25); F22 Preference ordering (n=9).
 
-![Ordering, schedules and assignments accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_refresh_2026-11-13/categories_ordering.png)
+![Ordering, schedules and assignments accuracy with retained counts and tied leaders](results/releases/system1_v5_asus_native_2026-11-13/categories_ordering.png)
 
 ### State tracking and perspectives
 
 F09 Exact truth counting (n=68); F10 Truth-teller consistency (n=69); F12 Object swaps (n=43); F13 Sequential procedures (n=47); F15 Spatial tracking (n=35); F16 Reference binding (n=35); F17 Beliefs and perspectives (n=19).
 
-![State tracking and perspectives accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_refresh_2026-11-13/categories_state.png)
+![State tracking and perspectives accuracy with retained counts and tied leaders](results/releases/system1_v5_asus_native_2026-11-13/categories_state.png)
 
 ### Causes, plans and authoritative evidence
 
 F18 Causal intervention (n=37); F19 Exceptions and priorities (n=24); F20 Planning (n=16); F21 Directed reachability (n=5); F23 Rule counterexamples (n=14); F24 Authority and stale records (n=8); F25 Fault diagnosis (n=11).
 
-![Causes, plans and authoritative evidence accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_refresh_2026-11-13/categories_causes.png)
+![Causes, plans and authoritative evidence accuracy with retained counts and tied leaders](results/releases/system1_v5_asus_native_2026-11-13/categories_causes.png)
 
 ### Decisions under uncertainty
 
 F26 Probabilistic risk (n=30); F27 Value of information (n=40); F28 Robust decisions without a prior (n=39); F29 Strategic decisions (n=39); F30 Concurrent-history consistency (n=38); F31 Information-flow security (n=36).
 
-![Decisions under uncertainty accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_refresh_2026-11-13/categories_uncertainty.png)
+![Decisions under uncertainty accuracy with retained counts and tied leaders](results/releases/system1_v5_asus_native_2026-11-13/categories_uncertainty.png)
 
 ### Practical decisions: scope, policy and actions
 
 P01 Understanding requests and routing (n=31); P02 Recognizing multiple requested actions (n=34); P03 Tracking current conversational intention (n=33); P04 Selecting a tool or requesting clarification (n=35); P05 Checking authorization and scope (n=35).
 
-![Practical decisions: scope, policy and actions accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_refresh_2026-11-13/categories_practical_actions.png)
+![Practical decisions: scope, policy and actions accuracy with retained counts and tied leaders](results/releases/system1_v5_asus_native_2026-11-13/categories_practical_actions.png)
 
 ### Practical decisions: evidence, security and quality
 
 P06 Making decisions with untrusted content (n=35); P07 Applying a contextual content policy (n=27); P08 Extracting and normalizing facts (n=36); P09 Checking claims against supplied evidence (n=32); P10 Assigning severity or priority from a rubric (n=31).
 
-![Practical decisions: evidence, security and quality accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_refresh_2026-11-13/categories_practical_evidence.png)
+![Practical decisions: evidence, security and quality accuracy with retained counts and tied leaders](results/releases/system1_v5_asus_native_2026-11-13/categories_practical_evidence.png)
 
 ### IQ sequences and admissions-style mathematics
 
 F32 Numerical pattern recognition (n=20); F33 Quantitative reasoning (n=200).
 
-![IQ sequences and admissions-style mathematics accuracy with retained counts and tied leaders](results/releases/system1_v5_hosted_refresh_2026-11-13/categories_numerical.png)
+![IQ sequences and admissions-style mathematics accuracy with retained counts and tied leaders](results/releases/system1_v5_asus_native_2026-11-13/categories_numerical.png)
+
+## ASUS native v5 partial screens
+
+These are separate 100-question screens on the fixed answer-blind shuffled v5 prefix, with unstratified category counts. They are not 1,456-question scores, full-bank rankings or classifications against the 45% cutoff. All 42 complete configurations, 34 active rankings, six below-cutoff results, two superseded versions, 61,152-record main ledgers, category tables and graphs remain byte-identical to the preceding hosted release. The same 100 inputs were used for each screen. No score was extrapolated to the unattempted 1,356 questions per model.
+
+| Configuration | Correct / screen | Usable | Median | p95 | Wilson 95% upper | Continuation | Cost |
+|---|---:|---:|---:|---:|---:|---|---|
+| QEV 0.5B · native FP32 text/readout | 19/100 (19.00%, sample only) | 100/100 | 🟩 169.74 ms | 🟨 454.82 ms | 27.78% | Stopped; no full-bank classification | ⬜ Unmetered hardware / electricity |
+| QEV 1.3B · native FP32 text/readout | 22/100 (22.00%, sample only) | 100/100 | 🟨 263.78 ms | 🟧 891.50 ms | 31.07% | Stopped; no full-bank classification | ⬜ Unmetered hardware / electricity |
+| GS1 0.8B · native PyTorch FP32 eager resident | 27/100 (27.00%, sample only) | 100/100 | 🟥 1111.32 ms | 🟥 1442.01 ms | 36.43% | Stopped; no full-bank classification | ⬜ Unmetered hardware / electricity |
+
+Each screen stopped at the predefined 100-question check because its Wilson 95% upper bound was below 45%. This is a sequential screening heuristic, not a formal repeated-look guarantee or a full-bank inclusion decision. All attempted answers were usable first primaries; there were no scored retries, errors, truncation or runtime-condition changes. All reported output counters were zero, with no generated reasoning text observed and no independent zero-generation attestation. QEV 0.5B reported abstained=true on five responses and QEV 1.3B on two, while returning valid typed choices; those choices are scored normally and the flags remain in the usage ledger. Local hardware and electricity are unmetered, not zero cost. Pooled individual latencies exclude idle pacing and do not measure sustained throughput.
+
+The user confirmed one ASUS RTX 2060 running the publisher’s native PyTorch implementation with 4,096-token context and one resident model at a time. Server replies declared CUDA, reuse and stable runtime profiles. These declarations do not independently attest GPU execution, exact installed weights or source/conversion fidelity. QEV text/readout was declared FP32 with repeated-KV CUDA SDPA; unused vision weights retained BF16 storage. GS1 used its declared FP32 CUDA eager-reference runtime; its replies did not declare a backbone/version checkpoint, so none is inferred. These samples describe the ASUS-served FP32 configurations; the original BF16 runtime was not measured. The compact QEV 0.5B and 1.3B packages legitimately declare parent QEV 0.8B and 2B backbones; parent names are not a precision or installed-weight attestation. This is a separate native single-GPU configuration from earlier distributed GGUF/llama.cpp/RPC measurements.
+
+Initial model loading, synthetic readiness and oversize checks, earlier 2,048-context per-request preflight, pre-score 4,096-context readiness cycles and the unscored monitor diagnostic are excluded. An unscored control test found that GET /props unloaded native weights; monitoring was changed to catalogue-only before any scored primary. Those earlier records remain separately archived. Source rights, frozen cohort-conditioned question selection, AQuA error-selection dependence and the unresolved original MAIQ item-rights caveat remain unchanged; the 120 companion diagnostics retain separate denominators.
+
+- [Screen method, stops and runtime limitations](results/releases/system1_v5_asus_native_2026-11-13/ASUS_NATIVE_SCREEN_NOTES.md)
+- [Separate 100-question screen summaries](results/releases/system1_v5_asus_native_2026-11-13/asus_native_screen_statistics.json)
+- [Server-declared runtime profiles and source hashes](results/releases/system1_v5_asus_native_2026-11-13/asus_native_screen_profiles.json)
+- [Partial-screen individual timing evidence](results/releases/system1_v5_asus_native_2026-11-13/asus_native_screen_timing.csv.gz)
+- [Partial-screen unmetered cost evidence](results/releases/system1_v5_asus_native_2026-11-13/asus_native_screen_cost.csv.gz)
+- [Partial-screen correctness and usability booleans](results/releases/system1_v5_asus_native_2026-11-13/asus_native_screen_correctness.csv.gz)
+- [Partial-screen native usage and record hashes](results/releases/system1_v5_asus_native_2026-11-13/asus_native_screen_usage.csv.gz)
+- [Partial-screen audit and review provenance](results/releases/system1_v5_asus_native_2026-11-13/asus_native_screen_audit.json)
+- [Frozen full-bank parent manifest](results/releases/system1_v5_asus_native_2026-11-13/parent_hosted_refresh_manifest.json)
 
 ## Below the 45% cutoff
 
@@ -197,11 +223,11 @@ Version replacement is separate from the 45% cutoff. All measurements and record
 
 These are unchanged historical samples with their original denominators, not v5 scores or classifications against its threshold. No stopped test was resumed.
 
-- **Strike 1:** 57/100 correct; free-tier screen stopped after 100 requests. [Historical method and limits](results/releases/system1_v5_hosted_refresh_2026-11-13/STRIKE_SCREEN_NOTES.md).
-- **Hanzo Kai 1.9:** 46/244 correct; the free daily cap was followed by a separate eight-hour plan window after credits were purchased. The user stopped the test. [Historical method and limits](results/releases/system1_v5_hosted_refresh_2026-11-13/KAI_CASE_NOTE.md).
-- **THIS/THAT 1.2 and GLiNER2.5-Decide:** THIS/THAT: 32/100 correct. GLiNER: 4/14 usable answers, plus 6 input-length rejections in 20 attempts. [Historical method and limits](results/releases/system1_v5_hosted_refresh_2026-11-13/LOCAL_SCREEN_NOTES.md).
-- **Hindsight and Lumma:** Hindsight: 29/100 correct. Lumma: 452/799 attempts correct, including an unavailable request. [Historical method and limits](results/releases/system1_v5_hosted_refresh_2026-11-13/NEW_LOCAL_SCREEN_NOTES.md).
-- **GPT-6 Luna Decisions:** 82/181 correct on the separately attempted additions; historical baseline 758/1,342. The expansion stopped below its recorded 50% rule. [Historical method and limits](results/releases/system1_v5_hosted_refresh_2026-11-13/OPENAI_DECISIONS_NOTES.md).
+- **Strike 1:** 57/100 correct; free-tier screen stopped after 100 requests. [Historical method and limits](results/releases/system1_v5_asus_native_2026-11-13/STRIKE_SCREEN_NOTES.md).
+- **Hanzo Kai 1.9:** 46/244 correct; the free daily cap was followed by a separate eight-hour plan window after credits were purchased. The user stopped the test. [Historical method and limits](results/releases/system1_v5_asus_native_2026-11-13/KAI_CASE_NOTE.md).
+- **THIS/THAT 1.2 and GLiNER2.5-Decide:** THIS/THAT: 32/100 correct. GLiNER: 4/14 usable answers, plus 6 input-length rejections in 20 attempts. [Historical method and limits](results/releases/system1_v5_asus_native_2026-11-13/LOCAL_SCREEN_NOTES.md).
+- **Hindsight and Lumma:** Hindsight: 29/100 correct. Lumma: 452/799 attempts correct, including an unavailable request. [Historical method and limits](results/releases/system1_v5_asus_native_2026-11-13/NEW_LOCAL_SCREEN_NOTES.md).
+- **GPT-6 Luna Decisions:** 82/181 correct on the separately attempted additions; historical baseline 758/1,342. The expansion stopped below its recorded 50% rule. [Historical method and limits](results/releases/system1_v5_asus_native_2026-11-13/OPENAI_DECISIONS_NOTES.md).
 
 ## Selection, scope and limitations
 
@@ -213,79 +239,85 @@ The smaller bank reduces future requests by **701/2,157 (32.5%)**. Token charges
 
 ## Question origins and licenses
 
-The retained bank has **1,236 questions from the project development bank, 20 MAIQ number sequences and 200 AQuA quantitative questions**. AQuA-RAT declares Apache-2.0 and contains crowdsourced admissions-style mathematics, not authenticated official GRE or SAT questions. MAIQ’s repository declares MIT, but original human-test item rights remain unestablished; inclusion retains that caveat. The development lineage does not fully establish individual authorship or possible external influences for every project-bank item. The project MIT license does not supersede third-party rights. The two noncommercial LogiQA items remain outside the bank. [Full source and license notices](results/releases/system1_v5_hosted_refresh_2026-11-13/SOURCE_AND_LICENSES.md).
+The retained bank has **1,236 questions from the project development bank, 20 MAIQ number sequences and 200 AQuA quantitative questions**. AQuA-RAT declares Apache-2.0 and contains crowdsourced admissions-style mathematics, not authenticated official GRE or SAT questions. MAIQ’s repository declares MIT, but original human-test item rights remain unestablished; inclusion retains that caveat. The development lineage does not fully establish individual authorship or possible external influences for every project-bank item. The project MIT license does not supersede third-party rights. The two noncommercial LogiQA items remain outside the bank. [Full source and license notices](results/releases/system1_v5_asus_native_2026-11-13/SOURCE_AND_LICENSES.md).
 
 ## Download and reproducibility
 
 Ranks in archived collection notes and release-time analysis files describe their original dated cohort. Current cohort ranks appear in the main comparison and current model sections above.
 
-- [Answer-free provisional v5 questions](results/releases/system1_v5_hosted_refresh_2026-11-13/questions_1456.jsonl)
-- [Question-level origin and license metadata](results/releases/system1_v5_hosted_refresh_2026-11-13/source_metadata_1456.jsonl)
-- [Source and license notes](results/releases/system1_v5_hosted_refresh_2026-11-13/SOURCE_AND_LICENSES.md)
-- [All model summaries](results/releases/system1_v5_hosted_refresh_2026-11-13/statistics.json)
-- [All models by 43 categories](results/releases/system1_v5_hosted_refresh_2026-11-13/all_category_scores.csv)
-- [Retained timing and status evidence](results/releases/system1_v5_hosted_refresh_2026-11-13/timing_evidence.csv.gz)
-- [Retained cost evidence](results/releases/system1_v5_hosted_refresh_2026-11-13/cost_evidence.csv.gz)
-- [Retained cost summaries](results/releases/system1_v5_hosted_refresh_2026-11-13/cost_statistics.json)
-- [Category guide](results/releases/system1_v5_hosted_refresh_2026-11-13/category_guide.json)
-- [701 removed question IDs and categories](results/releases/system1_v5_hosted_refresh_2026-11-13/removed_items.csv)
-- [1,456 retained question IDs and categories](results/releases/system1_v5_hosted_refresh_2026-11-13/retained_items.csv)
-- [Fixed selection cohort and subset provenance](results/releases/system1_v5_hosted_refresh_2026-11-13/selection_provenance.json)
-- [Retained correctness and usability booleans](results/releases/system1_v5_hosted_refresh_2026-11-13/correctness_evidence.csv.gz)
-- [Removed-item correctness and usability booleans](results/releases/system1_v5_hosted_refresh_2026-11-13/removed_correctness_evidence.csv.gz)
-- [Historical no-answer recovery evidence](results/releases/system1_v5_hosted_refresh_2026-11-13/transport_recoveries.json)
-- [Historical collection recovery evidence](results/releases/system1_v5_hosted_refresh_2026-11-13/model_collection_recoveries.json)
-- [Historical context diagnostics](results/releases/system1_v5_hosted_refresh_2026-11-13/model_context_diagnostics.json)
-- [Subset audit receipt](results/releases/system1_v5_hosted_refresh_2026-11-13/audit_receipt.json)
-- [Release checksums](results/releases/system1_v5_hosted_refresh_2026-11-13/manifest.json)
-- [Morph and REAX configuration, collection and billing notes](results/releases/system1_v5_hosted_refresh_2026-11-13/HOSTED_MODEL_NOTES.md)
-- [Independent new-model audit summaries](results/releases/system1_v5_hosted_refresh_2026-11-13/hosted_model_audits.json)
-- [New-model cost summaries](results/releases/system1_v5_hosted_refresh_2026-11-13/hosted_cost_summaries.json)
-- [Full-bank REAX, Terra, Fastino and Morph comparisons](results/releases/system1_v5_hosted_refresh_2026-11-13/new_model_comparison.json)
-- [REAX ensemble accuracy, speed and cost trade-off](results/releases/system1_v5_hosted_refresh_2026-11-13/REAX_TERRA_COMPARISON.md)
-- [Native EUR charges and separately estimated USD conversion](results/releases/system1_v5_hosted_refresh_2026-11-13/native_currency_cost_evidence.csv.gz)
-- [Captured ECB rate receipt](results/releases/system1_v5_hosted_refresh_2026-11-13/fx_receipt.json)
-- [Captured ECB exchange-rate XML](results/releases/system1_v5_hosted_refresh_2026-11-13/ecb_eurofxref_2026-11-09.xml)
-- [Frozen initial v5 audit receipt](results/releases/system1_v5_hosted_refresh_2026-11-13/baseline_v5_audit_receipt.json)
-- [Drex native version, replacement and collection notes](results/releases/system1_v5_hosted_refresh_2026-11-13/DREX_VERSION_NOTES.md)
-- [Drex old/new paired comparison and replacement decision](results/releases/system1_v5_hosted_refresh_2026-11-13/drex_comparison.json)
-- [Drex first-primary audit](results/releases/system1_v5_hosted_refresh_2026-11-13/drex_model_audit.json)
-- [Drex per-primary input usage and retained raw output counters](results/releases/system1_v5_hosted_refresh_2026-11-13/drex_usage_evidence.csv.gz)
-- [Drex raw output-counter interpretation](results/releases/system1_v5_hosted_refresh_2026-11-13/drex_counter_policy.json)
-- [Drex version and provider provenance](results/releases/system1_v5_hosted_refresh_2026-11-13/drex_version_provenance.json)
-- [Drex concurrency and rate-limit collection phases](results/releases/system1_v5_hosted_refresh_2026-11-13/drex_transport_phases.json)
-- [Frozen preceding hosted-release audit receipt](results/releases/system1_v5_hosted_refresh_2026-11-13/parent_hosted_audit_receipt.json)
-- [SingVL distributed deployment and collection notes](results/releases/system1_v5_hosted_refresh_2026-11-13/SINGVL_DISTRIBUTED_NOTES.md)
-- [User-reported hardware and captured serving configuration](results/releases/system1_v5_hosted_refresh_2026-11-13/singvl_hardware.json)
-- [Independent SingVL first-primary audit](results/releases/system1_v5_hosted_refresh_2026-11-13/singvl_model_audit.json)
-- [Per-primary native usage and source hashes](results/releases/system1_v5_hosted_refresh_2026-11-13/singvl_usage_evidence.csv.gz)
-- [Historical SingVL release-time category analysis](results/releases/system1_v5_hosted_refresh_2026-11-13/singvl_analysis.json)
-- [Previous Drex-release audit receipt](results/releases/system1_v5_hosted_refresh_2026-11-13/parent_drex_audit_receipt.json)
-- [D3 Flash configuration and neutral collection record](results/releases/system1_v5_hosted_refresh_2026-11-13/D3_FLASH_NOTES.md)
-- [D3 user-reported deployment and serving configuration](results/releases/system1_v5_hosted_refresh_2026-11-13/d3_flash_hardware.json)
-- [Independent D3 first-primary audit](results/releases/system1_v5_hosted_refresh_2026-11-13/d3_flash_model_audit.json)
-- [D3 native usage and retained missing telemetry](results/releases/system1_v5_hosted_refresh_2026-11-13/d3_flash_usage_evidence.csv.gz)
-- [D3 request pacing and retained timeout evidence](results/releases/system1_v5_hosted_refresh_2026-11-13/d3_flash_transport_phases.json)
-- [Historical D3 release-time category and paired analysis](results/releases/system1_v5_hosted_refresh_2026-11-13/d3_flash_analysis.json)
-- [D3 against every preceding model by category](results/releases/system1_v5_hosted_refresh_2026-11-13/d3_flash_category_comparison.csv)
-- [Frozen preceding SingVL audit receipt](results/releases/system1_v5_hosted_refresh_2026-11-13/parent_singvl_audit_receipt.json)
-- [Gemini native configuration and collection notes](results/releases/system1_v5_hosted_refresh_2026-11-13/GEMINI_DECISION1_NOTES.md)
-- [Independent Gemini first-primary audit](results/releases/system1_v5_hosted_refresh_2026-11-13/gemini_decision1_model_audit.json)
-- [Gemini per-primary usage, declared snapshot and API-reported USD](results/releases/system1_v5_hosted_refresh_2026-11-13/gemini_decision1_usage_evidence.csv.gz)
-- [Gemini release-time categories and paired comparisons](results/releases/system1_v5_hosted_refresh_2026-11-13/gemini_decision1_analysis.json)
-- [Gemini against all 37 preceding models by category](results/releases/system1_v5_hosted_refresh_2026-11-13/gemini_decision1_category_comparison.csv)
-- [Frozen preceding D3 audit receipt](results/releases/system1_v5_hosted_refresh_2026-11-13/parent_d3_flash_audit_receipt.json)
-- [Perplexity/HeyGen configuration, version replacement and cost qualifications](results/releases/system1_v5_hosted_refresh_2026-11-13/HOSTED_REFRESH_NOTES.md)
-- [Four native hosted first-primary audits](results/releases/system1_v5_hosted_refresh_2026-11-13/hosted_refresh_model_audits.json)
-- [Four native hosted usage and cost records](results/releases/system1_v5_hosted_refresh_2026-11-13/hosted_refresh_usage_evidence.csv.gz)
-- [Current-release full category and paired analyses](results/releases/system1_v5_hosted_refresh_2026-11-13/hosted_refresh_analysis.json)
-- [Four models against every other measured configuration by category](results/releases/system1_v5_hosted_refresh_2026-11-13/hosted_refresh_category_comparison.csv)
-- [Perplexity native version replacement decision](results/releases/system1_v5_hosted_refresh_2026-11-13/pplx_version_comparison.json)
-- [Frozen preceding Gemini-release audit receipt](results/releases/system1_v5_hosted_refresh_2026-11-13/parent_gemini_audit_receipt.json)
+- [Answer-free provisional v5 questions](results/releases/system1_v5_asus_native_2026-11-13/questions_1456.jsonl)
+- [Question-level origin and license metadata](results/releases/system1_v5_asus_native_2026-11-13/source_metadata_1456.jsonl)
+- [Source and license notes](results/releases/system1_v5_asus_native_2026-11-13/SOURCE_AND_LICENSES.md)
+- [All model summaries](results/releases/system1_v5_asus_native_2026-11-13/statistics.json)
+- [All models by 43 categories](results/releases/system1_v5_asus_native_2026-11-13/all_category_scores.csv)
+- [Retained timing and status evidence](results/releases/system1_v5_asus_native_2026-11-13/timing_evidence.csv.gz)
+- [Retained cost evidence](results/releases/system1_v5_asus_native_2026-11-13/cost_evidence.csv.gz)
+- [Retained cost summaries](results/releases/system1_v5_asus_native_2026-11-13/cost_statistics.json)
+- [Category guide](results/releases/system1_v5_asus_native_2026-11-13/category_guide.json)
+- [701 removed question IDs and categories](results/releases/system1_v5_asus_native_2026-11-13/removed_items.csv)
+- [1,456 retained question IDs and categories](results/releases/system1_v5_asus_native_2026-11-13/retained_items.csv)
+- [Fixed selection cohort and subset provenance](results/releases/system1_v5_asus_native_2026-11-13/selection_provenance.json)
+- [Retained correctness and usability booleans](results/releases/system1_v5_asus_native_2026-11-13/correctness_evidence.csv.gz)
+- [Removed-item correctness and usability booleans](results/releases/system1_v5_asus_native_2026-11-13/removed_correctness_evidence.csv.gz)
+- [Historical no-answer recovery evidence](results/releases/system1_v5_asus_native_2026-11-13/transport_recoveries.json)
+- [Historical collection recovery evidence](results/releases/system1_v5_asus_native_2026-11-13/model_collection_recoveries.json)
+- [Historical context diagnostics](results/releases/system1_v5_asus_native_2026-11-13/model_context_diagnostics.json)
+- [Subset audit receipt](results/releases/system1_v5_asus_native_2026-11-13/audit_receipt.json)
+- [Release checksums](results/releases/system1_v5_asus_native_2026-11-13/manifest.json)
+- [Morph and REAX configuration, collection and billing notes](results/releases/system1_v5_asus_native_2026-11-13/HOSTED_MODEL_NOTES.md)
+- [Independent new-model audit summaries](results/releases/system1_v5_asus_native_2026-11-13/hosted_model_audits.json)
+- [New-model cost summaries](results/releases/system1_v5_asus_native_2026-11-13/hosted_cost_summaries.json)
+- [Full-bank REAX, Terra, Fastino and Morph comparisons](results/releases/system1_v5_asus_native_2026-11-13/new_model_comparison.json)
+- [REAX ensemble accuracy, speed and cost trade-off](results/releases/system1_v5_asus_native_2026-11-13/REAX_TERRA_COMPARISON.md)
+- [Native EUR charges and separately estimated USD conversion](results/releases/system1_v5_asus_native_2026-11-13/native_currency_cost_evidence.csv.gz)
+- [Captured ECB rate receipt](results/releases/system1_v5_asus_native_2026-11-13/fx_receipt.json)
+- [Captured ECB exchange-rate XML](results/releases/system1_v5_asus_native_2026-11-13/ecb_eurofxref_2026-11-09.xml)
+- [Frozen initial v5 audit receipt](results/releases/system1_v5_asus_native_2026-11-13/baseline_v5_audit_receipt.json)
+- [Drex native version, replacement and collection notes](results/releases/system1_v5_asus_native_2026-11-13/DREX_VERSION_NOTES.md)
+- [Drex old/new paired comparison and replacement decision](results/releases/system1_v5_asus_native_2026-11-13/drex_comparison.json)
+- [Drex first-primary audit](results/releases/system1_v5_asus_native_2026-11-13/drex_model_audit.json)
+- [Drex per-primary input usage and retained raw output counters](results/releases/system1_v5_asus_native_2026-11-13/drex_usage_evidence.csv.gz)
+- [Drex raw output-counter interpretation](results/releases/system1_v5_asus_native_2026-11-13/drex_counter_policy.json)
+- [Drex version and provider provenance](results/releases/system1_v5_asus_native_2026-11-13/drex_version_provenance.json)
+- [Drex concurrency and rate-limit collection phases](results/releases/system1_v5_asus_native_2026-11-13/drex_transport_phases.json)
+- [Frozen preceding hosted-release audit receipt](results/releases/system1_v5_asus_native_2026-11-13/parent_hosted_audit_receipt.json)
+- [SingVL distributed deployment and collection notes](results/releases/system1_v5_asus_native_2026-11-13/SINGVL_DISTRIBUTED_NOTES.md)
+- [User-reported hardware and captured serving configuration](results/releases/system1_v5_asus_native_2026-11-13/singvl_hardware.json)
+- [Independent SingVL first-primary audit](results/releases/system1_v5_asus_native_2026-11-13/singvl_model_audit.json)
+- [Per-primary native usage and source hashes](results/releases/system1_v5_asus_native_2026-11-13/singvl_usage_evidence.csv.gz)
+- [Historical SingVL release-time category analysis](results/releases/system1_v5_asus_native_2026-11-13/singvl_analysis.json)
+- [Previous Drex-release audit receipt](results/releases/system1_v5_asus_native_2026-11-13/parent_drex_audit_receipt.json)
+- [D3 Flash configuration and neutral collection record](results/releases/system1_v5_asus_native_2026-11-13/D3_FLASH_NOTES.md)
+- [D3 user-reported deployment and serving configuration](results/releases/system1_v5_asus_native_2026-11-13/d3_flash_hardware.json)
+- [Independent D3 first-primary audit](results/releases/system1_v5_asus_native_2026-11-13/d3_flash_model_audit.json)
+- [D3 native usage and retained missing telemetry](results/releases/system1_v5_asus_native_2026-11-13/d3_flash_usage_evidence.csv.gz)
+- [D3 request pacing and retained timeout evidence](results/releases/system1_v5_asus_native_2026-11-13/d3_flash_transport_phases.json)
+- [Historical D3 release-time category and paired analysis](results/releases/system1_v5_asus_native_2026-11-13/d3_flash_analysis.json)
+- [D3 against every preceding model by category](results/releases/system1_v5_asus_native_2026-11-13/d3_flash_category_comparison.csv)
+- [Frozen preceding SingVL audit receipt](results/releases/system1_v5_asus_native_2026-11-13/parent_singvl_audit_receipt.json)
+- [Gemini native configuration and collection notes](results/releases/system1_v5_asus_native_2026-11-13/GEMINI_DECISION1_NOTES.md)
+- [Independent Gemini first-primary audit](results/releases/system1_v5_asus_native_2026-11-13/gemini_decision1_model_audit.json)
+- [Gemini per-primary usage, declared snapshot and API-reported USD](results/releases/system1_v5_asus_native_2026-11-13/gemini_decision1_usage_evidence.csv.gz)
+- [Gemini release-time categories and paired comparisons](results/releases/system1_v5_asus_native_2026-11-13/gemini_decision1_analysis.json)
+- [Gemini against all 37 preceding models by category](results/releases/system1_v5_asus_native_2026-11-13/gemini_decision1_category_comparison.csv)
+- [Frozen preceding D3 audit receipt](results/releases/system1_v5_asus_native_2026-11-13/parent_d3_flash_audit_receipt.json)
+- [Perplexity/HeyGen configuration, version replacement and cost qualifications](results/releases/system1_v5_asus_native_2026-11-13/HOSTED_REFRESH_NOTES.md)
+- [Four native hosted first-primary audits](results/releases/system1_v5_asus_native_2026-11-13/hosted_refresh_model_audits.json)
+- [Four native hosted usage and cost records](results/releases/system1_v5_asus_native_2026-11-13/hosted_refresh_usage_evidence.csv.gz)
+- [Current-release full category and paired analyses](results/releases/system1_v5_asus_native_2026-11-13/hosted_refresh_analysis.json)
+- [Four models against every other measured configuration by category](results/releases/system1_v5_asus_native_2026-11-13/hosted_refresh_category_comparison.csv)
+- [Perplexity native version replacement decision](results/releases/system1_v5_asus_native_2026-11-13/pplx_version_comparison.json)
+- [Frozen preceding Gemini-release audit receipt](results/releases/system1_v5_asus_native_2026-11-13/parent_gemini_audit_receipt.json)
 
 The [scripts/](scripts/README.md) support offline validation without credentials. The [preceding hosted v5 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v5_hosted_2026-11-09/report.html), [initial v5 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v5_provisional_2026-11-09/report.html), [full v4 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v4_openai_2026-11-06/report.html), [v3](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v3_presentation_2026-11-01/report.html) and [v2](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v2_presentation_2026-11-01/report.html) remain unchanged. Model-selected choices and the gold scoring key remain private.
 
 ```sh
 python3 scripts/validate_system1_v5_hosted_refresh_2026_11_13.py results/releases/system1_v5_hosted_refresh_2026-11-13 results/releases/system1_v5_gemini_decision1_2026-11-13
 python3 scripts/validate_october21_release.py
+```
+
+Validate the ASUS screen successor and its unchanged full-bank parent:
+
+```sh
+python3 scripts/validate_system1_v5_asus_native_2026_11_13.py results/releases/system1_v5_asus_native_2026-11-13 results/releases/system1_v5_hosted_refresh_2026-11-13 --mirror docs/v5
 ```
