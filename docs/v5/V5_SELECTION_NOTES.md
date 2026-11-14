@@ -1,6 +1,6 @@
 # Historical initial v5 selection notes only
 
-The original body below describes the initial 32-configuration, 26-model provisional v5 recalculation and its reuse-only inference scope. This Gemini Decision 1 successor has 38 complete configurations and 31 active graph models. It preserves all earlier sessions and adds a separately audited native hosted Gemini Decision 1 test. The 1,456-question bank, original removal cohort and 45% cutoff are unchanged. See [DREX_VERSION_NOTES.md](DREX_VERSION_NOTES.md), [prior hosted-session notes](HOSTED_MODEL_NOTES.md) and [current results](statistics.json) for the applicable versions and scopes. The original selection-note body follows as historical provenance.
+The original body below describes the initial 32-configuration, 26-model provisional v5 recalculation and its reuse-only inference scope. This four-model hosted successor has 42 complete configurations and 34 active graph models. It preserves all earlier sessions and adds four separately audited native hosted tests. The 1,456-question bank, original removal cohort and 45% cutoff are unchanged. See [DREX_VERSION_NOTES.md](DREX_VERSION_NOTES.md), [prior hosted-session notes](HOSTED_MODEL_NOTES.md) and [current results](statistics.json) for the applicable versions and scopes. The original selection-note body follows as historical provenance.
 
 ---
 
