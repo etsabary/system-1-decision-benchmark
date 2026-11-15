@@ -1,6 +1,6 @@
 {
   "currency": "USD",
-  "scope": "All selected v5 primaries: 38 preceding configurations unchanged plus four native hosted configurations. Reported charges, captured tariff estimates, actual unreported charges, free access, missing telemetry and unmetered locals remain distinct.",
+  "scope": "42 prior configurations unchanged plus two native hosted full-bank sessions. Captured tariff estimates cover all new records; actual charges unreported, not zero.",
   "models": {
     "fastino_glide_v23_bf16": {
       "model_id": "fastino_glide_v23_bf16",
@@ -571,6 +571,38 @@
       "estimate_only_subtotal_usd": null,
       "known_subtotal_usd": "0.13255038",
       "known_usd_per_1000": "0.09103734890109890109890109890"
+    },
+    "nimble_v41_max": {
+      "model_id": "nimble_v41_max",
+      "n": 1456,
+      "reported_count": 0,
+      "tariff_estimate_count": 1456,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": "0.03103948",
+      "known_subtotal_usd": "0.03103948",
+      "known_usd_per_1000": "0.02131832417582417582417582418",
+      "actual_charge_unknown_count": 1456,
+      "actual_charge_telemetry": "unreported",
+      "captured_input_tariff_usd_per_million": "0.04"
+    },
+    "subq_snap12": {
+      "model_id": "subq_snap12",
+      "n": 1456,
+      "reported_count": 0,
+      "tariff_estimate_count": 1456,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": null,
+      "estimate_only_subtotal_usd": "0.03144932",
+      "known_subtotal_usd": "0.03144932",
+      "known_usd_per_1000": "0.02159980769230769230769230769",
+      "actual_charge_unknown_count": 1456,
+      "actual_charge_telemetry": "unreported",
+      "captured_input_tariff_usd_per_million": "0.04"
     }
   }
 }

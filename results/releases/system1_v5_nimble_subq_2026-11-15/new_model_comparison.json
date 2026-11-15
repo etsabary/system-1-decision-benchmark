@@ -1,0 +1,60 @@
+{
+  "scope": "Complete frozen 1,456-input v5 bank, selected first attempts including failures",
+  "question_bank_sha256": "d6d7e830447c95b35e0b37f2c2dc46e29a6233ec59fac3569615606ef62715f3",
+  "reax_model_id": "reax_1_3",
+  "terra_model_id": "reference_terra61",
+  "n": 1456,
+  "reax": {
+    "correct": 1077,
+    "accuracy": 0.7396978021978022,
+    "valid": 1456,
+    "median_ms": 946.3558329734951,
+    "p95_ms": 1540.643843531143,
+    "native_reported_currency": "EUR",
+    "native_reported_subtotal": "1.0204992",
+    "native_reported_subtotal_nanos": 1020499200,
+    "fx_estimate_usd": "1.14224475456",
+    "unknown_charge_count": 0,
+    "fx_rate_usd_per_eur": "1.1193",
+    "fx_date": "2026-11-09",
+    "provider_route": "Decision Models direct SystemOne EU tier",
+    "collection_dates_toronto": {
+      "2026-11-09": 1456
+    }
+  },
+  "terra": {
+    "correct": 1188,
+    "accuracy": 0.8159340659340659,
+    "valid": 1454,
+    "median_ms": 1160.22183347377,
+    "p95_ms": 1728.746916502132,
+    "known_api_reported_subtotal_usd": "0.75732600",
+    "unknown_charge_count": 2,
+    "provider_route": "OpenAI standard route through OpenRouter",
+    "collection_dates_toronto": {
+      "2026-11-06": 1456
+    }
+  },
+  "accuracy_difference_correct": -111,
+  "accuracy_difference_percentage_points": -7.623626373626373,
+  "median_difference_ms": -213.86600050027482,
+  "p95_difference_ms": -188.10307297098916,
+  "fx_usd_to_terra_known_reported_usd_ratio": "1.508260319281260646009776503",
+  "cost_difference_percent_vs_terra_known_subtotal": "50.82603192812606460097765030",
+  "cost_ratio_qualification": "REAX USD is an ECB conversion estimate of reported EUR; Terra denominator is its known API-reported USD subtotal plus two unknown charges. The full Terra bill and an exact full-cost ratio are unavailable.",
+  "interpretation": "REAX remains a native zero-generation ensemble, not an ordinary LLM reference. Its observed latency and converted cost are comparable in scale to the reasoning-disabled Terra reference; this is a descriptive comparison across different provider routes and collection dates, not a controlled equivalence or deployment guarantee.",
+  "other_cost_comparisons": {
+    "fastino_glide_v23_bf16": {
+      "known_subtotal_usd": "0.02993292",
+      "unknown_charge_count": 0,
+      "cost_basis": "Captured tariff estimate and/or reported USD; see cost_statistics.json",
+      "reax_fx_usd_to_known_subtotal_ratio": "38.16015125019543699712557278"
+    },
+    "morph_reflex": {
+      "known_subtotal_usd": "0.032662362",
+      "unknown_charge_count": 0,
+      "cost_basis": "API-reported USD",
+      "reax_fx_usd_to_known_subtotal_ratio": "34.97128451885996487333034886"
+    }
+  }
+}

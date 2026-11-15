@@ -1,0 +1,42 @@
+{
+  "model_id": "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+  "role": "Local distributed",
+  "color": "#b2364b",
+  "basis": "User-reported deployment; serving build, precision and context captured through API",
+  "nodes": [
+    {
+      "name": "ASUS TUF",
+      "cpu": "AMD Ryzen 7 (exact SKU not recorded)",
+      "gpu": "NVIDIA RTX2060",
+      "gpu_vram_gb": 6,
+      "role": "main host"
+    },
+    {
+      "name": "Lenovo Legion",
+      "cpu": "Intel Core i7 (exact SKU not recorded)",
+      "gpu": "NVIDIA RTX2060",
+      "gpu_vram_gb": 6,
+      "role": "remote worker"
+    }
+  ],
+  "node_count": 2,
+  "gpu_count": 2,
+  "nominal_total_vram_gb": 12,
+  "interconnect": "LAN / Ethernet, per user setup",
+  "software": "llama.cpp CUDA + RPC, native D3 decision endpoint",
+  "backend_build": "b12301-956591f45",
+  "quantization": "Q4_K_M",
+  "backend_context": 4096,
+  "gpu_placement_independently_attested": false,
+  "weight_file_hash_available": false,
+  "readiness": {
+    "long_request_input_tokens": 1635,
+    "long_request_succeeded": true,
+    "oversize_input_tokens": 4295,
+    "oversize_rejected_http_status": 500,
+    "oversize_error": "Input exceeded physical batch4096; explicit rejection"
+  },
+  "cost_basis": "Hardware and electricity unmetered, not zero.",
+  "model_parameters": 8953803264,
+  "model_bytes": 6592055296
+}

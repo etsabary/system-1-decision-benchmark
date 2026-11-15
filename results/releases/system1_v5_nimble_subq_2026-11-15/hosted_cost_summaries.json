@@ -1,0 +1,40 @@
+{
+  "morph_reflex": {
+    "model_id": "morph_reflex",
+    "n": 1456,
+    "reported_count": 1456,
+    "tariff_estimate_count": 0,
+    "free_access_tariff_count": 0,
+    "unknown_count": 0,
+    "local_unmeasured_count": 0,
+    "reported_subtotal_usd": "0.032662362",
+    "estimate_only_subtotal_usd": null,
+    "known_subtotal_usd": "0.032662362",
+    "known_usd_per_1000": "0.02243294093406593406593406593"
+  },
+  "reax_1_3": {
+    "model_id": "reax_1_3",
+    "n": 1456,
+    "reported_count": 0,
+    "tariff_estimate_count": 0,
+    "free_access_tariff_count": 0,
+    "unknown_count": 0,
+    "local_unmeasured_count": 0,
+    "reported_subtotal_usd": null,
+    "estimate_only_subtotal_usd": "1.14224475456",
+    "known_subtotal_usd": "1.14224475456",
+    "known_usd_per_1000": "0.78450876000",
+    "fx_estimate_count": 1456,
+    "fx_estimate_subtotal_usd": "1.14224475456",
+    "native_reported_currency": "EUR",
+    "native_reported_count": 1456,
+    "native_reported_subtotal": "1.0204992",
+    "native_reported_subtotal_nanos": 1020499200,
+    "cost_basis": "fx_conversion_estimate",
+    "fx_rate_usd_per_eur": "1.1193",
+    "fx_date": "2026-11-09",
+    "fx_source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+    "fx_receipt_sha256": "250bc63fb5679abac870132c4490129b91e28dcea06f81b88029e596cc8e14f5",
+    "cost_qualification": "Native EUR is API-reported. All displayed comparison USD is an estimate converted using the ECB reference rate, not API-reported USD or the card/bank settlement rate. Main cost ledger USD amount columns stay empty; per-request converted amounts are in the native-currency sidecar."
+  }
+}

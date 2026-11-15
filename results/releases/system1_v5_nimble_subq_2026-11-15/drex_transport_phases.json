@@ -1,0 +1,66 @@
+{
+  "scope": "Recorded per-request latency excludes external pacing waits; total wall-clock throughput changed across phases.",
+  "initial_concurrency": 2,
+  "initial_results": 322,
+  "retained_no_answer_http429_records": [
+    "EXT-F28-001",
+    "AQUA-test-000210"
+  ],
+  "continuation": "Unattempted inputs only; sequential, rate-limited continuation after Retry-After. No failed primary was replayed.",
+  "public_free_rate_limit_rpm": 120,
+  "continuation_start_interval_seconds": 0.65,
+  "phases": [
+    {
+      "first_sequence": 1,
+      "last_sequence": 322,
+      "requests": 322,
+      "workers": 2,
+      "global_start_interval_seconds": null,
+      "first_started_utc": "2026-11-09T22:32:22.452826+00:00",
+      "last_completed_utc": "2026-11-09T22:35:24.572060+00:00",
+      "sum_recorded_dispatch_wait_ms": 0,
+      "mean_ms": 345.3952355859136,
+      "median_ms": 336.17770846467465,
+      "p95_ms": 463.62585416063666
+    },
+    {
+      "first_sequence": 323,
+      "last_sequence": 582,
+      "requests": 260,
+      "workers": 1,
+      "global_start_interval_seconds": 0.65,
+      "first_started_utc": "2026-11-09T22:39:56.166214+00:00",
+      "last_completed_utc": "2026-11-09T22:42:49.886977+00:00",
+      "sum_recorded_dispatch_wait_ms": 70697.46533967555,
+      "mean_ms": 376.61631798389584,
+      "median_ms": 352.40370844257995,
+      "p95_ms": 492.175948532531
+    },
+    {
+      "first_sequence": 583,
+      "last_sequence": 1456,
+      "requests": 874,
+      "workers": 1,
+      "global_start_interval_seconds": 0.65,
+      "first_started_utc": "2026-11-09T22:45:45.399142+00:00",
+      "last_completed_utc": "2026-11-09T22:55:20.231469+00:00",
+      "sum_recorded_dispatch_wait_ms": 234362.82872094307,
+      "mean_ms": 364.41855491456005,
+      "median_ms": 346.2844589375891,
+      "p95_ms": 493.6870896781327
+    }
+  ],
+  "pause_after_sequence": 582,
+  "pause_reason": "billing_check",
+  "resume_first_sequence": 583,
+  "collection_started_utc": "2026-11-09T22:32:22.452826+00:00",
+  "collection_completed_utc": "2026-11-09T22:55:20.231469+00:00",
+  "full_collection_wall_ms_including_pauses": 1377778.6430000002,
+  "wallclock_interpretation": "Includes external dispatch waits, rate-limit cooldown and billing_check/human pause; not model throughput. Per-request latency excludes these waits. No uniform-throughput claim.",
+  "amendment_proof_hashes": [
+    {
+      "receipt_filename": "billing_resolution_resume.json",
+      "sha256": "dc51d3709f2740d3d323b9ddb43bdeffcf0b631f8a164bb89938748220dafb4e"
+    }
+  ]
+}

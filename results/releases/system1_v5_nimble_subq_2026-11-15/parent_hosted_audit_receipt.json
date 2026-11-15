@@ -1,0 +1,72 @@
+{
+  "status": "pass",
+  "source_release": "system1_v5_provisional_2026-11-09",
+  "source_commit": "f5466f25a15f6a40ab51f9b5ce3375b065630a9f",
+  "source_manifest_sha256": "93594b700e5e8642dd4722df25932dfd2efb533749fbeb3a0614cd64140db022",
+  "base_models_retained": 32,
+  "models_added": [
+    "morph_reflex",
+    "reax_1_3"
+  ],
+  "partial_models_added": [],
+  "questions": 1456,
+  "categories": 43,
+  "measured_configurations": 34,
+  "main_configurations": 28,
+  "individual_timing_records": 49504,
+  "individual_cost_records": 49504,
+  "individual_correctness_records": 49504,
+  "prior_primary_rows_and_objects_unchanged": true,
+  "csv_append_proofs": {
+    "timing_evidence.csv.gz": {
+      "original_rows": 46592,
+      "original_uncompressed_sha256": "b806bb687b8c2149efe94eb8d60255a6276fc93b2f12ed8c8bba4d4136ee100e",
+      "appended_rows": 2912,
+      "old_csv_bytes_exact_prefix": true
+    },
+    "cost_evidence.csv.gz": {
+      "original_rows": 46592,
+      "original_uncompressed_sha256": "239ae202006c68817695a4869dcc0371359fd69c12a9a5c867e0b891fcd7cdab",
+      "appended_rows": 2912,
+      "old_csv_bytes_exact_prefix": true
+    },
+    "correctness_evidence.csv.gz": {
+      "original_rows": 46592,
+      "original_uncompressed_sha256": "0c4f9d198143548728866ed49fa8fdd3b4f8761986dd2463a0e9d59f9a176898",
+      "appended_rows": 2912,
+      "old_csv_bytes_exact_prefix": true
+    },
+    "all_category_scores.csv": {
+      "original_rows": 1376,
+      "original_uncompressed_sha256": "cec3aefd3c969e86d77b69a33cc77b640c586d590e5ca3d21b1f8cb8649a559e",
+      "appended_rows": 86,
+      "old_csv_bytes_exact_prefix": true
+    }
+  },
+  "unchanged_files_sha256": {
+    "questions_1456.jsonl": "d6d7e830447c95b35e0b37f2c2dc46e29a6233ec59fac3569615606ef62715f3",
+    "source_metadata_1456.jsonl": "0ad8cc4d43fca04b85cf5e25b2d60cff5798588a5b56a5d9b3e20a4b823e687a",
+    "category_guide.json": "1714995b59caf73e40a6e988c4ed36cca9920a619fd1f3daf779c2624e3d35bd",
+    "removed_items.csv": "33f9c4da90b57c796669d7088f4efb437ce7630174050a634c25633a822499d2",
+    "retained_items.csv": "f8f212b822c4ac3212dd6f24f475236ff5a384635780bd44fb147b9901079c2c",
+    "removed_correctness_evidence.csv.gz": "44edb124325ead4132f404950c570d11818fc2fe96af08adbbf6dc7a5ac259f9",
+    "selection_provenance.json": "beeae83a7133e47542098d78cfb50ffe43dc88ec912895aa80cf4ade38ca1788"
+  },
+  "audit_code_sha256": "fd663e21303896121335cdd5026e9fcfc01f17b2bdb190d8a2b56521ed79496f",
+  "build_code_sha256": "b6c2bae8b09557b1a63d57c3254c2c6fb31750c92ab6b8f60b2e540b32571cdd",
+  "native_fx_receipt_sha256": "250bc63fb5679abac870132c4490129b91e28dcea06f81b88029e596cc8e14f5",
+  "actual_native_costs_preserved": true,
+  "fx_estimates_not_reported_usd": true,
+  "new_selected_records": {
+    "morph_reflex": 1456,
+    "reax_1_3": 1456
+  },
+  "raw_source_record_digests": {
+    "morph_reflex": "230ed2c1191171156d638170c1ce9f45e33340e003b5dd515f0b6eab84d01c74",
+    "reax_1_3": "7d774d2815a19b85b24557eeddc23fa1d5123f9d435afdbb8b8f3a563262ba87"
+  },
+  "source_manifest_hashes": {
+    "morph_reflex": "997a1f3251034192ab53e90302edc7c360029788e497fa71f6beee76ab9ba1ad",
+    "reax_1_3": "6a2b190dd44355547bb3ad91332729c551d957f7d419ed381d1071198beb44f1"
+  }
+}

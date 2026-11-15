@@ -1,0 +1,4351 @@
+{
+  "user_authorized_replacements": {
+    "nimble_v41_max": "nimble_v4_max",
+    "subq_snap12": "subq_snap_1_1"
+  },
+  "old_records_status": "Superseded archival evidence, not below-cutoff",
+  "complete_configurations_after_append": 44,
+  "active_configurations": 34,
+  "below_cutoff": 6,
+  "superseded": 4,
+  "prior_main_ledger_prefix_records": 61152,
+  "new_records_per_main_ledger": 2912,
+  "resulting_records_per_main_ledger": 64064,
+  "ASUS_partial_records_separate": 300,
+  "bank_n": 1456,
+  "categories": 43,
+  "exact_threshold": ".45",
+  "minimum_correct": 656,
+  "current_active_model_ids": [
+    "reference_terra61",
+    "reax_1_3",
+    "reference_sol",
+    "d3_ultra",
+    "fastino_glide_v23_bf16",
+    "drex_max_v11",
+    "pplx_decider13_native_20261112",
+    "mammoth1",
+    "heygen_decision1_turbo_openrouter_20261112",
+    "turion_jev31b",
+    "liquid_ultra",
+    "heygen_decision1_openrouter_20261112",
+    "amos_large",
+    "reference_sonnet",
+    "kettei_fat",
+    "reference_opus5",
+    "respan02",
+    "morph_reflex",
+    "levanto_sage_2",
+    "gemini_decision1_openrouter_20261111",
+    "jev114",
+    "liquid11_decision",
+    "mercury_decide",
+    "celeris11_decision",
+    "elephant1",
+    "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+    "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+    "sarvam_prism",
+    "local_startlux_instant4b",
+    "liquid_d1",
+    "super_decider",
+    "pplx_decider_flash13_native_20261112",
+    "nimble_v41_max",
+    "subq_snap12"
+  ],
+  "interpretation": {
+    "nimble_v41_max": {
+      "model_id": "nimble_v41_max",
+      "active_replacement_for": "nimble_v4_max",
+      "active_cohort_n": 34,
+      "overall_accuracy_rank": 11,
+      "overall_tied_model_ids": [],
+      "overall_leader_correct": 1188,
+      "overall_leader_model_ids": [
+        "reference_terra61"
+      ],
+      "overall_gap_to_leader": 238,
+      "old_version_paired": {
+        "reference_model_id": "nimble_v4_max",
+        "reference_label": "Nimble v4 Max",
+        "active_reference": true,
+        "n": 1456,
+        "new_correct": 950,
+        "reference_correct": 943,
+        "correct_difference": 7,
+        "new_usable": 1456,
+        "reference_usable": 1455,
+        "both_correct": 845,
+        "new_only_correct": 105,
+        "reference_only_correct": 98,
+        "neither_correct": 408,
+        "common_usable_n": 1455,
+        "new_correct_common_usable": 949,
+        "reference_correct_common_usable": 943,
+        "new_correct_where_reference_unusable": 1,
+        "reference_median_ms": 240.06181198637933,
+        "reference_p95_ms": 351.22556224814616,
+        "reference_cost_summary": {
+          "model_id": "nimble_v4_max",
+          "n": 1456,
+          "reported_count": 0,
+          "tariff_estimate_count": 1235,
+          "free_access_tariff_count": 0,
+          "unknown_count": 221,
+          "local_unmeasured_count": 0,
+          "reported_subtotal_usd": null,
+          "estimate_only_subtotal_usd": "0.03856199",
+          "known_subtotal_usd": "0.03856199",
+          "known_usd_per_1000": "0.02648488324175824175824175824"
+        }
+      },
+      "matched_current_leader_comparisons": {
+        "reference_terra61": {
+          "reference_model_id": "reference_terra61",
+          "reference_label": "GPT-6.1 Terra \u00b7 no reasoning",
+          "active_reference": true,
+          "n": 1456,
+          "new_correct": 950,
+          "reference_correct": 1188,
+          "correct_difference": -238,
+          "new_usable": 1456,
+          "reference_usable": 1454,
+          "both_correct": 868,
+          "new_only_correct": 82,
+          "reference_only_correct": 320,
+          "neither_correct": 186,
+          "common_usable_n": 1454,
+          "new_correct_common_usable": 948,
+          "reference_correct_common_usable": 1188,
+          "new_correct_where_reference_unusable": 2,
+          "reference_median_ms": 1160.22183347377,
+          "reference_p95_ms": 1728.746916502132,
+          "reference_cost_summary": {
+            "model_id": "reference_terra61",
+            "n": 1456,
+            "reported_count": 1454,
+            "tariff_estimate_count": 0,
+            "free_access_tariff_count": 0,
+            "unknown_count": 2,
+            "local_unmeasured_count": 0,
+            "reported_subtotal_usd": "0.75732600",
+            "estimate_only_subtotal_usd": null,
+            "known_subtotal_usd": "0.75732600",
+            "known_usd_per_1000": "0.5201414835164835164835164835"
+          }
+        }
+      },
+      "example_selection": "Post-hoc descriptions of this fixed bank. Examples use categories with at least15 retained items; all43categories are supplied. No causal or general-ability claim.",
+      "strongest_accuracy_examples": [
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P02",
+          "category": "Recognizing multiple requested actions",
+          "n": 34,
+          "correct": 34,
+          "accuracy": 1.0,
+          "old_version_correct": 33,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "drex_max_v11"
+          ],
+          "leader_correct": 34,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "drex_max_v11",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 25.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F02",
+          "category": "Forward conditionals",
+          "n": 22,
+          "correct": 22,
+          "accuracy": 1.0,
+          "old_version_correct": 21,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "drex_max_v11",
+            "kettei_fat",
+            "jev114"
+          ],
+          "leader_correct": 22,
+          "leader_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "drex_max_v11",
+            "kettei_fat",
+            "jev114",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "kettei-fat",
+            "Jev 1.14",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 20.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P03",
+          "category": "Tracking current conversational intention",
+          "n": 33,
+          "correct": 32,
+          "accuracy": 0.9696969696969697,
+          "old_version_correct": 32,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 10,
+          "tied_current34_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "turion_jev31b",
+            "liquid_ultra",
+            "amos_large"
+          ],
+          "leader_correct": 33,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "kettei_fat",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "Mammoth-1 (latest named alias)",
+            "kettei-fat",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 25.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P06",
+          "category": "Making decisions with untrusted content",
+          "n": 35,
+          "correct": 33,
+          "accuracy": 0.9428571428571428,
+          "old_version_correct": 34,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 11,
+          "tied_current34_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "heygen_decision1_openrouter_20261112"
+          ],
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 30.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F14",
+          "category": "Temporal intervals",
+          "n": 25,
+          "correct": 23,
+          "accuracy": 0.92,
+          "old_version_correct": 24,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 5,
+          "tied_current34_model_ids": [
+            "reference_sol",
+            "mammoth1",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "heygen_decision1_openrouter_20261112",
+            "respan02",
+            "gemini_decision1_openrouter_20261111",
+            "jev114",
+            "subq_snap12"
+          ],
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 22.0
+        }
+      ],
+      "strongest_relative_rank_examples": [
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F12",
+          "category": "Object swaps",
+          "n": 43,
+          "correct": 29,
+          "accuracy": 0.6744186046511628,
+          "old_version_correct": 26,
+          "new_minus_old_correct": 3,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "mammoth1"
+          ],
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61",
+            "mammoth1",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Mammoth-1 (latest named alias)",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 21.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P02",
+          "category": "Recognizing multiple requested actions",
+          "n": 34,
+          "correct": 34,
+          "accuracy": 1.0,
+          "old_version_correct": 33,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "drex_max_v11"
+          ],
+          "leader_correct": 34,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "drex_max_v11",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 25.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F02",
+          "category": "Forward conditionals",
+          "n": 22,
+          "correct": 22,
+          "accuracy": 1.0,
+          "old_version_correct": 21,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "drex_max_v11",
+            "kettei_fat",
+            "jev114"
+          ],
+          "leader_correct": 22,
+          "leader_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "drex_max_v11",
+            "kettei_fat",
+            "jev114",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "kettei-fat",
+            "Jev 1.14",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 20.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F28",
+          "category": "Robust decisions without a prior",
+          "n": 39,
+          "correct": 17,
+          "accuracy": 0.4358974358974359,
+          "old_version_correct": 18,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 2,
+          "tied_current34_model_ids": [
+            "subq_snap12"
+          ],
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P10",
+          "category": "Applying ordinal severity rubrics",
+          "n": 31,
+          "correct": 22,
+          "accuracy": 0.7096774193548387,
+          "old_version_correct": 20,
+          "new_minus_old_correct": 2,
+          "current34_accuracy_rank": 3,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "subq_snap12"
+          ],
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 17.5
+        }
+      ],
+      "weakest_accuracy_examples": [
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F13",
+          "category": "Sequential procedures",
+          "n": 47,
+          "correct": 9,
+          "accuracy": 0.19148936170212766,
+          "old_version_correct": 18,
+          "new_minus_old_correct": -9,
+          "current34_accuracy_rank": 27,
+          "tied_current34_model_ids": [
+            "turion_jev31b",
+            "liquid11_decision",
+            "local_startlux_instant4b"
+          ],
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "respan02"
+          ],
+          "leader_labels": [
+            "Respan Span-02 (20261015)"
+          ],
+          "correct_gap_to_leader": 23,
+          "current34_median_correct": 14.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P08",
+          "category": "Extracting and normalizing facts",
+          "n": 36,
+          "correct": 15,
+          "accuracy": 0.4166666666666667,
+          "old_version_correct": 16,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "d3_ultra",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "amos_large"
+          ],
+          "leader_correct": 28,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 13,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F33",
+          "category": "Quantitative reasoning",
+          "n": 200,
+          "correct": 85,
+          "accuracy": 0.425,
+          "old_version_correct": 85,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 22,
+          "tied_current34_model_ids": [],
+          "leader_correct": 160,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 75,
+          "current34_median_correct": 93.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P04",
+          "category": "Selecting a tool or requesting clarification",
+          "n": 35,
+          "correct": 15,
+          "accuracy": 0.42857142857142855,
+          "old_version_correct": 16,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 17,
+          "tied_current34_model_ids": [
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "amos_large",
+            "reference_opus5",
+            "pplx_decider_flash13_native_20261112"
+          ],
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "elephant1"
+          ],
+          "leader_labels": [
+            "Elephant-1"
+          ],
+          "correct_gap_to_leader": 4,
+          "current34_median_correct": 15.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F28",
+          "category": "Robust decisions without a prior",
+          "n": 39,
+          "correct": 17,
+          "accuracy": 0.4358974358974359,
+          "old_version_correct": 18,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 2,
+          "tied_current34_model_ids": [
+            "subq_snap12"
+          ],
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 13.0
+        }
+      ],
+      "largest_gains_vs_old": [
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F07",
+          "category": "Scheduling",
+          "n": 54,
+          "correct": 36,
+          "accuracy": 0.6666666666666666,
+          "old_version_correct": 29,
+          "new_minus_old_correct": 7,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "respan02"
+          ],
+          "leader_correct": 41,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 30.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F11",
+          "category": "Sufficiency and inconsistency",
+          "n": 29,
+          "correct": 26,
+          "accuracy": 0.896551724137931,
+          "old_version_correct": 20,
+          "new_minus_old_correct": 6,
+          "current34_accuracy_rank": 5,
+          "tied_current34_model_ids": [
+            "fastino_glide_v23_bf16",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "super_decider"
+          ],
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 24.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F12",
+          "category": "Object swaps",
+          "n": 43,
+          "correct": 29,
+          "accuracy": 0.6744186046511628,
+          "old_version_correct": 26,
+          "new_minus_old_correct": 3,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "mammoth1"
+          ],
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61",
+            "mammoth1",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Mammoth-1 (latest named alias)",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 21.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P09",
+          "category": "Checking claims against supplied evidence",
+          "n": 32,
+          "correct": 21,
+          "accuracy": 0.65625,
+          "old_version_correct": 18,
+          "new_minus_old_correct": 3,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "morph_reflex"
+          ],
+          "leader_correct": 26,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 18.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F08",
+          "category": "One-to-one assignments",
+          "n": 44,
+          "correct": 39,
+          "accuracy": 0.8863636363636364,
+          "old_version_correct": 37,
+          "new_minus_old_correct": 2,
+          "current34_accuracy_rank": 15,
+          "tied_current34_model_ids": [
+            "amos_large",
+            "reference_sonnet"
+          ],
+          "leader_correct": 43,
+          "leader_model_ids": [
+            "reference_opus5"
+          ],
+          "leader_labels": [
+            "Opus 5 \u00b7 no thinking"
+          ],
+          "correct_gap_to_leader": 4,
+          "current34_median_correct": 38.5
+        }
+      ],
+      "largest_losses_vs_old": [
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F13",
+          "category": "Sequential procedures",
+          "n": 47,
+          "correct": 9,
+          "accuracy": 0.19148936170212766,
+          "old_version_correct": 18,
+          "new_minus_old_correct": -9,
+          "current34_accuracy_rank": 27,
+          "tied_current34_model_ids": [
+            "turion_jev31b",
+            "liquid11_decision",
+            "local_startlux_instant4b"
+          ],
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "respan02"
+          ],
+          "leader_labels": [
+            "Respan Span-02 (20261015)"
+          ],
+          "correct_gap_to_leader": 23,
+          "current34_median_correct": 14.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F27",
+          "category": "Value of information",
+          "n": 40,
+          "correct": 23,
+          "accuracy": 0.575,
+          "old_version_correct": 25,
+          "new_minus_old_correct": -2,
+          "current34_accuracy_rank": 16,
+          "tied_current34_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "reax_1_3"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble"
+          ],
+          "correct_gap_to_leader": 4,
+          "current34_median_correct": 22.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P07",
+          "category": "Applying a content policy in context",
+          "n": 27,
+          "correct": 19,
+          "accuracy": 0.7037037037037037,
+          "old_version_correct": 21,
+          "new_minus_old_correct": -2,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "morph_reflex",
+            "levanto_sage_2",
+            "mercury_decide"
+          ],
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "d3_ultra"
+          ],
+          "leader_labels": [
+            "D3 Ultra"
+          ],
+          "correct_gap_to_leader": 8,
+          "current34_median_correct": 17.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F10",
+          "category": "Truth-teller consistency",
+          "n": 69,
+          "correct": 47,
+          "accuracy": 0.6811594202898551,
+          "old_version_correct": 48,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 10,
+          "tied_current34_model_ids": [],
+          "leader_correct": 56,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 9,
+          "current34_median_correct": 39.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F28",
+          "category": "Robust decisions without a prior",
+          "n": 39,
+          "correct": 17,
+          "accuracy": 0.4358974358974359,
+          "old_version_correct": 18,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 2,
+          "tied_current34_model_ids": [
+            "subq_snap12"
+          ],
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 13.0
+        }
+      ],
+      "categories": [
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F01",
+          "category": "Lookup and filtering",
+          "n": 5,
+          "correct": 2,
+          "accuracy": 0.4,
+          "old_version_correct": 3,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 15,
+          "tied_current34_model_ids": [
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "amos_large",
+            "celeris11_decision",
+            "elephant1",
+            "liquid_d1"
+          ],
+          "leader_correct": 4,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "turion_jev31b",
+            "reference_sonnet"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "Turion Jev 31B",
+            "Sonnet 5.5 \u00b7 no thinking"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 2.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F02",
+          "category": "Forward conditionals",
+          "n": 22,
+          "correct": 22,
+          "accuracy": 1.0,
+          "old_version_correct": 21,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "drex_max_v11",
+            "kettei_fat",
+            "jev114"
+          ],
+          "leader_correct": 22,
+          "leader_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "drex_max_v11",
+            "kettei_fat",
+            "jev114",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "kettei-fat",
+            "Jev 1.14",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 20.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F03",
+          "category": "Necessary conditions",
+          "n": 32,
+          "correct": 29,
+          "accuracy": 0.90625,
+          "old_version_correct": 29,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "drex_max_v11",
+            "turion_jev31b",
+            "heygen_decision1_openrouter_20261112",
+            "amos_large",
+            "reference_opus5",
+            "subq_snap12"
+          ],
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "reference_sol"
+          ],
+          "leader_labels": [
+            "GPT-6 Sol \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 29.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F04",
+          "category": "Boolean scope",
+          "n": 18,
+          "correct": 14,
+          "accuracy": 0.7777777777777778,
+          "old_version_correct": 14,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "kettei_fat",
+            "respan02",
+            "sarvam_prism",
+            "liquid_d1"
+          ],
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "reference_sol",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "turion_jev31b",
+            "heygen_decision1_openrouter_20261112"
+          ],
+          "leader_labels": [
+            "GPT-6 Sol \u00b7 no reasoning",
+            "HeyGen Decision 1 Turbo \u00b7 preview",
+            "Turion Jev 31B",
+            "HeyGen Decision 1 \u00b7 Nov 12"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F05",
+          "category": "Quantifiers and sets",
+          "n": 9,
+          "correct": 5,
+          "accuracy": 0.5555555555555556,
+          "old_version_correct": 5,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "liquid_ultra",
+            "amos_large",
+            "reference_sonnet",
+            "reference_opus5",
+            "morph_reflex",
+            "levanto_sage_2",
+            "gemini_decision1_openrouter_20261111",
+            "celeris11_decision",
+            "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+            "super_decider",
+            "subq_snap12"
+          ],
+          "leader_correct": 9,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 4,
+          "current34_median_correct": 5.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F06",
+          "category": "Comparisons",
+          "n": 7,
+          "correct": 5,
+          "accuracy": 0.7142857142857143,
+          "old_version_correct": 5,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 10,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reference_sol",
+            "d3_ultra",
+            "drex_max_v11",
+            "heygen_decision1_openrouter_20261112",
+            "amos_large",
+            "respan02",
+            "levanto_sage_2",
+            "jev114",
+            "liquid11_decision",
+            "liquid_d1"
+          ],
+          "leader_correct": 7,
+          "leader_model_ids": [
+            "gemini_decision1_openrouter_20261111",
+            "elephant1",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "Gemini Decision 1 \u00b7 Nov 11",
+            "Elephant-1",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 5.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F07",
+          "category": "Scheduling",
+          "n": 54,
+          "correct": 36,
+          "accuracy": 0.6666666666666666,
+          "old_version_correct": 29,
+          "new_minus_old_correct": 7,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "respan02"
+          ],
+          "leader_correct": 41,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 30.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F08",
+          "category": "One-to-one assignments",
+          "n": 44,
+          "correct": 39,
+          "accuracy": 0.8863636363636364,
+          "old_version_correct": 37,
+          "new_minus_old_correct": 2,
+          "current34_accuracy_rank": 15,
+          "tied_current34_model_ids": [
+            "amos_large",
+            "reference_sonnet"
+          ],
+          "leader_correct": 43,
+          "leader_model_ids": [
+            "reference_opus5"
+          ],
+          "leader_labels": [
+            "Opus 5 \u00b7 no thinking"
+          ],
+          "correct_gap_to_leader": 4,
+          "current34_median_correct": 38.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F09",
+          "category": "Exact truth counting",
+          "n": 68,
+          "correct": 37,
+          "accuracy": 0.5441176470588235,
+          "old_version_correct": 36,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 15,
+          "tied_current34_model_ids": [],
+          "leader_correct": 50,
+          "leader_model_ids": [
+            "reference_terra61",
+            "turion_jev31b"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Turion Jev 31B"
+          ],
+          "correct_gap_to_leader": 13,
+          "current34_median_correct": 34.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F10",
+          "category": "Truth-teller consistency",
+          "n": 69,
+          "correct": 47,
+          "accuracy": 0.6811594202898551,
+          "old_version_correct": 48,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 10,
+          "tied_current34_model_ids": [],
+          "leader_correct": 56,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 9,
+          "current34_median_correct": 39.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F11",
+          "category": "Sufficiency and inconsistency",
+          "n": 29,
+          "correct": 26,
+          "accuracy": 0.896551724137931,
+          "old_version_correct": 20,
+          "new_minus_old_correct": 6,
+          "current34_accuracy_rank": 5,
+          "tied_current34_model_ids": [
+            "fastino_glide_v23_bf16",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "super_decider"
+          ],
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 24.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F12",
+          "category": "Object swaps",
+          "n": 43,
+          "correct": 29,
+          "accuracy": 0.6744186046511628,
+          "old_version_correct": 26,
+          "new_minus_old_correct": 3,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "mammoth1"
+          ],
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61",
+            "mammoth1",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Mammoth-1 (latest named alias)",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 21.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F13",
+          "category": "Sequential procedures",
+          "n": 47,
+          "correct": 9,
+          "accuracy": 0.19148936170212766,
+          "old_version_correct": 18,
+          "new_minus_old_correct": -9,
+          "current34_accuracy_rank": 27,
+          "tied_current34_model_ids": [
+            "turion_jev31b",
+            "liquid11_decision",
+            "local_startlux_instant4b"
+          ],
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "respan02"
+          ],
+          "leader_labels": [
+            "Respan Span-02 (20261015)"
+          ],
+          "correct_gap_to_leader": 23,
+          "current34_median_correct": 14.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F14",
+          "category": "Temporal intervals",
+          "n": 25,
+          "correct": 23,
+          "accuracy": 0.92,
+          "old_version_correct": 24,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 5,
+          "tied_current34_model_ids": [
+            "reference_sol",
+            "mammoth1",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "heygen_decision1_openrouter_20261112",
+            "respan02",
+            "gemini_decision1_openrouter_20261111",
+            "jev114",
+            "subq_snap12"
+          ],
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 22.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F15",
+          "category": "Spatial tracking",
+          "n": 35,
+          "correct": 22,
+          "accuracy": 0.6285714285714286,
+          "old_version_correct": 22,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 19,
+          "tied_current34_model_ids": [
+            "amos_large"
+          ],
+          "leader_correct": 31,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reference_opus5"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Opus 5 \u00b7 no thinking"
+          ],
+          "correct_gap_to_leader": 9,
+          "current34_median_correct": 23.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F16",
+          "category": "Reference binding",
+          "n": 35,
+          "correct": 22,
+          "accuracy": 0.6285714285714286,
+          "old_version_correct": 23,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "mammoth1",
+            "kettei_fat",
+            "singvl_s1_4b_q4km_llamacpp_ctx4096_lan"
+          ],
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "respan02"
+          ],
+          "leader_labels": [
+            "Respan Span-02 (20261015)"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 21.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F17",
+          "category": "Beliefs and perspectives",
+          "n": 19,
+          "correct": 16,
+          "accuracy": 0.8421052631578947,
+          "old_version_correct": 15,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 3,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "mammoth1",
+            "turion_jev31b",
+            "heygen_decision1_openrouter_20261112",
+            "subq_snap12"
+          ],
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "sarvam_prism"
+          ],
+          "leader_labels": [
+            "HeyGen Decision 1 Turbo \u00b7 preview",
+            "Sarvam Prism"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 14.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F18",
+          "category": "Causal intervention",
+          "n": 37,
+          "correct": 31,
+          "accuracy": 0.8378378378378378,
+          "old_version_correct": 32,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 10,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "mammoth1",
+            "sarvam_prism"
+          ],
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 4,
+          "current34_median_correct": 26.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F19",
+          "category": "Exceptions and priorities",
+          "n": 24,
+          "correct": 22,
+          "accuracy": 0.9166666666666666,
+          "old_version_correct": 23,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "drex_max_v11",
+            "kettei_fat"
+          ],
+          "leader_correct": 24,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 20.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F20",
+          "category": "Planning",
+          "n": 16,
+          "correct": 13,
+          "accuracy": 0.8125,
+          "old_version_correct": 13,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 3,
+          "tied_current34_model_ids": [
+            "pplx_decider13_native_20261112",
+            "turion_jev31b",
+            "morph_reflex",
+            "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+            "local_startlux_instant4b",
+            "pplx_decider_flash13_native_20261112"
+          ],
+          "leader_correct": 14,
+          "leader_model_ids": [
+            "reference_terra61",
+            "sarvam_prism"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Sarvam Prism"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 12.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F21",
+          "category": "Directed reachability",
+          "n": 5,
+          "correct": 3,
+          "accuracy": 0.6,
+          "old_version_correct": 2,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [
+            "reference_sol",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "mammoth1",
+            "amos_large",
+            "celeris11_decision",
+            "elephant1",
+            "local_startlux_instant4b",
+            "super_decider",
+            "subq_snap12"
+          ],
+          "leader_correct": 4,
+          "leader_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "pplx_decider13_native_20261112",
+            "kettei_fat",
+            "levanto_sage_2",
+            "jev114"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "kettei-fat",
+            "Levanto Sage 2",
+            "Jev 1.14"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 2.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F22",
+          "category": "Preference ordering",
+          "n": 9,
+          "correct": 7,
+          "accuracy": 0.7777777777777778,
+          "old_version_correct": 7,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "drex_max_v11",
+            "reference_sonnet",
+            "respan02"
+          ],
+          "leader_correct": 7,
+          "leader_model_ids": [
+            "reference_terra61",
+            "drex_max_v11",
+            "reference_sonnet",
+            "respan02",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Sonnet 5.5 \u00b7 no thinking",
+            "Respan Span-02 (20261015)",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 5.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F23",
+          "category": "Rule counterexamples",
+          "n": 14,
+          "correct": 14,
+          "accuracy": 1.0,
+          "old_version_correct": 14,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "heygen_decision1_openrouter_20261112",
+            "reference_sonnet",
+            "reference_opus5",
+            "gemini_decision1_openrouter_20261111"
+          ],
+          "leader_correct": 14,
+          "leader_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "heygen_decision1_openrouter_20261112",
+            "reference_sonnet",
+            "reference_opus5",
+            "gemini_decision1_openrouter_20261111",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "Mammoth-1 (latest named alias)",
+            "HeyGen Decision 1 \u00b7 Nov 12",
+            "Sonnet 5.5 \u00b7 no thinking",
+            "Opus 5 \u00b7 no thinking",
+            "Gemini Decision 1 \u00b7 Nov 11",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F24",
+          "category": "Authority and stale records",
+          "n": 8,
+          "correct": 7,
+          "accuracy": 0.875,
+          "old_version_correct": 7,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 3,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "turion_jev31b",
+            "liquid_ultra",
+            "local_startlux_instant4b",
+            "subq_snap12"
+          ],
+          "leader_correct": 8,
+          "leader_model_ids": [
+            "reference_terra61",
+            "kettei_fat"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "kettei-fat"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 5.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F25",
+          "category": "Fault diagnosis",
+          "n": 11,
+          "correct": 7,
+          "accuracy": 0.6363636363636364,
+          "old_version_correct": 8,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 10,
+          "tied_current34_model_ids": [
+            "reference_sonnet",
+            "kettei_fat",
+            "respan02",
+            "morph_reflex",
+            "mercury_decide",
+            "celeris11_decision",
+            "liquid_d1",
+            "super_decider"
+          ],
+          "leader_correct": 10,
+          "leader_model_ids": [
+            "reference_sol",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6 Sol \u00b7 no reasoning",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 7.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F26",
+          "category": "Probabilistic risk",
+          "n": 30,
+          "correct": 17,
+          "accuracy": 0.5666666666666667,
+          "old_version_correct": 15,
+          "new_minus_old_correct": 2,
+          "current34_accuracy_rank": 13,
+          "tied_current34_model_ids": [],
+          "leader_correct": 22,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 16.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F27",
+          "category": "Value of information",
+          "n": 40,
+          "correct": 23,
+          "accuracy": 0.575,
+          "old_version_correct": 25,
+          "new_minus_old_correct": -2,
+          "current34_accuracy_rank": 16,
+          "tied_current34_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "reax_1_3"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble"
+          ],
+          "correct_gap_to_leader": 4,
+          "current34_median_correct": 22.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F28",
+          "category": "Robust decisions without a prior",
+          "n": 39,
+          "correct": 17,
+          "accuracy": 0.4358974358974359,
+          "old_version_correct": 18,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 2,
+          "tied_current34_model_ids": [
+            "subq_snap12"
+          ],
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F29",
+          "category": "Strategic decisions",
+          "n": 39,
+          "correct": 27,
+          "accuracy": 0.6923076923076923,
+          "old_version_correct": 27,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [],
+          "leader_correct": 39,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 12,
+          "current34_median_correct": 24.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F30",
+          "category": "Concurrent-history consistency",
+          "n": 38,
+          "correct": 21,
+          "accuracy": 0.5526315789473685,
+          "old_version_correct": 21,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 11,
+          "tied_current34_model_ids": [
+            "d3_ultra",
+            "turion_jev31b",
+            "amos_large",
+            "jev114",
+            "mercury_decide"
+          ],
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 11,
+          "current34_median_correct": 20.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F31",
+          "category": "Information-flow security",
+          "n": 36,
+          "correct": 25,
+          "accuracy": 0.6944444444444444,
+          "old_version_correct": 26,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 14,
+          "tied_current34_model_ids": [
+            "levanto_sage_2",
+            "subq_snap12"
+          ],
+          "leader_correct": 34,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 9,
+          "current34_median_correct": 24.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F32",
+          "category": "Numerical pattern recognition",
+          "n": 20,
+          "correct": 12,
+          "accuracy": 0.6,
+          "old_version_correct": 11,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 24,
+          "tied_current34_model_ids": [
+            "reference_sonnet"
+          ],
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reference_opus5"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Opus 5 \u00b7 no thinking"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "F33",
+          "category": "Quantitative reasoning",
+          "n": 200,
+          "correct": 85,
+          "accuracy": 0.425,
+          "old_version_correct": 85,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 22,
+          "tied_current34_model_ids": [],
+          "leader_correct": 160,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 75,
+          "current34_median_correct": 93.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P01",
+          "category": "Understanding requests and routing",
+          "n": 31,
+          "correct": 27,
+          "accuracy": 0.8709677419354839,
+          "old_version_correct": 26,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "reference_sol",
+            "pplx_decider13_native_20261112",
+            "subq_snap12"
+          ],
+          "leader_correct": 30,
+          "leader_model_ids": [
+            "reference_terra61",
+            "kettei_fat"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "kettei-fat"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 23.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P02",
+          "category": "Recognizing multiple requested actions",
+          "n": 34,
+          "correct": 34,
+          "accuracy": 1.0,
+          "old_version_correct": 33,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "drex_max_v11"
+          ],
+          "leader_correct": 34,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "drex_max_v11",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 25.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P03",
+          "category": "Tracking current conversational intention",
+          "n": 33,
+          "correct": 32,
+          "accuracy": 0.9696969696969697,
+          "old_version_correct": 32,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 10,
+          "tied_current34_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "turion_jev31b",
+            "liquid_ultra",
+            "amos_large"
+          ],
+          "leader_correct": 33,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "kettei_fat",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "Mammoth-1 (latest named alias)",
+            "kettei-fat",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 25.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P04",
+          "category": "Selecting a tool or requesting clarification",
+          "n": 35,
+          "correct": 15,
+          "accuracy": 0.42857142857142855,
+          "old_version_correct": 16,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 17,
+          "tied_current34_model_ids": [
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "amos_large",
+            "reference_opus5",
+            "pplx_decider_flash13_native_20261112"
+          ],
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "elephant1"
+          ],
+          "leader_labels": [
+            "Elephant-1"
+          ],
+          "correct_gap_to_leader": 4,
+          "current34_median_correct": 15.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P05",
+          "category": "Checking authorization and scope",
+          "n": 35,
+          "correct": 18,
+          "accuracy": 0.5142857142857142,
+          "old_version_correct": 18,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "liquid_ultra",
+            "amos_large",
+            "reference_sonnet",
+            "levanto_sage_2",
+            "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+            "subq_snap12"
+          ],
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 17,
+          "current34_median_correct": 18.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P06",
+          "category": "Making decisions with untrusted content",
+          "n": 35,
+          "correct": 33,
+          "accuracy": 0.9428571428571428,
+          "old_version_correct": 34,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 11,
+          "tied_current34_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "heygen_decision1_openrouter_20261112"
+          ],
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 30.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P07",
+          "category": "Applying a content policy in context",
+          "n": 27,
+          "correct": 19,
+          "accuracy": 0.7037037037037037,
+          "old_version_correct": 21,
+          "new_minus_old_correct": -2,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "morph_reflex",
+            "levanto_sage_2",
+            "mercury_decide"
+          ],
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "d3_ultra"
+          ],
+          "leader_labels": [
+            "D3 Ultra"
+          ],
+          "correct_gap_to_leader": 8,
+          "current34_median_correct": 17.5
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P08",
+          "category": "Extracting and normalizing facts",
+          "n": 36,
+          "correct": 15,
+          "accuracy": 0.4166666666666667,
+          "old_version_correct": 16,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "d3_ultra",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "amos_large"
+          ],
+          "leader_correct": 28,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 13,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P09",
+          "category": "Checking claims against supplied evidence",
+          "n": 32,
+          "correct": 21,
+          "accuracy": 0.65625,
+          "old_version_correct": 18,
+          "new_minus_old_correct": 3,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "morph_reflex"
+          ],
+          "leader_correct": 26,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 18.0
+        },
+        {
+          "model_id": "nimble_v41_max",
+          "label": "Nimble v4.1 Max",
+          "family_id": "P10",
+          "category": "Applying ordinal severity rubrics",
+          "n": 31,
+          "correct": 22,
+          "accuracy": 0.7096774193548387,
+          "old_version_correct": 20,
+          "new_minus_old_correct": 2,
+          "current34_accuracy_rank": 3,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "subq_snap12"
+          ],
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 17.5
+        }
+      ],
+      "limits": [
+        "This fixed-input bank does not test SubQ option-order invariance or 384K-token long-context performance.",
+        "AQuA model-error selection and the frozen701-removal cohort affect interpretation; this is not a fresh independent bank.",
+        "MAIQ original human-test item rights remain unresolved; existing per-item notices apply.",
+        "API timing spans different collection dates and serving conditions; latency differences do not establish their cause.",
+        "Known old cost subtotals and missing records remain separate; no old tariff or cost extrapolation is used."
+      ]
+    },
+    "subq_snap12": {
+      "model_id": "subq_snap12",
+      "active_replacement_for": "subq_snap_1_1",
+      "active_cohort_n": 34,
+      "overall_accuracy_rank": 14,
+      "overall_tied_model_ids": [],
+      "overall_leader_correct": 1188,
+      "overall_leader_model_ids": [
+        "reference_terra61"
+      ],
+      "overall_gap_to_leader": 261,
+      "old_version_paired": {
+        "reference_model_id": "subq_snap_1_1",
+        "reference_label": "SubQ Snap 1.1",
+        "active_reference": true,
+        "n": 1456,
+        "new_correct": 927,
+        "reference_correct": 943,
+        "correct_difference": -16,
+        "new_usable": 1456,
+        "reference_usable": 1456,
+        "both_correct": 817,
+        "new_only_correct": 110,
+        "reference_only_correct": 126,
+        "neither_correct": 403,
+        "common_usable_n": 1456,
+        "new_correct_common_usable": 927,
+        "reference_correct_common_usable": 943,
+        "new_correct_where_reference_unusable": 0,
+        "reference_median_ms": 177.24443692713976,
+        "reference_p95_ms": 205.53844823734835,
+        "reference_cost_summary": {
+          "model_id": "subq_snap_1_1",
+          "n": 1456,
+          "reported_count": 0,
+          "tariff_estimate_count": 1456,
+          "free_access_tariff_count": 0,
+          "unknown_count": 0,
+          "local_unmeasured_count": 0,
+          "reported_subtotal_usd": null,
+          "estimate_only_subtotal_usd": "0.03144932",
+          "known_subtotal_usd": "0.03144932",
+          "known_usd_per_1000": "0.02159980769230769230769230769"
+        }
+      },
+      "matched_current_leader_comparisons": {
+        "reference_terra61": {
+          "reference_model_id": "reference_terra61",
+          "reference_label": "GPT-6.1 Terra \u00b7 no reasoning",
+          "active_reference": true,
+          "n": 1456,
+          "new_correct": 927,
+          "reference_correct": 1188,
+          "correct_difference": -261,
+          "new_usable": 1456,
+          "reference_usable": 1454,
+          "both_correct": 850,
+          "new_only_correct": 77,
+          "reference_only_correct": 338,
+          "neither_correct": 191,
+          "common_usable_n": 1454,
+          "new_correct_common_usable": 926,
+          "reference_correct_common_usable": 1188,
+          "new_correct_where_reference_unusable": 1,
+          "reference_median_ms": 1160.22183347377,
+          "reference_p95_ms": 1728.746916502132,
+          "reference_cost_summary": {
+            "model_id": "reference_terra61",
+            "n": 1456,
+            "reported_count": 1454,
+            "tariff_estimate_count": 0,
+            "free_access_tariff_count": 0,
+            "unknown_count": 2,
+            "local_unmeasured_count": 0,
+            "reported_subtotal_usd": "0.75732600",
+            "estimate_only_subtotal_usd": null,
+            "known_subtotal_usd": "0.75732600",
+            "known_usd_per_1000": "0.5201414835164835164835164835"
+          }
+        }
+      },
+      "example_selection": "Post-hoc descriptions of this fixed bank. Examples use categories with at least15 retained items; all43categories are supplied. No causal or general-ability claim.",
+      "strongest_accuracy_examples": [
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P06",
+          "category": "Making decisions with untrusted content",
+          "n": 35,
+          "correct": 35,
+          "accuracy": 1.0,
+          "old_version_correct": 35,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112"
+          ],
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 30.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P03",
+          "category": "Tracking current conversational intention",
+          "n": 33,
+          "correct": 33,
+          "accuracy": 1.0,
+          "old_version_correct": 32,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "kettei_fat"
+          ],
+          "leader_correct": 33,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "kettei_fat",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "Mammoth-1 (latest named alias)",
+            "kettei-fat",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 25.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F02",
+          "category": "Forward conditionals",
+          "n": 22,
+          "correct": 21,
+          "accuracy": 0.9545454545454546,
+          "old_version_correct": 20,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reference_sol",
+            "fastino_glide_v23_bf16",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "reference_sonnet",
+            "liquid11_decision"
+          ],
+          "leader_correct": 22,
+          "leader_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "drex_max_v11",
+            "kettei_fat",
+            "jev114",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "kettei-fat",
+            "Jev 1.14",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 20.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P02",
+          "category": "Recognizing multiple requested actions",
+          "n": 34,
+          "correct": 32,
+          "accuracy": 0.9411764705882353,
+          "old_version_correct": 33,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [
+            "fastino_glide_v23_bf16",
+            "pplx_decider13_native_20261112",
+            "amos_large",
+            "reference_sonnet"
+          ],
+          "leader_correct": 34,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "drex_max_v11",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 25.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F14",
+          "category": "Temporal intervals",
+          "n": 25,
+          "correct": 23,
+          "accuracy": 0.92,
+          "old_version_correct": 22,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 5,
+          "tied_current34_model_ids": [
+            "reference_sol",
+            "mammoth1",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "heygen_decision1_openrouter_20261112",
+            "respan02",
+            "gemini_decision1_openrouter_20261111",
+            "jev114",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 22.0
+        }
+      ],
+      "strongest_relative_rank_examples": [
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P06",
+          "category": "Making decisions with untrusted content",
+          "n": 35,
+          "correct": 35,
+          "accuracy": 1.0,
+          "old_version_correct": 35,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112"
+          ],
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 30.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P03",
+          "category": "Tracking current conversational intention",
+          "n": 33,
+          "correct": 33,
+          "accuracy": 1.0,
+          "old_version_correct": 32,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "kettei_fat"
+          ],
+          "leader_correct": 33,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "kettei_fat",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "Mammoth-1 (latest named alias)",
+            "kettei-fat",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 25.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F28",
+          "category": "Robust decisions without a prior",
+          "n": 39,
+          "correct": 17,
+          "accuracy": 0.4358974358974359,
+          "old_version_correct": 19,
+          "new_minus_old_correct": -2,
+          "current34_accuracy_rank": 2,
+          "tied_current34_model_ids": [
+            "nimble_v41_max"
+          ],
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F10",
+          "category": "Truth-teller consistency",
+          "n": 69,
+          "correct": 53,
+          "accuracy": 0.7681159420289855,
+          "old_version_correct": 53,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 3,
+          "tied_current34_model_ids": [
+            "pplx_decider13_native_20261112"
+          ],
+          "leader_correct": 56,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 39.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P10",
+          "category": "Applying ordinal severity rubrics",
+          "n": 31,
+          "correct": 22,
+          "accuracy": 0.7096774193548387,
+          "old_version_correct": 22,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 3,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 17.5
+        }
+      ],
+      "weakest_accuracy_examples": [
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F13",
+          "category": "Sequential procedures",
+          "n": 47,
+          "correct": 12,
+          "accuracy": 0.2553191489361702,
+          "old_version_correct": 14,
+          "new_minus_old_correct": -2,
+          "current34_accuracy_rank": 20,
+          "tied_current34_model_ids": [
+            "morph_reflex"
+          ],
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "respan02"
+          ],
+          "leader_labels": [
+            "Respan Span-02 (20261015)"
+          ],
+          "correct_gap_to_leader": 20,
+          "current34_median_correct": 14.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P08",
+          "category": "Extracting and normalizing facts",
+          "n": 36,
+          "correct": 13,
+          "accuracy": 0.3611111111111111,
+          "old_version_correct": 18,
+          "new_minus_old_correct": -5,
+          "current34_accuracy_rank": 17,
+          "tied_current34_model_ids": [
+            "heygen_decision1_openrouter_20261112",
+            "reference_sonnet",
+            "liquid11_decision"
+          ],
+          "leader_correct": 28,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 15,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P04",
+          "category": "Selecting a tool or requesting clarification",
+          "n": 35,
+          "correct": 14,
+          "accuracy": 0.4,
+          "old_version_correct": 15,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 23,
+          "tied_current34_model_ids": [
+            "fastino_glide_v23_bf16",
+            "heygen_decision1_openrouter_20261112",
+            "reference_sonnet",
+            "respan02",
+            "morph_reflex"
+          ],
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "elephant1"
+          ],
+          "leader_labels": [
+            "Elephant-1"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 15.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F33",
+          "category": "Quantitative reasoning",
+          "n": 200,
+          "correct": 81,
+          "accuracy": 0.405,
+          "old_version_correct": 88,
+          "new_minus_old_correct": -7,
+          "current34_accuracy_rank": 25,
+          "tied_current34_model_ids": [],
+          "leader_correct": 160,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 79,
+          "current34_median_correct": 93.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F28",
+          "category": "Robust decisions without a prior",
+          "n": 39,
+          "correct": 17,
+          "accuracy": 0.4358974358974359,
+          "old_version_correct": 19,
+          "new_minus_old_correct": -2,
+          "current34_accuracy_rank": 2,
+          "tied_current34_model_ids": [
+            "nimble_v41_max"
+          ],
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 13.0
+        }
+      ],
+      "largest_gains_vs_old": [
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F15",
+          "category": "Spatial tracking",
+          "n": 35,
+          "correct": 26,
+          "accuracy": 0.7428571428571429,
+          "old_version_correct": 20,
+          "new_minus_old_correct": 6,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [],
+          "leader_correct": 31,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reference_opus5"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Opus 5 \u00b7 no thinking"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 23.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P07",
+          "category": "Applying a content policy in context",
+          "n": 27,
+          "correct": 20,
+          "accuracy": 0.7407407407407407,
+          "old_version_correct": 15,
+          "new_minus_old_correct": 5,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [
+            "liquid_ultra"
+          ],
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "d3_ultra"
+          ],
+          "leader_labels": [
+            "D3 Ultra"
+          ],
+          "correct_gap_to_leader": 7,
+          "current34_median_correct": 17.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F29",
+          "category": "Strategic decisions",
+          "n": 39,
+          "correct": 25,
+          "accuracy": 0.6410256410256411,
+          "old_version_correct": 22,
+          "new_minus_old_correct": 3,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "heygen_decision1_openrouter_20261112",
+            "morph_reflex",
+            "jev114",
+            "mercury_decide",
+            "pplx_decider_flash13_native_20261112"
+          ],
+          "leader_correct": 39,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 14,
+          "current34_median_correct": 24.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F18",
+          "category": "Causal intervention",
+          "n": 37,
+          "correct": 33,
+          "accuracy": 0.8918918918918919,
+          "old_version_correct": 30,
+          "new_minus_old_correct": 3,
+          "current34_accuracy_rank": 4,
+          "tied_current34_model_ids": [
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "turion_jev31b"
+          ],
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 26.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F12",
+          "category": "Object swaps",
+          "n": 43,
+          "correct": 22,
+          "accuracy": 0.5116279069767442,
+          "old_version_correct": 21,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "fastino_glide_v23_bf16",
+            "pplx_decider13_native_20261112",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "morph_reflex"
+          ],
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61",
+            "mammoth1",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Mammoth-1 (latest named alias)",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 7,
+          "current34_median_correct": 21.0
+        }
+      ],
+      "largest_losses_vs_old": [
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F33",
+          "category": "Quantitative reasoning",
+          "n": 200,
+          "correct": 81,
+          "accuracy": 0.405,
+          "old_version_correct": 88,
+          "new_minus_old_correct": -7,
+          "current34_accuracy_rank": 25,
+          "tied_current34_model_ids": [],
+          "leader_correct": 160,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 79,
+          "current34_median_correct": 93.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P08",
+          "category": "Extracting and normalizing facts",
+          "n": 36,
+          "correct": 13,
+          "accuracy": 0.3611111111111111,
+          "old_version_correct": 18,
+          "new_minus_old_correct": -5,
+          "current34_accuracy_rank": 17,
+          "tied_current34_model_ids": [
+            "heygen_decision1_openrouter_20261112",
+            "reference_sonnet",
+            "liquid11_decision"
+          ],
+          "leader_correct": 28,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 15,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F09",
+          "category": "Exact truth counting",
+          "n": 68,
+          "correct": 39,
+          "accuracy": 0.5735294117647058,
+          "old_version_correct": 43,
+          "new_minus_old_correct": -4,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "liquid_ultra"
+          ],
+          "leader_correct": 50,
+          "leader_model_ids": [
+            "reference_terra61",
+            "turion_jev31b"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Turion Jev 31B"
+          ],
+          "correct_gap_to_leader": 11,
+          "current34_median_correct": 34.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P09",
+          "category": "Checking claims against supplied evidence",
+          "n": 32,
+          "correct": 17,
+          "accuracy": 0.53125,
+          "old_version_correct": 21,
+          "new_minus_old_correct": -4,
+          "current34_accuracy_rank": 20,
+          "tied_current34_model_ids": [
+            "sarvam_prism"
+          ],
+          "leader_correct": 26,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 9,
+          "current34_median_correct": 18.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P05",
+          "category": "Checking authorization and scope",
+          "n": 35,
+          "correct": 18,
+          "accuracy": 0.5142857142857142,
+          "old_version_correct": 21,
+          "new_minus_old_correct": -3,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "liquid_ultra",
+            "amos_large",
+            "reference_sonnet",
+            "levanto_sage_2",
+            "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 17,
+          "current34_median_correct": 18.0
+        }
+      ],
+      "categories": [
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F01",
+          "category": "Lookup and filtering",
+          "n": 5,
+          "correct": 1,
+          "accuracy": 0.2,
+          "old_version_correct": 2,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 23,
+          "tied_current34_model_ids": [
+            "heygen_decision1_openrouter_20261112",
+            "respan02",
+            "jev114",
+            "liquid11_decision",
+            "local_startlux_instant4b"
+          ],
+          "leader_correct": 4,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "turion_jev31b",
+            "reference_sonnet"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "Turion Jev 31B",
+            "Sonnet 5.5 \u00b7 no thinking"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 2.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F02",
+          "category": "Forward conditionals",
+          "n": 22,
+          "correct": 21,
+          "accuracy": 0.9545454545454546,
+          "old_version_correct": 20,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reference_sol",
+            "fastino_glide_v23_bf16",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "reference_sonnet",
+            "liquid11_decision"
+          ],
+          "leader_correct": 22,
+          "leader_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "drex_max_v11",
+            "kettei_fat",
+            "jev114",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "kettei-fat",
+            "Jev 1.14",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 20.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F03",
+          "category": "Necessary conditions",
+          "n": 32,
+          "correct": 29,
+          "accuracy": 0.90625,
+          "old_version_correct": 30,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "drex_max_v11",
+            "turion_jev31b",
+            "heygen_decision1_openrouter_20261112",
+            "amos_large",
+            "reference_opus5",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "reference_sol"
+          ],
+          "leader_labels": [
+            "GPT-6 Sol \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 29.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F04",
+          "category": "Boolean scope",
+          "n": 18,
+          "correct": 13,
+          "accuracy": 0.7222222222222222,
+          "old_version_correct": 14,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 17,
+          "tied_current34_model_ids": [
+            "d3_ultra",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "reference_sonnet",
+            "morph_reflex",
+            "levanto_sage_2",
+            "gemini_decision1_openrouter_20261111",
+            "jev114",
+            "mercury_decide",
+            "super_decider"
+          ],
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "reference_sol",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "turion_jev31b",
+            "heygen_decision1_openrouter_20261112"
+          ],
+          "leader_labels": [
+            "GPT-6 Sol \u00b7 no reasoning",
+            "HeyGen Decision 1 Turbo \u00b7 preview",
+            "Turion Jev 31B",
+            "HeyGen Decision 1 \u00b7 Nov 12"
+          ],
+          "correct_gap_to_leader": 4,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F05",
+          "category": "Quantifiers and sets",
+          "n": 9,
+          "correct": 5,
+          "accuracy": 0.5555555555555556,
+          "old_version_correct": 4,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "liquid_ultra",
+            "amos_large",
+            "reference_sonnet",
+            "reference_opus5",
+            "morph_reflex",
+            "levanto_sage_2",
+            "gemini_decision1_openrouter_20261111",
+            "celeris11_decision",
+            "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+            "super_decider",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 9,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 4,
+          "current34_median_correct": 5.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F06",
+          "category": "Comparisons",
+          "n": 7,
+          "correct": 7,
+          "accuracy": 1.0,
+          "old_version_correct": 5,
+          "new_minus_old_correct": 2,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "gemini_decision1_openrouter_20261111",
+            "elephant1"
+          ],
+          "leader_correct": 7,
+          "leader_model_ids": [
+            "gemini_decision1_openrouter_20261111",
+            "elephant1",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "Gemini Decision 1 \u00b7 Nov 11",
+            "Elephant-1",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 5.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F07",
+          "category": "Scheduling",
+          "n": 54,
+          "correct": 29,
+          "accuracy": 0.5370370370370371,
+          "old_version_correct": 30,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 20,
+          "tied_current34_model_ids": [
+            "gemini_decision1_openrouter_20261111"
+          ],
+          "leader_correct": 41,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 12,
+          "current34_median_correct": 30.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F08",
+          "category": "One-to-one assignments",
+          "n": 44,
+          "correct": 40,
+          "accuracy": 0.9090909090909091,
+          "old_version_correct": 40,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "drex_max_v11",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "heygen_decision1_openrouter_20261112",
+            "respan02",
+            "gemini_decision1_openrouter_20261111"
+          ],
+          "leader_correct": 43,
+          "leader_model_ids": [
+            "reference_opus5"
+          ],
+          "leader_labels": [
+            "Opus 5 \u00b7 no thinking"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 38.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F09",
+          "category": "Exact truth counting",
+          "n": 68,
+          "correct": 39,
+          "accuracy": 0.5735294117647058,
+          "old_version_correct": 43,
+          "new_minus_old_correct": -4,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "liquid_ultra"
+          ],
+          "leader_correct": 50,
+          "leader_model_ids": [
+            "reference_terra61",
+            "turion_jev31b"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Turion Jev 31B"
+          ],
+          "correct_gap_to_leader": 11,
+          "current34_median_correct": 34.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F10",
+          "category": "Truth-teller consistency",
+          "n": 69,
+          "correct": 53,
+          "accuracy": 0.7681159420289855,
+          "old_version_correct": 53,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 3,
+          "tied_current34_model_ids": [
+            "pplx_decider13_native_20261112"
+          ],
+          "leader_correct": 56,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 39.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F11",
+          "category": "Sufficiency and inconsistency",
+          "n": 29,
+          "correct": 20,
+          "accuracy": 0.6896551724137931,
+          "old_version_correct": 20,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 25,
+          "tied_current34_model_ids": [
+            "jev114",
+            "liquid_d1"
+          ],
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 9,
+          "current34_median_correct": 24.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F12",
+          "category": "Object swaps",
+          "n": 43,
+          "correct": 22,
+          "accuracy": 0.5116279069767442,
+          "old_version_correct": 21,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "fastino_glide_v23_bf16",
+            "pplx_decider13_native_20261112",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "morph_reflex"
+          ],
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61",
+            "mammoth1",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Mammoth-1 (latest named alias)",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 7,
+          "current34_median_correct": 21.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F13",
+          "category": "Sequential procedures",
+          "n": 47,
+          "correct": 12,
+          "accuracy": 0.2553191489361702,
+          "old_version_correct": 14,
+          "new_minus_old_correct": -2,
+          "current34_accuracy_rank": 20,
+          "tied_current34_model_ids": [
+            "morph_reflex"
+          ],
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "respan02"
+          ],
+          "leader_labels": [
+            "Respan Span-02 (20261015)"
+          ],
+          "correct_gap_to_leader": 20,
+          "current34_median_correct": 14.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F14",
+          "category": "Temporal intervals",
+          "n": 25,
+          "correct": 23,
+          "accuracy": 0.92,
+          "old_version_correct": 22,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 5,
+          "tied_current34_model_ids": [
+            "reference_sol",
+            "mammoth1",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "heygen_decision1_openrouter_20261112",
+            "respan02",
+            "gemini_decision1_openrouter_20261111",
+            "jev114",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 22.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F15",
+          "category": "Spatial tracking",
+          "n": 35,
+          "correct": 26,
+          "accuracy": 0.7428571428571429,
+          "old_version_correct": 20,
+          "new_minus_old_correct": 6,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [],
+          "leader_correct": 31,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reference_opus5"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Opus 5 \u00b7 no thinking"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 23.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F16",
+          "category": "Reference binding",
+          "n": 35,
+          "correct": 21,
+          "accuracy": 0.6,
+          "old_version_correct": 22,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 14,
+          "tied_current34_model_ids": [
+            "heygen_decision1_openrouter_20261112",
+            "reference_sonnet",
+            "levanto_sage_2",
+            "liquid11_decision",
+            "pplx_decider_flash13_native_20261112"
+          ],
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "respan02"
+          ],
+          "leader_labels": [
+            "Respan Span-02 (20261015)"
+          ],
+          "correct_gap_to_leader": 6,
+          "current34_median_correct": 21.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F17",
+          "category": "Beliefs and perspectives",
+          "n": 19,
+          "correct": 16,
+          "accuracy": 0.8421052631578947,
+          "old_version_correct": 17,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 3,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "mammoth1",
+            "turion_jev31b",
+            "heygen_decision1_openrouter_20261112",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "sarvam_prism"
+          ],
+          "leader_labels": [
+            "HeyGen Decision 1 Turbo \u00b7 preview",
+            "Sarvam Prism"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 14.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F18",
+          "category": "Causal intervention",
+          "n": 37,
+          "correct": 33,
+          "accuracy": 0.8918918918918919,
+          "old_version_correct": 30,
+          "new_minus_old_correct": 3,
+          "current34_accuracy_rank": 4,
+          "tied_current34_model_ids": [
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "turion_jev31b"
+          ],
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 26.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F19",
+          "category": "Exceptions and priorities",
+          "n": 24,
+          "correct": 19,
+          "accuracy": 0.7916666666666666,
+          "old_version_correct": 20,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 21,
+          "tied_current34_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "reference_sonnet",
+            "respan02",
+            "morph_reflex",
+            "liquid11_decision",
+            "celeris11_decision"
+          ],
+          "leader_correct": 24,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 20.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F20",
+          "category": "Planning",
+          "n": 16,
+          "correct": 11,
+          "accuracy": 0.6875,
+          "old_version_correct": 12,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 23,
+          "tied_current34_model_ids": [
+            "heygen_decision1_openrouter_20261112",
+            "amos_large",
+            "kettei_fat",
+            "gemini_decision1_openrouter_20261111",
+            "jev114",
+            "liquid11_decision",
+            "mercury_decide",
+            "elephant1"
+          ],
+          "leader_correct": 14,
+          "leader_model_ids": [
+            "reference_terra61",
+            "sarvam_prism"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Sarvam Prism"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 12.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F21",
+          "category": "Directed reachability",
+          "n": 5,
+          "correct": 3,
+          "accuracy": 0.6,
+          "old_version_correct": 3,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [
+            "reference_sol",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "mammoth1",
+            "amos_large",
+            "celeris11_decision",
+            "elephant1",
+            "local_startlux_instant4b",
+            "super_decider",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 4,
+          "leader_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "pplx_decider13_native_20261112",
+            "kettei_fat",
+            "levanto_sage_2",
+            "jev114"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "kettei-fat",
+            "Levanto Sage 2",
+            "Jev 1.14"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 2.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F22",
+          "category": "Preference ordering",
+          "n": 9,
+          "correct": 6,
+          "accuracy": 0.6666666666666666,
+          "old_version_correct": 7,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 6,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "kettei_fat",
+            "reference_opus5",
+            "jev114"
+          ],
+          "leader_correct": 7,
+          "leader_model_ids": [
+            "reference_terra61",
+            "drex_max_v11",
+            "reference_sonnet",
+            "respan02",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Sonnet 5.5 \u00b7 no thinking",
+            "Respan Span-02 (20261015)",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 5.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F23",
+          "category": "Rule counterexamples",
+          "n": 14,
+          "correct": 12,
+          "accuracy": 0.8571428571428571,
+          "old_version_correct": 14,
+          "new_minus_old_correct": -2,
+          "current34_accuracy_rank": 23,
+          "tied_current34_model_ids": [
+            "amos_large",
+            "elephant1",
+            "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+            "sarvam_prism",
+            "pplx_decider_flash13_native_20261112"
+          ],
+          "leader_correct": 14,
+          "leader_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "heygen_decision1_openrouter_20261112",
+            "reference_sonnet",
+            "reference_opus5",
+            "gemini_decision1_openrouter_20261111",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "Mammoth-1 (latest named alias)",
+            "HeyGen Decision 1 \u00b7 Nov 12",
+            "Sonnet 5.5 \u00b7 no thinking",
+            "Opus 5 \u00b7 no thinking",
+            "Gemini Decision 1 \u00b7 Nov 11",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F24",
+          "category": "Authority and stale records",
+          "n": 8,
+          "correct": 7,
+          "accuracy": 0.875,
+          "old_version_correct": 6,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 3,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "turion_jev31b",
+            "liquid_ultra",
+            "local_startlux_instant4b",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 8,
+          "leader_model_ids": [
+            "reference_terra61",
+            "kettei_fat"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "kettei-fat"
+          ],
+          "correct_gap_to_leader": 1,
+          "current34_median_correct": 5.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F25",
+          "category": "Fault diagnosis",
+          "n": 11,
+          "correct": 10,
+          "accuracy": 0.9090909090909091,
+          "old_version_correct": 6,
+          "new_minus_old_correct": 4,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_sol"
+          ],
+          "leader_correct": 10,
+          "leader_model_ids": [
+            "reference_sol",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6 Sol \u00b7 no reasoning",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 7.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F26",
+          "category": "Probabilistic risk",
+          "n": 30,
+          "correct": 18,
+          "accuracy": 0.6,
+          "old_version_correct": 17,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 10,
+          "tied_current34_model_ids": [
+            "mammoth1",
+            "liquid_ultra"
+          ],
+          "leader_correct": 22,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ],
+          "leader_labels": [
+            "Fastino GLiDE v2.3 BF16"
+          ],
+          "correct_gap_to_leader": 4,
+          "current34_median_correct": 16.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F27",
+          "category": "Value of information",
+          "n": 40,
+          "correct": 21,
+          "accuracy": 0.525,
+          "old_version_correct": 23,
+          "new_minus_old_correct": -2,
+          "current34_accuracy_rank": 22,
+          "tied_current34_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "respan02",
+            "gemini_decision1_openrouter_20261111",
+            "liquid11_decision"
+          ],
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "reax_1_3"
+          ],
+          "leader_labels": [
+            "REAX 1.3 \u00b7 ensemble"
+          ],
+          "correct_gap_to_leader": 6,
+          "current34_median_correct": 22.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F28",
+          "category": "Robust decisions without a prior",
+          "n": 39,
+          "correct": 17,
+          "accuracy": 0.4358974358974359,
+          "old_version_correct": 19,
+          "new_minus_old_correct": -2,
+          "current34_accuracy_rank": 2,
+          "tied_current34_model_ids": [
+            "nimble_v41_max"
+          ],
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F29",
+          "category": "Strategic decisions",
+          "n": 39,
+          "correct": 25,
+          "accuracy": 0.6410256410256411,
+          "old_version_correct": 22,
+          "new_minus_old_correct": 3,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "heygen_decision1_openrouter_20261112",
+            "morph_reflex",
+            "jev114",
+            "mercury_decide",
+            "pplx_decider_flash13_native_20261112"
+          ],
+          "leader_correct": 39,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 14,
+          "current34_median_correct": 24.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F30",
+          "category": "Concurrent-history consistency",
+          "n": 38,
+          "correct": 20,
+          "accuracy": 0.5263157894736842,
+          "old_version_correct": 21,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 17,
+          "tied_current34_model_ids": [
+            "liquid_ultra",
+            "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+            "pplx_decider_flash13_native_20261112"
+          ],
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 12,
+          "current34_median_correct": 20.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F31",
+          "category": "Information-flow security",
+          "n": 36,
+          "correct": 25,
+          "accuracy": 0.6944444444444444,
+          "old_version_correct": 26,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 14,
+          "tied_current34_model_ids": [
+            "levanto_sage_2",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 34,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 9,
+          "current34_median_correct": 24.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F32",
+          "category": "Numerical pattern recognition",
+          "n": 20,
+          "correct": 11,
+          "accuracy": 0.55,
+          "old_version_correct": 14,
+          "new_minus_old_correct": -3,
+          "current34_accuracy_rank": 26,
+          "tied_current34_model_ids": [
+            "local_startlux_instant4b",
+            "pplx_decider_flash13_native_20261112"
+          ],
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reference_opus5"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "Opus 5 \u00b7 no thinking"
+          ],
+          "correct_gap_to_leader": 6,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "F33",
+          "category": "Quantitative reasoning",
+          "n": 200,
+          "correct": 81,
+          "accuracy": 0.405,
+          "old_version_correct": 88,
+          "new_minus_old_correct": -7,
+          "current34_accuracy_rank": 25,
+          "tied_current34_model_ids": [],
+          "leader_correct": 160,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 79,
+          "current34_median_correct": 93.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P01",
+          "category": "Understanding requests and routing",
+          "n": 31,
+          "correct": 27,
+          "accuracy": 0.8709677419354839,
+          "old_version_correct": 26,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 9,
+          "tied_current34_model_ids": [
+            "reference_sol",
+            "pplx_decider13_native_20261112",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 30,
+          "leader_model_ids": [
+            "reference_terra61",
+            "kettei_fat"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "kettei-fat"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 23.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P02",
+          "category": "Recognizing multiple requested actions",
+          "n": 34,
+          "correct": 32,
+          "accuracy": 0.9411764705882353,
+          "old_version_correct": 33,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [
+            "fastino_glide_v23_bf16",
+            "pplx_decider13_native_20261112",
+            "amos_large",
+            "reference_sonnet"
+          ],
+          "leader_correct": 34,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "drex_max_v11",
+            "nimble_v41_max"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Nimble v4.1 Max"
+          ],
+          "correct_gap_to_leader": 2,
+          "current34_median_correct": 25.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P03",
+          "category": "Tracking current conversational intention",
+          "n": 33,
+          "correct": 33,
+          "accuracy": 1.0,
+          "old_version_correct": 32,
+          "new_minus_old_correct": 1,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "kettei_fat"
+          ],
+          "leader_correct": 33,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "kettei_fat",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "Mammoth-1 (latest named alias)",
+            "kettei-fat",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 25.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P04",
+          "category": "Selecting a tool or requesting clarification",
+          "n": 35,
+          "correct": 14,
+          "accuracy": 0.4,
+          "old_version_correct": 15,
+          "new_minus_old_correct": -1,
+          "current34_accuracy_rank": 23,
+          "tied_current34_model_ids": [
+            "fastino_glide_v23_bf16",
+            "heygen_decision1_openrouter_20261112",
+            "reference_sonnet",
+            "respan02",
+            "morph_reflex"
+          ],
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "elephant1"
+          ],
+          "leader_labels": [
+            "Elephant-1"
+          ],
+          "correct_gap_to_leader": 5,
+          "current34_median_correct": 15.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P05",
+          "category": "Checking authorization and scope",
+          "n": 35,
+          "correct": 18,
+          "accuracy": 0.5142857142857142,
+          "old_version_correct": 21,
+          "new_minus_old_correct": -3,
+          "current34_accuracy_rank": 12,
+          "tied_current34_model_ids": [
+            "liquid_ultra",
+            "amos_large",
+            "reference_sonnet",
+            "levanto_sage_2",
+            "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 17,
+          "current34_median_correct": 18.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P06",
+          "category": "Making decisions with untrusted content",
+          "n": 35,
+          "correct": 35,
+          "accuracy": 1.0,
+          "old_version_correct": 35,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 1,
+          "tied_current34_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112"
+          ],
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "subq_snap12"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning",
+            "REAX 1.3 \u00b7 ensemble",
+            "GPT-6 Sol \u00b7 no reasoning",
+            "D3 Ultra",
+            "Fastino GLiDE v2.3 BF16",
+            "Drex Max v1.1 \u00b7 Nace native",
+            "Perplexity Decider v1.3 \u00b7 native",
+            "SubQ Snap 1.2"
+          ],
+          "correct_gap_to_leader": 0,
+          "current34_median_correct": 30.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P07",
+          "category": "Applying a content policy in context",
+          "n": 27,
+          "correct": 20,
+          "accuracy": 0.7407407407407407,
+          "old_version_correct": 15,
+          "new_minus_old_correct": 5,
+          "current34_accuracy_rank": 7,
+          "tied_current34_model_ids": [
+            "liquid_ultra"
+          ],
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "d3_ultra"
+          ],
+          "leader_labels": [
+            "D3 Ultra"
+          ],
+          "correct_gap_to_leader": 7,
+          "current34_median_correct": 17.5
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P08",
+          "category": "Extracting and normalizing facts",
+          "n": 36,
+          "correct": 13,
+          "accuracy": 0.3611111111111111,
+          "old_version_correct": 18,
+          "new_minus_old_correct": -5,
+          "current34_accuracy_rank": 17,
+          "tied_current34_model_ids": [
+            "heygen_decision1_openrouter_20261112",
+            "reference_sonnet",
+            "liquid11_decision"
+          ],
+          "leader_correct": 28,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 15,
+          "current34_median_correct": 13.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P09",
+          "category": "Checking claims against supplied evidence",
+          "n": 32,
+          "correct": 17,
+          "accuracy": 0.53125,
+          "old_version_correct": 21,
+          "new_minus_old_correct": -4,
+          "current34_accuracy_rank": 20,
+          "tied_current34_model_ids": [
+            "sarvam_prism"
+          ],
+          "leader_correct": 26,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 9,
+          "current34_median_correct": 18.0
+        },
+        {
+          "model_id": "subq_snap12",
+          "label": "SubQ Snap 1.2",
+          "family_id": "P10",
+          "category": "Applying ordinal severity rubrics",
+          "n": 31,
+          "correct": 22,
+          "accuracy": 0.7096774193548387,
+          "old_version_correct": 22,
+          "new_minus_old_correct": 0,
+          "current34_accuracy_rank": 3,
+          "tied_current34_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "nimble_v41_max"
+          ],
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "reference_terra61"
+          ],
+          "leader_labels": [
+            "GPT-6.1 Terra \u00b7 no reasoning"
+          ],
+          "correct_gap_to_leader": 3,
+          "current34_median_correct": 17.5
+        }
+      ],
+      "limits": [
+        "This fixed-input bank does not test SubQ option-order invariance or 384K-token long-context performance.",
+        "AQuA model-error selection and the frozen701-removal cohort affect interpretation; this is not a fresh independent bank.",
+        "MAIQ original human-test item rights remain unresolved; existing per-item notices apply.",
+        "API timing spans different collection dates and serving conditions; latency differences do not establish their cause.",
+        "Known old cost subtotals and missing records remain separate; no old tariff or cost extrapolation is used."
+      ]
+    }
+  },
+  "new_models_paired": {
+    "n": 1456,
+    "both_correct": 810,
+    "nimble_only_correct": 140,
+    "subq_only_correct": 117,
+    "neither_correct": 389
+  }
+}
