@@ -285,3 +285,30 @@ The validator checks exact full-parent files and recovered parent HTML,
 separate denominators and null full scores/ranks/classifications, complete
 unique fixed-prefix item joins, correctness, pooled timing, unmetered costs,
 source/profile/review hashes, usage, abstention flags, links and privacy.
+
+## Nimble/SubQ native version successor · November 15, 2026
+
+`publish_system1_v5_nimble_subq_2026_11_15.py` renders a new dated successor
+from appended, audited first-primary data. Nimble v4.1 Max and SubQ Snap 1.2
+replace the older same-family active versions under the user's explicit latest-
+version policy. There are 44 complete configurations, 34 active, six below
+45% and four superseded references; both Perplexity size variants remain active.
+All 42 earlier model/cost objects and 61,152 decompressed ledger prefixes are
+unchanged; each main ledger now has 64,064 records. ASUS partial ledgers/cards
+remain separate and unchanged. Older dated releases and bound scripts are frozen.
+
+SubQ's −16 correct regression, equal complete tariff estimate, small measured
+latency change, and Nimble's incomplete historical cost coverage are explicit.
+New USD0.04/M input-only tariff estimates are not API-reported charges; actual
+charges are unreported. Nimble's2 output-accounting tokens per request are
+retained; SubQ reports0. Neither independently attests zero generation.
+
+```sh
+python3 scripts/validate_system1_v5_nimble_subq_2026_11_15.py results/releases/system1_v5_nimble_subq_2026-11-15 results/releases/system1_v5_asus_native_2026-11-13 --mirror docs/v5
+```
+
+The validator checks frozen parent hashes, exact historical objects/prefixes,
+item-level pooled timings and Decimal costs, source/usage/payload joins,
+all43category denominators/current ranks/leader counts, paired outcomes,
+version tradeoffs, separate ASUS cards, readable coloured plots, links, privacy
+and the exact Pages mirror. Raw selected answers and gold remain private.

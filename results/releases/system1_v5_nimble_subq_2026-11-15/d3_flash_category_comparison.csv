@@ -1,0 +1,1549 @@
+model_id,model,family_id,family,n,correct,usable,new_correct,both_correct,new_only_correct,old_only_correct,common_usable,old_correct_common_usable,new_correct_common_usable,new_correct_on_old_unusable
+amos_large,Amos 1 Large,F33,Quantitative reasoning,200,83,200,84,43,41,40,200,83,84,0
+amos_large,Amos 1 Large,F26,Probabilistic risk,30,16,30,13,11,2,5,30,16,13,0
+amos_large,Amos 1 Large,F27,Value of information,40,25,40,14,11,3,14,40,25,14,0
+amos_large,Amos 1 Large,F28,Robust decisions without a prior,39,13,39,4,3,1,10,39,13,4,0
+amos_large,Amos 1 Large,F29,Strategic decisions,39,22,39,24,17,7,5,39,22,24,0
+amos_large,Amos 1 Large,F30,Concurrent-history consistency,38,21,38,20,15,5,6,38,21,20,0
+amos_large,Amos 1 Large,F31,Information-flow security,36,24,36,18,14,4,10,35,23,18,0
+amos_large,Amos 1 Large,P04,Selecting a tool or requesting clarification,35,15,35,13,9,4,6,35,15,13,0
+amos_large,Amos 1 Large,P05,Checking authorization and scope,35,18,35,13,11,2,7,35,18,13,0
+amos_large,Amos 1 Large,P01,Understanding requests and routing,31,26,31,19,18,1,8,31,26,19,0
+amos_large,Amos 1 Large,P02,Recognizing multiple requested actions,34,32,34,20,18,2,14,34,32,20,0
+amos_large,Amos 1 Large,P03,Tracking current conversational intention,33,32,33,14,14,0,18,33,32,14,0
+amos_large,Amos 1 Large,P06,Making decisions with untrusted content,35,32,35,14,12,2,20,35,32,14,0
+amos_large,Amos 1 Large,P07,Applying a contextual content policy,27,17,27,17,12,5,5,27,17,17,0
+amos_large,Amos 1 Large,P08,Extracting and normalizing facts,36,15,36,9,7,2,8,36,15,9,0
+amos_large,Amos 1 Large,P09,Checking claims against supplied evidence,32,18,32,15,12,3,6,32,18,15,0
+amos_large,Amos 1 Large,P10,Assigning severity or priority from a rubric,31,21,31,10,3,7,18,31,21,10,0
+amos_large,Amos 1 Large,F32,Numerical pattern recognition,20,14,20,9,8,1,6,20,14,9,0
+amos_large,Amos 1 Large,F02,Forward conditionals,22,20,22,19,18,1,2,22,20,19,0
+amos_large,Amos 1 Large,F03,Necessary conditions,32,29,32,27,26,1,3,32,29,27,0
+amos_large,Amos 1 Large,F04,Boolean scope,18,15,18,6,5,1,10,18,15,6,0
+amos_large,Amos 1 Large,F05,Quantifiers and sets,9,5,9,5,4,1,1,9,5,5,0
+amos_large,Amos 1 Large,F06,Comparisons,7,5,7,4,4,0,1,7,5,4,0
+amos_large,Amos 1 Large,F07,Scheduling,54,32,54,22,20,2,12,54,32,22,0
+amos_large,Amos 1 Large,F08,One-to-one assignments,44,39,44,33,31,2,8,44,39,33,0
+amos_large,Amos 1 Large,F09,Exact truth counting,68,34,68,28,25,3,9,68,34,28,0
+amos_large,Amos 1 Large,F10,Truth-teller consistency,69,46,69,32,24,8,22,69,46,32,0
+amos_large,Amos 1 Large,F11,Sufficiency and inconsistency,29,23,29,22,18,4,5,29,23,22,0
+amos_large,Amos 1 Large,F12,Object swaps,43,17,43,18,9,9,8,43,17,18,0
+amos_large,Amos 1 Large,F13,Sequential procedures,47,15,47,10,7,3,8,47,15,10,0
+amos_large,Amos 1 Large,F14,Temporal intervals,25,24,25,17,16,1,8,25,24,17,0
+amos_large,Amos 1 Large,F15,Spatial tracking,35,22,35,13,11,2,11,35,22,13,0
+amos_large,Amos 1 Large,F16,Reference binding,35,15,35,15,11,4,4,35,15,15,0
+amos_large,Amos 1 Large,F17,Beliefs and perspectives,19,15,19,14,13,1,2,19,15,14,0
+amos_large,Amos 1 Large,F18,Causal intervention,37,23,37,26,18,8,5,37,23,26,0
+amos_large,Amos 1 Large,F19,Exceptions and priorities,24,21,24,21,19,2,2,24,21,21,0
+amos_large,Amos 1 Large,F20,Planning,16,11,16,13,11,2,0,16,11,13,0
+amos_large,Amos 1 Large,F22,Preference ordering,9,5,9,5,2,3,3,9,5,5,0
+amos_large,Amos 1 Large,F23,Rule counterexamples,14,12,14,11,9,2,3,14,12,11,0
+amos_large,Amos 1 Large,F24,Authority and stale records,8,6,8,5,4,1,2,8,6,5,0
+amos_large,Amos 1 Large,F25,Fault diagnosis,11,5,11,6,3,3,2,11,5,6,0
+amos_large,Amos 1 Large,F01,Lookup and filtering,5,2,5,0,0,0,2,5,2,0,0
+amos_large,Amos 1 Large,F21,Directed reachability,5,3,5,2,1,1,2,5,3,2,0
+celeris11_decision,Celeris 1.1 Decision,F33,Quantitative reasoning,200,99,200,84,46,38,53,200,99,84,0
+celeris11_decision,Celeris 1.1 Decision,F26,Probabilistic risk,30,15,30,13,10,3,5,30,15,13,0
+celeris11_decision,Celeris 1.1 Decision,F27,Value of information,40,20,40,14,9,5,11,40,20,14,0
+celeris11_decision,Celeris 1.1 Decision,F28,Robust decisions without a prior,39,10,39,4,1,3,9,39,10,4,0
+celeris11_decision,Celeris 1.1 Decision,F29,Strategic decisions,39,14,39,24,12,12,2,39,14,24,0
+celeris11_decision,Celeris 1.1 Decision,F30,Concurrent-history consistency,38,12,38,20,8,12,4,38,12,20,0
+celeris11_decision,Celeris 1.1 Decision,F31,Information-flow security,36,17,36,18,12,6,5,35,16,18,0
+celeris11_decision,Celeris 1.1 Decision,P04,Selecting a tool or requesting clarification,35,18,35,13,11,2,7,35,18,13,0
+celeris11_decision,Celeris 1.1 Decision,P05,Checking authorization and scope,35,15,35,13,10,3,5,35,15,13,0
+celeris11_decision,Celeris 1.1 Decision,P01,Understanding requests and routing,31,14,31,19,12,7,2,31,14,19,0
+celeris11_decision,Celeris 1.1 Decision,P02,Recognizing multiple requested actions,34,16,34,20,13,7,3,34,16,20,0
+celeris11_decision,Celeris 1.1 Decision,P03,Tracking current conversational intention,33,20,33,14,7,7,13,33,20,14,0
+celeris11_decision,Celeris 1.1 Decision,P06,Making decisions with untrusted content,35,14,35,14,8,6,6,35,14,14,0
+celeris11_decision,Celeris 1.1 Decision,P07,Applying a contextual content policy,27,13,27,17,8,9,5,27,13,17,0
+celeris11_decision,Celeris 1.1 Decision,P08,Extracting and normalizing facts,36,12,36,9,6,3,6,36,12,9,0
+celeris11_decision,Celeris 1.1 Decision,P09,Checking claims against supplied evidence,32,11,32,15,6,9,5,32,11,15,0
+celeris11_decision,Celeris 1.1 Decision,P10,Assigning severity or priority from a rubric,31,12,31,10,2,8,10,31,12,10,0
+celeris11_decision,Celeris 1.1 Decision,F32,Numerical pattern recognition,20,14,20,9,8,1,6,20,14,9,0
+celeris11_decision,Celeris 1.1 Decision,F02,Forward conditionals,22,18,22,19,18,1,0,22,18,19,0
+celeris11_decision,Celeris 1.1 Decision,F03,Necessary conditions,32,21,32,27,20,7,1,32,21,27,0
+celeris11_decision,Celeris 1.1 Decision,F04,Boolean scope,18,12,18,6,3,3,9,18,12,6,0
+celeris11_decision,Celeris 1.1 Decision,F05,Quantifiers and sets,9,5,9,5,4,1,1,9,5,5,0
+celeris11_decision,Celeris 1.1 Decision,F06,Comparisons,7,4,7,4,3,1,1,7,4,4,0
+celeris11_decision,Celeris 1.1 Decision,F07,Scheduling,54,30,54,22,19,3,11,54,30,22,0
+celeris11_decision,Celeris 1.1 Decision,F08,One-to-one assignments,44,35,44,33,28,5,7,44,35,33,0
+celeris11_decision,Celeris 1.1 Decision,F09,Exact truth counting,68,32,68,28,17,11,15,68,32,28,0
+celeris11_decision,Celeris 1.1 Decision,F10,Truth-teller consistency,69,31,69,32,18,14,13,69,31,32,0
+celeris11_decision,Celeris 1.1 Decision,F11,Sufficiency and inconsistency,29,24,29,22,20,2,4,29,24,22,0
+celeris11_decision,Celeris 1.1 Decision,F12,Object swaps,43,15,43,18,12,6,3,43,15,18,0
+celeris11_decision,Celeris 1.1 Decision,F13,Sequential procedures,47,13,47,10,7,3,6,47,13,10,0
+celeris11_decision,Celeris 1.1 Decision,F14,Temporal intervals,25,22,25,17,15,2,7,25,22,17,0
+celeris11_decision,Celeris 1.1 Decision,F15,Spatial tracking,35,15,35,13,10,3,5,35,15,13,0
+celeris11_decision,Celeris 1.1 Decision,F16,Reference binding,35,16,35,15,11,4,5,35,16,15,0
+celeris11_decision,Celeris 1.1 Decision,F17,Beliefs and perspectives,19,13,19,14,10,4,3,19,13,14,0
+celeris11_decision,Celeris 1.1 Decision,F18,Causal intervention,37,26,37,26,19,7,7,37,26,26,0
+celeris11_decision,Celeris 1.1 Decision,F19,Exceptions and priorities,24,19,24,21,17,4,2,24,19,21,0
+celeris11_decision,Celeris 1.1 Decision,F20,Planning,16,12,16,13,11,2,1,16,12,13,0
+celeris11_decision,Celeris 1.1 Decision,F22,Preference ordering,9,3,9,5,3,2,0,9,3,5,0
+celeris11_decision,Celeris 1.1 Decision,F23,Rule counterexamples,14,9,14,11,8,3,1,14,9,11,0
+celeris11_decision,Celeris 1.1 Decision,F24,Authority and stale records,8,3,8,5,3,2,0,8,3,5,0
+celeris11_decision,Celeris 1.1 Decision,F25,Fault diagnosis,11,7,11,6,6,0,1,11,7,6,0
+celeris11_decision,Celeris 1.1 Decision,F01,Lookup and filtering,5,2,5,0,0,0,2,5,2,0,0
+celeris11_decision,Celeris 1.1 Decision,F21,Directed reachability,5,3,5,2,1,1,2,5,3,2,0
+clef,Cloudflare Clef,F33,Quantitative reasoning,200,54,200,84,28,56,26,200,54,84,0
+clef,Cloudflare Clef,F26,Probabilistic risk,30,13,30,13,8,5,5,30,13,13,0
+clef,Cloudflare Clef,F27,Value of information,40,9,40,14,6,8,3,40,9,14,0
+clef,Cloudflare Clef,F28,Robust decisions without a prior,39,12,39,4,3,1,9,39,12,4,0
+clef,Cloudflare Clef,F29,Strategic decisions,39,21,39,24,14,10,7,39,21,24,0
+clef,Cloudflare Clef,F30,Concurrent-history consistency,38,20,38,20,14,6,6,38,20,20,0
+clef,Cloudflare Clef,F31,Information-flow security,36,21,36,18,16,2,5,35,20,18,0
+clef,Cloudflare Clef,P04,Selecting a tool or requesting clarification,35,13,35,13,10,3,3,35,13,13,0
+clef,Cloudflare Clef,P05,Checking authorization and scope,35,12,35,13,9,4,3,35,12,13,0
+clef,Cloudflare Clef,P01,Understanding requests and routing,31,18,31,19,15,4,3,31,18,19,0
+clef,Cloudflare Clef,P02,Recognizing multiple requested actions,34,19,34,20,15,5,4,34,19,20,0
+clef,Cloudflare Clef,P03,Tracking current conversational intention,33,14,33,14,10,4,4,33,14,14,0
+clef,Cloudflare Clef,P06,Making decisions with untrusted content,35,8,35,14,4,10,4,35,8,14,0
+clef,Cloudflare Clef,P07,Applying a contextual content policy,27,16,27,17,10,7,6,27,16,17,0
+clef,Cloudflare Clef,P08,Extracting and normalizing facts,36,13,36,9,6,3,7,36,13,9,0
+clef,Cloudflare Clef,P09,Checking claims against supplied evidence,32,12,32,15,9,6,3,32,12,15,0
+clef,Cloudflare Clef,P10,Assigning severity or priority from a rubric,31,12,31,10,2,8,10,31,12,10,0
+clef,Cloudflare Clef,F32,Numerical pattern recognition,20,8,20,9,5,4,3,20,8,9,0
+clef,Cloudflare Clef,F02,Forward conditionals,22,16,22,19,15,4,1,22,16,19,0
+clef,Cloudflare Clef,F03,Necessary conditions,32,19,32,27,18,9,1,32,19,27,0
+clef,Cloudflare Clef,F04,Boolean scope,18,10,18,6,3,3,7,18,10,6,0
+clef,Cloudflare Clef,F05,Quantifiers and sets,9,4,9,5,3,2,1,9,4,5,0
+clef,Cloudflare Clef,F06,Comparisons,7,4,7,4,4,0,0,7,4,4,0
+clef,Cloudflare Clef,F07,Scheduling,54,21,54,22,15,7,6,54,21,22,0
+clef,Cloudflare Clef,F08,One-to-one assignments,44,19,44,33,16,17,3,44,19,33,0
+clef,Cloudflare Clef,F09,Exact truth counting,68,25,68,28,20,8,5,68,25,28,0
+clef,Cloudflare Clef,F10,Truth-teller consistency,69,29,69,32,19,13,10,69,29,32,0
+clef,Cloudflare Clef,F11,Sufficiency and inconsistency,29,18,29,22,15,7,3,29,18,22,0
+clef,Cloudflare Clef,F12,Object swaps,43,18,43,18,13,5,5,43,18,18,0
+clef,Cloudflare Clef,F13,Sequential procedures,47,10,47,10,4,6,6,47,10,10,0
+clef,Cloudflare Clef,F14,Temporal intervals,25,14,25,17,10,7,4,25,14,17,0
+clef,Cloudflare Clef,F15,Spatial tracking,35,10,35,13,7,6,3,35,10,13,0
+clef,Cloudflare Clef,F16,Reference binding,35,16,35,15,10,5,6,35,16,15,0
+clef,Cloudflare Clef,F17,Beliefs and perspectives,19,12,19,14,9,5,3,19,12,14,0
+clef,Cloudflare Clef,F18,Causal intervention,37,17,37,26,15,11,2,37,17,26,0
+clef,Cloudflare Clef,F19,Exceptions and priorities,24,18,24,21,17,4,1,24,18,21,0
+clef,Cloudflare Clef,F20,Planning,16,12,16,13,12,1,0,16,12,13,0
+clef,Cloudflare Clef,F22,Preference ordering,9,4,9,5,4,1,0,9,4,5,0
+clef,Cloudflare Clef,F23,Rule counterexamples,14,12,14,11,10,1,2,14,12,11,0
+clef,Cloudflare Clef,F24,Authority and stale records,8,4,8,5,2,3,2,8,4,5,0
+clef,Cloudflare Clef,F25,Fault diagnosis,11,4,11,6,4,2,0,11,4,6,0
+clef,Cloudflare Clef,F01,Lookup and filtering,5,2,5,0,0,0,2,5,2,0,0
+clef,Cloudflare Clef,F21,Directed reachability,5,2,5,2,0,2,2,5,2,2,0
+d3_ultra,D3 Ultra,F33,Quantitative reasoning,200,124,200,84,63,21,61,200,124,84,0
+d3_ultra,D3 Ultra,F26,Probabilistic risk,30,20,30,13,12,1,8,30,20,13,0
+d3_ultra,D3 Ultra,F27,Value of information,40,24,40,14,11,3,13,40,24,14,0
+d3_ultra,D3 Ultra,F28,Robust decisions without a prior,39,16,39,4,3,1,13,39,16,4,0
+d3_ultra,D3 Ultra,F29,Strategic decisions,39,30,39,24,21,3,9,39,30,24,0
+d3_ultra,D3 Ultra,F30,Concurrent-history consistency,38,21,38,20,17,3,4,38,21,20,0
+d3_ultra,D3 Ultra,F31,Information-flow security,36,33,36,18,18,0,15,35,32,18,0
+d3_ultra,D3 Ultra,P04,Selecting a tool or requesting clarification,35,13,35,13,10,3,3,35,13,13,0
+d3_ultra,D3 Ultra,P05,Checking authorization and scope,35,20,35,13,12,1,8,35,20,13,0
+d3_ultra,D3 Ultra,P01,Understanding requests and routing,31,29,31,19,18,1,11,31,29,19,0
+d3_ultra,D3 Ultra,P02,Recognizing multiple requested actions,34,34,34,20,20,0,14,34,34,20,0
+d3_ultra,D3 Ultra,P03,Tracking current conversational intention,33,33,33,14,14,0,19,33,33,14,0
+d3_ultra,D3 Ultra,P06,Making decisions with untrusted content,35,35,35,14,14,0,21,35,35,14,0
+d3_ultra,D3 Ultra,P07,Applying a contextual content policy,27,27,27,17,17,0,10,27,27,17,0
+d3_ultra,D3 Ultra,P08,Extracting and normalizing facts,36,15,36,9,7,2,8,36,15,9,0
+d3_ultra,D3 Ultra,P09,Checking claims against supplied evidence,32,23,32,15,15,0,8,32,23,15,0
+d3_ultra,D3 Ultra,P10,Assigning severity or priority from a rubric,31,22,31,10,3,7,19,31,22,10,0
+d3_ultra,D3 Ultra,F32,Numerical pattern recognition,20,14,20,9,8,1,6,20,14,9,0
+d3_ultra,D3 Ultra,F02,Forward conditionals,22,22,22,19,19,0,3,22,22,19,0
+d3_ultra,D3 Ultra,F03,Necessary conditions,32,30,32,27,26,1,4,32,30,27,0
+d3_ultra,D3 Ultra,F04,Boolean scope,18,13,18,6,5,1,8,18,13,6,0
+d3_ultra,D3 Ultra,F05,Quantifiers and sets,9,5,9,5,3,2,2,9,5,5,0
+d3_ultra,D3 Ultra,F06,Comparisons,7,5,7,4,4,0,1,7,5,4,0
+d3_ultra,D3 Ultra,F07,Scheduling,54,35,54,22,18,4,17,54,35,22,0
+d3_ultra,D3 Ultra,F08,One-to-one assignments,44,41,44,33,32,1,9,44,41,33,0
+d3_ultra,D3 Ultra,F09,Exact truth counting,68,36,68,28,24,4,12,68,36,28,0
+d3_ultra,D3 Ultra,F10,Truth-teller consistency,69,48,69,32,26,6,22,69,48,32,0
+d3_ultra,D3 Ultra,F11,Sufficiency and inconsistency,29,25,29,22,20,2,5,29,25,22,0
+d3_ultra,D3 Ultra,F12,Object swaps,43,27,43,18,14,4,13,43,27,18,0
+d3_ultra,D3 Ultra,F13,Sequential procedures,47,15,47,10,5,5,10,47,15,10,0
+d3_ultra,D3 Ultra,F14,Temporal intervals,25,21,25,17,15,2,6,25,21,17,0
+d3_ultra,D3 Ultra,F15,Spatial tracking,35,23,35,13,11,2,12,35,23,13,0
+d3_ultra,D3 Ultra,F16,Reference binding,35,23,35,15,13,2,10,35,23,15,0
+d3_ultra,D3 Ultra,F17,Beliefs and perspectives,19,15,19,14,14,0,1,19,15,14,0
+d3_ultra,D3 Ultra,F18,Causal intervention,37,32,37,26,26,0,6,37,32,26,0
+d3_ultra,D3 Ultra,F19,Exceptions and priorities,24,21,24,21,19,2,2,24,21,21,0
+d3_ultra,D3 Ultra,F20,Planning,16,12,16,13,12,1,0,16,12,13,0
+d3_ultra,D3 Ultra,F22,Preference ordering,9,5,9,5,3,2,2,9,5,5,0
+d3_ultra,D3 Ultra,F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+d3_ultra,D3 Ultra,F24,Authority and stale records,8,7,8,5,5,0,2,8,7,5,0
+d3_ultra,D3 Ultra,F25,Fault diagnosis,11,9,11,6,6,0,3,11,9,6,0
+d3_ultra,D3 Ultra,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+d3_ultra,D3 Ultra,F21,Directed reachability,5,4,5,2,2,0,2,5,4,2,0
+drex20,Drex v2.0,F33,Quantitative reasoning,200,78,199,84,41,43,37,199,78,84,0
+drex20,Drex v2.0,F26,Probabilistic risk,30,9,26,13,4,9,5,26,9,12,1
+drex20,Drex v2.0,F27,Value of information,40,18,37,14,7,7,11,37,18,13,1
+drex20,Drex v2.0,F28,Robust decisions without a prior,39,15,38,4,2,2,13,38,15,4,0
+drex20,Drex v2.0,F29,Strategic decisions,39,21,37,24,20,4,1,37,21,22,2
+drex20,Drex v2.0,F30,Concurrent-history consistency,38,22,37,20,15,5,7,37,22,20,0
+drex20,Drex v2.0,F31,Information-flow security,36,17,33,18,11,7,6,32,16,17,1
+drex20,Drex v2.0,P04,Selecting a tool or requesting clarification,35,10,31,13,2,11,8,31,10,10,3
+drex20,Drex v2.0,P05,Checking authorization and scope,35,16,34,13,11,2,5,34,16,13,0
+drex20,Drex v2.0,P01,Understanding requests and routing,31,12,28,19,9,10,3,28,12,18,1
+drex20,Drex v2.0,P02,Recognizing multiple requested actions,34,18,30,20,13,7,5,30,18,17,3
+drex20,Drex v2.0,P03,Tracking current conversational intention,33,13,28,14,7,7,6,28,13,12,2
+drex20,Drex v2.0,P06,Making decisions with untrusted content,35,20,33,14,10,4,10,33,20,13,1
+drex20,Drex v2.0,P07,Applying a contextual content policy,27,12,25,17,9,8,3,25,12,16,1
+drex20,Drex v2.0,P08,Extracting and normalizing facts,36,10,33,9,4,5,6,33,10,8,1
+drex20,Drex v2.0,P09,Checking claims against supplied evidence,32,10,31,15,7,8,3,31,10,15,0
+drex20,Drex v2.0,P10,Assigning severity or priority from a rubric,31,12,28,10,3,7,9,28,12,10,0
+drex20,Drex v2.0,F32,Numerical pattern recognition,20,12,20,9,7,2,5,20,12,9,0
+drex20,Drex v2.0,F02,Forward conditionals,22,11,21,19,11,8,0,21,11,18,1
+drex20,Drex v2.0,F03,Necessary conditions,32,8,31,27,8,19,0,31,8,26,1
+drex20,Drex v2.0,F04,Boolean scope,18,10,17,6,3,3,7,17,10,5,1
+drex20,Drex v2.0,F05,Quantifiers and sets,9,4,9,5,3,2,1,9,4,5,0
+drex20,Drex v2.0,F06,Comparisons,7,6,7,4,3,1,3,7,6,4,0
+drex20,Drex v2.0,F07,Scheduling,54,29,53,22,20,2,9,53,29,22,0
+drex20,Drex v2.0,F08,One-to-one assignments,44,20,41,33,17,16,3,41,20,30,3
+drex20,Drex v2.0,F09,Exact truth counting,68,25,65,28,12,16,13,65,25,25,3
+drex20,Drex v2.0,F10,Truth-teller consistency,69,32,64,32,20,12,12,64,32,29,3
+drex20,Drex v2.0,F11,Sufficiency and inconsistency,29,21,29,22,18,4,3,29,21,22,0
+drex20,Drex v2.0,F12,Object swaps,43,19,41,18,12,6,7,41,19,17,1
+drex20,Drex v2.0,F13,Sequential procedures,47,11,45,10,3,7,8,45,11,9,1
+drex20,Drex v2.0,F14,Temporal intervals,25,16,24,17,10,7,6,24,16,16,1
+drex20,Drex v2.0,F15,Spatial tracking,35,12,34,13,9,4,3,34,12,13,0
+drex20,Drex v2.0,F16,Reference binding,35,11,34,15,6,9,5,34,11,15,0
+drex20,Drex v2.0,F17,Beliefs and perspectives,19,10,18,14,8,6,2,18,10,13,1
+drex20,Drex v2.0,F18,Causal intervention,37,25,37,26,19,7,6,37,25,26,0
+drex20,Drex v2.0,F19,Exceptions and priorities,24,17,24,21,16,5,1,24,17,21,0
+drex20,Drex v2.0,F20,Planning,16,11,16,13,11,2,0,16,11,13,0
+drex20,Drex v2.0,F22,Preference ordering,9,4,7,5,4,1,0,7,4,5,0
+drex20,Drex v2.0,F23,Rule counterexamples,14,11,14,11,10,1,1,14,11,11,0
+drex20,Drex v2.0,F24,Authority and stale records,8,3,8,5,2,3,1,8,3,5,0
+drex20,Drex v2.0,F25,Fault diagnosis,11,6,10,6,5,1,1,10,6,5,1
+drex20,Drex v2.0,F01,Lookup and filtering,5,2,5,0,0,0,2,5,2,0,0
+drex20,Drex v2.0,F21,Directed reachability,5,4,5,2,1,1,3,5,4,2,0
+drex_max,Drex Max,F33,Quantitative reasoning,200,81,200,84,40,44,41,200,81,84,0
+drex_max,Drex Max,F26,Probabilistic risk,30,16,28,13,9,4,7,28,16,12,1
+drex_max,Drex Max,F27,Value of information,40,23,40,14,11,3,12,40,23,14,0
+drex_max,Drex Max,F28,Robust decisions without a prior,39,13,38,4,3,1,10,38,13,4,0
+drex_max,Drex Max,F29,Strategic decisions,39,26,39,24,18,6,8,39,26,24,0
+drex_max,Drex Max,F30,Concurrent-history consistency,38,20,36,20,15,5,5,36,20,18,2
+drex_max,Drex Max,F31,Information-flow security,36,30,36,18,17,1,13,35,29,18,0
+drex_max,Drex Max,P04,Selecting a tool or requesting clarification,35,18,35,13,9,4,9,35,18,13,0
+drex_max,Drex Max,P05,Checking authorization and scope,35,19,35,13,11,2,8,35,19,13,0
+drex_max,Drex Max,P01,Understanding requests and routing,31,26,30,19,17,2,9,30,26,18,1
+drex_max,Drex Max,P02,Recognizing multiple requested actions,34,34,34,20,20,0,14,34,34,20,0
+drex_max,Drex Max,P03,Tracking current conversational intention,33,32,32,14,13,1,19,32,32,13,1
+drex_max,Drex Max,P06,Making decisions with untrusted content,35,35,35,14,14,0,21,35,35,14,0
+drex_max,Drex Max,P07,Applying a contextual content policy,27,18,27,17,12,5,6,27,18,17,0
+drex_max,Drex Max,P08,Extracting and normalizing facts,36,15,36,9,6,3,9,36,15,9,0
+drex_max,Drex Max,P09,Checking claims against supplied evidence,32,21,31,15,12,3,9,31,21,14,1
+drex_max,Drex Max,P10,Assigning severity or priority from a rubric,31,21,31,10,3,7,18,31,21,10,0
+drex_max,Drex Max,F32,Numerical pattern recognition,20,15,19,9,9,0,6,19,15,9,0
+drex_max,Drex Max,F02,Forward conditionals,22,21,22,19,19,0,2,22,21,19,0
+drex_max,Drex Max,F03,Necessary conditions,32,30,32,27,26,1,4,32,30,27,0
+drex_max,Drex Max,F04,Boolean scope,18,15,18,6,6,0,9,18,15,6,0
+drex_max,Drex Max,F05,Quantifiers and sets,9,6,9,5,4,1,2,9,6,5,0
+drex_max,Drex Max,F06,Comparisons,7,6,7,4,3,1,3,7,6,4,0
+drex_max,Drex Max,F07,Scheduling,54,28,54,22,15,7,13,54,28,22,0
+drex_max,Drex Max,F08,One-to-one assignments,44,42,44,33,33,0,9,44,42,33,0
+drex_max,Drex Max,F09,Exact truth counting,68,39,68,28,23,5,16,68,39,28,0
+drex_max,Drex Max,F10,Truth-teller consistency,69,48,69,32,27,5,21,69,48,32,0
+drex_max,Drex Max,F11,Sufficiency and inconsistency,29,23,29,22,19,3,4,29,23,22,0
+drex_max,Drex Max,F12,Object swaps,43,20,43,18,14,4,6,43,20,18,0
+drex_max,Drex Max,F13,Sequential procedures,47,17,47,10,6,4,11,47,17,10,0
+drex_max,Drex Max,F14,Temporal intervals,25,23,25,17,17,0,6,25,23,17,0
+drex_max,Drex Max,F15,Spatial tracking,35,26,35,13,12,1,14,35,26,13,0
+drex_max,Drex Max,F16,Reference binding,35,24,35,15,14,1,10,35,24,15,0
+drex_max,Drex Max,F17,Beliefs and perspectives,19,15,19,14,14,0,1,19,15,14,0
+drex_max,Drex Max,F18,Causal intervention,37,33,37,26,26,0,7,37,33,26,0
+drex_max,Drex Max,F19,Exceptions and priorities,24,20,24,21,18,3,2,24,20,21,0
+drex_max,Drex Max,F20,Planning,16,12,16,13,12,1,0,16,12,13,0
+drex_max,Drex Max,F22,Preference ordering,9,6,9,5,4,1,2,9,6,5,0
+drex_max,Drex Max,F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+drex_max,Drex Max,F24,Authority and stale records,8,7,8,5,5,0,2,8,7,5,0
+drex_max,Drex Max,F25,Fault diagnosis,11,7,11,6,6,0,1,11,7,6,0
+drex_max,Drex Max,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+drex_max,Drex Max,F21,Directed reachability,5,4,5,2,2,0,2,5,4,2,0
+elephant1,Elephant-1,F33,Quantitative reasoning,200,73,200,84,48,36,25,200,73,84,0
+elephant1,Elephant-1,F26,Probabilistic risk,30,10,30,13,10,3,0,30,10,13,0
+elephant1,Elephant-1,F27,Value of information,40,24,40,14,11,3,13,40,24,14,0
+elephant1,Elephant-1,F28,Robust decisions without a prior,39,12,39,4,2,2,10,39,12,4,0
+elephant1,Elephant-1,F29,Strategic decisions,39,18,39,24,16,8,2,39,18,24,0
+elephant1,Elephant-1,F30,Concurrent-history consistency,38,18,38,20,15,5,3,38,18,20,0
+elephant1,Elephant-1,F31,Information-flow security,36,22,36,18,15,3,7,35,21,18,0
+elephant1,Elephant-1,P04,Selecting a tool or requesting clarification,35,19,35,13,10,3,9,35,19,13,0
+elephant1,Elephant-1,P05,Checking authorization and scope,35,15,35,13,7,6,8,35,15,13,0
+elephant1,Elephant-1,P01,Understanding requests and routing,31,13,31,19,12,7,1,31,13,19,0
+elephant1,Elephant-1,P02,Recognizing multiple requested actions,34,24,34,20,17,3,7,34,24,20,0
+elephant1,Elephant-1,P03,Tracking current conversational intention,33,20,33,14,11,3,9,33,20,14,0
+elephant1,Elephant-1,P06,Making decisions with untrusted content,35,21,35,14,10,4,11,35,21,14,0
+elephant1,Elephant-1,P07,Applying a contextual content policy,27,9,27,17,8,9,1,27,9,17,0
+elephant1,Elephant-1,P08,Extracting and normalizing facts,36,10,36,9,8,1,2,36,10,9,0
+elephant1,Elephant-1,P09,Checking claims against supplied evidence,32,14,32,15,10,5,4,32,14,15,0
+elephant1,Elephant-1,P10,Assigning severity or priority from a rubric,31,12,31,10,2,8,10,31,12,10,0
+elephant1,Elephant-1,F32,Numerical pattern recognition,20,13,20,9,9,0,4,20,13,9,0
+elephant1,Elephant-1,F02,Forward conditionals,22,20,22,19,19,0,1,22,20,19,0
+elephant1,Elephant-1,F03,Necessary conditions,32,18,32,27,17,10,1,32,18,27,0
+elephant1,Elephant-1,F04,Boolean scope,18,12,18,6,4,2,8,18,12,6,0
+elephant1,Elephant-1,F05,Quantifiers and sets,9,4,9,5,4,1,0,9,4,5,0
+elephant1,Elephant-1,F06,Comparisons,7,7,7,4,4,0,3,7,7,4,0
+elephant1,Elephant-1,F07,Scheduling,54,27,54,22,18,4,9,54,27,22,0
+elephant1,Elephant-1,F08,One-to-one assignments,44,37,44,33,30,3,7,44,37,33,0
+elephant1,Elephant-1,F09,Exact truth counting,68,30,68,28,23,5,7,68,30,28,0
+elephant1,Elephant-1,F10,Truth-teller consistency,69,38,69,32,20,12,18,69,38,32,0
+elephant1,Elephant-1,F11,Sufficiency and inconsistency,29,18,29,22,16,6,2,29,18,22,0
+elephant1,Elephant-1,F12,Object swaps,43,19,43,18,13,5,6,43,19,18,0
+elephant1,Elephant-1,F13,Sequential procedures,47,11,47,10,6,4,5,47,11,10,0
+elephant1,Elephant-1,F14,Temporal intervals,25,8,25,17,4,13,4,25,8,17,0
+elephant1,Elephant-1,F15,Spatial tracking,35,15,35,13,11,2,4,35,15,13,0
+elephant1,Elephant-1,F16,Reference binding,35,10,35,15,3,12,7,35,10,15,0
+elephant1,Elephant-1,F17,Beliefs and perspectives,19,15,19,14,14,0,1,19,15,14,0
+elephant1,Elephant-1,F18,Causal intervention,37,21,37,26,19,7,2,37,21,26,0
+elephant1,Elephant-1,F19,Exceptions and priorities,24,20,24,21,18,3,2,24,20,21,0
+elephant1,Elephant-1,F20,Planning,16,11,16,13,11,2,0,16,11,13,0
+elephant1,Elephant-1,F22,Preference ordering,9,4,9,5,4,1,0,9,4,5,0
+elephant1,Elephant-1,F23,Rule counterexamples,14,12,14,11,11,0,1,14,12,11,0
+elephant1,Elephant-1,F24,Authority and stale records,8,5,8,5,4,1,1,8,5,5,0
+elephant1,Elephant-1,F25,Fault diagnosis,11,6,11,6,5,1,1,11,6,6,0
+elephant1,Elephant-1,F01,Lookup and filtering,5,2,5,0,0,0,2,5,2,0,0
+elephant1,Elephant-1,F21,Directed reachability,5,3,5,2,2,0,1,5,3,2,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F33,Quantitative reasoning,200,89,200,84,42,42,47,200,89,84,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F26,Probabilistic risk,30,22,30,13,12,1,10,30,22,13,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F27,Value of information,40,26,40,14,12,2,14,40,26,14,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F28,Robust decisions without a prior,39,15,39,4,4,0,11,39,15,4,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F29,Strategic decisions,39,26,39,24,19,5,7,39,26,24,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F30,Concurrent-history consistency,38,22,38,20,18,2,4,38,22,20,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F31,Information-flow security,36,27,36,18,15,3,12,35,26,18,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,P04,Selecting a tool or requesting clarification,35,14,35,13,9,4,5,35,14,13,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,P05,Checking authorization and scope,35,19,35,13,11,2,8,35,19,13,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,P01,Understanding requests and routing,31,28,31,19,19,0,9,31,28,19,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,P02,Recognizing multiple requested actions,34,32,34,20,19,1,13,34,32,20,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,P03,Tracking current conversational intention,33,33,33,14,14,0,19,33,33,14,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,P06,Making decisions with untrusted content,35,35,35,14,14,0,21,35,35,14,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,P07,Applying a contextual content policy,27,17,27,17,11,6,6,27,17,17,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,P08,Extracting and normalizing facts,36,17,36,9,5,4,12,36,17,9,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,P09,Checking claims against supplied evidence,32,24,32,15,15,0,9,32,24,15,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,P10,Assigning severity or priority from a rubric,31,22,31,10,3,7,19,31,22,10,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F32,Numerical pattern recognition,20,14,20,9,8,1,6,20,14,9,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F02,Forward conditionals,22,21,22,19,19,0,2,22,21,19,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F03,Necessary conditions,32,31,32,27,27,0,4,32,31,27,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F04,Boolean scope,18,15,18,6,6,0,9,18,15,6,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F05,Quantifiers and sets,9,5,9,5,3,2,2,9,5,5,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F06,Comparisons,7,6,7,4,4,0,2,7,6,4,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F07,Scheduling,54,41,54,22,21,1,20,54,41,22,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F08,One-to-one assignments,44,41,44,33,32,1,9,44,41,33,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F09,Exact truth counting,68,40,68,28,25,3,15,68,40,28,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F10,Truth-teller consistency,69,56,69,32,28,4,28,69,56,32,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F11,Sufficiency and inconsistency,29,26,29,22,20,2,6,29,26,22,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F12,Object swaps,43,22,43,18,14,4,8,43,22,18,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F13,Sequential procedures,47,23,47,10,8,2,15,47,23,10,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F14,Temporal intervals,25,25,25,17,17,0,8,25,25,17,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F15,Spatial tracking,35,28,35,13,11,2,17,35,28,13,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F16,Reference binding,35,24,35,15,14,1,10,35,24,15,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F17,Beliefs and perspectives,19,15,19,14,14,0,1,19,15,14,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F18,Causal intervention,37,33,37,26,26,0,7,37,33,26,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F19,Exceptions and priorities,24,21,24,21,20,1,1,24,21,21,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F20,Planning,16,12,16,13,12,1,0,16,12,13,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F22,Preference ordering,9,5,9,5,3,2,2,9,5,5,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F24,Authority and stale records,8,7,8,5,5,0,2,8,7,5,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F25,Fault diagnosis,11,9,11,6,6,0,3,11,9,6,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+fastino_glide_v23_bf16,Fastino GLiDE v2.3 BF16,F21,Directed reachability,5,3,5,2,2,0,1,5,3,2,0
+jev114,Jev 1.14,F33,Quantitative reasoning,200,100,200,84,52,32,48,200,100,84,0
+jev114,Jev 1.14,F26,Probabilistic risk,30,12,30,13,8,5,4,30,12,13,0
+jev114,Jev 1.14,F27,Value of information,40,22,40,14,11,3,11,40,22,14,0
+jev114,Jev 1.14,F28,Robust decisions without a prior,39,10,39,4,2,2,8,39,10,4,0
+jev114,Jev 1.14,F29,Strategic decisions,39,25,39,24,19,5,6,39,25,24,0
+jev114,Jev 1.14,F30,Concurrent-history consistency,38,21,38,20,17,3,4,38,21,20,0
+jev114,Jev 1.14,F31,Information-flow security,36,24,36,18,14,4,10,35,23,18,0
+jev114,Jev 1.14,P04,Selecting a tool or requesting clarification,35,18,35,13,8,5,10,35,18,13,0
+jev114,Jev 1.14,P05,Checking authorization and scope,35,17,35,13,11,2,6,35,17,13,0
+jev114,Jev 1.14,P01,Understanding requests and routing,31,18,31,19,16,3,2,31,18,19,0
+jev114,Jev 1.14,P02,Recognizing multiple requested actions,34,17,34,20,13,7,4,34,17,20,0
+jev114,Jev 1.14,P03,Tracking current conversational intention,33,19,33,14,9,5,10,33,19,14,0
+jev114,Jev 1.14,P06,Making decisions with untrusted content,35,20,35,14,6,8,14,35,20,14,0
+jev114,Jev 1.14,P07,Applying a contextual content policy,27,14,27,17,11,6,3,27,14,17,0
+jev114,Jev 1.14,P08,Extracting and normalizing facts,36,10,36,9,8,1,2,36,10,9,0
+jev114,Jev 1.14,P09,Checking claims against supplied evidence,32,18,32,15,14,1,4,32,18,15,0
+jev114,Jev 1.14,P10,Assigning severity or priority from a rubric,31,13,31,10,6,4,7,31,13,10,0
+jev114,Jev 1.14,F32,Numerical pattern recognition,20,13,20,9,7,2,6,20,13,9,0
+jev114,Jev 1.14,F02,Forward conditionals,22,22,22,19,19,0,3,22,22,19,0
+jev114,Jev 1.14,F03,Necessary conditions,32,28,32,27,25,2,3,32,28,27,0
+jev114,Jev 1.14,F04,Boolean scope,18,13,18,6,4,2,9,18,13,6,0
+jev114,Jev 1.14,F05,Quantifiers and sets,9,6,9,5,4,1,2,9,6,5,0
+jev114,Jev 1.14,F06,Comparisons,7,5,7,4,4,0,1,7,5,4,0
+jev114,Jev 1.14,F07,Scheduling,54,26,54,22,17,5,9,54,26,22,0
+jev114,Jev 1.14,F08,One-to-one assignments,44,34,44,33,28,5,6,44,34,33,0
+jev114,Jev 1.14,F09,Exact truth counting,68,25,68,28,20,8,5,68,25,28,0
+jev114,Jev 1.14,F10,Truth-teller consistency,69,34,69,32,23,9,11,69,34,32,0
+jev114,Jev 1.14,F11,Sufficiency and inconsistency,29,20,29,22,16,6,4,29,20,22,0
+jev114,Jev 1.14,F12,Object swaps,43,21,43,18,13,5,8,43,21,18,0
+jev114,Jev 1.14,F13,Sequential procedures,47,6,47,10,3,7,3,47,6,10,0
+jev114,Jev 1.14,F14,Temporal intervals,25,23,25,17,16,1,7,25,23,17,0
+jev114,Jev 1.14,F15,Spatial tracking,35,20,35,13,12,1,8,35,20,13,0
+jev114,Jev 1.14,F16,Reference binding,35,19,35,15,11,4,8,35,19,15,0
+jev114,Jev 1.14,F17,Beliefs and perspectives,19,13,19,14,9,5,4,19,13,14,0
+jev114,Jev 1.14,F18,Causal intervention,37,25,37,26,21,5,4,37,25,26,0
+jev114,Jev 1.14,F19,Exceptions and priorities,24,14,24,21,13,8,1,24,14,21,0
+jev114,Jev 1.14,F20,Planning,16,11,16,13,11,2,0,16,11,13,0
+jev114,Jev 1.14,F22,Preference ordering,9,6,9,5,4,1,2,9,6,5,0
+jev114,Jev 1.14,F23,Rule counterexamples,14,11,14,11,9,2,2,14,11,11,0
+jev114,Jev 1.14,F24,Authority and stale records,8,2,8,5,2,3,0,8,2,5,0
+jev114,Jev 1.14,F25,Fault diagnosis,11,6,11,6,6,0,0,11,6,6,0
+jev114,Jev 1.14,F01,Lookup and filtering,5,1,5,0,0,0,1,5,1,0,0
+jev114,Jev 1.14,F21,Directed reachability,5,4,5,2,1,1,3,5,4,2,0
+kettei_fat,kettei-fat,F33,Quantitative reasoning,200,57,200,84,23,61,34,200,57,84,0
+kettei_fat,kettei-fat,F26,Probabilistic risk,30,13,30,13,9,4,4,30,13,13,0
+kettei_fat,kettei-fat,F27,Value of information,40,25,40,14,13,1,12,40,25,14,0
+kettei_fat,kettei-fat,F28,Robust decisions without a prior,39,15,39,4,3,1,12,39,15,4,0
+kettei_fat,kettei-fat,F29,Strategic decisions,39,20,39,24,13,11,7,39,20,24,0
+kettei_fat,kettei-fat,F30,Concurrent-history consistency,38,24,38,20,18,2,6,38,24,20,0
+kettei_fat,kettei-fat,F31,Information-flow security,36,30,36,18,18,0,12,35,29,18,0
+kettei_fat,kettei-fat,P04,Selecting a tool or requesting clarification,35,17,35,13,8,5,9,35,17,13,0
+kettei_fat,kettei-fat,P05,Checking authorization and scope,35,21,35,13,12,1,9,35,21,13,0
+kettei_fat,kettei-fat,P01,Understanding requests and routing,31,30,31,19,19,0,11,31,30,19,0
+kettei_fat,kettei-fat,P02,Recognizing multiple requested actions,34,30,34,20,18,2,12,34,30,20,0
+kettei_fat,kettei-fat,P03,Tracking current conversational intention,33,33,33,14,14,0,19,33,33,14,0
+kettei_fat,kettei-fat,P06,Making decisions with untrusted content,35,34,35,14,14,0,20,35,34,14,0
+kettei_fat,kettei-fat,P07,Applying a contextual content policy,27,24,27,17,16,1,8,27,24,17,0
+kettei_fat,kettei-fat,P08,Extracting and normalizing facts,36,14,36,9,7,2,7,36,14,9,0
+kettei_fat,kettei-fat,P09,Checking claims against supplied evidence,32,23,32,15,12,3,11,32,23,15,0
+kettei_fat,kettei-fat,P10,Assigning severity or priority from a rubric,31,20,31,10,3,7,17,31,20,10,0
+kettei_fat,kettei-fat,F32,Numerical pattern recognition,20,8,20,9,4,5,4,20,8,9,0
+kettei_fat,kettei-fat,F02,Forward conditionals,22,22,22,19,19,0,3,22,22,19,0
+kettei_fat,kettei-fat,F03,Necessary conditions,32,30,32,27,26,1,4,32,30,27,0
+kettei_fat,kettei-fat,F04,Boolean scope,18,14,18,6,5,1,9,18,14,6,0
+kettei_fat,kettei-fat,F05,Quantifiers and sets,9,7,9,5,4,1,3,9,7,5,0
+kettei_fat,kettei-fat,F06,Comparisons,7,6,7,4,4,0,2,7,6,4,0
+kettei_fat,kettei-fat,F07,Scheduling,54,22,54,22,10,12,12,54,22,22,0
+kettei_fat,kettei-fat,F08,One-to-one assignments,44,30,44,33,24,9,6,44,30,33,0
+kettei_fat,kettei-fat,F09,Exact truth counting,68,16,68,28,13,15,3,68,16,28,0
+kettei_fat,kettei-fat,F10,Truth-teller consistency,69,38,69,32,21,11,17,69,38,32,0
+kettei_fat,kettei-fat,F11,Sufficiency and inconsistency,29,24,29,22,19,3,5,29,24,22,0
+kettei_fat,kettei-fat,F12,Object swaps,43,20,43,18,14,4,6,43,20,18,0
+kettei_fat,kettei-fat,F13,Sequential procedures,47,15,47,10,5,5,10,47,15,10,0
+kettei_fat,kettei-fat,F14,Temporal intervals,25,22,25,17,16,1,6,25,22,17,0
+kettei_fat,kettei-fat,F15,Spatial tracking,35,24,35,13,11,2,13,35,24,13,0
+kettei_fat,kettei-fat,F16,Reference binding,35,22,35,15,13,2,9,35,22,15,0
+kettei_fat,kettei-fat,F17,Beliefs and perspectives,19,12,19,14,11,3,1,19,12,14,0
+kettei_fat,kettei-fat,F18,Causal intervention,37,32,37,26,26,0,6,37,32,26,0
+kettei_fat,kettei-fat,F19,Exceptions and priorities,24,22,24,21,20,1,2,24,22,21,0
+kettei_fat,kettei-fat,F20,Planning,16,11,16,13,11,2,0,16,11,13,0
+kettei_fat,kettei-fat,F22,Preference ordering,9,6,9,5,4,1,2,9,6,5,0
+kettei_fat,kettei-fat,F23,Rule counterexamples,14,13,14,11,11,0,2,14,13,11,0
+kettei_fat,kettei-fat,F24,Authority and stale records,8,8,8,5,5,0,3,8,8,5,0
+kettei_fat,kettei-fat,F25,Fault diagnosis,11,7,11,6,6,0,1,11,7,6,0
+kettei_fat,kettei-fat,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+kettei_fat,kettei-fat,F21,Directed reachability,5,4,5,2,2,0,2,5,4,2,0
+levanto_sage_2,Levanto Sage 2,F33,Quantitative reasoning,200,76,200,84,37,47,39,200,76,84,0
+levanto_sage_2,Levanto Sage 2,F26,Probabilistic risk,30,14,30,13,9,4,5,30,14,13,0
+levanto_sage_2,Levanto Sage 2,F27,Value of information,40,24,40,14,11,3,13,40,24,14,0
+levanto_sage_2,Levanto Sage 2,F28,Robust decisions without a prior,39,15,39,4,3,1,12,39,15,4,0
+levanto_sage_2,Levanto Sage 2,F29,Strategic decisions,39,22,39,24,15,9,7,39,22,24,0
+levanto_sage_2,Levanto Sage 2,F30,Concurrent-history consistency,38,19,38,20,13,7,6,38,19,20,0
+levanto_sage_2,Levanto Sage 2,F31,Information-flow security,36,25,36,18,16,2,9,35,24,18,0
+levanto_sage_2,Levanto Sage 2,P04,Selecting a tool or requesting clarification,35,17,35,13,9,4,8,35,17,13,0
+levanto_sage_2,Levanto Sage 2,P05,Checking authorization and scope,35,18,35,13,10,3,8,35,18,13,0
+levanto_sage_2,Levanto Sage 2,P01,Understanding requests and routing,31,21,31,19,16,3,5,31,21,19,0
+levanto_sage_2,Levanto Sage 2,P02,Recognizing multiple requested actions,34,24,34,20,14,6,10,34,24,20,0
+levanto_sage_2,Levanto Sage 2,P03,Tracking current conversational intention,33,18,33,14,10,4,8,33,18,14,0
+levanto_sage_2,Levanto Sage 2,P06,Making decisions with untrusted content,35,30,35,14,12,2,18,35,30,14,0
+levanto_sage_2,Levanto Sage 2,P07,Applying a contextual content policy,27,19,27,17,13,4,6,27,19,17,0
+levanto_sage_2,Levanto Sage 2,P08,Extracting and normalizing facts,36,11,36,9,4,5,7,36,11,9,0
+levanto_sage_2,Levanto Sage 2,P09,Checking claims against supplied evidence,32,15,32,15,13,2,2,32,15,15,0
+levanto_sage_2,Levanto Sage 2,P10,Assigning severity or priority from a rubric,31,20,31,10,3,7,17,31,20,10,0
+levanto_sage_2,Levanto Sage 2,F32,Numerical pattern recognition,20,13,20,9,8,1,5,20,13,9,0
+levanto_sage_2,Levanto Sage 2,F02,Forward conditionals,22,20,22,19,19,0,1,22,20,19,0
+levanto_sage_2,Levanto Sage 2,F03,Necessary conditions,32,17,32,27,16,11,1,32,17,27,0
+levanto_sage_2,Levanto Sage 2,F04,Boolean scope,18,13,18,6,4,2,9,18,13,6,0
+levanto_sage_2,Levanto Sage 2,F05,Quantifiers and sets,9,5,9,5,3,2,2,9,5,5,0
+levanto_sage_2,Levanto Sage 2,F06,Comparisons,7,5,7,4,4,0,1,7,5,4,0
+levanto_sage_2,Levanto Sage 2,F07,Scheduling,54,32,54,22,20,2,12,54,32,22,0
+levanto_sage_2,Levanto Sage 2,F08,One-to-one assignments,44,34,44,33,26,7,8,44,34,33,0
+levanto_sage_2,Levanto Sage 2,F09,Exact truth counting,68,32,68,28,22,6,10,68,32,28,0
+levanto_sage_2,Levanto Sage 2,F10,Truth-teller consistency,69,39,69,32,22,10,17,69,39,32,0
+levanto_sage_2,Levanto Sage 2,F11,Sufficiency and inconsistency,29,24,29,22,18,4,6,29,24,22,0
+levanto_sage_2,Levanto Sage 2,F12,Object swaps,43,24,43,18,12,6,12,43,24,18,0
+levanto_sage_2,Levanto Sage 2,F13,Sequential procedures,47,17,47,10,10,0,7,47,17,10,0
+levanto_sage_2,Levanto Sage 2,F14,Temporal intervals,25,20,25,17,13,4,7,25,20,17,0
+levanto_sage_2,Levanto Sage 2,F15,Spatial tracking,35,24,35,13,11,2,13,35,24,13,0
+levanto_sage_2,Levanto Sage 2,F16,Reference binding,35,21,35,15,12,3,9,35,21,15,0
+levanto_sage_2,Levanto Sage 2,F17,Beliefs and perspectives,19,11,19,14,9,5,2,19,11,14,0
+levanto_sage_2,Levanto Sage 2,F18,Causal intervention,37,23,37,26,16,10,7,37,23,26,0
+levanto_sage_2,Levanto Sage 2,F19,Exceptions and priorities,24,20,24,21,18,3,2,24,20,21,0
+levanto_sage_2,Levanto Sage 2,F20,Planning,16,12,16,13,12,1,0,16,12,13,0
+levanto_sage_2,Levanto Sage 2,F22,Preference ordering,9,5,9,5,3,2,2,9,5,5,0
+levanto_sage_2,Levanto Sage 2,F23,Rule counterexamples,14,13,14,11,10,1,3,14,13,11,0
+levanto_sage_2,Levanto Sage 2,F24,Authority and stale records,8,5,8,5,3,2,2,8,5,5,0
+levanto_sage_2,Levanto Sage 2,F25,Fault diagnosis,11,5,11,6,5,1,0,11,5,6,0
+levanto_sage_2,Levanto Sage 2,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+levanto_sage_2,Levanto Sage 2,F21,Directed reachability,5,4,5,2,2,0,2,5,4,2,0
+liquid11_decision,Liquid d1.1,F33,Quantitative reasoning,200,72,199,84,41,43,31,199,72,84,0
+liquid11_decision,Liquid d1.1,F26,Probabilistic risk,30,15,30,13,11,2,4,30,15,13,0
+liquid11_decision,Liquid d1.1,F27,Value of information,40,21,40,14,12,2,9,40,21,14,0
+liquid11_decision,Liquid d1.1,F28,Robust decisions without a prior,39,9,39,4,2,2,7,39,9,4,0
+liquid11_decision,Liquid d1.1,F29,Strategic decisions,39,22,39,24,17,7,5,39,22,24,0
+liquid11_decision,Liquid d1.1,F30,Concurrent-history consistency,38,18,38,20,16,4,2,38,18,20,0
+liquid11_decision,Liquid d1.1,F31,Information-flow security,36,15,36,18,10,8,5,35,14,18,0
+liquid11_decision,Liquid d1.1,P04,Selecting a tool or requesting clarification,35,17,35,13,7,6,10,35,17,13,0
+liquid11_decision,Liquid d1.1,P05,Checking authorization and scope,35,17,35,13,11,2,6,35,17,13,0
+liquid11_decision,Liquid d1.1,P01,Understanding requests and routing,31,16,31,19,12,7,4,31,16,19,0
+liquid11_decision,Liquid d1.1,P02,Recognizing multiple requested actions,34,24,34,20,14,6,10,34,24,20,0
+liquid11_decision,Liquid d1.1,P03,Tracking current conversational intention,33,24,33,14,12,2,12,33,24,14,0
+liquid11_decision,Liquid d1.1,P06,Making decisions with untrusted content,35,26,35,14,11,3,15,35,26,14,0
+liquid11_decision,Liquid d1.1,P07,Applying a contextual content policy,27,15,27,17,10,7,5,27,15,17,0
+liquid11_decision,Liquid d1.1,P08,Extracting and normalizing facts,36,13,36,9,8,1,5,36,13,9,0
+liquid11_decision,Liquid d1.1,P09,Checking claims against supplied evidence,32,12,32,15,7,8,5,32,12,15,0
+liquid11_decision,Liquid d1.1,P10,Assigning severity or priority from a rubric,31,14,31,10,10,0,4,31,14,10,0
+liquid11_decision,Liquid d1.1,F32,Numerical pattern recognition,20,16,20,9,9,0,7,20,16,9,0
+liquid11_decision,Liquid d1.1,F02,Forward conditionals,22,21,22,19,19,0,2,22,21,19,0
+liquid11_decision,Liquid d1.1,F03,Necessary conditions,32,30,32,27,26,1,4,32,30,27,0
+liquid11_decision,Liquid d1.1,F04,Boolean scope,18,8,18,6,5,1,3,18,8,6,0
+liquid11_decision,Liquid d1.1,F05,Quantifiers and sets,9,4,9,5,4,1,0,9,4,5,0
+liquid11_decision,Liquid d1.1,F06,Comparisons,7,5,7,4,3,1,2,7,5,4,0
+liquid11_decision,Liquid d1.1,F07,Scheduling,54,30,54,22,17,5,13,54,30,22,0
+liquid11_decision,Liquid d1.1,F08,One-to-one assignments,44,24,44,33,18,15,6,44,24,33,0
+liquid11_decision,Liquid d1.1,F09,Exact truth counting,68,44,68,28,25,3,19,68,44,28,0
+liquid11_decision,Liquid d1.1,F10,Truth-teller consistency,69,41,69,32,20,12,21,69,41,32,0
+liquid11_decision,Liquid d1.1,F11,Sufficiency and inconsistency,29,22,29,22,17,5,5,29,22,22,0
+liquid11_decision,Liquid d1.1,F12,Object swaps,43,18,43,18,12,6,6,43,18,18,0
+liquid11_decision,Liquid d1.1,F13,Sequential procedures,47,9,47,10,4,6,5,47,9,10,0
+liquid11_decision,Liquid d1.1,F14,Temporal intervals,25,21,25,17,13,4,8,25,21,17,0
+liquid11_decision,Liquid d1.1,F15,Spatial tracking,35,18,35,13,10,3,8,35,18,13,0
+liquid11_decision,Liquid d1.1,F16,Reference binding,35,21,35,15,12,3,9,35,21,15,0
+liquid11_decision,Liquid d1.1,F17,Beliefs and perspectives,19,11,19,14,8,6,3,19,11,14,0
+liquid11_decision,Liquid d1.1,F18,Causal intervention,37,24,37,26,20,6,4,37,24,26,0
+liquid11_decision,Liquid d1.1,F19,Exceptions and priorities,24,19,24,21,18,3,1,24,19,21,0
+liquid11_decision,Liquid d1.1,F20,Planning,16,11,16,13,11,2,0,16,11,13,0
+liquid11_decision,Liquid d1.1,F22,Preference ordering,9,4,9,5,3,2,1,9,4,5,0
+liquid11_decision,Liquid d1.1,F23,Rule counterexamples,14,13,14,11,11,0,2,14,13,11,0
+liquid11_decision,Liquid d1.1,F24,Authority and stale records,8,5,8,5,4,1,1,8,5,5,0
+liquid11_decision,Liquid d1.1,F25,Fault diagnosis,11,5,11,6,5,1,0,11,5,6,0
+liquid11_decision,Liquid d1.1,F01,Lookup and filtering,5,1,5,0,0,0,1,5,1,0,0
+liquid11_decision,Liquid d1.1,F21,Directed reachability,5,2,5,2,2,0,0,5,2,2,0
+liquid_d1,Liquid d1,F33,Quantitative reasoning,200,70,200,84,32,52,38,200,70,84,0
+liquid_d1,Liquid d1,F26,Probabilistic risk,30,11,30,13,8,5,3,30,11,13,0
+liquid_d1,Liquid d1,F27,Value of information,40,22,40,14,12,2,10,40,22,14,0
+liquid_d1,Liquid d1,F28,Robust decisions without a prior,39,9,39,4,2,2,7,39,9,4,0
+liquid_d1,Liquid d1,F29,Strategic decisions,39,24,39,24,21,3,3,39,24,24,0
+liquid_d1,Liquid d1,F30,Concurrent-history consistency,38,18,38,20,14,6,4,38,18,20,0
+liquid_d1,Liquid d1,F31,Information-flow security,36,19,36,18,11,7,8,35,18,18,0
+liquid_d1,Liquid d1,P04,Selecting a tool or requesting clarification,35,16,35,13,7,6,9,35,16,13,0
+liquid_d1,Liquid d1,P05,Checking authorization and scope,35,17,35,13,10,3,7,35,17,13,0
+liquid_d1,Liquid d1,P01,Understanding requests and routing,31,19,31,19,15,4,4,31,19,19,0
+liquid_d1,Liquid d1,P02,Recognizing multiple requested actions,34,20,34,20,14,6,6,34,20,20,0
+liquid_d1,Liquid d1,P03,Tracking current conversational intention,33,14,33,14,8,6,6,33,14,14,0
+liquid_d1,Liquid d1,P06,Making decisions with untrusted content,35,16,35,14,7,7,9,35,16,14,0
+liquid_d1,Liquid d1,P07,Applying a contextual content policy,27,17,27,17,13,4,4,27,17,17,0
+liquid_d1,Liquid d1,P08,Extracting and normalizing facts,36,10,36,9,4,5,6,36,10,9,0
+liquid_d1,Liquid d1,P09,Checking claims against supplied evidence,32,13,32,15,10,5,3,32,13,15,0
+liquid_d1,Liquid d1,P10,Assigning severity or priority from a rubric,31,12,31,10,3,7,9,31,12,10,0
+liquid_d1,Liquid d1,F32,Numerical pattern recognition,20,10,20,9,5,4,5,20,10,9,0
+liquid_d1,Liquid d1,F02,Forward conditionals,22,17,22,19,15,4,2,22,17,19,0
+liquid_d1,Liquid d1,F03,Necessary conditions,32,15,32,27,12,15,3,32,15,27,0
+liquid_d1,Liquid d1,F04,Boolean scope,18,14,18,6,4,2,10,18,14,6,0
+liquid_d1,Liquid d1,F05,Quantifiers and sets,9,2,9,5,2,3,0,9,2,5,0
+liquid_d1,Liquid d1,F06,Comparisons,7,5,7,4,2,2,3,7,5,4,0
+liquid_d1,Liquid d1,F07,Scheduling,54,25,54,22,16,6,9,54,25,22,0
+liquid_d1,Liquid d1,F08,One-to-one assignments,44,25,44,33,18,15,7,44,25,33,0
+liquid_d1,Liquid d1,F09,Exact truth counting,68,20,68,28,15,13,5,68,20,28,0
+liquid_d1,Liquid d1,F10,Truth-teller consistency,69,35,69,32,16,16,19,69,35,32,0
+liquid_d1,Liquid d1,F11,Sufficiency and inconsistency,29,20,29,22,16,6,4,29,20,22,0
+liquid_d1,Liquid d1,F12,Object swaps,43,24,43,18,12,6,12,43,24,18,0
+liquid_d1,Liquid d1,F13,Sequential procedures,47,8,47,10,5,5,3,47,8,10,0
+liquid_d1,Liquid d1,F14,Temporal intervals,25,20,25,17,13,4,7,25,20,17,0
+liquid_d1,Liquid d1,F15,Spatial tracking,35,10,35,13,5,8,5,35,10,13,0
+liquid_d1,Liquid d1,F16,Reference binding,35,14,35,15,7,8,7,35,14,15,0
+liquid_d1,Liquid d1,F17,Beliefs and perspectives,19,10,19,14,9,5,1,19,10,14,0
+liquid_d1,Liquid d1,F18,Causal intervention,37,15,37,26,11,15,4,37,15,26,0
+liquid_d1,Liquid d1,F19,Exceptions and priorities,24,17,24,21,16,5,1,24,17,21,0
+liquid_d1,Liquid d1,F20,Planning,16,12,16,13,12,1,0,16,12,13,0
+liquid_d1,Liquid d1,F22,Preference ordering,9,4,9,5,4,1,0,9,4,5,0
+liquid_d1,Liquid d1,F23,Rule counterexamples,14,11,14,11,10,1,1,14,11,11,0
+liquid_d1,Liquid d1,F24,Authority and stale records,8,3,8,5,2,3,1,8,3,5,0
+liquid_d1,Liquid d1,F25,Fault diagnosis,11,7,11,6,6,0,1,11,7,6,0
+liquid_d1,Liquid d1,F01,Lookup and filtering,5,2,5,0,0,0,2,5,2,0,0
+liquid_d1,Liquid d1,F21,Directed reachability,5,2,5,2,1,1,1,5,2,2,0
+liquid_ultra,Liquid d1-ultra,F33,Quantitative reasoning,200,126,199,84,60,24,66,199,126,84,0
+liquid_ultra,Liquid d1-ultra,F26,Probabilistic risk,30,18,30,13,12,1,6,30,18,13,0
+liquid_ultra,Liquid d1-ultra,F27,Value of information,40,22,40,14,10,4,12,40,22,14,0
+liquid_ultra,Liquid d1-ultra,F28,Robust decisions without a prior,39,13,39,4,3,1,10,39,13,4,0
+liquid_ultra,Liquid d1-ultra,F29,Strategic decisions,39,26,39,24,20,4,6,39,26,24,0
+liquid_ultra,Liquid d1-ultra,F30,Concurrent-history consistency,38,20,38,20,18,2,2,38,20,20,0
+liquid_ultra,Liquid d1-ultra,F31,Information-flow security,36,28,36,18,15,3,13,35,27,18,0
+liquid_ultra,Liquid d1-ultra,P04,Selecting a tool or requesting clarification,35,16,35,13,9,4,7,35,16,13,0
+liquid_ultra,Liquid d1-ultra,P05,Checking authorization and scope,35,18,35,13,11,2,7,35,18,13,0
+liquid_ultra,Liquid d1-ultra,P01,Understanding requests and routing,31,24,31,19,19,0,5,31,24,19,0
+liquid_ultra,Liquid d1-ultra,P02,Recognizing multiple requested actions,34,29,34,20,17,3,12,34,29,20,0
+liquid_ultra,Liquid d1-ultra,P03,Tracking current conversational intention,33,32,33,14,14,0,18,33,32,14,0
+liquid_ultra,Liquid d1-ultra,P06,Making decisions with untrusted content,35,31,35,14,13,1,18,35,31,14,0
+liquid_ultra,Liquid d1-ultra,P07,Applying a contextual content policy,27,20,27,17,13,4,7,27,20,17,0
+liquid_ultra,Liquid d1-ultra,P08,Extracting and normalizing facts,36,16,36,9,8,1,8,36,16,9,0
+liquid_ultra,Liquid d1-ultra,P09,Checking claims against supplied evidence,32,19,32,15,10,5,9,32,19,15,0
+liquid_ultra,Liquid d1-ultra,P10,Assigning severity or priority from a rubric,31,19,31,10,3,7,16,31,19,10,0
+liquid_ultra,Liquid d1-ultra,F32,Numerical pattern recognition,20,15,20,9,9,0,6,20,15,9,0
+liquid_ultra,Liquid d1-ultra,F02,Forward conditionals,22,20,22,19,19,0,1,22,20,19,0
+liquid_ultra,Liquid d1-ultra,F03,Necessary conditions,32,30,32,27,26,1,4,32,30,27,0
+liquid_ultra,Liquid d1-ultra,F04,Boolean scope,18,15,18,6,5,1,10,18,15,6,0
+liquid_ultra,Liquid d1-ultra,F05,Quantifiers and sets,9,5,9,5,4,1,1,9,5,5,0
+liquid_ultra,Liquid d1-ultra,F06,Comparisons,7,6,7,4,4,0,2,7,6,4,0
+liquid_ultra,Liquid d1-ultra,F07,Scheduling,54,35,54,22,21,1,14,54,35,22,0
+liquid_ultra,Liquid d1-ultra,F08,One-to-one assignments,44,32,44,33,26,7,6,44,32,33,0
+liquid_ultra,Liquid d1-ultra,F09,Exact truth counting,68,39,68,28,23,5,16,68,39,28,0
+liquid_ultra,Liquid d1-ultra,F10,Truth-teller consistency,69,41,68,32,22,10,19,68,41,31,1
+liquid_ultra,Liquid d1-ultra,F11,Sufficiency and inconsistency,29,23,29,22,19,3,4,29,23,22,0
+liquid_ultra,Liquid d1-ultra,F12,Object swaps,43,18,43,18,16,2,2,43,18,18,0
+liquid_ultra,Liquid d1-ultra,F13,Sequential procedures,47,10,47,10,5,5,5,47,10,10,0
+liquid_ultra,Liquid d1-ultra,F14,Temporal intervals,25,21,25,17,14,3,7,25,21,17,0
+liquid_ultra,Liquid d1-ultra,F15,Spatial tracking,35,24,35,13,12,1,12,35,24,13,0
+liquid_ultra,Liquid d1-ultra,F16,Reference binding,35,19,35,15,12,3,7,35,19,15,0
+liquid_ultra,Liquid d1-ultra,F17,Beliefs and perspectives,19,14,19,14,11,3,3,19,14,14,0
+liquid_ultra,Liquid d1-ultra,F18,Causal intervention,37,27,37,26,22,4,5,37,27,26,0
+liquid_ultra,Liquid d1-ultra,F19,Exceptions and priorities,24,23,24,21,20,1,3,24,23,21,0
+liquid_ultra,Liquid d1-ultra,F20,Planning,16,12,16,13,12,1,0,16,12,13,0
+liquid_ultra,Liquid d1-ultra,F22,Preference ordering,9,5,9,5,4,1,1,9,5,5,0
+liquid_ultra,Liquid d1-ultra,F23,Rule counterexamples,14,13,14,11,11,0,2,14,13,11,0
+liquid_ultra,Liquid d1-ultra,F24,Authority and stale records,8,7,8,5,5,0,2,8,7,5,0
+liquid_ultra,Liquid d1-ultra,F25,Fault diagnosis,11,6,11,6,5,1,1,11,6,6,0
+liquid_ultra,Liquid d1-ultra,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+liquid_ultra,Liquid d1-ultra,F21,Directed reachability,5,2,5,2,1,1,1,5,2,2,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F33,Quantitative reasoning,200,58,200,84,28,56,30,200,58,84,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F26,Probabilistic risk,30,15,30,13,11,2,4,30,15,13,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F27,Value of information,40,20,40,14,10,4,10,40,20,14,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F28,Robust decisions without a prior,39,5,29,4,1,3,4,29,5,3,1
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F29,Strategic decisions,39,21,39,24,16,8,5,39,21,24,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F30,Concurrent-history consistency,38,4,6,20,1,19,3,6,4,2,18
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F31,Information-flow security,36,9,12,18,7,11,2,12,9,8,10
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,P04,Selecting a tool or requesting clarification,35,16,35,13,7,6,9,35,16,13,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,P05,Checking authorization and scope,35,2,3,13,2,11,0,3,2,2,11
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,P01,Understanding requests and routing,31,13,31,19,10,9,3,31,13,19,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,P02,Recognizing multiple requested actions,34,17,34,20,10,10,7,34,17,20,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,P03,Tracking current conversational intention,33,15,33,14,11,3,4,33,15,14,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,P06,Making decisions with untrusted content,35,10,35,14,8,6,2,35,10,14,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,P07,Applying a contextual content policy,27,1,7,17,1,16,0,7,1,4,13
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,P08,Extracting and normalizing facts,36,10,36,9,7,2,3,36,10,9,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,P09,Checking claims against supplied evidence,32,8,32,15,3,12,5,32,8,15,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,P10,Assigning severity or priority from a rubric,31,2,3,10,2,8,0,3,2,3,7
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F32,Numerical pattern recognition,20,10,20,9,5,4,5,20,10,9,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F02,Forward conditionals,22,20,22,19,19,0,1,22,20,19,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F03,Necessary conditions,32,8,32,27,7,20,1,32,8,27,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F04,Boolean scope,18,9,18,6,5,1,4,18,9,6,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F05,Quantifiers and sets,9,6,9,5,4,1,2,9,6,5,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F06,Comparisons,7,7,7,4,4,0,3,7,7,4,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F07,Scheduling,54,21,54,22,12,10,9,54,21,22,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F08,One-to-one assignments,44,30,44,33,25,8,5,44,30,33,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F09,Exact truth counting,68,32,68,28,24,4,8,68,32,28,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F10,Truth-teller consistency,69,31,69,32,14,18,17,69,31,32,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F11,Sufficiency and inconsistency,29,22,29,22,18,4,4,29,22,22,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F12,Object swaps,43,17,43,18,13,5,4,43,17,18,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F13,Sequential procedures,47,10,47,10,6,4,4,47,10,10,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F14,Temporal intervals,25,20,25,17,15,2,5,25,20,17,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F15,Spatial tracking,35,17,34,13,11,2,6,34,17,12,1
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F16,Reference binding,35,16,35,15,11,4,5,35,16,15,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F17,Beliefs and perspectives,19,13,19,14,10,4,3,19,13,14,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F18,Causal intervention,37,23,37,26,17,9,6,37,23,26,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F19,Exceptions and priorities,24,17,24,21,15,6,2,24,17,21,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F20,Planning,16,10,16,13,10,3,0,16,10,13,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F22,Preference ordering,9,5,9,5,3,2,2,9,5,5,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F23,Rule counterexamples,14,12,14,11,11,0,1,14,12,11,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F24,Authority and stale records,8,5,8,5,4,1,1,8,5,5,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F25,Fault diagnosis,11,6,11,6,6,0,0,11,6,6,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+local_cerno4b_nf4,Cerno 4B v1.2 NF4,F21,Directed reachability,5,2,5,2,1,1,1,5,2,2,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F33,Quantitative reasoning,200,87,200,84,76,8,11,200,87,84,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F26,Probabilistic risk,30,10,30,13,9,4,1,30,10,13,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F27,Value of information,40,10,40,14,9,5,1,40,10,14,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F28,Robust decisions without a prior,39,3,16,4,2,2,1,16,3,2,2
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F29,Strategic decisions,39,28,39,24,23,1,5,39,28,24,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F30,Concurrent-history consistency,38,3,6,20,2,18,1,6,3,2,18
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F31,Information-flow security,36,6,10,18,6,12,0,10,6,7,11
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,P04,Selecting a tool or requesting clarification,35,13,35,13,13,0,0,35,13,13,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,P05,Checking authorization and scope,35,2,3,13,2,11,0,3,2,2,11
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,P01,Understanding requests and routing,31,16,31,19,15,4,1,31,16,19,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,P02,Recognizing multiple requested actions,34,17,34,20,15,5,2,34,17,20,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,P03,Tracking current conversational intention,33,15,33,14,11,3,4,33,15,14,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,P06,Making decisions with untrusted content,35,14,35,14,12,2,2,35,14,14,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,P07,Applying a contextual content policy,27,2,7,17,2,15,0,7,2,4,13
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,P08,Extracting and normalizing facts,36,12,36,9,8,1,4,36,12,9,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,P09,Checking claims against supplied evidence,32,14,32,15,14,1,0,32,14,15,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,P10,Assigning severity or priority from a rubric,31,3,3,10,3,7,0,3,3,3,7
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F32,Numerical pattern recognition,20,9,20,9,9,0,0,20,9,9,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F02,Forward conditionals,22,19,22,19,19,0,0,22,19,19,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F03,Necessary conditions,32,27,32,27,26,1,1,32,27,27,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F04,Boolean scope,18,5,18,6,5,1,0,18,5,6,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F05,Quantifiers and sets,9,5,9,5,4,1,1,9,5,5,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F06,Comparisons,7,3,7,4,3,1,0,7,3,4,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F07,Scheduling,54,21,54,22,19,3,2,54,21,22,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F08,One-to-one assignments,44,34,44,33,31,2,3,44,34,33,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F09,Exact truth counting,68,33,68,28,27,1,6,68,33,28,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F10,Truth-teller consistency,69,35,68,32,30,2,5,68,35,32,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F11,Sufficiency and inconsistency,29,20,29,22,19,3,1,29,20,22,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F12,Object swaps,43,15,43,18,15,3,0,43,15,18,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F13,Sequential procedures,47,13,47,10,10,0,3,47,13,10,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F14,Temporal intervals,25,8,25,17,7,10,1,25,8,17,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F15,Spatial tracking,35,10,34,13,9,4,1,34,10,12,1
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F16,Reference binding,35,19,35,15,15,0,4,35,19,15,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F17,Beliefs and perspectives,19,14,19,14,14,0,0,19,14,14,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F18,Causal intervention,37,27,37,26,24,2,3,37,27,26,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F19,Exceptions and priorities,24,17,24,21,16,5,1,24,17,21,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F20,Planning,16,14,16,13,13,0,1,16,14,13,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F22,Preference ordering,9,6,9,5,5,0,1,9,6,5,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F23,Rule counterexamples,14,10,14,11,10,1,0,14,10,11,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F24,Authority and stale records,8,4,8,5,4,1,0,8,4,5,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F25,Fault diagnosis,11,6,11,6,6,0,0,11,6,6,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F01,Lookup and filtering,5,0,4,0,0,0,0,4,0,0,0
+local_d3_flash_artemis_iq3_m,D3 Artemis 9B IQ3_M,F21,Directed reachability,5,2,5,2,2,0,0,5,2,2,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F33,Quantitative reasoning,200,75,200,84,43,41,32,200,75,84,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F26,Probabilistic risk,30,9,30,13,9,4,0,30,9,13,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F27,Value of information,40,20,40,14,10,4,10,40,20,14,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F28,Robust decisions without a prior,39,8,39,4,4,0,4,39,8,4,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F29,Strategic decisions,39,26,39,24,21,3,5,39,26,24,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F30,Concurrent-history consistency,38,18,38,20,16,4,2,38,18,20,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F31,Information-flow security,36,14,36,18,13,5,1,35,13,18,0
+local_startlux_instant4b,StartLux Instant 4B Q8,P04,Selecting a tool or requesting clarification,35,18,35,13,8,5,10,35,18,13,0
+local_startlux_instant4b,StartLux Instant 4B Q8,P05,Checking authorization and scope,35,15,35,13,11,2,4,35,15,13,0
+local_startlux_instant4b,StartLux Instant 4B Q8,P01,Understanding requests and routing,31,19,31,19,15,4,4,31,19,19,0
+local_startlux_instant4b,StartLux Instant 4B Q8,P02,Recognizing multiple requested actions,34,16,34,20,14,6,2,34,16,20,0
+local_startlux_instant4b,StartLux Instant 4B Q8,P03,Tracking current conversational intention,33,14,33,14,9,5,5,33,14,14,0
+local_startlux_instant4b,StartLux Instant 4B Q8,P06,Making decisions with untrusted content,35,18,35,14,8,6,10,35,18,14,0
+local_startlux_instant4b,StartLux Instant 4B Q8,P07,Applying a contextual content policy,27,8,27,17,4,13,4,27,8,17,0
+local_startlux_instant4b,StartLux Instant 4B Q8,P08,Extracting and normalizing facts,36,9,36,9,4,5,5,36,9,9,0
+local_startlux_instant4b,StartLux Instant 4B Q8,P09,Checking claims against supplied evidence,32,11,32,15,5,10,6,32,11,15,0
+local_startlux_instant4b,StartLux Instant 4B Q8,P10,Assigning severity or priority from a rubric,31,11,31,10,2,8,9,31,11,10,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F32,Numerical pattern recognition,20,11,20,9,5,4,6,20,11,9,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F02,Forward conditionals,22,19,22,19,18,1,1,22,19,19,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F03,Necessary conditions,32,27,32,27,24,3,3,32,27,27,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F04,Boolean scope,18,6,18,6,4,2,2,18,6,6,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F05,Quantifiers and sets,9,4,9,5,4,1,0,9,4,5,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F06,Comparisons,7,4,7,4,3,1,1,7,4,4,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F07,Scheduling,54,17,54,22,12,10,5,54,17,22,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F08,One-to-one assignments,44,30,44,33,23,10,7,44,30,33,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F09,Exact truth counting,68,32,68,28,26,2,6,68,32,28,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F10,Truth-teller consistency,69,41,69,32,25,7,16,69,41,32,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F11,Sufficiency and inconsistency,29,14,29,22,13,9,1,29,14,22,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F12,Object swaps,43,16,43,18,11,7,5,43,16,18,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F13,Sequential procedures,47,9,47,10,5,5,4,47,9,10,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F14,Temporal intervals,25,15,25,17,12,5,3,25,15,17,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F15,Spatial tracking,35,12,35,13,9,4,3,35,12,13,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F16,Reference binding,35,25,35,15,15,0,10,35,25,15,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F17,Beliefs and perspectives,19,7,19,14,6,8,1,19,7,14,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F18,Causal intervention,37,15,37,26,12,14,3,37,15,26,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F19,Exceptions and priorities,24,20,24,21,19,2,1,24,20,21,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F20,Planning,16,13,16,13,13,0,0,16,13,13,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F22,Preference ordering,9,5,9,5,3,2,2,9,5,5,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F23,Rule counterexamples,14,10,14,11,10,1,0,14,10,11,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F24,Authority and stale records,8,7,8,5,5,0,2,8,7,5,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F25,Fault diagnosis,11,6,11,6,6,0,0,11,6,6,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F01,Lookup and filtering,5,1,5,0,0,0,1,5,1,0,0
+local_startlux_instant4b,StartLux Instant 4B Q8,F21,Directed reachability,5,3,5,2,2,0,1,5,3,2,0
+mammoth1,Mammoth-1 (latest named alias),F33,Quantitative reasoning,200,92,200,84,45,39,47,200,92,84,0
+mammoth1,Mammoth-1 (latest named alias),F26,Probabilistic risk,30,18,30,13,11,2,7,30,18,13,0
+mammoth1,Mammoth-1 (latest named alias),F27,Value of information,40,26,40,14,12,2,14,40,26,14,0
+mammoth1,Mammoth-1 (latest named alias),F28,Robust decisions without a prior,39,9,39,4,3,1,6,39,9,4,0
+mammoth1,Mammoth-1 (latest named alias),F29,Strategic decisions,39,30,39,24,21,3,9,39,30,24,0
+mammoth1,Mammoth-1 (latest named alias),F30,Concurrent-history consistency,38,22,38,20,16,4,6,38,22,20,0
+mammoth1,Mammoth-1 (latest named alias),F31,Information-flow security,36,27,36,18,16,2,11,35,26,18,0
+mammoth1,Mammoth-1 (latest named alias),P04,Selecting a tool or requesting clarification,35,18,35,13,9,4,9,35,18,13,0
+mammoth1,Mammoth-1 (latest named alias),P05,Checking authorization and scope,35,16,35,13,11,2,5,35,16,13,0
+mammoth1,Mammoth-1 (latest named alias),P01,Understanding requests and routing,31,29,31,19,18,1,11,31,29,19,0
+mammoth1,Mammoth-1 (latest named alias),P02,Recognizing multiple requested actions,34,26,34,20,16,4,10,34,26,20,0
+mammoth1,Mammoth-1 (latest named alias),P03,Tracking current conversational intention,33,33,33,14,14,0,19,33,33,14,0
+mammoth1,Mammoth-1 (latest named alias),P06,Making decisions with untrusted content,35,31,35,14,14,0,17,35,31,14,0
+mammoth1,Mammoth-1 (latest named alias),P07,Applying a contextual content policy,27,16,27,17,10,7,6,27,16,17,0
+mammoth1,Mammoth-1 (latest named alias),P08,Extracting and normalizing facts,36,17,36,9,8,1,9,36,17,9,0
+mammoth1,Mammoth-1 (latest named alias),P09,Checking claims against supplied evidence,32,23,32,15,13,2,10,32,23,15,0
+mammoth1,Mammoth-1 (latest named alias),P10,Assigning severity or priority from a rubric,31,21,30,10,3,7,18,30,21,10,0
+mammoth1,Mammoth-1 (latest named alias),F32,Numerical pattern recognition,20,16,20,9,9,0,7,20,16,9,0
+mammoth1,Mammoth-1 (latest named alias),F02,Forward conditionals,22,21,22,19,19,0,2,22,21,19,0
+mammoth1,Mammoth-1 (latest named alias),F03,Necessary conditions,32,30,32,27,27,0,3,32,30,27,0
+mammoth1,Mammoth-1 (latest named alias),F04,Boolean scope,18,15,18,6,5,1,10,18,15,6,0
+mammoth1,Mammoth-1 (latest named alias),F05,Quantifiers and sets,9,3,9,5,3,2,0,9,3,5,0
+mammoth1,Mammoth-1 (latest named alias),F06,Comparisons,7,6,7,4,4,0,2,7,6,4,0
+mammoth1,Mammoth-1 (latest named alias),F07,Scheduling,54,37,54,22,19,3,18,54,37,22,0
+mammoth1,Mammoth-1 (latest named alias),F08,One-to-one assignments,44,41,44,33,32,1,9,44,41,33,0
+mammoth1,Mammoth-1 (latest named alias),F09,Exact truth counting,68,41,68,28,24,4,17,68,41,28,0
+mammoth1,Mammoth-1 (latest named alias),F10,Truth-teller consistency,69,43,69,32,25,7,18,69,43,32,0
+mammoth1,Mammoth-1 (latest named alias),F11,Sufficiency and inconsistency,29,26,29,22,21,1,5,29,26,22,0
+mammoth1,Mammoth-1 (latest named alias),F12,Object swaps,43,29,43,18,14,4,15,43,29,18,0
+mammoth1,Mammoth-1 (latest named alias),F13,Sequential procedures,47,17,47,10,6,4,11,47,17,10,0
+mammoth1,Mammoth-1 (latest named alias),F14,Temporal intervals,25,23,25,17,16,1,7,25,23,17,0
+mammoth1,Mammoth-1 (latest named alias),F15,Spatial tracking,35,24,35,13,12,1,12,35,24,13,0
+mammoth1,Mammoth-1 (latest named alias),F16,Reference binding,35,22,35,15,14,1,8,35,22,15,0
+mammoth1,Mammoth-1 (latest named alias),F17,Beliefs and perspectives,19,16,19,14,14,0,2,19,16,14,0
+mammoth1,Mammoth-1 (latest named alias),F18,Causal intervention,37,31,37,26,24,2,7,37,31,26,0
+mammoth1,Mammoth-1 (latest named alias),F19,Exceptions and priorities,24,23,24,21,21,0,2,24,23,21,0
+mammoth1,Mammoth-1 (latest named alias),F20,Planning,16,12,16,13,11,2,1,16,12,13,0
+mammoth1,Mammoth-1 (latest named alias),F22,Preference ordering,9,6,9,5,4,1,2,9,6,5,0
+mammoth1,Mammoth-1 (latest named alias),F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+mammoth1,Mammoth-1 (latest named alias),F24,Authority and stale records,8,7,8,5,5,0,2,8,7,5,0
+mammoth1,Mammoth-1 (latest named alias),F25,Fault diagnosis,11,8,11,6,6,0,2,11,8,6,0
+mammoth1,Mammoth-1 (latest named alias),F01,Lookup and filtering,5,2,5,0,0,0,2,5,2,0,0
+mammoth1,Mammoth-1 (latest named alias),F21,Directed reachability,5,3,5,2,2,0,1,5,3,2,0
+meragpt_decider1,meraGPT Decider 1,F33,Quantitative reasoning,200,43,200,84,16,68,27,200,43,84,0
+meragpt_decider1,meraGPT Decider 1,F26,Probabilistic risk,30,6,30,13,3,10,3,30,6,13,0
+meragpt_decider1,meraGPT Decider 1,F27,Value of information,40,11,40,14,5,9,6,40,11,14,0
+meragpt_decider1,meraGPT Decider 1,F28,Robust decisions without a prior,39,7,39,4,2,2,5,39,7,4,0
+meragpt_decider1,meraGPT Decider 1,F29,Strategic decisions,39,9,39,24,3,21,6,39,9,24,0
+meragpt_decider1,meraGPT Decider 1,F30,Concurrent-history consistency,38,11,38,20,6,14,5,38,11,20,0
+meragpt_decider1,meraGPT Decider 1,F31,Information-flow security,36,10,36,18,6,12,4,35,10,18,0
+meragpt_decider1,meraGPT Decider 1,P04,Selecting a tool or requesting clarification,35,11,35,13,5,8,6,35,11,13,0
+meragpt_decider1,meraGPT Decider 1,P05,Checking authorization and scope,35,10,35,13,4,9,6,35,10,13,0
+meragpt_decider1,meraGPT Decider 1,P01,Understanding requests and routing,31,11,31,19,7,12,4,31,11,19,0
+meragpt_decider1,meraGPT Decider 1,P02,Recognizing multiple requested actions,34,7,34,20,6,14,1,34,7,20,0
+meragpt_decider1,meraGPT Decider 1,P03,Tracking current conversational intention,33,8,33,14,4,10,4,33,8,14,0
+meragpt_decider1,meraGPT Decider 1,P06,Making decisions with untrusted content,35,4,35,14,0,14,4,35,4,14,0
+meragpt_decider1,meraGPT Decider 1,P07,Applying a contextual content policy,27,8,27,17,4,13,4,27,8,17,0
+meragpt_decider1,meraGPT Decider 1,P08,Extracting and normalizing facts,36,7,36,9,1,8,6,36,7,9,0
+meragpt_decider1,meraGPT Decider 1,P09,Checking claims against supplied evidence,32,4,32,15,2,13,2,32,4,15,0
+meragpt_decider1,meraGPT Decider 1,P10,Assigning severity or priority from a rubric,31,10,31,10,4,6,6,31,10,10,0
+meragpt_decider1,meraGPT Decider 1,F32,Numerical pattern recognition,20,9,20,9,4,5,5,20,9,9,0
+meragpt_decider1,meraGPT Decider 1,F02,Forward conditionals,22,3,22,19,3,16,0,22,3,19,0
+meragpt_decider1,meraGPT Decider 1,F03,Necessary conditions,32,4,32,27,4,23,0,32,4,27,0
+meragpt_decider1,meraGPT Decider 1,F04,Boolean scope,18,5,18,6,1,5,4,18,5,6,0
+meragpt_decider1,meraGPT Decider 1,F05,Quantifiers and sets,9,2,9,5,0,5,2,9,2,5,0
+meragpt_decider1,meraGPT Decider 1,F06,Comparisons,7,2,7,4,2,2,0,7,2,4,0
+meragpt_decider1,meraGPT Decider 1,F07,Scheduling,54,16,54,22,7,15,9,54,16,22,0
+meragpt_decider1,meraGPT Decider 1,F08,One-to-one assignments,44,7,44,33,4,29,3,44,7,33,0
+meragpt_decider1,meraGPT Decider 1,F09,Exact truth counting,68,13,68,28,10,18,3,68,13,28,0
+meragpt_decider1,meraGPT Decider 1,F10,Truth-teller consistency,69,18,69,32,6,26,12,69,18,32,0
+meragpt_decider1,meraGPT Decider 1,F11,Sufficiency and inconsistency,29,2,29,22,2,20,0,29,2,22,0
+meragpt_decider1,meraGPT Decider 1,F12,Object swaps,43,10,43,18,7,11,3,43,10,18,0
+meragpt_decider1,meraGPT Decider 1,F13,Sequential procedures,47,11,47,10,3,7,8,47,11,10,0
+meragpt_decider1,meraGPT Decider 1,F14,Temporal intervals,25,3,25,17,1,16,2,25,3,17,0
+meragpt_decider1,meraGPT Decider 1,F15,Spatial tracking,35,4,35,13,4,9,0,35,4,13,0
+meragpt_decider1,meraGPT Decider 1,F16,Reference binding,35,10,35,15,8,7,2,35,10,15,0
+meragpt_decider1,meraGPT Decider 1,F17,Beliefs and perspectives,19,8,19,14,8,6,0,19,8,14,0
+meragpt_decider1,meraGPT Decider 1,F18,Causal intervention,37,9,37,26,7,19,2,37,9,26,0
+meragpt_decider1,meraGPT Decider 1,F19,Exceptions and priorities,24,4,24,21,3,18,1,24,4,21,0
+meragpt_decider1,meraGPT Decider 1,F20,Planning,16,6,16,13,6,7,0,16,6,13,0
+meragpt_decider1,meraGPT Decider 1,F22,Preference ordering,9,4,9,5,3,2,1,9,4,5,0
+meragpt_decider1,meraGPT Decider 1,F23,Rule counterexamples,14,3,14,11,2,9,1,14,3,11,0
+meragpt_decider1,meraGPT Decider 1,F24,Authority and stale records,8,1,8,5,1,4,0,8,1,5,0
+meragpt_decider1,meraGPT Decider 1,F25,Fault diagnosis,11,3,11,6,1,5,2,11,3,6,0
+meragpt_decider1,meraGPT Decider 1,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+meragpt_decider1,meraGPT Decider 1,F21,Directed reachability,5,1,5,2,1,1,0,5,1,2,0
+mercury_decide,Mercury Decide,F33,Quantitative reasoning,200,67,200,84,30,54,37,200,67,84,0
+mercury_decide,Mercury Decide,F26,Probabilistic risk,30,16,30,13,11,2,5,30,16,13,0
+mercury_decide,Mercury Decide,F27,Value of information,40,24,40,14,10,4,14,40,24,14,0
+mercury_decide,Mercury Decide,F28,Robust decisions without a prior,39,16,39,4,2,2,14,39,16,4,0
+mercury_decide,Mercury Decide,F29,Strategic decisions,39,25,39,24,19,5,6,39,25,24,0
+mercury_decide,Mercury Decide,F30,Concurrent-history consistency,38,21,38,20,16,4,5,38,21,20,0
+mercury_decide,Mercury Decide,F31,Information-flow security,36,23,36,18,16,2,7,35,22,18,0
+mercury_decide,Mercury Decide,P04,Selecting a tool or requesting clarification,35,13,35,13,9,4,4,35,13,13,0
+mercury_decide,Mercury Decide,P05,Checking authorization and scope,35,16,35,13,8,5,8,35,16,13,0
+mercury_decide,Mercury Decide,P01,Understanding requests and routing,31,23,31,19,16,3,7,31,23,19,0
+mercury_decide,Mercury Decide,P02,Recognizing multiple requested actions,34,21,34,20,12,8,9,34,21,20,0
+mercury_decide,Mercury Decide,P03,Tracking current conversational intention,33,16,33,14,9,5,7,33,16,14,0
+mercury_decide,Mercury Decide,P06,Making decisions with untrusted content,35,30,35,14,13,1,17,35,30,14,0
+mercury_decide,Mercury Decide,P07,Applying a contextual content policy,27,19,26,17,12,5,7,26,19,17,0
+mercury_decide,Mercury Decide,P08,Extracting and normalizing facts,36,12,36,9,5,4,7,36,12,9,0
+mercury_decide,Mercury Decide,P09,Checking claims against supplied evidence,32,15,32,15,9,6,6,32,15,15,0
+mercury_decide,Mercury Decide,P10,Assigning severity or priority from a rubric,31,20,31,10,4,6,16,31,20,10,0
+mercury_decide,Mercury Decide,F32,Numerical pattern recognition,20,8,20,9,5,4,3,20,8,9,0
+mercury_decide,Mercury Decide,F02,Forward conditionals,22,19,22,19,18,1,1,22,19,19,0
+mercury_decide,Mercury Decide,F03,Necessary conditions,32,8,32,27,8,19,0,32,8,27,0
+mercury_decide,Mercury Decide,F04,Boolean scope,18,13,18,6,3,3,10,18,13,6,0
+mercury_decide,Mercury Decide,F05,Quantifiers and sets,9,6,9,5,4,1,2,9,6,5,0
+mercury_decide,Mercury Decide,F06,Comparisons,7,4,7,4,3,1,1,7,4,4,0
+mercury_decide,Mercury Decide,F07,Scheduling,54,28,54,22,18,4,10,54,28,22,0
+mercury_decide,Mercury Decide,F08,One-to-one assignments,44,29,44,33,22,11,7,44,29,33,0
+mercury_decide,Mercury Decide,F09,Exact truth counting,68,34,68,28,25,3,9,68,34,28,0
+mercury_decide,Mercury Decide,F10,Truth-teller consistency,69,34,69,32,18,14,16,69,34,32,0
+mercury_decide,Mercury Decide,F11,Sufficiency and inconsistency,29,18,29,22,15,7,3,29,18,22,0
+mercury_decide,Mercury Decide,F12,Object swaps,43,25,43,18,14,4,11,43,25,18,0
+mercury_decide,Mercury Decide,F13,Sequential procedures,47,11,47,10,7,3,4,47,11,10,0
+mercury_decide,Mercury Decide,F14,Temporal intervals,25,18,25,17,13,4,5,25,18,17,0
+mercury_decide,Mercury Decide,F15,Spatial tracking,35,17,35,13,7,6,10,35,17,13,0
+mercury_decide,Mercury Decide,F16,Reference binding,35,20,35,15,12,3,8,35,20,15,0
+mercury_decide,Mercury Decide,F17,Beliefs and perspectives,19,12,19,14,12,2,0,19,12,14,0
+mercury_decide,Mercury Decide,F18,Causal intervention,37,22,37,26,17,9,5,37,22,26,0
+mercury_decide,Mercury Decide,F19,Exceptions and priorities,24,21,24,21,20,1,1,24,21,21,0
+mercury_decide,Mercury Decide,F20,Planning,16,11,16,13,11,2,0,16,11,13,0
+mercury_decide,Mercury Decide,F22,Preference ordering,9,5,9,5,4,1,1,9,5,5,0
+mercury_decide,Mercury Decide,F23,Rule counterexamples,14,13,14,11,11,0,2,14,13,11,0
+mercury_decide,Mercury Decide,F24,Authority and stale records,8,5,8,5,3,2,2,8,5,5,0
+mercury_decide,Mercury Decide,F25,Fault diagnosis,11,7,11,6,6,0,1,11,7,6,0
+mercury_decide,Mercury Decide,F01,Lookup and filtering,5,0,5,0,0,0,0,5,0,0,0
+mercury_decide,Mercury Decide,F21,Directed reachability,5,2,5,2,1,1,1,5,2,2,0
+microsoft_decision,Microsoft-Decision-1,F33,Quantitative reasoning,200,72,200,84,44,40,28,200,72,84,0
+microsoft_decision,Microsoft-Decision-1,F26,Probabilistic risk,30,17,30,13,12,1,5,30,17,13,0
+microsoft_decision,Microsoft-Decision-1,F27,Value of information,40,23,40,14,8,6,15,40,23,14,0
+microsoft_decision,Microsoft-Decision-1,F28,Robust decisions without a prior,39,8,39,4,1,3,7,39,8,4,0
+microsoft_decision,Microsoft-Decision-1,F29,Strategic decisions,39,17,39,24,15,9,2,39,17,24,0
+microsoft_decision,Microsoft-Decision-1,F30,Concurrent-history consistency,38,18,38,20,16,4,2,38,18,20,0
+microsoft_decision,Microsoft-Decision-1,F31,Information-flow security,36,22,36,18,14,4,8,35,21,18,0
+microsoft_decision,Microsoft-Decision-1,P04,Selecting a tool or requesting clarification,35,18,35,13,10,3,8,35,18,13,0
+microsoft_decision,Microsoft-Decision-1,P05,Checking authorization and scope,35,19,35,13,12,1,7,35,19,13,0
+microsoft_decision,Microsoft-Decision-1,P01,Understanding requests and routing,31,17,31,19,15,4,2,31,17,19,0
+microsoft_decision,Microsoft-Decision-1,P02,Recognizing multiple requested actions,34,15,34,20,12,8,3,34,15,20,0
+microsoft_decision,Microsoft-Decision-1,P03,Tracking current conversational intention,33,11,33,14,5,9,6,33,11,14,0
+microsoft_decision,Microsoft-Decision-1,P06,Making decisions with untrusted content,35,18,35,14,8,6,10,35,18,14,0
+microsoft_decision,Microsoft-Decision-1,P07,Applying a contextual content policy,27,11,27,17,10,7,1,27,11,17,0
+microsoft_decision,Microsoft-Decision-1,P08,Extracting and normalizing facts,36,16,36,9,7,2,9,36,16,9,0
+microsoft_decision,Microsoft-Decision-1,P09,Checking claims against supplied evidence,32,8,32,15,3,12,5,32,8,15,0
+microsoft_decision,Microsoft-Decision-1,P10,Assigning severity or priority from a rubric,31,9,31,10,9,1,0,31,9,10,0
+microsoft_decision,Microsoft-Decision-1,F32,Numerical pattern recognition,20,13,20,9,8,1,5,20,13,9,0
+microsoft_decision,Microsoft-Decision-1,F02,Forward conditionals,22,16,22,19,15,4,1,22,16,19,0
+microsoft_decision,Microsoft-Decision-1,F03,Necessary conditions,32,11,32,27,11,16,0,32,11,27,0
+microsoft_decision,Microsoft-Decision-1,F04,Boolean scope,18,2,18,6,2,4,0,18,2,6,0
+microsoft_decision,Microsoft-Decision-1,F05,Quantifiers and sets,9,2,9,5,1,4,1,9,2,5,0
+microsoft_decision,Microsoft-Decision-1,F06,Comparisons,7,6,7,4,4,0,2,7,6,4,0
+microsoft_decision,Microsoft-Decision-1,F07,Scheduling,54,20,54,22,17,5,3,54,20,22,0
+microsoft_decision,Microsoft-Decision-1,F08,One-to-one assignments,44,21,44,33,17,16,4,44,21,33,0
+microsoft_decision,Microsoft-Decision-1,F09,Exact truth counting,68,37,68,28,26,2,11,68,37,28,0
+microsoft_decision,Microsoft-Decision-1,F10,Truth-teller consistency,69,31,69,32,17,15,14,69,31,32,0
+microsoft_decision,Microsoft-Decision-1,F11,Sufficiency and inconsistency,29,17,29,22,14,8,3,29,17,22,0
+microsoft_decision,Microsoft-Decision-1,F12,Object swaps,43,15,43,18,10,8,5,43,15,18,0
+microsoft_decision,Microsoft-Decision-1,F13,Sequential procedures,47,6,47,10,3,7,3,47,6,10,0
+microsoft_decision,Microsoft-Decision-1,F14,Temporal intervals,25,16,25,17,9,8,7,25,16,17,0
+microsoft_decision,Microsoft-Decision-1,F15,Spatial tracking,35,10,35,13,9,4,1,35,10,13,0
+microsoft_decision,Microsoft-Decision-1,F16,Reference binding,35,17,35,15,11,4,6,35,17,15,0
+microsoft_decision,Microsoft-Decision-1,F17,Beliefs and perspectives,19,11,19,14,10,4,1,19,11,14,0
+microsoft_decision,Microsoft-Decision-1,F18,Causal intervention,37,12,37,26,10,16,2,37,12,26,0
+microsoft_decision,Microsoft-Decision-1,F19,Exceptions and priorities,24,18,24,21,17,4,1,24,18,21,0
+microsoft_decision,Microsoft-Decision-1,F20,Planning,16,11,16,13,11,2,0,16,11,13,0
+microsoft_decision,Microsoft-Decision-1,F22,Preference ordering,9,3,9,5,3,2,0,9,3,5,0
+microsoft_decision,Microsoft-Decision-1,F23,Rule counterexamples,14,10,14,11,9,2,1,14,10,11,0
+microsoft_decision,Microsoft-Decision-1,F24,Authority and stale records,8,4,8,5,3,2,1,8,4,5,0
+microsoft_decision,Microsoft-Decision-1,F25,Fault diagnosis,11,7,11,6,6,0,1,11,7,6,0
+microsoft_decision,Microsoft-Decision-1,F01,Lookup and filtering,5,0,5,0,0,0,0,5,0,0,0
+microsoft_decision,Microsoft-Decision-1,F21,Directed reachability,5,2,5,2,2,0,0,5,2,2,0
+nimble_v4_max,Nimble v4 Max,F33,Quantitative reasoning,200,85,200,84,42,42,43,200,85,84,0
+nimble_v4_max,Nimble v4 Max,F26,Probabilistic risk,30,15,30,13,10,3,5,30,15,13,0
+nimble_v4_max,Nimble v4 Max,F27,Value of information,40,25,40,14,11,3,14,40,25,14,0
+nimble_v4_max,Nimble v4 Max,F28,Robust decisions without a prior,39,18,39,4,3,1,15,39,18,4,0
+nimble_v4_max,Nimble v4 Max,F29,Strategic decisions,39,27,39,24,20,4,7,39,27,24,0
+nimble_v4_max,Nimble v4 Max,F30,Concurrent-history consistency,38,21,38,20,15,5,6,38,21,20,0
+nimble_v4_max,Nimble v4 Max,F31,Information-flow security,36,26,36,18,15,3,11,35,25,18,0
+nimble_v4_max,Nimble v4 Max,P04,Selecting a tool or requesting clarification,35,16,35,13,10,3,6,35,16,13,0
+nimble_v4_max,Nimble v4 Max,P05,Checking authorization and scope,35,18,35,13,11,2,7,35,18,13,0
+nimble_v4_max,Nimble v4 Max,P01,Understanding requests and routing,31,26,31,19,17,2,9,31,26,19,0
+nimble_v4_max,Nimble v4 Max,P02,Recognizing multiple requested actions,34,33,34,20,19,1,14,34,33,20,0
+nimble_v4_max,Nimble v4 Max,P03,Tracking current conversational intention,33,32,32,14,14,0,18,32,32,14,0
+nimble_v4_max,Nimble v4 Max,P06,Making decisions with untrusted content,35,34,35,14,13,1,21,35,34,14,0
+nimble_v4_max,Nimble v4 Max,P07,Applying a contextual content policy,27,21,27,17,14,3,7,27,21,17,0
+nimble_v4_max,Nimble v4 Max,P08,Extracting and normalizing facts,36,16,36,9,7,2,9,36,16,9,0
+nimble_v4_max,Nimble v4 Max,P09,Checking claims against supplied evidence,32,18,32,15,11,4,7,32,18,15,0
+nimble_v4_max,Nimble v4 Max,P10,Assigning severity or priority from a rubric,31,20,31,10,3,7,17,31,20,10,0
+nimble_v4_max,Nimble v4 Max,F32,Numerical pattern recognition,20,11,20,9,7,2,4,20,11,9,0
+nimble_v4_max,Nimble v4 Max,F02,Forward conditionals,22,21,22,19,19,0,2,22,21,19,0
+nimble_v4_max,Nimble v4 Max,F03,Necessary conditions,32,29,32,27,26,1,3,32,29,27,0
+nimble_v4_max,Nimble v4 Max,F04,Boolean scope,18,14,18,6,5,1,9,18,14,6,0
+nimble_v4_max,Nimble v4 Max,F05,Quantifiers and sets,9,5,9,5,3,2,2,9,5,5,0
+nimble_v4_max,Nimble v4 Max,F06,Comparisons,7,5,7,4,4,0,1,7,5,4,0
+nimble_v4_max,Nimble v4 Max,F07,Scheduling,54,29,54,22,19,3,10,54,29,22,0
+nimble_v4_max,Nimble v4 Max,F08,One-to-one assignments,44,37,44,33,30,3,7,44,37,33,0
+nimble_v4_max,Nimble v4 Max,F09,Exact truth counting,68,36,68,28,26,2,10,68,36,28,0
+nimble_v4_max,Nimble v4 Max,F10,Truth-teller consistency,69,48,69,32,25,7,23,69,48,32,0
+nimble_v4_max,Nimble v4 Max,F11,Sufficiency and inconsistency,29,20,29,22,15,7,5,29,20,22,0
+nimble_v4_max,Nimble v4 Max,F12,Object swaps,43,26,43,18,14,4,12,43,26,18,0
+nimble_v4_max,Nimble v4 Max,F13,Sequential procedures,47,18,47,10,6,4,12,47,18,10,0
+nimble_v4_max,Nimble v4 Max,F14,Temporal intervals,25,24,25,17,17,0,7,25,24,17,0
+nimble_v4_max,Nimble v4 Max,F15,Spatial tracking,35,22,35,13,11,2,11,35,22,13,0
+nimble_v4_max,Nimble v4 Max,F16,Reference binding,35,23,35,15,14,1,9,35,23,15,0
+nimble_v4_max,Nimble v4 Max,F17,Beliefs and perspectives,19,15,19,14,14,0,1,19,15,14,0
+nimble_v4_max,Nimble v4 Max,F18,Causal intervention,37,32,37,26,24,2,8,37,32,26,0
+nimble_v4_max,Nimble v4 Max,F19,Exceptions and priorities,24,23,24,21,20,1,3,24,23,21,0
+nimble_v4_max,Nimble v4 Max,F20,Planning,16,13,16,13,12,1,1,16,13,13,0
+nimble_v4_max,Nimble v4 Max,F22,Preference ordering,9,7,9,5,5,0,2,9,7,5,0
+nimble_v4_max,Nimble v4 Max,F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+nimble_v4_max,Nimble v4 Max,F24,Authority and stale records,8,7,8,5,5,0,2,8,7,5,0
+nimble_v4_max,Nimble v4 Max,F25,Fault diagnosis,11,8,11,6,6,0,2,11,8,6,0
+nimble_v4_max,Nimble v4 Max,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+nimble_v4_max,Nimble v4 Max,F21,Directed reachability,5,2,5,2,2,0,0,5,2,2,0
+pplx_decider12,Perplexity Decider v1.2,F33,Quantitative reasoning,200,90,200,84,49,35,41,200,90,84,0
+pplx_decider12,Perplexity Decider v1.2,F26,Probabilistic risk,30,18,30,13,10,3,8,30,18,13,0
+pplx_decider12,Perplexity Decider v1.2,F27,Value of information,40,24,40,14,11,3,13,40,24,14,0
+pplx_decider12,Perplexity Decider v1.2,F28,Robust decisions without a prior,39,12,39,4,2,2,10,39,12,4,0
+pplx_decider12,Perplexity Decider v1.2,F29,Strategic decisions,39,24,39,24,17,7,7,39,24,24,0
+pplx_decider12,Perplexity Decider v1.2,F30,Concurrent-history consistency,38,23,38,20,17,3,6,38,23,20,0
+pplx_decider12,Perplexity Decider v1.2,F31,Information-flow security,36,27,36,18,16,2,11,35,26,18,0
+pplx_decider12,Perplexity Decider v1.2,P04,Selecting a tool or requesting clarification,35,14,35,13,10,3,4,35,14,13,0
+pplx_decider12,Perplexity Decider v1.2,P05,Checking authorization and scope,35,19,35,13,12,1,7,35,19,13,0
+pplx_decider12,Perplexity Decider v1.2,P01,Understanding requests and routing,31,28,31,19,18,1,10,31,28,19,0
+pplx_decider12,Perplexity Decider v1.2,P02,Recognizing multiple requested actions,34,31,34,20,18,2,13,34,31,20,0
+pplx_decider12,Perplexity Decider v1.2,P03,Tracking current conversational intention,33,33,33,14,14,0,19,33,33,14,0
+pplx_decider12,Perplexity Decider v1.2,P06,Making decisions with untrusted content,35,35,35,14,14,0,21,35,35,14,0
+pplx_decider12,Perplexity Decider v1.2,P07,Applying a contextual content policy,27,18,27,17,12,5,6,27,18,17,0
+pplx_decider12,Perplexity Decider v1.2,P08,Extracting and normalizing facts,36,18,36,9,6,3,12,36,18,9,0
+pplx_decider12,Perplexity Decider v1.2,P09,Checking claims against supplied evidence,32,18,32,15,12,3,6,32,18,15,0
+pplx_decider12,Perplexity Decider v1.2,P10,Assigning severity or priority from a rubric,31,20,31,10,3,7,17,31,20,10,0
+pplx_decider12,Perplexity Decider v1.2,F32,Numerical pattern recognition,20,12,20,9,7,2,5,20,12,9,0
+pplx_decider12,Perplexity Decider v1.2,F02,Forward conditionals,22,21,22,19,19,0,2,22,21,19,0
+pplx_decider12,Perplexity Decider v1.2,F03,Necessary conditions,32,30,32,27,26,1,4,32,30,27,0
+pplx_decider12,Perplexity Decider v1.2,F04,Boolean scope,18,12,18,6,5,1,7,18,12,6,0
+pplx_decider12,Perplexity Decider v1.2,F05,Quantifiers and sets,9,4,9,5,3,2,1,9,4,5,0
+pplx_decider12,Perplexity Decider v1.2,F06,Comparisons,7,5,7,4,4,0,1,7,5,4,0
+pplx_decider12,Perplexity Decider v1.2,F07,Scheduling,54,32,54,22,21,1,11,54,32,22,0
+pplx_decider12,Perplexity Decider v1.2,F08,One-to-one assignments,44,42,44,33,33,0,9,44,42,33,0
+pplx_decider12,Perplexity Decider v1.2,F09,Exact truth counting,68,40,68,28,25,3,15,68,40,28,0
+pplx_decider12,Perplexity Decider v1.2,F10,Truth-teller consistency,69,53,69,32,28,4,25,69,53,32,0
+pplx_decider12,Perplexity Decider v1.2,F11,Sufficiency and inconsistency,29,25,29,22,19,3,6,29,25,22,0
+pplx_decider12,Perplexity Decider v1.2,F12,Object swaps,43,24,43,18,14,4,10,43,24,18,0
+pplx_decider12,Perplexity Decider v1.2,F13,Sequential procedures,47,13,47,10,6,4,7,47,13,10,0
+pplx_decider12,Perplexity Decider v1.2,F14,Temporal intervals,25,22,25,17,16,1,6,25,22,17,0
+pplx_decider12,Perplexity Decider v1.2,F15,Spatial tracking,35,21,35,13,10,3,11,35,21,13,0
+pplx_decider12,Perplexity Decider v1.2,F16,Reference binding,35,21,35,15,13,2,8,35,21,15,0
+pplx_decider12,Perplexity Decider v1.2,F17,Beliefs and perspectives,19,15,19,14,14,0,1,19,15,14,0
+pplx_decider12,Perplexity Decider v1.2,F18,Causal intervention,37,33,37,26,26,0,7,37,33,26,0
+pplx_decider12,Perplexity Decider v1.2,F19,Exceptions and priorities,24,20,24,21,19,2,1,24,20,21,0
+pplx_decider12,Perplexity Decider v1.2,F20,Planning,16,11,16,13,11,2,0,16,11,13,0
+pplx_decider12,Perplexity Decider v1.2,F22,Preference ordering,9,5,8,5,3,2,2,8,5,4,1
+pplx_decider12,Perplexity Decider v1.2,F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+pplx_decider12,Perplexity Decider v1.2,F24,Authority and stale records,8,7,8,5,5,0,2,8,7,5,0
+pplx_decider12,Perplexity Decider v1.2,F25,Fault diagnosis,11,9,11,6,6,0,3,11,9,6,0
+pplx_decider12,Perplexity Decider v1.2,F01,Lookup and filtering,5,2,5,0,0,0,2,5,2,0,0
+pplx_decider12,Perplexity Decider v1.2,F21,Directed reachability,5,4,5,2,2,0,2,5,4,2,0
+reference_opus5,Opus 5 · no thinking,F33,Quantitative reasoning,200,132,200,84,64,20,68,200,132,84,0
+reference_opus5,Opus 5 · no thinking,F26,Probabilistic risk,30,15,30,13,9,4,6,30,15,13,0
+reference_opus5,Opus 5 · no thinking,F27,Value of information,40,24,32,14,11,3,13,32,24,13,1
+reference_opus5,Opus 5 · no thinking,F28,Robust decisions without a prior,39,16,39,4,3,1,13,39,16,4,0
+reference_opus5,Opus 5 · no thinking,F29,Strategic decisions,39,24,39,24,17,7,7,39,24,24,0
+reference_opus5,Opus 5 · no thinking,F30,Concurrent-history consistency,38,2,5,20,0,20,2,5,2,2,18
+reference_opus5,Opus 5 · no thinking,F31,Information-flow security,36,1,1,18,0,18,1,1,1,0,18
+reference_opus5,Opus 5 · no thinking,P04,Selecting a tool or requesting clarification,35,15,33,13,7,6,8,33,15,11,2
+reference_opus5,Opus 5 · no thinking,P05,Checking authorization and scope,35,27,34,13,12,1,15,34,27,12,1
+reference_opus5,Opus 5 · no thinking,P01,Understanding requests and routing,31,21,29,19,16,3,5,29,21,17,2
+reference_opus5,Opus 5 · no thinking,P02,Recognizing multiple requested actions,34,2,2,20,2,18,0,2,2,2,18
+reference_opus5,Opus 5 · no thinking,P03,Tracking current conversational intention,33,0,1,14,0,14,0,1,0,1,13
+reference_opus5,Opus 5 · no thinking,P06,Making decisions with untrusted content,35,29,34,14,13,1,16,34,29,13,1
+reference_opus5,Opus 5 · no thinking,P07,Applying a contextual content policy,27,25,27,17,16,1,9,27,25,17,0
+reference_opus5,Opus 5 · no thinking,P08,Extracting and normalizing facts,36,11,30,9,3,6,8,30,11,6,3
+reference_opus5,Opus 5 · no thinking,P09,Checking claims against supplied evidence,32,20,32,15,14,1,6,32,20,15,0
+reference_opus5,Opus 5 · no thinking,P10,Assigning severity or priority from a rubric,31,16,31,10,4,6,12,31,16,10,0
+reference_opus5,Opus 5 · no thinking,F32,Numerical pattern recognition,20,17,20,9,8,1,9,20,17,9,0
+reference_opus5,Opus 5 · no thinking,F02,Forward conditionals,22,20,22,19,18,1,2,22,20,19,0
+reference_opus5,Opus 5 · no thinking,F03,Necessary conditions,32,29,32,27,26,1,3,32,29,27,0
+reference_opus5,Opus 5 · no thinking,F04,Boolean scope,18,15,18,6,5,1,10,18,15,6,0
+reference_opus5,Opus 5 · no thinking,F05,Quantifiers and sets,9,5,7,5,3,2,2,7,5,3,2
+reference_opus5,Opus 5 · no thinking,F06,Comparisons,7,3,7,4,3,1,0,7,3,4,0
+reference_opus5,Opus 5 · no thinking,F07,Scheduling,54,37,54,22,21,1,16,54,37,22,0
+reference_opus5,Opus 5 · no thinking,F08,One-to-one assignments,44,43,44,33,32,1,11,44,43,33,0
+reference_opus5,Opus 5 · no thinking,F09,Exact truth counting,68,43,68,28,24,4,19,68,43,28,0
+reference_opus5,Opus 5 · no thinking,F10,Truth-teller consistency,69,42,69,32,22,10,20,69,42,32,0
+reference_opus5,Opus 5 · no thinking,F11,Sufficiency and inconsistency,29,27,29,22,22,0,5,29,27,22,0
+reference_opus5,Opus 5 · no thinking,F12,Object swaps,43,24,43,18,13,5,11,43,24,18,0
+reference_opus5,Opus 5 · no thinking,F13,Sequential procedures,47,17,47,10,9,1,8,47,17,10,0
+reference_opus5,Opus 5 · no thinking,F14,Temporal intervals,25,24,25,17,17,0,7,25,24,17,0
+reference_opus5,Opus 5 · no thinking,F15,Spatial tracking,35,31,35,13,11,2,20,35,31,13,0
+reference_opus5,Opus 5 · no thinking,F16,Reference binding,35,23,34,15,15,0,8,34,23,15,0
+reference_opus5,Opus 5 · no thinking,F17,Beliefs and perspectives,19,15,19,14,13,1,2,19,15,14,0
+reference_opus5,Opus 5 · no thinking,F18,Causal intervention,37,22,27,26,16,10,6,27,22,17,9
+reference_opus5,Opus 5 · no thinking,F19,Exceptions and priorities,24,9,12,21,7,14,2,12,9,9,12
+reference_opus5,Opus 5 · no thinking,F20,Planning,16,7,10,13,7,6,0,10,7,7,6
+reference_opus5,Opus 5 · no thinking,F22,Preference ordering,9,6,9,5,4,1,2,9,6,5,0
+reference_opus5,Opus 5 · no thinking,F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+reference_opus5,Opus 5 · no thinking,F24,Authority and stale records,8,5,6,5,2,3,3,6,5,3,2
+reference_opus5,Opus 5 · no thinking,F25,Fault diagnosis,11,6,11,6,5,1,1,11,6,6,0
+reference_opus5,Opus 5 · no thinking,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+reference_opus5,Opus 5 · no thinking,F21,Directed reachability,5,1,5,2,1,1,0,5,1,2,0
+reference_sol,GPT-6 Sol · no reasoning,F33,Quantitative reasoning,200,145,200,84,63,21,82,200,145,84,0
+reference_sol,GPT-6 Sol · no reasoning,F26,Probabilistic risk,30,19,30,13,8,5,11,30,19,13,0
+reference_sol,GPT-6 Sol · no reasoning,F27,Value of information,40,24,40,14,12,2,12,40,24,14,0
+reference_sol,GPT-6 Sol · no reasoning,F28,Robust decisions without a prior,39,14,39,4,3,1,11,39,14,4,0
+reference_sol,GPT-6 Sol · no reasoning,F29,Strategic decisions,39,33,39,24,22,2,11,39,33,24,0
+reference_sol,GPT-6 Sol · no reasoning,F30,Concurrent-history consistency,38,28,38,20,19,1,9,38,28,20,0
+reference_sol,GPT-6 Sol · no reasoning,F31,Information-flow security,36,29,36,18,16,2,13,35,28,18,0
+reference_sol,GPT-6 Sol · no reasoning,P04,Selecting a tool or requesting clarification,35,17,35,13,8,5,9,35,17,13,0
+reference_sol,GPT-6 Sol · no reasoning,P05,Checking authorization and scope,35,25,35,13,9,4,16,35,25,13,0
+reference_sol,GPT-6 Sol · no reasoning,P01,Understanding requests and routing,31,27,31,19,18,1,9,31,27,19,0
+reference_sol,GPT-6 Sol · no reasoning,P02,Recognizing multiple requested actions,34,34,34,20,20,0,14,34,34,20,0
+reference_sol,GPT-6 Sol · no reasoning,P03,Tracking current conversational intention,33,29,33,14,14,0,15,33,29,14,0
+reference_sol,GPT-6 Sol · no reasoning,P06,Making decisions with untrusted content,35,35,35,14,14,0,21,35,35,14,0
+reference_sol,GPT-6 Sol · no reasoning,P07,Applying a contextual content policy,27,26,27,17,16,1,10,27,26,17,0
+reference_sol,GPT-6 Sol · no reasoning,P08,Extracting and normalizing facts,36,19,36,9,7,2,12,36,19,9,0
+reference_sol,GPT-6 Sol · no reasoning,P09,Checking claims against supplied evidence,32,20,32,15,14,1,6,32,20,15,0
+reference_sol,GPT-6 Sol · no reasoning,P10,Assigning severity or priority from a rubric,31,22,31,10,5,5,17,31,22,10,0
+reference_sol,GPT-6 Sol · no reasoning,F32,Numerical pattern recognition,20,15,20,9,9,0,6,20,15,9,0
+reference_sol,GPT-6 Sol · no reasoning,F02,Forward conditionals,22,21,22,19,18,1,3,22,21,19,0
+reference_sol,GPT-6 Sol · no reasoning,F03,Necessary conditions,32,32,32,27,27,0,5,32,32,27,0
+reference_sol,GPT-6 Sol · no reasoning,F04,Boolean scope,18,17,18,6,5,1,12,18,17,6,0
+reference_sol,GPT-6 Sol · no reasoning,F05,Quantifiers and sets,9,6,9,5,4,1,2,9,6,5,0
+reference_sol,GPT-6 Sol · no reasoning,F06,Comparisons,7,5,7,4,3,1,2,7,5,4,0
+reference_sol,GPT-6 Sol · no reasoning,F07,Scheduling,54,34,54,22,19,3,15,54,34,22,0
+reference_sol,GPT-6 Sol · no reasoning,F08,One-to-one assignments,44,38,44,33,30,3,8,44,38,33,0
+reference_sol,GPT-6 Sol · no reasoning,F09,Exact truth counting,68,48,68,28,24,4,24,68,48,28,0
+reference_sol,GPT-6 Sol · no reasoning,F10,Truth-teller consistency,69,33,69,32,17,15,16,69,33,32,0
+reference_sol,GPT-6 Sol · no reasoning,F11,Sufficiency and inconsistency,29,25,29,22,19,3,6,29,25,22,0
+reference_sol,GPT-6 Sol · no reasoning,F12,Object swaps,43,23,43,18,13,5,10,43,23,18,0
+reference_sol,GPT-6 Sol · no reasoning,F13,Sequential procedures,47,17,47,10,5,5,12,47,17,10,0
+reference_sol,GPT-6 Sol · no reasoning,F14,Temporal intervals,25,23,25,17,15,2,8,25,23,17,0
+reference_sol,GPT-6 Sol · no reasoning,F15,Spatial tracking,35,29,35,13,10,3,19,35,29,13,0
+reference_sol,GPT-6 Sol · no reasoning,F16,Reference binding,35,23,35,15,13,2,10,35,23,15,0
+reference_sol,GPT-6 Sol · no reasoning,F17,Beliefs and perspectives,19,14,19,14,11,3,3,19,14,14,0
+reference_sol,GPT-6 Sol · no reasoning,F18,Causal intervention,37,31,37,26,25,1,6,37,31,26,0
+reference_sol,GPT-6 Sol · no reasoning,F19,Exceptions and priorities,24,23,24,21,20,1,3,24,23,21,0
+reference_sol,GPT-6 Sol · no reasoning,F20,Planning,16,12,16,13,12,1,0,16,12,13,0
+reference_sol,GPT-6 Sol · no reasoning,F22,Preference ordering,9,6,9,5,3,2,3,9,6,5,0
+reference_sol,GPT-6 Sol · no reasoning,F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+reference_sol,GPT-6 Sol · no reasoning,F24,Authority and stale records,8,7,8,5,5,0,2,8,7,5,0
+reference_sol,GPT-6 Sol · no reasoning,F25,Fault diagnosis,11,10,11,6,6,0,4,11,10,6,0
+reference_sol,GPT-6 Sol · no reasoning,F01,Lookup and filtering,5,4,5,0,0,0,4,5,4,0,0
+reference_sol,GPT-6 Sol · no reasoning,F21,Directed reachability,5,3,5,2,1,1,2,5,3,2,0
+reference_sonnet,Sonnet 5.5 · no thinking,F33,Quantitative reasoning,200,103,200,84,51,33,52,200,103,84,0
+reference_sonnet,Sonnet 5.5 · no thinking,F26,Probabilistic risk,30,20,30,13,13,0,7,30,20,13,0
+reference_sonnet,Sonnet 5.5 · no thinking,F27,Value of information,40,24,40,14,12,2,12,40,24,14,0
+reference_sonnet,Sonnet 5.5 · no thinking,F28,Robust decisions without a prior,39,11,39,4,2,2,9,39,11,4,0
+reference_sonnet,Sonnet 5.5 · no thinking,F29,Strategic decisions,39,22,39,24,17,7,5,39,22,24,0
+reference_sonnet,Sonnet 5.5 · no thinking,F30,Concurrent-history consistency,38,17,38,20,13,7,4,38,17,20,0
+reference_sonnet,Sonnet 5.5 · no thinking,F31,Information-flow security,36,30,36,18,15,3,15,35,29,18,0
+reference_sonnet,Sonnet 5.5 · no thinking,P04,Selecting a tool or requesting clarification,35,14,35,13,9,4,5,35,14,13,0
+reference_sonnet,Sonnet 5.5 · no thinking,P05,Checking authorization and scope,35,18,35,13,8,5,10,35,18,13,0
+reference_sonnet,Sonnet 5.5 · no thinking,P01,Understanding requests and routing,31,23,31,19,18,1,5,31,23,19,0
+reference_sonnet,Sonnet 5.5 · no thinking,P02,Recognizing multiple requested actions,34,32,34,20,19,1,13,34,32,20,0
+reference_sonnet,Sonnet 5.5 · no thinking,P03,Tracking current conversational intention,33,26,33,14,11,3,15,33,26,14,0
+reference_sonnet,Sonnet 5.5 · no thinking,P06,Making decisions with untrusted content,35,29,35,14,10,4,19,35,29,14,0
+reference_sonnet,Sonnet 5.5 · no thinking,P07,Applying a contextual content policy,27,18,27,17,12,5,6,27,18,17,0
+reference_sonnet,Sonnet 5.5 · no thinking,P08,Extracting and normalizing facts,36,13,36,9,4,5,9,36,13,9,0
+reference_sonnet,Sonnet 5.5 · no thinking,P09,Checking claims against supplied evidence,32,18,32,15,13,2,5,32,18,15,0
+reference_sonnet,Sonnet 5.5 · no thinking,P10,Assigning severity or priority from a rubric,31,17,31,10,3,7,14,31,17,10,0
+reference_sonnet,Sonnet 5.5 · no thinking,F32,Numerical pattern recognition,20,12,20,9,5,4,7,20,12,9,0
+reference_sonnet,Sonnet 5.5 · no thinking,F02,Forward conditionals,22,21,22,19,19,0,2,22,21,19,0
+reference_sonnet,Sonnet 5.5 · no thinking,F03,Necessary conditions,32,28,32,27,25,2,3,32,28,27,0
+reference_sonnet,Sonnet 5.5 · no thinking,F04,Boolean scope,18,13,18,6,5,1,8,18,13,6,0
+reference_sonnet,Sonnet 5.5 · no thinking,F05,Quantifiers and sets,9,5,9,5,4,1,1,9,5,5,0
+reference_sonnet,Sonnet 5.5 · no thinking,F06,Comparisons,7,4,7,4,2,2,2,7,4,4,0
+reference_sonnet,Sonnet 5.5 · no thinking,F07,Scheduling,54,28,54,22,16,6,12,54,28,22,0
+reference_sonnet,Sonnet 5.5 · no thinking,F08,One-to-one assignments,44,39,44,33,30,3,9,44,39,33,0
+reference_sonnet,Sonnet 5.5 · no thinking,F09,Exact truth counting,68,27,68,28,13,15,14,68,27,28,0
+reference_sonnet,Sonnet 5.5 · no thinking,F10,Truth-teller consistency,69,36,69,32,21,11,15,69,36,32,0
+reference_sonnet,Sonnet 5.5 · no thinking,F11,Sufficiency and inconsistency,29,21,29,22,16,6,5,29,21,22,0
+reference_sonnet,Sonnet 5.5 · no thinking,F12,Object swaps,43,20,43,18,13,5,7,43,20,18,0
+reference_sonnet,Sonnet 5.5 · no thinking,F13,Sequential procedures,47,14,47,10,5,5,9,47,14,10,0
+reference_sonnet,Sonnet 5.5 · no thinking,F14,Temporal intervals,25,21,25,17,16,1,5,25,21,17,0
+reference_sonnet,Sonnet 5.5 · no thinking,F15,Spatial tracking,35,29,35,13,10,3,19,35,29,13,0
+reference_sonnet,Sonnet 5.5 · no thinking,F16,Reference binding,35,21,35,15,12,3,9,35,21,15,0
+reference_sonnet,Sonnet 5.5 · no thinking,F17,Beliefs and perspectives,19,14,19,14,13,1,1,19,14,14,0
+reference_sonnet,Sonnet 5.5 · no thinking,F18,Causal intervention,37,28,37,26,23,3,5,37,28,26,0
+reference_sonnet,Sonnet 5.5 · no thinking,F19,Exceptions and priorities,24,19,24,21,17,4,2,24,19,21,0
+reference_sonnet,Sonnet 5.5 · no thinking,F20,Planning,16,9,16,13,9,4,0,16,9,13,0
+reference_sonnet,Sonnet 5.5 · no thinking,F22,Preference ordering,9,7,9,5,4,1,3,9,7,5,0
+reference_sonnet,Sonnet 5.5 · no thinking,F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+reference_sonnet,Sonnet 5.5 · no thinking,F24,Authority and stale records,8,4,8,5,2,3,2,8,4,5,0
+reference_sonnet,Sonnet 5.5 · no thinking,F25,Fault diagnosis,11,7,11,6,6,0,1,11,7,6,0
+reference_sonnet,Sonnet 5.5 · no thinking,F01,Lookup and filtering,5,4,5,0,0,0,4,5,4,0,0
+reference_sonnet,Sonnet 5.5 · no thinking,F21,Directed reachability,5,2,5,2,1,1,1,5,2,2,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F33,Quantitative reasoning,200,160,200,84,72,12,88,200,160,84,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F26,Probabilistic risk,30,21,30,13,11,2,10,30,21,13,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F27,Value of information,40,23,40,14,12,2,11,40,23,14,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F28,Robust decisions without a prior,39,19,39,4,1,3,18,39,19,4,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F29,Strategic decisions,39,39,39,24,24,0,15,39,39,24,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F30,Concurrent-history consistency,38,32,37,20,19,1,13,37,32,20,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F31,Information-flow security,36,34,36,18,17,1,17,35,33,18,0
+reference_terra61,GPT-6.1 Terra · no reasoning,P04,Selecting a tool or requesting clarification,35,18,35,13,11,2,7,35,18,13,0
+reference_terra61,GPT-6.1 Terra · no reasoning,P05,Checking authorization and scope,35,35,35,13,13,0,22,35,35,13,0
+reference_terra61,GPT-6.1 Terra · no reasoning,P01,Understanding requests and routing,31,30,31,19,19,0,11,31,30,19,0
+reference_terra61,GPT-6.1 Terra · no reasoning,P02,Recognizing multiple requested actions,34,34,34,20,20,0,14,34,34,20,0
+reference_terra61,GPT-6.1 Terra · no reasoning,P03,Tracking current conversational intention,33,33,33,14,14,0,19,33,33,14,0
+reference_terra61,GPT-6.1 Terra · no reasoning,P06,Making decisions with untrusted content,35,35,35,14,14,0,21,35,35,14,0
+reference_terra61,GPT-6.1 Terra · no reasoning,P07,Applying a contextual content policy,27,25,27,17,16,1,9,27,25,17,0
+reference_terra61,GPT-6.1 Terra · no reasoning,P08,Extracting and normalizing facts,36,28,36,9,8,1,20,36,28,9,0
+reference_terra61,GPT-6.1 Terra · no reasoning,P09,Checking claims against supplied evidence,32,26,32,15,14,1,12,32,26,15,0
+reference_terra61,GPT-6.1 Terra · no reasoning,P10,Assigning severity or priority from a rubric,31,25,31,10,7,3,18,31,25,10,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F32,Numerical pattern recognition,20,17,20,9,9,0,8,20,17,9,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F02,Forward conditionals,22,21,22,19,19,0,2,22,21,19,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F03,Necessary conditions,32,30,31,27,26,1,4,31,30,26,1
+reference_terra61,GPT-6.1 Terra · no reasoning,F04,Boolean scope,18,15,18,6,5,1,10,18,15,6,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F05,Quantifiers and sets,9,9,9,5,5,0,4,9,9,5,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F06,Comparisons,7,5,7,4,2,2,3,7,5,4,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F07,Scheduling,54,39,54,22,19,3,20,54,39,22,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F08,One-to-one assignments,44,41,44,33,31,2,10,44,41,33,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F09,Exact truth counting,68,50,68,28,24,4,26,68,50,28,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F10,Truth-teller consistency,69,50,69,32,26,6,24,69,50,32,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F11,Sufficiency and inconsistency,29,29,29,22,22,0,7,29,29,22,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F12,Object swaps,43,29,43,18,15,3,14,43,29,18,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F13,Sequential procedures,47,25,47,10,6,4,19,47,25,10,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F14,Temporal intervals,25,22,25,17,16,1,6,25,22,17,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F15,Spatial tracking,35,31,35,13,11,2,20,35,31,13,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F16,Reference binding,35,26,35,15,15,0,11,35,26,15,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F17,Beliefs and perspectives,19,16,19,14,14,0,2,19,16,14,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F18,Causal intervention,37,35,37,26,26,0,9,37,35,26,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F19,Exceptions and priorities,24,24,24,21,21,0,3,24,24,21,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F20,Planning,16,14,16,13,13,0,1,16,14,13,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F22,Preference ordering,9,7,9,5,4,1,3,9,7,5,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F23,Rule counterexamples,14,13,14,11,10,1,3,14,13,11,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F24,Authority and stale records,8,8,8,5,5,0,3,8,8,5,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F25,Fault diagnosis,11,9,11,6,6,0,3,11,9,6,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F01,Lookup and filtering,5,4,5,0,0,0,4,5,4,0,0
+reference_terra61,GPT-6.1 Terra · no reasoning,F21,Directed reachability,5,2,5,2,1,1,1,5,2,2,0
+respan02,Respan Span-02 (20261015),F33,Quantitative reasoning,200,118,200,84,56,28,62,200,118,84,0
+respan02,Respan Span-02 (20261015),F26,Probabilistic risk,30,16,30,13,9,4,7,30,16,13,0
+respan02,Respan Span-02 (20261015),F27,Value of information,40,21,40,14,12,2,9,40,21,14,0
+respan02,Respan Span-02 (20261015),F28,Robust decisions without a prior,39,15,39,4,3,1,12,39,15,4,0
+respan02,Respan Span-02 (20261015),F29,Strategic decisions,39,20,39,24,15,9,5,39,20,24,0
+respan02,Respan Span-02 (20261015),F30,Concurrent-history consistency,38,22,38,20,17,3,5,38,22,20,0
+respan02,Respan Span-02 (20261015),F31,Information-flow security,36,17,36,18,9,9,8,35,16,18,0
+respan02,Respan Span-02 (20261015),P04,Selecting a tool or requesting clarification,35,14,35,13,10,3,4,35,14,13,0
+respan02,Respan Span-02 (20261015),P05,Checking authorization and scope,35,16,35,13,10,3,6,35,16,13,0
+respan02,Respan Span-02 (20261015),P01,Understanding requests and routing,31,16,31,19,14,5,2,31,16,19,0
+respan02,Respan Span-02 (20261015),P02,Recognizing multiple requested actions,34,15,34,20,12,8,3,34,15,20,0
+respan02,Respan Span-02 (20261015),P03,Tracking current conversational intention,33,15,33,14,9,5,6,33,15,14,0
+respan02,Respan Span-02 (20261015),P06,Making decisions with untrusted content,35,15,35,14,9,5,6,35,15,14,0
+respan02,Respan Span-02 (20261015),P07,Applying a contextual content policy,27,16,27,17,10,7,6,27,16,17,0
+respan02,Respan Span-02 (20261015),P08,Extracting and normalizing facts,36,9,36,9,5,4,4,36,9,9,0
+respan02,Respan Span-02 (20261015),P09,Checking claims against supplied evidence,32,11,32,15,11,4,0,32,11,15,0
+respan02,Respan Span-02 (20261015),P10,Assigning severity or priority from a rubric,31,5,31,10,3,7,2,31,5,10,0
+respan02,Respan Span-02 (20261015),F32,Numerical pattern recognition,20,13,20,9,7,2,6,20,13,9,0
+respan02,Respan Span-02 (20261015),F02,Forward conditionals,22,8,22,19,7,12,1,22,8,19,0
+respan02,Respan Span-02 (20261015),F03,Necessary conditions,32,24,32,27,23,4,1,32,24,27,0
+respan02,Respan Span-02 (20261015),F04,Boolean scope,18,14,18,6,6,0,8,18,14,6,0
+respan02,Respan Span-02 (20261015),F05,Quantifiers and sets,9,3,9,5,1,4,2,9,3,5,0
+respan02,Respan Span-02 (20261015),F06,Comparisons,7,5,7,4,4,0,1,7,5,4,0
+respan02,Respan Span-02 (20261015),F07,Scheduling,54,36,54,22,19,3,17,54,36,22,0
+respan02,Respan Span-02 (20261015),F08,One-to-one assignments,44,40,44,33,32,1,8,44,40,33,0
+respan02,Respan Span-02 (20261015),F09,Exact truth counting,68,43,68,28,19,9,24,68,43,28,0
+respan02,Respan Span-02 (20261015),F10,Truth-teller consistency,69,50,69,32,25,7,25,69,50,32,0
+respan02,Respan Span-02 (20261015),F11,Sufficiency and inconsistency,29,24,29,22,19,3,5,29,24,22,0
+respan02,Respan Span-02 (20261015),F12,Object swaps,43,19,43,18,14,4,5,43,19,18,0
+respan02,Respan Span-02 (20261015),F13,Sequential procedures,47,32,47,10,6,4,26,47,32,10,0
+respan02,Respan Span-02 (20261015),F14,Temporal intervals,25,23,25,17,16,1,7,25,23,17,0
+respan02,Respan Span-02 (20261015),F15,Spatial tracking,35,28,35,13,11,2,17,35,28,13,0
+respan02,Respan Span-02 (20261015),F16,Reference binding,35,27,35,15,15,0,12,35,27,15,0
+respan02,Respan Span-02 (20261015),F17,Beliefs and perspectives,19,10,19,14,8,6,2,19,10,14,0
+respan02,Respan Span-02 (20261015),F18,Causal intervention,37,34,37,26,26,0,8,37,34,26,0
+respan02,Respan Span-02 (20261015),F19,Exceptions and priorities,24,19,24,21,16,5,3,24,19,21,0
+respan02,Respan Span-02 (20261015),F20,Planning,16,12,16,13,12,1,0,16,12,13,0
+respan02,Respan Span-02 (20261015),F22,Preference ordering,9,7,9,5,5,0,2,9,7,5,0
+respan02,Respan Span-02 (20261015),F23,Rule counterexamples,14,13,14,11,11,0,2,14,13,11,0
+respan02,Respan Span-02 (20261015),F24,Authority and stale records,8,3,8,5,3,2,0,8,3,5,0
+respan02,Respan Span-02 (20261015),F25,Fault diagnosis,11,7,11,6,6,0,1,11,7,6,0
+respan02,Respan Span-02 (20261015),F01,Lookup and filtering,5,1,5,0,0,0,1,5,1,0,0
+respan02,Respan Span-02 (20261015),F21,Directed reachability,5,2,5,2,1,1,1,5,2,2,0
+sarvam_prism,Sarvam Prism,F33,Quantitative reasoning,200,108,200,84,57,27,51,200,108,84,0
+sarvam_prism,Sarvam Prism,F26,Probabilistic risk,30,10,30,13,7,6,3,30,10,13,0
+sarvam_prism,Sarvam Prism,F27,Value of information,40,8,40,14,6,8,2,40,8,14,0
+sarvam_prism,Sarvam Prism,F28,Robust decisions without a prior,39,9,39,4,2,2,7,39,9,4,0
+sarvam_prism,Sarvam Prism,F29,Strategic decisions,39,16,39,24,12,12,4,39,16,24,0
+sarvam_prism,Sarvam Prism,F30,Concurrent-history consistency,38,18,38,20,11,9,7,38,18,20,0
+sarvam_prism,Sarvam Prism,F31,Information-flow security,36,13,36,18,9,9,4,35,12,18,0
+sarvam_prism,Sarvam Prism,P04,Selecting a tool or requesting clarification,35,16,35,13,9,4,7,35,16,13,0
+sarvam_prism,Sarvam Prism,P05,Checking authorization and scope,35,15,35,13,11,2,4,35,15,13,0
+sarvam_prism,Sarvam Prism,P01,Understanding requests and routing,31,19,31,19,17,2,2,31,19,19,0
+sarvam_prism,Sarvam Prism,P02,Recognizing multiple requested actions,34,13,34,20,10,10,3,34,13,20,0
+sarvam_prism,Sarvam Prism,P03,Tracking current conversational intention,33,10,33,14,5,9,5,33,10,14,0
+sarvam_prism,Sarvam Prism,P06,Making decisions with untrusted content,35,9,35,14,6,8,3,35,9,14,0
+sarvam_prism,Sarvam Prism,P07,Applying a contextual content policy,27,10,27,17,7,10,3,27,10,17,0
+sarvam_prism,Sarvam Prism,P08,Extracting and normalizing facts,36,14,36,9,8,1,6,36,14,9,0
+sarvam_prism,Sarvam Prism,P09,Checking claims against supplied evidence,32,17,32,15,11,4,6,32,17,15,0
+sarvam_prism,Sarvam Prism,P10,Assigning severity or priority from a rubric,31,7,31,10,1,9,6,31,7,10,0
+sarvam_prism,Sarvam Prism,F32,Numerical pattern recognition,20,9,20,9,5,4,4,20,9,9,0
+sarvam_prism,Sarvam Prism,F02,Forward conditionals,22,17,22,19,16,3,1,22,17,19,0
+sarvam_prism,Sarvam Prism,F03,Necessary conditions,32,23,32,27,23,4,0,32,23,27,0
+sarvam_prism,Sarvam Prism,F04,Boolean scope,18,14,18,6,5,1,9,18,14,6,0
+sarvam_prism,Sarvam Prism,F05,Quantifiers and sets,9,4,9,5,4,1,0,9,4,5,0
+sarvam_prism,Sarvam Prism,F06,Comparisons,7,4,7,4,3,1,1,7,4,4,0
+sarvam_prism,Sarvam Prism,F07,Scheduling,54,22,54,22,16,6,6,54,22,22,0
+sarvam_prism,Sarvam Prism,F08,One-to-one assignments,44,34,44,33,28,5,6,44,34,33,0
+sarvam_prism,Sarvam Prism,F09,Exact truth counting,68,27,68,28,23,5,4,68,27,28,0
+sarvam_prism,Sarvam Prism,F10,Truth-teller consistency,69,31,69,32,20,12,11,69,31,32,0
+sarvam_prism,Sarvam Prism,F11,Sufficiency and inconsistency,29,15,29,22,14,8,1,29,15,22,0
+sarvam_prism,Sarvam Prism,F12,Object swaps,43,13,43,18,13,5,0,43,13,18,0
+sarvam_prism,Sarvam Prism,F13,Sequential procedures,47,10,47,10,0,10,10,47,10,10,0
+sarvam_prism,Sarvam Prism,F14,Temporal intervals,25,16,25,17,12,5,4,25,16,17,0
+sarvam_prism,Sarvam Prism,F15,Spatial tracking,35,11,35,13,5,8,6,35,11,13,0
+sarvam_prism,Sarvam Prism,F16,Reference binding,35,13,35,15,8,7,5,35,13,15,0
+sarvam_prism,Sarvam Prism,F17,Beliefs and perspectives,19,17,19,14,14,0,3,19,17,14,0
+sarvam_prism,Sarvam Prism,F18,Causal intervention,37,31,37,26,25,1,6,37,31,26,0
+sarvam_prism,Sarvam Prism,F19,Exceptions and priorities,24,17,24,21,17,4,0,24,17,21,0
+sarvam_prism,Sarvam Prism,F20,Planning,16,14,16,13,13,0,1,16,14,13,0
+sarvam_prism,Sarvam Prism,F22,Preference ordering,9,3,9,5,3,2,0,9,3,5,0
+sarvam_prism,Sarvam Prism,F23,Rule counterexamples,14,12,14,11,11,0,1,14,12,11,0
+sarvam_prism,Sarvam Prism,F24,Authority and stale records,8,3,8,5,2,3,1,8,3,5,0
+sarvam_prism,Sarvam Prism,F25,Fault diagnosis,11,5,11,6,5,1,0,11,5,6,0
+sarvam_prism,Sarvam Prism,F01,Lookup and filtering,5,0,5,0,0,0,0,5,0,0,0
+sarvam_prism,Sarvam Prism,F21,Directed reachability,5,2,5,2,1,1,1,5,2,2,0
+subq_snap_1_1,SubQ Snap 1.1,F33,Quantitative reasoning,200,88,200,84,48,36,40,200,88,84,0
+subq_snap_1_1,SubQ Snap 1.1,F26,Probabilistic risk,30,17,30,13,11,2,6,30,17,13,0
+subq_snap_1_1,SubQ Snap 1.1,F27,Value of information,40,23,40,14,9,5,14,40,23,14,0
+subq_snap_1_1,SubQ Snap 1.1,F28,Robust decisions without a prior,39,19,39,4,2,2,17,39,19,4,0
+subq_snap_1_1,SubQ Snap 1.1,F29,Strategic decisions,39,22,39,24,17,7,5,39,22,24,0
+subq_snap_1_1,SubQ Snap 1.1,F30,Concurrent-history consistency,38,21,38,20,17,3,4,38,21,20,0
+subq_snap_1_1,SubQ Snap 1.1,F31,Information-flow security,36,26,36,18,15,3,11,35,25,18,0
+subq_snap_1_1,SubQ Snap 1.1,P04,Selecting a tool or requesting clarification,35,15,35,13,7,6,8,35,15,13,0
+subq_snap_1_1,SubQ Snap 1.1,P05,Checking authorization and scope,35,21,35,13,12,1,9,35,21,13,0
+subq_snap_1_1,SubQ Snap 1.1,P01,Understanding requests and routing,31,26,31,19,17,2,9,31,26,19,0
+subq_snap_1_1,SubQ Snap 1.1,P02,Recognizing multiple requested actions,34,33,34,20,20,0,13,34,33,20,0
+subq_snap_1_1,SubQ Snap 1.1,P03,Tracking current conversational intention,33,32,33,14,14,0,18,33,32,14,0
+subq_snap_1_1,SubQ Snap 1.1,P06,Making decisions with untrusted content,35,35,35,14,14,0,21,35,35,14,0
+subq_snap_1_1,SubQ Snap 1.1,P07,Applying a contextual content policy,27,15,27,17,9,8,6,27,15,17,0
+subq_snap_1_1,SubQ Snap 1.1,P08,Extracting and normalizing facts,36,18,36,9,7,2,11,36,18,9,0
+subq_snap_1_1,SubQ Snap 1.1,P09,Checking claims against supplied evidence,32,21,32,15,14,1,7,32,21,15,0
+subq_snap_1_1,SubQ Snap 1.1,P10,Assigning severity or priority from a rubric,31,22,31,10,2,8,20,31,22,10,0
+subq_snap_1_1,SubQ Snap 1.1,F32,Numerical pattern recognition,20,14,20,9,7,2,7,20,14,9,0
+subq_snap_1_1,SubQ Snap 1.1,F02,Forward conditionals,22,20,22,19,19,0,1,22,20,19,0
+subq_snap_1_1,SubQ Snap 1.1,F03,Necessary conditions,32,30,32,27,26,1,4,32,30,27,0
+subq_snap_1_1,SubQ Snap 1.1,F04,Boolean scope,18,14,18,6,6,0,8,18,14,6,0
+subq_snap_1_1,SubQ Snap 1.1,F05,Quantifiers and sets,9,4,9,5,3,2,1,9,4,5,0
+subq_snap_1_1,SubQ Snap 1.1,F06,Comparisons,7,5,7,4,4,0,1,7,5,4,0
+subq_snap_1_1,SubQ Snap 1.1,F07,Scheduling,54,30,54,22,17,5,13,54,30,22,0
+subq_snap_1_1,SubQ Snap 1.1,F08,One-to-one assignments,44,40,44,33,33,0,7,44,40,33,0
+subq_snap_1_1,SubQ Snap 1.1,F09,Exact truth counting,68,43,68,28,26,2,17,68,43,28,0
+subq_snap_1_1,SubQ Snap 1.1,F10,Truth-teller consistency,69,53,69,32,28,4,25,69,53,32,0
+subq_snap_1_1,SubQ Snap 1.1,F11,Sufficiency and inconsistency,29,20,29,22,15,7,5,29,20,22,0
+subq_snap_1_1,SubQ Snap 1.1,F12,Object swaps,43,21,43,18,14,4,7,43,21,18,0
+subq_snap_1_1,SubQ Snap 1.1,F13,Sequential procedures,47,14,47,10,6,4,8,47,14,10,0
+subq_snap_1_1,SubQ Snap 1.1,F14,Temporal intervals,25,22,25,17,15,2,7,25,22,17,0
+subq_snap_1_1,SubQ Snap 1.1,F15,Spatial tracking,35,20,35,13,9,4,11,35,20,13,0
+subq_snap_1_1,SubQ Snap 1.1,F16,Reference binding,35,22,35,15,12,3,10,35,22,15,0
+subq_snap_1_1,SubQ Snap 1.1,F17,Beliefs and perspectives,19,17,19,14,14,0,3,19,17,14,0
+subq_snap_1_1,SubQ Snap 1.1,F18,Causal intervention,37,30,37,26,24,2,6,37,30,26,0
+subq_snap_1_1,SubQ Snap 1.1,F19,Exceptions and priorities,24,20,24,21,19,2,1,24,20,21,0
+subq_snap_1_1,SubQ Snap 1.1,F20,Planning,16,12,16,13,11,2,1,16,12,13,0
+subq_snap_1_1,SubQ Snap 1.1,F22,Preference ordering,9,7,9,5,5,0,2,9,7,5,0
+subq_snap_1_1,SubQ Snap 1.1,F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+subq_snap_1_1,SubQ Snap 1.1,F24,Authority and stale records,8,6,8,5,4,1,2,8,6,5,0
+subq_snap_1_1,SubQ Snap 1.1,F25,Fault diagnosis,11,6,11,6,5,1,1,11,6,6,0
+subq_snap_1_1,SubQ Snap 1.1,F01,Lookup and filtering,5,2,5,0,0,0,2,5,2,0,0
+subq_snap_1_1,SubQ Snap 1.1,F21,Directed reachability,5,3,5,2,2,0,1,5,3,2,0
+super_decider,Super Decider,F33,Quantitative reasoning,200,72,200,84,36,48,36,200,72,84,0
+super_decider,Super Decider,F26,Probabilistic risk,30,14,30,13,11,2,3,30,14,13,0
+super_decider,Super Decider,F27,Value of information,40,22,40,14,10,4,12,40,22,14,0
+super_decider,Super Decider,F28,Robust decisions without a prior,39,12,39,4,2,2,10,39,12,4,0
+super_decider,Super Decider,F29,Strategic decisions,39,18,39,24,16,8,2,39,18,24,0
+super_decider,Super Decider,F30,Concurrent-history consistency,38,17,38,20,16,4,1,38,17,20,0
+super_decider,Super Decider,F31,Information-flow security,36,22,36,18,14,4,8,35,21,18,0
+super_decider,Super Decider,P04,Selecting a tool or requesting clarification,35,12,35,13,8,5,4,35,12,13,0
+super_decider,Super Decider,P05,Checking authorization and scope,35,11,35,13,6,7,5,35,11,13,0
+super_decider,Super Decider,P01,Understanding requests and routing,31,19,31,19,15,4,4,31,19,19,0
+super_decider,Super Decider,P02,Recognizing multiple requested actions,34,19,34,20,12,8,7,34,19,20,0
+super_decider,Super Decider,P03,Tracking current conversational intention,33,17,33,14,9,5,8,33,17,14,0
+super_decider,Super Decider,P06,Making decisions with untrusted content,35,14,35,14,5,9,9,35,14,14,0
+super_decider,Super Decider,P07,Applying a contextual content policy,27,14,27,17,11,6,3,27,14,17,0
+super_decider,Super Decider,P08,Extracting and normalizing facts,36,9,36,9,2,7,7,36,9,9,0
+super_decider,Super Decider,P09,Checking claims against supplied evidence,32,9,32,15,6,9,3,32,9,15,0
+super_decider,Super Decider,P10,Assigning severity or priority from a rubric,31,9,31,10,1,9,8,31,9,10,0
+super_decider,Super Decider,F32,Numerical pattern recognition,20,13,20,9,7,2,6,20,13,9,0
+super_decider,Super Decider,F02,Forward conditionals,22,11,22,19,10,9,1,22,11,19,0
+super_decider,Super Decider,F03,Necessary conditions,32,10,32,27,10,17,0,32,10,27,0
+super_decider,Super Decider,F04,Boolean scope,18,13,18,6,4,2,9,18,13,6,0
+super_decider,Super Decider,F05,Quantifiers and sets,9,5,9,5,3,2,2,9,5,5,0
+super_decider,Super Decider,F06,Comparisons,7,3,7,4,1,3,2,7,3,4,0
+super_decider,Super Decider,F07,Scheduling,54,16,54,22,9,13,7,54,16,22,0
+super_decider,Super Decider,F08,One-to-one assignments,44,31,44,33,25,8,6,44,31,33,0
+super_decider,Super Decider,F09,Exact truth counting,68,32,68,28,15,13,17,68,32,28,0
+super_decider,Super Decider,F10,Truth-teller consistency,69,27,69,32,15,17,12,69,27,32,0
+super_decider,Super Decider,F11,Sufficiency and inconsistency,29,26,29,22,20,2,6,29,26,22,0
+super_decider,Super Decider,F12,Object swaps,43,20,43,18,13,5,7,43,20,18,0
+super_decider,Super Decider,F13,Sequential procedures,47,16,47,10,3,7,13,47,16,10,0
+super_decider,Super Decider,F14,Temporal intervals,25,21,25,17,14,3,7,25,21,17,0
+super_decider,Super Decider,F15,Spatial tracking,35,15,35,13,9,4,6,35,15,13,0
+super_decider,Super Decider,F16,Reference binding,35,13,35,15,8,7,5,35,13,15,0
+super_decider,Super Decider,F17,Beliefs and perspectives,19,11,19,14,10,4,1,19,11,14,0
+super_decider,Super Decider,F18,Causal intervention,37,19,37,26,15,11,4,37,19,26,0
+super_decider,Super Decider,F19,Exceptions and priorities,24,14,24,21,13,8,1,24,14,21,0
+super_decider,Super Decider,F20,Planning,16,9,16,13,8,5,1,16,9,13,0
+super_decider,Super Decider,F22,Preference ordering,9,5,9,5,4,1,1,9,5,5,0
+super_decider,Super Decider,F23,Rule counterexamples,14,11,14,11,9,2,2,14,11,11,0
+super_decider,Super Decider,F24,Authority and stale records,8,5,8,5,4,1,1,8,5,5,0
+super_decider,Super Decider,F25,Fault diagnosis,11,7,11,6,6,0,1,11,7,6,0
+super_decider,Super Decider,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+super_decider,Super Decider,F21,Directed reachability,5,3,5,2,1,1,2,5,3,2,0
+turion_jev31b,Turion Jev 31B,F33,Quantitative reasoning,200,93,199,84,47,37,46,199,93,84,0
+turion_jev31b,Turion Jev 31B,F26,Probabilistic risk,30,19,30,13,11,2,8,30,19,13,0
+turion_jev31b,Turion Jev 31B,F27,Value of information,40,26,40,14,9,5,17,40,26,14,0
+turion_jev31b,Turion Jev 31B,F28,Robust decisions without a prior,39,13,39,4,1,3,12,39,13,4,0
+turion_jev31b,Turion Jev 31B,F29,Strategic decisions,39,19,39,24,14,10,5,39,19,24,0
+turion_jev31b,Turion Jev 31B,F30,Concurrent-history consistency,38,21,38,20,17,3,4,38,21,20,0
+turion_jev31b,Turion Jev 31B,F31,Information-flow security,36,29,36,18,15,3,14,35,28,18,0
+turion_jev31b,Turion Jev 31B,P04,Selecting a tool or requesting clarification,35,16,35,13,10,3,6,35,16,13,0
+turion_jev31b,Turion Jev 31B,P05,Checking authorization and scope,35,20,35,13,11,2,9,35,20,13,0
+turion_jev31b,Turion Jev 31B,P01,Understanding requests and routing,31,25,31,19,19,0,6,31,25,19,0
+turion_jev31b,Turion Jev 31B,P02,Recognizing multiple requested actions,34,30,34,20,17,3,13,34,30,20,0
+turion_jev31b,Turion Jev 31B,P03,Tracking current conversational intention,33,32,33,14,14,0,18,33,32,14,0
+turion_jev31b,Turion Jev 31B,P06,Making decisions with untrusted content,35,34,35,14,14,0,20,35,34,14,0
+turion_jev31b,Turion Jev 31B,P07,Applying a contextual content policy,27,18,27,17,12,5,6,27,18,17,0
+turion_jev31b,Turion Jev 31B,P08,Extracting and normalizing facts,36,17,36,9,7,2,10,36,17,9,0
+turion_jev31b,Turion Jev 31B,P09,Checking claims against supplied evidence,32,20,32,15,11,4,9,32,20,15,0
+turion_jev31b,Turion Jev 31B,P10,Assigning severity or priority from a rubric,31,21,31,10,3,7,18,31,21,10,0
+turion_jev31b,Turion Jev 31B,F32,Numerical pattern recognition,20,14,20,9,8,1,6,20,14,9,0
+turion_jev31b,Turion Jev 31B,F02,Forward conditionals,22,19,22,19,17,2,2,22,19,19,0
+turion_jev31b,Turion Jev 31B,F03,Necessary conditions,32,29,32,27,26,1,3,32,29,27,0
+turion_jev31b,Turion Jev 31B,F04,Boolean scope,18,17,18,6,6,0,11,18,17,6,0
+turion_jev31b,Turion Jev 31B,F05,Quantifiers and sets,9,6,9,5,4,1,2,9,6,5,0
+turion_jev31b,Turion Jev 31B,F06,Comparisons,7,6,7,4,3,1,3,7,6,4,0
+turion_jev31b,Turion Jev 31B,F07,Scheduling,54,38,54,22,18,4,20,54,38,22,0
+turion_jev31b,Turion Jev 31B,F08,One-to-one assignments,44,41,44,33,32,1,9,44,41,33,0
+turion_jev31b,Turion Jev 31B,F09,Exact truth counting,68,50,68,28,23,5,27,68,50,28,0
+turion_jev31b,Turion Jev 31B,F10,Truth-teller consistency,69,36,69,32,21,11,15,69,36,32,0
+turion_jev31b,Turion Jev 31B,F11,Sufficiency and inconsistency,29,27,29,22,21,1,6,29,27,22,0
+turion_jev31b,Turion Jev 31B,F12,Object swaps,43,21,43,18,14,4,7,43,21,18,0
+turion_jev31b,Turion Jev 31B,F13,Sequential procedures,47,9,47,10,4,6,5,47,9,10,0
+turion_jev31b,Turion Jev 31B,F14,Temporal intervals,25,22,25,17,16,1,6,25,22,17,0
+turion_jev31b,Turion Jev 31B,F15,Spatial tracking,35,28,35,13,10,3,18,35,28,13,0
+turion_jev31b,Turion Jev 31B,F16,Reference binding,35,20,35,15,13,2,7,35,20,15,0
+turion_jev31b,Turion Jev 31B,F17,Beliefs and perspectives,19,16,19,14,14,0,2,19,16,14,0
+turion_jev31b,Turion Jev 31B,F18,Causal intervention,37,33,37,26,26,0,7,37,33,26,0
+turion_jev31b,Turion Jev 31B,F19,Exceptions and priorities,24,20,24,21,19,2,1,24,20,21,0
+turion_jev31b,Turion Jev 31B,F20,Planning,16,13,16,13,13,0,0,16,13,13,0
+turion_jev31b,Turion Jev 31B,F22,Preference ordering,9,4,9,5,3,2,1,9,4,5,0
+turion_jev31b,Turion Jev 31B,F23,Rule counterexamples,14,13,14,11,11,0,2,14,13,11,0
+turion_jev31b,Turion Jev 31B,F24,Authority and stale records,8,7,8,5,5,0,2,8,7,5,0
+turion_jev31b,Turion Jev 31B,F25,Fault diagnosis,11,6,11,6,6,0,0,11,6,6,0
+turion_jev31b,Turion Jev 31B,F01,Lookup and filtering,5,4,5,0,0,0,4,5,4,0,0
+turion_jev31b,Turion Jev 31B,F21,Directed reachability,5,2,5,2,0,2,2,5,2,2,0
+morph_reflex,Morph Reflex,F15,Spatial tracking,35,20,35,13,11,2,9,35,20,13,0
+morph_reflex,Morph Reflex,F12,Object swaps,43,22,43,18,11,7,11,43,22,18,0
+morph_reflex,Morph Reflex,F33,Quantitative reasoning,200,111,200,84,61,23,50,200,111,84,0
+morph_reflex,Morph Reflex,F05,Quantifiers and sets,9,5,9,5,4,1,1,9,5,5,0
+morph_reflex,Morph Reflex,F09,Exact truth counting,68,29,68,28,22,6,7,68,29,28,0
+morph_reflex,Morph Reflex,P02,Recognizing multiple requested actions,34,24,34,20,14,6,10,34,24,20,0
+morph_reflex,Morph Reflex,P06,Making decisions with untrusted content,35,27,35,14,9,5,18,35,27,14,0
+morph_reflex,Morph Reflex,P09,Checking claims against supplied evidence,32,21,32,15,14,1,7,32,21,15,0
+morph_reflex,Morph Reflex,F01,Lookup and filtering,5,0,5,0,0,0,0,5,0,0,0
+morph_reflex,Morph Reflex,P01,Understanding requests and routing,31,23,31,19,17,2,6,31,23,19,0
+morph_reflex,Morph Reflex,F30,Concurrent-history consistency,38,19,38,20,15,5,4,38,19,20,0
+morph_reflex,Morph Reflex,F06,Comparisons,7,4,7,4,4,0,0,7,4,4,0
+morph_reflex,Morph Reflex,F02,Forward conditionals,22,18,22,19,17,2,1,22,18,19,0
+morph_reflex,Morph Reflex,P03,Tracking current conversational intention,33,15,33,14,9,5,6,33,15,14,0
+morph_reflex,Morph Reflex,P04,Selecting a tool or requesting clarification,35,14,35,13,10,3,4,35,14,13,0
+morph_reflex,Morph Reflex,F17,Beliefs and perspectives,19,15,19,14,14,0,1,19,15,14,0
+morph_reflex,Morph Reflex,F19,Exceptions and priorities,24,19,24,21,17,4,2,24,19,21,0
+morph_reflex,Morph Reflex,P05,Checking authorization and scope,35,20,35,13,10,3,10,35,20,13,0
+morph_reflex,Morph Reflex,F07,Scheduling,54,24,54,22,16,6,8,54,24,22,0
+morph_reflex,Morph Reflex,F13,Sequential procedures,47,12,47,10,8,2,4,47,12,10,0
+morph_reflex,Morph Reflex,F23,Rule counterexamples,14,13,14,11,11,0,2,14,13,11,0
+morph_reflex,Morph Reflex,F28,Robust decisions without a prior,39,13,39,4,2,2,11,39,13,4,0
+morph_reflex,Morph Reflex,P10,Assigning severity or priority from a rubric,31,18,31,10,4,6,14,31,18,10,0
+morph_reflex,Morph Reflex,F10,Truth-teller consistency,69,37,69,32,21,11,16,69,37,32,0
+morph_reflex,Morph Reflex,F29,Strategic decisions,39,25,39,24,19,5,6,39,25,24,0
+morph_reflex,Morph Reflex,F11,Sufficiency and inconsistency,29,25,29,22,21,1,4,29,25,22,0
+morph_reflex,Morph Reflex,F31,Information-flow security,36,24,36,18,16,2,8,35,23,18,0
+morph_reflex,Morph Reflex,F18,Causal intervention,37,22,37,26,18,8,4,37,22,26,0
+morph_reflex,Morph Reflex,F32,Numerical pattern recognition,20,14,20,9,9,0,5,20,14,9,0
+morph_reflex,Morph Reflex,P07,Applying a contextual content policy,27,19,27,17,13,4,6,27,19,17,0
+morph_reflex,Morph Reflex,F14,Temporal intervals,25,16,25,17,10,7,6,25,16,17,0
+morph_reflex,Morph Reflex,P08,Extracting and normalizing facts,36,14,36,9,7,2,7,36,14,9,0
+morph_reflex,Morph Reflex,F16,Reference binding,35,17,35,15,11,4,6,35,17,15,0
+morph_reflex,Morph Reflex,F25,Fault diagnosis,11,7,11,6,6,0,1,11,7,6,0
+morph_reflex,Morph Reflex,F08,One-to-one assignments,44,33,44,33,25,8,8,44,33,33,0
+morph_reflex,Morph Reflex,F26,Probabilistic risk,30,16,30,13,10,3,6,30,16,13,0
+morph_reflex,Morph Reflex,F03,Necessary conditions,32,28,32,27,26,1,2,32,28,27,0
+morph_reflex,Morph Reflex,F20,Planning,16,13,16,13,13,0,0,16,13,13,0
+morph_reflex,Morph Reflex,F27,Value of information,40,24,40,14,10,4,14,40,24,14,0
+morph_reflex,Morph Reflex,F04,Boolean scope,18,13,18,6,4,2,9,18,13,6,0
+morph_reflex,Morph Reflex,F22,Preference ordering,9,5,9,5,4,1,1,9,5,5,0
+morph_reflex,Morph Reflex,F21,Directed reachability,5,0,5,2,0,2,0,5,0,2,0
+morph_reflex,Morph Reflex,F24,Authority and stale records,8,3,8,5,2,3,1,8,3,5,0
+reax_1_3,REAX 1.3 · ensemble,F15,Spatial tracking,35,23,35,13,11,2,12,35,23,13,0
+reax_1_3,REAX 1.3 · ensemble,F12,Object swaps,43,27,43,18,15,3,12,43,27,18,0
+reax_1_3,REAX 1.3 · ensemble,F33,Quantitative reasoning,200,149,200,84,75,9,74,200,149,84,0
+reax_1_3,REAX 1.3 · ensemble,F05,Quantifiers and sets,9,5,9,5,3,2,2,9,5,5,0
+reax_1_3,REAX 1.3 · ensemble,F09,Exact truth counting,68,39,68,28,24,4,15,68,39,28,0
+reax_1_3,REAX 1.3 · ensemble,P02,Recognizing multiple requested actions,34,34,34,20,20,0,14,34,34,20,0
+reax_1_3,REAX 1.3 · ensemble,P06,Making decisions with untrusted content,35,35,35,14,14,0,21,35,35,14,0
+reax_1_3,REAX 1.3 · ensemble,P09,Checking claims against supplied evidence,32,23,32,15,15,0,8,32,23,15,0
+reax_1_3,REAX 1.3 · ensemble,F01,Lookup and filtering,5,4,5,0,0,0,4,5,4,0,0
+reax_1_3,REAX 1.3 · ensemble,P01,Understanding requests and routing,31,29,31,19,19,0,10,31,29,19,0
+reax_1_3,REAX 1.3 · ensemble,F30,Concurrent-history consistency,38,23,38,20,18,2,5,38,23,20,0
+reax_1_3,REAX 1.3 · ensemble,F06,Comparisons,7,6,7,4,4,0,2,7,6,4,0
+reax_1_3,REAX 1.3 · ensemble,F02,Forward conditionals,22,22,22,19,19,0,3,22,22,19,0
+reax_1_3,REAX 1.3 · ensemble,P03,Tracking current conversational intention,33,33,33,14,14,0,19,33,33,14,0
+reax_1_3,REAX 1.3 · ensemble,P04,Selecting a tool or requesting clarification,35,13,35,13,10,3,3,35,13,13,0
+reax_1_3,REAX 1.3 · ensemble,F17,Beliefs and perspectives,19,16,19,14,14,0,2,19,16,14,0
+reax_1_3,REAX 1.3 · ensemble,F19,Exceptions and priorities,24,22,24,21,20,1,2,24,22,21,0
+reax_1_3,REAX 1.3 · ensemble,P05,Checking authorization and scope,35,20,35,13,12,1,8,35,20,13,0
+reax_1_3,REAX 1.3 · ensemble,F07,Scheduling,54,35,54,22,17,5,18,54,35,22,0
+reax_1_3,REAX 1.3 · ensemble,F13,Sequential procedures,47,27,47,10,10,0,17,47,27,10,0
+reax_1_3,REAX 1.3 · ensemble,F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+reax_1_3,REAX 1.3 · ensemble,F28,Robust decisions without a prior,39,15,39,4,3,1,12,39,15,4,0
+reax_1_3,REAX 1.3 · ensemble,P10,Assigning severity or priority from a rubric,31,22,31,10,3,7,19,31,22,10,0
+reax_1_3,REAX 1.3 · ensemble,F10,Truth-teller consistency,69,51,69,32,27,5,24,69,51,32,0
+reax_1_3,REAX 1.3 · ensemble,F29,Strategic decisions,39,30,39,24,21,3,9,39,30,24,0
+reax_1_3,REAX 1.3 · ensemble,F11,Sufficiency and inconsistency,29,27,29,22,21,1,6,29,27,22,0
+reax_1_3,REAX 1.3 · ensemble,F31,Information-flow security,36,33,36,18,18,0,15,35,32,18,0
+reax_1_3,REAX 1.3 · ensemble,F18,Causal intervention,37,31,37,26,26,0,5,37,31,26,0
+reax_1_3,REAX 1.3 · ensemble,F32,Numerical pattern recognition,20,15,20,9,8,1,7,20,15,9,0
+reax_1_3,REAX 1.3 · ensemble,P07,Applying a contextual content policy,27,23,27,17,16,1,7,27,23,17,0
+reax_1_3,REAX 1.3 · ensemble,F14,Temporal intervals,25,22,25,17,15,2,7,25,22,17,0
+reax_1_3,REAX 1.3 · ensemble,P08,Extracting and normalizing facts,36,17,36,9,8,1,9,36,17,9,0
+reax_1_3,REAX 1.3 · ensemble,F16,Reference binding,35,22,35,15,13,2,9,35,22,15,0
+reax_1_3,REAX 1.3 · ensemble,F25,Fault diagnosis,11,8,11,6,6,0,2,11,8,6,0
+reax_1_3,REAX 1.3 · ensemble,F08,One-to-one assignments,44,41,44,33,32,1,9,44,41,33,0
+reax_1_3,REAX 1.3 · ensemble,F26,Probabilistic risk,30,20,30,13,12,1,8,30,20,13,0
+reax_1_3,REAX 1.3 · ensemble,F03,Necessary conditions,32,30,32,27,26,1,4,32,30,27,0
+reax_1_3,REAX 1.3 · ensemble,F20,Planning,16,12,16,13,12,1,0,16,12,13,0
+reax_1_3,REAX 1.3 · ensemble,F27,Value of information,40,27,40,14,12,2,15,40,27,14,0
+reax_1_3,REAX 1.3 · ensemble,F04,Boolean scope,18,15,18,6,5,1,10,18,15,6,0
+reax_1_3,REAX 1.3 · ensemble,F22,Preference ordering,9,6,9,5,4,1,2,9,6,5,0
+reax_1_3,REAX 1.3 · ensemble,F21,Directed reachability,5,4,5,2,2,0,2,5,4,2,0
+reax_1_3,REAX 1.3 · ensemble,F24,Authority and stale records,8,7,8,5,5,0,2,8,7,5,0
+drex_max_v11,Drex Max v1.1 · Nace native,F15,Spatial tracking,35,27,35,13,10,3,17,35,27,13,0
+drex_max_v11,Drex Max v1.1 · Nace native,F12,Object swaps,43,23,43,18,12,6,11,43,23,18,0
+drex_max_v11,Drex Max v1.1 · Nace native,F33,Quantitative reasoning,200,90,199,84,48,36,42,199,90,83,1
+drex_max_v11,Drex Max v1.1 · Nace native,F05,Quantifiers and sets,9,5,9,5,3,2,2,9,5,5,0
+drex_max_v11,Drex Max v1.1 · Nace native,F09,Exact truth counting,68,40,68,28,26,2,14,68,40,28,0
+drex_max_v11,Drex Max v1.1 · Nace native,P02,Recognizing multiple requested actions,34,34,34,20,20,0,14,34,34,20,0
+drex_max_v11,Drex Max v1.1 · Nace native,P06,Making decisions with untrusted content,35,35,35,14,14,0,21,35,35,14,0
+drex_max_v11,Drex Max v1.1 · Nace native,P09,Checking claims against supplied evidence,32,22,32,15,13,2,9,32,22,15,0
+drex_max_v11,Drex Max v1.1 · Nace native,F01,Lookup and filtering,5,3,5,0,0,0,3,5,3,0,0
+drex_max_v11,Drex Max v1.1 · Nace native,P01,Understanding requests and routing,31,29,31,19,19,0,10,31,29,19,0
+drex_max_v11,Drex Max v1.1 · Nace native,F30,Concurrent-history consistency,38,26,38,20,19,1,7,38,26,20,0
+drex_max_v11,Drex Max v1.1 · Nace native,F06,Comparisons,7,5,7,4,3,1,2,7,5,4,0
+drex_max_v11,Drex Max v1.1 · Nace native,F02,Forward conditionals,22,22,22,19,19,0,3,22,22,19,0
+drex_max_v11,Drex Max v1.1 · Nace native,P03,Tracking current conversational intention,33,33,33,14,14,0,19,33,33,14,0
+drex_max_v11,Drex Max v1.1 · Nace native,P04,Selecting a tool or requesting clarification,35,15,35,13,10,3,5,35,15,13,0
+drex_max_v11,Drex Max v1.1 · Nace native,F17,Beliefs and perspectives,19,15,19,14,14,0,1,19,15,14,0
+drex_max_v11,Drex Max v1.1 · Nace native,F19,Exceptions and priorities,24,22,24,21,20,1,2,24,22,21,0
+drex_max_v11,Drex Max v1.1 · Nace native,P05,Checking authorization and scope,35,20,35,13,12,1,8,35,20,13,0
+drex_max_v11,Drex Max v1.1 · Nace native,F07,Scheduling,54,35,54,22,16,6,19,54,35,22,0
+drex_max_v11,Drex Max v1.1 · Nace native,F13,Sequential procedures,47,25,47,10,8,2,17,47,25,10,0
+drex_max_v11,Drex Max v1.1 · Nace native,F23,Rule counterexamples,14,14,14,11,11,0,3,14,14,11,0
+drex_max_v11,Drex Max v1.1 · Nace native,F28,Robust decisions without a prior,39,15,38,4,4,0,11,38,15,4,0
+drex_max_v11,Drex Max v1.1 · Nace native,P10,Assigning severity or priority from a rubric,31,22,31,10,3,7,19,31,22,10,0
+drex_max_v11,Drex Max v1.1 · Nace native,F10,Truth-teller consistency,69,54,69,32,29,3,25,69,54,32,0
+drex_max_v11,Drex Max v1.1 · Nace native,F29,Strategic decisions,39,26,39,24,18,6,8,39,26,24,0
+drex_max_v11,Drex Max v1.1 · Nace native,F11,Sufficiency and inconsistency,29,23,29,22,17,5,6,29,23,22,0
+drex_max_v11,Drex Max v1.1 · Nace native,F31,Information-flow security,36,29,36,18,17,1,12,35,28,18,0
+drex_max_v11,Drex Max v1.1 · Nace native,F18,Causal intervention,37,33,37,26,26,0,7,37,33,26,0
+drex_max_v11,Drex Max v1.1 · Nace native,F32,Numerical pattern recognition,20,15,20,9,8,1,7,20,15,9,0
+drex_max_v11,Drex Max v1.1 · Nace native,P07,Applying a contextual content policy,27,18,27,17,11,6,7,27,18,17,0
+drex_max_v11,Drex Max v1.1 · Nace native,F14,Temporal intervals,25,24,25,17,16,1,8,25,24,17,0
+drex_max_v11,Drex Max v1.1 · Nace native,P08,Extracting and normalizing facts,36,14,36,9,5,4,9,36,14,9,0
+drex_max_v11,Drex Max v1.1 · Nace native,F16,Reference binding,35,20,35,15,13,2,7,35,20,15,0
+drex_max_v11,Drex Max v1.1 · Nace native,F25,Fault diagnosis,11,8,11,6,6,0,2,11,8,6,0
+drex_max_v11,Drex Max v1.1 · Nace native,F08,One-to-one assignments,44,40,44,33,31,2,9,44,40,33,0
+drex_max_v11,Drex Max v1.1 · Nace native,F26,Probabilistic risk,30,21,30,13,12,1,9,30,21,13,0
+drex_max_v11,Drex Max v1.1 · Nace native,F03,Necessary conditions,32,29,32,27,26,1,3,32,29,27,0
+drex_max_v11,Drex Max v1.1 · Nace native,F20,Planning,16,12,16,13,12,1,0,16,12,13,0
+drex_max_v11,Drex Max v1.1 · Nace native,F27,Value of information,40,24,40,14,12,2,12,40,24,14,0
+drex_max_v11,Drex Max v1.1 · Nace native,F04,Boolean scope,18,13,18,6,5,1,8,18,13,6,0
+drex_max_v11,Drex Max v1.1 · Nace native,F22,Preference ordering,9,7,9,5,5,0,2,9,7,5,0
+drex_max_v11,Drex Max v1.1 · Nace native,F21,Directed reachability,5,3,5,2,2,0,1,5,3,2,0
+drex_max_v11,Drex Max v1.1 · Nace native,F24,Authority and stale records,8,6,8,5,4,1,2,8,6,5,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F15,Spatial tracking,35,13,35,13,11,2,2,35,13,13,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F12,Object swaps,43,19,43,18,14,4,5,43,19,18,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F33,Quantitative reasoning,200,93,200,84,57,27,36,200,93,84,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F05,Quantifiers and sets,9,4,9,5,4,1,0,9,4,5,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F09,Exact truth counting,68,30,68,28,23,5,7,68,30,28,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,P02,Recognizing multiple requested actions,34,19,34,20,13,7,6,34,19,20,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,P06,Making decisions with untrusted content,35,15,35,14,9,5,6,35,15,14,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,P09,Checking claims against supplied evidence,32,13,32,15,7,8,6,32,13,15,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F01,Lookup and filtering,5,0,5,0,0,0,0,5,0,0,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,P01,Understanding requests and routing,31,8,31,19,8,11,0,31,8,19,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F30,Concurrent-history consistency,38,15,38,20,12,8,3,38,15,20,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F06,Comparisons,7,3,7,4,2,2,1,7,3,4,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F02,Forward conditionals,22,17,22,19,17,2,0,22,17,19,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,P03,Tracking current conversational intention,33,24,33,14,11,3,13,33,24,14,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,P04,Selecting a tool or requesting clarification,35,12,35,13,11,2,1,35,12,13,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F17,Beliefs and perspectives,19,14,19,14,14,0,0,19,14,14,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F19,Exceptions and priorities,24,17,24,21,17,4,0,24,17,21,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,P05,Checking authorization and scope,35,18,35,13,11,2,7,35,18,13,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F07,Scheduling,54,27,54,22,17,5,10,54,27,22,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F13,Sequential procedures,47,15,47,10,4,6,11,47,15,10,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F23,Rule counterexamples,14,12,14,11,11,0,1,14,12,11,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F28,Robust decisions without a prior,39,3,39,4,2,2,1,39,3,4,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,P10,Assigning severity or priority from a rubric,31,16,31,10,2,8,14,31,16,10,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F10,Truth-teller consistency,69,33,69,32,21,11,12,69,33,32,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F29,Strategic decisions,39,22,39,24,17,7,5,39,22,24,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F11,Sufficiency and inconsistency,29,19,29,22,16,6,3,29,19,22,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F31,Information-flow security,36,19,36,18,13,5,6,35,18,18,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F18,Causal intervention,37,22,37,26,17,9,5,37,22,26,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F32,Numerical pattern recognition,20,8,20,9,5,4,3,20,8,9,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,P07,Applying a contextual content policy,27,12,27,17,11,6,1,27,12,17,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F14,Temporal intervals,25,9,25,17,6,11,3,25,9,17,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,P08,Extracting and normalizing facts,36,10,36,9,6,3,4,36,10,9,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F16,Reference binding,35,22,35,15,13,2,9,35,22,15,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F25,Fault diagnosis,11,5,11,6,5,1,0,11,5,6,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F08,One-to-one assignments,44,31,44,33,24,9,7,44,31,33,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F26,Probabilistic risk,30,13,30,13,11,2,2,30,13,13,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F03,Necessary conditions,32,26,32,27,23,4,3,32,26,27,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F20,Planning,16,12,16,13,11,2,1,16,12,13,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F27,Value of information,40,10,40,14,7,7,3,40,10,14,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F04,Boolean scope,18,6,18,6,4,2,2,18,6,6,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F22,Preference ordering,9,5,9,5,4,1,1,9,5,5,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F21,Directed reachability,5,2,5,2,0,2,2,5,2,2,0
+singvl_s1_4b_q4km_llamacpp_ctx4096_lan,SingVL S1 4B Q4 · 2×RTX 2060,F24,Authority and stale records,8,5,8,5,4,1,1,8,5,5,0

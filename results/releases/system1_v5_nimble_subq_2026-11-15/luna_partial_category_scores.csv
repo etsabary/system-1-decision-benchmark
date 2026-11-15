@@ -1,0 +1,19 @@
+family_id,family,new_sample_n,new_sample_correct,new_sample_accuracy,full_bank_category_n
+F26,Probabilistic risk,7,6,0.8571428571428571,40
+F27,Value of information,5,5,1.0,40
+F28,Robust decisions without a prior,5,1,0.2,40
+F29,Strategic decisions,9,3,0.3333333333333333,40
+F30,Concurrent-history consistency,8,3,0.375,40
+F31,Information-flow security,9,5,0.5555555555555556,40
+F32,Numerical pattern recognition,5,4,0.8,23
+F33,Quantitative reasoning,41,11,0.2682926829268293,200
+P01,Understanding requests and routing,8,4,0.5,40
+P02,Recognizing multiple requested actions,9,7,0.7777777777777778,40
+P03,Tracking current conversational intention,14,4,0.2857142857142857,40
+P04,Selecting a tool or requesting clarification,3,2,0.6666666666666666,40
+P05,Checking authorization and scope,9,5,0.5555555555555556,40
+P06,Making decisions with untrusted content,13,5,0.38461538461538464,40
+P07,Applying a contextual content policy,9,6,0.6666666666666666,40
+P08,Extracting and normalizing facts,10,3,0.3,40
+P09,Checking claims against supplied evidence,8,4,0.5,40
+P10,Assigning severity or priority from a rubric,9,4,0.4444444444444444,40

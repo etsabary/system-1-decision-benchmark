@@ -1,0 +1,9 @@
+{
+  "source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+  "supporting_page": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+  "date": "2026-11-09",
+  "rate_usd_per_eur": "1.1193",
+  "xml_filename": "ecb_eurofxref_2026-11-09.xml",
+  "xml_sha256": "7fe20a703b0d8f467798d9103fc04bf269a49cd34ce1919cd6d8807e4e4fc81c",
+  "method": "Provider-reported EUR charges converted for USD comparison using ECB reference rate; converted USD is an estimate, not an API-reported USD charge or bank/card settlement."
+}

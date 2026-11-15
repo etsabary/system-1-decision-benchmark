@@ -1564,6 +1564,66 @@
       "no_generated_reasoning_text_observed": true,
       "new_collection_limit": "Full fixed answer-blind v5 order, one worker per model, first attempts only; no errors, scored retries or client truncation. Seventeen matching metadata snapshots. Readiness excluded. Per-request latency excludes idle pacing and is not sustained throughput.",
       "cost_qualification": "USD 0.13255038 API-reported charges for 1,456 scored primaries; no missing charges. Separate USD 0.00001071 readiness excluded."
+    },
+    "nimble_v41_max": {
+      "model_id": "nimble_v41_max",
+      "label": "Nimble v4.1 Max",
+      "configuration": "Direct native /v1/systemone · nimble-v4.1-max · precision unknown",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 950,
+      "accuracy": 0.6524725274725275,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.6524725274725275,
+      "accuracy_upper_if_all_unusable_correct": 0.6524725274725275,
+      "macro_category_accuracy": 0.7005733663435227,
+      "mean_ms": 220.0705028619523,
+      "median_ms": 193.18893750005373,
+      "p95_ms": 248.454249750921,
+      "identity_limit": "Requested and returned nimble-v4.1-max; provider Bespoke Labs direct; declared change date 2026-11-05. Precision unknown. Version/deployment declarations do not independently attest immutable weights or generation implementation.",
+      "collection_dates_toronto": {
+        "2026-11-15": 1456
+      },
+      "new_request_failures": 0,
+      "input_tokens": 775987,
+      "raw_output_tokens": 2912,
+      "nonzero_output_counter_responses": 1456,
+      "raw_usage_unknown_count": 0,
+      "zero_generation_attested": false,
+      "no_generated_reasoning_text_observed": true,
+      "new_collection_limit": "Full fixed answer-blind bank; first attempts only, no errors/scored retries/truncation; 18 matching metadata checks. Readiness excluded. Individual latency includes slow primaries, excludes idle pacing and is not sustained throughput.",
+      "cost_qualification": "USD 0.03103948 captured input-token tariff estimate, all1456 covered; actual monetary charges unreported1456, not zero. Output free under captured tariff; readiness excluded."
+    },
+    "subq_snap12": {
+      "model_id": "subq_snap12",
+      "label": "SubQ Snap 1.2",
+      "configuration": "Direct native /v1/systemone · subq-snap-1.2 · precision unknown",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 927,
+      "accuracy": 0.6366758241758241,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.6366758241758241,
+      "accuracy_upper_if_all_unusable_correct": 0.6366758241758241,
+      "macro_category_accuracy": 0.6840409922535566,
+      "mean_ms": 176.74878242788898,
+      "median_ms": 174.29485350021423,
+      "p95_ms": 195.4705417506375,
+      "identity_limit": "Requested and returned subq-snap-1.2; provider Subquadratic direct; declared change date 2026-11-11. Precision unknown. Version/deployment declarations do not independently attest immutable weights or generation implementation.",
+      "collection_dates_toronto": {
+        "2026-11-15": 1456
+      },
+      "new_request_failures": 0,
+      "input_tokens": 786233,
+      "raw_output_tokens": 0,
+      "nonzero_output_counter_responses": 0,
+      "raw_usage_unknown_count": 0,
+      "zero_generation_attested": false,
+      "no_generated_reasoning_text_observed": true,
+      "new_collection_limit": "Full fixed answer-blind bank; first attempts only, no errors/scored retries/truncation; 18 matching metadata checks. Readiness excluded. Individual latency includes slow primaries, excludes idle pacing and is not sustained throughput.",
+      "cost_qualification": "USD 0.03144932 captured input-token tariff estimate, all1456 covered; actual monetary charges unreported1456, not zero. Output free under captured tariff; readiness excluded."
     }
   },
   "ranked_model_ids": [
@@ -1577,10 +1637,10 @@
     "mammoth1",
     "heygen_decision1_turbo_openrouter_20261112",
     "turion_jev31b",
-    "nimble_v4_max",
-    "subq_snap_1_1",
+    "nimble_v41_max",
     "liquid_ultra",
     "heygen_decision1_openrouter_20261112",
+    "subq_snap12",
     "amos_large",
     "reference_sonnet",
     "kettei_fat",
@@ -1614,7 +1674,9 @@
   "rights_warning": "MAIQ repository declares MIT; original question rights are not independently established. Owner chose inclusion with this caveat.",
   "superseded_model_ids": [
     "drex_max",
-    "pplx_decider12"
+    "pplx_decider12",
+    "nimble_v4_max",
+    "subq_snap_1_1"
   ],
   "supersession_decisions": [
     {
