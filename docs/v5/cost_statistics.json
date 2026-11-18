@@ -1,6 +1,6 @@
 {
   "currency": "USD",
-  "scope": "42 prior configurations unchanged plus two native hosted full-bank sessions. Captured tariff estimates cover all new records; actual charges unreported, not zero.",
+  "scope": "44 prior configurations unchanged plus two Liquid native full-bank sessions. New monetary costs API-reported USD; readiness excluded.",
   "models": {
     "fastino_glide_v23_bf16": {
       "model_id": "fastino_glide_v23_bf16",
@@ -603,6 +603,36 @@
       "actual_charge_unknown_count": 1456,
       "actual_charge_telemetry": "unreported",
       "captured_input_tariff_usd_per_million": "0.04"
+    },
+    "liquid12_ultra": {
+      "model_id": "liquid12_ultra",
+      "n": 1456,
+      "reported_count": 1456,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": "0.028928760",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.028928760",
+      "known_usd_per_1000": "0.01986865384615384615384615385",
+      "actual_charge_unknown_count": 0,
+      "actual_charge_telemetry": "reported"
+    },
+    "liquid12": {
+      "model_id": "liquid12",
+      "n": 1456,
+      "reported_count": 1456,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": "0.01377560",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.01377560",
+      "known_usd_per_1000": "0.009461263736263736263736263736",
+      "actual_charge_unknown_count": 0,
+      "actual_charge_telemetry": "reported"
     }
   }
 }

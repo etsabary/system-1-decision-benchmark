@@ -1,46 +1,46 @@
 {
   "status": "pass",
-  "source_release": "system1_v5_asus_native_2026-11-13",
-  "source_manifest_sha256": "9325ad0a9a276bf3bab99da48cf8b7840ecbddd4f90c5250be031c4ca0e0c860",
-  "base_models_retained": 42,
+  "source_release": "system1_v5_nimble_subq_2026-11-15",
+  "source_manifest_sha256": "053cd139645db8526570910f3f37520009270dd89ec618e0a536038c2ac65baa",
+  "base_models_retained": 44,
   "models_added": [
-    "nimble_v41_max",
-    "subq_snap12"
+    "liquid12_ultra",
+    "liquid12"
   ],
   "questions": 1456,
   "categories": 43,
-  "measured_configurations": 44,
-  "main_configurations": 34,
+  "measured_configurations": 46,
+  "main_configurations": 33,
   "below_cutoff_configurations": 6,
-  "superseded_configurations": 4,
-  "individual_timing_records": 64064,
-  "individual_cost_records": 64064,
-  "individual_correctness_records": 64064,
+  "superseded_configurations": 7,
+  "individual_timing_records": 66976,
+  "individual_cost_records": 66976,
+  "individual_correctness_records": 66976,
   "prior_primary_rows_and_objects_unchanged": true,
   "csv_append_proofs": {
     "timing_evidence.csv.gz": {
-      "original_rows": 61152,
+      "original_rows": 64064,
       "appended_rows": 2912,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "216ee6200b1d43b239186bb34ee604402d01a13df216207a2118dc63a4bf7cce"
+      "original_uncompressed_sha256": "c63b88c98ebbac360dee1b140eafcb7325c9516fc9d129b6d1e3c42a63bd2ed4"
     },
     "cost_evidence.csv.gz": {
-      "original_rows": 61152,
+      "original_rows": 64064,
       "appended_rows": 2912,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "c30eb857e05ca4945e1ebe8ae37a546bbec9bae463a965e4d67da4622b7b5df3"
+      "original_uncompressed_sha256": "9106b43e4142fdbb56cb6eb917f99d2ff564b64807132aaa577f4e415c594c35"
     },
     "correctness_evidence.csv.gz": {
-      "original_rows": 61152,
+      "original_rows": 64064,
       "appended_rows": 2912,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "080a93c25334d11905fdaf66623808ef23d0ddf374efe577d94b999aa9d566c8"
+      "original_uncompressed_sha256": "fc9131c315e25b3946aed8c730551d75957134dd024425d80a7e080e07737b9f"
     },
     "all_category_scores.csv": {
-      "original_rows": 1806,
+      "original_rows": 1892,
       "appended_rows": 86,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "b2aae017340c68a8803c9e4f7fb6cde473b6155fe4ac84a5c69c678d73872c15"
+      "original_uncompressed_sha256": "59d46429ecbddd91311a48afd7181c5b23e7eb43dd8d6e9530db198d2e47b38e"
     }
   },
   "unchanged_files_sha256": {
@@ -48,6 +48,7 @@
     "removed_correctness_evidence.csv.gz": "44edb124325ead4132f404950c570d11818fc2fe96af08adbbf6dc7a5ac259f9",
     "asus_native_screen_statistics.json": "a23f722d09ef126ea684336be252da07bca7e82951dd52e89cbd4e95badd116c",
     "GEMINI_DECISION1_NOTES.md": "4cf88ef88ef56aeae7beccab97fd6b36e5512ca51f49d2df7a084cfe91f73f96",
+    "subq_snap12_paired_comparison_all42.json": "716e176daf7039780590c436cd60f551aa378a4cf25c1fb13f177b051627ae5c",
     "model_context_diagnostics.json": "4444d40afb7a64b4b79c67c345aa472c6ddc803a0b286ddba9f23a71ba2b882f",
     "asus_native_screen_cost.csv.gz": "2d2f62e4d5509b549c0bf11503a7bdeac5f2c21765805d89b67e306236aac889",
     "d3_flash_model_audit.json": "4c36fe29b17f1952d9a59c4e853a1680e92f766552c8cbfc286e254fce5874e2",
@@ -62,6 +63,7 @@
     "pplx_version_comparison.json": "af0e1164d2dc5e49566e513d8f9d5f4d839b7938fa08b0fb2b008fa9dc299ad1",
     "d3_flash_hardware.json": "7da444040f33db19f20dd73613fbd74be8fcf493c72fe73e1ac85c8765f11895",
     "HOSTED_REFRESH_NOTES.md": "f8dd36867b79e444b89e656a47b9cae05f6cd865e50b06ed5912f2b0085e1db0",
+    "nimble_v41_max_paired_comparison_all42.json": "1d074468851b2c9e9ceaca831150eda4955e91e8981eed469884a64c815049e4",
     "luna_partial_cost.csv.gz": "3ea29e9d570099efe77423ae26c319461af511aa5f6312e03842aec2ed1059a1",
     "SOURCE_AND_LICENSES.md": "c59b00d6ba43559ba3589c59e08a7f2da76a371955b5705f0a73350485485dfc",
     "fx_receipt.json": "250bc63fb5679abac870132c4490129b91e28dcea06f81b88029e596cc8e14f5",
@@ -70,15 +72,19 @@
     "asus_native_screen_audit.json": "978252cc5b33314b64eab29f7b141621632a202a4e2853786736d495f97675f7",
     "REAX_TERRA_COMPARISON.md": "546c7e281175b9030e109dccb8e6fca3ce3e019634024fde12b2a6bf9e2c1276",
     "hosted_model_audits.json": "65036770a21d3480065a3e134240c24a57fd63313c47a801bf5534e66d629f69",
+    "nimble_v41_max_STRENGTHS_WEAKNESSES.md": "10a2ea506087d43c5a5053f08411dc4673aa303c8897199efec295969208330d",
     "luna_partial_timing.csv.gz": "9f780467da5752a13bc01be3287f376de0442997d0716d81f6f52f5d7db48358",
     "SINGVL_DISTRIBUTED_NOTES.md": "180855ea2181413fbf3d4b979caecca09ced4179b1137f770fcafcc17a0c516b",
     "parent_d3_flash_audit_receipt.json": "f982a24670818b44ccfa9be93dee6bd63f0ec1be8cea1dce2d29980c28a46db2",
     "asus_native_screen_profiles.json": "b941e3690b0f489eb2b5bf859d3f871290685e78ab0cd3937bcf693290c61e22",
     "parent_drex_audit_receipt.json": "a6d1cc15e1a9e98f1ff322782525e6384069ecb154887f9bf2a0b5a8b7bdff8c",
     "PROJECT_LICENSE_MIT.txt": "c0bbb612283a2743d755831b475fd0df6f92873fbdfad80b78f3cb52f3e898d3",
+    "nimble_subq_model_audits.json": "77ff2fb36c58c3578e6d0a088375da3ca5d24e86a03e81aba17e355429c8d10c",
+    "NIMBLE_SUBQ_NOTES.md": "b1c376984687350aeb1f66855df20d2c7310d82ff07a776d64b195ea1d49ec3d",
     "DREX_VERSION_NOTES.md": "da4d4ff9c966f17eac8199faae59d2f64fbb620cbb289531423f8f545c5b6a8b",
     "ecb_eurofxref_2026-11-09.xml": "7fe20a703b0d8f467798d9103fc04bf269a49cd34ce1919cd6d8807e4e4fc81c",
     "drex_transport_phases.json": "3e14e5d3517447ca8619a6d127c10989e2c1e4b1d83db2117c89c4d932ce8aed",
+    "nimble_version_comparison.json": "5e80e13868cc7c9b9c1e9c4e572179c6789f328811b8898ba468365cbf3f2042",
     "singvl_usage_evidence.csv.gz": "7243109271f96ecc06c7b3aa9f4fe8673d5f151aa16a8ae3373241a94eccd327",
     "parent_hosted_audit_receipt.json": "25070337896faa1f011a4b6d461502aec99a0fccda0859f7b6c587206162d758",
     "hosted_cost_summaries.json": "f5e3557b816e44848f903fc9e78b0f5e506cf41372ab129d4ef630fe1697622f",
@@ -92,20 +98,27 @@
     "selection_provenance.json": "beeae83a7133e47542098d78cfb50ffe43dc88ec912895aa80cf4ade38ca1788",
     "baseline_v5_audit_receipt.json": "177c690eeb6f1f33cebb23d57306c709127527598a237b76f361ba823585d1a7",
     "hosted_refresh_usage_evidence.csv.gz": "ce006db42d85fc27941325f6b7dc5c86c83a07ca56596ef4b8256d4d20516c39",
+    "nimble_subq_usage_evidence.csv.gz": "14723326c48307c2bc5dcd0880fe2c1bb18f2f599acf147595e30aca14633e1c",
     "gemini_decision1_model_audit.json": "dd217e62e222d74f6caa4cfe608fd889b4aa2deead4b6108e0d7c0b6ef2fa9d9",
     "asus_native_screen_timing.csv.gz": "34e531a0e98999002cd01729efdbc45755dbb88b181ac7c3d995e4856c3d3c62",
+    "parent_asus_manifest.json": "9325ad0a9a276bf3bab99da48cf8b7840ecbddd4f90c5250be031c4ca0e0c860",
+    "parent_asus_audit_receipt.json": "3da56c1464cee70d5b2b33a1a06b181d23b0889aa039cdddf590a930f4e55e5b",
     "NEW_LOCAL_SCREEN_NOTES.md": "7aa17c3f381682ff939f04805b50e58ed0e024ecf73ba337b448a385bb2e35a4",
+    "nimble_subq_analysis.json": "95d1b9637185910514e7e30a626fa8933ec06ffdbac97698711f82453301f84f",
     "hosted_refresh_category_comparison.csv": "5aa9d4e5d3f02252c21c04aaf5519d9e6f0d06d68d72ab901cbd3a190f718844",
     "retained_items.csv": "f8f212b822c4ac3212dd6f24f475236ff5a384635780bd44fb147b9901079c2c",
     "drex_usage_evidence.csv.gz": "cdede88c096a4cec671ff2da56f87a30ed8a17b853673ea058d52634528d7279",
     "drex_counter_policy.json": "7dbd510318c767dfabe719c359e53fc0f32220797e35767b4f92e3c711fdb82f",
     "d3_flash_analysis.json": "7a245f5f130df14944a1ad0aa7a2c6ef2246f1555bec3d622d350a3108a84840",
     "partial_models.json": "fd122c3d70c16f97b1d332b80a708ce21420997c2f84b510e347142b42dde566",
+    "nimble_subq_category_comparison.csv": "dcf10b26fa41d8cd3c2d9e9d836cfee96595a21c3d414a8b1c84def778596574",
     "hosted_refresh_model_audits.json": "7099472f941a61873f44a2a952847f5a5ec59ecf47087e3368c4495a9418293e",
     "new_model_comparison.json": "b39d84dbe192a33d8baaad1fe0ccae43524796f849e94e7d9696744ad9e25747",
     "LOCAL_SCREEN_NOTES.md": "b2e41e92f21a5c168928adb68fa6ea0314bff31451569ffa67c7f44583674f33",
+    "subq_snap12_STRENGTHS_WEAKNESSES.md": "96c05d744c02042cc37c55a7e9878e8e409551fcd624c04e5ce82adcfc8fa60f",
     "HOSTED_MODEL_NOTES.md": "516eaba3df57630dc07a65adcb5da0d6154b1d2638e29749493a73c2c8f01b1f",
     "KAI_CASE_NOTE.md": "7f7337696b06e3379c50646ac5727d6c320a39aa04853a8b1d9d9d9802ac0519",
+    "subq_version_comparison.json": "bc863cd4f524e6766cef743fd2b476fb294f741bd1f3d7137a93618eee1e3bcb",
     "OPENAI_DECISIONS_NOTES.md": "d5eee3a8d87c2743f66cae24cb2df2261934dfe71af4663734e1dee1de9bc527",
     "category_guide.json": "1714995b59caf73e40a6e988c4ed36cca9920a619fd1f3daf779c2624e3d35bd",
     "asus_native_screen_usage.csv.gz": "bd9e874237cf0f2dbb5efeaddfad56f1a8348be21d7406b01fd9b70d265639f4",
@@ -123,32 +136,31 @@
     "third_party_licenses/AQUA_APACHE-2.0.txt": "189bff4f09eccdbc1790f7a9085ddd031ddf050f27929608fa4ba8a57e14a7c3"
   },
   "new_sources": {
-    "nimble_v41_max": {
-      "source_manifest_sha256": "46d2c9de4a0394ee8bbb1d8ec5cb256b78626e6c6ae5b630da2cbcc27384a646",
-      "plan_sha256": "49e767ba8ccb83afed09faace43e60fab895508d26ecbc237bc7f48b4eea0c17",
-      "source_record_digest": "2516e2fdc9efe8a27376504025fb38ba19b1ec2dc70e3eebb6ea505fd0164333",
+    "liquid12_ultra": {
+      "source_manifest_sha256": "a12c8b6e80d745c0e36a6cea5b0dcdcd3e05cddf7c839f26c123e9666be355cf",
+      "plan_sha256": "578afda7341af0c73e3aca113eca3aa0d59e4e0ff247cf43befb805f98a9106a",
+      "source_record_digest": "392e9714999cc85fd5127348eb59256b4ce0982f42d181819091b28162d39121",
       "first100_preserved": true,
-      "first100_receipt_sha256": "cc74bbbc49beb347f94fb1b8e87d8254a4e688380de11decfe12192cb46a126e",
-      "source_audit_sha256": "4beeaf373310e107ff61a21ea17d72b971e7bf9de316300d8e8350f897939013",
+      "first100_receipt_sha256": "30b1125453a3b6d2607bceda27958905fd0e0bfe1e501a465c7e17ae3af32af5",
+      "source_audit_sha256": "913e08a5ff5e5a357c7a91e7ea11613f712ec9ed4495fad5bdcbd9c78d27073e",
       "independent_final_review_verdict": "APPROVE",
-      "independent_final_review_sha256": "dddba509f2ff26a9825ef87ff60e4ef78cee193954785a5d78cc04fa316d1e49",
-      "final_review_addendum_verdict": "APPROVE",
-      "final_review_addendum_sha256": "3bd1a84a34ee67b2d86254f7c33fda16dfa20442f17a6f91a4b7cf599c44d833"
+      "independent_final_review_sha256": "7aaa749f565fa052d57f5add2458c24c0142679727721d0e32972570c940dc57",
+      "source_bundle_sha256": "d1ec944e58cc678dbdc476589ace361d165bfd1ba432e06d834af23b4fb677ea"
     },
-    "subq_snap12": {
-      "source_manifest_sha256": "46d2c9de4a0394ee8bbb1d8ec5cb256b78626e6c6ae5b630da2cbcc27384a646",
-      "plan_sha256": "b6d84c5875ca80d31fd66b1a4719e0eb0445cbda227287b9363ae2abd744d109",
-      "source_record_digest": "cf3e1a1e5441424f41420d0212ee255568c2a81945f5c13b19760a5483c6c91a",
+    "liquid12": {
+      "source_manifest_sha256": "a12c8b6e80d745c0e36a6cea5b0dcdcd3e05cddf7c839f26c123e9666be355cf",
+      "plan_sha256": "c6e350996fcf77d5a84ae5ce6f91c12f5c4c546cc97a9cf4d8480d707f8496b6",
+      "source_record_digest": "80e7dd05751392abcc39512d2dba0a8161074295b83407cb5e529c080a3ee97f",
       "first100_preserved": true,
-      "first100_receipt_sha256": "cafa0a947c15e1c4e028c18865d44faa75630287abb6c0d699725d27c4dbdf3c",
-      "source_audit_sha256": "f907ff29c628eb006009d505933e96db52230f13948d1ce72bc1f586834e55f4",
+      "first100_receipt_sha256": "f41c0b7002ad7c62f2ef3f366cd9b1f0cee4c25bc8c75cdce09d9df720731517",
+      "source_audit_sha256": "4fa937478202e427cd1ad5c9be711f9f775cde0232487b8631d12dc50d894360",
       "independent_final_review_verdict": "APPROVE",
-      "independent_final_review_sha256": "dddba509f2ff26a9825ef87ff60e4ef78cee193954785a5d78cc04fa316d1e49",
-      "final_review_addendum_verdict": "APPROVE",
-      "final_review_addendum_sha256": "3bd1a84a34ee67b2d86254f7c33fda16dfa20442f17a6f91a4b7cf599c44d833"
+      "independent_final_review_sha256": "7aaa749f565fa052d57f5add2458c24c0142679727721d0e32972570c940dc57",
+      "source_bundle_sha256": "d1ec944e58cc678dbdc476589ace361d165bfd1ba432e06d834af23b4fb677ea"
     }
   },
   "no_scored_retries": true,
   "readiness_excluded": true,
-  "build_code_sha256": "be9dd85c16348524fa70ada38b609b0e312f652a2023310b7619acfefbac987d"
+  "build_code_sha256": "aa3d3b2b98e24f59e4191e6b61e4bb8a8f9a55c5f4479c7c230bc3154f0dd74e",
+  "public_derivative_qualification_code_sha256": "d6e978da317ef63e435ef2e2df9055ab64b9b0d5565443da3cc9a4146f69bd65"
 }
