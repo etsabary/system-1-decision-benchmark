@@ -1,0 +1,83 @@
+[
+  {
+    "model_id": "drex20",
+    "item_id": "AQUA-train-000425",
+    "original_http_status": 429,
+    "original_record_sha256": "ad314b2f3c918e0ef0cdc2250f20e878654bf5e1f689f972ceb0af772488c28a",
+    "recovery_attempts": 1,
+    "selected_response_sha256": "933742b8c9f98840a32c68956a02895548623b827c898b195859a372effd0aff",
+    "selection_rule": "First model response after no-answer HTTP 429; no choice-based selection."
+  },
+  {
+    "model_id": "drex20",
+    "item_id": "AQUA-train-000088",
+    "original_http_status": 429,
+    "original_record_sha256": "b4c3bee01d4b7af96efe63219a8fe9ba8fe20c4dcb4aed3efd202b5dc668b435",
+    "recovery_attempts": 1,
+    "selected_response_sha256": "128d5b28ea5bdf86855b5241ef744117f1a306ec7e288bf86b48e75a49da7c9b",
+    "selection_rule": "First model response after no-answer HTTP 429; no choice-based selection."
+  },
+  {
+    "model_id": "drex20",
+    "item_id": "AQUA-dev-000065",
+    "original_http_status": 429,
+    "original_record_sha256": "c7467c6f0d34b34c241da35d69c5cddf18c4effb8d954563f07a23a34a593671",
+    "recovery_attempts": 1,
+    "selected_response_sha256": "26b15fc25eddd54ff2777e850fa586af67fd2fc2ed65ff1f470615ba7d5ee2fb",
+    "selection_rule": "First model response after no-answer HTTP 429; no choice-based selection."
+  },
+  {
+    "model_id": "drex20",
+    "item_id": "AQUA-train-000187",
+    "original_http_status": 429,
+    "original_record_sha256": "2e8cd35caf033a1f16c9261d464ccccd737f7f53ee297c0cecb3b2284994b7cb",
+    "recovery_attempts": 1,
+    "selected_response_sha256": "0044134cc5fee2000da3a0be378a967d1c36a08bb69f7974692d914dce5c408b",
+    "selection_rule": "First model response after no-answer HTTP 429; no choice-based selection."
+  },
+  {
+    "model_id": "drex20",
+    "item_id": "AQUA-train-000181",
+    "original_http_status": 429,
+    "original_record_sha256": "52bf87755312b4401331881fe1110cf4273d15220f2419a14926b156b7a705d7",
+    "recovery_attempts": 1,
+    "selected_response_sha256": "76b09e0c90c504a483e2caa2d50ec91b830cd39a7a68b892064f2a59660e1d44",
+    "selection_rule": "First model response after no-answer HTTP 429; no choice-based selection."
+  },
+  {
+    "model_id": "drex20",
+    "item_id": "AQUA-test-000111",
+    "original_http_status": 429,
+    "original_record_sha256": "e826ce436e4a5a6eaf5721a5f9c3e55fe45536e3d5150f05ba1a9244afa8668f",
+    "recovery_attempts": 1,
+    "selected_response_sha256": "45613d97f06d5d847d218fd6ab03328149f53bd139fc705149fb6f793be95c50",
+    "selection_rule": "First model response after no-answer HTTP 429; no choice-based selection."
+  },
+  {
+    "model_id": "drex20",
+    "item_id": "AQUA-train-000175",
+    "original_http_status": 429,
+    "original_record_sha256": "a60f918ef5c4295297a5557b09bf19541468fe89c6cadc7e1203e869f88b56d6",
+    "recovery_attempts": 1,
+    "selected_response_sha256": "f5bfb41c55a5eb8097e0f3229f206bb95dd8bbb456a8a815ca4bc94db8eddce7",
+    "selection_rule": "First model response after no-answer HTTP 429; no choice-based selection."
+  },
+  {
+    "model_id": "drex20",
+    "item_id": "AQUA-train-000423",
+    "original_http_status": 429,
+    "original_record_sha256": "9c00aa87132879da2e62a2ee5b7877187577d85dd61234b5f799a4a780eb70e2",
+    "recovery_attempts": 1,
+    "selected_response_sha256": "9ce55becb22b7bf21a64851a35e480d967f5c544780f4889ff5f5875b12f39a6",
+    "selection_rule": "First model response after no-answer HTTP 429; no choice-based selection."
+  },
+  {
+    "model_id": "drex20",
+    "item_id": "AQUA-train-000260",
+    "original_http_status": 429,
+    "original_record_sha256": "21092453d714f33ff1151f3756c59fd23000fbe98baea824180c771cc213a3b1",
+    "recovery_attempts": 2,
+    "selected_response_sha256": "42f9e27b09b9a2ca83fdea0da5572cdbba2865b62efdad29816d1c10d875a4df",
+    "selection_rule": "First model response after no-answer HTTP 429; no choice-based selection."
+  }
+]

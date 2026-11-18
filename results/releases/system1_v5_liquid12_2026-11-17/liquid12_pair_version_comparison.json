@@ -1,0 +1,477 @@
+{
+  "scope": "Public paired measurement derivative; current release has46complete/33active/6below/7superseded; historical collection-time ranks and flags are explicitly labelled.",
+  "model_ids": [
+    "liquid12_ultra",
+    "liquid12"
+  ],
+  "n": 1456,
+  "categories": 43,
+  "correct": {
+    "liquid12_ultra": 956,
+    "liquid12": 805
+  },
+  "ultra_minus_standard_correct": 151,
+  "both_correct": 667,
+  "ultra_only_correct": 289,
+  "standard_only_correct": 138,
+  "common_usable_n": 1456,
+  "common_usable_correct": {
+    "liquid12_ultra": 956,
+    "liquid12": 805
+  },
+  "pooled_median_ms": {
+    "liquid12_ultra": 269.86568700522184,
+    "liquid12": 224.85929149843287
+  },
+  "pooled_p95_ms": {
+    "liquid12_ultra": 983.4436357414233,
+    "liquid12": 391.22926074196585
+  },
+  "reported_usd_subtotals": {
+    "liquid12_ultra": "0.028928760",
+    "liquid12": "0.01377560"
+  },
+  "unknown_actual_charge_count": {
+    "liquid12_ultra": 0,
+    "liquid12": 0
+  },
+  "categories_pair": [
+    {
+      "family_id": "F01",
+      "n": 5,
+      "ultra_correct": 2,
+      "standard_correct": 2,
+      "ultra_only_correct": 1,
+      "standard_only_correct": 1
+    },
+    {
+      "family_id": "F02",
+      "n": 22,
+      "ultra_correct": 20,
+      "standard_correct": 20,
+      "ultra_only_correct": 0,
+      "standard_only_correct": 0
+    },
+    {
+      "family_id": "F03",
+      "n": 32,
+      "ultra_correct": 30,
+      "standard_correct": 31,
+      "ultra_only_correct": 1,
+      "standard_only_correct": 2
+    },
+    {
+      "family_id": "F04",
+      "n": 18,
+      "ultra_correct": 16,
+      "standard_correct": 14,
+      "ultra_only_correct": 2,
+      "standard_only_correct": 0
+    },
+    {
+      "family_id": "F05",
+      "n": 9,
+      "ultra_correct": 4,
+      "standard_correct": 4,
+      "ultra_only_correct": 1,
+      "standard_only_correct": 1
+    },
+    {
+      "family_id": "F06",
+      "n": 7,
+      "ultra_correct": 6,
+      "standard_correct": 4,
+      "ultra_only_correct": 2,
+      "standard_only_correct": 0
+    },
+    {
+      "family_id": "F07",
+      "n": 54,
+      "ultra_correct": 37,
+      "standard_correct": 29,
+      "ultra_only_correct": 12,
+      "standard_only_correct": 4
+    },
+    {
+      "family_id": "F08",
+      "n": 44,
+      "ultra_correct": 41,
+      "standard_correct": 29,
+      "ultra_only_correct": 12,
+      "standard_only_correct": 0
+    },
+    {
+      "family_id": "F09",
+      "n": 68,
+      "ultra_correct": 37,
+      "standard_correct": 39,
+      "ultra_only_correct": 5,
+      "standard_only_correct": 7
+    },
+    {
+      "family_id": "F10",
+      "n": 69,
+      "ultra_correct": 48,
+      "standard_correct": 38,
+      "ultra_only_correct": 14,
+      "standard_only_correct": 4
+    },
+    {
+      "family_id": "F11",
+      "n": 29,
+      "ultra_correct": 24,
+      "standard_correct": 21,
+      "ultra_only_correct": 6,
+      "standard_only_correct": 3
+    },
+    {
+      "family_id": "F12",
+      "n": 43,
+      "ultra_correct": 25,
+      "standard_correct": 20,
+      "ultra_only_correct": 11,
+      "standard_only_correct": 6
+    },
+    {
+      "family_id": "F13",
+      "n": 47,
+      "ultra_correct": 19,
+      "standard_correct": 12,
+      "ultra_only_correct": 13,
+      "standard_only_correct": 6
+    },
+    {
+      "family_id": "F14",
+      "n": 25,
+      "ultra_correct": 24,
+      "standard_correct": 20,
+      "ultra_only_correct": 5,
+      "standard_only_correct": 1
+    },
+    {
+      "family_id": "F15",
+      "n": 35,
+      "ultra_correct": 24,
+      "standard_correct": 22,
+      "ultra_only_correct": 8,
+      "standard_only_correct": 6
+    },
+    {
+      "family_id": "F16",
+      "n": 35,
+      "ultra_correct": 25,
+      "standard_correct": 23,
+      "ultra_only_correct": 6,
+      "standard_only_correct": 4
+    },
+    {
+      "family_id": "F17",
+      "n": 19,
+      "ultra_correct": 15,
+      "standard_correct": 9,
+      "ultra_only_correct": 7,
+      "standard_only_correct": 1
+    },
+    {
+      "family_id": "F18",
+      "n": 37,
+      "ultra_correct": 33,
+      "standard_correct": 24,
+      "ultra_only_correct": 10,
+      "standard_only_correct": 1
+    },
+    {
+      "family_id": "F19",
+      "n": 24,
+      "ultra_correct": 21,
+      "standard_correct": 18,
+      "ultra_only_correct": 4,
+      "standard_only_correct": 1
+    },
+    {
+      "family_id": "F20",
+      "n": 16,
+      "ultra_correct": 12,
+      "standard_correct": 12,
+      "ultra_only_correct": 1,
+      "standard_only_correct": 1
+    },
+    {
+      "family_id": "F21",
+      "n": 5,
+      "ultra_correct": 2,
+      "standard_correct": 2,
+      "ultra_only_correct": 1,
+      "standard_only_correct": 1
+    },
+    {
+      "family_id": "F22",
+      "n": 9,
+      "ultra_correct": 5,
+      "standard_correct": 6,
+      "ultra_only_correct": 1,
+      "standard_only_correct": 2
+    },
+    {
+      "family_id": "F23",
+      "n": 14,
+      "ultra_correct": 14,
+      "standard_correct": 13,
+      "ultra_only_correct": 1,
+      "standard_only_correct": 0
+    },
+    {
+      "family_id": "F24",
+      "n": 8,
+      "ultra_correct": 7,
+      "standard_correct": 6,
+      "ultra_only_correct": 1,
+      "standard_only_correct": 0
+    },
+    {
+      "family_id": "F25",
+      "n": 11,
+      "ultra_correct": 7,
+      "standard_correct": 6,
+      "ultra_only_correct": 1,
+      "standard_only_correct": 0
+    },
+    {
+      "family_id": "F26",
+      "n": 30,
+      "ultra_correct": 18,
+      "standard_correct": 15,
+      "ultra_only_correct": 6,
+      "standard_only_correct": 3
+    },
+    {
+      "family_id": "F27",
+      "n": 40,
+      "ultra_correct": 24,
+      "standard_correct": 23,
+      "ultra_only_correct": 8,
+      "standard_only_correct": 7
+    },
+    {
+      "family_id": "F28",
+      "n": 39,
+      "ultra_correct": 15,
+      "standard_correct": 9,
+      "ultra_only_correct": 10,
+      "standard_only_correct": 4
+    },
+    {
+      "family_id": "F29",
+      "n": 39,
+      "ultra_correct": 25,
+      "standard_correct": 22,
+      "ultra_only_correct": 8,
+      "standard_only_correct": 5
+    },
+    {
+      "family_id": "F30",
+      "n": 38,
+      "ultra_correct": 23,
+      "standard_correct": 20,
+      "ultra_only_correct": 6,
+      "standard_only_correct": 3
+    },
+    {
+      "family_id": "F31",
+      "n": 36,
+      "ultra_correct": 23,
+      "standard_correct": 22,
+      "ultra_only_correct": 5,
+      "standard_only_correct": 4
+    },
+    {
+      "family_id": "F32",
+      "n": 20,
+      "ultra_correct": 13,
+      "standard_correct": 16,
+      "ultra_only_correct": 1,
+      "standard_only_correct": 4
+    },
+    {
+      "family_id": "F33",
+      "n": 200,
+      "ultra_correct": 82,
+      "standard_correct": 73,
+      "ultra_only_correct": 36,
+      "standard_only_correct": 27
+    },
+    {
+      "family_id": "P01",
+      "n": 31,
+      "ultra_correct": 27,
+      "standard_correct": 14,
+      "ultra_only_correct": 15,
+      "standard_only_correct": 2
+    },
+    {
+      "family_id": "P02",
+      "n": 34,
+      "ultra_correct": 34,
+      "standard_correct": 22,
+      "ultra_only_correct": 12,
+      "standard_only_correct": 0
+    },
+    {
+      "family_id": "P03",
+      "n": 33,
+      "ultra_correct": 32,
+      "standard_correct": 28,
+      "ultra_only_correct": 5,
+      "standard_only_correct": 1
+    },
+    {
+      "family_id": "P04",
+      "n": 35,
+      "ultra_correct": 13,
+      "standard_correct": 18,
+      "ultra_only_correct": 5,
+      "standard_only_correct": 10
+    },
+    {
+      "family_id": "P05",
+      "n": 35,
+      "ultra_correct": 18,
+      "standard_correct": 16,
+      "ultra_only_correct": 2,
+      "standard_only_correct": 0
+    },
+    {
+      "family_id": "P06",
+      "n": 35,
+      "ultra_correct": 33,
+      "standard_correct": 25,
+      "ultra_only_correct": 9,
+      "standard_only_correct": 1
+    },
+    {
+      "family_id": "P07",
+      "n": 27,
+      "ultra_correct": 17,
+      "standard_correct": 17,
+      "ultra_only_correct": 5,
+      "standard_only_correct": 5
+    },
+    {
+      "family_id": "P08",
+      "n": 36,
+      "ultra_correct": 17,
+      "standard_correct": 11,
+      "ultra_only_correct": 8,
+      "standard_only_correct": 2
+    },
+    {
+      "family_id": "P09",
+      "n": 32,
+      "ultra_correct": 22,
+      "standard_correct": 15,
+      "ultra_only_correct": 10,
+      "standard_only_correct": 3
+    },
+    {
+      "family_id": "P10",
+      "n": 31,
+      "ultra_correct": 22,
+      "standard_correct": 15,
+      "ultra_only_correct": 12,
+      "standard_only_correct": 5
+    }
+  ],
+  "historical_version_comparisons": {
+    "liquid12_ultra": {
+      "reference_model_id": "liquid_ultra",
+      "reference_label": "Liquid d1-ultra",
+      "active_reference": true,
+      "n": 1456,
+      "new_correct": 956,
+      "reference_correct": 942,
+      "correct_difference": 14,
+      "new_usable": 1456,
+      "reference_usable": 1454,
+      "both_correct": 787,
+      "new_only_correct": 169,
+      "reference_only_correct": 155,
+      "neither_correct": 345,
+      "common_usable_n": 1454,
+      "new_correct_common_usable": 955,
+      "reference_correct_common_usable": 942,
+      "new_correct_where_reference_unusable": 1,
+      "reference_median_ms": 206.63270802469924,
+      "reference_p95_ms": 482.9402602335904,
+      "reference_cost_summary": {
+        "model_id": "liquid_ultra",
+        "n": 1456,
+        "reported_count": 1454,
+        "tariff_estimate_count": 0,
+        "free_access_tariff_count": 0,
+        "unknown_count": 2,
+        "local_unmeasured_count": 0,
+        "reported_subtotal_usd": "0.028907928",
+        "estimate_only_subtotal_usd": null,
+        "known_subtotal_usd": "0.028907928",
+        "known_usd_per_1000": "0.01985434615384615384615384615"
+      }
+    },
+    "liquid12": {
+      "reference_model_id": "liquid11_decision",
+      "reference_label": "Liquid d1.1",
+      "active_reference": true,
+      "n": 1456,
+      "new_correct": 805,
+      "reference_correct": 777,
+      "correct_difference": 28,
+      "new_usable": 1456,
+      "reference_usable": 1455,
+      "both_correct": 652,
+      "new_only_correct": 153,
+      "reference_only_correct": 125,
+      "neither_correct": 526,
+      "common_usable_n": 1455,
+      "new_correct_common_usable": 805,
+      "reference_correct_common_usable": 777,
+      "new_correct_where_reference_unusable": 0,
+      "reference_median_ms": 189.91004198323935,
+      "reference_p95_ms": 529.4977187877521,
+      "reference_cost_summary": {
+        "model_id": "liquid11_decision",
+        "n": 1456,
+        "reported_count": 1455,
+        "tariff_estimate_count": 0,
+        "free_access_tariff_count": 0,
+        "unknown_count": 1,
+        "local_unmeasured_count": 0,
+        "reported_subtotal_usd": "0.01377218",
+        "estimate_only_subtotal_usd": null,
+        "known_subtotal_usd": "0.01377218",
+        "known_usd_per_1000": "0.009458914835164835164835164835"
+      }
+    }
+  },
+  "limits": [
+    "No automatic question pruning or new inference for old models.",
+    "Descriptive comparisons share a fixed selectively constructed bank; AQuA selection dependence and MAIQ original-rights caveat remain.",
+    "Hosted serving declarations do not attest actual hidden weights, precision or generation implementation.",
+    "Latency is pooled per request including all primaries and excludes client idle; no maximum-throughput inference.",
+    "API-reported USD, tariff estimates and unknown actual charges remain distinct. Historical partial cost coverage is not extrapolated."
+  ],
+  "historical_collection_scope": "Two complete first-attempt native OpenRouter Nov16 Liquid versions on the unchanged frozen v5 challenge bank; private pending independent review and publication.",
+  "private_source_files_sha256": {
+    "liquid12_ultra/FINAL_ANALYSIS.json": "4d94cbad79b89209ed64c259da41ec0f38499a5c2280acf183044067cbf32bf9",
+    "liquid12_ultra/category_scores.csv": "400c6dc59653a878490e3f3e9a82447bc778c637e78aa74df5626c1c53baa2b1",
+    "liquid12_ultra/category_comparison_all44.csv": "d5028b9e7d01d77bf109111646fbd90a5c6c8e40bb210e7281b756c67246f84b",
+    "liquid12_ultra/paired_comparison_all44.json": "3cd12bc2fa94750aae53d0eda22259db3d5e6e67551e3dc9df4fc751a53ca84a",
+    "liquid12/FINAL_ANALYSIS.json": "f2e992855c08c191a7177ee79f374f22549f83998a0d2cecde553bb2e5cac637",
+    "liquid12/category_scores.csv": "de7eb4d9587d08d6614026c5633f7907f1c3cfb0b5695fad2481d42a4d58a488",
+    "liquid12/category_comparison_all44.csv": "4b5d221afe105e2c94797f399847b62d65d0528f72a0b208dd7a04037b785e12",
+    "liquid12/paired_comparison_all44.json": "43d506b6ea2d9ee6789c2d9b93add5432d0740f347aadca49c87b7d4b09bb177"
+  },
+  "source_hashes_scope": "Hashes in private_source_files_sha256 bind immutable private source files, including original FINAL_ANALYSIS.json files. Rewritten public derivative hashes are recorded separately in manifest.json.",
+  "public_derivative_provenance": {
+    "private_source_file_sha256": "f73ecba3406dac63f2cc90052cfda5d3aa083d1d87a07ce97f7ab08445db2fc7",
+    "changes": "Historical collection-time publication scope and private-source hashes explicitly labelled; no paired measurements changed."
+  }
+}

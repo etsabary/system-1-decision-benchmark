@@ -1624,6 +1624,66 @@
       "no_generated_reasoning_text_observed": true,
       "new_collection_limit": "Full fixed answer-blind bank; first attempts only, no errors/scored retries/truncation; 18 matching metadata checks. Readiness excluded. Individual latency includes slow primaries, excludes idle pacing and is not sustained throughput.",
       "cost_qualification": "USD 0.03144932 captured input-token tariff estimate, all1456 covered; actual monetary charges unreported1456, not zero. Output free under captured tariff; readiness excluded."
+    },
+    "liquid12_ultra": {
+      "model_id": "liquid12_ultra",
+      "label": "Liquid d1.2-ultra",
+      "configuration": "OpenRouter native Decisions pinned to Liquid · liquid/d1.2-ultra-20261116 · precision unknown",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 956,
+      "accuracy": 0.6565934065934066,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.6565934065934066,
+      "accuracy_upper_if_all_unusable_correct": 0.6565934065934066,
+      "macro_category_accuracy": 0.6962423352158573,
+      "mean_ms": 381.8161407586788,
+      "median_ms": 269.86568700522184,
+      "p95_ms": 983.4436357414233,
+      "identity_limit": "Requested liquid/d1.2-ultra; returned liquid/d1.2-ultra-20261116; provider Liquid. Precision unknown. Dated provider declarations do not independently attest immutable weights or generation implementation.",
+      "collection_dates_toronto": {
+        "2026-11-17": 1456
+      },
+      "new_request_failures": 0,
+      "input_tokens": 688780,
+      "raw_output_tokens": 0,
+      "nonzero_output_counter_responses": 0,
+      "raw_usage_unknown_count": 0,
+      "zero_generation_attested": false,
+      "no_generated_reasoning_text_observed": true,
+      "new_collection_limit": "Full fixed answer-blind bank; first attempts only, no errors/scored retries/truncation; 18 matching configuration checks. Readiness excluded. All individual latencies include slow primaries and exclude idle pacing; not sustained throughput.",
+      "cost_qualification": "USD 0.028928760 API-reported OpenRouter charges, all1456 covered; separate readiness excluded."
+    },
+    "liquid12": {
+      "model_id": "liquid12",
+      "label": "Liquid d1.2",
+      "configuration": "OpenRouter native Decisions pinned to Liquid · liquid/d1.2-20261116 · precision unknown",
+      "role": "Hosted native",
+      "n": 1456,
+      "correct": 805,
+      "accuracy": 0.5528846153846154,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.5528846153846154,
+      "accuracy_upper_if_all_unusable_correct": 0.5528846153846154,
+      "macro_category_accuracy": 0.593678198890137,
+      "mean_ms": 250.69758237685284,
+      "median_ms": 224.85929149843287,
+      "p95_ms": 391.22926074196585,
+      "identity_limit": "Requested liquid/d1.2; returned liquid/d1.2-20261116; provider Liquid. Precision unknown. Dated provider declarations do not independently attest immutable weights or generation implementation.",
+      "collection_dates_toronto": {
+        "2026-11-17": 1456
+      },
+      "new_request_failures": 0,
+      "input_tokens": 688780,
+      "raw_output_tokens": 0,
+      "nonzero_output_counter_responses": 0,
+      "raw_usage_unknown_count": 0,
+      "zero_generation_attested": false,
+      "no_generated_reasoning_text_observed": true,
+      "new_collection_limit": "Full fixed answer-blind bank; first attempts only, no errors/scored retries/truncation; 18 matching configuration checks. Readiness excluded. All individual latencies include slow primaries and exclude idle pacing; not sustained throughput.",
+      "cost_qualification": "USD 0.01377560 API-reported OpenRouter charges, all1456 covered; separate readiness excluded."
     }
   },
   "ranked_model_ids": [
@@ -1636,9 +1696,9 @@
     "pplx_decider13_native_20261112",
     "mammoth1",
     "heygen_decision1_turbo_openrouter_20261112",
+    "liquid12_ultra",
     "turion_jev31b",
     "nimble_v41_max",
-    "liquid_ultra",
     "heygen_decision1_openrouter_20261112",
     "subq_snap12",
     "amos_large",
@@ -1648,9 +1708,9 @@
     "respan02",
     "morph_reflex",
     "levanto_sage_2",
+    "liquid12",
     "gemini_decision1_openrouter_20261111",
     "jev114",
-    "liquid11_decision",
     "mercury_decide",
     "celeris11_decision",
     "elephant1",
@@ -1658,7 +1718,6 @@
     "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
     "sarvam_prism",
     "local_startlux_instant4b",
-    "liquid_d1",
     "super_decider",
     "pplx_decider_flash13_native_20261112"
   ],
@@ -1676,7 +1735,10 @@
     "drex_max",
     "pplx_decider12",
     "nimble_v4_max",
-    "subq_snap_1_1"
+    "subq_snap_1_1",
+    "liquid_d1",
+    "liquid11_decision",
+    "liquid_ultra"
   ],
   "supersession_decisions": [
     {

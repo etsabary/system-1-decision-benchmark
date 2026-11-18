@@ -1,0 +1,1219 @@
+{
+  "active_model_ids": [
+    "reference_terra61",
+    "reax_1_3",
+    "reference_sol",
+    "d3_ultra",
+    "fastino_glide_v23_bf16",
+    "drex_max_v11",
+    "pplx_decider13_native_20261112",
+    "mammoth1",
+    "heygen_decision1_turbo_openrouter_20261112",
+    "liquid12_ultra",
+    "turion_jev31b",
+    "nimble_v41_max",
+    "heygen_decision1_openrouter_20261112",
+    "subq_snap12",
+    "amos_large",
+    "reference_sonnet",
+    "kettei_fat",
+    "reference_opus5",
+    "respan02",
+    "morph_reflex",
+    "levanto_sage_2",
+    "liquid12",
+    "gemini_decision1_openrouter_20261111",
+    "jev114",
+    "mercury_decide",
+    "celeris11_decision",
+    "elephant1",
+    "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+    "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+    "sarvam_prism",
+    "local_startlux_instant4b",
+    "super_decider",
+    "pplx_decider_flash13_native_20261112"
+  ],
+  "complete_configurations": 46,
+  "active_configurations": 33,
+  "interpretation": {
+    "liquid12_ultra": {
+      "old_version_id": "liquid_ultra",
+      "overall_accuracy_rank": 10,
+      "active_cohort_n": 33,
+      "categories": [
+        {
+          "family_id": "F01",
+          "n": 5,
+          "correct": 2,
+          "old_version_correct": 3,
+          "new_minus_old_correct": -1,
+          "current33_accuracy_rank": 14,
+          "leader_correct": 4,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "turion_jev31b",
+            "reference_sonnet"
+          ]
+        },
+        {
+          "family_id": "F02",
+          "n": 22,
+          "correct": 20,
+          "old_version_correct": 20,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 14,
+          "leader_correct": 22,
+          "leader_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "drex_max_v11",
+            "nimble_v41_max",
+            "kettei_fat",
+            "jev114"
+          ]
+        },
+        {
+          "family_id": "F03",
+          "n": 32,
+          "correct": 30,
+          "old_version_correct": 30,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 4,
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "reference_sol"
+          ]
+        },
+        {
+          "family_id": "F04",
+          "n": 18,
+          "correct": 16,
+          "old_version_correct": 15,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 5,
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "reference_sol",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "turion_jev31b",
+            "heygen_decision1_openrouter_20261112"
+          ]
+        },
+        {
+          "family_id": "F05",
+          "n": 9,
+          "correct": 4,
+          "old_version_correct": 5,
+          "new_minus_old_correct": -1,
+          "current33_accuracy_rank": 24,
+          "leader_correct": 9,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F06",
+          "n": 7,
+          "correct": 6,
+          "old_version_correct": 6,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 4,
+          "leader_correct": 7,
+          "leader_model_ids": [
+            "subq_snap12",
+            "gemini_decision1_openrouter_20261111",
+            "elephant1"
+          ]
+        },
+        {
+          "family_id": "F07",
+          "n": 54,
+          "correct": 37,
+          "old_version_correct": 35,
+          "new_minus_old_correct": 2,
+          "current33_accuracy_rank": 5,
+          "leader_correct": 41,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ]
+        },
+        {
+          "family_id": "F08",
+          "n": 44,
+          "correct": 41,
+          "old_version_correct": 32,
+          "new_minus_old_correct": 9,
+          "current33_accuracy_rank": 3,
+          "leader_correct": 43,
+          "leader_model_ids": [
+            "reference_opus5"
+          ]
+        },
+        {
+          "family_id": "F09",
+          "n": 68,
+          "correct": 37,
+          "old_version_correct": 39,
+          "new_minus_old_correct": -2,
+          "current33_accuracy_rank": 14,
+          "leader_correct": 50,
+          "leader_model_ids": [
+            "reference_terra61",
+            "turion_jev31b"
+          ]
+        },
+        {
+          "family_id": "F10",
+          "n": 69,
+          "correct": 48,
+          "old_version_correct": 41,
+          "new_minus_old_correct": 7,
+          "current33_accuracy_rank": 8,
+          "leader_correct": 56,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ]
+        },
+        {
+          "family_id": "F11",
+          "n": 29,
+          "correct": 24,
+          "old_version_correct": 23,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 14,
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F12",
+          "n": 43,
+          "correct": 25,
+          "old_version_correct": 18,
+          "new_minus_old_correct": 7,
+          "current33_accuracy_rank": 6,
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61",
+            "mammoth1",
+            "nimble_v41_max"
+          ]
+        },
+        {
+          "family_id": "F13",
+          "n": 47,
+          "correct": 19,
+          "old_version_correct": 10,
+          "new_minus_old_correct": 9,
+          "current33_accuracy_rank": 7,
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "respan02"
+          ]
+        },
+        {
+          "family_id": "F14",
+          "n": 25,
+          "correct": 24,
+          "old_version_correct": 21,
+          "new_minus_old_correct": 3,
+          "current33_accuracy_rank": 2,
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ]
+        },
+        {
+          "family_id": "F15",
+          "n": 35,
+          "correct": 24,
+          "old_version_correct": 24,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 11,
+          "leader_correct": 31,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reference_opus5"
+          ]
+        },
+        {
+          "family_id": "F16",
+          "n": 35,
+          "correct": 25,
+          "old_version_correct": 19,
+          "new_minus_old_correct": 6,
+          "current33_accuracy_rank": 3,
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "respan02"
+          ]
+        },
+        {
+          "family_id": "F17",
+          "n": 19,
+          "correct": 15,
+          "old_version_correct": 14,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 10,
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "sarvam_prism"
+          ]
+        },
+        {
+          "family_id": "F18",
+          "n": 37,
+          "correct": 33,
+          "old_version_correct": 27,
+          "new_minus_old_correct": 6,
+          "current33_accuracy_rank": 4,
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F19",
+          "n": 24,
+          "correct": 21,
+          "old_version_correct": 23,
+          "new_minus_old_correct": -2,
+          "current33_accuracy_rank": 10,
+          "leader_correct": 24,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F20",
+          "n": 16,
+          "correct": 12,
+          "old_version_correct": 12,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 10,
+          "leader_correct": 14,
+          "leader_model_ids": [
+            "reference_terra61",
+            "sarvam_prism"
+          ]
+        },
+        {
+          "family_id": "F21",
+          "n": 5,
+          "correct": 2,
+          "old_version_correct": 2,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 18,
+          "leader_correct": 4,
+          "leader_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "pplx_decider13_native_20261112",
+            "kettei_fat",
+            "levanto_sage_2",
+            "jev114"
+          ]
+        },
+        {
+          "family_id": "F22",
+          "n": 9,
+          "correct": 5,
+          "old_version_correct": 5,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 15,
+          "leader_correct": 7,
+          "leader_model_ids": [
+            "reference_terra61",
+            "drex_max_v11",
+            "nimble_v41_max",
+            "reference_sonnet",
+            "respan02"
+          ]
+        },
+        {
+          "family_id": "F23",
+          "n": 14,
+          "correct": 14,
+          "old_version_correct": 13,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 1,
+          "leader_correct": 14,
+          "leader_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "liquid12_ultra",
+            "nimble_v41_max",
+            "heygen_decision1_openrouter_20261112",
+            "reference_sonnet",
+            "reference_opus5",
+            "gemini_decision1_openrouter_20261111"
+          ]
+        },
+        {
+          "family_id": "F24",
+          "n": 8,
+          "correct": 7,
+          "old_version_correct": 7,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 3,
+          "leader_correct": 8,
+          "leader_model_ids": [
+            "reference_terra61",
+            "kettei_fat"
+          ]
+        },
+        {
+          "family_id": "F25",
+          "n": 11,
+          "correct": 7,
+          "old_version_correct": 6,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 10,
+          "leader_correct": 10,
+          "leader_model_ids": [
+            "reference_sol",
+            "subq_snap12"
+          ]
+        },
+        {
+          "family_id": "F26",
+          "n": 30,
+          "correct": 18,
+          "old_version_correct": 18,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 10,
+          "leader_correct": 22,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ]
+        },
+        {
+          "family_id": "F27",
+          "n": 40,
+          "correct": 24,
+          "old_version_correct": 22,
+          "new_minus_old_correct": 2,
+          "current33_accuracy_rank": 7,
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "reax_1_3"
+          ]
+        },
+        {
+          "family_id": "F28",
+          "n": 39,
+          "correct": 15,
+          "old_version_correct": 13,
+          "new_minus_old_correct": 2,
+          "current33_accuracy_rank": 7,
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F29",
+          "n": 39,
+          "correct": 25,
+          "old_version_correct": 26,
+          "new_minus_old_correct": -1,
+          "current33_accuracy_rank": 11,
+          "leader_correct": 39,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F30",
+          "n": 38,
+          "correct": 23,
+          "old_version_correct": 20,
+          "new_minus_old_correct": 3,
+          "current33_accuracy_rank": 5,
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F31",
+          "n": 36,
+          "correct": 23,
+          "old_version_correct": 28,
+          "new_minus_old_correct": -5,
+          "current33_accuracy_rank": 19,
+          "leader_correct": 34,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "P01",
+          "n": 31,
+          "correct": 27,
+          "old_version_correct": 24,
+          "new_minus_old_correct": 3,
+          "current33_accuracy_rank": 9,
+          "leader_correct": 30,
+          "leader_model_ids": [
+            "reference_terra61",
+            "kettei_fat"
+          ]
+        },
+        {
+          "family_id": "P02",
+          "n": 34,
+          "correct": 34,
+          "old_version_correct": 29,
+          "new_minus_old_correct": 5,
+          "current33_accuracy_rank": 1,
+          "leader_correct": 34,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "drex_max_v11",
+            "liquid12_ultra",
+            "nimble_v41_max"
+          ]
+        },
+        {
+          "family_id": "P03",
+          "n": 33,
+          "correct": 32,
+          "old_version_correct": 32,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 10,
+          "leader_correct": 33,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "subq_snap12",
+            "kettei_fat"
+          ]
+        },
+        {
+          "family_id": "P04",
+          "n": 35,
+          "correct": 13,
+          "old_version_correct": 16,
+          "new_minus_old_correct": -3,
+          "current33_accuracy_rank": 27,
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "elephant1"
+          ]
+        },
+        {
+          "family_id": "P05",
+          "n": 35,
+          "correct": 18,
+          "old_version_correct": 18,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 12,
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "P06",
+          "n": 35,
+          "correct": 33,
+          "old_version_correct": 31,
+          "new_minus_old_correct": 2,
+          "current33_accuracy_rank": 11,
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "subq_snap12"
+          ]
+        },
+        {
+          "family_id": "P07",
+          "n": 27,
+          "correct": 17,
+          "old_version_correct": 20,
+          "new_minus_old_correct": -3,
+          "current33_accuracy_rank": 17,
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "d3_ultra"
+          ]
+        },
+        {
+          "family_id": "P08",
+          "n": 36,
+          "correct": 17,
+          "old_version_correct": 16,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 3,
+          "leader_correct": 28,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "P09",
+          "n": 32,
+          "correct": 22,
+          "old_version_correct": 19,
+          "new_minus_old_correct": 3,
+          "current33_accuracy_rank": 7,
+          "leader_correct": 26,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "P10",
+          "n": 31,
+          "correct": 22,
+          "old_version_correct": 19,
+          "new_minus_old_correct": 3,
+          "current33_accuracy_rank": 3,
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F32",
+          "n": 20,
+          "correct": 13,
+          "old_version_correct": 15,
+          "new_minus_old_correct": -2,
+          "current33_accuracy_rank": 16,
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reference_opus5"
+          ]
+        },
+        {
+          "family_id": "F33",
+          "n": 200,
+          "correct": 82,
+          "old_version_correct": 126,
+          "new_minus_old_correct": -44,
+          "current33_accuracy_rank": 24,
+          "leader_correct": 160,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        }
+      ]
+    },
+    "liquid12": {
+      "old_version_id": "liquid11_decision",
+      "overall_accuracy_rank": 22,
+      "active_cohort_n": 33,
+      "categories": [
+        {
+          "family_id": "F01",
+          "n": 5,
+          "correct": 2,
+          "old_version_correct": 1,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 14,
+          "leader_correct": 4,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "turion_jev31b",
+            "reference_sonnet"
+          ]
+        },
+        {
+          "family_id": "F02",
+          "n": 22,
+          "correct": 20,
+          "old_version_correct": 21,
+          "new_minus_old_correct": -1,
+          "current33_accuracy_rank": 14,
+          "leader_correct": 22,
+          "leader_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "drex_max_v11",
+            "nimble_v41_max",
+            "kettei_fat",
+            "jev114"
+          ]
+        },
+        {
+          "family_id": "F03",
+          "n": 32,
+          "correct": 31,
+          "old_version_correct": 30,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 2,
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "reference_sol"
+          ]
+        },
+        {
+          "family_id": "F04",
+          "n": 18,
+          "correct": 14,
+          "old_version_correct": 8,
+          "new_minus_old_correct": 6,
+          "current33_accuracy_rank": 12,
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "reference_sol",
+            "heygen_decision1_turbo_openrouter_20261112",
+            "turion_jev31b",
+            "heygen_decision1_openrouter_20261112"
+          ]
+        },
+        {
+          "family_id": "F05",
+          "n": 9,
+          "correct": 4,
+          "old_version_correct": 4,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 24,
+          "leader_correct": 9,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F06",
+          "n": 7,
+          "correct": 4,
+          "old_version_correct": 5,
+          "new_minus_old_correct": -1,
+          "current33_accuracy_rank": 20,
+          "leader_correct": 7,
+          "leader_model_ids": [
+            "subq_snap12",
+            "gemini_decision1_openrouter_20261111",
+            "elephant1"
+          ]
+        },
+        {
+          "family_id": "F07",
+          "n": 54,
+          "correct": 29,
+          "old_version_correct": 30,
+          "new_minus_old_correct": -1,
+          "current33_accuracy_rank": 19,
+          "leader_correct": 41,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ]
+        },
+        {
+          "family_id": "F08",
+          "n": 44,
+          "correct": 29,
+          "old_version_correct": 24,
+          "new_minus_old_correct": 5,
+          "current33_accuracy_rank": 31,
+          "leader_correct": 43,
+          "leader_model_ids": [
+            "reference_opus5"
+          ]
+        },
+        {
+          "family_id": "F09",
+          "n": 68,
+          "correct": 39,
+          "old_version_correct": 44,
+          "new_minus_old_correct": -5,
+          "current33_accuracy_rank": 11,
+          "leader_correct": 50,
+          "leader_model_ids": [
+            "reference_terra61",
+            "turion_jev31b"
+          ]
+        },
+        {
+          "family_id": "F10",
+          "n": 69,
+          "correct": 38,
+          "old_version_correct": 41,
+          "new_minus_old_correct": -3,
+          "current33_accuracy_rank": 18,
+          "leader_correct": 56,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ]
+        },
+        {
+          "family_id": "F11",
+          "n": 29,
+          "correct": 21,
+          "old_version_correct": 22,
+          "new_minus_old_correct": -1,
+          "current33_accuracy_rank": 23,
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F12",
+          "n": 43,
+          "correct": 20,
+          "old_version_correct": 18,
+          "new_minus_old_correct": 2,
+          "current33_accuracy_rank": 19,
+          "leader_correct": 29,
+          "leader_model_ids": [
+            "reference_terra61",
+            "mammoth1",
+            "nimble_v41_max"
+          ]
+        },
+        {
+          "family_id": "F13",
+          "n": 47,
+          "correct": 12,
+          "old_version_correct": 9,
+          "new_minus_old_correct": 3,
+          "current33_accuracy_rank": 21,
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "respan02"
+          ]
+        },
+        {
+          "family_id": "F14",
+          "n": 25,
+          "correct": 20,
+          "old_version_correct": 21,
+          "new_minus_old_correct": -1,
+          "current33_accuracy_rank": 24,
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ]
+        },
+        {
+          "family_id": "F15",
+          "n": 35,
+          "correct": 22,
+          "old_version_correct": 18,
+          "new_minus_old_correct": 4,
+          "current33_accuracy_rank": 19,
+          "leader_correct": 31,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reference_opus5"
+          ]
+        },
+        {
+          "family_id": "F16",
+          "n": 35,
+          "correct": 23,
+          "old_version_correct": 21,
+          "new_minus_old_correct": 2,
+          "current33_accuracy_rank": 7,
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "respan02"
+          ]
+        },
+        {
+          "family_id": "F17",
+          "n": 19,
+          "correct": 9,
+          "old_version_correct": 11,
+          "new_minus_old_correct": -2,
+          "current33_accuracy_rank": 32,
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "heygen_decision1_turbo_openrouter_20261112",
+            "sarvam_prism"
+          ]
+        },
+        {
+          "family_id": "F18",
+          "n": 37,
+          "correct": 24,
+          "old_version_correct": 24,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 21,
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F19",
+          "n": 24,
+          "correct": 18,
+          "old_version_correct": 19,
+          "new_minus_old_correct": -1,
+          "current33_accuracy_rank": 27,
+          "leader_correct": 24,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F20",
+          "n": 16,
+          "correct": 12,
+          "old_version_correct": 11,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 10,
+          "leader_correct": 14,
+          "leader_model_ids": [
+            "reference_terra61",
+            "sarvam_prism"
+          ]
+        },
+        {
+          "family_id": "F21",
+          "n": 5,
+          "correct": 2,
+          "old_version_correct": 2,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 18,
+          "leader_correct": 4,
+          "leader_model_ids": [
+            "reax_1_3",
+            "d3_ultra",
+            "pplx_decider13_native_20261112",
+            "kettei_fat",
+            "levanto_sage_2",
+            "jev114"
+          ]
+        },
+        {
+          "family_id": "F22",
+          "n": 9,
+          "correct": 6,
+          "old_version_correct": 4,
+          "new_minus_old_correct": 2,
+          "current33_accuracy_rank": 6,
+          "leader_correct": 7,
+          "leader_model_ids": [
+            "reference_terra61",
+            "drex_max_v11",
+            "nimble_v41_max",
+            "reference_sonnet",
+            "respan02"
+          ]
+        },
+        {
+          "family_id": "F23",
+          "n": 14,
+          "correct": 13,
+          "old_version_correct": 13,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 14,
+          "leader_correct": 14,
+          "leader_model_ids": [
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "liquid12_ultra",
+            "nimble_v41_max",
+            "heygen_decision1_openrouter_20261112",
+            "reference_sonnet",
+            "reference_opus5",
+            "gemini_decision1_openrouter_20261111"
+          ]
+        },
+        {
+          "family_id": "F24",
+          "n": 8,
+          "correct": 6,
+          "old_version_correct": 5,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 14,
+          "leader_correct": 8,
+          "leader_model_ids": [
+            "reference_terra61",
+            "kettei_fat"
+          ]
+        },
+        {
+          "family_id": "F25",
+          "n": 11,
+          "correct": 6,
+          "old_version_correct": 5,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 19,
+          "leader_correct": 10,
+          "leader_model_ids": [
+            "reference_sol",
+            "subq_snap12"
+          ]
+        },
+        {
+          "family_id": "F26",
+          "n": 30,
+          "correct": 15,
+          "old_version_correct": 15,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 19,
+          "leader_correct": 22,
+          "leader_model_ids": [
+            "fastino_glide_v23_bf16"
+          ]
+        },
+        {
+          "family_id": "F27",
+          "n": 40,
+          "correct": 23,
+          "old_version_correct": 21,
+          "new_minus_old_correct": 2,
+          "current33_accuracy_rank": 17,
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "reax_1_3"
+          ]
+        },
+        {
+          "family_id": "F28",
+          "n": 39,
+          "correct": 9,
+          "old_version_correct": 9,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 25,
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F29",
+          "n": 39,
+          "correct": 22,
+          "old_version_correct": 22,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 22,
+          "leader_correct": 39,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F30",
+          "n": 38,
+          "correct": 20,
+          "old_version_correct": 18,
+          "new_minus_old_correct": 2,
+          "current33_accuracy_rank": 18,
+          "leader_correct": 32,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F31",
+          "n": 36,
+          "correct": 22,
+          "old_version_correct": 15,
+          "new_minus_old_correct": 7,
+          "current33_accuracy_rank": 22,
+          "leader_correct": 34,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "P01",
+          "n": 31,
+          "correct": 14,
+          "old_version_correct": 16,
+          "new_minus_old_correct": -2,
+          "current33_accuracy_rank": 30,
+          "leader_correct": 30,
+          "leader_model_ids": [
+            "reference_terra61",
+            "kettei_fat"
+          ]
+        },
+        {
+          "family_id": "P02",
+          "n": 34,
+          "correct": 22,
+          "old_version_correct": 24,
+          "new_minus_old_correct": -2,
+          "current33_accuracy_rank": 21,
+          "leader_correct": 34,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "drex_max_v11",
+            "liquid12_ultra",
+            "nimble_v41_max"
+          ]
+        },
+        {
+          "family_id": "P03",
+          "n": 33,
+          "correct": 28,
+          "old_version_correct": 24,
+          "new_minus_old_correct": 4,
+          "current33_accuracy_rank": 17,
+          "leader_correct": 33,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "mammoth1",
+            "subq_snap12",
+            "kettei_fat"
+          ]
+        },
+        {
+          "family_id": "P04",
+          "n": 35,
+          "correct": 18,
+          "old_version_correct": 17,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 2,
+          "leader_correct": 19,
+          "leader_model_ids": [
+            "elephant1"
+          ]
+        },
+        {
+          "family_id": "P05",
+          "n": 35,
+          "correct": 16,
+          "old_version_correct": 17,
+          "new_minus_old_correct": -1,
+          "current33_accuracy_rank": 20,
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "P06",
+          "n": 35,
+          "correct": 25,
+          "old_version_correct": 26,
+          "new_minus_old_correct": -1,
+          "current33_accuracy_rank": 22,
+          "leader_correct": 35,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reax_1_3",
+            "reference_sol",
+            "d3_ultra",
+            "fastino_glide_v23_bf16",
+            "drex_max_v11",
+            "pplx_decider13_native_20261112",
+            "subq_snap12"
+          ]
+        },
+        {
+          "family_id": "P07",
+          "n": 27,
+          "correct": 17,
+          "old_version_correct": 15,
+          "new_minus_old_correct": 2,
+          "current33_accuracy_rank": 17,
+          "leader_correct": 27,
+          "leader_model_ids": [
+            "d3_ultra"
+          ]
+        },
+        {
+          "family_id": "P08",
+          "n": 36,
+          "correct": 11,
+          "old_version_correct": 13,
+          "new_minus_old_correct": -2,
+          "current33_accuracy_rank": 22,
+          "leader_correct": 28,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "P09",
+          "n": 32,
+          "correct": 15,
+          "old_version_correct": 12,
+          "new_minus_old_correct": 3,
+          "current33_accuracy_rank": 22,
+          "leader_correct": 26,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "P10",
+          "n": 31,
+          "correct": 15,
+          "old_version_correct": 14,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 21,
+          "leader_correct": 25,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        },
+        {
+          "family_id": "F32",
+          "n": 20,
+          "correct": 16,
+          "old_version_correct": 16,
+          "new_minus_old_correct": 0,
+          "current33_accuracy_rank": 3,
+          "leader_correct": 17,
+          "leader_model_ids": [
+            "reference_terra61",
+            "reference_opus5"
+          ]
+        },
+        {
+          "family_id": "F33",
+          "n": 200,
+          "correct": 73,
+          "old_version_correct": 72,
+          "new_minus_old_correct": 1,
+          "current33_accuracy_rank": 28,
+          "leader_correct": 160,
+          "leader_model_ids": [
+            "reference_terra61"
+          ]
+        }
+      ]
+    }
+  }
+}

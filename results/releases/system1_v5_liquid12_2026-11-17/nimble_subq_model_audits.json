@@ -1,0 +1,568 @@
+{
+  "nimble_v41_max": {
+    "n": 1456,
+    "usable": 1456,
+    "correct": 950,
+    "median_ms": 193.18893750005373,
+    "p95_ms": 248.454249750921,
+    "reported_usd_subtotal": null,
+    "reported_charge_count": 0,
+    "captured_tariff_estimate_usd": "0.03103948",
+    "unknown_actual_charge_count": 1456,
+    "known_or_estimated_subtotal_usd": "0.03103948",
+    "model_id": "nimble_v41_max",
+    "complete": true,
+    "configuration_metadata_stable": true,
+    "first_primaries_only": true,
+    "scored_retries": 0,
+    "counter_policy": "Retain all native raw usage, including unusable primaries and nonzero output counters. Counters alone never invalidate a typed answer or independently attest generation.",
+    "precision": "unknown hosted precision",
+    "identity_limit": "Version and serving declarations only; immutable weights and implementation not independently attested.",
+    "all_primary_usage_diagnostics": {
+      "input_tokens_all_primaries": 775987,
+      "output_tokens_all_primaries": 2912,
+      "missing_input_usage_count": 0,
+      "missing_output_usage_count": 0,
+      "nonzero_output_counter_count": 1456,
+      "invalid_or_missing_probability_distribution_count": 0,
+      "invalid_present_probability_distribution_count": 0,
+      "argmax_disagreement_count": 0
+    },
+    "categories": {
+      "F15": {
+        "n": 35,
+        "correct": 22,
+        "usable": 35
+      },
+      "F12": {
+        "n": 43,
+        "correct": 29,
+        "usable": 43
+      },
+      "F33": {
+        "n": 200,
+        "correct": 85,
+        "usable": 200
+      },
+      "F05": {
+        "n": 9,
+        "correct": 5,
+        "usable": 9
+      },
+      "F09": {
+        "n": 68,
+        "correct": 37,
+        "usable": 68
+      },
+      "P02": {
+        "n": 34,
+        "correct": 34,
+        "usable": 34
+      },
+      "P06": {
+        "n": 35,
+        "correct": 33,
+        "usable": 35
+      },
+      "P09": {
+        "n": 32,
+        "correct": 21,
+        "usable": 32
+      },
+      "F01": {
+        "n": 5,
+        "correct": 2,
+        "usable": 5
+      },
+      "P01": {
+        "n": 31,
+        "correct": 27,
+        "usable": 31
+      },
+      "F30": {
+        "n": 38,
+        "correct": 21,
+        "usable": 38
+      },
+      "F06": {
+        "n": 7,
+        "correct": 5,
+        "usable": 7
+      },
+      "F02": {
+        "n": 22,
+        "correct": 22,
+        "usable": 22
+      },
+      "P03": {
+        "n": 33,
+        "correct": 32,
+        "usable": 33
+      },
+      "P04": {
+        "n": 35,
+        "correct": 15,
+        "usable": 35
+      },
+      "F17": {
+        "n": 19,
+        "correct": 16,
+        "usable": 19
+      },
+      "F19": {
+        "n": 24,
+        "correct": 22,
+        "usable": 24
+      },
+      "P05": {
+        "n": 35,
+        "correct": 18,
+        "usable": 35
+      },
+      "F07": {
+        "n": 54,
+        "correct": 36,
+        "usable": 54
+      },
+      "F13": {
+        "n": 47,
+        "correct": 9,
+        "usable": 47
+      },
+      "F23": {
+        "n": 14,
+        "correct": 14,
+        "usable": 14
+      },
+      "F28": {
+        "n": 39,
+        "correct": 17,
+        "usable": 39
+      },
+      "P10": {
+        "n": 31,
+        "correct": 22,
+        "usable": 31
+      },
+      "F10": {
+        "n": 69,
+        "correct": 47,
+        "usable": 69
+      },
+      "F29": {
+        "n": 39,
+        "correct": 27,
+        "usable": 39
+      },
+      "F11": {
+        "n": 29,
+        "correct": 26,
+        "usable": 29
+      },
+      "F31": {
+        "n": 36,
+        "correct": 25,
+        "usable": 36
+      },
+      "F18": {
+        "n": 37,
+        "correct": 31,
+        "usable": 37
+      },
+      "F32": {
+        "n": 20,
+        "correct": 12,
+        "usable": 20
+      },
+      "P07": {
+        "n": 27,
+        "correct": 19,
+        "usable": 27
+      },
+      "F14": {
+        "n": 25,
+        "correct": 23,
+        "usable": 25
+      },
+      "P08": {
+        "n": 36,
+        "correct": 15,
+        "usable": 36
+      },
+      "F16": {
+        "n": 35,
+        "correct": 22,
+        "usable": 35
+      },
+      "F25": {
+        "n": 11,
+        "correct": 7,
+        "usable": 11
+      },
+      "F08": {
+        "n": 44,
+        "correct": 39,
+        "usable": 44
+      },
+      "F26": {
+        "n": 30,
+        "correct": 17,
+        "usable": 30
+      },
+      "F03": {
+        "n": 32,
+        "correct": 29,
+        "usable": 32
+      },
+      "F20": {
+        "n": 16,
+        "correct": 13,
+        "usable": 16
+      },
+      "F27": {
+        "n": 40,
+        "correct": 23,
+        "usable": 40
+      },
+      "F04": {
+        "n": 18,
+        "correct": 14,
+        "usable": 18
+      },
+      "F22": {
+        "n": 9,
+        "correct": 7,
+        "usable": 9
+      },
+      "F21": {
+        "n": 5,
+        "correct": 3,
+        "usable": 5
+      },
+      "F24": {
+        "n": 8,
+        "correct": 7,
+        "usable": 8
+      }
+    },
+    "source_record_digest": "2516e2fdc9efe8a27376504025fb38ba19b1ec2dc70e3eebb6ea505fd0164333",
+    "ledger_counts": {
+      "timing": 1456,
+      "cost": 1456,
+      "correctness": 1456,
+      "usage": 1456
+    },
+    "configuration_checks": 18,
+    "configuration_check_file_hashes": [
+      "30b77302fe0c60535b3e69f82acbdf1512c81735fb6e59594473a9dff708ae21",
+      "91c4b5e54db74138dfa5aa39eb0300884e8c2d69e9443203bc359618cc769781",
+      "dc4b18cf6aa10fd52f0ea41ab1de7046ad78b25bc978e846d077bb80482446d8",
+      "55e7b64565418fca77547feadc89f07762fea6ffdc0e8a5b5a8a19911a0c7a7b",
+      "714d5062e5a81c23a6a926c4ca2cbaf65364c9e0d1e28bc09ec7d9f448eaa476",
+      "0593409d0facf64d3336c94ad353b8a685a31f8709c060f8447dac34a6ef6836",
+      "767400337732d40ec355bbdec7e555233057ce5a88331b7ecbbf6e4fc37cb0dd",
+      "958fa6f278fa8ced273af70fddd18dea86d3b4146afef3b1ece12c36dbe2e38a",
+      "21b3e6fc201c8c65a7e522d23f874e8b3431473f29af237e311484844a5c831f",
+      "95d3d79efaec99d23634fb027d6133a796321cee525df0d9e6b072936ea15a01",
+      "f6d02fdaa84cf5f32e06f3d946242d549cc550e6c7b6a9adb52d58dc7bb0ede7",
+      "239c0538d536bdaaaadd2717e3360cbd63d32a67d7f78e29e2ce97b247280b16",
+      "5dfe708eb400a45396d472f713b598ded320c7659a1f43ef990b95b4ab47db57",
+      "b85db98a04e7c37ba9a8a96a6634091614565a893f444e4b3d4925d4fbb5dcd7",
+      "b8f0a9f7abd588ba51817fe492af0571867116ebe9e49bb87742a85f0a4cff50",
+      "18fd0ecd96cfe6e3af6122c9be570b783f24dcccfcb1df8397ee0a8cab344213",
+      "6fbd55d0849fcccf86c34691beb364eaefd1cf5122eb6dc3cd83132a445b71c6",
+      "4bb9cdb861fae3ac73e132b9d0313c9a6ce76a665b24253b2180ddd4241089a5"
+    ],
+    "reported_cost_usd": null,
+    "mean_ms": 220.0705028619523,
+    "declared_snapshot": "nimble-v4.1-max",
+    "provider": "Bespoke Labs direct",
+    "declared_change_date": "2026-11-05",
+    "readiness_estimate_excluded_usd": "0.00000412",
+    "source_manifest_sha256": "46d2c9de4a0394ee8bbb1d8ec5cb256b78626e6c6ae5b630da2cbcc27384a646",
+    "plan_sha256": "49e767ba8ccb83afed09faace43e60fab895508d26ecbc237bc7f48b4eea0c17"
+  },
+  "subq_snap12": {
+    "n": 1456,
+    "usable": 1456,
+    "correct": 927,
+    "median_ms": 174.29485350021423,
+    "p95_ms": 195.4705417506375,
+    "reported_usd_subtotal": null,
+    "reported_charge_count": 0,
+    "captured_tariff_estimate_usd": "0.03144932",
+    "unknown_actual_charge_count": 1456,
+    "known_or_estimated_subtotal_usd": "0.03144932",
+    "model_id": "subq_snap12",
+    "complete": true,
+    "configuration_metadata_stable": true,
+    "first_primaries_only": true,
+    "scored_retries": 0,
+    "counter_policy": "Retain all native raw usage, including unusable primaries and nonzero output counters. Counters alone never invalidate a typed answer or independently attest generation.",
+    "precision": "unknown hosted precision",
+    "identity_limit": "Version and serving declarations only; immutable weights and implementation not independently attested.",
+    "all_primary_usage_diagnostics": {
+      "input_tokens_all_primaries": 786233,
+      "output_tokens_all_primaries": 0,
+      "missing_input_usage_count": 0,
+      "missing_output_usage_count": 0,
+      "nonzero_output_counter_count": 0,
+      "invalid_or_missing_probability_distribution_count": 0,
+      "invalid_present_probability_distribution_count": 0,
+      "argmax_disagreement_count": 0
+    },
+    "categories": {
+      "F15": {
+        "n": 35,
+        "correct": 26,
+        "usable": 35
+      },
+      "F12": {
+        "n": 43,
+        "correct": 22,
+        "usable": 43
+      },
+      "F33": {
+        "n": 200,
+        "correct": 81,
+        "usable": 200
+      },
+      "F05": {
+        "n": 9,
+        "correct": 5,
+        "usable": 9
+      },
+      "F09": {
+        "n": 68,
+        "correct": 39,
+        "usable": 68
+      },
+      "P02": {
+        "n": 34,
+        "correct": 32,
+        "usable": 34
+      },
+      "P06": {
+        "n": 35,
+        "correct": 35,
+        "usable": 35
+      },
+      "P09": {
+        "n": 32,
+        "correct": 17,
+        "usable": 32
+      },
+      "F01": {
+        "n": 5,
+        "correct": 1,
+        "usable": 5
+      },
+      "P01": {
+        "n": 31,
+        "correct": 27,
+        "usable": 31
+      },
+      "F30": {
+        "n": 38,
+        "correct": 20,
+        "usable": 38
+      },
+      "F06": {
+        "n": 7,
+        "correct": 7,
+        "usable": 7
+      },
+      "F02": {
+        "n": 22,
+        "correct": 21,
+        "usable": 22
+      },
+      "P03": {
+        "n": 33,
+        "correct": 33,
+        "usable": 33
+      },
+      "P04": {
+        "n": 35,
+        "correct": 14,
+        "usable": 35
+      },
+      "F17": {
+        "n": 19,
+        "correct": 16,
+        "usable": 19
+      },
+      "F19": {
+        "n": 24,
+        "correct": 19,
+        "usable": 24
+      },
+      "P05": {
+        "n": 35,
+        "correct": 18,
+        "usable": 35
+      },
+      "F07": {
+        "n": 54,
+        "correct": 29,
+        "usable": 54
+      },
+      "F13": {
+        "n": 47,
+        "correct": 12,
+        "usable": 47
+      },
+      "F23": {
+        "n": 14,
+        "correct": 12,
+        "usable": 14
+      },
+      "F28": {
+        "n": 39,
+        "correct": 17,
+        "usable": 39
+      },
+      "P10": {
+        "n": 31,
+        "correct": 22,
+        "usable": 31
+      },
+      "F10": {
+        "n": 69,
+        "correct": 53,
+        "usable": 69
+      },
+      "F29": {
+        "n": 39,
+        "correct": 25,
+        "usable": 39
+      },
+      "F11": {
+        "n": 29,
+        "correct": 20,
+        "usable": 29
+      },
+      "F31": {
+        "n": 36,
+        "correct": 25,
+        "usable": 36
+      },
+      "F18": {
+        "n": 37,
+        "correct": 33,
+        "usable": 37
+      },
+      "F32": {
+        "n": 20,
+        "correct": 11,
+        "usable": 20
+      },
+      "P07": {
+        "n": 27,
+        "correct": 20,
+        "usable": 27
+      },
+      "F14": {
+        "n": 25,
+        "correct": 23,
+        "usable": 25
+      },
+      "P08": {
+        "n": 36,
+        "correct": 13,
+        "usable": 36
+      },
+      "F16": {
+        "n": 35,
+        "correct": 21,
+        "usable": 35
+      },
+      "F25": {
+        "n": 11,
+        "correct": 10,
+        "usable": 11
+      },
+      "F08": {
+        "n": 44,
+        "correct": 40,
+        "usable": 44
+      },
+      "F26": {
+        "n": 30,
+        "correct": 18,
+        "usable": 30
+      },
+      "F03": {
+        "n": 32,
+        "correct": 29,
+        "usable": 32
+      },
+      "F20": {
+        "n": 16,
+        "correct": 11,
+        "usable": 16
+      },
+      "F27": {
+        "n": 40,
+        "correct": 21,
+        "usable": 40
+      },
+      "F04": {
+        "n": 18,
+        "correct": 13,
+        "usable": 18
+      },
+      "F22": {
+        "n": 9,
+        "correct": 6,
+        "usable": 9
+      },
+      "F21": {
+        "n": 5,
+        "correct": 3,
+        "usable": 5
+      },
+      "F24": {
+        "n": 8,
+        "correct": 7,
+        "usable": 8
+      }
+    },
+    "source_record_digest": "cf3e1a1e5441424f41420d0212ee255568c2a81945f5c13b19760a5483c6c91a",
+    "ledger_counts": {
+      "timing": 1456,
+      "cost": 1456,
+      "correctness": 1456,
+      "usage": 1456
+    },
+    "configuration_checks": 18,
+    "configuration_check_file_hashes": [
+      "312757b9e5f9a1082a9e8776c6fa0ee39b681ed465565597f59fa4b7cf2eeea9",
+      "5a23ca62f87dfef560afac9309e28c8a505f66de462618cd0200afe69c925c2a",
+      "34d4ce3ec0302a9b2aa6cd07cd710953cb4955601e43c9a51dda4b199e976411",
+      "ed262f968e60c1b584043c5c746ae7a3b9e41b6190cb7f6acf58a54ff39a7a4e",
+      "a5427b080efc766c6320c2abb246f14f939ee981d47457f88ed665dda86ef8af",
+      "24dfcfaa0d2ca6b77c587fce62db8bd90b5603a249a1106c5e0cd78e83ad7330",
+      "6f8978a3319b54da9e6a128ef4bd55045938cf523494cce64348258a2d6612a0",
+      "5eb19639d97a08cde57e6d9ded3a26ec37811e7a3ae4650bfc984af05a3c44bf",
+      "dcad3c22a03d892adbb29593f4bc351bb9098b58ad30c43e7ca14e6c97c16b73",
+      "6246240accdb7cb33332a8d18c68a8b93428146e2cbff5374f9d6e415bd2b29b",
+      "ac0fd7de8f3aaf9840cd8f4318bfebe02ba18c23a156f335548494c209bb6255",
+      "66577553aceb45c5d780618880844c83cbf983f8841e4752637fdffdbaef30ce",
+      "e05c7ea8ab31899e7d92daf75fdacb597b5ee049e2fbdd8283dcfcf6105896ad",
+      "bc629713fffd42fa7b93bc4bec58fd02eec5913c72bd11abbadd63552afef2a7",
+      "ec04b9d6dff7f6adbfc03cf87639e579e9c7e4032ec5e0a0560dadb18637d5fb",
+      "c7d1638e5a6713b65679adb069972a049681dda0ba255d805188282bbaf7e621",
+      "19c4c46cf14a8513bdf8c33e87dbd87dfaba33913d212789d0b375d478cb63ca",
+      "8c630f847cf29669157c32a3a0018e667d16b99de34648f3dc30db76daa46930"
+    ],
+    "reported_cost_usd": null,
+    "mean_ms": 176.74878242788898,
+    "declared_snapshot": "subq-snap-1.2",
+    "provider": "Subquadratic direct",
+    "declared_change_date": "2026-11-11",
+    "readiness_estimate_excluded_usd": "0.00000440",
+    "source_manifest_sha256": "46d2c9de4a0394ee8bbb1d8ec5cb256b78626e6c6ae5b630da2cbcc27384a646",
+    "plan_sha256": "b6d84c5875ca80d31fd66b1a4719e0eb0445cbda227287b9363ae2abd744d109"
+  }
+}

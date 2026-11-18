@@ -312,3 +312,26 @@ item-level pooled timings and Decimal costs, source/usage/payload joins,
 all43category denominators/current ranks/leader counts, paired outcomes,
 version tradeoffs, separate ASUS cards, readable coloured plots, links, privacy
 and the exact Pages mirror. Raw selected answers and gold remain private.
+
+## Liquid d1.2 native version successor · November 17, 2026
+
+`publish_system1_v5_liquid12_2026_11_17.py` renders the separately audited
+Liquid d1.2-ultra and d1.2 first-primary sessions. The fixed 1,456-question,
+43-category bank and exact45% threshold are unchanged. There are46complete,
+33active,6below-cutoff and7superseded configurations. New standard replaces
+d1/d1.1; new Ultra replaces d1-ultra; both capacities remain active.
+All44old model/cost objects and64,064decompressed ledger rows remain exact
+prefixes. Each main ledger now has66,976records. Every dated predecessor and
+bound script, and all separate ASUS/other partial evidence, remain unchanged.
+
+The validator binds aliases, dated snapshots, provider routing, native usage,
+per-item pooled timings, API-reported USD, readiness exclusion, all43category
+counts/current ranks, exhaustive matched comparisons and replacement scope.
+Ultra's126→82/200 AQuA regression stays conspicuous beside its14-correct overall
+gain. Standard gains28correct. Cross-session timings and incomplete old costs
+are qualified; no uniform upgrade, full-bank cost saving or independent
+zero-generation proof is asserted. The exact dated release and docs/v5 match.
+
+```sh
+python3 scripts/validate_system1_v5_liquid12_2026_11_17.py results/releases/system1_v5_liquid12_2026-11-17 results/releases/system1_v5_nimble_subq_2026-11-15 --mirror docs/v5
+```

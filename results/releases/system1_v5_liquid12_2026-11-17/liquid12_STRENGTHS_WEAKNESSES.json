@@ -1,0 +1,1413 @@
+{
+  "model_id": "liquid12",
+  "denominator": "Each category uses its retained frozen inputs; category sizes differ and small categories are uncertain.",
+  "all43categories": [
+    {
+      "family_id": "F01",
+      "category": "Lookup and filtering",
+      "n": 5,
+      "correct": 2,
+      "usable": 5,
+      "accuracy": 0.4,
+      "median_ms": 232.69770800834522,
+      "p95_ms": 302.9610916040838,
+      "rank_if_appended_to_frozen34": 15,
+      "ties_with_current_active": [
+        "amos_large",
+        "celeris11_decision",
+        "elephant1",
+        "liquid_d1",
+        "mammoth1",
+        "pplx_decider13_native_20261112",
+        "heygen_decision1_turbo_openrouter_20261112",
+        "nimble_v41_max"
+      ],
+      "previous_version_correct": 1,
+      "correct_difference_vs_previous": 1
+    },
+    {
+      "family_id": "F02",
+      "category": "Forward conditionals",
+      "n": 22,
+      "correct": 20,
+      "usable": 22,
+      "accuracy": 0.9090909090909091,
+      "median_ms": 212.52250050019938,
+      "p95_ms": 343.2451788481558,
+      "rank_if_appended_to_frozen34": 15,
+      "ties_with_current_active": [
+        "amos_large",
+        "elephant1",
+        "levanto_sage_2",
+        "liquid_ultra",
+        "reference_opus5",
+        "heygen_decision1_openrouter_20261112"
+      ],
+      "previous_version_correct": 21,
+      "correct_difference_vs_previous": -1
+    },
+    {
+      "family_id": "F03",
+      "category": "Necessary conditions",
+      "n": 32,
+      "correct": 31,
+      "usable": 32,
+      "accuracy": 0.96875,
+      "median_ms": 225.1112290105084,
+      "p95_ms": 437.9735730981338,
+      "rank_if_appended_to_frozen34": 2,
+      "ties_with_current_active": [
+        "fastino_glide_v23_bf16"
+      ],
+      "previous_version_correct": 30,
+      "correct_difference_vs_previous": 1
+    },
+    {
+      "family_id": "F04",
+      "category": "Boolean scope",
+      "n": 18,
+      "correct": 14,
+      "usable": 18,
+      "accuracy": 0.7777777777777778,
+      "median_ms": 221.57679150404874,
+      "p95_ms": 596.6784411401022,
+      "rank_if_appended_to_frozen34": 12,
+      "ties_with_current_active": [
+        "kettei_fat",
+        "liquid_d1",
+        "respan02",
+        "sarvam_prism",
+        "nimble_v41_max"
+      ],
+      "previous_version_correct": 8,
+      "correct_difference_vs_previous": 6
+    },
+    {
+      "family_id": "F05",
+      "category": "Quantifiers and sets",
+      "n": 9,
+      "correct": 4,
+      "usable": 9,
+      "accuracy": 0.4444444444444444,
+      "median_ms": 205.04566602176055,
+      "p95_ms": 261.9870249996893,
+      "rank_if_appended_to_frozen34": 25,
+      "ties_with_current_active": [
+        "elephant1",
+        "liquid11_decision",
+        "local_startlux_instant4b",
+        "sarvam_prism",
+        "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+        "pplx_decider13_native_20261112",
+        "pplx_decider_flash13_native_20261112"
+      ],
+      "previous_version_correct": 4,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F06",
+      "category": "Comparisons",
+      "n": 7,
+      "correct": 4,
+      "usable": 7,
+      "accuracy": 0.5714285714285714,
+      "median_ms": 222.5750419893302,
+      "p95_ms": 295.5182330973912,
+      "rank_if_appended_to_frozen34": 22,
+      "ties_with_current_active": [
+        "celeris11_decision",
+        "local_startlux_instant4b",
+        "mercury_decide",
+        "reference_sonnet",
+        "sarvam_prism",
+        "morph_reflex",
+        "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+        "pplx_decider13_native_20261112",
+        "heygen_decision1_turbo_openrouter_20261112"
+      ],
+      "previous_version_correct": 5,
+      "correct_difference_vs_previous": -1
+    },
+    {
+      "family_id": "F07",
+      "category": "Scheduling",
+      "n": 54,
+      "correct": 29,
+      "usable": 54,
+      "accuracy": 0.5370370370370371,
+      "median_ms": 227.88729150488507,
+      "p95_ms": 391.0373347462154,
+      "rank_if_appended_to_frozen34": 20,
+      "ties_with_current_active": [
+        "gemini_decision1_openrouter_20261111",
+        "subq_snap12"
+      ],
+      "previous_version_correct": 30,
+      "correct_difference_vs_previous": -1
+    },
+    {
+      "family_id": "F08",
+      "category": "One-to-one assignments",
+      "n": 44,
+      "correct": 29,
+      "usable": 44,
+      "accuracy": 0.6590909090909091,
+      "median_ms": 217.8129164967686,
+      "p95_ms": 358.0331375589595,
+      "rank_if_appended_to_frozen34": 31,
+      "ties_with_current_active": [
+        "mercury_decide"
+      ],
+      "previous_version_correct": 24,
+      "correct_difference_vs_previous": 5
+    },
+    {
+      "family_id": "F09",
+      "category": "Exact truth counting",
+      "n": 68,
+      "correct": 39,
+      "usable": 68,
+      "accuracy": 0.5735294117647058,
+      "median_ms": 222.5068334955722,
+      "p95_ms": 369.37908335967217,
+      "rank_if_appended_to_frozen34": 12,
+      "ties_with_current_active": [
+        "liquid_ultra",
+        "reax_1_3",
+        "subq_snap12"
+      ],
+      "previous_version_correct": 44,
+      "correct_difference_vs_previous": -5
+    },
+    {
+      "family_id": "F10",
+      "category": "Truth-teller consistency",
+      "n": 69,
+      "correct": 38,
+      "usable": 69,
+      "accuracy": 0.5507246376811594,
+      "median_ms": 218.68062499561347,
+      "p95_ms": 421.87115020933555,
+      "rank_if_appended_to_frozen34": 19,
+      "ties_with_current_active": [
+        "elephant1",
+        "kettei_fat"
+      ],
+      "previous_version_correct": 41,
+      "correct_difference_vs_previous": -3
+    },
+    {
+      "family_id": "F11",
+      "category": "Sufficiency and inconsistency",
+      "n": 29,
+      "correct": 21,
+      "usable": 29,
+      "accuracy": 0.7241379310344828,
+      "median_ms": 230.39995800354518,
+      "p95_ms": 306.37868340709247,
+      "rank_if_appended_to_frozen34": 24,
+      "ties_with_current_active": [
+        "reference_sonnet"
+      ],
+      "previous_version_correct": 22,
+      "correct_difference_vs_previous": -1
+    },
+    {
+      "family_id": "F12",
+      "category": "Object swaps",
+      "n": 43,
+      "correct": 20,
+      "usable": 43,
+      "accuracy": 0.46511627906976744,
+      "median_ms": 225.7380000082776,
+      "p95_ms": 441.0845002857967,
+      "rank_if_appended_to_frozen34": 19,
+      "ties_with_current_active": [
+        "kettei_fat",
+        "reference_sonnet",
+        "super_decider",
+        "heygen_decision1_openrouter_20261112"
+      ],
+      "previous_version_correct": 18,
+      "correct_difference_vs_previous": 2
+    },
+    {
+      "family_id": "F13",
+      "category": "Sequential procedures",
+      "n": 47,
+      "correct": 12,
+      "usable": 47,
+      "accuracy": 0.2553191489361702,
+      "median_ms": 223.33262499887496,
+      "p95_ms": 357.4604910070771,
+      "rank_if_appended_to_frozen34": 20,
+      "ties_with_current_active": [
+        "morph_reflex",
+        "subq_snap12"
+      ],
+      "previous_version_correct": 9,
+      "correct_difference_vs_previous": 3
+    },
+    {
+      "family_id": "F14",
+      "category": "Temporal intervals",
+      "n": 25,
+      "correct": 20,
+      "usable": 25,
+      "accuracy": 0.8,
+      "median_ms": 205.27724997373298,
+      "p95_ms": 315.33888299600204,
+      "rank_if_appended_to_frozen34": 25,
+      "ties_with_current_active": [
+        "levanto_sage_2",
+        "liquid_d1"
+      ],
+      "previous_version_correct": 21,
+      "correct_difference_vs_previous": -1
+    },
+    {
+      "family_id": "F15",
+      "category": "Spatial tracking",
+      "n": 35,
+      "correct": 22,
+      "usable": 35,
+      "accuracy": 0.6285714285714286,
+      "median_ms": 218.97816701675765,
+      "p95_ms": 373.9509410923346,
+      "rank_if_appended_to_frozen34": 19,
+      "ties_with_current_active": [
+        "amos_large",
+        "nimble_v41_max"
+      ],
+      "previous_version_correct": 18,
+      "correct_difference_vs_previous": 4
+    },
+    {
+      "family_id": "F16",
+      "category": "Reference binding",
+      "n": 35,
+      "correct": 23,
+      "usable": 35,
+      "accuracy": 0.6571428571428571,
+      "median_ms": 217.00958401197568,
+      "p95_ms": 290.9903167863375,
+      "rank_if_appended_to_frozen34": 6,
+      "ties_with_current_active": [
+        "d3_ultra",
+        "reference_opus5",
+        "reference_sol"
+      ],
+      "previous_version_correct": 21,
+      "correct_difference_vs_previous": 2
+    },
+    {
+      "family_id": "F17",
+      "category": "Beliefs and perspectives",
+      "n": 19,
+      "correct": 9,
+      "usable": 19,
+      "accuracy": 0.47368421052631576,
+      "median_ms": 225.6678340199869,
+      "p95_ms": 329.3642170086968,
+      "rank_if_appended_to_frozen34": 34,
+      "ties_with_current_active": [],
+      "previous_version_correct": 11,
+      "correct_difference_vs_previous": -2
+    },
+    {
+      "family_id": "F18",
+      "category": "Causal intervention",
+      "n": 37,
+      "correct": 24,
+      "usable": 37,
+      "accuracy": 0.6486486486486487,
+      "median_ms": 228.72529199230485,
+      "p95_ms": 344.3881753948513,
+      "rank_if_appended_to_frozen34": 21,
+      "ties_with_current_active": [
+        "liquid11_decision",
+        "pplx_decider_flash13_native_20261112",
+        "heygen_decision1_openrouter_20261112"
+      ],
+      "previous_version_correct": 24,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F19",
+      "category": "Exceptions and priorities",
+      "n": 24,
+      "correct": 18,
+      "usable": 24,
+      "accuracy": 0.75,
+      "median_ms": 214.87660449929535,
+      "p95_ms": 300.32193759107025,
+      "rank_if_appended_to_frozen34": 28,
+      "ties_with_current_active": [
+        "pplx_decider_flash13_native_20261112"
+      ],
+      "previous_version_correct": 19,
+      "correct_difference_vs_previous": -1
+    },
+    {
+      "family_id": "F20",
+      "category": "Planning",
+      "n": 16,
+      "correct": 12,
+      "usable": 16,
+      "accuracy": 0.75,
+      "median_ms": 224.08327100856695,
+      "p95_ms": 319.9819477231358,
+      "rank_if_appended_to_frozen34": 10,
+      "ties_with_current_active": [
+        "celeris11_decision",
+        "d3_ultra",
+        "fastino_glide_v23_bf16",
+        "levanto_sage_2",
+        "liquid_d1",
+        "liquid_ultra",
+        "mammoth1",
+        "reference_sol",
+        "respan02",
+        "reax_1_3",
+        "drex_max_v11",
+        "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+        "heygen_decision1_turbo_openrouter_20261112"
+      ],
+      "previous_version_correct": 11,
+      "correct_difference_vs_previous": 1
+    },
+    {
+      "family_id": "F21",
+      "category": "Directed reachability",
+      "n": 5,
+      "correct": 2,
+      "usable": 5,
+      "accuracy": 0.4,
+      "median_ms": 264.2329160007648,
+      "p95_ms": 275.84849999984726,
+      "rank_if_appended_to_frozen34": 18,
+      "ties_with_current_active": [
+        "liquid11_decision",
+        "liquid_d1",
+        "liquid_ultra",
+        "mercury_decide",
+        "reference_sonnet",
+        "reference_terra61",
+        "respan02",
+        "sarvam_prism",
+        "turion_jev31b",
+        "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+        "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+        "pplx_decider_flash13_native_20261112",
+        "heygen_decision1_openrouter_20261112",
+        "heygen_decision1_turbo_openrouter_20261112"
+      ],
+      "previous_version_correct": 2,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F22",
+      "category": "Preference ordering",
+      "n": 9,
+      "correct": 6,
+      "usable": 9,
+      "accuracy": 0.6666666666666666,
+      "median_ms": 223.62966599757783,
+      "p95_ms": 367.29750860831695,
+      "rank_if_appended_to_frozen34": 6,
+      "ties_with_current_active": [
+        "jev114",
+        "kettei_fat",
+        "mammoth1",
+        "reference_opus5",
+        "reference_sol",
+        "reax_1_3",
+        "pplx_decider13_native_20261112",
+        "subq_snap12"
+      ],
+      "previous_version_correct": 4,
+      "correct_difference_vs_previous": 2
+    },
+    {
+      "family_id": "F23",
+      "category": "Rule counterexamples",
+      "n": 14,
+      "correct": 13,
+      "usable": 14,
+      "accuracy": 0.9285714285714286,
+      "median_ms": 217.4163125018822,
+      "p95_ms": 281.08465218974743,
+      "rank_if_appended_to_frozen34": 13,
+      "ties_with_current_active": [
+        "kettei_fat",
+        "levanto_sage_2",
+        "liquid11_decision",
+        "liquid_ultra",
+        "mercury_decide",
+        "reference_terra61",
+        "respan02",
+        "turion_jev31b",
+        "morph_reflex",
+        "heygen_decision1_turbo_openrouter_20261112"
+      ],
+      "previous_version_correct": 13,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F24",
+      "category": "Authority and stale records",
+      "n": 8,
+      "correct": 6,
+      "usable": 8,
+      "accuracy": 0.75,
+      "median_ms": 228.3066454983782,
+      "p95_ms": 382.0300373001372,
+      "rank_if_appended_to_frozen34": 14,
+      "ties_with_current_active": [
+        "amos_large",
+        "drex_max_v11",
+        "gemini_decision1_openrouter_20261111",
+        "heygen_decision1_turbo_openrouter_20261112"
+      ],
+      "previous_version_correct": 5,
+      "correct_difference_vs_previous": 1
+    },
+    {
+      "family_id": "F25",
+      "category": "Fault diagnosis",
+      "n": 11,
+      "correct": 6,
+      "usable": 11,
+      "accuracy": 0.5454545454545454,
+      "median_ms": 208.1990420119837,
+      "p95_ms": 468.72197950142436,
+      "rank_if_appended_to_frozen34": 19,
+      "ties_with_current_active": [
+        "elephant1",
+        "jev114",
+        "liquid_ultra",
+        "local_startlux_instant4b",
+        "reference_opus5",
+        "turion_jev31b",
+        "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+        "gemini_decision1_openrouter_20261111",
+        "heygen_decision1_openrouter_20261112",
+        "heygen_decision1_turbo_openrouter_20261112"
+      ],
+      "previous_version_correct": 5,
+      "correct_difference_vs_previous": 1
+    },
+    {
+      "family_id": "F26",
+      "category": "Probabilistic risk",
+      "n": 30,
+      "correct": 15,
+      "usable": 30,
+      "accuracy": 0.5,
+      "median_ms": 236.92158350604586,
+      "p95_ms": 356.31396020762617,
+      "rank_if_appended_to_frozen34": 19,
+      "ties_with_current_active": [
+        "celeris11_decision",
+        "liquid11_decision",
+        "reference_opus5"
+      ],
+      "previous_version_correct": 15,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F27",
+      "category": "Value of information",
+      "n": 40,
+      "correct": 23,
+      "usable": 40,
+      "accuracy": 0.575,
+      "median_ms": 233.86729150661267,
+      "p95_ms": 330.26319614582457,
+      "rank_if_appended_to_frozen34": 16,
+      "ties_with_current_active": [
+        "reference_terra61",
+        "nimble_v41_max"
+      ],
+      "previous_version_correct": 21,
+      "correct_difference_vs_previous": 2
+    },
+    {
+      "family_id": "F28",
+      "category": "Robust decisions without a prior",
+      "n": 39,
+      "correct": 9,
+      "usable": 39,
+      "accuracy": 0.23076923076923078,
+      "median_ms": 242.4633329792414,
+      "p95_ms": 377.14630830450955,
+      "rank_if_appended_to_frozen34": 25,
+      "ties_with_current_active": [
+        "liquid11_decision",
+        "liquid_d1",
+        "mammoth1",
+        "sarvam_prism"
+      ],
+      "previous_version_correct": 9,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F29",
+      "category": "Strategic decisions",
+      "n": 39,
+      "correct": 22,
+      "usable": 39,
+      "accuracy": 0.5641025641025641,
+      "median_ms": 229.87949999514967,
+      "p95_ms": 363.1056954793168,
+      "rank_if_appended_to_frozen34": 23,
+      "ties_with_current_active": [
+        "amos_large",
+        "levanto_sage_2",
+        "liquid11_decision",
+        "reference_sonnet",
+        "singvl_s1_4b_q4km_llamacpp_ctx4096_lan"
+      ],
+      "previous_version_correct": 22,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F30",
+      "category": "Concurrent-history consistency",
+      "n": 38,
+      "correct": 20,
+      "usable": 38,
+      "accuracy": 0.5263157894736842,
+      "median_ms": 229.72943750210106,
+      "p95_ms": 456.9291338440961,
+      "rank_if_appended_to_frozen34": 17,
+      "ties_with_current_active": [
+        "liquid_ultra",
+        "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+        "pplx_decider_flash13_native_20261112",
+        "subq_snap12"
+      ],
+      "previous_version_correct": 18,
+      "correct_difference_vs_previous": 2
+    },
+    {
+      "family_id": "F31",
+      "category": "Information-flow security",
+      "n": 36,
+      "correct": 22,
+      "usable": 36,
+      "accuracy": 0.6111111111111112,
+      "median_ms": 245.51758349116426,
+      "p95_ms": 400.8338234925759,
+      "rank_if_appended_to_frozen34": 22,
+      "ties_with_current_active": [
+        "elephant1",
+        "super_decider",
+        "heygen_decision1_openrouter_20261112"
+      ],
+      "previous_version_correct": 15,
+      "correct_difference_vs_previous": 7
+    },
+    {
+      "family_id": "F32",
+      "category": "Numerical pattern recognition",
+      "n": 20,
+      "correct": 16,
+      "usable": 20,
+      "accuracy": 0.8,
+      "median_ms": 212.34041699790396,
+      "p95_ms": 241.63324788387405,
+      "rank_if_appended_to_frozen34": 3,
+      "ties_with_current_active": [
+        "liquid11_decision",
+        "mammoth1",
+        "gemini_decision1_openrouter_20261111"
+      ],
+      "previous_version_correct": 16,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F33",
+      "category": "Quantitative reasoning",
+      "n": 200,
+      "correct": 73,
+      "usable": 200,
+      "accuracy": 0.365,
+      "median_ms": 218.02108298288658,
+      "p95_ms": 401.6460416693006,
+      "rank_if_appended_to_frozen34": 28,
+      "ties_with_current_active": [
+        "elephant1",
+        "pplx_decider_flash13_native_20261112"
+      ],
+      "previous_version_correct": 72,
+      "correct_difference_vs_previous": 1
+    },
+    {
+      "family_id": "P01",
+      "category": "Understanding requests and routing",
+      "n": 31,
+      "correct": 14,
+      "usable": 31,
+      "accuracy": 0.45161290322580644,
+      "median_ms": 217.90070799761452,
+      "p95_ms": 404.2149375018198,
+      "rank_if_appended_to_frozen34": 32,
+      "ties_with_current_active": [
+        "celeris11_decision"
+      ],
+      "previous_version_correct": 16,
+      "correct_difference_vs_previous": -2
+    },
+    {
+      "family_id": "P02",
+      "category": "Recognizing multiple requested actions",
+      "n": 34,
+      "correct": 22,
+      "usable": 34,
+      "accuracy": 0.6470588235294118,
+      "median_ms": 232.4894794874126,
+      "p95_ms": 325.81591710186325,
+      "rank_if_appended_to_frozen34": 22,
+      "ties_with_current_active": [
+        "gemini_decision1_openrouter_20261111"
+      ],
+      "previous_version_correct": 24,
+      "correct_difference_vs_previous": -2
+    },
+    {
+      "family_id": "P03",
+      "category": "Tracking current conversational intention",
+      "n": 33,
+      "correct": 28,
+      "usable": 33,
+      "accuracy": 0.8484848484848485,
+      "median_ms": 240.77491700882092,
+      "p95_ms": 371.425924997311,
+      "rank_if_appended_to_frozen34": 17,
+      "ties_with_current_active": [],
+      "previous_version_correct": 24,
+      "correct_difference_vs_previous": 4
+    },
+    {
+      "family_id": "P04",
+      "category": "Selecting a tool or requesting clarification",
+      "n": 35,
+      "correct": 18,
+      "usable": 35,
+      "accuracy": 0.5142857142857142,
+      "median_ms": 220.90195800410584,
+      "p95_ms": 389.6395375020801,
+      "rank_if_appended_to_frozen34": 2,
+      "ties_with_current_active": [
+        "celeris11_decision",
+        "jev114",
+        "local_startlux_instant4b",
+        "mammoth1",
+        "reference_terra61"
+      ],
+      "previous_version_correct": 17,
+      "correct_difference_vs_previous": 1
+    },
+    {
+      "family_id": "P05",
+      "category": "Checking authorization and scope",
+      "n": 35,
+      "correct": 16,
+      "usable": 35,
+      "accuracy": 0.45714285714285713,
+      "median_ms": 222.72558399708942,
+      "p95_ms": 323.8421078945976,
+      "rank_if_appended_to_frozen34": 22,
+      "ties_with_current_active": [
+        "mammoth1",
+        "mercury_decide",
+        "respan02",
+        "gemini_decision1_openrouter_20261111",
+        "heygen_decision1_turbo_openrouter_20261112"
+      ],
+      "previous_version_correct": 17,
+      "correct_difference_vs_previous": -1
+    },
+    {
+      "family_id": "P06",
+      "category": "Making decisions with untrusted content",
+      "n": 35,
+      "correct": 25,
+      "usable": 35,
+      "accuracy": 0.7142857142857143,
+      "median_ms": 239.4631670031231,
+      "p95_ms": 325.62465369992424,
+      "rank_if_appended_to_frozen34": 23,
+      "ties_with_current_active": [],
+      "previous_version_correct": 26,
+      "correct_difference_vs_previous": -1
+    },
+    {
+      "family_id": "P07",
+      "category": "Applying a content policy in context",
+      "n": 27,
+      "correct": 17,
+      "usable": 27,
+      "accuracy": 0.6296296296296297,
+      "median_ms": 239.52491700765677,
+      "p95_ms": 344.5058832032373,
+      "rank_if_appended_to_frozen34": 18,
+      "ties_with_current_active": [
+        "amos_large",
+        "fastino_glide_v23_bf16",
+        "liquid_d1",
+        "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+        "pplx_decider13_native_20261112"
+      ],
+      "previous_version_correct": 15,
+      "correct_difference_vs_previous": 2
+    },
+    {
+      "family_id": "P08",
+      "category": "Extracting and normalizing facts",
+      "n": 36,
+      "correct": 11,
+      "usable": 36,
+      "accuracy": 0.3055555555555556,
+      "median_ms": 222.46889551752247,
+      "p95_ms": 543.8341460176161,
+      "rank_if_appended_to_frozen34": 23,
+      "ties_with_current_active": [
+        "levanto_sage_2",
+        "reference_opus5"
+      ],
+      "previous_version_correct": 13,
+      "correct_difference_vs_previous": -2
+    },
+    {
+      "family_id": "P09",
+      "category": "Checking claims against supplied evidence",
+      "n": 32,
+      "correct": 15,
+      "usable": 32,
+      "accuracy": 0.46875,
+      "median_ms": 216.2528119952185,
+      "p95_ms": 313.37027951085474,
+      "rank_if_appended_to_frozen34": 22,
+      "ties_with_current_active": [
+        "levanto_sage_2",
+        "mercury_decide",
+        "d3_flash_9b_q4km_llamacpp_ctx4096_lan"
+      ],
+      "previous_version_correct": 12,
+      "correct_difference_vs_previous": 3
+    },
+    {
+      "family_id": "P10",
+      "category": "Applying ordinal severity rubrics",
+      "n": 31,
+      "correct": 15,
+      "usable": 31,
+      "accuracy": 0.4838709677419355,
+      "median_ms": 237.673416006146,
+      "p95_ms": 354.5736664964352,
+      "rank_if_appended_to_frozen34": 21,
+      "ties_with_current_active": [],
+      "previous_version_correct": 14,
+      "correct_difference_vs_previous": 1
+    }
+  ],
+  "highest_accuracy": [
+    {
+      "family_id": "F03",
+      "category": "Necessary conditions",
+      "n": 32,
+      "correct": 31,
+      "usable": 32,
+      "accuracy": 0.96875,
+      "median_ms": 225.1112290105084,
+      "p95_ms": 437.9735730981338,
+      "rank_if_appended_to_frozen34": 2,
+      "ties_with_current_active": [
+        "fastino_glide_v23_bf16"
+      ],
+      "previous_version_correct": 30,
+      "correct_difference_vs_previous": 1
+    },
+    {
+      "family_id": "F23",
+      "category": "Rule counterexamples",
+      "n": 14,
+      "correct": 13,
+      "usable": 14,
+      "accuracy": 0.9285714285714286,
+      "median_ms": 217.4163125018822,
+      "p95_ms": 281.08465218974743,
+      "rank_if_appended_to_frozen34": 13,
+      "ties_with_current_active": [
+        "kettei_fat",
+        "levanto_sage_2",
+        "liquid11_decision",
+        "liquid_ultra",
+        "mercury_decide",
+        "reference_terra61",
+        "respan02",
+        "turion_jev31b",
+        "morph_reflex",
+        "heygen_decision1_turbo_openrouter_20261112"
+      ],
+      "previous_version_correct": 13,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F02",
+      "category": "Forward conditionals",
+      "n": 22,
+      "correct": 20,
+      "usable": 22,
+      "accuracy": 0.9090909090909091,
+      "median_ms": 212.52250050019938,
+      "p95_ms": 343.2451788481558,
+      "rank_if_appended_to_frozen34": 15,
+      "ties_with_current_active": [
+        "amos_large",
+        "elephant1",
+        "levanto_sage_2",
+        "liquid_ultra",
+        "reference_opus5",
+        "heygen_decision1_openrouter_20261112"
+      ],
+      "previous_version_correct": 21,
+      "correct_difference_vs_previous": -1
+    },
+    {
+      "family_id": "P03",
+      "category": "Tracking current conversational intention",
+      "n": 33,
+      "correct": 28,
+      "usable": 33,
+      "accuracy": 0.8484848484848485,
+      "median_ms": 240.77491700882092,
+      "p95_ms": 371.425924997311,
+      "rank_if_appended_to_frozen34": 17,
+      "ties_with_current_active": [],
+      "previous_version_correct": 24,
+      "correct_difference_vs_previous": 4
+    },
+    {
+      "family_id": "F14",
+      "category": "Temporal intervals",
+      "n": 25,
+      "correct": 20,
+      "usable": 25,
+      "accuracy": 0.8,
+      "median_ms": 205.27724997373298,
+      "p95_ms": 315.33888299600204,
+      "rank_if_appended_to_frozen34": 25,
+      "ties_with_current_active": [
+        "levanto_sage_2",
+        "liquid_d1"
+      ],
+      "previous_version_correct": 21,
+      "correct_difference_vs_previous": -1
+    },
+    {
+      "family_id": "F32",
+      "category": "Numerical pattern recognition",
+      "n": 20,
+      "correct": 16,
+      "usable": 20,
+      "accuracy": 0.8,
+      "median_ms": 212.34041699790396,
+      "p95_ms": 241.63324788387405,
+      "rank_if_appended_to_frozen34": 3,
+      "ties_with_current_active": [
+        "liquid11_decision",
+        "mammoth1",
+        "gemini_decision1_openrouter_20261111"
+      ],
+      "previous_version_correct": 16,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F04",
+      "category": "Boolean scope",
+      "n": 18,
+      "correct": 14,
+      "usable": 18,
+      "accuracy": 0.7777777777777778,
+      "median_ms": 221.57679150404874,
+      "p95_ms": 596.6784411401022,
+      "rank_if_appended_to_frozen34": 12,
+      "ties_with_current_active": [
+        "kettei_fat",
+        "liquid_d1",
+        "respan02",
+        "sarvam_prism",
+        "nimble_v41_max"
+      ],
+      "previous_version_correct": 8,
+      "correct_difference_vs_previous": 6
+    },
+    {
+      "family_id": "F19",
+      "category": "Exceptions and priorities",
+      "n": 24,
+      "correct": 18,
+      "usable": 24,
+      "accuracy": 0.75,
+      "median_ms": 214.87660449929535,
+      "p95_ms": 300.32193759107025,
+      "rank_if_appended_to_frozen34": 28,
+      "ties_with_current_active": [
+        "pplx_decider_flash13_native_20261112"
+      ],
+      "previous_version_correct": 19,
+      "correct_difference_vs_previous": -1
+    }
+  ],
+  "lowest_accuracy": [
+    {
+      "family_id": "F28",
+      "category": "Robust decisions without a prior",
+      "n": 39,
+      "correct": 9,
+      "usable": 39,
+      "accuracy": 0.23076923076923078,
+      "median_ms": 242.4633329792414,
+      "p95_ms": 377.14630830450955,
+      "rank_if_appended_to_frozen34": 25,
+      "ties_with_current_active": [
+        "liquid11_decision",
+        "liquid_d1",
+        "mammoth1",
+        "sarvam_prism"
+      ],
+      "previous_version_correct": 9,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F13",
+      "category": "Sequential procedures",
+      "n": 47,
+      "correct": 12,
+      "usable": 47,
+      "accuracy": 0.2553191489361702,
+      "median_ms": 223.33262499887496,
+      "p95_ms": 357.4604910070771,
+      "rank_if_appended_to_frozen34": 20,
+      "ties_with_current_active": [
+        "morph_reflex",
+        "subq_snap12"
+      ],
+      "previous_version_correct": 9,
+      "correct_difference_vs_previous": 3
+    },
+    {
+      "family_id": "P08",
+      "category": "Extracting and normalizing facts",
+      "n": 36,
+      "correct": 11,
+      "usable": 36,
+      "accuracy": 0.3055555555555556,
+      "median_ms": 222.46889551752247,
+      "p95_ms": 543.8341460176161,
+      "rank_if_appended_to_frozen34": 23,
+      "ties_with_current_active": [
+        "levanto_sage_2",
+        "reference_opus5"
+      ],
+      "previous_version_correct": 13,
+      "correct_difference_vs_previous": -2
+    },
+    {
+      "family_id": "F33",
+      "category": "Quantitative reasoning",
+      "n": 200,
+      "correct": 73,
+      "usable": 200,
+      "accuracy": 0.365,
+      "median_ms": 218.02108298288658,
+      "p95_ms": 401.6460416693006,
+      "rank_if_appended_to_frozen34": 28,
+      "ties_with_current_active": [
+        "elephant1",
+        "pplx_decider_flash13_native_20261112"
+      ],
+      "previous_version_correct": 72,
+      "correct_difference_vs_previous": 1
+    },
+    {
+      "family_id": "F01",
+      "category": "Lookup and filtering",
+      "n": 5,
+      "correct": 2,
+      "usable": 5,
+      "accuracy": 0.4,
+      "median_ms": 232.69770800834522,
+      "p95_ms": 302.9610916040838,
+      "rank_if_appended_to_frozen34": 15,
+      "ties_with_current_active": [
+        "amos_large",
+        "celeris11_decision",
+        "elephant1",
+        "liquid_d1",
+        "mammoth1",
+        "pplx_decider13_native_20261112",
+        "heygen_decision1_turbo_openrouter_20261112",
+        "nimble_v41_max"
+      ],
+      "previous_version_correct": 1,
+      "correct_difference_vs_previous": 1
+    },
+    {
+      "family_id": "F21",
+      "category": "Directed reachability",
+      "n": 5,
+      "correct": 2,
+      "usable": 5,
+      "accuracy": 0.4,
+      "median_ms": 264.2329160007648,
+      "p95_ms": 275.84849999984726,
+      "rank_if_appended_to_frozen34": 18,
+      "ties_with_current_active": [
+        "liquid11_decision",
+        "liquid_d1",
+        "liquid_ultra",
+        "mercury_decide",
+        "reference_sonnet",
+        "reference_terra61",
+        "respan02",
+        "sarvam_prism",
+        "turion_jev31b",
+        "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+        "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+        "pplx_decider_flash13_native_20261112",
+        "heygen_decision1_openrouter_20261112",
+        "heygen_decision1_turbo_openrouter_20261112"
+      ],
+      "previous_version_correct": 2,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "F05",
+      "category": "Quantifiers and sets",
+      "n": 9,
+      "correct": 4,
+      "usable": 9,
+      "accuracy": 0.4444444444444444,
+      "median_ms": 205.04566602176055,
+      "p95_ms": 261.9870249996893,
+      "rank_if_appended_to_frozen34": 25,
+      "ties_with_current_active": [
+        "elephant1",
+        "liquid11_decision",
+        "local_startlux_instant4b",
+        "sarvam_prism",
+        "singvl_s1_4b_q4km_llamacpp_ctx4096_lan",
+        "pplx_decider13_native_20261112",
+        "pplx_decider_flash13_native_20261112"
+      ],
+      "previous_version_correct": 4,
+      "correct_difference_vs_previous": 0
+    },
+    {
+      "family_id": "P01",
+      "category": "Understanding requests and routing",
+      "n": 31,
+      "correct": 14,
+      "usable": 31,
+      "accuracy": 0.45161290322580644,
+      "median_ms": 217.90070799761452,
+      "p95_ms": 404.2149375018198,
+      "rank_if_appended_to_frozen34": 32,
+      "ties_with_current_active": [
+        "celeris11_decision"
+      ],
+      "previous_version_correct": 16,
+      "correct_difference_vs_previous": -2
+    }
+  ],
+  "largest_gains_vs_previous": [
+    {
+      "family_id": "F31",
+      "category": "Information-flow security",
+      "n": 36,
+      "correct": 22,
+      "usable": 36,
+      "accuracy": 0.6111111111111112,
+      "median_ms": 245.51758349116426,
+      "p95_ms": 400.8338234925759,
+      "rank_if_appended_to_frozen34": 22,
+      "ties_with_current_active": [
+        "elephant1",
+        "super_decider",
+        "heygen_decision1_openrouter_20261112"
+      ],
+      "previous_version_correct": 15,
+      "correct_difference_vs_previous": 7
+    },
+    {
+      "family_id": "F04",
+      "category": "Boolean scope",
+      "n": 18,
+      "correct": 14,
+      "usable": 18,
+      "accuracy": 0.7777777777777778,
+      "median_ms": 221.57679150404874,
+      "p95_ms": 596.6784411401022,
+      "rank_if_appended_to_frozen34": 12,
+      "ties_with_current_active": [
+        "kettei_fat",
+        "liquid_d1",
+        "respan02",
+        "sarvam_prism",
+        "nimble_v41_max"
+      ],
+      "previous_version_correct": 8,
+      "correct_difference_vs_previous": 6
+    },
+    {
+      "family_id": "F08",
+      "category": "One-to-one assignments",
+      "n": 44,
+      "correct": 29,
+      "usable": 44,
+      "accuracy": 0.6590909090909091,
+      "median_ms": 217.8129164967686,
+      "p95_ms": 358.0331375589595,
+      "rank_if_appended_to_frozen34": 31,
+      "ties_with_current_active": [
+        "mercury_decide"
+      ],
+      "previous_version_correct": 24,
+      "correct_difference_vs_previous": 5
+    },
+    {
+      "family_id": "F15",
+      "category": "Spatial tracking",
+      "n": 35,
+      "correct": 22,
+      "usable": 35,
+      "accuracy": 0.6285714285714286,
+      "median_ms": 218.97816701675765,
+      "p95_ms": 373.9509410923346,
+      "rank_if_appended_to_frozen34": 19,
+      "ties_with_current_active": [
+        "amos_large",
+        "nimble_v41_max"
+      ],
+      "previous_version_correct": 18,
+      "correct_difference_vs_previous": 4
+    },
+    {
+      "family_id": "P03",
+      "category": "Tracking current conversational intention",
+      "n": 33,
+      "correct": 28,
+      "usable": 33,
+      "accuracy": 0.8484848484848485,
+      "median_ms": 240.77491700882092,
+      "p95_ms": 371.425924997311,
+      "rank_if_appended_to_frozen34": 17,
+      "ties_with_current_active": [],
+      "previous_version_correct": 24,
+      "correct_difference_vs_previous": 4
+    },
+    {
+      "family_id": "F13",
+      "category": "Sequential procedures",
+      "n": 47,
+      "correct": 12,
+      "usable": 47,
+      "accuracy": 0.2553191489361702,
+      "median_ms": 223.33262499887496,
+      "p95_ms": 357.4604910070771,
+      "rank_if_appended_to_frozen34": 20,
+      "ties_with_current_active": [
+        "morph_reflex",
+        "subq_snap12"
+      ],
+      "previous_version_correct": 9,
+      "correct_difference_vs_previous": 3
+    },
+    {
+      "family_id": "P09",
+      "category": "Checking claims against supplied evidence",
+      "n": 32,
+      "correct": 15,
+      "usable": 32,
+      "accuracy": 0.46875,
+      "median_ms": 216.2528119952185,
+      "p95_ms": 313.37027951085474,
+      "rank_if_appended_to_frozen34": 22,
+      "ties_with_current_active": [
+        "levanto_sage_2",
+        "mercury_decide",
+        "d3_flash_9b_q4km_llamacpp_ctx4096_lan"
+      ],
+      "previous_version_correct": 12,
+      "correct_difference_vs_previous": 3
+    },
+    {
+      "family_id": "F12",
+      "category": "Object swaps",
+      "n": 43,
+      "correct": 20,
+      "usable": 43,
+      "accuracy": 0.46511627906976744,
+      "median_ms": 225.7380000082776,
+      "p95_ms": 441.0845002857967,
+      "rank_if_appended_to_frozen34": 19,
+      "ties_with_current_active": [
+        "kettei_fat",
+        "reference_sonnet",
+        "super_decider",
+        "heygen_decision1_openrouter_20261112"
+      ],
+      "previous_version_correct": 18,
+      "correct_difference_vs_previous": 2
+    }
+  ],
+  "largest_losses_vs_previous": [
+    {
+      "family_id": "F09",
+      "category": "Exact truth counting",
+      "n": 68,
+      "correct": 39,
+      "usable": 68,
+      "accuracy": 0.5735294117647058,
+      "median_ms": 222.5068334955722,
+      "p95_ms": 369.37908335967217,
+      "rank_if_appended_to_frozen34": 12,
+      "ties_with_current_active": [
+        "liquid_ultra",
+        "reax_1_3",
+        "subq_snap12"
+      ],
+      "previous_version_correct": 44,
+      "correct_difference_vs_previous": -5
+    },
+    {
+      "family_id": "F10",
+      "category": "Truth-teller consistency",
+      "n": 69,
+      "correct": 38,
+      "usable": 69,
+      "accuracy": 0.5507246376811594,
+      "median_ms": 218.68062499561347,
+      "p95_ms": 421.87115020933555,
+      "rank_if_appended_to_frozen34": 19,
+      "ties_with_current_active": [
+        "elephant1",
+        "kettei_fat"
+      ],
+      "previous_version_correct": 41,
+      "correct_difference_vs_previous": -3
+    },
+    {
+      "family_id": "F17",
+      "category": "Beliefs and perspectives",
+      "n": 19,
+      "correct": 9,
+      "usable": 19,
+      "accuracy": 0.47368421052631576,
+      "median_ms": 225.6678340199869,
+      "p95_ms": 329.3642170086968,
+      "rank_if_appended_to_frozen34": 34,
+      "ties_with_current_active": [],
+      "previous_version_correct": 11,
+      "correct_difference_vs_previous": -2
+    },
+    {
+      "family_id": "P01",
+      "category": "Understanding requests and routing",
+      "n": 31,
+      "correct": 14,
+      "usable": 31,
+      "accuracy": 0.45161290322580644,
+      "median_ms": 217.90070799761452,
+      "p95_ms": 404.2149375018198,
+      "rank_if_appended_to_frozen34": 32,
+      "ties_with_current_active": [
+        "celeris11_decision"
+      ],
+      "previous_version_correct": 16,
+      "correct_difference_vs_previous": -2
+    },
+    {
+      "family_id": "P02",
+      "category": "Recognizing multiple requested actions",
+      "n": 34,
+      "correct": 22,
+      "usable": 34,
+      "accuracy": 0.6470588235294118,
+      "median_ms": 232.4894794874126,
+      "p95_ms": 325.81591710186325,
+      "rank_if_appended_to_frozen34": 22,
+      "ties_with_current_active": [
+        "gemini_decision1_openrouter_20261111"
+      ],
+      "previous_version_correct": 24,
+      "correct_difference_vs_previous": -2
+    },
+    {
+      "family_id": "P08",
+      "category": "Extracting and normalizing facts",
+      "n": 36,
+      "correct": 11,
+      "usable": 36,
+      "accuracy": 0.3055555555555556,
+      "median_ms": 222.46889551752247,
+      "p95_ms": 543.8341460176161,
+      "rank_if_appended_to_frozen34": 23,
+      "ties_with_current_active": [
+        "levanto_sage_2",
+        "reference_opus5"
+      ],
+      "previous_version_correct": 13,
+      "correct_difference_vs_previous": -2
+    },
+    {
+      "family_id": "F02",
+      "category": "Forward conditionals",
+      "n": 22,
+      "correct": 20,
+      "usable": 22,
+      "accuracy": 0.9090909090909091,
+      "median_ms": 212.52250050019938,
+      "p95_ms": 343.2451788481558,
+      "rank_if_appended_to_frozen34": 15,
+      "ties_with_current_active": [
+        "amos_large",
+        "elephant1",
+        "levanto_sage_2",
+        "liquid_ultra",
+        "reference_opus5",
+        "heygen_decision1_openrouter_20261112"
+      ],
+      "previous_version_correct": 21,
+      "correct_difference_vs_previous": -1
+    },
+    {
+      "family_id": "F06",
+      "category": "Comparisons",
+      "n": 7,
+      "correct": 4,
+      "usable": 7,
+      "accuracy": 0.5714285714285714,
+      "median_ms": 222.5750419893302,
+      "p95_ms": 295.5182330973912,
+      "rank_if_appended_to_frozen34": 22,
+      "ties_with_current_active": [
+        "celeris11_decision",
+        "local_startlux_instant4b",
+        "mercury_decide",
+        "reference_sonnet",
+        "sarvam_prism",
+        "morph_reflex",
+        "d3_flash_9b_q4km_llamacpp_ctx4096_lan",
+        "pplx_decider13_native_20261112",
+        "heygen_decision1_turbo_openrouter_20261112"
+      ],
+      "previous_version_correct": 5,
+      "correct_difference_vs_previous": -1
+    }
+  ]
+}

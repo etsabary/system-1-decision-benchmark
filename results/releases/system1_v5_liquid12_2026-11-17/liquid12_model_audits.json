@@ -1,0 +1,596 @@
+{
+  "liquid12_ultra": {
+    "n": 1456,
+    "usable": 1456,
+    "correct": 956,
+    "median_ms": 269.86568700522184,
+    "p95_ms": 983.4436357414233,
+    "reported_usd_subtotal": "0.028928760",
+    "reported_charge_count": 1456,
+    "captured_tariff_estimate_usd": "0",
+    "unknown_actual_charge_count": 0,
+    "known_or_estimated_subtotal_usd": "0.028928760",
+    "model_id": "liquid12_ultra",
+    "full_coverage": true,
+    "complete": true,
+    "postflight_and_source_verified_completion": true,
+    "configuration_metadata_stable": true,
+    "first_primaries_only": true,
+    "scored_retries": 0,
+    "counter_policy": "Retain all native raw usage, including unusable primaries and nonzero output counters. Counters alone never invalidate a typed answer or independently attest generation.",
+    "precision": "unknown hosted precision",
+    "identity_limit": "OpenRouter dated snapshot and provider declarations; actual weights, precision and implementation not independently attested.",
+    "all_primary_usage_diagnostics": {
+      "input_tokens_all_primaries": 688780,
+      "output_tokens_all_primaries": 0,
+      "missing_input_usage_count": 0,
+      "missing_output_usage_count": 0,
+      "nonzero_output_counter_count": 0,
+      "invalid_or_missing_probability_distribution_count": 0,
+      "invalid_present_probability_distribution_count": 0,
+      "argmax_disagreement_count": 0
+    },
+    "categories": {
+      "F15": {
+        "n": 35,
+        "correct": 24,
+        "usable": 35
+      },
+      "F12": {
+        "n": 43,
+        "correct": 25,
+        "usable": 43
+      },
+      "F33": {
+        "n": 200,
+        "correct": 82,
+        "usable": 200
+      },
+      "F05": {
+        "n": 9,
+        "correct": 4,
+        "usable": 9
+      },
+      "F09": {
+        "n": 68,
+        "correct": 37,
+        "usable": 68
+      },
+      "P02": {
+        "n": 34,
+        "correct": 34,
+        "usable": 34
+      },
+      "P06": {
+        "n": 35,
+        "correct": 33,
+        "usable": 35
+      },
+      "P09": {
+        "n": 32,
+        "correct": 22,
+        "usable": 32
+      },
+      "F01": {
+        "n": 5,
+        "correct": 2,
+        "usable": 5
+      },
+      "P01": {
+        "n": 31,
+        "correct": 27,
+        "usable": 31
+      },
+      "F30": {
+        "n": 38,
+        "correct": 23,
+        "usable": 38
+      },
+      "F06": {
+        "n": 7,
+        "correct": 6,
+        "usable": 7
+      },
+      "F02": {
+        "n": 22,
+        "correct": 20,
+        "usable": 22
+      },
+      "P03": {
+        "n": 33,
+        "correct": 32,
+        "usable": 33
+      },
+      "P04": {
+        "n": 35,
+        "correct": 13,
+        "usable": 35
+      },
+      "F17": {
+        "n": 19,
+        "correct": 15,
+        "usable": 19
+      },
+      "F19": {
+        "n": 24,
+        "correct": 21,
+        "usable": 24
+      },
+      "P05": {
+        "n": 35,
+        "correct": 18,
+        "usable": 35
+      },
+      "F07": {
+        "n": 54,
+        "correct": 37,
+        "usable": 54
+      },
+      "F13": {
+        "n": 47,
+        "correct": 19,
+        "usable": 47
+      },
+      "F23": {
+        "n": 14,
+        "correct": 14,
+        "usable": 14
+      },
+      "F28": {
+        "n": 39,
+        "correct": 15,
+        "usable": 39
+      },
+      "P10": {
+        "n": 31,
+        "correct": 22,
+        "usable": 31
+      },
+      "F10": {
+        "n": 69,
+        "correct": 48,
+        "usable": 69
+      },
+      "F29": {
+        "n": 39,
+        "correct": 25,
+        "usable": 39
+      },
+      "F11": {
+        "n": 29,
+        "correct": 24,
+        "usable": 29
+      },
+      "F31": {
+        "n": 36,
+        "correct": 23,
+        "usable": 36
+      },
+      "F18": {
+        "n": 37,
+        "correct": 33,
+        "usable": 37
+      },
+      "F32": {
+        "n": 20,
+        "correct": 13,
+        "usable": 20
+      },
+      "P07": {
+        "n": 27,
+        "correct": 17,
+        "usable": 27
+      },
+      "F14": {
+        "n": 25,
+        "correct": 24,
+        "usable": 25
+      },
+      "P08": {
+        "n": 36,
+        "correct": 17,
+        "usable": 36
+      },
+      "F16": {
+        "n": 35,
+        "correct": 25,
+        "usable": 35
+      },
+      "F25": {
+        "n": 11,
+        "correct": 7,
+        "usable": 11
+      },
+      "F08": {
+        "n": 44,
+        "correct": 41,
+        "usable": 44
+      },
+      "F26": {
+        "n": 30,
+        "correct": 18,
+        "usable": 30
+      },
+      "F03": {
+        "n": 32,
+        "correct": 30,
+        "usable": 32
+      },
+      "F20": {
+        "n": 16,
+        "correct": 12,
+        "usable": 16
+      },
+      "F27": {
+        "n": 40,
+        "correct": 24,
+        "usable": 40
+      },
+      "F04": {
+        "n": 18,
+        "correct": 16,
+        "usable": 18
+      },
+      "F22": {
+        "n": 9,
+        "correct": 5,
+        "usable": 9
+      },
+      "F21": {
+        "n": 5,
+        "correct": 2,
+        "usable": 5
+      },
+      "F24": {
+        "n": 8,
+        "correct": 7,
+        "usable": 8
+      }
+    },
+    "source_record_digest": "392e9714999cc85fd5127348eb59256b4ce0982f42d181819091b28162d39121",
+    "ledger_counts": {
+      "timing": 1456,
+      "cost": 1456,
+      "correctness": 1456,
+      "usage": 1456
+    },
+    "configuration_checks": 18,
+    "configuration_check_file_hashes": [
+      "cd56917535d5822bb7952142600739aea29628876948c05f15a27e304cbe8925",
+      "882ba7ef09f148d53cf839dfa911fe39dc3d47177cb5cd07917f38bfe826d023",
+      "de5db4266feca8a88a23b3b9b11078a145f210c5881a9ee51d98829f220c48e2",
+      "c2926415ec9b9e5fce6e1e8b8e870965b6485df060874c539ceee3db4e38c220",
+      "464d8335afb1592315fed1e034218480411dd15829564b649fbf61c750c6b6ed",
+      "3872aff2c6cbb79d4a9709dd61bcc00c0f40c3de648022cb436fb5ae1b2ca553",
+      "c8ab68205ebbaeac184d826515b87b6095add8379c09e27e7eed5560c96bbad7",
+      "b81dee634c5f66b35599e593981ae60a69243ae4ee9410c32f534f3743c374c8",
+      "07d9fb13a61ca7f1b03e898e59761d97ec477469298844037f76a224192f9784",
+      "367d01fe70ac4c670526407d92329168025a2d148c6b830c59764fd33d7f75f9",
+      "a4c6053413ced6722498f576f7b0fb0c59ce6ec57c58f730ff3555b55c9025e4",
+      "63174c6067a9fd379b3210c9abe3c69efd4773764af2d1a84a802eaff4792c0b",
+      "ad87aaba4110c55fbbc475c9b4330de8c8b14cfa2a2ddbd47081c6cc4086be38",
+      "f68b98e0ecc88a11044721bd99bbbdcfe47e0b0c4bd78f16f951b73c0edbe3d8",
+      "5dc4544ba50d19abc8028759a9ef83e6cdf2604a41844a419f0d9ed9b762dff6",
+      "e78cc4514e54534c9e714d0c4398de509f80d081142dcf4eff068a6a9cf13fac",
+      "af8028e3606f9bff9d3877a1713bceff9e7971a608f2f92714ebca821a8b08ce",
+      "6a408bab2fd05b8161ed03d41fa642db8a7482ab750f3992828a8c49e38b99e5"
+    ],
+    "mean_ms": 381.8161407586788,
+    "requested_model": "liquid/d1.2-ultra",
+    "declared_snapshot": "liquid/d1.2-ultra-20261116",
+    "provider": "Liquid",
+    "route": "https://openrouter.ai/api/alpha/decisions",
+    "routing": {
+      "only": [
+        "liquid"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "readiness_reported_excluded_usd": "0.0000021",
+    "source_manifest_sha256": "a12c8b6e80d745c0e36a6cea5b0dcdcd3e05cddf7c839f26c123e9666be355cf",
+    "plan_sha256": "578afda7341af0c73e3aca113eca3aa0d59e4e0ff247cf43befb805f98a9106a",
+    "captured_pricing": {
+      "prompt": "0.000000042",
+      "completion": "0",
+      "discount": 0
+    }
+  },
+  "liquid12": {
+    "n": 1456,
+    "usable": 1456,
+    "correct": 805,
+    "median_ms": 224.85929149843287,
+    "p95_ms": 391.22926074196585,
+    "reported_usd_subtotal": "0.01377560",
+    "reported_charge_count": 1456,
+    "captured_tariff_estimate_usd": "0",
+    "unknown_actual_charge_count": 0,
+    "known_or_estimated_subtotal_usd": "0.01377560",
+    "model_id": "liquid12",
+    "full_coverage": true,
+    "complete": true,
+    "postflight_and_source_verified_completion": true,
+    "configuration_metadata_stable": true,
+    "first_primaries_only": true,
+    "scored_retries": 0,
+    "counter_policy": "Retain all native raw usage, including unusable primaries and nonzero output counters. Counters alone never invalidate a typed answer or independently attest generation.",
+    "precision": "unknown hosted precision",
+    "identity_limit": "OpenRouter dated snapshot and provider declarations; actual weights, precision and implementation not independently attested.",
+    "all_primary_usage_diagnostics": {
+      "input_tokens_all_primaries": 688780,
+      "output_tokens_all_primaries": 0,
+      "missing_input_usage_count": 0,
+      "missing_output_usage_count": 0,
+      "nonzero_output_counter_count": 0,
+      "invalid_or_missing_probability_distribution_count": 0,
+      "invalid_present_probability_distribution_count": 0,
+      "argmax_disagreement_count": 0
+    },
+    "categories": {
+      "F15": {
+        "n": 35,
+        "correct": 22,
+        "usable": 35
+      },
+      "F12": {
+        "n": 43,
+        "correct": 20,
+        "usable": 43
+      },
+      "F33": {
+        "n": 200,
+        "correct": 73,
+        "usable": 200
+      },
+      "F05": {
+        "n": 9,
+        "correct": 4,
+        "usable": 9
+      },
+      "F09": {
+        "n": 68,
+        "correct": 39,
+        "usable": 68
+      },
+      "P02": {
+        "n": 34,
+        "correct": 22,
+        "usable": 34
+      },
+      "P06": {
+        "n": 35,
+        "correct": 25,
+        "usable": 35
+      },
+      "P09": {
+        "n": 32,
+        "correct": 15,
+        "usable": 32
+      },
+      "F01": {
+        "n": 5,
+        "correct": 2,
+        "usable": 5
+      },
+      "P01": {
+        "n": 31,
+        "correct": 14,
+        "usable": 31
+      },
+      "F30": {
+        "n": 38,
+        "correct": 20,
+        "usable": 38
+      },
+      "F06": {
+        "n": 7,
+        "correct": 4,
+        "usable": 7
+      },
+      "F02": {
+        "n": 22,
+        "correct": 20,
+        "usable": 22
+      },
+      "P03": {
+        "n": 33,
+        "correct": 28,
+        "usable": 33
+      },
+      "P04": {
+        "n": 35,
+        "correct": 18,
+        "usable": 35
+      },
+      "F17": {
+        "n": 19,
+        "correct": 9,
+        "usable": 19
+      },
+      "F19": {
+        "n": 24,
+        "correct": 18,
+        "usable": 24
+      },
+      "P05": {
+        "n": 35,
+        "correct": 16,
+        "usable": 35
+      },
+      "F07": {
+        "n": 54,
+        "correct": 29,
+        "usable": 54
+      },
+      "F13": {
+        "n": 47,
+        "correct": 12,
+        "usable": 47
+      },
+      "F23": {
+        "n": 14,
+        "correct": 13,
+        "usable": 14
+      },
+      "F28": {
+        "n": 39,
+        "correct": 9,
+        "usable": 39
+      },
+      "P10": {
+        "n": 31,
+        "correct": 15,
+        "usable": 31
+      },
+      "F10": {
+        "n": 69,
+        "correct": 38,
+        "usable": 69
+      },
+      "F29": {
+        "n": 39,
+        "correct": 22,
+        "usable": 39
+      },
+      "F11": {
+        "n": 29,
+        "correct": 21,
+        "usable": 29
+      },
+      "F31": {
+        "n": 36,
+        "correct": 22,
+        "usable": 36
+      },
+      "F18": {
+        "n": 37,
+        "correct": 24,
+        "usable": 37
+      },
+      "F32": {
+        "n": 20,
+        "correct": 16,
+        "usable": 20
+      },
+      "P07": {
+        "n": 27,
+        "correct": 17,
+        "usable": 27
+      },
+      "F14": {
+        "n": 25,
+        "correct": 20,
+        "usable": 25
+      },
+      "P08": {
+        "n": 36,
+        "correct": 11,
+        "usable": 36
+      },
+      "F16": {
+        "n": 35,
+        "correct": 23,
+        "usable": 35
+      },
+      "F25": {
+        "n": 11,
+        "correct": 6,
+        "usable": 11
+      },
+      "F08": {
+        "n": 44,
+        "correct": 29,
+        "usable": 44
+      },
+      "F26": {
+        "n": 30,
+        "correct": 15,
+        "usable": 30
+      },
+      "F03": {
+        "n": 32,
+        "correct": 31,
+        "usable": 32
+      },
+      "F20": {
+        "n": 16,
+        "correct": 12,
+        "usable": 16
+      },
+      "F27": {
+        "n": 40,
+        "correct": 23,
+        "usable": 40
+      },
+      "F04": {
+        "n": 18,
+        "correct": 14,
+        "usable": 18
+      },
+      "F22": {
+        "n": 9,
+        "correct": 6,
+        "usable": 9
+      },
+      "F21": {
+        "n": 5,
+        "correct": 2,
+        "usable": 5
+      },
+      "F24": {
+        "n": 8,
+        "correct": 6,
+        "usable": 8
+      }
+    },
+    "source_record_digest": "80e7dd05751392abcc39512d2dba0a8161074295b83407cb5e529c080a3ee97f",
+    "ledger_counts": {
+      "timing": 1456,
+      "cost": 1456,
+      "correctness": 1456,
+      "usage": 1456
+    },
+    "configuration_checks": 18,
+    "configuration_check_file_hashes": [
+      "bda914b15a9189b55e5bdd178d8487a9db519817df11e2fa66222707cb4ed240",
+      "5354b8400e7af70128cb05d85aef744130f3f86f9de0563b335e94a1f60a6b0c",
+      "d9d092bb501de32e01a07133db635ce857d11869eb828d819f732e46be347d0d",
+      "24240ed74bb7bcae5b9586dfae8a0c7f65364933c9a9a8d5d90f541dd9e5548c",
+      "020d1e12acfe44062cfe64b3dc46fc4bff975e8be2a599d782b5d5f7a0f05441",
+      "077d30167a88be607de784a545847a2ac8c218dd0e6746f2ea6f8ac9354034ee",
+      "a87b1802cdeed9fa59f48b1082e38c7ec945510af20bacc091143a1feff22f51",
+      "3bfba1027e50256730ed2111ff403a93f12c11f66c639673dd067d2c7c2e893d",
+      "60726b8518c3f2054a785ff772470fe2c3900eb3ef9d403a75f3b0484cef98d3",
+      "baf5ea05b8247f2a8c54642687df91f88fd0b5966d321b5bc0befe5168b6816d",
+      "a8c42de51aa3c992d97d7a1af1cfd6c72871de4282d5d3a84d7ed1d541b1fdca",
+      "c149518c3447d759f3d95dd053ff9d7f8309b233c4af7a69e6ee46df51a9d661",
+      "facf1a9b3d09b7a7f327565686991649e67873a6d919396980ee9752e2287802",
+      "99a309307fecb699605ed771eb3e07fa8e9dfe7929ad1d3713c51a21f490c2f7",
+      "23d56a0eeed42cd22483ceb1dcc385e1ccd99c8603098be39d9112213d2bcae7",
+      "ede97b7fd3cbe78dabe950ea5aa64d105280a0901c240236033a1eb50118861d",
+      "a7b0fe0768c20d288678664fe99119cc206890c58c88bf7267cd19a6930ffe6d",
+      "c4eb1f897786f07ca649f543e96ee94f192b3340a47f0b00c1fb59fe1c48bcd3"
+    ],
+    "mean_ms": 250.69758237685284,
+    "requested_model": "liquid/d1.2",
+    "declared_snapshot": "liquid/d1.2-20261116",
+    "provider": "Liquid",
+    "route": "https://openrouter.ai/api/alpha/decisions",
+    "routing": {
+      "only": [
+        "liquid"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "readiness_reported_excluded_usd": "0.000001",
+    "source_manifest_sha256": "a12c8b6e80d745c0e36a6cea5b0dcdcd3e05cddf7c839f26c123e9666be355cf",
+    "plan_sha256": "c6e350996fcf77d5a84ae5ce6f91c12f5c4c546cc97a9cf4d8480d707f8496b6",
+    "captured_pricing": {
+      "prompt": "0.00000002",
+      "completion": "0",
+      "discount": 0
+    }
+  }
+}
