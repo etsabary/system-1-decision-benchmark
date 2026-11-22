@@ -2095,7 +2095,7 @@
     "scripts/test_opus5_reference.py": "84f448f638ae6aadd69822e401c7a96fb5290bc32903ba74e6cf609dca99e32e",
     "scripts/test_opus5_schema_reference.py": "77405ff9f0a08ce1efeef28e366320973241a25789157c32208610df9e4d1401",
     "scripts/test_overall.py": "c762d32dfec44884a61a7f0c3f8d552fd444d1037c425a322694946708198d48",
-    "scripts/test_publication.py": "7878900ae223f285a973ba55a90e1a8f7f759c7998795b01d134b45f3c8c157c",
+    "scripts/test_publication.py": "8f70f357e2673eb6963ea70338f7d087bf104471773525821f4adf455869d8e3",
     "scripts/test_readable_report.py": "b483eb9840c91f9ee089dd5dc4701e615de3a880b94d2796ab11a118d5b051e6",
     "scripts/test_repo_identity.py": "7879344971ac7cfd90399703105c488c5a6e15e8ccb3c32f6604b807c015d037",
     "scripts/test_repo_layout.py": "5c5a201d6985b2e907fb363a5ed8fb1e4e9f0cf3114d85b19c75bfdaa596b064",
