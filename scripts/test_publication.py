@@ -95,10 +95,11 @@ class Publication(unittest.TestCase):
         self.assertIn('System 1-style',text)
         self.assertIn('327 first responses',(repo_file('publication_archive_2026-10-16/OUTPUT_COMPLIANCE.md.snapshot', root=ROOT)).read_text())
 
-    def test_output_exclusions_applied_to_every_current_table(self):
+    def test_output_exclusions_applied_to_every_october_16_table(self):
         s=json.loads((repo_file('overall_expanded_2026-10-16/summary.json', root=ROOT)).read_text())
+        archive=repo_file('publication_archive_2026-10-16', root=ROOT)
         for name in ('README.md','FUNCTIONS.md'):
-            text=(repo_file(name, root=ROOT)).read_text()
+            text=(archive/(name+'.snapshot')).read_text()
             rows=[line for line in text.splitlines() if line.startswith('|')]
             for m in s['publication']['excluded_model_ids']:
                 self.assertFalse(any(s['models'][m]['label'] in row for row in rows),(name,m))

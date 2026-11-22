@@ -1,46 +1,48 @@
 {
   "status": "pass",
-  "source_release": "system1_v5_nimble_subq_2026-11-15",
-  "source_manifest_sha256": "053cd139645db8526570910f3f37520009270dd89ec618e0a536038c2ac65baa",
-  "base_models_retained": 44,
+  "source_release": "system1_v5_liquid12_2026-11-17",
+  "source_manifest_sha256": "53f01bc5721b7d9d06bff6adbc2dfc24773bb02a1449b7c26af27fde26ef7913",
+  "base_models_retained": 46,
   "models_added": [
-    "liquid12_ultra",
-    "liquid12"
+    "bison1",
+    "groundhog1",
+    "microsoft_decision11",
+    "reference_deepseek41_flash1017"
   ],
   "questions": 1456,
   "categories": 43,
-  "measured_configurations": 46,
-  "main_configurations": 33,
+  "measured_configurations": 50,
+  "main_configurations": 36,
   "below_cutoff_configurations": 6,
-  "superseded_configurations": 7,
-  "individual_timing_records": 66976,
-  "individual_cost_records": 66976,
-  "individual_correctness_records": 66976,
+  "superseded_configurations": 8,
+  "individual_timing_records": 72800,
+  "individual_cost_records": 72800,
+  "individual_correctness_records": 72800,
   "prior_primary_rows_and_objects_unchanged": true,
   "csv_append_proofs": {
     "timing_evidence.csv.gz": {
-      "original_rows": 64064,
-      "appended_rows": 2912,
+      "original_rows": 66976,
+      "appended_rows": 5824,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "c63b88c98ebbac360dee1b140eafcb7325c9516fc9d129b6d1e3c42a63bd2ed4"
+      "original_uncompressed_sha256": "b0231c953d256373e3ca24b61c4b543391a44b0547d4673940014279eeb0a602"
     },
     "cost_evidence.csv.gz": {
-      "original_rows": 64064,
-      "appended_rows": 2912,
+      "original_rows": 66976,
+      "appended_rows": 5824,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "9106b43e4142fdbb56cb6eb917f99d2ff564b64807132aaa577f4e415c594c35"
+      "original_uncompressed_sha256": "7404a09444ebd71096da90f30e38fa4c63f095949a05ed5d7c346a7cdf6c7801"
     },
     "correctness_evidence.csv.gz": {
-      "original_rows": 64064,
-      "appended_rows": 2912,
+      "original_rows": 66976,
+      "appended_rows": 5824,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "fc9131c315e25b3946aed8c730551d75957134dd024425d80a7e080e07737b9f"
+      "original_uncompressed_sha256": "9d81af8188f9b7a12c35bf6fae96833cd739220b54f6453a5dcae6bfc7fffed9"
     },
     "all_category_scores.csv": {
-      "original_rows": 1892,
-      "appended_rows": 86,
+      "original_rows": 1978,
+      "appended_rows": 172,
       "old_csv_bytes_exact_prefix": true,
-      "original_uncompressed_sha256": "59d46429ecbddd91311a48afd7181c5b23e7eb43dd8d6e9530db198d2e47b38e"
+      "original_uncompressed_sha256": "0c4c75a8bd4a713bbc2d0b048960214b1f72907067afd3a4041013c14686863b"
     }
   },
   "unchanged_files_sha256": {
@@ -57,8 +59,11 @@
     "source_metadata_1456.jsonl": "0ad8cc4d43fca04b85cf5e25b2d60cff5798588a5b56a5d9b3e20a4b823e687a",
     "D3_FLASH_NOTES.md": "774c7c029be59b43cdd32cecbdf1fa281d1e54c2a39c1a3c59571e5da16e7e45",
     "parent_gemini_audit_receipt.json": "35491f115e6a36fdd3a44b58bb98b655a3c70d5d45f4ee5a2fca95e9accb3493",
+    "parent_nimble_subq_manifest.json": "053cd139645db8526570910f3f37520009270dd89ec618e0a536038c2ac65baa",
     "transport_recoveries.json": "3e30d5351332c3349ab35fcc9ef9517055b80ae29ecb2c53f74df6c1bd7694fd",
     "parent_singvl_audit_receipt.json": "df60ca2b3a5bdce291da33ad8cb18117b12deec45299f8a3f830b31d09576e9e",
+    "liquid12_model_audits.json": "0ae65a333a61e648a6a6ff7be83cb6a6cae7b283b8a8d4b47ffdfcda5f534caa",
+    "liquid12_ultra_FINAL_ANALYSIS.json": "e1038192ed64ae9c16a822c996fc1ca7edb181ec088d5a10735db6fa2bb4fd07",
     "d3_flash_usage_evidence.csv.gz": "1b84e889fc61f23e82eb352c694e08691d6e535b7a214eef8cddd5a74d6a7b9e",
     "pplx_version_comparison.json": "af0e1164d2dc5e49566e513d8f9d5f4d839b7938fa08b0fb2b008fa9dc299ad1",
     "d3_flash_hardware.json": "7da444040f33db19f20dd73613fbd74be8fcf493c72fe73e1ac85c8765f11895",
@@ -75,6 +80,7 @@
     "nimble_v41_max_STRENGTHS_WEAKNESSES.md": "10a2ea506087d43c5a5053f08411dc4673aa303c8897199efec295969208330d",
     "luna_partial_timing.csv.gz": "9f780467da5752a13bc01be3287f376de0442997d0716d81f6f52f5d7db48358",
     "SINGVL_DISTRIBUTED_NOTES.md": "180855ea2181413fbf3d4b979caecca09ced4179b1137f770fcafcc17a0c516b",
+    "liquid12_FINAL_ANALYSIS.json": "25875551142525bc3dc3c78590ae06cf3459a65141ee2677a5ef57c50f86d349",
     "parent_d3_flash_audit_receipt.json": "f982a24670818b44ccfa9be93dee6bd63f0ec1be8cea1dce2d29980c28a46db2",
     "asus_native_screen_profiles.json": "b941e3690b0f489eb2b5bf859d3f871290685e78ab0cd3937bcf693290c61e22",
     "parent_drex_audit_receipt.json": "a6d1cc15e1a9e98f1ff322782525e6384069ecb154887f9bf2a0b5a8b7bdff8c",
@@ -85,16 +91,22 @@
     "ecb_eurofxref_2026-11-09.xml": "7fe20a703b0d8f467798d9103fc04bf269a49cd34ce1919cd6d8807e4e4fc81c",
     "drex_transport_phases.json": "3e14e5d3517447ca8619a6d127c10989e2c1e4b1d83db2117c89c4d932ce8aed",
     "nimble_version_comparison.json": "5e80e13868cc7c9b9c1e9c4e572179c6789f328811b8898ba468365cbf3f2042",
+    "liquid12_usage_evidence.csv.gz": "76b8a2296107f5cadebce8535fc53587942793d6b0208922999fcc4cef00187e",
     "singvl_usage_evidence.csv.gz": "7243109271f96ecc06c7b3aa9f4fe8673d5f151aa16a8ae3373241a94eccd327",
+    "liquid12_STRENGTHS_WEAKNESSES.json": "96b7da085c4a26e9894c1a8172f41acf98c0333f46e140a932e3d1020d421505",
     "parent_hosted_audit_receipt.json": "25070337896faa1f011a4b6d461502aec99a0fccda0859f7b6c587206162d758",
     "hosted_cost_summaries.json": "f5e3557b816e44848f903fc9e78b0f5e506cf41372ab129d4ef630fe1697622f",
     "STRIKE_SCREEN_NOTES.md": "ddd7184b29a8fd0e2c6f4206f68becc617433af0328fabeec3393f586354f196",
     "parent_hosted_refresh_manifest.json": "42ed8a2ccab9da2da69a7d8bd6cf493b9b47f3cbba78c80b9fa1abbbb9258049",
     "singvl_hardware.json": "d62ecc7960d4819d7d1c2b05b9ebd235458f231ed8936900bd36250743fbec7a",
     "asus_native_screen_correctness.csv.gz": "dee60fe386c356cf90854c7d81b97b83dae33dcd92f8896a35e73aa1cd670313",
+    "liquid12_ultra_paired_comparison_all44.json": "3cd12bc2fa94750aae53d0eda22259db3d5e6e67551e3dc9df4fc751a53ca84a",
     "gemini_decision1_analysis.json": "b193d908b7ee48691db188b273d4fb328a7b32a0625faf3bb7c7c3426c8e8782",
+    "liquid12_current_analysis.json": "66de8f364af996671b3774aea897c87d2c7824fa956e92e849c912aefc5b41f4",
     "singvl_analysis.json": "f8b67332e67898a3612b8b524ae6346d6475d25d8397479f8f78cca0d748dc90",
+    "parent_nimble_subq_audit_receipt.json": "27ce84ff29869cb9d9788a6ed015ac8b3d93a5009d6ae1222b86488b2317921c",
     "drex_model_audit.json": "e9b733117fc04d1e57a05feb1888332da3d9f2b67c7d9d902964e10622882c6c",
+    "liquid12_ultra_category_comparison_all44.csv": "d5028b9e7d01d77bf109111646fbd90a5c6c8e40bb210e7281b756c67246f84b",
     "selection_provenance.json": "beeae83a7133e47542098d78cfb50ffe43dc88ec912895aa80cf4ade38ca1788",
     "baseline_v5_audit_receipt.json": "177c690eeb6f1f33cebb23d57306c709127527598a237b76f361ba823585d1a7",
     "hosted_refresh_usage_evidence.csv.gz": "ce006db42d85fc27941325f6b7dc5c86c83a07ca56596ef4b8256d4d20516c39",
@@ -106,6 +118,7 @@
     "NEW_LOCAL_SCREEN_NOTES.md": "7aa17c3f381682ff939f04805b50e58ed0e024ecf73ba337b448a385bb2e35a4",
     "nimble_subq_analysis.json": "95d1b9637185910514e7e30a626fa8933ec06ffdbac97698711f82453301f84f",
     "hosted_refresh_category_comparison.csv": "5aa9d4e5d3f02252c21c04aaf5519d9e6f0d06d68d72ab901cbd3a190f718844",
+    "liquid12_category_comparison_all44.csv": "4b5d221afe105e2c94797f399847b62d65d0528f72a0b208dd7a04037b785e12",
     "retained_items.csv": "f8f212b822c4ac3212dd6f24f475236ff5a384635780bd44fb147b9901079c2c",
     "drex_usage_evidence.csv.gz": "cdede88c096a4cec671ff2da56f87a30ed8a17b853673ea058d52634528d7279",
     "drex_counter_policy.json": "7dbd510318c767dfabe719c359e53fc0f32220797e35767b4f92e3c711fdb82f",
@@ -113,9 +126,12 @@
     "partial_models.json": "fd122c3d70c16f97b1d332b80a708ce21420997c2f84b510e347142b42dde566",
     "nimble_subq_category_comparison.csv": "dcf10b26fa41d8cd3c2d9e9d836cfee96595a21c3d414a8b1c84def778596574",
     "hosted_refresh_model_audits.json": "7099472f941a61873f44a2a952847f5a5ec59ecf47087e3368c4495a9418293e",
+    "liquid12_paired_comparison_all44.json": "43d506b6ea2d9ee6789c2d9b93add5432d0740f347aadca49c87b7d4b09bb177",
     "new_model_comparison.json": "b39d84dbe192a33d8baaad1fe0ccae43524796f849e94e7d9696744ad9e25747",
     "LOCAL_SCREEN_NOTES.md": "b2e41e92f21a5c168928adb68fa6ea0314bff31451569ffa67c7f44583674f33",
     "subq_snap12_STRENGTHS_WEAKNESSES.md": "96c05d744c02042cc37c55a7e9878e8e409551fcd624c04e5ce82adcfc8fa60f",
+    "liquid12_pair_version_comparison.json": "decc63fd8f37e450dd3afaa13ba2e44a37c6ce53aa462f33ad2d62f9efed14c8",
+    "LIQUID12_NOTES.md": "8271e13e076e9561f8f3fac0f913affddc7554061fbdc53c79be3c069ab6e0fb",
     "HOSTED_MODEL_NOTES.md": "516eaba3df57630dc07a65adcb5da0d6154b1d2638e29749493a73c2c8f01b1f",
     "KAI_CASE_NOTE.md": "7f7337696b06e3379c50646ac5727d6c320a39aa04853a8b1d9d9d9802ac0519",
     "subq_version_comparison.json": "bc863cd4f524e6766cef743fd2b476fb294f741bd1f3d7137a93618eee1e3bcb",
@@ -130,37 +146,20 @@
     "native_currency_cost_evidence.csv.gz": "e326532589d22fe3bfa4c88e3299ce4b6144d554d734c7a01baf99d637340e3e",
     "hosted_refresh_analysis.json": "33d28380ae01d937cb94883f14841b9c54732c77b70bcd321d0d2c3811baac45",
     "drex_version_provenance.json": "102b651d1b9f519a79d8ef979551e6c3c4a835ebaa9a9741ad8772e97b5a140f",
+    "liquid12_ultra_STRENGTHS_WEAKNESSES.json": "fd8dc36a060bf20077cfb334ce22837d3055a33de8ca4aa95a563fbfef0bc620",
     "d3_flash_transport_phases.json": "a6cdec6d66f906e03b5114f368fef83050b7429ee2c1db0cf950dfbba31baa51",
     "third_party_licenses/APACHE-2.0_FULL.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
     "third_party_licenses/MAIQ_MIT_REPOSITORY.txt": "1a16c49e96342ba1a61f33c9c7f2c22cc9c2bcbde47c42e0416b93afdbd3a183",
     "third_party_licenses/AQUA_APACHE-2.0.txt": "189bff4f09eccdbc1790f7a9085ddd031ddf050f27929608fa4ba8a57e14a7c3"
   },
-  "new_sources": {
-    "liquid12_ultra": {
-      "source_manifest_sha256": "a12c8b6e80d745c0e36a6cea5b0dcdcd3e05cddf7c839f26c123e9666be355cf",
-      "plan_sha256": "578afda7341af0c73e3aca113eca3aa0d59e4e0ff247cf43befb805f98a9106a",
-      "source_record_digest": "392e9714999cc85fd5127348eb59256b4ce0982f42d181819091b28162d39121",
-      "first100_preserved": true,
-      "first100_receipt_sha256": "30b1125453a3b6d2607bceda27958905fd0e0bfe1e501a465c7e17ae3af32af5",
-      "source_audit_sha256": "913e08a5ff5e5a357c7a91e7ea11613f712ec9ed4495fad5bdcbd9c78d27073e",
-      "independent_final_review_verdict": "APPROVE",
-      "independent_final_review_sha256": "7aaa749f565fa052d57f5add2458c24c0142679727721d0e32972570c940dc57",
-      "source_bundle_sha256": "d1ec944e58cc678dbdc476589ace361d165bfd1ba432e06d834af23b4fb677ea"
-    },
-    "liquid12": {
-      "source_manifest_sha256": "a12c8b6e80d745c0e36a6cea5b0dcdcd3e05cddf7c839f26c123e9666be355cf",
-      "plan_sha256": "c6e350996fcf77d5a84ae5ce6f91c12f5c4c546cc97a9cf4d8480d707f8496b6",
-      "source_record_digest": "80e7dd05751392abcc39512d2dba0a8161074295b83407cb5e529c080a3ee97f",
-      "first100_preserved": true,
-      "first100_receipt_sha256": "f41c0b7002ad7c62f2ef3f366cd9b1f0cee4c25bc8c75cdce09d9df720731517",
-      "source_audit_sha256": "4fa937478202e427cd1ad5c9be711f9f775cde0232487b8631d12dc50d894360",
-      "independent_final_review_verdict": "APPROVE",
-      "independent_final_review_sha256": "7aaa749f565fa052d57f5add2458c24c0142679727721d0e32972570c940dc57",
-      "source_bundle_sha256": "d1ec944e58cc678dbdc476589ace361d165bfd1ba432e06d834af23b4fb677ea"
-    }
-  },
+  "source_measurement_summary_sha256": "1b043c459379d3d226545bab994489e435622947ce3a89340c332d22d14e3c45",
   "no_scored_retries": true,
   "readiness_excluded": true,
-  "build_code_sha256": "aa3d3b2b98e24f59e4191e6b61e4bb8a8f9a55c5f4479c7c230bc3154f0dd74e",
-  "public_derivative_qualification_code_sha256": "d6e978da317ef63e435ef2e2df9055ab64b9b0d5565443da3cc9a4146f69bd65"
+  "build_code_sha256": "e94eb3cf75a4e02d6a38f2ae1535c8b70752fbae5c36700081df9b24f6af7a50",
+  "approval_sha256": "a9dd8b62ba02d248aa4666203890ba9f238f763e93af1f51a75c46a14919207e",
+  "independent_raw_review_sha256": {
+    "deepseek": "a89fad11c8c87e6751050a73f221c68850ea2f67030a8a7f724f27ddca6b0e63",
+    "native": "e2c16eaa5cf7b1422b6915af57684f506c1693ea5a0fbbe9d9541fd41c7643a3"
+  },
+  "source_matched_results_sha256": "d4a3233b0a5f738866567464464b67fed7bbe95058ea478ca03ae4ac7620adfb"
 }

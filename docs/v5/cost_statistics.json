@@ -1,6 +1,6 @@
 {
   "currency": "USD",
-  "scope": "44 prior configurations unchanged plus two Liquid native full-bank sessions. New monetary costs API-reported USD; readiness excluded.",
+  "scope": "46 prior configurations plus approved November 22 full-bank measurements. Reported USD, tariff estimates and unknown charges are identified separately.",
   "models": {
     "fastino_glide_v23_bf16": {
       "model_id": "fastino_glide_v23_bf16",
@@ -631,6 +631,66 @@
       "estimate_only_subtotal_usd": null,
       "known_subtotal_usd": "0.01377560",
       "known_usd_per_1000": "0.009461263736263736263736263736",
+      "actual_charge_unknown_count": 0,
+      "actual_charge_telemetry": "reported"
+    },
+    "bison1": {
+      "model_id": "bison1",
+      "n": 1456,
+      "reported_count": 1456,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": "0.0806178",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.0806178",
+      "known_usd_per_1000": "0.05536936813186813186813186813",
+      "actual_charge_unknown_count": 0,
+      "actual_charge_telemetry": "reported"
+    },
+    "groundhog1": {
+      "model_id": "groundhog1",
+      "n": 1456,
+      "reported_count": 1456,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": "0.028216230",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.028216230",
+      "known_usd_per_1000": "0.01937927884615384615384615385",
+      "actual_charge_unknown_count": 0,
+      "actual_charge_telemetry": "reported"
+    },
+    "microsoft_decision11": {
+      "model_id": "microsoft_decision11",
+      "n": 1456,
+      "reported_count": 1456,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": "0.029412642",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.029412642",
+      "known_usd_per_1000": "0.02020099038461538461538461538",
+      "actual_charge_unknown_count": 0,
+      "actual_charge_telemetry": "reported"
+    },
+    "reference_deepseek41_flash1017": {
+      "model_id": "reference_deepseek41_flash1017",
+      "n": 1456,
+      "reported_count": 1456,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": "0.05799740352",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.05799740352",
+      "known_usd_per_1000": "0.03983338153846153846153846154",
       "actual_charge_unknown_count": 0,
       "actual_charge_telemetry": "reported"
     }

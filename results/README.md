@@ -2,9 +2,12 @@
 
 ## Current: provisional System 1 Decision Benchmark v5
 
-[1,456 questions across 43 categories](releases/system1_v5_liquid12_2026-11-17/report.html), with **33 qualifying configurations at exactly 45%** and **46 complete configurations** in the data. All 44 earlier model/cost objects and 64,064-record main-ledger prefixes remain unchanged. Liquid d1.2-ultra (956/1,456) and d1.2 (805/1,456) replace three older same-family versions at the user's direction; seven superseded configurations remain archival, separate from six below cutoff. Both new tiers remain active. Ultra gained 14 overall but AQuA fell from 126 to 82/200 (−44), while median/p95 increased. Standard gained 28, with a slower median and faster p95. These separate-session timings do not isolate model-weight causes. New costs are complete API-reported USD; old Ultra/d1.1 bills have two/one unknown charges, so no established full-bank cost saving is claimed. All ASUS partial screens, other partial evidence, frozen questions, third-party rights and selection limitations remain unchanged.
+[1,456 questions across 43 categories](releases/system1_v5_baseten_ms_deepseek_2026-11-22/report.html), with **36 qualifying configurations at exactly 45%** and **50 complete configurations**. Baseten Bison 1 scored 980/1,456 (67.31%). Baseten Groundhog 1 scored 824/1,456 (56.59%). Microsoft-Decision-1.1 scored 827/1,456 (56.80%). DeepSeek V4.1 Flash 1017 · reasoning off scored 528/1,456 (36.26%).
 
-- [Scores and configurations](releases/system1_v5_liquid12_2026-11-17/statistics.json), [all category scores](releases/system1_v5_liquid12_2026-11-17/all_category_scores.csv), [cost evidence](releases/system1_v5_liquid12_2026-11-17/cost_statistics.json) and [selection method](releases/system1_v5_liquid12_2026-11-17/V5_SELECTION_NOTES.md).
+All 46 preceding model and cost records and the first 66,976 records of each main timing, cost and correctness ledger are preserved.
+
+- [Scores](releases/system1_v5_baseten_ms_deepseek_2026-11-22/statistics.json), [category results](releases/system1_v5_baseten_ms_deepseek_2026-11-22/all_category_scores.csv), [cost evidence](releases/system1_v5_baseten_ms_deepseek_2026-11-22/cost_statistics.json) and [matched model comparisons](releases/system1_v5_baseten_ms_deepseek_2026-11-22/nov22_paired_comparisons.json).
+- [Preserved November 17 Liquid release](releases/system1_v5_liquid12_2026-11-17/README_V5.md).
 - [Preserved v5 before Liquid replacements](releases/system1_v5_nimble_subq_2026-11-15/README_V5.md). All preceding measurements remain unchanged.
 
 - [Preserved v5 before Nimble/SubQ version replacements](releases/system1_v5_asus_native_2026-11-13/README_V5.md). All preceding measurements and separate ASUS partial screens remain unchanged.
