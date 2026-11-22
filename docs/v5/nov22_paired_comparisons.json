@@ -1,0 +1,1982 @@
+{
+  "bison1": {
+    "primary_reference": "mammoth1",
+    "all_measured_pairs": {
+      "fastino_glide_v23_bf16": {
+        "n": 1456,
+        "both_correct": 825,
+        "new_only_correct": 155,
+        "reference_only_correct": 183,
+        "neither_correct": 293,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 1008
+      },
+      "reference_sol": {
+        "n": 1456,
+        "both_correct": 830,
+        "new_only_correct": 150,
+        "reference_only_correct": 229,
+        "neither_correct": 247,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 1059
+      },
+      "d3_ultra": {
+        "n": 1456,
+        "both_correct": 845,
+        "new_only_correct": 135,
+        "reference_only_correct": 179,
+        "neither_correct": 297,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 1024
+      },
+      "mammoth1": {
+        "n": 1456,
+        "both_correct": 809,
+        "new_only_correct": 171,
+        "reference_only_correct": 161,
+        "neither_correct": 315,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 979,
+        "reference_correct_on_common": 970
+      },
+      "drex_max": {
+        "n": 1456,
+        "both_correct": 799,
+        "new_only_correct": 181,
+        "reference_only_correct": 153,
+        "neither_correct": 323,
+        "commonly_usable": 1447,
+        "new_correct_on_common": 973,
+        "reference_correct_on_common": 952
+      },
+      "nimble_v4_max": {
+        "n": 1456,
+        "both_correct": 779,
+        "new_only_correct": 201,
+        "reference_only_correct": 164,
+        "neither_correct": 312,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 979,
+        "reference_correct_on_common": 943
+      },
+      "pplx_decider12": {
+        "n": 1456,
+        "both_correct": 790,
+        "new_only_correct": 190,
+        "reference_only_correct": 159,
+        "neither_correct": 317,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 979,
+        "reference_correct_on_common": 949
+      },
+      "turion_jev31b": {
+        "n": 1456,
+        "both_correct": 817,
+        "new_only_correct": 163,
+        "reference_only_correct": 137,
+        "neither_correct": 339,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 979,
+        "reference_correct_on_common": 954
+      },
+      "kettei_fat": {
+        "n": 1456,
+        "both_correct": 717,
+        "new_only_correct": 263,
+        "reference_only_correct": 151,
+        "neither_correct": 325,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 868
+      },
+      "liquid_ultra": {
+        "n": 1456,
+        "both_correct": 774,
+        "new_only_correct": 206,
+        "reference_only_correct": 168,
+        "neither_correct": 308,
+        "commonly_usable": 1454,
+        "new_correct_on_common": 979,
+        "reference_correct_on_common": 942
+      },
+      "amos_large": {
+        "n": 1456,
+        "both_correct": 752,
+        "new_only_correct": 228,
+        "reference_only_correct": 136,
+        "neither_correct": 340,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 888
+      },
+      "reference_sonnet": {
+        "n": 1456,
+        "both_correct": 723,
+        "new_only_correct": 257,
+        "reference_only_correct": 159,
+        "neither_correct": 317,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 882
+      },
+      "respan02": {
+        "n": 1456,
+        "both_correct": 655,
+        "new_only_correct": 325,
+        "reference_only_correct": 203,
+        "neither_correct": 273,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 858
+      },
+      "reference_opus5": {
+        "n": 1456,
+        "both_correct": 675,
+        "new_only_correct": 305,
+        "reference_only_correct": 193,
+        "neither_correct": 283,
+        "commonly_usable": 1271,
+        "new_correct_on_common": 825,
+        "reference_correct_on_common": 868
+      },
+      "mercury_decide": {
+        "n": 1456,
+        "both_correct": 637,
+        "new_only_correct": 343,
+        "reference_only_correct": 130,
+        "neither_correct": 346,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 979,
+        "reference_correct_on_common": 767
+      },
+      "liquid11_decision": {
+        "n": 1456,
+        "both_correct": 643,
+        "new_only_correct": 337,
+        "reference_only_correct": 134,
+        "neither_correct": 342,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 979,
+        "reference_correct_on_common": 777
+      },
+      "jev114": {
+        "n": 1456,
+        "both_correct": 665,
+        "new_only_correct": 315,
+        "reference_only_correct": 121,
+        "neither_correct": 355,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 786
+      },
+      "elephant1": {
+        "n": 1456,
+        "both_correct": 622,
+        "new_only_correct": 358,
+        "reference_only_correct": 98,
+        "neither_correct": 378,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 720
+      },
+      "celeris11_decision": {
+        "n": 1456,
+        "both_correct": 614,
+        "new_only_correct": 366,
+        "reference_only_correct": 122,
+        "neither_correct": 354,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 736
+      },
+      "liquid_d1": {
+        "n": 1456,
+        "both_correct": 540,
+        "new_only_correct": 440,
+        "reference_only_correct": 134,
+        "neither_correct": 342,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 674
+      },
+      "local_startlux_instant4b": {
+        "n": 1456,
+        "both_correct": 560,
+        "new_only_correct": 420,
+        "reference_only_correct": 118,
+        "neither_correct": 358,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 678
+      },
+      "clef": {
+        "n": 1456,
+        "both_correct": 516,
+        "new_only_correct": 464,
+        "reference_only_correct": 99,
+        "neither_correct": 377,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 615
+      },
+      "microsoft_decision": {
+        "n": 1456,
+        "both_correct": 516,
+        "new_only_correct": 464,
+        "reference_only_correct": 121,
+        "neither_correct": 355,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 637
+      },
+      "local_d3_flash_artemis_iq3_m": {
+        "n": 1456,
+        "both_correct": 532,
+        "new_only_correct": 448,
+        "reference_only_correct": 99,
+        "neither_correct": 377,
+        "commonly_usable": 1292,
+        "new_correct_on_common": 874,
+        "reference_correct_on_common": 631
+      },
+      "local_cerno4b_nf4": {
+        "n": 1456,
+        "both_correct": 476,
+        "new_only_correct": 504,
+        "reference_only_correct": 122,
+        "neither_correct": 354,
+        "commonly_usable": 1309,
+        "new_correct_on_common": 882,
+        "reference_correct_on_common": 598
+      },
+      "drex20": {
+        "n": 1456,
+        "both_correct": 527,
+        "new_only_correct": 453,
+        "reference_only_correct": 126,
+        "neither_correct": 350,
+        "commonly_usable": 1387,
+        "new_correct_on_common": 928,
+        "reference_correct_on_common": 653
+      },
+      "subq_snap_1_1": {
+        "n": 1456,
+        "both_correct": 782,
+        "new_only_correct": 198,
+        "reference_only_correct": 161,
+        "neither_correct": 315,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 943
+      },
+      "meragpt_decider1": {
+        "n": 1456,
+        "both_correct": 233,
+        "new_only_correct": 747,
+        "reference_only_correct": 105,
+        "neither_correct": 371,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 338
+      },
+      "levanto_sage_2": {
+        "n": 1456,
+        "both_correct": 678,
+        "new_only_correct": 302,
+        "reference_only_correct": 151,
+        "neither_correct": 325,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 829
+      },
+      "sarvam_prism": {
+        "n": 1456,
+        "both_correct": 550,
+        "new_only_correct": 430,
+        "reference_only_correct": 129,
+        "neither_correct": 347,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 679
+      },
+      "super_decider": {
+        "n": 1456,
+        "both_correct": 536,
+        "new_only_correct": 444,
+        "reference_only_correct": 133,
+        "neither_correct": 343,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 669
+      },
+      "reference_terra61": {
+        "n": 1456,
+        "both_correct": 889,
+        "new_only_correct": 91,
+        "reference_only_correct": 299,
+        "neither_correct": 177,
+        "commonly_usable": 1454,
+        "new_correct_on_common": 979,
+        "reference_correct_on_common": 1188
+      },
+      "morph_reflex": {
+        "n": 1456,
+        "both_correct": 697,
+        "new_only_correct": 283,
+        "reference_only_correct": 144,
+        "neither_correct": 332,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 841
+      },
+      "reax_1_3": {
+        "n": 1456,
+        "both_correct": 890,
+        "new_only_correct": 90,
+        "reference_only_correct": 187,
+        "neither_correct": 289,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 1077
+      },
+      "drex_max_v11": {
+        "n": 1456,
+        "both_correct": 820,
+        "new_only_correct": 160,
+        "reference_only_correct": 176,
+        "neither_correct": 300,
+        "commonly_usable": 1454,
+        "new_correct_on_common": 979,
+        "reference_correct_on_common": 996
+      },
+      "singvl_s1_4b_q4km_llamacpp_ctx4096_lan": {
+        "n": 1456,
+        "both_correct": 589,
+        "new_only_correct": 391,
+        "reference_only_correct": 109,
+        "neither_correct": 367,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 698
+      },
+      "d3_flash_9b_q4km_llamacpp_ctx4096_lan": {
+        "n": 1456,
+        "both_correct": 596,
+        "new_only_correct": 384,
+        "reference_only_correct": 108,
+        "neither_correct": 368,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 979,
+        "reference_correct_on_common": 704
+      },
+      "gemini_decision1_openrouter_20261111": {
+        "n": 1456,
+        "both_correct": 646,
+        "new_only_correct": 334,
+        "reference_only_correct": 152,
+        "neither_correct": 324,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 798
+      },
+      "pplx_decider13_native_20261112": {
+        "n": 1456,
+        "both_correct": 815,
+        "new_only_correct": 165,
+        "reference_only_correct": 169,
+        "neither_correct": 307,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 984
+      },
+      "pplx_decider_flash13_native_20261112": {
+        "n": 1456,
+        "both_correct": 564,
+        "new_only_correct": 416,
+        "reference_only_correct": 103,
+        "neither_correct": 373,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 667
+      },
+      "heygen_decision1_openrouter_20261112": {
+        "n": 1456,
+        "both_correct": 804,
+        "new_only_correct": 176,
+        "reference_only_correct": 133,
+        "neither_correct": 343,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 937
+      },
+      "heygen_decision1_turbo_openrouter_20261112": {
+        "n": 1456,
+        "both_correct": 818,
+        "new_only_correct": 162,
+        "reference_only_correct": 141,
+        "neither_correct": 335,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 959
+      },
+      "nimble_v41_max": {
+        "n": 1456,
+        "both_correct": 808,
+        "new_only_correct": 172,
+        "reference_only_correct": 142,
+        "neither_correct": 334,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 950
+      },
+      "subq_snap12": {
+        "n": 1456,
+        "both_correct": 770,
+        "new_only_correct": 210,
+        "reference_only_correct": 157,
+        "neither_correct": 319,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 927
+      },
+      "liquid12_ultra": {
+        "n": 1456,
+        "both_correct": 795,
+        "new_only_correct": 185,
+        "reference_only_correct": 161,
+        "neither_correct": 315,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 956
+      },
+      "liquid12": {
+        "n": 1456,
+        "both_correct": 667,
+        "new_only_correct": 313,
+        "reference_only_correct": 138,
+        "neither_correct": 338,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 805
+      },
+      "groundhog1": {
+        "n": 1456,
+        "both_correct": 731,
+        "new_only_correct": 249,
+        "reference_only_correct": 93,
+        "neither_correct": 383,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 824
+      },
+      "microsoft_decision11": {
+        "n": 1456,
+        "both_correct": 707,
+        "new_only_correct": 273,
+        "reference_only_correct": 120,
+        "neither_correct": 356,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 980,
+        "reference_correct_on_common": 827
+      },
+      "reference_deepseek41_flash1017": {
+        "n": 1456,
+        "both_correct": 401,
+        "new_only_correct": 579,
+        "reference_only_correct": 127,
+        "neither_correct": 349,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 843,
+        "reference_correct_on_common": 528
+      }
+    }
+  },
+  "groundhog1": {
+    "primary_reference": "elephant1",
+    "all_measured_pairs": {
+      "fastino_glide_v23_bf16": {
+        "n": 1456,
+        "both_correct": 699,
+        "new_only_correct": 125,
+        "reference_only_correct": 309,
+        "neither_correct": 323,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 1008
+      },
+      "reference_sol": {
+        "n": 1456,
+        "both_correct": 698,
+        "new_only_correct": 126,
+        "reference_only_correct": 361,
+        "neither_correct": 271,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 1059
+      },
+      "d3_ultra": {
+        "n": 1456,
+        "both_correct": 712,
+        "new_only_correct": 112,
+        "reference_only_correct": 312,
+        "neither_correct": 320,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 1024
+      },
+      "mammoth1": {
+        "n": 1456,
+        "both_correct": 710,
+        "new_only_correct": 114,
+        "reference_only_correct": 260,
+        "neither_correct": 372,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 823,
+        "reference_correct_on_common": 970
+      },
+      "drex_max": {
+        "n": 1456,
+        "both_correct": 676,
+        "new_only_correct": 148,
+        "reference_only_correct": 276,
+        "neither_correct": 356,
+        "commonly_usable": 1447,
+        "new_correct_on_common": 818,
+        "reference_correct_on_common": 952
+      },
+      "nimble_v4_max": {
+        "n": 1456,
+        "both_correct": 679,
+        "new_only_correct": 145,
+        "reference_only_correct": 264,
+        "neither_correct": 368,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 823,
+        "reference_correct_on_common": 943
+      },
+      "pplx_decider12": {
+        "n": 1456,
+        "both_correct": 668,
+        "new_only_correct": 156,
+        "reference_only_correct": 281,
+        "neither_correct": 351,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 823,
+        "reference_correct_on_common": 949
+      },
+      "turion_jev31b": {
+        "n": 1456,
+        "both_correct": 696,
+        "new_only_correct": 128,
+        "reference_only_correct": 258,
+        "neither_correct": 374,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 823,
+        "reference_correct_on_common": 954
+      },
+      "kettei_fat": {
+        "n": 1456,
+        "both_correct": 626,
+        "new_only_correct": 198,
+        "reference_only_correct": 242,
+        "neither_correct": 390,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 868
+      },
+      "liquid_ultra": {
+        "n": 1456,
+        "both_correct": 685,
+        "new_only_correct": 139,
+        "reference_only_correct": 257,
+        "neither_correct": 375,
+        "commonly_usable": 1454,
+        "new_correct_on_common": 823,
+        "reference_correct_on_common": 942
+      },
+      "amos_large": {
+        "n": 1456,
+        "both_correct": 644,
+        "new_only_correct": 180,
+        "reference_only_correct": 244,
+        "neither_correct": 388,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 888
+      },
+      "reference_sonnet": {
+        "n": 1456,
+        "both_correct": 638,
+        "new_only_correct": 186,
+        "reference_only_correct": 244,
+        "neither_correct": 388,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 882
+      },
+      "respan02": {
+        "n": 1456,
+        "both_correct": 601,
+        "new_only_correct": 223,
+        "reference_only_correct": 257,
+        "neither_correct": 375,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 858
+      },
+      "reference_opus5": {
+        "n": 1456,
+        "both_correct": 589,
+        "new_only_correct": 235,
+        "reference_only_correct": 279,
+        "neither_correct": 353,
+        "commonly_usable": 1271,
+        "new_correct_on_common": 699,
+        "reference_correct_on_common": 868
+      },
+      "mercury_decide": {
+        "n": 1456,
+        "both_correct": 569,
+        "new_only_correct": 255,
+        "reference_only_correct": 198,
+        "neither_correct": 434,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 767
+      },
+      "liquid11_decision": {
+        "n": 1456,
+        "both_correct": 592,
+        "new_only_correct": 232,
+        "reference_only_correct": 185,
+        "neither_correct": 447,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 777
+      },
+      "jev114": {
+        "n": 1456,
+        "both_correct": 593,
+        "new_only_correct": 231,
+        "reference_only_correct": 193,
+        "neither_correct": 439,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 786
+      },
+      "elephant1": {
+        "n": 1456,
+        "both_correct": 577,
+        "new_only_correct": 247,
+        "reference_only_correct": 143,
+        "neither_correct": 489,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 720
+      },
+      "celeris11_decision": {
+        "n": 1456,
+        "both_correct": 571,
+        "new_only_correct": 253,
+        "reference_only_correct": 165,
+        "neither_correct": 467,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 736
+      },
+      "liquid_d1": {
+        "n": 1456,
+        "both_correct": 484,
+        "new_only_correct": 340,
+        "reference_only_correct": 190,
+        "neither_correct": 442,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 674
+      },
+      "local_startlux_instant4b": {
+        "n": 1456,
+        "both_correct": 512,
+        "new_only_correct": 312,
+        "reference_only_correct": 166,
+        "neither_correct": 466,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 678
+      },
+      "clef": {
+        "n": 1456,
+        "both_correct": 458,
+        "new_only_correct": 366,
+        "reference_only_correct": 157,
+        "neither_correct": 475,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 615
+      },
+      "microsoft_decision": {
+        "n": 1456,
+        "both_correct": 481,
+        "new_only_correct": 343,
+        "reference_only_correct": 156,
+        "neither_correct": 476,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 637
+      },
+      "local_d3_flash_artemis_iq3_m": {
+        "n": 1456,
+        "both_correct": 489,
+        "new_only_correct": 335,
+        "reference_only_correct": 142,
+        "neither_correct": 490,
+        "commonly_usable": 1292,
+        "new_correct_on_common": 756,
+        "reference_correct_on_common": 631
+      },
+      "local_cerno4b_nf4": {
+        "n": 1456,
+        "both_correct": 430,
+        "new_only_correct": 394,
+        "reference_only_correct": 168,
+        "neither_correct": 464,
+        "commonly_usable": 1309,
+        "new_correct_on_common": 764,
+        "reference_correct_on_common": 598
+      },
+      "drex20": {
+        "n": 1456,
+        "both_correct": 477,
+        "new_only_correct": 347,
+        "reference_only_correct": 176,
+        "neither_correct": 456,
+        "commonly_usable": 1387,
+        "new_correct_on_common": 784,
+        "reference_correct_on_common": 653
+      },
+      "subq_snap_1_1": {
+        "n": 1456,
+        "both_correct": 663,
+        "new_only_correct": 161,
+        "reference_only_correct": 280,
+        "neither_correct": 352,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 943
+      },
+      "meragpt_decider1": {
+        "n": 1456,
+        "both_correct": 193,
+        "new_only_correct": 631,
+        "reference_only_correct": 145,
+        "neither_correct": 487,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 338
+      },
+      "levanto_sage_2": {
+        "n": 1456,
+        "both_correct": 592,
+        "new_only_correct": 232,
+        "reference_only_correct": 237,
+        "neither_correct": 395,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 829
+      },
+      "sarvam_prism": {
+        "n": 1456,
+        "both_correct": 507,
+        "new_only_correct": 317,
+        "reference_only_correct": 172,
+        "neither_correct": 460,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 679
+      },
+      "super_decider": {
+        "n": 1456,
+        "both_correct": 500,
+        "new_only_correct": 324,
+        "reference_only_correct": 169,
+        "neither_correct": 463,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 669
+      },
+      "reference_terra61": {
+        "n": 1456,
+        "both_correct": 753,
+        "new_only_correct": 71,
+        "reference_only_correct": 435,
+        "neither_correct": 197,
+        "commonly_usable": 1454,
+        "new_correct_on_common": 823,
+        "reference_correct_on_common": 1188
+      },
+      "morph_reflex": {
+        "n": 1456,
+        "both_correct": 619,
+        "new_only_correct": 205,
+        "reference_only_correct": 222,
+        "neither_correct": 410,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 841
+      },
+      "reax_1_3": {
+        "n": 1456,
+        "both_correct": 750,
+        "new_only_correct": 74,
+        "reference_only_correct": 327,
+        "neither_correct": 305,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 1077
+      },
+      "drex_max_v11": {
+        "n": 1456,
+        "both_correct": 695,
+        "new_only_correct": 129,
+        "reference_only_correct": 301,
+        "neither_correct": 331,
+        "commonly_usable": 1454,
+        "new_correct_on_common": 823,
+        "reference_correct_on_common": 996
+      },
+      "singvl_s1_4b_q4km_llamacpp_ctx4096_lan": {
+        "n": 1456,
+        "both_correct": 537,
+        "new_only_correct": 287,
+        "reference_only_correct": 161,
+        "neither_correct": 471,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 698
+      },
+      "d3_flash_9b_q4km_llamacpp_ctx4096_lan": {
+        "n": 1456,
+        "both_correct": 535,
+        "new_only_correct": 289,
+        "reference_only_correct": 169,
+        "neither_correct": 463,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 823,
+        "reference_correct_on_common": 704
+      },
+      "gemini_decision1_openrouter_20261111": {
+        "n": 1456,
+        "both_correct": 583,
+        "new_only_correct": 241,
+        "reference_only_correct": 215,
+        "neither_correct": 417,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 798
+      },
+      "pplx_decider13_native_20261112": {
+        "n": 1456,
+        "both_correct": 694,
+        "new_only_correct": 130,
+        "reference_only_correct": 290,
+        "neither_correct": 342,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 984
+      },
+      "pplx_decider_flash13_native_20261112": {
+        "n": 1456,
+        "both_correct": 516,
+        "new_only_correct": 308,
+        "reference_only_correct": 151,
+        "neither_correct": 481,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 667
+      },
+      "heygen_decision1_openrouter_20261112": {
+        "n": 1456,
+        "both_correct": 700,
+        "new_only_correct": 124,
+        "reference_only_correct": 237,
+        "neither_correct": 395,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 937
+      },
+      "heygen_decision1_turbo_openrouter_20261112": {
+        "n": 1456,
+        "both_correct": 704,
+        "new_only_correct": 120,
+        "reference_only_correct": 255,
+        "neither_correct": 377,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 959
+      },
+      "nimble_v41_max": {
+        "n": 1456,
+        "both_correct": 692,
+        "new_only_correct": 132,
+        "reference_only_correct": 258,
+        "neither_correct": 374,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 950
+      },
+      "subq_snap12": {
+        "n": 1456,
+        "both_correct": 661,
+        "new_only_correct": 163,
+        "reference_only_correct": 266,
+        "neither_correct": 366,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 927
+      },
+      "liquid12_ultra": {
+        "n": 1456,
+        "both_correct": 681,
+        "new_only_correct": 143,
+        "reference_only_correct": 275,
+        "neither_correct": 357,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 956
+      },
+      "liquid12": {
+        "n": 1456,
+        "both_correct": 609,
+        "new_only_correct": 215,
+        "reference_only_correct": 196,
+        "neither_correct": 436,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 805
+      },
+      "bison1": {
+        "n": 1456,
+        "both_correct": 731,
+        "new_only_correct": 93,
+        "reference_only_correct": 249,
+        "neither_correct": 383,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 980
+      },
+      "microsoft_decision11": {
+        "n": 1456,
+        "both_correct": 671,
+        "new_only_correct": 153,
+        "reference_only_correct": 156,
+        "neither_correct": 476,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 824,
+        "reference_correct_on_common": 827
+      },
+      "reference_deepseek41_flash1017": {
+        "n": 1456,
+        "both_correct": 361,
+        "new_only_correct": 463,
+        "reference_only_correct": 167,
+        "neither_correct": 465,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 717,
+        "reference_correct_on_common": 528
+      }
+    }
+  },
+  "microsoft_decision11": {
+    "primary_reference": "microsoft_decision",
+    "all_measured_pairs": {
+      "fastino_glide_v23_bf16": {
+        "n": 1456,
+        "both_correct": 715,
+        "new_only_correct": 112,
+        "reference_only_correct": 293,
+        "neither_correct": 336,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 1008
+      },
+      "reference_sol": {
+        "n": 1456,
+        "both_correct": 714,
+        "new_only_correct": 113,
+        "reference_only_correct": 345,
+        "neither_correct": 284,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 1059
+      },
+      "d3_ultra": {
+        "n": 1456,
+        "both_correct": 715,
+        "new_only_correct": 112,
+        "reference_only_correct": 309,
+        "neither_correct": 320,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 1024
+      },
+      "mammoth1": {
+        "n": 1456,
+        "both_correct": 698,
+        "new_only_correct": 129,
+        "reference_only_correct": 272,
+        "neither_correct": 357,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 970
+      },
+      "drex_max": {
+        "n": 1456,
+        "both_correct": 689,
+        "new_only_correct": 138,
+        "reference_only_correct": 263,
+        "neither_correct": 366,
+        "commonly_usable": 1447,
+        "new_correct_on_common": 820,
+        "reference_correct_on_common": 952
+      },
+      "nimble_v4_max": {
+        "n": 1456,
+        "both_correct": 683,
+        "new_only_correct": 144,
+        "reference_only_correct": 260,
+        "neither_correct": 369,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 943
+      },
+      "pplx_decider12": {
+        "n": 1456,
+        "both_correct": 682,
+        "new_only_correct": 145,
+        "reference_only_correct": 267,
+        "neither_correct": 362,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 826,
+        "reference_correct_on_common": 949
+      },
+      "turion_jev31b": {
+        "n": 1456,
+        "both_correct": 718,
+        "new_only_correct": 109,
+        "reference_only_correct": 236,
+        "neither_correct": 393,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 954
+      },
+      "kettei_fat": {
+        "n": 1456,
+        "both_correct": 645,
+        "new_only_correct": 182,
+        "reference_only_correct": 223,
+        "neither_correct": 406,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 868
+      },
+      "liquid_ultra": {
+        "n": 1456,
+        "both_correct": 691,
+        "new_only_correct": 136,
+        "reference_only_correct": 251,
+        "neither_correct": 378,
+        "commonly_usable": 1454,
+        "new_correct_on_common": 826,
+        "reference_correct_on_common": 942
+      },
+      "amos_large": {
+        "n": 1456,
+        "both_correct": 660,
+        "new_only_correct": 167,
+        "reference_only_correct": 228,
+        "neither_correct": 401,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 888
+      },
+      "reference_sonnet": {
+        "n": 1456,
+        "both_correct": 633,
+        "new_only_correct": 194,
+        "reference_only_correct": 249,
+        "neither_correct": 380,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 882
+      },
+      "respan02": {
+        "n": 1456,
+        "both_correct": 639,
+        "new_only_correct": 188,
+        "reference_only_correct": 219,
+        "neither_correct": 410,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 858
+      },
+      "reference_opus5": {
+        "n": 1456,
+        "both_correct": 615,
+        "new_only_correct": 212,
+        "reference_only_correct": 253,
+        "neither_correct": 376,
+        "commonly_usable": 1271,
+        "new_correct_on_common": 718,
+        "reference_correct_on_common": 868
+      },
+      "mercury_decide": {
+        "n": 1456,
+        "both_correct": 581,
+        "new_only_correct": 246,
+        "reference_only_correct": 186,
+        "neither_correct": 443,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 767
+      },
+      "liquid11_decision": {
+        "n": 1456,
+        "both_correct": 602,
+        "new_only_correct": 225,
+        "reference_only_correct": 175,
+        "neither_correct": 454,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 826,
+        "reference_correct_on_common": 777
+      },
+      "jev114": {
+        "n": 1456,
+        "both_correct": 609,
+        "new_only_correct": 218,
+        "reference_only_correct": 177,
+        "neither_correct": 452,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 786
+      },
+      "elephant1": {
+        "n": 1456,
+        "both_correct": 549,
+        "new_only_correct": 278,
+        "reference_only_correct": 171,
+        "neither_correct": 458,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 720
+      },
+      "celeris11_decision": {
+        "n": 1456,
+        "both_correct": 601,
+        "new_only_correct": 226,
+        "reference_only_correct": 135,
+        "neither_correct": 494,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 736
+      },
+      "liquid_d1": {
+        "n": 1456,
+        "both_correct": 535,
+        "new_only_correct": 292,
+        "reference_only_correct": 139,
+        "neither_correct": 490,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 674
+      },
+      "local_startlux_instant4b": {
+        "n": 1456,
+        "both_correct": 524,
+        "new_only_correct": 303,
+        "reference_only_correct": 154,
+        "neither_correct": 475,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 678
+      },
+      "clef": {
+        "n": 1456,
+        "both_correct": 482,
+        "new_only_correct": 345,
+        "reference_only_correct": 133,
+        "neither_correct": 496,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 615
+      },
+      "microsoft_decision": {
+        "n": 1456,
+        "both_correct": 500,
+        "new_only_correct": 327,
+        "reference_only_correct": 137,
+        "neither_correct": 492,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 637
+      },
+      "local_d3_flash_artemis_iq3_m": {
+        "n": 1456,
+        "both_correct": 495,
+        "new_only_correct": 332,
+        "reference_only_correct": 136,
+        "neither_correct": 493,
+        "commonly_usable": 1292,
+        "new_correct_on_common": 749,
+        "reference_correct_on_common": 631
+      },
+      "local_cerno4b_nf4": {
+        "n": 1456,
+        "both_correct": 460,
+        "new_only_correct": 367,
+        "reference_only_correct": 138,
+        "neither_correct": 491,
+        "commonly_usable": 1309,
+        "new_correct_on_common": 755,
+        "reference_correct_on_common": 598
+      },
+      "drex20": {
+        "n": 1456,
+        "both_correct": 483,
+        "new_only_correct": 344,
+        "reference_only_correct": 170,
+        "neither_correct": 459,
+        "commonly_usable": 1387,
+        "new_correct_on_common": 788,
+        "reference_correct_on_common": 653
+      },
+      "subq_snap_1_1": {
+        "n": 1456,
+        "both_correct": 678,
+        "new_only_correct": 149,
+        "reference_only_correct": 265,
+        "neither_correct": 364,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 943
+      },
+      "meragpt_decider1": {
+        "n": 1456,
+        "both_correct": 186,
+        "new_only_correct": 641,
+        "reference_only_correct": 152,
+        "neither_correct": 477,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 338
+      },
+      "levanto_sage_2": {
+        "n": 1456,
+        "both_correct": 625,
+        "new_only_correct": 202,
+        "reference_only_correct": 204,
+        "neither_correct": 425,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 829
+      },
+      "sarvam_prism": {
+        "n": 1456,
+        "both_correct": 510,
+        "new_only_correct": 317,
+        "reference_only_correct": 169,
+        "neither_correct": 460,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 679
+      },
+      "super_decider": {
+        "n": 1456,
+        "both_correct": 527,
+        "new_only_correct": 300,
+        "reference_only_correct": 142,
+        "neither_correct": 487,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 669
+      },
+      "reference_terra61": {
+        "n": 1456,
+        "both_correct": 760,
+        "new_only_correct": 67,
+        "reference_only_correct": 428,
+        "neither_correct": 201,
+        "commonly_usable": 1454,
+        "new_correct_on_common": 826,
+        "reference_correct_on_common": 1188
+      },
+      "morph_reflex": {
+        "n": 1456,
+        "both_correct": 626,
+        "new_only_correct": 201,
+        "reference_only_correct": 215,
+        "neither_correct": 414,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 841
+      },
+      "reax_1_3": {
+        "n": 1456,
+        "both_correct": 756,
+        "new_only_correct": 71,
+        "reference_only_correct": 321,
+        "neither_correct": 308,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 1077
+      },
+      "drex_max_v11": {
+        "n": 1456,
+        "both_correct": 707,
+        "new_only_correct": 120,
+        "reference_only_correct": 289,
+        "neither_correct": 340,
+        "commonly_usable": 1454,
+        "new_correct_on_common": 826,
+        "reference_correct_on_common": 996
+      },
+      "singvl_s1_4b_q4km_llamacpp_ctx4096_lan": {
+        "n": 1456,
+        "both_correct": 532,
+        "new_only_correct": 295,
+        "reference_only_correct": 166,
+        "neither_correct": 463,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 698
+      },
+      "d3_flash_9b_q4km_llamacpp_ctx4096_lan": {
+        "n": 1456,
+        "both_correct": 545,
+        "new_only_correct": 282,
+        "reference_only_correct": 159,
+        "neither_correct": 470,
+        "commonly_usable": 1455,
+        "new_correct_on_common": 826,
+        "reference_correct_on_common": 704
+      },
+      "gemini_decision1_openrouter_20261111": {
+        "n": 1456,
+        "both_correct": 598,
+        "new_only_correct": 229,
+        "reference_only_correct": 200,
+        "neither_correct": 429,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 798
+      },
+      "pplx_decider13_native_20261112": {
+        "n": 1456,
+        "both_correct": 706,
+        "new_only_correct": 121,
+        "reference_only_correct": 278,
+        "neither_correct": 351,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 984
+      },
+      "pplx_decider_flash13_native_20261112": {
+        "n": 1456,
+        "both_correct": 526,
+        "new_only_correct": 301,
+        "reference_only_correct": 141,
+        "neither_correct": 488,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 667
+      },
+      "heygen_decision1_openrouter_20261112": {
+        "n": 1456,
+        "both_correct": 708,
+        "new_only_correct": 119,
+        "reference_only_correct": 229,
+        "neither_correct": 400,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 937
+      },
+      "heygen_decision1_turbo_openrouter_20261112": {
+        "n": 1456,
+        "both_correct": 721,
+        "new_only_correct": 106,
+        "reference_only_correct": 238,
+        "neither_correct": 391,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 959
+      },
+      "nimble_v41_max": {
+        "n": 1456,
+        "both_correct": 694,
+        "new_only_correct": 133,
+        "reference_only_correct": 256,
+        "neither_correct": 373,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 950
+      },
+      "subq_snap12": {
+        "n": 1456,
+        "both_correct": 676,
+        "new_only_correct": 151,
+        "reference_only_correct": 251,
+        "neither_correct": 378,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 927
+      },
+      "liquid12_ultra": {
+        "n": 1456,
+        "both_correct": 696,
+        "new_only_correct": 131,
+        "reference_only_correct": 260,
+        "neither_correct": 369,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 956
+      },
+      "liquid12": {
+        "n": 1456,
+        "both_correct": 618,
+        "new_only_correct": 209,
+        "reference_only_correct": 187,
+        "neither_correct": 442,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 805
+      },
+      "bison1": {
+        "n": 1456,
+        "both_correct": 707,
+        "new_only_correct": 120,
+        "reference_only_correct": 273,
+        "neither_correct": 356,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 980
+      },
+      "groundhog1": {
+        "n": 1456,
+        "both_correct": 671,
+        "new_only_correct": 156,
+        "reference_only_correct": 153,
+        "neither_correct": 476,
+        "commonly_usable": 1456,
+        "new_correct_on_common": 827,
+        "reference_correct_on_common": 824
+      },
+      "reference_deepseek41_flash1017": {
+        "n": 1456,
+        "both_correct": 376,
+        "new_only_correct": 451,
+        "reference_only_correct": 152,
+        "neither_correct": 477,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 708,
+        "reference_correct_on_common": 528
+      }
+    }
+  },
+  "reference_deepseek41_flash1017": {
+    "primary_reference": "reference_terra61",
+    "all_measured_pairs": {
+      "fastino_glide_v23_bf16": {
+        "n": 1456,
+        "both_correct": 396,
+        "new_only_correct": 132,
+        "reference_only_correct": 612,
+        "neither_correct": 316,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 866
+      },
+      "reference_sol": {
+        "n": 1456,
+        "both_correct": 424,
+        "new_only_correct": 104,
+        "reference_only_correct": 635,
+        "neither_correct": 293,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 914
+      },
+      "d3_ultra": {
+        "n": 1456,
+        "both_correct": 408,
+        "new_only_correct": 120,
+        "reference_only_correct": 616,
+        "neither_correct": 312,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 890
+      },
+      "mammoth1": {
+        "n": 1456,
+        "both_correct": 388,
+        "new_only_correct": 140,
+        "reference_only_correct": 582,
+        "neither_correct": 346,
+        "commonly_usable": 1238,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 834
+      },
+      "drex_max": {
+        "n": 1456,
+        "both_correct": 383,
+        "new_only_correct": 145,
+        "reference_only_correct": 569,
+        "neither_correct": 359,
+        "commonly_usable": 1230,
+        "new_correct_on_common": 523,
+        "reference_correct_on_common": 815
+      },
+      "nimble_v4_max": {
+        "n": 1456,
+        "both_correct": 382,
+        "new_only_correct": 146,
+        "reference_only_correct": 561,
+        "neither_correct": 367,
+        "commonly_usable": 1238,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 808
+      },
+      "pplx_decider12": {
+        "n": 1456,
+        "both_correct": 373,
+        "new_only_correct": 155,
+        "reference_only_correct": 576,
+        "neither_correct": 352,
+        "commonly_usable": 1238,
+        "new_correct_on_common": 527,
+        "reference_correct_on_common": 814
+      },
+      "turion_jev31b": {
+        "n": 1456,
+        "both_correct": 386,
+        "new_only_correct": 142,
+        "reference_only_correct": 568,
+        "neither_correct": 360,
+        "commonly_usable": 1238,
+        "new_correct_on_common": 527,
+        "reference_correct_on_common": 822
+      },
+      "kettei_fat": {
+        "n": 1456,
+        "both_correct": 361,
+        "new_only_correct": 167,
+        "reference_only_correct": 507,
+        "neither_correct": 421,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 751
+      },
+      "liquid_ultra": {
+        "n": 1456,
+        "both_correct": 416,
+        "new_only_correct": 112,
+        "reference_only_correct": 526,
+        "neither_correct": 402,
+        "commonly_usable": 1237,
+        "new_correct_on_common": 527,
+        "reference_correct_on_common": 823
+      },
+      "amos_large": {
+        "n": 1456,
+        "both_correct": 375,
+        "new_only_correct": 153,
+        "reference_only_correct": 513,
+        "neither_correct": 415,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 766
+      },
+      "reference_sonnet": {
+        "n": 1456,
+        "both_correct": 371,
+        "new_only_correct": 157,
+        "reference_only_correct": 511,
+        "neither_correct": 417,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 771
+      },
+      "respan02": {
+        "n": 1456,
+        "both_correct": 378,
+        "new_only_correct": 150,
+        "reference_only_correct": 480,
+        "neither_correct": 448,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 740
+      },
+      "reference_opus5": {
+        "n": 1456,
+        "both_correct": 365,
+        "new_only_correct": 163,
+        "reference_only_correct": 503,
+        "neither_correct": 425,
+        "commonly_usable": 1074,
+        "new_correct_on_common": 457,
+        "reference_correct_on_common": 754
+      },
+      "mercury_decide": {
+        "n": 1456,
+        "both_correct": 334,
+        "new_only_correct": 194,
+        "reference_only_correct": 433,
+        "neither_correct": 495,
+        "commonly_usable": 1238,
+        "new_correct_on_common": 527,
+        "reference_correct_on_common": 665
+      },
+      "liquid11_decision": {
+        "n": 1456,
+        "both_correct": 345,
+        "new_only_correct": 183,
+        "reference_only_correct": 432,
+        "neither_correct": 496,
+        "commonly_usable": 1238,
+        "new_correct_on_common": 527,
+        "reference_correct_on_common": 670
+      },
+      "jev114": {
+        "n": 1456,
+        "both_correct": 355,
+        "new_only_correct": 173,
+        "reference_only_correct": 431,
+        "neither_correct": 497,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 685
+      },
+      "elephant1": {
+        "n": 1456,
+        "both_correct": 334,
+        "new_only_correct": 194,
+        "reference_only_correct": 386,
+        "neither_correct": 542,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 626
+      },
+      "celeris11_decision": {
+        "n": 1456,
+        "both_correct": 332,
+        "new_only_correct": 196,
+        "reference_only_correct": 404,
+        "neither_correct": 524,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 641
+      },
+      "liquid_d1": {
+        "n": 1456,
+        "both_correct": 324,
+        "new_only_correct": 204,
+        "reference_only_correct": 350,
+        "neither_correct": 578,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 585
+      },
+      "local_startlux_instant4b": {
+        "n": 1456,
+        "both_correct": 308,
+        "new_only_correct": 220,
+        "reference_only_correct": 370,
+        "neither_correct": 558,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 589
+      },
+      "clef": {
+        "n": 1456,
+        "both_correct": 294,
+        "new_only_correct": 234,
+        "reference_only_correct": 321,
+        "neither_correct": 607,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 536
+      },
+      "microsoft_decision": {
+        "n": 1456,
+        "both_correct": 322,
+        "new_only_correct": 206,
+        "reference_only_correct": 315,
+        "neither_correct": 613,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 564
+      },
+      "local_d3_flash_artemis_iq3_m": {
+        "n": 1456,
+        "both_correct": 278,
+        "new_only_correct": 250,
+        "reference_only_correct": 353,
+        "neither_correct": 575,
+        "commonly_usable": 1085,
+        "new_correct_on_common": 475,
+        "reference_correct_on_common": 557
+      },
+      "local_cerno4b_nf4": {
+        "n": 1456,
+        "both_correct": 289,
+        "new_only_correct": 239,
+        "reference_only_correct": 309,
+        "neither_correct": 619,
+        "commonly_usable": 1101,
+        "new_correct_on_common": 482,
+        "reference_correct_on_common": 517
+      },
+      "drex20": {
+        "n": 1456,
+        "both_correct": 296,
+        "new_only_correct": 232,
+        "reference_only_correct": 357,
+        "neither_correct": 571,
+        "commonly_usable": 1178,
+        "new_correct_on_common": 500,
+        "reference_correct_on_common": 570
+      },
+      "subq_snap_1_1": {
+        "n": 1456,
+        "both_correct": 379,
+        "new_only_correct": 149,
+        "reference_only_correct": 564,
+        "neither_correct": 364,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 809
+      },
+      "meragpt_decider1": {
+        "n": 1456,
+        "both_correct": 154,
+        "new_only_correct": 374,
+        "reference_only_correct": 184,
+        "neither_correct": 744,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 292
+      },
+      "levanto_sage_2": {
+        "n": 1456,
+        "both_correct": 370,
+        "new_only_correct": 158,
+        "reference_only_correct": 459,
+        "neither_correct": 469,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 719
+      },
+      "sarvam_prism": {
+        "n": 1456,
+        "both_correct": 302,
+        "new_only_correct": 226,
+        "reference_only_correct": 377,
+        "neither_correct": 551,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 592
+      },
+      "super_decider": {
+        "n": 1456,
+        "both_correct": 314,
+        "new_only_correct": 214,
+        "reference_only_correct": 355,
+        "neither_correct": 573,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 579
+      },
+      "reference_terra61": {
+        "n": 1456,
+        "both_correct": 458,
+        "new_only_correct": 70,
+        "reference_only_correct": 730,
+        "neither_correct": 198,
+        "commonly_usable": 1237,
+        "new_correct_on_common": 527,
+        "reference_correct_on_common": 1034
+      },
+      "morph_reflex": {
+        "n": 1456,
+        "both_correct": 355,
+        "new_only_correct": 173,
+        "reference_only_correct": 486,
+        "neither_correct": 442,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 734
+      },
+      "reax_1_3": {
+        "n": 1456,
+        "both_correct": 433,
+        "new_only_correct": 95,
+        "reference_only_correct": 644,
+        "neither_correct": 284,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 932
+      },
+      "drex_max_v11": {
+        "n": 1456,
+        "both_correct": 390,
+        "new_only_correct": 138,
+        "reference_only_correct": 606,
+        "neither_correct": 322,
+        "commonly_usable": 1237,
+        "new_correct_on_common": 527,
+        "reference_correct_on_common": 860
+      },
+      "singvl_s1_4b_q4km_llamacpp_ctx4096_lan": {
+        "n": 1456,
+        "both_correct": 321,
+        "new_only_correct": 207,
+        "reference_only_correct": 377,
+        "neither_correct": 551,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 621
+      },
+      "d3_flash_9b_q4km_llamacpp_ctx4096_lan": {
+        "n": 1456,
+        "both_correct": 322,
+        "new_only_correct": 206,
+        "reference_only_correct": 382,
+        "neither_correct": 546,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 619
+      },
+      "gemini_decision1_openrouter_20261111": {
+        "n": 1456,
+        "both_correct": 366,
+        "new_only_correct": 162,
+        "reference_only_correct": 432,
+        "neither_correct": 496,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 685
+      },
+      "pplx_decider13_native_20261112": {
+        "n": 1456,
+        "both_correct": 393,
+        "new_only_correct": 135,
+        "reference_only_correct": 591,
+        "neither_correct": 337,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 856
+      },
+      "pplx_decider_flash13_native_20261112": {
+        "n": 1456,
+        "both_correct": 313,
+        "new_only_correct": 215,
+        "reference_only_correct": 354,
+        "neither_correct": 574,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 591
+      },
+      "heygen_decision1_openrouter_20261112": {
+        "n": 1456,
+        "both_correct": 404,
+        "new_only_correct": 124,
+        "reference_only_correct": 533,
+        "neither_correct": 395,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 814
+      },
+      "heygen_decision1_turbo_openrouter_20261112": {
+        "n": 1456,
+        "both_correct": 408,
+        "new_only_correct": 120,
+        "reference_only_correct": 551,
+        "neither_correct": 377,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 824
+      },
+      "nimble_v41_max": {
+        "n": 1456,
+        "both_correct": 389,
+        "new_only_correct": 139,
+        "reference_only_correct": 561,
+        "neither_correct": 367,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 827
+      },
+      "subq_snap12": {
+        "n": 1456,
+        "both_correct": 366,
+        "new_only_correct": 162,
+        "reference_only_correct": 561,
+        "neither_correct": 367,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 801
+      },
+      "liquid12_ultra": {
+        "n": 1456,
+        "both_correct": 391,
+        "new_only_correct": 137,
+        "reference_only_correct": 565,
+        "neither_correct": 363,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 834
+      },
+      "liquid12": {
+        "n": 1456,
+        "both_correct": 358,
+        "new_only_correct": 170,
+        "reference_only_correct": 447,
+        "neither_correct": 481,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 705
+      },
+      "bison1": {
+        "n": 1456,
+        "both_correct": 401,
+        "new_only_correct": 127,
+        "reference_only_correct": 579,
+        "neither_correct": 349,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 843
+      },
+      "groundhog1": {
+        "n": 1456,
+        "both_correct": 361,
+        "new_only_correct": 167,
+        "reference_only_correct": 463,
+        "neither_correct": 465,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 717
+      },
+      "microsoft_decision11": {
+        "n": 1456,
+        "both_correct": 376,
+        "new_only_correct": 152,
+        "reference_only_correct": 451,
+        "neither_correct": 477,
+        "commonly_usable": 1239,
+        "new_correct_on_common": 528,
+        "reference_correct_on_common": 708
+      }
+    }
+  }
+}

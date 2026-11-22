@@ -335,3 +335,17 @@ zero-generation proof is asserted. The exact dated release and docs/v5 match.
 ```sh
 python3 scripts/validate_system1_v5_liquid12_2026_11_17.py results/releases/system1_v5_liquid12_2026-11-17 results/releases/system1_v5_nimble_subq_2026-11-15 --mirror docs/v5
 ```
+
+## November 22 hosted comparisons
+
+`publish_system1_v5_baseten_ms_deepseek_2026_11_22.py` renders the audited first-primary evaluations. The comparison uses
+the frozen 1,456-question bank, 43 categories and exact 45% cutoff. Item-level
+ledgers preserve primary requests, pooled latency, charge evidence, timestamps,
+provider routing and usage. The model audits and matched comparisons preserve
+coverage and the distinction between operational accuracy and accuracy on usable
+answers. The release validator checks these relationships and the entire dated
+predecessor chain.
+
+```sh
+python3 scripts/validate_system1_v5_baseten_ms_deepseek_2026_11_22.py results/releases/system1_v5_baseten_ms_deepseek_2026-11-22 results/releases/system1_v5_liquid12_2026-11-17 --mirror docs/v5
+```

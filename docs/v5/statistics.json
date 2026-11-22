@@ -1,5 +1,5 @@
 {
-  "version": "v5-provisional",
+  "version": "v5-provisional-baseten-ms-deepseek",
   "questions": 1456,
   "categories": 43,
   "minimum_overall_accuracy": 0.45,
@@ -1684,6 +1684,102 @@
       "no_generated_reasoning_text_observed": true,
       "new_collection_limit": "Full fixed answer-blind bank; first attempts only, no errors/scored retries/truncation; 18 matching configuration checks. Readiness excluded. All individual latencies include slow primaries and exclude idle pacing; not sustained throughput.",
       "cost_qualification": "USD 0.01377560 API-reported OpenRouter charges, all1456 covered; separate readiness excluded."
+    },
+    "bison1": {
+      "model_id": "bison1",
+      "label": "Baseten Bison 1",
+      "role": "Hosted native",
+      "configuration": "BaseTen through OpenRouter · baseten/bison-1-20261120 · native Decisions",
+      "n": 1456,
+      "correct": 980,
+      "accuracy": 0.6730769230769231,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.6730769230769231,
+      "accuracy_upper_if_all_unusable_correct": 0.6730769230769231,
+      "macro_category_accuracy": 0.7083757497783426,
+      "mean_ms": 408.8183776300786,
+      "median_ms": 279.9770839919802,
+      "p95_ms": 954.945625475375,
+      "identity_limit": "baseten/bison-1-20261120. Precision is unspecified in the provider metadata.",
+      "new_collection_limit": "First attempt on each of the 1,456 frozen inputs. Reported latency pools every attempt including any unsuccessful primary, and readiness stays outside the bank. Native usage counters are retained. Counters are not independent verification of how the service implements decisions.",
+      "collection_dates_toronto": {
+        "2026-11-22": 1456
+      },
+      "new_request_failures": 0,
+      "cost_qualification": "1,456 API-reported, 0 tariff estimates, 0 without charge evidence. Known subtotal USD 0.0806178. Readiness excluded."
+    },
+    "groundhog1": {
+      "model_id": "groundhog1",
+      "label": "Baseten Groundhog 1",
+      "role": "Hosted native",
+      "configuration": "BaseTen through OpenRouter · baseten/groundhog-1-20261120 · native Decisions",
+      "n": 1456,
+      "correct": 824,
+      "accuracy": 0.5659340659340659,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.5659340659340659,
+      "accuracy_upper_if_all_unusable_correct": 0.5659340659340659,
+      "macro_category_accuracy": 0.5951704905195766,
+      "mean_ms": 378.6455935895012,
+      "median_ms": 270.71458302089013,
+      "p95_ms": 865.8028640347766,
+      "identity_limit": "baseten/groundhog-1-20261120. Precision is unspecified in the provider metadata.",
+      "new_collection_limit": "First attempt on each of the 1,456 frozen inputs. Reported latency pools every attempt including any unsuccessful primary, and readiness stays outside the bank. Native usage counters are retained. Counters are not independent verification of how the service implements decisions.",
+      "collection_dates_toronto": {
+        "2026-11-22": 1456
+      },
+      "new_request_failures": 0,
+      "cost_qualification": "1,456 API-reported, 0 tariff estimates, 0 without charge evidence. Known subtotal USD 0.028216230. Readiness excluded."
+    },
+    "microsoft_decision11": {
+      "model_id": "microsoft_decision11",
+      "label": "Microsoft-Decision-1.1",
+      "role": "Hosted native",
+      "configuration": "Azure through OpenRouter · microsoft/microsoft-decision-1.1-20261117 · native Decisions",
+      "n": 1456,
+      "correct": 827,
+      "accuracy": 0.5679945054945055,
+      "valid": 1456,
+      "coverage": 1.0,
+      "answer_accuracy_among_usable": 0.5679945054945055,
+      "accuracy_upper_if_all_unusable_correct": 0.5679945054945055,
+      "macro_category_accuracy": 0.605596906123872,
+      "mean_ms": 489.0085287748901,
+      "median_ms": 324.64622901170515,
+      "p95_ms": 996.4289792114869,
+      "identity_limit": "microsoft/microsoft-decision-1.1-20261117. Precision is unspecified in the provider metadata.",
+      "new_collection_limit": "First attempt on each of the 1,456 frozen inputs. Reported latency pools every attempt including any unsuccessful primary, and readiness stays outside the bank. Native usage counters are retained. Counters are not independent verification of how the service implements decisions.",
+      "collection_dates_toronto": {
+        "2026-11-22": 1456
+      },
+      "new_request_failures": 0,
+      "cost_qualification": "1,456 API-reported, 0 tariff estimates, 0 without charge evidence. Known subtotal USD 0.029412642. Readiness excluded."
+    },
+    "reference_deepseek41_flash1017": {
+      "model_id": "reference_deepseek41_flash1017",
+      "label": "DeepSeek V4.1 Flash 1017 · reasoning off",
+      "role": "LLM reference",
+      "configuration": "DeepInfra through OpenRouter · deepseek/deepseek-v4.1-flash-20261017 · FP8 · reasoning off",
+      "n": 1456,
+      "correct": 528,
+      "accuracy": 0.3626373626373626,
+      "valid": 1239,
+      "coverage": 0.8509615384615384,
+      "answer_accuracy_among_usable": 0.4261501210653753,
+      "accuracy_upper_if_all_unusable_correct": 0.5116758241758241,
+      "macro_category_accuracy": 0.3926862929963599,
+      "mean_ms": 853.0672760007492,
+      "median_ms": 725.7743749942165,
+      "p95_ms": 1738.6174060229678,
+      "identity_limit": "Requested deepseek/deepseek-v4.1-flash-1017, pinned to DeepInfra via OpenRouter. Dated served declaration deepseek/deepseek-v4.1-flash-20261017. The endpoint declares fp8 precision, as recorded in the provider metadata. The chat response model label may be the request alias.",
+      "new_collection_limit": "First attempt on each of the 1,456 frozen inputs. Reported latency pools every attempt including any unsuccessful primary, and readiness stays outside the bank. The request uses the Terra one-option prompt with a 16-token cap and reasoning off. 1,456 responses reported zero reasoning tokens and contained no dedicated reasoning fields with content. 217 responses did not meet the numeric-answer format.",
+      "collection_dates_toronto": {
+        "2026-11-22": 1456
+      },
+      "new_request_failures": 217,
+      "cost_qualification": "1,456 API-reported, 0 tariff estimates, 0 without charge evidence. Known subtotal USD 0.05799740352. Readiness excluded."
     }
   },
   "ranked_model_ids": [
@@ -1694,6 +1790,7 @@
     "fastino_glide_v23_bf16",
     "drex_max_v11",
     "pplx_decider13_native_20261112",
+    "bison1",
     "mammoth1",
     "heygen_decision1_turbo_openrouter_20261112",
     "liquid12_ultra",
@@ -1708,6 +1805,8 @@
     "respan02",
     "morph_reflex",
     "levanto_sage_2",
+    "microsoft_decision11",
+    "groundhog1",
     "liquid12",
     "gemini_decision1_openrouter_20261111",
     "jev114",
@@ -1723,10 +1822,10 @@
   ],
   "below_cutoff": [
     "drex20",
-    "microsoft_decision",
     "local_d3_flash_artemis_iq3_m",
     "clef",
     "local_cerno4b_nf4",
+    "reference_deepseek41_flash1017",
     "meragpt_decider1"
   ],
   "selection_bias": "Post-hoc challenge subset: removed exactly the 701 questions answered correctly by all 26 prior main-graph configurations. Scores reuse selected v4 responses; this is not an independent fresh evaluation. The original 60 AQuA items were selected for Fastino and D3 misses; the 140 new ones were selected for a miss by at least one of Fastino, Mammoth, GPT-6 Sol, D3 Ultra and Drex Max. This distributes but does not eliminate selection bias.",
@@ -1738,7 +1837,8 @@
     "subq_snap_1_1",
     "liquid_d1",
     "liquid11_decision",
-    "liquid_ultra"
+    "liquid_ultra",
+    "microsoft_decision"
   ],
   "supersession_decisions": [
     {
@@ -1746,6 +1846,12 @@
       "new_model_id": "drex_max_v11",
       "decision": "supersede_old_active_configuration",
       "reason": "New declared version/provider evaluated on the complete same v5 inputs; both measurements retained unchanged. See drex_comparison.json for descriptive tradeoffs and cost limitations."
+    },
+    {
+      "previous_model_id": "microsoft_decision",
+      "new_model_id": "microsoft_decision11",
+      "decision": "supersede_previous_default_configuration",
+      "reason": "Full-bank separately measured successor; the preceding measurement remains intact."
     }
   ]
 }

@@ -1,0 +1,1003 @@
+[
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-dev-000034",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "039d55c9dd08dccb96febdb41faf9e5f321722b4cfc59742730c6ff01b650d09"
+      }
+    ],
+    "selected_response_sha256": "8aad38c051b29b645b8acada128803622f41b790b5487078a21fbcb052ba7f68",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "P200-F30-006",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "f8c977823ee1cb4e0a77c59d5bf2d5d7607557a2514010befd4f95ee2399040a"
+      }
+    ],
+    "selected_response_sha256": "1552bcac52832cf82e2a0801e2ad5f198772538e006bc71da0b565c53c0d47be",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J002215",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "ed4ff302f7d6d89537c56ec207e956c9dcedbd31c13f4f3ac5f376cd8bbb85bb"
+      }
+    ],
+    "selected_response_sha256": "e49b5c8951eecd69b3e02a4f40a4d1d546425b46d4d97b7dd4b3df4061d444fb",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P02-022",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "fc15ffc92f5cec35204b5ca19041bc501cf299b8583840de436f5f3a2fde7d9b"
+      }
+    ],
+    "selected_response_sha256": "96b22e782f4c2068f80baaa0af5a79b1d9d7fd6a2857b4d5d1bd3eccf6bd0f4d",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P08-017",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "9fc2449a1e1c9b726b30409f421862e25bed1e966c646206fd38d3b189cc10cc"
+      }
+    ],
+    "selected_response_sha256": "769a5b9661bcfc23a2b2374828815bdcdbf3e952970d4b865a95a1e9d9f0e197",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P03-028",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "7bf5e16e7da9307dd79e6769b3c96ccf45837f4e516a2262631b06aba249e229"
+      }
+    ],
+    "selected_response_sha256": "d29f6ed7d407cc2210a4db31796a69873694c73852f2c739895e1b9a25da9368",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H4-P10-011",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "7f4f9a69ac31492cb209a152b81311540c1a0c134db54d0b8572eacc6da745ac"
+      }
+    ],
+    "selected_response_sha256": "a650c2ee463916a1201a0564e7f089eb353233a77c1dd53375857f2608fe437c",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "IQ-NUMBER-SEQUENCE-026",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "49217807e047bba1407bcd1b31b7f4f20f10814610f665f0f1282ba53915f2ef"
+      }
+    ],
+    "selected_response_sha256": "a33bd263f169cbc035a8aab40532d0c9c385a47a3b66287c6cd33e55f0600b0b",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001188",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "73626d3ab7dea5b93a17e41a5258120257ab483d3da87196a69a28f8df825606"
+      }
+    ],
+    "selected_response_sha256": "c7c8850fb6304d84d43ffa8354fc13675429432cf9c71058facf1091d7f0285c",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001187",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "38a34ee12497d8839043f4b3c4281533583e2281bf2b120e77dd334e429b6a77"
+      }
+    ],
+    "selected_response_sha256": "209b2df6de6bf248e05ef7413528f810b4c1975d5fa45ba1fee0c6c016a663da",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-train-000060",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "f70b90a5c6b3ae23d6ae9a965cbfa6339aabdcf46505e080845b9458cc1a493f"
+      }
+    ],
+    "selected_response_sha256": "a069777e37641329f40cc99275daeeaf65e9d8f87e4d792aef22ef0a8fe8d7ae",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001193",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "1bc8d197a4793251172ebdec48f62f108cd9160562e3ea1d1e42a5328b92b284"
+      }
+    ],
+    "selected_response_sha256": "4c2206321631c5ec73ceaced91f82a494624e3f4f32bae8581c2e5b52a9f058f",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J000954",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "c8764e5450c12794dc9c9008b29dbd4ab55f1c515440e7ead2f6ed2f7b5c8619"
+      }
+    ],
+    "selected_response_sha256": "961e9890fed1ea8581649b8c516b35a9ee2e6ce9a80b850ed96f5f591a843e5e",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-dev-000073",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "170c1a6e89fb7c47cbf7e541d54038947fa7ab8622475b1fc4973add25728664"
+      }
+    ],
+    "selected_response_sha256": "acd563ae6586d8450709618a8728cecc2d253e1099156796262ba36c1ad2ab48",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H4-P10-018",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "6b6f1cf4433b96afacf4dbb9b0ad76630445640d09b7c45cd289f2a6f7a8319f"
+      }
+    ],
+    "selected_response_sha256": "1756ae46737d960d68f4f99bd75523478aac9e69059e85881c00047a2abd332a",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P08-008",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "05781e21cab25119add5445c38037f011d4492221d7bb26467d7d1b674bb0616"
+      }
+    ],
+    "selected_response_sha256": "7020e3a7b1ed65481d4a84076a6a35cfb3177310267941d3b0024fa6bf8465ec",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "P200-F10-002",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "5145c8b1115b2f92f8f9a66eef7ee3efbb6c616ec9f1d9448bf29158379fb457"
+      }
+    ],
+    "selected_response_sha256": "6590ab96c62b8f56fc8f8a6f29723b594f9ba66dd73b8271aa9b61b71c58aabd",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-test-000237",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "3344a72bce7d76c959fd44917f8606acd84cdea3378e267ac586e35561b0eb57"
+      }
+    ],
+    "selected_response_sha256": "7d778cc43653ad6f32550f65f3bf936422bfed04a7292ac9bb121c2d3e43d6a6",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-dev-000221",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "d27e9994871f396aa2f661e041ff3e86d533d0bc72d218de8ea73f8c65d0d7b9"
+      }
+    ],
+    "selected_response_sha256": "82e4e8b861661a5d1110a9fbda93328694eac5c457fd088e4c5240e3c2162b0e",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-dev-000196",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "aa03da2ffa91d70ab49c6f9463c69302488527890d0d142f185db17f44ec5680"
+      }
+    ],
+    "selected_response_sha256": "b7402a52700be4ec209a8ef064a248cd9b762d84421177523fd057372ab8e2e2",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-test-000084",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "412d984fc46f29a43a0e8867ee10e40054cd977a9297438108f56c23c1f74a2b"
+      }
+    ],
+    "selected_response_sha256": "d37ff6ae8bf5d911d33c0e40a026fe1ca6940c7db0f8528e75f60d146acbff9b",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "P200-F07-002",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "7c37fb3ee622efef39bebca6773488aa5df07a5269a4673c5fcdc5b3aa934e72"
+      }
+    ],
+    "selected_response_sha256": "beec8e83653300a299e64e7d3a0010f05a7e660630a95cee9d1c8df3600a7c13",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001110",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "b570fb7a47c2ac6a98d965e5786425bcbcad6bc4ad4d561adb5e92222898d712"
+      }
+    ],
+    "selected_response_sha256": "dfbe364f7f08a5e0581bab8b53fd82651965a3dc252355d038f3afbe589749b4",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J003117",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "53e096cbdf4797783c52733940e1177d376fbdc0c07308368e8566ad43716411"
+      }
+    ],
+    "selected_response_sha256": "e5221c19734c656cc6d37ca54295531b8efb15a843bbf213fe7eb908e5550d85",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001440",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "97d9a8ec821d90610640bd99d2b529e87af33af2a87de097faea895e04354511"
+      }
+    ],
+    "selected_response_sha256": "a2a567c08a68f08436bd7825a5d05a178aabdbd7d231380e715fcb55b02c4737",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-dev-000091",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "47c949da45cc28ff624b33e39bfadf8dbf14fb9e193c57cac82173f67a0eebe1"
+      }
+    ],
+    "selected_response_sha256": "ef998c5a5c99b4da900e1dea615abf03b45be8334dcaf8f03eb43e5b1cd2dccd",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J002189",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "f3dd84a18615bc4cce0443325ac1cb03dbb31e874f78ca79032e9d7c63c67438"
+      }
+    ],
+    "selected_response_sha256": "de63d42ea8420acc745a423dac54c7aaa50bc0921bf777da2ddd637fb839ae91",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-train-000158",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "df5662289c0be34fbd8f337b6b566fb47959349401fe199b6e3f146ea33658ca"
+      }
+    ],
+    "selected_response_sha256": "ed9048205d35ddc10b5c148972ec066d40d0399c72ffe39325131795024f3929",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-test-000132",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "072eae185d354b10d503d6dfd9d45e6734a9af9436f22c4db6b0111381ad9e4c"
+      }
+    ],
+    "selected_response_sha256": "d698f7f35d9c4508ab10158dca25ad13d44ae1b6a1a7549eddf21e0ba014725e",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "P200-F22-006",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "796f20c98b1b6756b0fba0290d2b6c6d88d21d94def8689295bfd0fa4a41c5eb"
+      }
+    ],
+    "selected_response_sha256": "2ed34c158c6fd64345368d0a46011ec269fd8a1f5fd551eaa5a5d9394993748c",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P01-002",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "c484f8062121d65d7cb129999ce0363dac9157ecdc9e121f253edbda631617fb"
+      }
+    ],
+    "selected_response_sha256": "6b3ae52daa656ea3b4b263634835739b074ab402c469476c66735b3d191f301f",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P08-026",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "4a59a04186d2c5e3fb9ad04b4710f58f9aa4afcc8f0355da13418fdca4d29ba4"
+      }
+    ],
+    "selected_response_sha256": "840d212362371b60e95a1bb7ea6f781a091d48220ec946bbce1be96396ea3115",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J000442",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "454d5afe9031358c70587bd181743409762d184455d1c5ac6ec54c07ad341393"
+      }
+    ],
+    "selected_response_sha256": "c7d1a526b0392a4fd89cba24ebfc46def61d2d9c5ad835dce40767317ed9ad42",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-dev-000082",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "65635fb8153f3796880f74fce9ed2e549c0377c096c9a150e0655592e84e80b5"
+      }
+    ],
+    "selected_response_sha256": "bfdb2658d4a44b13fd024019bd9edc38b8f3ac4828252a1b4e8988d20e62d94b",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001600",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "e8dca36b0ac35c364664ab7f91e0a2d68d7b559c5e814c1ba756d277123c919a"
+      }
+    ],
+    "selected_response_sha256": "be52ce15aab0563952483edbaf1602225cb1beaea55d06e3ce1c84dd3b1ac486",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001406",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "bf6592d8e5772f79907e1fc7265d57f09af27e1a8dda13fea713b7601921067f"
+      }
+    ],
+    "selected_response_sha256": "f12e06980c5ae4f3fac8a3ae82bb30ef7ece61c17c80a83a2de48ae684290baf",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H2-P04-012",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "eb7886d3f7b6569696fbb388d7a2e2d9a103b8ffa497a21a9f85530fe52daac9"
+      }
+    ],
+    "selected_response_sha256": "d52d8a17702d07d7fd85e901918f36526c9eacd96ebc11d41dfcc2f6f41fafc8",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J002191",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "5ec65fc377c6987571c3dd648ef7ed6ea5b577356ac7666012ac43ccbd2ce9ed"
+      }
+    ],
+    "selected_response_sha256": "8023a563a79103f3e341147c7abb712fa5e5f84cf0507fb1689947f5b65833f3",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "EXT-F26-014",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "a2a42959f4cc6fe78c60fc7918550e87686f9db5649d36cbaa3d70366a34e9cd"
+      }
+    ],
+    "selected_response_sha256": "3a193832d1c2752b091a325e676f66e7af589570a909924d1e413c22b54f5c6a",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H4-P10-004",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "355b4738c646ae002fe96d54526a1c28ede7999b20afa1b7fdd6fa81736930db"
+      }
+    ],
+    "selected_response_sha256": "e0d74f600426079a041944e47e58bac133b030465782726e7a5692fff151d55d",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001033",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "17bbce839e5fde4cd599310a9c793a3e16514475b884ba8d6f3ec52c195fc1a3"
+      }
+    ],
+    "selected_response_sha256": "e008607ee2e59aa0450682720f10925ebcce685d8c4ce208719e874b8dd0dac6",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "P200-F03-005",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "53318eb09fdbb6987c47a85ad1be8d813552c2e115c39234b6ec7c583741f799"
+      }
+    ],
+    "selected_response_sha256": "acbe5d0e979a1edc6e817dc51866af4f10f8fc37c08cf13a08a13571321c77dd",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001093",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "650d69d1c852f82a99c4a927ca47ddc190f4157adf474153116957dd8e1c3ca7"
+      }
+    ],
+    "selected_response_sha256": "3fd7b335f2b101b6dd94fab18e988e00fde94696c23c9b6494539ec2e2e29c2e",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "P200-F02-002",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "465f98d4c82123de8c310c059c0c22416fd0f518b6c56048a351a1361714271f"
+      }
+    ],
+    "selected_response_sha256": "869ca41e58cadc5b3d7101b36fc710d624c0f851c10a7c0808e91bf6f576948b",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "EXT-F28-019",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "1c8de27b6668fd935564c4724588a1c05d6485891a780e88260c29a6b316e47c"
+      }
+    ],
+    "selected_response_sha256": "cee413262fdc773b108c5810ef754991082534b32f19ce7df63826508f6dcfde",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001499",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "4a73b6f7df7984ef994d1ac4396971d425a765c33e230123f4713aa895dcb294"
+      }
+    ],
+    "selected_response_sha256": "688d55fdaf58471e835a083d647aa9f9501c835c92bcbdb7ab4ce9b35f761d81",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H4-P10-025",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "b2b3ea3c02d8161c084f87ee5bc443d029b4afd96a297b7fa7e8f916fa5e73f6"
+      }
+    ],
+    "selected_response_sha256": "5f7bcc834755c70175b160c70dab3b0ce40d6caa02e306a5b8f412487ca382a3",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "EXT-F26-029",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "c41cd516f752c8dd3ae2ebd51de735bacdadbf161e2f282313e8bf26f2f554e4"
+      }
+    ],
+    "selected_response_sha256": "e4e44362aa2ffea444d052c34325d4db00279c0feed7e17160cff88f3d9a715f",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J002063",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "815cffed9bf275bdf38096fd637a1afb32165b092291830cc0a22ea35553bf9d"
+      }
+    ],
+    "selected_response_sha256": "f9d5c2fa47b2d793652d9b277d0a77b84cf1157306a83860643c7b0edef32b60",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P08-013",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "b2a9129533ee179ac63b7a4bbc8fba8074e1841fb782bef03f4e6db30143a593"
+      }
+    ],
+    "selected_response_sha256": "942ac772a608b80cefcf77382af287e6e48e22f15c0e9645c05c081f6725f7b1",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "P200-F18-002",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "6d47b239a8b810a358c6d645e7dbfc106c762348429a6245b978d821772b879e"
+      }
+    ],
+    "selected_response_sha256": "dc432ca28c5e6c27cb6acbb92f9aee5e84578a6e28c23b93b1aefaba7d1c65e0",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P08-025",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "cbca366e664a9b98e59e4a008ad114534fd6d15a3d13a59ab307d1ed38573808"
+      }
+    ],
+    "selected_response_sha256": "488d693d068f06c1f57beee071fcc6bb2231ed189b6991c71fb6429a5d7b55a3",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J003030",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "fba8feb828ea4953dfe625653a1db215ea075c313d94dd3825a2b8c4ad9bfda4"
+      }
+    ],
+    "selected_response_sha256": "e448e3b9d846a97fbc68f5bf522e06dc6108280844fe7d61dfda0be1e6d746f3",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H4-P07-017",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "ac48b87fecf1068431a303b8891686e4e7ac00cf0469d20d76e5ff7769622775"
+      }
+    ],
+    "selected_response_sha256": "4d270837150b53cc583f78a65ec756b5c3be22e2cf82bf769237a337bc9d4880",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-train-000130",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "aca5223437f6476caa6e566631b688a2c12d8d8a5a483851dad958dd04b14f3c"
+      }
+    ],
+    "selected_response_sha256": "828d356c91a702ce1c8c9c94d8b6d43344abad0cbd304556392f63e5d65cf246",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J000853",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "8cce9f0d939a203b9c74b4368977c44301dd8f1a2730f51e3c17fd90fba605c2"
+      }
+    ],
+    "selected_response_sha256": "78a3638f65d3193523d3a302edd6b6b28a70c5ab99d7ea322c79684fa4701f53",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P01-011",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "4271586365227aa014d2fe02af81b27dc289b8009b9e6e8216304fe5f5991366"
+      }
+    ],
+    "selected_response_sha256": "75d0bff74544943782a56ef4cab0b7223e24d581dca8ce57b50d410cb7e900dc",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-test-000080",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "f6ec74540dc63e86ca987c093863b11fe8c3715bfa992605944b0abecf43d6c0"
+      }
+    ],
+    "selected_response_sha256": "23c89502db9fbd46df30dbf711ca9b65ab409b60f335cf8a978ccad4a13481c5",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-train-000304",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "9419c5f8db579ea4cc275325bf571106059dbf4ccba24bf5085072c5349515ac"
+      }
+    ],
+    "selected_response_sha256": "a40bcc71803bb382b6a6acd64a5b6a07805a5cf4c2a05850d5aff9078da464aa",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001917",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "fca425b4d7f04dbc5183315151c315ccb4919de5d3f8f9131836d020be10eebd"
+      }
+    ],
+    "selected_response_sha256": "21dc46efeaf2bd39b34bd0e12f2271d2ddc9b7e877a0ad61609615504f3a4dc2",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P09-031",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "1a102607a30fd29f6add70aab157a4bf7a33c6864ef1d573c7f34bce704ef1a6"
+      }
+    ],
+    "selected_response_sha256": "a99631197b3aec065ea09bd707015ceecbc32178648b37c3b5586e2d388afe0a",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001263",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "b0666a3625bb447189a024e87a6f13a4f1b6324371fed4dddde42f56d2e1ec4e"
+      }
+    ],
+    "selected_response_sha256": "a07035d3c73194c81999c9acdae21a5f9493cc79e029f835f77156d1b472ecec",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001086",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "db877fedd90b73a691749883d7dc3cabf80858921526b556bee9ec32d065ad70"
+      }
+    ],
+    "selected_response_sha256": "67d8281741eea24757ca0bb708b3d20aa66d4d83f41ed627a89dd7701ecaf9ef",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P02-026",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "caeb277b90c2c2b9be2118f645e867824c05420926492bd1e5423d475da31e29"
+      }
+    ],
+    "selected_response_sha256": "c6b0843d8410d05bab3fec6173640c3b4ebb2e3ed30957a47959d31fb279b16b",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J002051",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "5ad4ee14e98038d90e4e8bcf8b1aa3dc2c146f9b44e9cce2283d5948a02ebca1"
+      }
+    ],
+    "selected_response_sha256": "955f3e35c04299cf30ea4b1d5432a6839977e51fcbc897749ba89be78e3662eb",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-train-000444",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "2b42345529a7299aa6d7a80b04856a92d13a802758af49d41365131342fcfb20"
+      }
+    ],
+    "selected_response_sha256": "2dea432ce68d85bf052e95085e0ea865b4481648ea8792a19e204cf29aef2255",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H4-P04-017",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "3380559db01d17e2e55edba038374073ae3d00500dca7c96fa9066953323ab07"
+      }
+    ],
+    "selected_response_sha256": "3b506bb094dfffc145a1451865d276839f75b3deaf04b6111e37879ef371eb8d",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001450",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "3d5cb5dfb54dc4423b25ed70fd5b00aa42622c14dd5d0bd4036aa90cd2880533"
+      }
+    ],
+    "selected_response_sha256": "ec76673491359451ff2af301d4305cc3d01248f0fb517fdd082f8e3768c1e6b5",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J000977",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "afb669ef9eaee1591add69d117db1f8b478503d530f157ea0758b20975c6d0c5"
+      }
+    ],
+    "selected_response_sha256": "717e72e7295113b7adfa5444f576039ef1946fd6048ef9ab3d056e1bb7f70662",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "AQUA-train-000023",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "05ff2c4c0abd6b203791b53dfd0553e33d89ab125be744aaa01c7094bb53dd6c"
+      }
+    ],
+    "selected_response_sha256": "92e65f9c6771a37aaaf29f3e1222027c4b3d34c6b4088a84e310d005274089b6",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "EXT-F28-009",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "685900450daacc670788f61b9a8225667aa68e190265d9ff6c77274d3dad346c"
+      }
+    ],
+    "selected_response_sha256": "1e9dd73af8ad7af4b7af37b6feb6cde550b6474e47f01adadc754fa724c22ec0",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001418",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "85916603e97fd6aadbe1dda3baeed5a6f2bc9c0e3b8344be4d9c7027bfc2b975"
+      }
+    ],
+    "selected_response_sha256": "f3802681589007e9b9dcac49821145c30adc7bcc725e4d9361dbfbcc9e7c5ce0",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J000819",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "194222a9ffde585941e1edb877a43c5c880ba5718554476441ada5980c1a1bbc"
+      }
+    ],
+    "selected_response_sha256": "68bd7a9697e97e452718c639d91074472335a45c30c0d8432102189959796d1c",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J002053",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "997b156058ff8b527620147c746e25835875b5a516e4a1f367a70446c35f8eb2"
+      }
+    ],
+    "selected_response_sha256": "448735680ae8dd293474d60b1f0fbdcdf07faf3738adfa8975bd4abb29cf0a32",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "J001089",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "7b42fdd05908c601e11ac53639a5f98bd430885310431be5582ae49fd4637209"
+      }
+    ],
+    "selected_response_sha256": "f6d04d94235b21c97dd5af379b848b4cb6523d9b8200811f3cd1aa202bdeff6f",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H3-P05-007",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "735e78ed718f4cb6308eeb6a233a57faa89afb51616fff074a32919f5d955e29"
+      }
+    ],
+    "selected_response_sha256": "c0cb8b8a661f613ea61c6b4c2171236dc8239f843d51b601f0b98162863d54a1",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  },
+  {
+    "model_id": "sarvam_prism",
+    "item_id": "H4-P10-031",
+    "attempts": 2,
+    "failed_attempts": [
+      {
+        "http_status": 429,
+        "record_sha256": "7e688382400f43820f6c2c9a839db8ff89a08f0ede3afbb1f436f4c39d73de26"
+      }
+    ],
+    "selected_response_sha256": "8b58234e5c1201bb0e82b8a19f2d92de067b767c724dfba674e97c601ed4008d",
+    "selection_rule": "First returned model answer after recorded no-answer transient HTTP failures."
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "model_id": "drex_max_v11",
+  "zero_required": false,
+  "zero_generation_attested": false,
+  "no_generated_reasoning_text_observed": true,
+  "native_choice_scored_without_argmax_substitution": true,
+  "raw_output_tokens": 238612,
+  "nonzero_output_counter_responses": 1454,
+  "policy": "Existing Drex native answer policy accepts typed choices while retaining nonzero output counters; this does not attest zero generation.",
+  "current_official_docs": [
+    {
+      "url": "https://console.nace.ai/docs/drex/guides/reading-answers",
+      "captured_html_sha256": "954e792b81c7f74577aec345c2f28a17146ea426b749de69c06bf2a72e96fa03"
+    },
+    {
+      "url": "https://console.nace.ai/docs/drex/guides/openai-compatible-decisions",
+      "captured_html_sha256": "597234215d6c80cdb85b7a5f174823b580d9ca5550875685af1b672d2abd02bb"
+    },
+    {
+      "url": "https://console.nace.ai/docs/drex/reference/pricing",
+      "captured_html_sha256": "fd7b7435d7ae97f626b1c28ec2e0da6fb7cf44ac1fe45541c70a1dc506a5e698"
+    }
+  ],
+  "historical_policy_code_sha256": "b38b6087efee9bbecbe4a854d1081e305f825e7d388d3fcfe5418e72a0415857",
+  "historical_policy_scope": "Existing benchmark v3/v4 native-counter interpretation; no retries or raw response replacement."
+}

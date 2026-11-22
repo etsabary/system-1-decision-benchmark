@@ -1,8 +1,8 @@
 # System 1 Decision Benchmark · provisional v5
 
-This provisional successor contains **1,456 questions across 43 categories**. It removes the exact 701 questions answered correctly by all 26 configurations in the original v4 main graph, while retaining every remaining question and recorded primary response. All 44 preceding complete configurations retain their recorded answers. Two native hosted configurations add full-bank sessions on the same frozen inputs. The complete v4 bank and reports remain unchanged.
+This provisional successor contains **1,456 questions across 43 categories**. It removes the exact 701 questions answered correctly by all 26 configurations in the original v4 main graph, while retaining every remaining question and recorded primary response. All 46 preceding complete configurations retain their recorded answers. The November 22 configurations add full-bank sessions on the same frozen inputs. The complete v4 bank and reports remain unchanged.
 
-**Inclusion threshold: 45% (at least 656/1,456 correct).** The user set this cutoff after reviewing Super Decider’s 669/1,456 (45.95%), the lowest score among the preceding graph models. Inclusion uses the exact rule **correct ×100 ≥45 ×1,456**, requiring at least **656 correct**, including ties. All 44 preceding complete configurations are preserved and two native hosted configurations are added; 33 configurations appear in the active graph after the threshold and explicit version-selection decision, with 7 superseded reference(s).
+**Inclusion threshold: 45% (at least 656/1,456 correct).** The user set this cutoff after reviewing Super Decider’s 669/1,456 (45.95%), the lowest score among the preceding graph models. Inclusion uses the exact rule **correct ×100 ≥45 ×1,456**, requiring at least **656 correct**, including ties. All 46 preceding complete configurations are preserved and the November 22 hosted tests are added; 36 configurations appear in the active graph after the threshold and explicit version-selection decision, with 8 superseded reference(s).
 
 [Interactive provisional v5 report](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html) · [Category rankings](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html#rankings) · [Cost evidence](https://etsabary.github.io/system-1-decision-benchmark/v5/report.html#cost) · [Archived full v4](https://etsabary.github.io/system-1-decision-benchmark/v4/report.html)
 
@@ -19,6 +19,7 @@ This provisional successor contains **1,456 questions across 43 categories**. It
 | Fastino GLiDE v2.3 BF16 | 1008/1,456 | 69.23% | 🟩 216 ms | 🟧 530 ms | 🟨 $0.02993 | 🟨 $0.02056 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 no-price/usage |
 | Drex Max v1.1 · Nace native | 996/1,456 | 68.41% | 🟨 345 ms | 🟨 490 ms | 🟨 $0.02355 + ? | 🟨 $0.01618 + ? | 1454/1,456 | 0 reported; 1454 estimates; 0 free-access; 2 no-price/usage |
 | Perplexity Decider v1.3 · native | 984/1,456 | 67.58% | 🟩 216 ms | 🟨 335 ms | 🟨 $0.01535 | 🟨 $0.01054 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 no-price/usage; actual API charges unreported |
+| Baseten Bison 1 | 980/1,456 | 67.31% | 🟨 280 ms | 🟧 955 ms | 🟥 $0.08062 | 🟥 $0.05537 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 no-price/usage |
 | Mammoth-1 (latest named alias) | 970/1,456 | 66.62% | 🟩 188 ms | 🟧 727 ms | 🟧 $0.04833 + ? | 🟧 $0.03320 + ? | 1455/1,456 | 0 reported; 511 estimates; 724 free-access; 221 no-price/usage |
 | HeyGen Decision 1 Turbo · preview | 959/1,456 | 65.87% | 🟨 271 ms | 🟧 899 ms | 🟥 $0.13255 | 🟥 $0.09104 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 no-price/usage |
 | Liquid d1.2-ultra | 956/1,456 | 65.66% | 🟨 270 ms | 🟧 983 ms | 🟨 $0.02893 | 🟨 $0.01987 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 no-price/usage |
@@ -33,6 +34,8 @@ This provisional successor contains **1,456 questions across 43 categories**. It
 | Respan Span-02 (20261015) | 858/1,456 | 58.93% | 🟨 484 ms | 🟥 2,176 ms | 🟩 $0.00820 | 🟩 $0.00563 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 no-price/usage |
 | Morph Reflex | 841/1,456 | 57.76% | 🟨 354 ms | 🟧 514 ms | 🟨 $0.03266 | 🟨 $0.02243 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 no-price/usage |
 | Levanto Sage 2 | 829/1,456 | 56.94% | 🟩 232 ms | 🟨 355 ms | 🟨 $0.03570 | 🟨 $0.02452 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 no-price/usage |
+| Microsoft-Decision-1.1 | 827/1,456 | 56.80% | 🟨 325 ms | 🟧 996 ms | 🟨 $0.02941 | 🟨 $0.02020 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 no-price/usage |
+| Baseten Groundhog 1 | 824/1,456 | 56.59% | 🟨 271 ms | 🟧 866 ms | 🟨 $0.02822 | 🟨 $0.01938 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 no-price/usage |
 | Liquid d1.2 | 805/1,456 | 55.29% | 🟩 225 ms | 🟨 391 ms | 🟩 $0.01378 | 🟩 $0.00946 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 no-price/usage |
 | Gemini Decision 1 · Nov 11 | 798/1,456 | 54.81% | 🟨 372 ms | 🟨 496 ms | 🟥 $0.07975 | 🟥 $0.05477 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 no-price/usage |
 | Jev 1.14 | 786/1,456 | 53.98% | 🟩 173 ms | 🟨 472 ms | 🟧 $0.04736 | 🟧 $0.03253 | 1456/1,456 | 1456 reported; 0 estimates; 0 free-access; 0 no-price/usage |
@@ -46,9 +49,32 @@ This provisional successor contains **1,456 questions across 43 categories**. It
 | Super Decider | 669/1,456 | 45.95% | 🟩 215 ms | 🟨 263 ms | 🟨 $0.02412 | 🟨 $0.01657 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 no-price/usage |
 | Perplexity Decider Flash v1.3 · native | 667/1,456 | 45.81% | 🟩 125 ms | 🟩 147 ms | 🟩 $0.00767 | 🟩 $0.00527 | 1456/1,456 | 0 reported; 1456 estimates; 0 free-access; 0 no-price/usage; actual API charges unreported |
 
-## Liquid d1.2: two tiers, mixed version tradeoffs
+## November 22 hosted comparisons
 
-Two native Liquid versions add 2,912 usable first attempts with no errors, scored retries or client truncation. The frozen bank remains 1,456 questions across 43 categories; exactly 45% requires 656 correct. There are 46 complete configurations: 33 active, six below cutoff and seven superseded. At the user's direction d1.2 replaces d1 and d1.1, while d1.2-ultra replaces d1-ultra. The two new tiers remain concurrent; every older measurement is archived separately from below-cutoff results.
+4 separate full-bank evaluations use the same 1,456 inputs, 43 categories and 45% cutoff. The new Baseten variants join the comparison alongside Mammoth and Elephant. Microsoft-Decision-1.1 is the new default measurement. The previous Microsoft result remains archival. DeepSeek V4.1 Flash adds an LLM reference via the pinned DeepInfra FP8 route.
+
+| Configuration | Correct / 1,456 | Usable | Accuracy on usable | Median / p95 | Known USD | Active placement |
+|---|---:|---:|---:|---:|---:|---|
+| Baseten Bison 1 | 980/1,456 (67.31%) | 1,456/1,456 | 67.31% | 280 / 955 ms | $0.08062 | rank 8/36 |
+| Baseten Groundhog 1 | 824/1,456 (56.59%) | 1,456/1,456 | 56.59% | 271 / 866 ms | $0.02822 | rank 24/36 |
+| Microsoft-Decision-1.1 | 827/1,456 (56.80%) | 1,456/1,456 | 56.80% | 325 / 996 ms | $0.02941 | rank 23/36 |
+| DeepSeek V4.1 Flash 1017 · reasoning off | 528/1,456 (36.26%) | 1,239/1,456 | 42.62% | 726 / 1739 ms | $0.05800 | below the exact cutoff |
+
+DeepSeek received the same single-number prompt and 16-token cap as Terra, with reasoning off. 1,456 responses reported zero reasoning tokens and contained no dedicated reasoning fields with content. 217 primaries failed the answer format, including 215 that hit the token cap. Some started explaining in the visible reply. Every primary counts toward operational accuracy. Accuracy on usable responses shows the scores after excluding unusable answers.
+
+Each native route reported one output-accounting token per usable decision. The validated responses contained a choice and probabilities, with no generated-text fields.
+
+- Baseten Bison 1 scored +10 correct versus Mammoth-1 (latest named alias) (970/1,456). On 1,455 commonly usable questions, the scores were 979 and 970. The reference median/p95 was 188 / 727 ms and its known subtotal was $0.04833 + ?. Largest category gains: Quantitative reasoning 92 to 121/200, Applying a contextual content policy 16 to 24/27. Largest category drops: Object swaps 29 to 17/43, Truth-teller consistency 43 to 37/69.
+- Baseten Groundhog 1 scored +104 correct versus Elephant-1 (720/1,456). On 1,456 commonly usable questions, the scores were 824 and 720. The reference median/p95 was 124 / 268 ms and its known subtotal was $0.01697 + ?. Largest category gains: Quantitative reasoning 73 to 100/200, Necessary conditions 18 to 29/32. Largest category drops: Truth-teller consistency 38 to 34/69, Selecting a tool or requesting clarification 19 to 15/35.
+- Microsoft-Decision-1.1 scored +190 correct versus Microsoft-Decision-1 (637/1,456). On 1,456 commonly usable questions, the scores were 827 and 637. The reference median/p95 was 284 / 790 ms and its known subtotal was $0.03001. Largest category gains: Necessary conditions 11 to 29/32, Causal intervention 12 to 29/37. Largest category drops: Value of information 23 to 17/40, Selecting a tool or requesting clarification 18 to 16/35.
+- DeepSeek V4.1 Flash 1017 · reasoning off scored -660 correct versus GPT-6.1 Terra · no reasoning (1,188/1,456). On 1,237 commonly usable questions, the scores were 527 and 1,034. The reference median/p95 was 1160 / 1729 ms and its known subtotal was $0.75733 + ?. Largest category drops: Quantitative reasoning 160 to 97/200, Exact truth counting 50 to 18/68.
+
+The November 22 sessions ran up to three concurrent requests per model and overlapped across models. Latency differences describe the measured sessions and could also reflect concurrency, routing or service load. Individual timing includes unsuccessful primaries. Readiness requests stay outside scored counts and costs. A tariff estimate and an unknown actual charge are different evidence from an API-reported amount.
+
+
+## November 17 snapshot: Liquid d1.2
+
+Two native Liquid versions add 2,912 usable first attempts with no errors, scored retries or client truncation. The frozen bank remains 1,456 questions across 43 categories; exactly 45% requires 656 correct. At the November 17 release, there were 46 complete configurations, with 33 active, six below cutoff and seven superseded. At the user's direction d1.2 replaces d1 and d1.1, while d1.2-ultra replaces d1-ultra. The two new tiers remain concurrent; every older measurement is archived separately from below-cutoff results.
 
 Ultra's overall +14 correct includes a conspicuous quantitative regression: AQuA fell from 126/200 to 82/200 (−44). The other 1,256 questions gained a net 58 correct. Its median and p95 were both higher across these separate sessions. This is a mixed result, not a uniform upgrade.
 
@@ -60,12 +86,12 @@ On the same 1,456 inputs Ultra scored 151 more correct than standard. There were
 
 New API-reported OpenRouter USD charges cover all 1,456 requests per model: Ultra USD 0.028928760; standard USD 0.01377560. Old Ultra's known USD 0.028907928 has two unknown charges; old d1.1's USD 0.01377218 has one. Those incomplete historical subtotals do not establish a full-bank cost saving. New median/p95 were 269.87/983.44 ms (Ultra) and 224.86/391.23 ms (standard), versus 206.63/482.94 ms and 189.91/529.50 ms previously. Ultra was slower at both measures; standard had a slower median and faster p95. Separate sessions do not isolate model weights as the cause.
 
-Collected November 17 through OpenRouter's native /api/alpha/decisions route pinned to Liquid, with fallbacks disabled. Requested liquid/d1.2-ultra and liquid/d1.2 returned dated snapshots liquid/d1.2-ultra-20261116 and liquid/d1.2-20261116. Precision is unknown; provider declarations do not independently attest immutable weights or generation implementation. Each model retained 18 matching configuration checks. All reported output counters were zero, with no generated reasoning text observed; independent zero-generation attestation is unavailable. Separate readiness charges USD 0.0000021/0.000001 are excluded. Pooled per-item latency includes every primary, including Ultra's 8,560.52 ms request, and excludes idle pacing and pauses; it is not sustained throughput. The fixed bank does not test option-order invariance or the declared long-context limit. Category examples are post hoc and descriptive; all 43 category counts, current competition ranks and leader counts are available. AQuA selection dependence and unresolved MAIQ original human-item rights remain. Source collection-analysis ranks refer to the frozen November 15 cohort; liquid12_current_analysis.json and the main comparison use the current 33-model cohort.
+Collected November 17 through OpenRouter's native /api/alpha/decisions route pinned to Liquid, with fallbacks disabled. Requested liquid/d1.2-ultra and liquid/d1.2 returned dated snapshots liquid/d1.2-ultra-20261116 and liquid/d1.2-20261116. Precision is unknown; provider declarations do not independently attest immutable weights or generation implementation. Each model retained 18 matching configuration checks. All reported output counters were zero, with no generated reasoning text observed; independent zero-generation attestation is unavailable. Separate readiness charges USD 0.0000021/0.000001 are excluded. Pooled per-item latency includes every primary, including Ultra's 8,560.52 ms request, and excludes idle pacing and pauses; it is not sustained throughput. The fixed bank does not test option-order invariance or the declared long-context limit. Category examples are post hoc and descriptive; all 43 category counts, current competition ranks and leader counts are available. AQuA selection dependence and unresolved MAIQ original human-item rights remain. Source collection-analysis ranks refer to the frozen November 15 cohort; liquid12_current_analysis.json uses the November 17 cohort of 33 active models.
 
 
 ## November 15 snapshot: Nimble and SubQ
 
-Historical section: counts, ranks and current-cohort descriptions in this preserved section refer to November 15 and 34 active models. Today’s main comparison uses 33.
+Historical section: counts, ranks and current-cohort descriptions in this preserved section refer to November 15 and 34 active models. November 17 used 33.
 
 ### Nimble v4.1 Max and SubQ Snap 1.2: latest-version tradeoffs
 
@@ -82,13 +108,15 @@ Native direct /v1/systemone requested and returned nimble-v4.1-max (Bespoke Labs
 
 
 
+
+
 ## November 13 sessions: Perplexity v1.3 and HeyGen Decision 1
 
 Four full-bank native hosted sessions add 5,824 first attempts, all usable, with no errors, scored retries or client truncation. The frozen 1,456-question/43-category bank and exact 45% cutoff are unchanged. At that dated release there were 42 complete configurations, 34 active, six below cutoff and two superseded versions. This section describes those November 13 sessions; their current ranks are stated below. Perplexity Decider v1.3 replaces v1.2 in the active comparison under the standing current-version policy; all older measurements and primary records remain unchanged. The new direct route/version/date and cost basis remain separately labelled.
 
 Perplexity Decider v1.3 scored 984/1,456 (67.58%), versus v1.2’s 949; median response time was 215.68 ms versus 245.84 ms. Flash v1.3 scored 667/1,456 (45.81%) at a 124.87 ms median. HeyGen Decision 1 scored 937/1,456 (64.35%) at 340.16 ms, and Turbo preview 959/1,456 (65.87%) at 270.98 ms. Turbo adds 22 correct answers with lower measured median and API-reported cost. The paired HeyGen outcomes were 863 both correct, 74 standard-only, 96 Turbo-only and 423 neither. Both remain distinct native decision models; Turbo is preview, not an ordinary generative LLM reference.
 
-Current active ranks: Perplexity Decider v1.3 · native 7/33, HeyGen Decision 1 Turbo · preview 9/33, HeyGen Decision 1 · Nov 12 13/33, Perplexity Decider Flash v1.3 · native 33/33.
+Current active ranks: Perplexity Decider v1.3 · native 7/36, HeyGen Decision 1 Turbo · preview 10/36, HeyGen Decision 1 · Nov 12 14/36, Perplexity Decider Flash v1.3 · native 36/36.
 
 Perplexity’s native input tariffs of USD 0.02/M (Decider) and 0.01/M (Flash) yield captured estimates of USD 0.01534610 and 0.00767305. All 1,456 primaries per model have estimates, but actual API monetary charges are unreported for all 1,456; they are not reported zero charges. Separate readiness estimates of USD 0.00000194 and 0.00000097 are excluded. HeyGen API-reported charges total USD 0.16275784 standard and 0.13255038 Turbo, with no missing charges; their separate USD 0.00001666 and 0.00001071 readiness charges are excluded. These are session subtotals and captured tariffs, not future price guarantees.
 
@@ -97,7 +125,7 @@ Both Perplexity native /v1/decisions requests named explicit v1.3 versions; retu
 
 ## Gemini Decision 1: native hosted decisions
 
-Gemini Decision 1 scored 798/1,456 (54.81%), with all 1,456 responses usable, ranking 23rd among 33 active configurations. Median/p95 complete-response latency was 372.08/495.57 ms. API-reported charges total USD 0.0797482, with no missing charges; the separate USD 0.0000116 readiness charge is excluded.
+Gemini Decision 1 scored 798/1,456 (54.81%), with all 1,456 responses usable, ranking 26th among 36 active configurations. Median/p95 complete-response latency was 372.08/495.57 ms. API-reported charges total USD 0.0797482, with no missing charges; the separate USD 0.0000116 readiness charge is excluded.
 
 Gemini adds 12 correct answers over Jev 1.14 (786/1,456) at 2.15 times its median latency. Morph Reflex scored 841/1,456 at a 354.45 ms median. It adds 120 correct answers over StartLux Instant 4B Q8, 100 over SingVL and 94 over D3 Flash Q4_K_M. The measurements retain their different routes, dates, precision and hardware.
 
@@ -106,7 +134,7 @@ This is OpenRouter’s native Decisions route pinned to Google AI Studio, reques
 
 ## D3 Flash 9B: a local comparison
 
-D3 Flash 9B Q4_K_M scored 704/1,456 (48.35%), ranking 28th among 33 qualifying configurations. Median/p95 response latency was 577/6,616 ms, with 1,455 usable responses. Rose names and bars identify this two-computer local setup alongside SingVL.
+D3 Flash 9B Q4_K_M scored 704/1,456 (48.35%), ranking 31st among 36 qualifying configurations. Median/p95 response latency was 577/6,616 ms, with 1,455 usable responses. Rose names and bars identify this two-computer local setup alongside SingVL.
 
 It adds six correct answers over SingVL (0.41 percentage points), at 1.68 times its median latency, and 26 over StartLux Instant 4B Q8. Request routing is 19/31 versus SingVL’s 8/31, and temporal intervals 17/25 versus 9/25. SingVL leads conversational intention (24/33 versus 14/33), quantitative reasoning (93/200 versus 84/200) and reference binding (22/35 versus 15/35). The small overall difference masks distinct task profiles.
 
@@ -117,7 +145,7 @@ The user reports the same ASUS TUF Ryzen 7 and Lenovo Legion Intel Core i7 deplo
 
 SingVL S1 4B Q4_K_M scored 698/1,456 (47.94%), with all 1,456 responses usable. Median/p95 complete-response latency was 344/1,164 ms. Rose model names and bars identify this two-computer local setup. The user reports an ASUS TUF with AMD Ryzen 7 and a Lenovo Legion with Intel Core i7, each with an RTX 2060 and 6 GB VRAM. The ASUS coordinates llama.cpp CUDA/RPC inference with the Lenovo worker over the LAN. Each GPU retains its own memory; the nominal total is 12 GB across the two computers. This is a different deployment from the purple local baselines. Hardware and electricity are unmetered, not zero; latency includes LAN and adapter overhead.
 
-The result meets the fixed 45% cutoff and now ranks 29th among the 33 active configurations. It exceeds StartLux Instant 4B Q8 by 20 correct answers (1.37 percentage points). Necessary conditions (26/32) and forward conditionals (17/22) are relative strengths; robust decisions without a prior (3/39) and value of information (10/40) are weaknesses. Quantitative reasoning is 93/200 versus StartLux’s 75/200; scheduling is 27/54 versus 17/54, and conversational intention is 24/33 versus 14/33. StartLux leads request routing (19/31 versus 8/31) and value of information (20/40 versus 10/40). The overall lead masks different task profiles. The category figures are descriptive and do not establish a general advantage from adding a second GPU.
+The result meets the fixed 45% cutoff and now ranks 32nd among the 36 active configurations. It exceeds StartLux Instant 4B Q8 by 20 correct answers (1.37 percentage points). Necessary conditions (26/32) and forward conditionals (17/22) are relative strengths; robust decisions without a prior (3/39) and value of information (10/40) are weaknesses. Quantitative reasoning is 93/200 versus StartLux’s 75/200; scheduling is 27/54 versus 17/54, and conversational intention is 24/33 versus 14/33. StartLux leads request routing (19/31 versus 8/31) and value of information (20/40 versus 10/40). The overall lead masks different task profiles. The category figures are descriptive and do not establish a general advantage from adding a second GPU.
 
 The serving API declares Q4_K_M weights, llama.cpp b12301-956591f45 and 4,096-token backend context and input allowance. The original 1,024-context 20-question screen is excluded. The hardware description is user-reported; actual GPU placement, weight-file identity, conversion correctness and zero-generation internals were not independently attested through the API. This score applies to the quantized compatibility runtime, not the original full-precision Transformers implementation. All responses returned valid typed decisions and reported zero output tokens, with no generated reasoning text observed.
 
@@ -144,7 +172,7 @@ Teal model names indicate hosted decisions, purple local baselines, rose the two
 
 ## Response time and cost
 
-Timings and costs use individual selected primary records. All 44 preceding configurations are unchanged; two native hosted configurations add separately measured sessions. Morph Reflex and REAX 1.3 retain their preceding full-bank sessions. Median and p95 include selected unsuccessful requests; they are never averages of category medians. Monetary amounts are selected-record charges or estimates, not guaranteed future prices.
+Timings and costs use individual selected primary records. All 46 preceding configurations are unchanged; the November 22 configurations add separately measured sessions. Morph Reflex and REAX 1.3 retain their preceding full-bank sessions. Median and p95 include selected unsuccessful requests; they are never averages of category medians. Monetary amounts are selected-record charges or estimates, not guaranteed future prices.
 
 Morph Reflex’s selected 1,456 primaries have API-reported USD charges of $0.032662362. REAX 1.3 reports EUR 1.0204992 across 1456 selected primaries. Its USD $1.14224475456 comparison is an FX estimate, using EUR 1 = USD 1.1193 from the ECB reference rate dated 2026-11-09. The converted USD amount was not reported by the provider. Exact native EUR nanos, conversion records and the captured rate receipt are downloadable. Readiness calls and other unscored requests remain outside these totals.
 
@@ -238,15 +266,16 @@ Initial model loading, synthetic readiness and oversize checks, earlier 2,048-co
 
 
 
+
 ## Below the 45% cutoff
 
 V5 uses the retained 1,456-question bank and 45% cutoff. Historical v4 scores below use its original 2,157 questions and former 62% cutoff.
 
 - **Drex v2.0: v5 653/1,456 (44.85%)**; coverage 95.26%. Historical v4: 1296/2,157 (60.08%).
-- **Microsoft-Decision-1: v5 637/1,456 (43.75%)**; coverage 100.00%. Historical v4: 1315/2,157 (60.96%).
 - **D3 Artemis 9B IQ3_M: v5 631/1,456 (43.34%)**; coverage 88.74%. Historical v4: 1322/2,157 (61.29%).
 - **Cloudflare Clef: v5 615/1,456 (42.24%)**; coverage 100.00%. Historical v4: 1299/2,157 (60.22%).
 - **Cerno 4B v1.2 NF4: v5 598/1,456 (41.07%)**; coverage 89.90%. Historical v4: 1276/2,157 (59.16%).
+- **DeepSeek V4.1 Flash 1017 · reasoning off: v5 528/1,456 (36.26%)**; coverage 85.10%.
 - **meraGPT Decider 1: v5 338/1,456 (23.21%)**; coverage 100.00%. Historical v4: 620/2,157 (28.74%).
 
 ## Superseded versions retained for reference
@@ -260,6 +289,7 @@ Version replacement is separate from the 45% cutoff. All measurements and record
 - **Liquid d1: 674/1,456 (46.29%)**; median/p95 175/768 ms; known cost $0.01378. Superseded by the separately tested native version, not below cutoff.
 - **Liquid d1.1: 777/1,456 (53.37%)**; median/p95 190/529 ms; known cost $0.01377 + ?. Superseded by the separately tested native version, not below cutoff.
 - **Liquid d1-ultra: 942/1,456 (64.70%)**; median/p95 207/483 ms; known cost $0.02891 + ?. Superseded by the separately tested native version, not below cutoff.
+- **Microsoft-Decision-1: 637/1,456 (43.75%)**; median/p95 284/790 ms; known cost $0.03001. Superseded by the separately tested native version, not below cutoff.
 
 ## Historical v4 exploratory screens
 
@@ -285,7 +315,7 @@ The retained bank has **1,236 questions from the project development bank, 20 MA
 
 ## Download and reproducibility
 
-Ranks in archived collection notes and release-time analysis files describe their original dated cohort. The main comparison, Liquid update and current Liquid analysis use the 33-model active cohort. The Nimble/SubQ snapshot retains its dated 34-model cohort.
+Ranks in archived collection notes and release-time analysis files describe their original dated cohort. The main comparison uses the current cohort. Liquid’s dated analysis retains its November 17 cohort of 33 active models, and Nimble/SubQ retains its November 15 cohort of 34.
 
 - [Answer-free provisional v5 questions](questions_1456.jsonl)
 - [Question-level origin and license metadata](source_metadata_1456.jsonl)
@@ -362,6 +392,10 @@ Ranks in archived collection notes and release-time analysis files describe thei
 - [Four models against every other measured configuration by category](hosted_refresh_category_comparison.csv)
 - [Perplexity native version replacement decision](pplx_version_comparison.json)
 - [Frozen preceding Gemini-release audit receipt](parent_gemini_audit_receipt.json)
+- [November 22 model audits](nov22_model_audits.json)
+- [November 22 per-item usage and route evidence](nov22_usage_evidence.csv.gz)
+- [November 22 matched model outcomes](nov22_paired_comparisons.json)
+- [Frozen November 17 manifest](parent_liquid12_manifest.json)
 - [Liquid version tradeoffs and collection limits](LIQUID12_NOTES.md)
 - [Two native first-primary audits](liquid12_model_audits.json)
 - [Native usage, reported USD and source hashes](liquid12_usage_evidence.csv.gz)
@@ -380,6 +414,6 @@ Ranks in archived collection notes and release-time analysis files describe thei
 The [scripts/](https://github.com/etsabary/system-1-decision-benchmark/blob/main/scripts/README.md) support offline validation without credentials. The [preceding hosted v5 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v5_hosted_2026-11-09/report.html), [initial v5 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v5_provisional_2026-11-09/report.html), [full v4 report](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v4_openai_2026-11-06/report.html), [v3](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v3_presentation_2026-11-01/report.html) and [v2](https://github.com/etsabary/system-1-decision-benchmark/blob/main/results/releases/system1_v2_presentation_2026-11-01/report.html) remain unchanged. Model-selected choices and the gold scoring key remain private.
 
 ```sh
-python3 scripts/validate_system1_v5_liquid12_2026_11_17.py results/releases/system1_v5_liquid12_2026-11-17 results/releases/system1_v5_nimble_subq_2026-11-15
+python3 scripts/validate_system1_v5_baseten_ms_deepseek_2026_11_22.py results/releases/system1_v5_baseten_ms_deepseek_2026-11-22 results/releases/system1_v5_liquid12_2026-11-17
 python3 scripts/validate_october21_release.py
 ```

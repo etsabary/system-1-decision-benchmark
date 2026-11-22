@@ -1,0 +1,210 @@
+{
+  "bison1": {
+    "n": 1456,
+    "correct": 980,
+    "usable": 1456,
+    "mean_ms": 408.8183776300786,
+    "median_ms": 279.9770839919802,
+    "p95_ms": 954.945625475375,
+    "first_primaries_only": true,
+    "scored_retries": 0,
+    "requested_model": "baseten/bison-1",
+    "declared_snapshot": "baseten/bison-1-20261120",
+    "provider": "BaseTen",
+    "provider_tag": "baseten",
+    "route": "https://openrouter.ai/api/alpha/decisions",
+    "precision": "unknown",
+    "statuses": {
+      "ok": 1456
+    },
+    "returned_model_counts": {
+      "baseten/bison-1-20261120": 1456
+    },
+    "workers_per_model": 3,
+    "invalid_finish_reasons": {},
+    "readiness_sha256": "eb23d3f95f3605840e9e7a818b2a150c566a5a576dbf465fd5150e45894e983e",
+    "run_manifest_sha256": "139547bc8e65cf986070558a579b6af7713951d8e30c43d814610c0495660324",
+    "collection_dates_toronto": {
+      "2026-11-22": 1456
+    },
+    "source_item_evidence_sha256": "821e5317f28bad1dc42ffcff6b10203cecc50ecc5fab6d250accf2208b8fa860",
+    "readiness_excluded": true,
+    "cost_summary": {
+      "model_id": "bison1",
+      "n": 1456,
+      "reported_count": 1456,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": "0.0806178",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.0806178",
+      "known_usd_per_1000": "0.05536936813186813186813186813",
+      "actual_charge_unknown_count": 0,
+      "actual_charge_telemetry": "reported"
+    },
+    "raw_output_tokens": 1456,
+    "known_output_counter_count": 1456,
+    "reported_zero_reasoning_count": 0,
+    "nonzero_reasoning_count": 0,
+    "reasoning_text_count": 0
+  },
+  "groundhog1": {
+    "n": 1456,
+    "correct": 824,
+    "usable": 1456,
+    "mean_ms": 378.6455935895012,
+    "median_ms": 270.71458302089013,
+    "p95_ms": 865.8028640347766,
+    "first_primaries_only": true,
+    "scored_retries": 0,
+    "requested_model": "baseten/groundhog-1",
+    "declared_snapshot": "baseten/groundhog-1-20261120",
+    "provider": "BaseTen",
+    "provider_tag": "baseten",
+    "route": "https://openrouter.ai/api/alpha/decisions",
+    "precision": "unknown",
+    "statuses": {
+      "ok": 1456
+    },
+    "returned_model_counts": {
+      "baseten/groundhog-1-20261120": 1456
+    },
+    "workers_per_model": 3,
+    "invalid_finish_reasons": {},
+    "readiness_sha256": "e420792607bdccf4fab787e00cedb43f34f91ba3046283e174b5591389de67f0",
+    "run_manifest_sha256": "b661375767dc358944fa0e6b0b9b6d6dff8ad47a7c65ddbe63ec61ac406ca887",
+    "collection_dates_toronto": {
+      "2026-11-22": 1456
+    },
+    "source_item_evidence_sha256": "dcdc85b309b7bf4c15491014c02da53b1b62ffc532b6aaf4d6503ff97159a94d",
+    "readiness_excluded": true,
+    "cost_summary": {
+      "model_id": "groundhog1",
+      "n": 1456,
+      "reported_count": 1456,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": "0.028216230",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.028216230",
+      "known_usd_per_1000": "0.01937927884615384615384615385",
+      "actual_charge_unknown_count": 0,
+      "actual_charge_telemetry": "reported"
+    },
+    "raw_output_tokens": 1456,
+    "known_output_counter_count": 1456,
+    "reported_zero_reasoning_count": 0,
+    "nonzero_reasoning_count": 0,
+    "reasoning_text_count": 0
+  },
+  "microsoft_decision11": {
+    "n": 1456,
+    "correct": 827,
+    "usable": 1456,
+    "mean_ms": 489.0085287748901,
+    "median_ms": 324.64622901170515,
+    "p95_ms": 996.4289792114869,
+    "first_primaries_only": true,
+    "scored_retries": 0,
+    "requested_model": "microsoft/microsoft-decision-1.1",
+    "declared_snapshot": "microsoft/microsoft-decision-1.1-20261117",
+    "provider": "Azure",
+    "provider_tag": "azure",
+    "route": "https://openrouter.ai/api/alpha/decisions",
+    "precision": "unknown",
+    "statuses": {
+      "ok": 1456
+    },
+    "returned_model_counts": {
+      "microsoft/microsoft-decision-1.1-20261117": 1456
+    },
+    "workers_per_model": 3,
+    "invalid_finish_reasons": {},
+    "readiness_sha256": "dc5fba23402f432c2f253dfae0823621a43cdfb3992aacbadf609e68d62d664c",
+    "run_manifest_sha256": "9a5c4c0aa199f1243c7fb66a436ae6f6fc57a776decbcd7c2436618f6a797d8a",
+    "collection_dates_toronto": {
+      "2026-11-22": 1456
+    },
+    "source_item_evidence_sha256": "c5273d5f70345c55d56f64f14bdfc46efda01b588eb7dcf948f489b59fd95bf4",
+    "readiness_excluded": true,
+    "cost_summary": {
+      "model_id": "microsoft_decision11",
+      "n": 1456,
+      "reported_count": 1456,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": "0.029412642",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.029412642",
+      "known_usd_per_1000": "0.02020099038461538461538461538",
+      "actual_charge_unknown_count": 0,
+      "actual_charge_telemetry": "reported"
+    },
+    "raw_output_tokens": 1456,
+    "known_output_counter_count": 1456,
+    "reported_zero_reasoning_count": 0,
+    "nonzero_reasoning_count": 0,
+    "reasoning_text_count": 0
+  },
+  "reference_deepseek41_flash1017": {
+    "n": 1456,
+    "correct": 528,
+    "usable": 1239,
+    "mean_ms": 853.0672760007492,
+    "median_ms": 725.7743749942165,
+    "p95_ms": 1738.6174060229678,
+    "first_primaries_only": true,
+    "scored_retries": 0,
+    "requested_model": "deepseek/deepseek-v4.1-flash-1017",
+    "declared_snapshot": "deepseek/deepseek-v4.1-flash-20261017",
+    "provider": "DeepInfra",
+    "provider_tag": "deepinfra/fp8",
+    "route": "https://openrouter.ai/api/v1/chat/completions",
+    "precision": "fp8",
+    "statuses": {
+      "ok": 1239,
+      "invalid_output": 217
+    },
+    "returned_model_counts": {
+      "deepseek/deepseek-v4.1-flash-1017": 1456
+    },
+    "workers_per_model": 3,
+    "invalid_finish_reasons": {
+      "length": 215,
+      "stop": 2
+    },
+    "readiness_sha256": "90272ea92450b9b5d443d0428f99b7ae8410be5a4265e1e178c9ac0c6456aabf",
+    "run_manifest_sha256": "597b0605f215ade5be1c1af09d80d04852284fbfabd10a89820c996dde93ce57",
+    "collection_dates_toronto": {
+      "2026-11-22": 1456
+    },
+    "source_item_evidence_sha256": "78b0d8c7a808000ad4585fbdf4d86fec9b89a5b061fb69343bf9f0f74d10e670",
+    "readiness_excluded": true,
+    "cost_summary": {
+      "model_id": "reference_deepseek41_flash1017",
+      "n": 1456,
+      "reported_count": 1456,
+      "tariff_estimate_count": 0,
+      "free_access_tariff_count": 0,
+      "unknown_count": 0,
+      "local_unmeasured_count": 0,
+      "reported_subtotal_usd": "0.05799740352",
+      "estimate_only_subtotal_usd": null,
+      "known_subtotal_usd": "0.05799740352",
+      "known_usd_per_1000": "0.03983338153846153846153846154",
+      "actual_charge_unknown_count": 0,
+      "actual_charge_telemetry": "reported"
+    },
+    "raw_output_tokens": 5934,
+    "known_output_counter_count": 1456,
+    "reported_zero_reasoning_count": 1456,
+    "nonzero_reasoning_count": 0,
+    "reasoning_text_count": 0
+  }
+}
